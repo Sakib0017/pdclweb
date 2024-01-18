@@ -1,0 +1,17 @@
+
+
+.tabs li {
+  display: block;
+  padding: 10px 23px;
+  background: #000000;
+  margin-right: 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 10px;
+}
+
+.tabs li.active {
+  background: #00a884;
+  color: #ffffff;
+}
+
