@@ -9,12 +9,13 @@ import Works from "./Works";
 import Feedbacks from "./Feedbacks";
 import Contact from "./Contact";
 import CanvasLoader from "./Loader";
-import WelcomeModal from './Modal';
+import Modal from './Modal';
 import Count from './Count';
 
 
+
 export {
-  WelcomeModal,
+  Modal,
   Hero,
   Count,
   Nav,

@@ -1,6 +1,7 @@
-import { BrowserRouter } from "react-router-dom";
 
-import { About,  Feedbacks, Hero,Count, Nav,  Navbar,  Tech, Works, StarsCanvas } from "./components";
+import { Routes, Route, BrowserRouter  } from "react-router-dom";
+import Modal from "./components/Modal";
+import { About,  Feedbacks, Hero,   Nav, Navbar,  Tech, Works, StarsCanvas } from "./components";
 
 const App = () => {
   return (
@@ -15,15 +16,26 @@ const App = () => {
         </div>
         
         <Works />
-        {/* <Count /> */}
+        
         <Feedbacks />
         <div className='relative z-0'>
           
           <StarsCanvas />
         </div>
         <Tech />
+        
       </div>
+      <Routes>
+      <Route path="modal" element={<Modal />} />
+
+      
+     </Routes>
+      
     </BrowserRouter>
+
+
+    
+   
   );
 }
 

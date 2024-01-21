@@ -15,6 +15,8 @@ import medical from "./medical.png";
 import celebrating from "./celebrating.png";
 import office from "./office.png";
 import crowd from "./crowd.png";
+import consalt from "./consalt.jpg";
+import diag from "./diag.jpg";
 
 
 import about from "./about.png";
@@ -63,11 +65,13 @@ export {
   celebrating,
   gmail,
   creator,
+  consalt,
   office,
   mobile,
   web,
   crowd,
   github,
+  diag,
   down,
   menu,
   star,

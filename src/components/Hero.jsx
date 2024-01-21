@@ -11,10 +11,13 @@ const Hero = ({ color }) => {
   
   return (
     <>
-    <section className='w-full h-[680px]  relative  justify-center items-center mx-auto'>
+    <section className='w-screen h-[680px]  relative  justify-center items-center mx-auto'>
+    <video className="h-full w-screen object-fill" src={video} autoPlay loop muted />
       
-       <video className=" w-full h-[680px]  object-cover" src={video} autoPlay loop muted />
-       <div className='absolute w-full h-[680px]  top-0 left-0 bg-gray-900/40'></div>
+      
+    
+      
+       <div className='absolute w-full h-[680px]  top-0 left-0 bg-gray-900/80'></div>
       <div className={`${styles.paddingX} absolute inset-0 justify-center items-center  text-center flex flex-col  text-white`}>
        
        

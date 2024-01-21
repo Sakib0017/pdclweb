@@ -6,8 +6,8 @@ import {
 
   medical,
   celebrating,
-  
-  
+  consalt,
+  diag,
   office,
   
   crowd,
@@ -251,7 +251,7 @@ const projects = [
           color: "pink-text-gradient",
         },
       ],
-    image: carrent,
+    image: diag,
     source_code_link: "http://populardiagnostic.com/",
   },
   {
@@ -272,7 +272,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: consalt,
     source_code_link: "http://populardiagnostic.com/",
   },
   {

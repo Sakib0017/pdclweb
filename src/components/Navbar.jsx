@@ -3,6 +3,12 @@ import { Link } from "react-router-dom";
 import { styles } from "../styles";
 import { navLinks } from "../constants";
 import { logo, menu, close,login,signup, star2, telephone, about, gmail } from "../assets";
+import {
+  Popover,
+  PopoverHandler,
+  PopoverContent,
+  Button,
+} from "@material-tailwind/react";
 
 const Navbar = () => {
   
@@ -42,7 +48,7 @@ const Navbar = () => {
 
   
   
-  <nav className={`${styles.paddingX} w-full fixed flex items-center  top-[40px] z-20 bg-white`} >
+  <nav className={`${styles.paddingX} w-full fixed flex items-center  top-[45px] z-20 bg-white`} >
   <div className="w-full h-[70px] flex flex-wrap justify-between max-w-7xl text-[#006642]  mx-auto" >
     
   <div className="w-full h-[70px] flex flex-row max-w-7xl justify-between  items-center  mx-auto">
@@ -65,45 +71,34 @@ const Navbar = () => {
         </ul>
         
         <div className="flex items-center hidden md:block md:order-2 space-x-1 md:space-x-0 rtl:space-x-reverse">
-      <button type="button" data-dropdown-toggle="language-dropdown-menu" className="ms-auto inline-flex items-center font-ubuntu justify-center px-4 py-2 text-sm  rounded-lg cursor-pointer">
+      
+      <Popover placement="bottom-start">
+          <PopoverHandler>
+          <p type="button" data-dropdown-toggle="language-dropdown-menu" className="ms-auto inline-flex items-center font-ubuntu justify-center px-4 py-2 text-sm  rounded-lg cursor-pointer">
       <svg className="w-[20px] h-[20px] text-[#006642] hover:text-[#000000]" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 16">
               <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/> <path  d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" clip-rule="evenodd"/>
               </svg>
               <span className="text-[#006642] hover:text-[#000000] text-[13px] ms-0 mx-auto  font-ubuntu">My Account</span>
-      </button>
-      
-      <div className="z-50 hidden my-4 text-base list-none bg-white divide-y divide-gray-100 rounded-lg shadow dark:bg-gray-700" id="language-dropdown-menu">
-        <ul className="py-2 font-medium" role="none">
-          <li>
-            <a href="#" className="block px-4 py-2 text-sm text-white-700 hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-white" role="menuitem">
-              <div className="inline-flex items-center">
-              <a href="#" className=" p-1 rounded-[50px] text-white-400 inline-flex flex-row hover:text-[#000000] dark:hover:text-[#000000]">
-              <svg className="w-[20px] h-[20px]" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 13">
+      </p>
+      </PopoverHandler>
+          <PopoverContent>
+          <p type="button" data-dropdown-toggle="language-dropdown-menu" className="ms-auto inline-flex items-center font-ubuntu justify-center px-4 py-2 text-sm  rounded-lg cursor-pointer">
+      <svg className="w-[20px] h-[20px] text-[#006642] hover:text-[#000000]" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 16">
               <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/> <path  d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" clip-rule="evenodd"/>
               </svg>
-              
-          </a>
-
-          <span className="text-[#006642] hover:text-[#000000] text-[13px] ms-0 mx-auto  font-ubuntu">login</span>
-              </div>
-            </a>
-          </li>
-          <li>
-            <a href="#" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-white" role="menuitem">
-              <div className="inline-flex items-center">
-              <a href="#" className=" p-1 rounded-[50px] text-black-400 inline-flex flex-row hover:text-[#000000] dark:hover:text-[#000000]">
-              <svg className="w-[20px] h-[20px]" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 13">
-              <path d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1H7zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/> <path  d="M5.216 14A2.238 2.238 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.325 6.325 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1h4.216z"/> <path d="M4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z" clip-rule="evenodd"/>
+              <span className="text-[#006642] hover:text-[#000000] text-[13px] ms-0 mx-auto  font-ubuntu">Login</span>
+      </p><br />
+      <p type="button" data-dropdown-toggle="language-dropdown-menu" className="ms-auto inline-flex items-center font-ubuntu justify-center px-4 py-2 text-sm  rounded-lg cursor-pointer">
+      <svg className="w-[20px] h-[20px] text-[#006642] hover:text-[#000000]" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 16">
+              <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/> <path  d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" clip-rule="evenodd"/>
               </svg>
-              
-          </a> <span className="text-[#006642] hover:text-[#000000] text-[13px] ms-0 mx-auto  font-ubuntu">Register</span>
-              </div>
-            </a>
-          </li>
-          
-          
-        </ul>
-      </div>
+              <span className="text-[#006642] hover:text-[#000000] text-[13px] ms-0 mx-auto  font-ubuntu">Register</span>
+      </p>
+           </PopoverContent>
+        </Popover>
+                 
+      
+      
      </div> 
           
           
@@ -142,7 +137,7 @@ const Navbar = () => {
             </a>
           </li>
           <li>
-            <a href="#" className="block px-4 py-2 text-sm text-[#006642] hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-white" role="menuitem">
+            <a href="Modal.jsx" className="block px-4 py-2 text-sm text-[#006642] hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-white" role="menuitem">
               <div className="inline-flex items-center">
               <a href="#" className=" p-1 rounded-[50px] text-black-400 inline-flex flex-row hover:text-[#000000] dark:hover:text-[#000000]">
               <svg className="w-[20px] h-[20px]" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 13">

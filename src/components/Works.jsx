@@ -1,12 +1,12 @@
 import React from "react";
 import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
-
 import { styles } from "../styles";
-import { logo ,tripguide, doctor } from "../assets";
+import { logo ,tripguide } from "../assets";
 import { SectionWrapper } from "../hoc";
 import { projects  } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
+
 
 const ProjectCard = ({
   index,
@@ -18,12 +18,8 @@ const ProjectCard = ({
 }) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
-      <Tilt
-        options={{
-          max: 45,
-          scale: 1,
-          speed: 450,
-        }}
+      <div
+        
         className='bg-[#f3f3f3] p-0  sm:w-[360px] w-full'
       >
         <div className='relative w-full h-[230px]'>
@@ -62,7 +58,7 @@ const ProjectCard = ({
             </p>
           ))}
         </div>
-      </Tilt>
+      </div>
     </motion.div>
   );
 };
@@ -109,15 +105,15 @@ const Works = () => {
        <div className='bg-[#f3f3f3] m-2 flex flex-row'>
        <div className=' me-auto '>
        <img
-            src={doctor}
+            src={tripguide}
             alt='project_image'
-            className='w-[550px] h-[300px] '
+            className='w-[550px] h-[235px] '
           />
          
         </div>
-        <div className='items-start text-[#006642] p-10 me-auto '>
+        <div className='items-start text-[#006642] p-5 me-auto '>
        <h6 className='items-start text-[#006642] text-[25px] font-ubuntu ms-auto '>Heart Health</h6>
-         <p className='items-start text-gray-900/50 text-[15px] font-ubuntu  ms-auto '>Keeping your heart healthy is essential for overall good health. Learn how you can take care of it to benefit you in the long run...</p>
+         <p className='items-start text-gray-900/50 text-[15px] font-ubuntu  ms-auto '>Keeping your heart healthy is essential for overall good health. Learn how you can take care of it to benefit you in the long run Keeping your heart healthy is essential for overall good health. Learn how you can take care of it to benefit you in the long run...</p>
         </div>
         
       </div>
@@ -143,27 +139,7 @@ const Works = () => {
 
 
          
-    <div className="container mt-10">
-      <div className='bg-[#f3f3f3] m-2 flex flex-row'>
-       <div className=' me-auto'>
-       <img
-            src={doctor}
-            alt='project_image'
-            className='w-[450px] h-[300px] '
-          />
-         
-        </div>
-        <div className='items-center text-[#006642] p-10 me-auto '>
-        <h6 className='items-start text-[#006642] text-[25px] font-ubuntu ms-auto '>Need Help?</h6>
-        <hr className="bg-[#006642] h-1 mt-2 mb-2"/>
-         <p className='items-start text-gray-900/50 text-[15px] font-ubuntu  ms-auto '>For enquiries, please call</p>
-         <a href=""><p className='items-start text-[#006642] font-bold text-[15px]  font-ubuntu  ms-auto '>09666-787801</p></a>
-         <p className='items-start text-gray-900/50 text-[15px] font-ubuntu  ms-auto '>WhatsApp appointments</p>
-         <a href=""><p className='items-start text-[#006642] font-bold text-[15px] font-ubuntu  ms-auto '>09666-787801</p></a>
-        </div>
-        
-      </div>
-      </div>
+    
     </>
   );
 };
