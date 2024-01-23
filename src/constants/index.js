@@ -11,7 +11,8 @@ import {
   office,
   
   crowd,
-
+  akn,
+  dhan,
 
   home,
   about,
@@ -297,32 +298,120 @@ const projects = [
     source_code_link: "http://populardiagnostic.com/",
   },
 ];
-
 const projects1 = [
   {
-    name1:"Total Branches",
-    description1:"100", 
-    image1: office,
-    source_code_link: "http://populardiagnostic.com/",
+    image: dhan,
+    name: "Popular Diagnostic Centre Ltd. (Dhanmondi)",
+    address:"Address: House # 16, Road # 2, Dhanmondi, Dhaka1205",
+    Hotline:"Hotline: 09666 787801 ",
+    Email:"Email: info@populardiagnostic.com",
   },
   {
-    name1:"Total Patient",
-    description1:"100", 
-    image1: crowd,
-    source_code_link: "http://populardiagnostic.com/",
+    image: dhan,
+    name: "Popular Diagnostic Centre Ltd. (Dhanmondi)",
+    address:"Address: House # 16, Road # 2, Dhanmondi, Dhaka1205",
+    Hotline:"Hotline: 09666 787801 ",
+    Email:"Email: info@populardiagnostic.com",
   },
   {
-    name1:"Total Doctors",
-    description1:"100", 
-    image1: medical,
-    source_code_link: "http://populardiagnostic.com/",
+    image: dhan,
+    name: "Popular Diagnostic Centre Ltd. (Dhanmondi)",
+    address:"Address: House # 16, Road # 2, Dhanmondi, Dhaka1205",
+    Hotline:"Hotline: 09666 787801 ",
+    Email:"Email: info@populardiagnostic.com",
   },
   {
-    name1:"Happy Patients",
-    description1:"100", 
-    image1: celebrating,
-    source_code_link: "http://populardiagnostic.com/",
+    image: dhan,
+    name: "Popular Diagnostic Centre Ltd. (Dhanmondi)",
+    address:"Address: House # 16, Road # 2, Dhanmondi, Dhaka1205",
+    Hotline:"Hotline: 09666 787801 ",
+    Email:"Email: info@populardiagnostic.com",
+  },
+  {
+    image: dhan,
+    name: "Popular Diagnostic Centre Ltd. (Dhanmondi)",
+    address:"Address: House # 16, Road # 2, Dhanmondi, Dhaka1205",
+    Hotline:"Hotline: 09666 787801 ",
+    Email:"Email: info@populardiagnostic.com",
+  },
+  {
+    image: dhan,
+    name: "Popular Diagnostic Centre Ltd. (Dhanmondi)",
+    address:"Address: House # 16, Road # 2, Dhanmondi, Dhaka1205",
+    Hotline:"Hotline: 09666 787801 ",
+    Email:"Email: info@populardiagnostic.com",
+  },
+  {
+    image: dhan,
+    name: "Popular Diagnostic Centre Ltd. (Dhanmondi)",
+    address:"Address: House # 16, Road # 2, Dhanmondi, Dhaka1205",
+    Hotline:"Hotline: 09666 787801 ",
+    Email:"Email: info@populardiagnostic.com",
+  },
+  {
+    image: dhan,
+    name: "Popular Diagnostic Centre Ltd. (Dhanmondi)",
+    address:"Address: House # 16, Road # 2, Dhanmondi, Dhaka1205",
+    Hotline:"Hotline: 09666 787801 ",
+    Email:"Email: info@populardiagnostic.com",
+  },
+  {
+    image: dhan,
+    name: "Popular Diagnostic Centre Ltd. (Dhanmondi)",
+    address:"Address: House # 16, Road # 2, Dhanmondi, Dhaka1205",
+    Hotline:"Hotline: 09666 787801 ",
+    Email:"Email: info@populardiagnostic.com",
+  },
+  {
+    image: dhan,
+    name: "Popular Diagnostic Centre Ltd. (Dhanmondi)",
+    address:"Address: House # 16, Road # 2, Dhanmondi, Dhaka1205",
+    Hotline:"Hotline: 09666 787801 ",
+    Email:"Email: info@populardiagnostic.com",
+  },
+  {
+    image: dhan,
+    name: "Popular Diagnostic Centre Ltd. (Dhanmondi)",
+    address:"Address: House # 16, Road # 2, Dhanmondi, Dhaka1205",
+    Hotline:"Hotline: 09666 787801 ",
+    Email:"Email: info@populardiagnostic.com",
+  },
+  {
+    image: dhan,
+    name: "Popular Diagnostic Centre Ltd. (Dhanmondi)",
+    address:"Address: House # 16, Road # 2, Dhanmondi, Dhaka1205",
+    Hotline:"Hotline: 09666 787801 ",
+    Email:"Email: info@populardiagnostic.com",
+  },
+  {
+    image: dhan,
+    name: "Popular Diagnostic Centre Ltd. (Dhanmondi)",
+    address:"Address: House # 16, Road # 2, Dhanmondi, Dhaka1205",
+    Hotline:"Hotline: 09666 787801 ",
+    Email:"Email: info@populardiagnostic.com",
+  },
+  {
+    image: dhan,
+    name: "Popular Diagnostic Centre Ltd. (Dhanmondi)",
+    address:"Address: House # 16, Road # 2, Dhanmondi, Dhaka1205",
+    Hotline:"Hotline: 09666 787801 ",
+    Email:"Email: info@populardiagnostic.com",
+  },
+  {
+    image: dhan,
+    name: "Popular Diagnostic Centre Ltd. (Dhanmondi)",
+    address:"Address: House # 16, Road # 2, Dhanmondi, Dhaka1205",
+    Hotline:"Hotline: 09666 787801 ",
+    Email:"Email: info@populardiagnostic.com",
+  },
+  {
+    image: dhan,
+    name: "Popular Diagnostic Centre Ltd. (Dhanmondi)",
+    address:"Address: House # 16, Road # 2, Dhanmondi, Dhaka1205",
+    Hotline:"Hotline: 09666 787801 ",
+    Email:"Email: info@populardiagnostic.com",
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects, projects1  };
+
+export { services, technologies, experiences, testimonials, projects, projects1 };

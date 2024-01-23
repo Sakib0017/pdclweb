@@ -48,7 +48,7 @@ const Navbar = () => {
 
   
   
-  <nav className={`${styles.paddingX} w-full fixed flex items-center  top-[45px] z-20 bg-white`} >
+  <nav className={`${styles.paddingX} w-full  flex items-center   fixed top-[45px] z-20 bg-white`} >
   <div className="w-full h-[70px] flex flex-wrap justify-between max-w-7xl text-[#006642]  mx-auto" >
     
   <div className="w-full h-[70px] flex flex-row max-w-7xl justify-between  items-center  mx-auto">
@@ -72,7 +72,7 @@ const Navbar = () => {
         
         <div className="flex items-center hidden md:block md:order-2 space-x-1 md:space-x-0 rtl:space-x-reverse">
       
-      <Popover placement="bottom-start">
+      <Popover placement="top-[115px] bottom-start">
           <PopoverHandler>
           <p type="button" data-dropdown-toggle="language-dropdown-menu" className="ms-auto inline-flex items-center font-ubuntu justify-center px-4 py-2 text-sm  rounded-lg cursor-pointer">
       <svg className="w-[20px] h-[20px] text-[#006642] hover:text-[#000000]" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 16">

@@ -11,13 +11,17 @@ import Contact from "./Contact";
 import CanvasLoader from "./Loader";
 import Modal from './Modal';
 import Count from './Count';
-
-
+import Layout from './Layout';
+import Sample from './Sample';
+import Complain from './Complain';
 
 export {
   Modal,
+  Layout,
+  Complain,
   Hero,
   Count,
+  Sample,
   Nav,
   Navbar,
   About,

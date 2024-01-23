@@ -1,41 +1,27 @@
+import {Routes, Route, BrowserRouter } from "react-router-dom";
 
-import { Routes, Route, BrowserRouter  } from "react-router-dom";
-import Modal from "./components/Modal";
-import { About,  Feedbacks, Hero,   Nav, Navbar,  Tech, Works, StarsCanvas } from "./components";
+import { Modal, Layout, Sample, Complain } from "./components";
 
 const App = () => {
   return (
+    <>
     <BrowserRouter>
-      <div className='relative z-0 bg-primary'>
-        <div className='bg-hero-pattern bg-cover bg-no-repeat bg-center'>
-         
-          <Nav />
-          <Navbar />
-          <Hero/>
-          
-        </div>
+    <Routes>
+    <Route path="/" element={<Layout />} />
+     
         
-        <Works />
-        
-        <Feedbacks />
-        <div className='relative z-0'>
-          
-          <StarsCanvas />
-        </div>
-        <Tech />
-        
-      </div>
-      <Routes>
-      <Route path="modal" element={<Modal />} />
+    <Route path="/sample" element={<Sample />} />
+     
+    <Route path="/complain" element={<Complain />} />
+     <Route path="/modal" element={<Modal />} />
 
-      
-     </Routes>
-      
-    </BrowserRouter>
-
-
+     
     
-   
+    
+    </Routes>
+    </BrowserRouter>
+    
+   </>
   );
 }
 

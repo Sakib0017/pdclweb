@@ -30,8 +30,8 @@ const Tech = () => {
     
     <footer className="flex flex-row flex-wrap mt-10  justify-center gap-10">
     <div className="bg-[#f3f3f3]  opacity-90 mx-auto w-full ">
-      <div className="flex flex-row   flex-wrap mt-10 max-w-screen-xl mx-auto justify-center gap-[50px]">
-        <div>
+      <div className=' flex mx-auto p-3 justify-evenly max-w-screen-xl flex-wrap '>
+        <div className=' '>
             <h2 className="mb-6 text-[18px] font-bold font-ubuntu text-[#006642] uppercase dark:text-[#006642]">Contact Us</h2>
             <ul className="text-gray-500 dark:text-gray-400 font-medium">
                 <li className="mb-4">
@@ -46,7 +46,7 @@ const Tech = () => {
                 
             </ul>
         </div>
-        <div>
+        <div className=' '>
             <h2 className="mb-6 text-sm font-ubuntu text-[#006642] uppercase dark:text-[#006642]">Important Links</h2>
             <ul className="text-gray-500 dark:text-gray-400 font-medium">
                 <li className="mb-4">
@@ -69,7 +69,7 @@ const Tech = () => {
                 </li>
             </ul>
         </div>
-        <div>
+        <div className=''>
             <h1 className="mb-6 text-sm font-ubuntu text-[#006642] uppercase dark:text-[#006642]">Quick Links</h1>
             <ul className="text-gray-500 dark:text-gray-400 font-medium">
                 <li className="mb-4">

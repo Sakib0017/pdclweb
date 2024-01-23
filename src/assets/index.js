@@ -17,6 +17,8 @@ import office from "./office.png";
 import crowd from "./crowd.png";
 import consalt from "./consalt.jpg";
 import diag from "./diag.jpg";
+import akn from "./akn.png";
+import dhan from "./dhan.jpg";
 
 
 import about from "./about.png";
@@ -72,6 +74,8 @@ export {
   crowd,
   github,
   diag,
+  akn,
+  dhan,
   down,
   menu,
   star,
