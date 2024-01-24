@@ -14,10 +14,17 @@ import Count from './Count';
 import Layout from './Layout';
 import Sample from './Sample';
 import Complain from './Complain';
-
+import Report from './Report';
+import Login from './Login';
+import Sign from './Sign';
+import Cor from './Cor';
 export {
   Modal,
+  Login,
+  Cor,
+  Sign,
   Layout,
+  Report,
   Complain,
   Hero,
   Count,

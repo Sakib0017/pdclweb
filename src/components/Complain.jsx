@@ -10,8 +10,8 @@ import {
 
 function Complain() {
   return (
-    <div className='bg-[#e2f0e5]'>
-    <div className=' pt-3'>
+    <div className='bg-[#e2f0e5] p-3'>
+    <div className=' pt-0'>
     <Card className="w-full max-w-[40rem]  mx-auto flex-col">
       <CardBody
         shadow={false}
@@ -162,12 +162,12 @@ This is a required question</pre>
     </div>
     <div className="flex max-w-[40rem]  bg-[#e2f0e5] pb-3 mx-auto">
       
-      <p className=' pt-3 text-[11px] mx-auto text-[black] font-small font-ubuntu'>This form was created inside of Popular Pharmaceuticals Ltd.. Report Abuse</p>
+      <p className=' pt-0 text-[11px] mx-auto text-[black] font-small font-ubuntu'>This form was created inside of Popular Pharmaceuticals Ltd.. Report Abuse</p>
     
     </div>
     <div className="flex max-w-[40rem]  bg-[#e2f0e5] pb-3 mx-auto">
       
-      <p className=' pt-3 text-[24px] mx-auto text-gray-900/50 font-bold font-ubuntu'>PDCL Forms</p>
+      <p className=' pt-0 text-[24px] mx-auto text-gray-900/50 font-bold font-ubuntu'>PDCL Forms</p>
     
     </div>
     </div>

@@ -8,26 +8,6 @@ const Tech = () => {
   return (
     <>
     
-    <h3 className='text-gray-900/50  text-center text-[28px] font-ubuntu'>Corporate Partners</h3>
-    <hr className="h-px my-8 bg-gray-200 max-w-screen-xl mx-auto border-0 dark:bg-gray-700"></hr>
-    <div className=' flex flex-row flex-wrap mt-10 max-w-screen-xl mx-auto justify-center gap-10'>
- 
-      {technologies.map((technology) => (
-        <div className='w-28 h-28' key={technology.name}>
-         
-          <img src={technology.icon} />
-        </div>
-      ))}
-    </div>
-
-
-
-
-
-    
-
-
-    
     <footer className="flex flex-row flex-wrap mt-10  justify-center gap-10">
     <div className="bg-[#f3f3f3]  opacity-90 mx-auto w-full ">
       <div className=' flex mx-auto p-3 justify-evenly max-w-screen-xl flex-wrap '>

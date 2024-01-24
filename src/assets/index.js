@@ -57,9 +57,13 @@ import jobit from "./jobit.jpg";
 import tripguide from "./tripguide.jpg";
 import telephone from "./telephone.png";
 import gmail from "./gmail.png";
+import downloads from "./downloads.png";
+import printer from "./printer.png";
 export {
   logo,
   backend,
+  downloads,
+  printer,
   medical,
   sea,
   app,

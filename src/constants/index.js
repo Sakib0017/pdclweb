@@ -3,7 +3,8 @@ import {
   backend,
   creator,
   gmail,
-
+  downloads,
+  printer,
   medical,
   celebrating,
   consalt,
@@ -58,13 +59,13 @@ export const navLinks = [
   {
     id: "services",
     icon: customer,
-    title: "Pakages & Discounts",
+    title: "Health Pakages",
   },
   
   {
     id: "work",
     icon: freelance,
-    title: "Centres & Services",
+    title: "Branches & Services",
   },
  
   {
