@@ -75,22 +75,22 @@ const Works = () => {
        <h1 className="text-gray-900/50 font-ubuntu font-bold">DISCOVER <span className="text-[#006642] font-ubuntu">POPULAR</span></h1>
          <p className="text-[#006642] font-ubuntu ">Popular Diagnostic Centre Ltd. exists to provide a better patient experience. We are a one-stop-shop for your health, offering caring doctors, world-class diagnostics and much more world-class diagnostics and much more.</p>
         </div>
-        <div className="flex flex-wrap items-start justify-center ms-auto ">
-          <div className="flex flex-col items-start me-auto">
-            <h6 className="text-gray-900/50 font-bold font-ubuntu text-[60px]">27</h6>
+        <div className="flex flex-row flex-wrap max-w-7xl mx-auto  ">
+          <div className="flex flex-col items-start p-2 ">
+            <h6 className="text-[#006642] font-small font-ubuntu text-[60px]">27</h6>
               <p className="text-[#006642] font-bold font-ubuntu text-[20px]">
                 DEPARTMENTS
               </p>
                
           </div>
-          <div className="flex items-start flex-col me-auto ml-5">
-            <h6 className="text-gray-900/50 font-bold font-ubuntu text-[60px]">5K+</h6>
+          <div className="flex items-start p-2 flex-col ">
+            <h6 className="text-[#006642] font-small font-ubuntu text-[60px]">5K+</h6>
               <p className="text-[#006642] font-bold font-ubuntu text-[20px]">
                 DOCTORS
               </p>
           </div>
-          <div className="flex flex-col items-start mx-auto ml-5">
-            <h6 className="text-gray-900/50 font-bold font-ubuntu text-[60px]">270K+</h6>
+          <div className="flex flex-col p-2 items-start ">
+            <h6 className="text-[#006642] font-small font-ubuntu text-[60px]">270K+</h6>
               <p className="text-[#006642]  font-bold font-ubuntu text-[20px]">
                 PATIENTS SERVED
               </p>
@@ -102,18 +102,27 @@ const Works = () => {
       
     <div className="container">
     <h2 className='text-gray-900/50 pb-2 text-start pl-2 text-[28px] font-bold font-ubuntu'>FEATURED CARE AREAS</h2>
-       <div className='bg-[#f3f3f3] m-2 flex flex-row'>
-       <div className=' me-auto '>
+       <div className='bg-[#f3f3f3] max-w-7xl  flex flex-wrap'>
+       <div className=' text-start '>
        <img
             src={tripguide}
             alt='project_image'
-            className='w-[550px] h-[235px] '
+            className='xs:w-[480px] w-full h-[275px] '
           />
          
         </div>
-        <div className='items-start text-[#006642] p-5 me-auto '>
-       <h6 className='items-start text-[#006642] text-[25px] font-ubuntu ms-auto '>Heart Health</h6>
-         <p className='items-start text-gray-900/50 text-[15px] font-ubuntu  ms-auto '>Keeping your heart healthy is essential for overall good health. Learn how you can take care of it to benefit you in the long run Keeping your heart healthy is essential for overall good health. Learn how you can take care of it to benefit you in the long run...</p>
+        <div className='flex flex-wrap items-start p-5 justify-center'>
+
+        <div className="flex flex-col items-start">
+            <h6 className="text-[#006642] font-small font-ubuntu text-[30px]">Heart Health</h6>
+              <p className="text-[#006642]  font-small font-ubuntu text-[14px]">
+              Keeping your heart healthy is essential for overall good health. Learn how you can take <br></br>
+              of it to benefit you in the long run Keeping your heart healthy is essential for overall<br></br>
+              good health. Learn how you can take care of it to benefit you in the long run... <br></br>
+              
+              </p>
+          </div>
+      
         </div>
         
       </div>

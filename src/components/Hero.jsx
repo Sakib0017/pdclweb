@@ -447,7 +447,7 @@ const Hero = ({ color }) => {
       </div>
      
     </section>
- 
+    
     </>
   );
 };
