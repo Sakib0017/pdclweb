@@ -51,30 +51,26 @@ import {
 
 export const navLinks = [
   {
-    id: "home",
-    icon: home,
+    id: "pataint",
     title: "Patient Portal",
   },
   
   {
     id: "services",
-    icon: customer,
     title: "Health Pakages",
   },
   
   {
-    id: "work",
-    icon: freelance,
+    id: "branches",
     title: "Branches & Services",
   },
  
   {
-    id: "doctors",
-    icon: doctor,
+    id: "/notice",
     title: "Notices",
   },
   {
-    id: "branches",
+    id: "contact",
     icon: branch,
     title: "Contact Us",
   },
@@ -413,6 +409,52 @@ const projects1 = [
     Email:"Email: info@populardiagnostic.com",
   },
 ];
+const projects2 = [
+  {
+    image: dhan,
+    notice: "Government of Bangladesh recommended our diagnostic centre for testing #COVID-19 for the passengers who will travel abroad. ",
+    
+  },
+  {
+    image: dhan,
+    notice: "Government of Bangladesh recommended our diagnostic centre for testing #COVID-19 for the passengers who will travel abroad. ",
+    
+  },
+  {
+    image: dhan,
+    notice: "Government of Bangladesh recommended our diagnostic centre for testing #COVID-19 for the passengers who will travel abroad. ",
+    
+  },
+  {
+    image: dhan,
+    notice: "Government of Bangladesh recommended our diagnostic centre for testing #COVID-19 for the passengers who will travel abroad. ",
+    
+  },
+  {
+    image: dhan,
+    notice: "Government of Bangladesh recommended our diagnostic centre for testing #COVID-19 for the passengers who will travel abroad. ",
+    
+  },
+  {
+    image: dhan,
+    notice: "Government of Bangladesh recommended our diagnostic centre for testing #COVID-19 for the passengers who will travel abroad. ",
+    
+  },
+  {
+    image: dhan,
+    notice: "Popular Diagnostic Centre Ltd. (Dhanmondi)",
+    
+  },
+  {
+    image: dhan,
+    notice: "Popular Diagnostic Centre Ltd. (Dhanmondi)",
+    
+  },
+  {
+    image: dhan,
+    notice: "Popular Diagnostic Centre Ltd. (Dhanmondi)",
+    
+  },
+];
 
-
-export { services, technologies, experiences, testimonials, projects, projects1 };
+export { services, technologies, experiences, testimonials, projects, projects1, projects2 };

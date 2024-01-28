@@ -44,16 +44,16 @@ const Nav = () => {
   return (
     <>
    
-  <nav className={`${styles.paddingX} w-full fixed h-[45px] top-0 z-20 flex flex-col items-center  bg-[#d5e7d9]`} >
-  <div className="w-full h-[45px]  flex flex-wrap items-center   justify-between max-w-7xl text-[#006642] " >
-  <div className="flex flex-col items-center  justify-center me-auto">
+  <nav className={`${styles.paddingX} border-b-[1px]  border-gray-900/20  w-full fixed h-[50px] top-0 z-20 flex flex-col items-center  bg-[#f3f3f3]`} >
+  <div className="w-full h-[50px]  flex flex-wrap items-center   justify-between max-w-7xl text-[#006642] " >
+  <div className="flex flex-col items-start  justify-start me-auto">
       
       <a href=""> 
       
-       <p onClick={() => navigate('/')} className="text-[#006642] justify-center items-center text-[14px] font-small  font-ubuntu">
-        <span className="text-[18px] items-center font-ubuntu font-bold justify-center">✆ 10636</span> (Dhanmondi)</p>  </a> 
-        <Link onClick={handleClick}> <a> <p className="text-[#006642] cursor-pointer justify-center items-center text-[10px]   font-ubuntu">OTHER BRANCHES 》</p></a></Link>
-          
+       <p onClick={() => navigate('/')} className="text-[#006642] justify-center items-start text-[14px] font-medium  font-ubuntu">
+        <span className="text-[14px] items-start font-ubuntu font-medium justify-start">✆10636</span>-Dhanmondi </p></a> 
+        <Link onClick={handleClick}> <a> <p className="text-[#006642]  cursor-pointer justify-start items-start text-[12px] font-medium  font-ubuntu">OTHER BRANCHES 》</p></a></Link>
+          {/*✆ d5e7d9*/}
        
         
                   
@@ -63,23 +63,20 @@ const Nav = () => {
      
         
        
-       <div className="text-[#006642]  ms-auto  justify-center items-center flex flex-row ">
+       <div className="text-[#006642]  ms-auto  justify-center items-center flex flex-wrap ">
          
          
 
-         <li className="inline-flex mr-4 flex-row justify-center items-center">
+         <li className="flex mr-4 flex-row justify-center items-center">
          
       <div className="flex flex-col items-center  justify-center me-auto ">
      
       <Link onClick={handleClick1} ><p onClick={() => navigate('/')} className="text-[#006642]  items-center flex flex-row text-[12px] mx-auto  font-ubuntu"> 
-        <Popover placement="left">
-          <PopoverHandler>
-           <a href=""> <p className="text-[#006642] cursor-pointer justify-center items-center text-[12px]   font-ubuntu">🧪 </p></a>
-          </PopoverHandler>
-          <PopoverContent className="">
-           <a  href=""> <p className="text-[#006642] cursor-pointer justify-center items-center text-[12px] p-2  font-ubuntu">Home Sample Collection</p></a>
-          </PopoverContent>
-        </Popover><a href=""><span className="pl-1 text-[14px] hidden md:block">Home Sample Collection</span></a></p></Link>
+        
+           <a href=""> <p className="text-[#006642] cursor-pointer justify-center items-center text-[20px]   font-ubuntu">🧪 </p></a>
+        
+          
+        <a href=""><span className="pl-1 text-[14px] hidden md:block">Home Sample <br></br>Collection</span></a></p></Link>
                     
                     
 
@@ -94,16 +91,12 @@ const Nav = () => {
       
       
                     <p className="text-[#006642]  items-center flex flex-row text-[12px] ms-0 me-1  font-ubuntu"> 
-        <Popover placement="left">
-          <PopoverHandler>
-           <a href=""> <p className="text-[#006642] cursor-pointer justify-center items-center text-[12px]   font-ubuntu"> 🧑🏻‍💻 </p></a>
-          </PopoverHandler>
-          <PopoverContent>
-           <a href=""> <p className="text-[#006642] cursor-pointer justify-center items-center text-[12px] p-2  font-ubuntu">Video Consutancy</p></a>
-          </PopoverContent>
-        </Popover>
         
-        <a href=""> <span className="pl-1 text-[14px] hidden md:block">Video Consutancy</span></a></p>
+           <a href=""> <p className="text-[#006642] cursor-pointer justify-center items-center text-[20px]   font-ubuntu"> 🧑🏻‍💻 </p></a>
+          
+          
+        
+        <a href=""> <span className="pl-1 text-[14px] hidden md:block">Video<br></br>Consutancy</span></a></p>
               
         </div>
         
@@ -117,14 +110,10 @@ const Nav = () => {
      
                     
       <Link to="/login">  <p className="text-[#006642]  items-center flex flex-row text-[12px] ms-0 me-1  font-ubuntu"> 
-        <Popover placement="left">
-          <PopoverHandler>
-           <a href=""> <p className="text-[#006642] cursor-pointer justify-center items-center text-[12px]   font-ubuntu"> 📋 </p></a>
-          </PopoverHandler>
-          <PopoverContent className="">
-           <a href=""> <p className="text-[#006642] cursor-pointer justify-center items-center text-[12px] p-2  font-ubuntu">Report Download</p></a>
-          </PopoverContent>
-        </Popover><a href=""> <span className="pl-1 text-[14px] hidden md:block">Report Download</span></a></p>
+       
+           <a href=""> <p className="text-[#006642] cursor-pointer justify-center items-center text-[20px]   font-ubuntu"> 📋 </p></a>
+         
+              <a href=""> <span className="pl-1 text-[14px] hidden md:block">Report<br></br> Download</span></a></p>
               </Link>
         </div>
         
@@ -136,14 +125,10 @@ const Nav = () => {
       <div className="flex flex-row  ">
      
         <Link onClick={handleClick2}><p className="text-[#006642]  items-center flex flex-row text-[12px] ms-0 me-1  font-ubuntu"> 
-        <Popover placement="left">
-          <PopoverHandler>
-           <a href=""> <p className="text-[#006642] cursor-pointer justify-center items-center text-[12px]   font-ubuntu">✍️ </p></a>
-          </PopoverHandler>
-          <PopoverContent className="">
-           <a href=""> <p className="text-[#006642] cursor-pointer justify-center items-center text-[12px] p-0  font-ubuntu">Complain Submission</p></a>
-          </PopoverContent>
-        </Popover><a href=""><span className="pl-1  text-[14px] hidden md:block">Complain Submission</span></a></p>
+      
+           <a href=""> <p className="text-[#006642] cursor-pointer justify-center items-center text-[20px]   font-ubuntu">✍️ </p></a>
+         
+        <a href=""><span className="pl-1  text-[14px] hidden md:block">Complain <br></br>Submission</span></a></p>
         </Link>         
                     
 

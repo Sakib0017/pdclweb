@@ -1,6 +1,5 @@
 import { styles } from '../styles';
 import React, { useState } from 'react';
-//import './tabs.css';
 
 import video from '../assets/video.mp4';
 
@@ -11,13 +10,10 @@ const Hero = ({ color }) => {
   
   return (
     <>
-    <section className='w-screen h-[680px]  relative  justify-center items-center mx-auto'>
-    <video className="h-full w-screen object-fill" src={video} autoPlay loop muted />
+    <section className='w-full h-[680px]  relative  justify-center items-center mx-auto'>
       
-      
-    
-      
-       <div className='absolute w-full h-[680px]  top-0 left-0 bg-gray-900/80'></div>
+       <video className=" w-full h-[680px]  object-cover" src={video} autoPlay loop muted />
+       <div className='absolute w-full h-[680px]  top-0 left-0 bg-gray-900/40'></div>
       <div className={`${styles.paddingX} absolute inset-0 justify-center items-center  text-center flex flex-col  text-white`}>
        
        
@@ -229,11 +225,11 @@ const Hero = ({ color }) => {
           </div>
         </div>
       </div>
+      
+     
 
 
-
-
-      <div className="flex flex-col mb-2  sm:hidden flex flex-1  justify-top items-center    mt-[120px] mx-auto">
+      <div className="flex flex-col mb-2  sm:hidden flex flex-1  justify-top items-center    mt-[133px] mx-auto">
         <div className="w-full bg-[#f3f3f3] rounded block">
           <ul
             className="flex mb-0 ml-2 mr-2 list-none flex-wrap pt-1 pb-2 flex-row"
@@ -447,7 +443,7 @@ const Hero = ({ color }) => {
       </div>
      
     </section>
-    
+ 
     </>
   );
 };

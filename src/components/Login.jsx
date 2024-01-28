@@ -29,28 +29,28 @@ function Login() {
       <Typography color="gray" className="mt-1 font-normal">
         Nice to meet you! Enter your details to Login.
       </Typography>
-      <form className="mt-8 mb-2 w-80 max-w-screen-lg sm:w-96">
+      <form className="mt-8 mb-2 w-80 p-5 max-w-screen-lg sm:w-96">
         <div className="mb-1 flex flex-col gap-6">
           
-          <Typography variant="h6" color="blue-gray" className="-mb-3">
+          <Typography variant="h6" color="blue-gray" className="-mb-3 text-start">
             Your Email
           </Typography>
           <Input
             size="lg"
             placeholder="name@mail.com"
-            className=" !border-t-blue-gray-200 focus:!border-t-gray-900"
+            className=" !border-t-blue-gray-200 p-2 focus:!border-t-gray-900"
             labelProps={{
               className: "before:content-none after:content-none",
             }}
           />
-          <Typography variant="h6" color="blue-gray" className="-mb-3">
+          <Typography variant="h6" color="blue-gray" className="-mb-3 text-start">
             Password
           </Typography>
           <Input
             type="password"
             size="lg"
             placeholder="********"
-            className=" !border-t-blue-gray-200 focus:!border-t-gray-900"
+            className=" !border-t-blue-gray-200 p-2 focus:!border-t-gray-900"
             labelProps={{
               className: "before:content-none after:content-none",
             }}
@@ -82,6 +82,10 @@ function Login() {
           <Link to="/sign" ><a href="#" className="font-medium text-gray-900">
             Sign up
           </a></Link> 
+        </Typography>
+        <Typography color="gray" className="mt-4 text-center text-[blue] font-normal">
+          Forgot Password?
+         
         </Typography>
       </form>
     </Card>

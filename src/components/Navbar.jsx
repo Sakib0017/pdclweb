@@ -48,25 +48,91 @@ const Navbar = () => {
 
   
   
-  <nav className={`${styles.paddingX} w-full  flex items-center   fixed top-[45px] z-20 bg-white`} >
-  <div className="w-full h-[70px] flex flex-wrap justify-between max-w-7xl text-[#006642]  mx-auto" >
+  <nav className={`${styles.paddingX} w-full  flex items-center border-b-[1px] border-gray-900/20 fixed top-[50px] z-20 bg-white`} >
+  <div className="w-full h-[75px] flex flex-wrap justify-between max-w-7xl text-[#006642]  mx-auto" >
     
-  <div className="w-full h-[70px] flex flex-row max-w-7xl justify-between  items-center  mx-auto">
+  <div className="w-full h-[75px]  flex flex-row max-w-7xl justify-between  items-center  mx-auto">
      <Link to="/" className="flex items-center  gap-2" onClick={() => {setActive(""); window.scrollTo(0, 0);}}>
-          <img src={logo} alt="logo" className="w-[30px] h-[30px] bg-none object-contain" />
+          <img src={logo} alt="logo" className="w-[40px] h-[40px] bg-none object-contain" />
           
         </Link>
         
-        <ul className="list-none hidden sm:flex mx-auto flex-row gap-5">
-            {navLinks.map((link) => 
-              <li key={link.id} className={`${
-                active === link.title
-                ?"text-black"
-                :"text-[#006642]"} hover:text-[#000000] pr-5 text-[18px]   font-ubuntu  border-gray-900  text-center focus:ring-4 text-sm focus:outline-none cursor-pointer`} onClick={() =>{setToggle(!toggle);setActive(link.title)}}>
-                <a href={`#${link.id}`}>{link.title}</a>
-              </li>
+        <ul className="list-none  hidden sm:flex mx-auto flex-row gap-5">
+        <li className="flex mr-4  flex-row justify-center items-center">
+         
+         <div className="flex flex-col  items-center  justify-center me-auto ">
+        
+         <Link to="pataint" ><p onClick={() => navigate('/')} className="text-[#006642]  items-center flex flex-row text-[12px] mx-auto  font-ubuntu"> 
+           
+             
+           <a href=""><span className="pl-1 text-[14px] hidden md:block">PATAINT PORTAL</span></a></p></Link>
+                       
+                       
+   
+           </div>
+           
+           </li>
+   
+   
+            <li className="mr-4 inline-flex flex-row justify-center items-center">
+           
+         <div className="flex flex-row  ">
+         
+         
+                       <p className="text-[#006642]  items-center flex flex-row text-[12px] ms-0 me-1  font-ubuntu"> 
+           
+            
+           
+           <a href=""> <span className="pl-1 text-[14px] hidden md:block">HEALTH PAKAGES</span></a></p>
+                 
+           </div>
+           
+           </li>
+            
+            
+            <li className="inline-flex flex-row mr-4 justify-center items-center">
+           
+         <div className="flex flex-row  ">
+         
+        
+                       
+         <Link to="/modal">  <p className="text-[#006642]  items-center flex flex-row text-[12px] ms-0 me-1  font-ubuntu"> 
+          
+             
+                 <a href=""> <span className="pl-1 text-[14px] hidden md:block">BRANCHES & SERVICES</span></a></p>
+                 </Link>
+           </div>
+           
+           </li>
+            
+            
+           <li className="inline-flex mr-4 flex-row justify-center items-center">
+            
+         <div className="flex flex-row  ">
+        
+           <Link to="/notice"><p className="text-[#006642]  items-center flex flex-row text-[12px] ms-0 me-1  font-ubuntu"> 
+         
+           <a href=""><span className="pl-1  text-[14px] hidden md:block">NOTICES</span></a></p>
+           </Link>         
+                       
+   
+           </div>
+           
+           </li>
+           <li className="inline-flex mr-4 flex-row justify-center items-center">
+            
+            <div className="flex flex-row  ">
+           
+              <Link to="/contact"><p className="text-[#006642]  items-center flex flex-row text-[12px] ms-0 me-1  font-ubuntu"> 
+            
+              <a href=""><span className="pl-1  text-[14px] hidden md:block">CONTACT US</span></a></p>
+              </Link>         
+                          
+      
+              </div>
               
-            )}
+              </li>
+            
             
         </ul>
         

@@ -1,11 +1,10 @@
 import React from "react";
-import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
+
 import { styles } from "../styles";
-import { logo ,tripguide } from "../assets";
+import { logo, tripguide } from "../assets";
 import { SectionWrapper } from "../hoc";
-import { projects  } from "../constants";
-import { fadeIn, textVariant } from "../utils/motion";
+import { projects } from "../constants";
 
 
 const ProjectCard = ({
@@ -14,22 +13,20 @@ const ProjectCard = ({
   description,
   tags,
   image,
-  source_code_link,
 }) => {
   return (
-    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
+    
       <div
-        
-        className='bg-[#f3f3f3] p-0  sm:w-[360px] w-full'
+        className='bg-[#f3f3f3]  sm:w-[360px] w-full'
       >
-        <div className='relative w-full h-[230px]'>
+        <div className='relative w-full h-[200px]'>
           <img
             src={image}
             alt='project_image'
-            className='w-full h-[200px] object-cover opacity-95'
+            className='w-full h-full object-cover opacity-80 '
           />
 
-          <div className='absolute inset-0 flex justify-end p-3 card-img_hover'>
+          <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
             <div
               onClick={() => window.open(source_code_link, "_blank")}
               className='green-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
@@ -43,23 +40,23 @@ const ProjectCard = ({
           </div>
         </div>
 
-        <div className='mt-0 p-5'>
-          <h3 className='text-[#006642] p-2 font-ubuntu text-[24px]'>{name}</h3>
-          <p className='mt-2 text-[#006642] font-ubuntu p-2 text-[14px]'>{description}</p>
+        <div className='p-5'>
+          <h3 className='text-[#006642] font-bold text-[24px]'>{name}</h3>
+          <p className='mt-2 text-[#006642] text-[14px]'>{description}</p>
         </div>
 
-        <div className='mt-0 p-5 flex font-ubuntu flex-wrap p-2 gap-2'>
+        <div className=' p-5 flex flex-wrap gap-2'>
           {tags.map((tag) => (
             <p
               key={`${name}-${tag.name}`}
-              className={`text-[14px] p-2 font-ubuntu ${tag.color}`}
+              className={`text-[14px] ${tag.color}`}
             >
               #{tag.name}
             </p>
           ))}
         </div>
       </div>
-    </motion.div>
+   
   );
 };
 
@@ -129,19 +126,17 @@ const Works = () => {
       <a href="/"><p className='text-[#006642] pt-2 text-end mb-10 pr-2 text-[20px]  font-ubuntu'>View More.....</p></a>
       </div>
       
- <motion.div variants={textVariant()}>
-  <div className="flex flex-col  max-w-7xl">
-        <h2 className='text-gray-900/50 pb-2 text-start pl-2 text-[28px] font-bold font-ubuntu'>EXPLORE HEALTH PLUS</h2>
-        </div>
-      </motion.div>
+ 
+        <h2 className='text-[green] text-center text-[40px] font-bold'>Our Services</h2>
+        <hr className="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700"></hr>
+    
 
       
 
-      <div className=' flex mx-auto p-0 justify-center flex-wrap gap-7'>
+      <div className='mt-5 flex flex-wrap gap-7'>
         {projects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
-        
       </div>
       <a href="/"><p className='text-[#006642] pt-1 text-end pr-2 text-[20px]  font-ubuntu'>View More.....</p></a>
       

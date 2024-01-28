@@ -18,8 +18,10 @@ import Report from './Report';
 import Login from './Login';
 import Sign from './Sign';
 import Cor from './Cor';
+import Notice from './Notice';
 export {
   Modal,
+  Notice,
   Login,
   Cor,
   Sign,
