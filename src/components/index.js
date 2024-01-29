@@ -19,10 +19,12 @@ import Login from './Login';
 import Sign from './Sign';
 import Cor from './Cor';
 import Notice from './Notice';
+import Health from './Health';
 export {
   Modal,
   Notice,
   Login,
+  Health,
   Cor,
   Sign,
   Layout,

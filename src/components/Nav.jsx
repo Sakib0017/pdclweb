@@ -44,15 +44,15 @@ const Nav = () => {
   return (
     <>
    
-  <nav className={`${styles.paddingX} border-b-[1px]  border-gray-900/20  w-full fixed h-[50px] top-0 z-20 flex flex-col items-center  bg-[#f3f3f3]`} >
-  <div className="w-full h-[50px]  flex flex-wrap items-center   justify-between max-w-7xl text-[#006642] " >
+  <nav className={`${styles.paddingX} border-b-[1px]  border-gray-900/20  w-full fixed h-[40px] top-0 z-20 flex flex-col items-center  bg-[#f3f3f3]`} >
+  <div className="w-full h-[40px]  flex flex-wrap items-center   justify-between max-w-7xl text-[#006642] " >
   <div className="flex flex-col items-start  justify-start me-auto">
       
       <a href=""> 
       
-       <p onClick={() => navigate('/')} className="text-[#006642] justify-center items-start text-[14px] font-medium  font-ubuntu">
-        <span className="text-[14px] items-start font-ubuntu font-medium justify-start">✆10636</span>-Dhanmondi </p></a> 
-        <Link onClick={handleClick}> <a> <p className="text-[#006642]  cursor-pointer justify-start items-start text-[12px] font-medium  font-ubuntu">OTHER BRANCHES 》</p></a></Link>
+       <p onClick={() => navigate('/')} className="text-[#006642] justify-center items-start text-[12px] font-medium  font-ubuntu">
+        <span className="text-[16px] items-start font-ubuntu font-bold justify-start">✆10636</span>-Dhanmondi </p></a> 
+        <Link onClick={handleClick}> <a> <p className="text-[#006642]  cursor-pointer justify-start items-start text-[10px] font-medium  font-ubuntu">OTHER BRANCHES 》</p></a></Link>
           {/*✆ d5e7d9*/}
        
         
@@ -76,7 +76,7 @@ const Nav = () => {
            <a href=""> <p className="text-[#006642] cursor-pointer justify-center items-center text-[20px]   font-ubuntu">🧪 </p></a>
         
           
-        <a href=""><span className="pl-1 text-[14px] hidden md:block">Home Sample <br></br>Collection</span></a></p></Link>
+        <a href=""><span className="pl-1 text-[13px] hidden md:block">Home Sample <br></br>Collection</span></a></p></Link>
                     
                     
 
@@ -96,7 +96,7 @@ const Nav = () => {
           
           
         
-        <a href=""> <span className="pl-1 text-[14px] hidden md:block">Video<br></br>Consutancy</span></a></p>
+        <a href=""> <span className="pl-1 text-[13px] hidden md:block">Video<br></br>Consutancy</span></a></p>
               
         </div>
         
@@ -113,7 +113,7 @@ const Nav = () => {
        
            <a href=""> <p className="text-[#006642] cursor-pointer justify-center items-center text-[20px]   font-ubuntu"> 📋 </p></a>
          
-              <a href=""> <span className="pl-1 text-[14px] hidden md:block">Report<br></br> Download</span></a></p>
+              <a href=""> <span className="pl-1 text-[13px] hidden md:block">Report<br></br> Download</span></a></p>
               </Link>
         </div>
         
@@ -128,7 +128,7 @@ const Nav = () => {
       
            <a href=""> <p className="text-[#006642] cursor-pointer justify-center items-center text-[20px]   font-ubuntu">✍️ </p></a>
          
-        <a href=""><span className="pl-1  text-[14px] hidden md:block">Complain <br></br>Submission</span></a></p>
+        <a href=""><span className="pl-1  text-[13px] hidden md:block">Complain <br></br>Submission</span></a></p>
         </Link>         
                     
 

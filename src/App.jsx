@@ -1,6 +1,6 @@
 import {Routes, Route, BrowserRouter } from "react-router-dom";
 
-import { Modal, Layout, Sample, Complain,Login,Notice, Sign, Report } from "./components";
+import { Modal, Layout, Sample,Contact,Health, Complain,Login,Notice, Sign, Report } from "./components";
 
 const App = () => {
   return (
@@ -14,10 +14,10 @@ const App = () => {
     <Route path="/sign" element={<Sign />} />
     <Route path="/complain" element={<Complain />} />
      <Route path="/modal" element={<Modal />} />
-
+     
      <Route path="/notice" element={<Notice />} />
-    
-    
+     <Route path="/contact" element={<Contact />} />
+     <Route path="/health" element={<Health />} />
     </Routes>
     </BrowserRouter>
     

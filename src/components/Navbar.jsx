@@ -48,7 +48,7 @@ const Navbar = () => {
 
   
   
-  <nav className={`${styles.paddingX} w-full  flex items-center border-b-[1px] border-gray-900/20 fixed top-[50px] z-20 bg-white`} >
+  <nav className={`${styles.paddingX} w-full  flex items-center border-b-[1px] border-gray-900/20 fixed top-[40px] z-20 bg-white`} >
   <div className="w-full h-[75px] flex flex-wrap justify-between max-w-7xl text-[#006642]  mx-auto" >
     
   <div className="w-full h-[75px]  flex flex-row max-w-7xl justify-between  items-center  mx-auto">
@@ -62,7 +62,7 @@ const Navbar = () => {
          
          <div className="flex flex-col  items-center  justify-center me-auto ">
         
-         <Link to="pataint" ><p onClick={() => navigate('/')} className="text-[#006642]  items-center flex flex-row text-[12px] mx-auto  font-ubuntu"> 
+         <Link to="/login" ><p onClick={() => navigate('/')} className="text-[#006642]  items-center flex flex-row text-[12px] mx-auto  font-ubuntu"> 
            
              
            <a href=""><span className="pl-1 text-[14px] hidden md:block">PATAINT PORTAL</span></a></p></Link>
@@ -79,12 +79,12 @@ const Navbar = () => {
          <div className="flex flex-row  ">
          
          
-                       <p className="text-[#006642]  items-center flex flex-row text-[12px] ms-0 me-1  font-ubuntu"> 
+         <Link to="/health">      <p className="text-[#006642]  items-center flex flex-row text-[12px] ms-0 me-1  font-ubuntu"> 
            
             
            
            <a href=""> <span className="pl-1 text-[14px] hidden md:block">HEALTH PAKAGES</span></a></p>
-                 
+                 </Link>
            </div>
            
            </li>

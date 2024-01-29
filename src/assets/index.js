@@ -19,7 +19,8 @@ import consalt from "./consalt.jpg";
 import diag from "./diag.jpg";
 import akn from "./akn.png";
 import dhan from "./dhan.jpg";
-
+import hea1 from "./hea1.jpeg";
+import hea2 from "./hea2.jpeg";
 
 import about from "./about.png";
 import branch from "./branch.png";
@@ -65,6 +66,8 @@ export {
   downloads,
   printer,
   medical,
+  hea1,
+  hea2,
   sea,
   app,
   doct,

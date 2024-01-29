@@ -13,6 +13,7 @@ import {
     Button,
   } from "@material-tailwind/react";
 import video from '../assets/video.mp4';
+
 function Login() {
   return (
     <section className='w-screen h-screen  relative  justify-center items-center mx-auto'>
