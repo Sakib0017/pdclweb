@@ -13,7 +13,7 @@ import { logo, menu, close,login,signup, mobile, telephone, about, gmail } from 
 
 const Nav = () => {
   const handleClick = () => {
-    window.open('/modal', '_blank');
+    window.open('/branch', '_blank');
   };
   const handleClick1 = () => {
     window.open('/sample', '_blank');
@@ -52,8 +52,19 @@ const Nav = () => {
       
        <p onClick={() => navigate('/')} className="text-[#006642] justify-center items-start text-[12px] font-medium  font-ubuntu">
         <span className="text-[16px] items-start font-ubuntu font-bold justify-start">✆10636</span>-Dhanmondi </p></a> 
-        <Link onClick={handleClick}> <a> <p className="text-[#006642]  cursor-pointer justify-start items-start text-[10px] font-medium  font-ubuntu">OTHER BRANCHES 》</p></a></Link>
-          {/*✆ d5e7d9*/}
+        <Popover placement="bottom">
+          <PopoverHandler>
+          <Link > <a> <p className="text-[#006642]  cursor-pointer justify-start items-start text-[10px] font-medium  font-ubuntu">OTHER BRANCHES 》</p></a></Link>
+        </PopoverHandler>
+          <PopoverContent className="mt-[70px]">
+           <Link to="/details"><a  href=""> <p className="text-[#006642] cursor-pointer justify-center items-center text-[12px] p-2  font-ubuntu">Dhanmondi(09666 787801)</p></a></Link>
+           <Link to="/details"><a  href=""> <p className="text-[#006642] cursor-pointer justify-center items-center text-[12px] p-2  font-ubuntu">Shantinagar(09666 787803)</p></a></Link>
+           <Link to="/details"><a  href=""> <p className="text-[#006642] cursor-pointer justify-center items-center text-[12px] p-2  font-ubuntu">English Road(09666 787802)</p></a></Link>
+           <Link to="/details"><a  href=""> <p className="text-[#006642] cursor-pointer justify-center items-center text-[12px] p-2  font-ubuntu">Savar(09666 787808)</p></a></Link>
+           <Link to="/details"><a  href=""> <p className="text-[#006642] cursor-pointer justify-center items-center text-[12px] p-2  font-ubuntu">Mirpur(09666 787807)</p></a></Link>
+           <Link to="/details"><a  href=""> <p className="text-[#006642] cursor-pointer justify-center items-center text-[12px] p-2  font-ubuntu">Uttara(09666 787805)</p></a></Link>
+          </PopoverContent>
+        </Popover>
        
         
                   

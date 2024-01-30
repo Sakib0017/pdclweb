@@ -1,6 +1,6 @@
 import {Routes, Route, BrowserRouter } from "react-router-dom";
 
-import { Modal, Layout, Sample,Contact,Health, Complain,Login,Notice, Sign, Report } from "./components";
+import { Modal, Layout, Sample,Contact,Health,Details, Complain,Login,Notice, Sign, Report } from "./components";
 
 const App = () => {
   return (
@@ -18,6 +18,7 @@ const App = () => {
      <Route path="/notice" element={<Notice />} />
      <Route path="/contact" element={<Contact />} />
      <Route path="/health" element={<Health />} />
+     <Route path="/details" element={<Details />} />
     </Routes>
     </BrowserRouter>
     

@@ -20,9 +20,11 @@ import Sign from './Sign';
 import Cor from './Cor';
 import Notice from './Notice';
 import Health from './Health';
+import Details from './Details';
 export {
   Modal,
   Notice,
+  Details,
   Login,
   Health,
   Cor,
