@@ -99,21 +99,13 @@ function Contact() {
        
        
        <div className="relative flex flex-wrap p-2">
-       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3652.2197080792394!2d90.37959757619976!3d23.73954337867781!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8ca7af5f82b%3A0xce7d1ab6b16a027!2sPopular%20Diagnostic%20Centre%20Ltd.!5e0!3m2!1sen!2sbd!4v1706512680599!5m2!1sen!2sbd" width="900" height="500"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3652.2197080792394!2d90.37959757619976!3d23.73954337867781!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8ca7af5f82b%3A0xce7d1ab6b16a027!2sPopular%20Diagnostic%20Centre%20Ltd.!5e0!3m2!1sen!2sbd!4v1706512680599!5m2!1sen!2sbd" width="1270" height="600"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           
             </div>
-            <div>
-            <div className='relative ml-[40px] p-2 w-[330px] h-[350px]'>
-            <img
-              src={dhan}
-              alt='project_image'
-              className='w-[330px] h-[350px] object-cover opacity-95'
-            />
-            <h5 className='text-[24px] p-5 font-ubuntu font-bold text-[#006642]'>Call 10636</h5>   
-            <p className='text-[14px] font-ubuntu text-[#006642]'>info@populardiagnostic.com</p>
-            <p className='text-[14px] font-ubuntu text-[#006642]'>House #16, Road # 2, Dhanmondi R/A, Dhaka-1205, Bangladesh</p>
-          </div>
-            </div>
+           
+
+
+            
         <div className="w-full">
         
           <ul
@@ -127,7 +119,14 @@ function Contact() {
             </div>
             </div>
             </div>
+            <div>
+            <div className=' mx-auto p-2 '>
             
+            <h5 className='text-[44px] text-center p-5 font-ubuntu font-bold text-[#006642]'>HOT LINE : 10636</h5>   
+            <p className='text-[30px] text-center font-ubuntu text-[#006642]'>info@populardiagnostic.com</p>
+            <p className='text-[30px] text-center font-ubuntu text-[#006642]'>House #16, Road # 2, Dhanmondi R/A, Dhaka-1205, Bangladesh</p>
+          </div>
+            </div>
      <Tech />
 
      

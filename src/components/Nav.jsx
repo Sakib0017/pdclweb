@@ -73,7 +73,7 @@ const Nav = () => {
      
       <Link onClick={handleClick1} ><p onClick={() => navigate('/')} className="text-[#006642]  items-center flex flex-row text-[12px] mx-auto  font-ubuntu"> 
         
-           <a href=""> <p className="text-[#006642] cursor-pointer justify-center items-center text-[20px]   font-ubuntu">🧪 </p></a>
+           <a href=""> <p className="text-[#006642]  cursor-pointer justify-center items-center text-[20px]   font-ubuntu">🧪 </p></a>
         
           
         <a href=""><span className="pl-1 text-[13px] hidden md:block">Home Sample <br></br>Collection</span></a></p></Link>
