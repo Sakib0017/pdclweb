@@ -20,7 +20,7 @@ import { Link } from "react-router-dom";
 function Health() {
   return (
     <div className="bg-white">
-    <Nav />
+    {/*<Nav />*/}
      
       
      <Navbar />

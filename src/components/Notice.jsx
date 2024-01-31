@@ -49,7 +49,7 @@ const ProjectCard = ({
 function Notice() {
   return (
    <div className="bg-white">
-    <Nav />
+    {/*<Nav />*/}
      
       
      <Navbar />

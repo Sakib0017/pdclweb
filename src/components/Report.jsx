@@ -50,7 +50,7 @@ const TABLE_ROWS = [
 function Report() {
   return (
     <div className="bg-white">
-    <Nav />
+    {/*<Nav />*/}
      
       
      <Navbar />

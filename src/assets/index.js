@@ -68,9 +68,11 @@ import Gast from "./Gast.png";
 import Gener from "./Gener.png";
 import Color from "./Color.png";
 import Hepat from "./Hepat.png";
+import back from "./back.jpg";
 export {
   logo,
   backend,
+  back,
   Color,
   Hepat,
   Hepa,

@@ -10,10 +10,14 @@ const Hero = ({ color }) => {
   
   return (
     <>
-    <section className='w-full h-[680px]  relative  justify-center items-center mx-auto'>
+
+
+         
+
+    <section className='w-full h-[700px]  relative  justify-center items-center mx-auto'>
       
-       <video className=" w-full h-[680px]  object-cover" src={video} autoPlay loop muted />
-       <div className='absolute w-full h-[680px]  top-0 left-0 bg-gray-900/40'></div>
+       <video className=" w-full h-[700px]  object-cover" src={video} autoPlay loop muted />
+       <div className='absolute w-full h-[700px]  top-0 left-0 bg-gray-900/40'></div>
       <div className={`${styles.paddingX} absolute inset-0 justify-center  items-center  text-center flex flex-col  text-white`}>
        
        
@@ -229,8 +233,8 @@ const Hero = ({ color }) => {
      
 
 
-      <div className="flex flex-col mb-2  sm:hidden flex flex-1 shadow-lg justify-top items-center    mt-[133px] mx-auto">
-        <div className="w-full bg-[#f3f3f3] rounded block">
+      <div className="flex flex-col mb-2  sm:hidden flex flex-1 shadow-lg justify-top items-center    mt-[110px] mx-auto">
+        <div className="w-full h-[540px] bg-[#f3f3f3] rounded block">
           <ul
             className="flex mb-0 ml-2 mr-2 list-none flex-wrap pt-1 pb-2 flex-row"
             role="tablist"
@@ -238,7 +242,7 @@ const Hero = ({ color }) => {
             <li className="-mb-px mr-2 last:mr-0 flex-auto text-center">
               <a
                 className={
-                  "text-xs font-ubuntu uppercase px-5 py-3  shadow-lg rounded block leading-normal " +
+                  "text-xs font-ubuntu uppercase px-1 py-3  shadow-lg rounded block leading-normal " +
                   (openTab === 1
                     ? "text-[#006642] bg-" + color + "-600"
                     : "text-" + color + "-600 bg-[#006642] ")
@@ -257,7 +261,7 @@ const Hero = ({ color }) => {
             <li className="-mb-px mr-2 last:mr-0 flex-auto text-center">
               <a
                 className={
-                  "text-xs font-ubuntu uppercase px-5 py-3 shadow-lg rounded block leading-normal " +
+                  "text-xs font-ubuntu uppercase px-1 py-3 shadow-lg rounded block leading-normal " +
                   (openTab === 2
                     ? "text-[#006642] bg-" + color + "-600"
                     : "text-" + color + "-600 bg-[#006642]")
@@ -276,7 +280,7 @@ const Hero = ({ color }) => {
             <li className="-mb-px mr-2 last:mr-0 flex-auto text-center">
               <a
                 className={
-                  "text-xs font-ubuntu uppercase px-5 py-3 shadow-lg rounded block leading-normal " +
+                  "text-xs font-ubuntu uppercase px-1 py-3 shadow-lg rounded block leading-normal " +
                   (openTab === 3
                     ? "text-[#006642] bg-" + color + "-600"
                     : "text-" + color + "-600 bg-[#006642]")
@@ -294,7 +298,7 @@ const Hero = ({ color }) => {
             </li>
           </ul>
           <div className="relative flex flex-col min-w-0   w-full mb-1 shadow-lg rounded">
-            <div className="px-2 py-2 flex-auto">
+            <div className="px-2 py-2 flex-auto ">
               <div className="tab-content tab-space">
                 <div className={openTab === 1 ? "block" : "hidden"} id="link1">
                 <form className="max-w-screen-xl  mx-auto">

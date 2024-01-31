@@ -1,10 +1,45 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { styles } from "../styles";
 import { BallCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { technologies } from "../constants";
 import img from "../assets/link.jpg";
+import back from "../assets/back.jpg";
+import { useNavigate, Link } from "react-router-dom";
+import {
+  Popover,
+  PopoverHandler,
+  PopoverContent,
+  p,
+} from "@material-tailwind/react";
+
 const Tech = () => {
+    
+      const handleClick1 = () => {
+        window.open('/sample', '_blank');
+      };
+      const handleClick2 = () => {
+        window.open('/complain', '_blank');
+      };
+      const navigate = useNavigate();
+      const [active, setActive] = useState("");
+      const [toggle, setToggle] = useState(false);
+      const [scrolled, setScrolled] = useState(false);
+      const [isScrolled, setIsScrolled] = useState(false);
+    
+      useEffect(() => {
+        const handleScroll = () => {
+          setIsScrolled(window.scrollY > 0);
+        };
+      
+        window.addEventListener('scroll', handleScroll);
+      
+        return
+       
+      () =>
+       
+      window.removeEventListener('scroll', handleScroll);
+      }, []);
   return (
     <>
     
@@ -27,7 +62,7 @@ const Tech = () => {
             </ul>
         </div>
         <div className=' '>
-            <h2 className="mb-6 text-sm font-ubuntu text-[#006642] uppercase dark:text-[#006642]">Important Links</h2>
+            <h2 className="mb-6 font-bold font-ubuntu text-[#006642] uppercase dark:text-[#006642]">Important Links</h2>
             <ul className="text-gray-500 dark:text-gray-400 font-medium">
                 <li className="mb-4">
                     <a href="#" className="font-ubuntu hover:underline">Popular Pharmaceuticals</a>
@@ -50,7 +85,7 @@ const Tech = () => {
             </ul>
         </div>
         <div className=''>
-            <h1 className="mb-6 text-sm font-ubuntu text-[#006642] uppercase dark:text-[#006642]">Quick Links</h1>
+            <h1 className="mb-6 font-bold font-ubuntu text-[#006642] uppercase dark:text-[#006642]">Quick Links</h1>
             <ul className="text-gray-500 dark:text-gray-400 font-medium">
                 <li className="mb-4">
                     <a href="#" className="font-ubuntu hover:underline">Our Services</a>
@@ -115,37 +150,137 @@ const Tech = () => {
       </div>
     </div>
 
-    <a href="https://wa.me/1234567890" target="_blank" className="fixed bottom-[286px] border-[1px] border-gray-200/90 right-0 bg-[#006642] shadow-md">
-    <svg className="w-[60px] h-[60px] fill-[#ffffff] p-3" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+    <Popover placement="left">
+          <PopoverHandler>
+          <a target="_blank" className="fixed top-[250px] border-[1px] border-gray-200/90 right-0 bg-[#006642] shadow-md">
+    <svg class="w-[60px] h-[60px] p-4 fill-[#ffffff]" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
 
-   <path d="M256 80C149.9 80 62.4 159.4 49.6 262c9.4-3.8 19.6-6 30.4-6c26.5 0 48 21.5 48 48V432c0 26.5-21.5 48-48 48c-44.2 0-80-35.8-80-80V384 336 288C0 146.6 114.6 32 256 32s256 114.6 256 256v48 48 16c0 44.2-35.8 80-80 80c-26.5 0-48-21.5-48-48V304c0-26.5 21.5-48 48-48c10.8 0 21 2.1 30.4 6C449.6 159.4 362.1 80 256 80z"></path>
+  <path d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z"></path>
 
 </svg></a>
-<a href="https://wa.me/1234567890" target="_blank" className="fixed bottom-[224px] right-0 bg-[#006642]  border-[1px] border-gray-200/90 shadow-md">
-<svg className="w-[60px] h-[60px] fill-[#ffffff] p-3" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+      </PopoverHandler>
+          <PopoverContent>
+        
+       
+        
+          <Link > <a> <p className="text-[#006642] pl-2 cursor-pointer justify-start items-start text-[12px] font-medium  font-ubuntu">All BRANCHES 》</p></a></Link>
+        
+          <Link to="/details"><a  href=""> <p className="text-[#006642] cursor-pointer justify-center items-center text-[12px] p-2  font-ubuntu">Dhanmondi(09666 787801)</p></a></Link>
+           <Link to="/details"><a  href=""> <p className="text-[#006642] cursor-pointer justify-center items-center text-[12px] p-2  font-ubuntu">Shantinagar(09666 787803)</p></a></Link>
+           <Link to="/details"><a  href=""> <p className="text-[#006642] cursor-pointer justify-center items-center text-[12px] p-2  font-ubuntu">English Road(09666 787802)</p></a></Link>
+           <Link to="/details"><a  href=""> <p className="text-[#006642] cursor-pointer justify-center items-center text-[12px] p-2  font-ubuntu">Savar(09666 787808)</p></a></Link>
+           <Link to="/details"><a  href=""> <p className="text-[#006642] cursor-pointer justify-center items-center text-[12px] p-2  font-ubuntu">Mirpur(09666 787807)</p></a></Link>
+           <Link to="/details"><a  href=""> <p className="text-[#006642] cursor-pointer justify-center items-center text-[12px] p-2  font-ubuntu">Uttara(09666 787805)</p></a></Link>
+           <Link to="/details"><a  href=""> <p className="text-[#006642] cursor-pointer justify-center items-center text-[12px] p-2  font-ubuntu">Dhanmondi(09666 787801)</p></a></Link>
+           <Link to="/details"><a  href=""> <p className="text-[#006642] cursor-pointer justify-center items-center text-[12px] p-2  font-ubuntu">Shantinagar(09666 787803)</p></a></Link>
+           <Link to="/details"><a  href=""> <p className="text-[#006642] cursor-pointer justify-center items-center text-[12px] p-2  font-ubuntu">English Road(09666 787802)</p></a></Link>
+           <Link to="/details"><a  href=""> <p className="text-[#006642] cursor-pointer justify-center items-center text-[12px] p-2  font-ubuntu">Savar(09666 787808)</p></a></Link>
+           <Link to="/details"><a  href=""> <p className="text-[#006642] cursor-pointer justify-center items-center text-[12px] p-2  font-ubuntu">Mirpur(09666 787807)</p></a></Link>
+           <Link to="/details"><a  href=""> <p className="text-[#006642] cursor-pointer justify-center items-center text-[12px] p-2  font-ubuntu">Uttara(09666 787805)</p></a></Link>
+          
+      
+           </PopoverContent>
+        </Popover>
+                 
+        <Popover placement="left">
+          <PopoverHandler>
+          <a  target="_blank" className="fixed top-[312px] border-[1px] border-gray-200/90 right-0 bg-[#006642] shadow-md">
+    <svg class="w-[60px] h-[60px] p-4 fill-[#ffffff]" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
 
-<path d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-96 55.2C54 332.9 0 401.3 0 482.3C0 498.7 13.3 512 29.7 512H418.3c16.4 0 29.7-13.3 29.7-29.7c0-81-54-149.4-128-171.1V362c27.6 7.1 48 32.2 48 62v40c0 8.8-7.2 16-16 16H336c-8.8 0-16-7.2-16-16s7.2-16 16-16V424c0-17.7-14.3-32-32-32s-32 14.3-32 32v24c8.8 0 16 7.2 16 16s-7.2 16-16 16H256c-8.8 0-16-7.2-16-16V424c0-29.8 20.4-54.9 48-62V304.9c-6-.6-12.1-.9-18.3-.9H178.3c-6.2 0-12.3 .3-18.3 .9v65.4c23.1 6.9 40 28.3 40 53.7c0 30.9-25.1 56-56 56s-56-25.1-56-56c0-25.4 16.9-46.8 40-53.7V311.2zM144 448a24 24 0 1 0 0-48 24 24 0 1 0 0 48z"></path>
+  <path d="M0 64C0 46.3 14.3 32 32 32H88h48 56c17.7 0 32 14.3 32 32s-14.3 32-32 32V400c0 44.2-35.8 80-80 80s-80-35.8-80-80V96C14.3 96 0 81.7 0 64zM136 96H88V256h48V96zM288 64c0-17.7 14.3-32 32-32h56 48 56c17.7 0 32 14.3 32 32s-14.3 32-32 32V400c0 44.2-35.8 80-80 80s-80-35.8-80-80V96c-17.7 0-32-14.3-32-32zM424 96H376V256h48V96z"></path>
+
+</svg></a>
+      </PopoverHandler>
+          <PopoverContent>
+          <Link onClick={handleClick1} ><p onClick={() => navigate('/')} className="text-[#006642]  items-center flex flex-row text-[12px] mx-auto  font-ubuntu"> 
+        
+          
+        <a href=""><span className="pl-1 text-[13px] ">Home Sample Collection</span></a></p></Link>
+      
+           </PopoverContent>
+        </Popover>
+        <Popover placement="left">
+          <PopoverHandler>
+          <a  target="_blank" className="fixed top-[374px] right-0 bg-[#006642]  border-[1px] border-gray-200/90 shadow-md">
+<svg class="w-[60px] h-[60px] p-4 fill-[#ffffff]" viewBox="0 0 576 512" xmlns="http://www.w3.org/2000/svg">
+
+ <path d="M0 128C0 92.7 28.7 64 64 64H320c35.3 0 64 28.7 64 64V384c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V128zM559.1 99.8c10.4 5.6 16.9 16.4 16.9 28.2V384c0 11.8-6.5 22.6-16.9 28.2s-23 5-32.9-1.6l-96-64L416 337.1V320 192 174.9l14.2-9.5 96-64c9.8-6.5 22.4-7.2 32.9-1.6z"></path>
 
 </svg>
 </a>
-<a href="https://wa.me/1234567890" target="_blank" className="fixed bottom-[162px]  border-[1px] border-gray-200/90 right-0 bg-[#006642] shadow-md">
-<svg className="w-[60px] h-[60px] fill-[#ffffff] p-3" viewBox="0 0 576 512" xmlns="http://www.w3.org/2000/svg">
+      </PopoverHandler>
+          <PopoverContent>
+         
+          <p className="text-[#006642]  items-center flex flex-row text-[12px] ms-0 me-1  font-ubuntu"> 
+        
+        
+     
+     <a href=""> <span className="pl-1 text-[13px]">Video Consutancy</span></a></p>
+           </PopoverContent>
+        </Popover>
+        <Popover placement="left">
+          <PopoverHandler>
+          <a  target="_blank" className="fixed top-[434px]  border-[1px] border-gray-200/90 right-0 bg-[#006642] shadow-md">
+<svg class="w-[60px] h-[60px] p-4 fill-[#ffffff]" viewBox="0 0 384 512" xmlns="http://www.w3.org/2000/svg">
 
-  <path d="M64 64C28.7 64 0 92.7 0 128V384c0 35.3 28.7 64 64 64H512c35.3 0 64-28.7 64-64V128c0-35.3-28.7-64-64-64H64zM272 192H496c8.8 0 16 7.2 16 16s-7.2 16-16 16H272c-8.8 0-16-7.2-16-16s7.2-16 16-16zM256 304c0-8.8 7.2-16 16-16H496c8.8 0 16 7.2 16 16s-7.2 16-16 16H272c-8.8 0-16-7.2-16-16zM164 152v13.9c7.5 1.2 14.6 2.9 21.1 4.7c10.7 2.8 17 13.8 14.2 24.5s-13.8 17-24.5 14.2c-11-2.9-21.6-5-31.2-5.2c-7.9-.1-16 1.8-21.5 5c-4.8 2.8-6.2 5.6-6.2 9.3c0 1.8 .1 3.5 5.3 6.7c6.3 3.8 15.5 6.7 28.3 10.5l.7 .2c11.2 3.4 25.6 7.7 37.1 15c12.9 8.1 24.3 21.3 24.6 41.6c.3 20.9-10.5 36.1-24.8 45c-7.2 4.5-15.2 7.3-23.2 9V360c0 11-9 20-20 20s-20-9-20-20V345.4c-10.3-2.2-20-5.5-28.2-8.4l0 0 0 0c-2.1-.7-4.1-1.4-6.1-2.1c-10.5-3.5-16.1-14.8-12.6-25.3s14.8-16.1 25.3-12.6c2.5 .8 4.9 1.7 7.2 2.4c13.6 4.6 24 8.1 35.1 8.5c8.6 .3 16.5-1.6 21.4-4.7c4.1-2.5 6-5.5 5.9-10.5c0-2.9-.8-5-5.9-8.2c-6.3-4-15.4-6.9-28-10.7l-1.7-.5c-10.9-3.3-24.6-7.4-35.6-14c-12.7-7.7-24.6-20.5-24.7-40.7c-.1-21.1 11.8-35.7 25.8-43.9c6.9-4.1 14.5-6.8 22.2-8.5V152c0-11 9-20 20-20s20 9 20 20z"></path>
+ <path d="M64 0C28.7 0 0 28.7 0 64V448c0 35.3 28.7 64 64 64H320c35.3 0 64-28.7 64-64V160H256c-17.7 0-32-14.3-32-32V0H64zM256 0V128H384L256 0zM160 240c0-8.8 7.2-16 16-16h32c8.8 0 16 7.2 16 16v48h48c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H224v48c0 8.8-7.2 16-16 16H176c-8.8 0-16-7.2-16-16V352H112c-8.8 0-16-7.2-16-16V304c0-8.8 7.2-16 16-16h48V240z"></path>
 
 </svg>
 </a>
+      </PopoverHandler>
+          <PopoverContent>
+              
+                    
+      <Link to="/login">  <p className="text-[#006642]  items-center flex flex-row text-[12px] ms-0 me-1  font-ubuntu"> 
+       
+      
+          <a href=""> <span className="pl-1 text-[13px] ">Report Download</span></a></p>
+          </Link>
+      
+           </PopoverContent>
+        </Popover>
+        <Popover placement="left">
+          <PopoverHandler>
+          <a  target="_blank" className="fixed top-[496px]  border-[1px] border-gray-200/90 right-0 bg-[#006642] shadow-md">
+<svg class="w-[60px] h-[60px] p-4 fill-[#ffffff]" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
 
-    <a href="https://wa.me/1234567890" target="_blank" className="fixed bottom-[100px] right-0 bg-[#006642] border-[1px] border-gray-200/90 shadow-md">
-  <svg className="w-[60px] h-[60px] p-3" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <path
-      d="M0.16156 47.9359L3.52765 35.6439C1.45131 32.0462 0.359162 27.9653 0.360688 23.7844C0.366028 10.705 11.0098 0.0639038 24.0889 0.0639038C30.4358 0.0665741 36.3932 2.53697 40.8732 7.02075C45.3528 11.5045 47.819 17.4646 47.8167 23.8035C47.811 36.8825 37.1657 47.5251 24.0889 47.5251C24.0881 47.5251 24.0893 47.5251 24.0889 47.5251H24.0786C20.1075 47.5236 16.2058 46.5276 12.7402 44.6374L0.16156 47.9359ZM13.3227 40.3432L14.0433 40.7701C17.0706 42.5668 20.5416 43.517 24.0813 43.5189H24.0889C34.9585 43.5189 43.8056 34.6734 43.8101 23.8019C43.8121 18.5335 41.7628 13.5793 38.0393 9.85277C34.3154 6.12621 29.3643 4.07276 24.0961 4.07047C13.2178 4.07047 4.37108 12.9148 4.36689 23.7859C4.36536 27.5113 5.40754 31.1391 7.38203 34.2786L7.85124 35.0248L5.85844 42.3001L13.3227 40.3432Z"
-      fill="white" />
-    <path fill-rule="evenodd" clip-rule="evenodd"
-      d="M18.1585 13.8678C17.7145 12.8805 17.2468 12.8607 16.8241 12.8435C16.4785 12.8287 16.0829 12.8294 15.6881 12.8294C15.2929 12.8294 14.6505 12.9782 14.1073 13.5714C13.5637 14.1646 12.0317 15.5989 12.0317 18.516C12.0317 21.4335 14.1565 24.2522 14.4529 24.6482C14.7493 25.0438 18.5545 31.2213 24.5805 33.5979C29.5888 35.5731 30.6077 35.1802 31.6949 35.0814C32.7821 34.9826 35.2025 33.6471 35.6965 32.2627C36.1909 30.8784 36.1909 29.692 36.0425 29.4436C35.8941 29.1968 35.4989 29.0484 34.9061 28.752C34.3133 28.4556 31.3985 27.0209 30.8549 26.8233C30.3113 26.6253 29.9161 26.5269 29.5209 27.1205C29.1254 27.7133 27.9901 29.0484 27.6441 29.4436C27.2981 29.84 26.9521 29.8896 26.3593 29.5928C25.7665 29.2956 23.8569 28.67 21.5917 26.6501C19.8293 25.0788 18.6392 23.1379 18.2932 22.5444C17.9476 21.9515 18.2874 21.6586 18.5537 21.3347C19.0332 20.7514 19.8377 19.7028 20.0353 19.3076C20.2329 18.9116 20.1341 18.5656 19.9861 18.2688C19.8377 17.9724 18.6853 15.0404 18.1585 13.8678V13.8678Z"
-      fill="white" />
-  </svg>
+ <path d="M256 448c141.4 0 256-93.1 256-208S397.4 32 256 32S0 125.1 0 240c0 45.1 17.7 86.8 47.7 120.9c-1.9 24.5-11.4 46.3-21.4 62.9c-5.5 9.2-11.1 16.6-15.2 21.6c-2.1 2.5-3.7 4.4-4.9 5.7c-.6 .6-1 1.1-1.3 1.4l-.3 .3 0 0 0 0 0 0 0 0c-4.6 4.6-5.9 11.4-3.4 17.4c2.5 6 8.3 9.9 14.8 9.9c28.7 0 57.6-8.9 81.6-19.3c22.9-10 42.4-21.9 54.3-30.6c31.8 11.5 67 17.9 104.1 17.9zM224 160c0-8.8 7.2-16 16-16h32c8.8 0 16 7.2 16 16v48h48c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H288v48c0 8.8-7.2 16-16 16H240c-8.8 0-16-7.2-16-16V272H176c-8.8 0-16-7.2-16-16V224c0-8.8 7.2-16 16-16h48V160z"></path>
+
+</svg>
 </a>
+      </PopoverHandler>
+          <PopoverContent>
+          <Link onClick={handleClick2}><p className="text-[#006642]  items-center flex flex-row text-[12px] ms-0 me-1  font-ubuntu"> 
+      
+         
+        <a href=""><span className="pl-1  text-[13px] ">Complain Submission</span></a></p>
+        </Link>   
+      
+           </PopoverContent>
+        </Popover>
+
+
+
+        <Popover placement="left">
+          <PopoverHandler>
+          <a  target="_blank" className="fixed bottom-[20px] right-1 rounded-[50px] bg-[#006642]">
+          <svg class="w-[60px] h-[60px] p-4 fill-[#ffffff]" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+
+<path d="M168.2 384.9c-15-5.4-31.7-3.1-44.6 6.4c-8.2 6-22.3 14.8-39.4 22.7c5.6-14.7 9.9-31.3 11.3-49.4c1-12.9-3.3-25.7-11.8-35.5C60.4 302.8 48 272 48 240c0-79.5 83.3-160 208-160s208 80.5 208 160s-83.3 160-208 160c-31.6 0-61.3-5.5-87.8-15.1zM26.3 423.8c-1.6 2.7-3.3 5.4-5.1 8.1l-.3 .5c-1.6 2.3-3.2 4.6-4.8 6.9c-3.5 4.7-7.3 9.3-11.3 13.5c-4.6 4.6-5.9 11.4-3.4 17.4c2.5 6 8.3 9.9 14.8 9.9c5.1 0 10.2-.3 15.3-.8l.7-.1c4.4-.5 8.8-1.1 13.2-1.9c.8-.1 1.6-.3 2.4-.5c17.8-3.5 34.9-9.5 50.1-16.1c22.9-10 42.4-21.9 54.3-30.6c31.8 11.5 67 17.9 104.1 17.9c141.4 0 256-93.1 256-208S397.4 32 256 32S0 125.1 0 240c0 45.1 17.7 86.8 47.7 120.9c-1.9 24.5-11.4 46.3-21.4 62.9zM144 272a32 32 0 1 0 0-64 32 32 0 1 0 0 64zm144-32a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zm80 32a32 32 0 1 0 0-64 32 32 0 1 0 0 64z"></path>
+
+</svg>
+</a>
+      </PopoverHandler>
+          <PopoverContent>
+         
+      
+           </PopoverContent>
+        </Popover>
+    
+
+
+
+   
 </footer>
 
 

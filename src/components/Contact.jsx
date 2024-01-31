@@ -19,7 +19,7 @@ import { Link } from "react-router-dom";
 function Contact() {
   return (
     <div className="bg-white">
-    <Nav />
+    {/*<Nav />*/}
      
       
      <Navbar />

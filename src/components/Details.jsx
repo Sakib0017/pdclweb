@@ -11,7 +11,7 @@ import { fadeIn, textVariant } from "../utils/motion";
 function Details() {
   return (
     <div className="bg-white">
-    <Nav />
+   {/*<Nav />*/}
      
       
      <Navbar />

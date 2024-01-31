@@ -34,38 +34,34 @@ const Navbar = () => {
     <>
    
 
-
-   
-
-
-
-
-
-
-
-
-
-
+  <nav className={`${styles.paddingX} w-full  flex items-center shadow-lg fixed top-[0px] z-20 bg-white`} >
   
   
-  <nav className={`${styles.paddingX} w-full  flex items-center shadow-lg fixed top-[40px] z-20 bg-white`} >
-  <div className="w-full h-[75px] flex flex-wrap justify-between max-w-7xl text-[#006642]  mx-auto" >
+  <div className="w-full h-[80px] flex flex-wrap justify-between max-w-7xl text-[#006642]  mx-auto" >
     
-  <div className="w-full h-[75px]  flex flex-row max-w-7xl justify-between  items-center  mx-auto">
+  <div className="w-full h-[80px]  flex flex-row max-w-7xl justify-between  items-center  mx-auto">
      <Link to="/" className="flex items-center  gap-2" onClick={() => {setActive(""); window.scrollTo(0, 0);}}>
-          <img src={logo} alt="logo" className="w-[40px] h-[40px] bg-none object-contain" />
+          <img src={logo} alt="logo" className="w-[50px] h-[50px] bg-none object-contain" />
           
         </Link>
-        
-        <ul className="list-none  hidden sm:flex mx-auto flex-row gap-5">
+       {/* <div className=" mt-[-50px] ml-[50px] p-1  text-center h-[55px] w-[80px] rounded-br-[20px]  rounded-bl-[20px]  bg-[#006642]">
+
+ <Link to="/" >
+         
+          <h3 className="text-white   font-ubuntu font-bold">Hotline</h3>
+          <p className="text-white  font-ubuntu font-bold">10636</p>
+          
+        </Link>
+  </div> */}
+        <ul className="list-none  hidden sm:flex mx-auto flex-row gap-1">
         <li className="flex mr-4  flex-row justify-center items-center">
          
          <div className="flex flex-col  items-center  justify-center me-auto ">
         
-         <Link to="/login" ><p onClick={() => navigate('/')} className="text-[#006642]  items-center flex flex-row text-[12px] mx-auto font-bold font-ubuntu"> 
+         <Link to="/login" ><p onClick={() => navigate('/')} className="text-[#006642]  items-center flex flex-row text-[16px] mx-auto font-medium font-ubuntu"> 
            
              
-           <a href=""><span className="pl-1 text-[14px] hidden md:block">PATAINT PORTAL</span></a></p></Link>
+           <a href=""><span className="pl-1 text-[16px] font-medium font-ubuntu hidden md:block">PATAINT PORTAL</span></a></p></Link>
                        
                        
    
@@ -79,11 +75,11 @@ const Navbar = () => {
          <div className="flex flex-row  ">
          
          
-         <Link to="/health">      <p className="text-[#006642]  items-center flex flex-row text-[12px] ms-0 me-1 font-bold font-ubuntu"> 
+         <Link to="/health">      <p className="text-[#006642]  items-center flex flex-row text-[16px] ms-0 me-1 font-medium font-ubuntu"> 
            
             
            
-           <a href=""> <span className="pl-1 text-[14px] hidden md:block">HEALTH PAKAGES</span></a></p>
+           <a href=""> <span className="pl-1 text-[16px] font-medium font-ubuntu hidden md:block">HEALTH PAKAGES</span></a></p>
                  </Link>
            </div>
            
@@ -96,10 +92,10 @@ const Navbar = () => {
          
         
                        
-         <Link to="/modal">  <p className="text-[#006642]  items-center flex flex-row text-[12px] ms-0 me-1 font-bold font-ubuntu"> 
+         <Link to="/modal">  <p className="text-[#006642]  items-center flex flex-row text-[16px] ms-0 me-1 font-medium font-ubuntu"> 
           
              
-                 <a href=""> <span className="pl-1 text-[14px] hidden md:block">BRANCHES & SERVICES</span></a></p>
+                 <a href=""> <span className="pl-1 text-[16px] font-medium font-ubuntu hidden md:block">BRANCHES & SERVICES</span></a></p>
                  </Link>
            </div>
            
@@ -110,9 +106,9 @@ const Navbar = () => {
             
          <div className="flex flex-row  ">
         
-           <Link to="/notice"><p className="text-[#006642]  items-center flex flex-row text-[12px] ms-0 me-1 font-bold font-ubuntu"> 
+           <Link to="/notice"><p className="text-[#006642]  items-center flex flex-row text-[16px] ms-0 me-1 font-medium font-ubuntu"> 
          
-           <a href=""><span className="pl-1  text-[14px] hidden md:block">NOTICES</span></a></p>
+           <a href=""><span className="pl-1  text-[16px] font-medium font-ubuntu hidden md:block">NOTICES</span></a></p>
            </Link>         
                        
    
@@ -123,9 +119,22 @@ const Navbar = () => {
             
             <div className="flex flex-row  ">
            
-              <Link to="/contact"><p className="text-[#006642]  items-center flex flex-row text-[12px] ms-0 me-1 font-bold font-ubuntu"> 
+              <Link to="/contact"><p className="text-[#006642]  items-center flex flex-row text-[16px] ms-0 me-1 font-medium font-ubuntu"> 
             
-              <a href=""><span className="pl-1  text-[14px] hidden md:block">CONTACT US</span></a></p>
+              <a href=""><span className="pl-1  text-[16px] font-medium font-ubuntu hidden md:block">CONTACT</span></a></p>
+              </Link>         
+                          
+      
+              </div>
+              
+              </li>
+              <li className="inline-flex mr-4 flex-row justify-center items-center">
+            
+            <div className="flex flex-row  ">
+           
+              <Link to="/about"><p className="text-[#006642]  items-center flex flex-row text-[16px] ms-0 me-1 font-medium font-ubuntu"> 
+            
+              <a href=""><span className="pl-1  text-[16px] font-medium font-ubuntu hidden md:block">ABOUT US</span></a></p>
               </Link>         
                           
       
@@ -133,21 +142,20 @@ const Navbar = () => {
               
               </li>
             
-            
         </ul>
         
         <div className="flex items-center hidden md:block md:order-2 space-x-1 md:space-x-0 rtl:space-x-reverse">
       
-      <Popover placement="top-[115px] bottom-start">
+      <Popover placement="bottom">
           <PopoverHandler>
           <p type="button" data-dropdown-toggle="language-dropdown-menu" className="ms-auto inline-flex items-center font-ubuntu justify-center px-4 py-2 text-sm  rounded-lg cursor-pointer">
-      <svg className="w-[20px] h-[20px] text-[#006642] hover:text-[#000000]" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 16">
+      <svg className="w-[25px] h-[25px] text-[#006642] hover:text-[#000000]" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 16">
               <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/> <path  d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" clip-rule="evenodd"/>
               </svg>
-              <span className="text-[#006642] hover:text-[#000000] text-[13px] ms-0 mx-auto  font-bold font-ubuntu">My Account</span>
+              <span className="text-[#006642] hover:text-[#000000] text-[16px] ms-0 mx-auto  font-medium font-ubuntu">My Account</span>
       </p>
       </PopoverHandler>
-          <PopoverContent>
+          <PopoverContent className="mt-[24px]">
          <Link to="/login"> <p type="button" data-dropdown-toggle="language-dropdown-menu" className="ms-auto inline-flex items-center font-ubuntu justify-center px-4 py-2 text-sm  rounded-lg cursor-pointer">
       <svg className="w-[20px] h-[20px] text-[#006642] hover:text-[#000000]" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 16">
               <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/> <path  d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" clip-rule="evenodd"/>
