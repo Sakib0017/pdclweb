@@ -59,10 +59,26 @@ import tripguide from "./tripguide.jpg";
 import telephone from "./telephone.png";
 import gmail from "./gmail.png";
 import downloads from "./downloads.png";
+import Inter from "./Inter.png";
 import printer from "./printer.png";
+import Med from "./Med.png";
+import Inte from "./Inte.png";
+import Hepa from "./Hepa.png";
+import Gast from "./Gast.png";
+import Gener from "./Gener.png";
+import Color from "./Color.png";
+import Hepat from "./Hepat.png";
 export {
   logo,
   backend,
+  Color,
+  Hepat,
+  Hepa,
+  Gast,
+  Inte,
+  Gener,
+  Med,
+  Inter,
   downloads,
   printer,
   medical,

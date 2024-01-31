@@ -14,7 +14,7 @@ const Hero = ({ color }) => {
       
        <video className=" w-full h-[680px]  object-cover" src={video} autoPlay loop muted />
        <div className='absolute w-full h-[680px]  top-0 left-0 bg-gray-900/40'></div>
-      <div className={`${styles.paddingX} absolute inset-0 justify-center items-center  text-center flex flex-col  text-white`}>
+      <div className={`${styles.paddingX} absolute inset-0 justify-center  items-center  text-center flex flex-col  text-white`}>
        
        
        
@@ -24,8 +24,8 @@ const Hero = ({ color }) => {
        
        
        
-       <div className="flex flex-col  hidden md:block max-w-screen-xl container rounded block items-stretch md:flex-row  bg-[#f3f3f3] mt-[150px] mx-auto">
-        <div className="w-full">
+       <div className="flex flex-col shadow-lg  hidden md:block max-w-screen-xl  rounded block  md:flex-row  bg-[#f3f3f3] mt-[150px] mx-auto">
+        <div className="w-full ">
           <ul
             className="flex mb-0 ml-2 mr-2 list-none flex-wrap pt-1 pb-2 flex-row"
             role="tablist"
@@ -229,7 +229,7 @@ const Hero = ({ color }) => {
      
 
 
-      <div className="flex flex-col mb-2  sm:hidden flex flex-1  justify-top items-center    mt-[133px] mx-auto">
+      <div className="flex flex-col mb-2  sm:hidden flex flex-1 shadow-lg justify-top items-center    mt-[133px] mx-auto">
         <div className="w-full bg-[#f3f3f3] rounded block">
           <ul
             className="flex mb-0 ml-2 mr-2 list-none flex-wrap pt-1 pb-2 flex-row"

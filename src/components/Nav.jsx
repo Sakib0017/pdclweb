@@ -44,17 +44,17 @@ const Nav = () => {
   return (
     <>
    
-  <nav className={`${styles.paddingX} border-b-[1px]  border-gray-900/20  w-full fixed h-[40px] top-0 z-20 flex flex-col items-center  bg-[#f3f3f3]`} >
+  <nav className={`${styles.paddingX}shadow-lg   w-full fixed h-[40px] top-0 z-20 flex flex-col items-center  bg-[#f3f3f3]`} >
   <div className="w-full h-[40px]  flex flex-wrap items-center   justify-between max-w-7xl text-[#006642] " >
   <div className="flex flex-col items-start  justify-start me-auto">
       
       <a href=""> 
       
-       <p onClick={() => navigate('/')} className="text-[#006642] justify-center items-start text-[12px] font-medium  font-ubuntu">
+       <p onClick={() => navigate('/')} className="text-[#006642] pl-2 justify-center items-start text-[12px] font-medium  font-ubuntu">
         <span className="text-[16px] items-start font-ubuntu font-bold justify-start">✆10636</span>-Dhanmondi </p></a> 
         <Popover placement="bottom">
           <PopoverHandler>
-          <Link > <a> <p className="text-[#006642]  cursor-pointer justify-start items-start text-[10px] font-medium  font-ubuntu">OTHER BRANCHES 》</p></a></Link>
+          <Link > <a> <p className="text-[#006642] pl-2 cursor-pointer justify-start items-start text-[10px] font-medium  font-ubuntu">OTHER BRANCHES 》</p></a></Link>
         </PopoverHandler>
           <PopoverContent className="mt-[70px]">
            <Link to="/details"><a  href=""> <p className="text-[#006642] cursor-pointer justify-center items-center text-[12px] p-2  font-ubuntu">Dhanmondi(09666 787801)</p></a></Link>

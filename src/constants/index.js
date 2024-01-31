@@ -7,10 +7,17 @@ import {
   printer,
   medical,
   celebrating,
+  Hepa,
+  Gast,
+  Color,
+  Hepat,
+  Gener,
+  Inte,
+  Med,
   consalt,
   diag,
   office,
-  
+  Inter,
   crowd,
   akn,
   dhan,
@@ -232,9 +239,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "HEALTH DIAGNOSIS",
+    name: "Interventional Cardiology",
     description:
-      "Ambulance BD 24 is the best ambulance service in Dhaka, Bangladesh. We provide emergency ambulance service in Dhaka city and transport patient.",
+      "We believe you deserve nothing less than the very best in cardiovascular care. That is why pdcl ha .... ",
       tags: [
         {
           name: "Incity",
@@ -249,13 +256,13 @@ const projects = [
           color: "pink-text-gradient",
         },
       ],
-    image: diag,
+    icon: Inter,
     source_code_link: "http://populardiagnostic.com/",
   },
   {
-    name: "HEALTH CONSULTATION",
+    name: "Medicine",
     description:
-      "Blood Bank Management System  Management System (BBMS) under Safe Blood Transfusion Program, HSM, DGHS. Blood Transfusion Transfusion Program, HSM, DGHS.",
+      "Our department embodies excellence, inspiration and empowerment in caring for the patients. Staff of .... ",
     tags: [
       {
         name: "Incity",
@@ -270,13 +277,13 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: consalt,
+    icon: Med,
     source_code_link: "http://populardiagnostic.com/",
   },
   {
-    name: "HEALTH PAKAGES",
+    name: "Internal Medicine",
     description:
-      "We believe everyone should have access to convenient, affordable, and high-quality healthcare. Our health checks and packages help you stay on top of your ",
+      "A Comprehensive Internal Medicine Center become operational at the aim to provide an International s .... ",
       tags: [
         {
           name: "Incity",
@@ -291,7 +298,112 @@ const projects = [
           color: "pink-text-gradient",
         },
       ],
-    image: tripguide,
+    icon: Inte,
+    source_code_link: "http://populardiagnostic.com/",
+  },
+  {
+    name: "Hepatology",
+    description:
+      "Our liver specialists or hepatologists have been at the forefront of groundbreaking advances in the .... ",
+      tags: [
+        {
+          name: "Incity",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Outsidecity",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Abrod",
+          color: "pink-text-gradient",
+        },
+      ],
+    icon: Hepa,
+    source_code_link: "http://populardiagnostic.com/",
+  },
+  {
+    name: "Gastroenterology",
+    description:
+      "Department of Gastroenterology and Hepatology is devoted to the clinical care of patients with gastr .... ",
+    tags: [
+      {
+        name: "Incity",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Outsidecity",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Abrod",
+        color: "pink-text-gradient",
+      },
+    ],
+    icon: Gast,
+    source_code_link: "http://populardiagnostic.com/",
+  },
+  {
+    name: "General And Laparoscopic Surgery",
+    description:
+      "The department of general surgery is well equipped with the latest technology and facilities, and is .... ",
+      tags: [
+        {
+          name: "Incity",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Outsidecity",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Abrod",
+          color: "pink-text-gradient",
+        },
+      ],
+    icon: Gener,
+    source_code_link: "http://populardiagnostic.com/",
+  },
+  {
+    name: "Colorectal Surgery",
+    description:
+      "Colorectal surgery is a medical operation that is performed on the colon, rectum and anus. Colorecta ....",
+    tags: [
+      {
+        name: "Incity",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Outsidecity",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Abrod",
+        color: "pink-text-gradient",
+      },
+    ],
+    icon: Color,
+    source_code_link: "http://populardiagnostic.com/",
+  },
+  {
+    name: "Hepatobiliary Surgery",
+    description:
+      "pdcl Department of Hepatobiliary Surgery consists of experienced surgeons and anesthetic team who .... ",
+      tags: [
+        {
+          name: "Incity",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Outsidecity",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Abrod",
+          color: "pink-text-gradient",
+        },
+      ],
+    icon: Hepat,
     source_code_link: "http://populardiagnostic.com/",
   },
 ];

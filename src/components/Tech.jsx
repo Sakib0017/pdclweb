@@ -9,7 +9,7 @@ const Tech = () => {
     <>
     
     <footer className="flex flex-row flex-wrap mt-10  justify-center gap-10">
-    <div className="bg-[#f3f3f3]  opacity-90 mx-auto w-full ">
+    <div className="bg-[#f3f3f3]  shadow-lg  opacity-90 mx-auto w-full ">
       <div className=' flex mx-auto p-3 justify-evenly max-w-screen-xl flex-wrap '>
         <div className=' '>
             <h2 className="mb-6 text-[18px] font-bold font-ubuntu text-[#006642] uppercase dark:text-[#006642]">Contact Us</h2>
@@ -74,10 +74,10 @@ const Tech = () => {
         </div>
         
     </div>
-    <img src={img} className="flex mt-4 p-5 sm:justify-center w-full max-w-7xl mx-auto "/>
-    <div className="bg-[#d5e7d9]  px-4 py-6 mt-5 md:flex md:items-center md:justify-between ">
+    <img src={img} className="flex mt-4 p-5  sm:justify-center w-full max-w-7xl mx-auto "/>
+    <div className="bg-[#d5e7d9] shadow-lg  px-4 py-6 mt-5 md:flex md:items-center md:justify-between ">
         
-        <div className="flex mt-4 sm:justify-center  md:mt-0 space-x-5 rtl:space-x-reverse max-w-7xl mx-auto">
+        <div className="flex  mt-4 sm:justify-center  md:mt-0 space-x-5 rtl:space-x-reverse max-w-7xl mx-auto">
         <span className="text-sm text-[#006642] font-ubuntu dark:text-[#006642] sm:text-center me-auto">© 2024 <a href="https://flowbite.com/">PDCL Corporate</a>
         </span>
             

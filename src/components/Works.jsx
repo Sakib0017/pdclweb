@@ -12,16 +12,16 @@ const ProjectCard = ({
   name,
   description,
   tags,
-  image,
+  icon,
 }) => {
   return (
     
       <div
-        className='bg-[#f3f3f3]  sm:w-[360px] w-full'
+        className='bg-[#ffffff] m-2 h-[275px] sm:w-[271px] w-full'
       >
-        <div className='relative w-full h-[200px]'>
+        <div className='relative w-[60px]  ml-5  h-[60px]'>
           <img
-            src={image}
+            src={icon}
             alt='project_image'
             className='w-full h-full object-cover opacity-80 '
           />
@@ -31,11 +31,7 @@ const ProjectCard = ({
               onClick={() => window.open(source_code_link, "_blank")}
               className='green-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
             >
-              <img
-                src={logo}
-                alt='source code'
-                className='w-1/2 h-1/2 object-contain '
-              />
+              
             </div>
           </div>
         </div>
@@ -45,16 +41,7 @@ const ProjectCard = ({
           <p className='mt-2 text-[#006642] text-[14px]'>{description}</p>
         </div>
 
-        <div className=' p-5 flex flex-wrap gap-2'>
-          {tags.map((tag) => (
-            <p
-              key={`${name}-${tag.name}`}
-              className={`text-[14px] ${tag.color}`}
-            >
-              #{tag.name}
-            </p>
-          ))}
-        </div>
+       
       </div>
    
   );
@@ -65,7 +52,7 @@ const Works = () => {
   
   return (
     <>
-    <div className="flex flex-row flex-wrap mb-10 gap-10">
+    <div className="flex flex-row flex-wrap mb-10 gap-10 shadow-lg p-5 rounded-[5px]">
     <div className="bg-[#ffffff] mx-auto w-full ">
       <div className="flex flex-row  flex-wrap max-w-screen-xl mx-auto  ">
        <div className="w-[480px]  border-l-[5px]  border-[#006642] border-opacity-50 pl-2  text-start ml-3">
@@ -97,48 +84,19 @@ const Works = () => {
         </div> 
       </div>
       
-    <div className="container">
-    <h2 className='text-gray-900/50 pb-2 text-start pl-2 text-[28px] font-bold font-ubuntu'>FEATURED CARE AREAS</h2>
-       <div className='bg-[#f3f3f3] max-w-7xl  flex flex-wrap'>
-       <div className=' text-start '>
-       <img
-            src={tripguide}
-            alt='project_image'
-            className='xs:w-[480px] w-full h-[275px] '
-          />
-         
-        </div>
-        <div className='flex flex-wrap items-start p-5 justify-center'>
-
-        <div className="flex flex-col items-start">
-            <h6 className="text-[#006642] font-small font-ubuntu text-[30px]">Heart Health</h6>
-              <p className="text-[#006642]  font-small font-ubuntu text-[14px]">
-              Keeping your heart healthy is essential for overall good health. Learn how you can take <br></br>
-              of it to benefit you in the long run Keeping your heart healthy is essential for overall<br></br>
-              good health. Learn how you can take care of it to benefit you in the long run... <br></br>
-              
-              </p>
-          </div>
-      
-        </div>
-        
-      </div>
-      <a href="/"><p className='text-[#006642] pt-2 text-end mb-10 pr-2 text-[20px]  font-ubuntu'>View More.....</p></a>
-      </div>
-      
- 
-        <h2 className='text-[green] text-center text-[40px] font-bold'>Our Services</h2>
-        <hr className="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700"></hr>
+    
+ <h2 className='text-gray-900/50  text-start mb-10 text-[28px] font-bold font-ubuntu'>FEATURED CARE SERVICE AREAS</h2>
+     
     
 
       
 
-      <div className='mt-5 flex flex-wrap gap-7'>
+      <div className=' flex flex-wrap shadow-lg rounded-[5px]'>
         {projects.map((project, index) => (
-          <ProjectCard key={`project-${index}`} index={index} {...project} />
-        ))}
+          <div className="border-r-[1px] border-b-[1px]  border-gray-200/90">
+          <ProjectCard  key={`project-${index}`} index={index} {...project} />
+          </div> ))}
       </div>
-      <a href="/"><p className='text-[#006642] pt-1 text-end pr-2 text-[20px]  font-ubuntu'>View More.....</p></a>
       
 
 
