@@ -62,7 +62,7 @@ const Navbar = () => {
          
          <div className="flex flex-col  items-center  justify-center me-auto ">
         
-         <Link to="/login" ><p onClick={() => navigate('/')} className="text-[#006642]  items-center flex flex-row text-[12px] mx-auto  font-ubuntu"> 
+         <Link to="/login" ><p onClick={() => navigate('/')} className="text-[#006642]  items-center flex flex-row text-[12px] mx-auto font-bold font-ubuntu"> 
            
              
            <a href=""><span className="pl-1 text-[14px] hidden md:block">PATAINT PORTAL</span></a></p></Link>
@@ -79,7 +79,7 @@ const Navbar = () => {
          <div className="flex flex-row  ">
          
          
-         <Link to="/health">      <p className="text-[#006642]  items-center flex flex-row text-[12px] ms-0 me-1  font-ubuntu"> 
+         <Link to="/health">      <p className="text-[#006642]  items-center flex flex-row text-[12px] ms-0 me-1 font-bold font-ubuntu"> 
            
             
            
@@ -96,7 +96,7 @@ const Navbar = () => {
          
         
                        
-         <Link to="/modal">  <p className="text-[#006642]  items-center flex flex-row text-[12px] ms-0 me-1  font-ubuntu"> 
+         <Link to="/modal">  <p className="text-[#006642]  items-center flex flex-row text-[12px] ms-0 me-1 font-bold font-ubuntu"> 
           
              
                  <a href=""> <span className="pl-1 text-[14px] hidden md:block">BRANCHES & SERVICES</span></a></p>
@@ -110,7 +110,7 @@ const Navbar = () => {
             
          <div className="flex flex-row  ">
         
-           <Link to="/notice"><p className="text-[#006642]  items-center flex flex-row text-[12px] ms-0 me-1  font-ubuntu"> 
+           <Link to="/notice"><p className="text-[#006642]  items-center flex flex-row text-[12px] ms-0 me-1 font-bold font-ubuntu"> 
          
            <a href=""><span className="pl-1  text-[14px] hidden md:block">NOTICES</span></a></p>
            </Link>         
@@ -123,7 +123,7 @@ const Navbar = () => {
             
             <div className="flex flex-row  ">
            
-              <Link to="/contact"><p className="text-[#006642]  items-center flex flex-row text-[12px] ms-0 me-1  font-ubuntu"> 
+              <Link to="/contact"><p className="text-[#006642]  items-center flex flex-row text-[12px] ms-0 me-1 font-bold font-ubuntu"> 
             
               <a href=""><span className="pl-1  text-[14px] hidden md:block">CONTACT US</span></a></p>
               </Link>         
@@ -144,7 +144,7 @@ const Navbar = () => {
       <svg className="w-[20px] h-[20px] text-[#006642] hover:text-[#000000]" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 16">
               <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/> <path  d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" clip-rule="evenodd"/>
               </svg>
-              <span className="text-[#006642] hover:text-[#000000] text-[13px] ms-0 mx-auto  font-ubuntu">My Account</span>
+              <span className="text-[#006642] hover:text-[#000000] text-[13px] ms-0 mx-auto  font-bold font-ubuntu">My Account</span>
       </p>
       </PopoverHandler>
           <PopoverContent>
@@ -152,13 +152,13 @@ const Navbar = () => {
       <svg className="w-[20px] h-[20px] text-[#006642] hover:text-[#000000]" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 16">
               <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/> <path  d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" clip-rule="evenodd"/>
               </svg>
-              <span className="text-[#006642] hover:text-[#000000] text-[13px] ms-0 mx-auto  font-ubuntu">Login</span>
+              <span className="text-[#006642] hover:text-[#000000] text-[13px] ms-0 mx-auto  font-bold font-ubuntu">Login</span>
       </p></Link><br />
       <Link to="/sign"><p type="button" data-dropdown-toggle="language-dropdown-menu" className="ms-auto inline-flex items-center font-ubuntu justify-center px-4 py-2 text-sm  rounded-lg cursor-pointer">
       <svg className="w-[20px] h-[20px] text-[#006642] hover:text-[#000000]" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 16">
               <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/> <path  d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" clip-rule="evenodd"/>
               </svg>
-              <span className="text-[#006642] hover:text-[#000000] text-[13px] ms-0 mx-auto  font-ubuntu">Register</span>
+              <span className="text-[#006642] hover:text-[#000000] text-[13px] ms-0 mx-auto font-bold font-ubuntu">Register</span>
       </p></Link>
            </PopoverContent>
         </Popover>
