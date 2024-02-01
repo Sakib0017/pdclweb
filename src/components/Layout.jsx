@@ -5,7 +5,7 @@ function Layout() {
   return (
     <div className="bg-white">
         
-      {/*<Nav />*/}
+      <Nav />
      
       
       <Navbar />

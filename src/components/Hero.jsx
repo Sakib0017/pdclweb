@@ -242,7 +242,7 @@ const Hero = ({ color }) => {
             <li className="-mb-px mr-2 last:mr-0 flex-auto text-center">
               <a
                 className={
-                  "text-xs font-ubuntu uppercase px-1 py-3  shadow-lg rounded block leading-normal " +
+                  "text-xs font-ubuntu uppercase px-2 py-3  shadow-lg rounded block leading-normal " +
                   (openTab === 1
                     ? "text-[#006642] bg-" + color + "-600"
                     : "text-" + color + "-600 bg-[#006642] ")
@@ -261,7 +261,7 @@ const Hero = ({ color }) => {
             <li className="-mb-px mr-2 last:mr-0 flex-auto text-center">
               <a
                 className={
-                  "text-xs font-ubuntu uppercase px-1 py-3 shadow-lg rounded block leading-normal " +
+                  "text-xs font-ubuntu uppercase px-2 py-3 shadow-lg rounded block leading-normal " +
                   (openTab === 2
                     ? "text-[#006642] bg-" + color + "-600"
                     : "text-" + color + "-600 bg-[#006642]")
@@ -280,7 +280,7 @@ const Hero = ({ color }) => {
             <li className="-mb-px mr-2 last:mr-0 flex-auto text-center">
               <a
                 className={
-                  "text-xs font-ubuntu uppercase px-1 py-3 shadow-lg rounded block leading-normal " +
+                  "text-xs font-ubuntu uppercase px-2 py-3 shadow-lg rounded block leading-normal " +
                   (openTab === 3
                     ? "text-[#006642] bg-" + color + "-600"
                     : "text-" + color + "-600 bg-[#006642]")

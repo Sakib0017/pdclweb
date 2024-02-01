@@ -34,7 +34,7 @@ const Navbar = () => {
     <>
    
 
-  <nav className={`${styles.paddingX} w-full  flex items-center shadow-lg fixed top-[0px] z-20 bg-white`} >
+  <nav className={`${styles.paddingX} w-full  flex items-center shadow-lg fixed top-[25px] z-20 bg-white`} >
   
   
   <div className="w-full h-[80px] flex flex-wrap justify-between max-w-7xl text-[#006642]  mx-auto" >
