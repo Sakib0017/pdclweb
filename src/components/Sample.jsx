@@ -12,7 +12,7 @@ function Sample() {
   return (
     <div className='bg-[#e2f0e5] p-3'>
     <div className=' pt-0'>
-    <Card className="w-full max-w-[40rem]  mx-auto flex-col">
+    <Card className="w-full max-w-[40rem] p-3 mx-auto flex-col">
       <CardBody
         shadow={false}
         floated={false}
@@ -33,7 +33,7 @@ function Sample() {
 
 
     <div className='bg-[#e2f0e5] pt-3 pb-3'>
-    <Card className="w-full max-w-[40rem]  mx-auto flex-col">
+    <Card className="w-full max-w-[40rem] p-3 mx-auto flex-col">
       <CardBody
         shadow={false}
         floated={false}
@@ -50,7 +50,7 @@ This is a required question</p>
     </div>
 
     <div className='bg-[#e2f0e5]  pb-3'>
-    <Card className="w-full max-w-[40rem]  mx-auto flex-col">
+    <Card className="w-full max-w-[40rem] p-3 mx-auto flex-col">
       <CardBody
         shadow={false}
         floated={false}
@@ -67,7 +67,7 @@ This is a required question</p>
     </div>
 
     <div className='bg-[#e2f0e5] pb-3'>
-    <Card className="w-full max-w-[40rem]  mx-auto flex-col">
+    <Card className="w-full max-w-[40rem] p-3 mx-auto flex-col">
       <CardBody
         shadow={false}
         floated={false}
@@ -84,7 +84,7 @@ This is a required question</p>
 
 
     <div className='bg-[#e2f0e5] pt-3 '>
-    <Card className="w-full max-w-[40rem]  mx-auto flex-col">
+    <Card className="w-full max-w-[40rem] p-3 mx-auto flex-col">
       <CardBody
         shadow={false}
         floated={false}
@@ -102,7 +102,7 @@ This is a optional question</p>
     </div>
     </div>
     <div className='bg-[#e2f0e5]  '>
-    <Card className="w-full max-w-[40rem]  mx-auto flex-col">
+    <Card className="w-full max-w-[40rem] p-3 mx-auto flex-col">
       <CardBody
         shadow={false}
         floated={false}
@@ -119,7 +119,7 @@ This is a required question</p>
     </div>
    
     <div className='bg-[#e2f0e5] pt-3 pb-3'>
-    <Card className="w-full max-w-[40rem]  mx-auto flex-col">
+    <Card className="w-full max-w-[40rem] p-3 mx-auto flex-col">
       <CardBody
         shadow={false}
         floated={false}

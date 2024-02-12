@@ -27,7 +27,7 @@ function Sign() {
     
       
        <div className='absolute w-full h-full  top-0 left-0 bg-gray-900/50'></div>
-    <div className={`${styles.paddingX} absolute h-auto w-[400px] h-auto inset-0 justify-center bg-white items-center mx-auto  text-center flex flex-col text-[#006642]`}>
+    <div className={`${styles.paddingX} absolute  w-[400px] h-auto inset-0 justify-center bg-white items-center mx-auto  text-center flex flex-col text-[#006642]`}>
     <Card color="transparent" shadow={false}>
     <Link to="/" ><img src={logo} className='w-[50px] h-[50px] mx-auto' /></Link>
       <Typography variant="h4" color="blue-gray">

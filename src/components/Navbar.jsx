@@ -37,9 +37,9 @@ const Navbar = () => {
   <nav className={`${styles.paddingX} w-full  flex items-center shadow fixed top-[25px] z-20 bg-white`} >
   
   
-  <div className="w-full h-[70px] flex flex-wrap justify-between max-w-7xl text-[#006642]  mx-auto" >
+  <div className="w-full h-[60px] flex flex-wrap justify-between max-w-7xl text-[#006642]  mx-auto" >
     
-  <div className="w-full h-[70px]  flex flex-row max-w-7xl justify-between  items-center  mx-auto">
+  <div className="w-full h-[60px]  flex flex-row max-w-7xl justify-between  items-center  mx-auto">
      <Link to="/" className="flex items-center  gap-0" onClick={() => {setActive(""); window.scrollTo(0, 0);}}>
           <img src={logo} alt="logo" className="w-[30px] h-[30px] bg-none object-contain" />
           

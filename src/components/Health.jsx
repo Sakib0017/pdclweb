@@ -25,14 +25,21 @@ function Health() {
       
      <Navbar />
      <div className={`inset-0 justify-center items-center  text-center flex flex-wrap  text-white`}>
-       <div className="flex flex-wrap  max-w-screen-xl container rounded block items-stretch md:flex-wrap   mt-[150px] mx-auto">
+       <div className=" flex-wrap  max-w-screen-xl container rounded block items-stretch md:flex-wrap   mt-[150px] mx-auto">
        <div className="flex flex-col">
-     <div className="h-full w-full p-2">
-        <img  src={hea1} />
-     </div>
-     <div className="h-full w-full p-2">
-        <img src={hea2} />
-     </div>
+       <form className="max-w-screen-xl  items-center justify-center">
+  <div className="grid md:grid-cols-3   md:gap-1">
+    <p className="text-black text-center">fdrgdrhgftrhytgjuyi</p>
+    <p className="text-black text-center">fdrgdrhgftrhytgjuyi</p>
+    <p className="text-black text-center">fdrgdrhgftrhytgjuyi</p>
+  </div>
+  <div className="grid md:grid-cols-3   md:gap-1">
+    <p className="text-black text-center">fdrgdrhgftrhytgjuyi</p>
+    <p className="text-black text-center">fdrgdrhgftrhytgjuyi</p>
+    <p className="text-black text-center">fdrgdrhgftrhytgjuyi</p>
+  </div>
+  
+</form>
      </div>      
      </div>    
      </div>

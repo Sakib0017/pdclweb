@@ -69,7 +69,7 @@ function Report() {
                 <Typography
                   variant="bold"
                   color="blue-gray"
-                  className="font-normal font-bold font-ubuntu leading-none opacity-70"
+                  className=" font-bold font-ubuntu leading-none opacity-70"
                 >
                   {head}
                 </Typography>

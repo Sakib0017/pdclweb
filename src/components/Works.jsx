@@ -48,7 +48,7 @@ const ProjectCard = ({
           <p className='mt-2 text-[#006642] font-ubuntu p-2 text-[14px]'>{description}</p>
         </div>
 
-        <div className='mt-0 p-5 flex font-ubuntu flex-wrap p-2 gap-2'>
+        <div className='mt-0 p-5 flex font-ubuntu flex-wrap  gap-2'>
           {tags.map((tag) => (
             <p
               key={`${name}-${tag.name}`}

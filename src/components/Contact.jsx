@@ -24,7 +24,7 @@ function Contact() {
       
      <Navbar />
      <div className={`justify-center  items-center p-2 text-center flex flex-col  text-white`}>
-       <div className="flex flex-col mt-[200px] max-w-7xl container rounded block items-stretch md:flex-row    mx-auto">
+       <div className=" flex-col mt-[200px] max-w-7xl container rounded block items-stretch md:flex-row    mx-auto">
        <Card color="transparent" className="mx-auto w-full max-w-7xl" shadow={true}>
    
 
@@ -94,7 +94,7 @@ function Contact() {
        
        
        
-       <div className="flex flex-col  max-w-screen-xl container rounded block items-stretch md:flex-row  mt-[20px] mx-auto">
+       <div className="flex-col  max-w-screen-xl container rounded block items-stretch md:flex-row  mt-[20px] mx-auto">
        
        
        
