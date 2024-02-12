@@ -21,7 +21,9 @@ import {
   crowd,
   akn,
   dhan,
-
+  diagn,
+  cons,
+  pakages,
   home,
   about,
   branch,
@@ -251,12 +253,9 @@ const projects = [
           name: "Outsidecity",
           color: "green-text-gradient",
         },
-        {
-          name: "Abrod",
-          color: "pink-text-gradient",
-        },
+        
       ],
-    image: diag,
+    video: diagn,
     source_code_link: "http://populardiagnostic.com/",
   },
   {
@@ -272,12 +271,9 @@ const projects = [
         name: "Outsidecity",
         color: "green-text-gradient",
       },
-      {
-        name: "Abrod",
-        color: "pink-text-gradient",
-      },
+      
     ],
-    image: consalt,
+    video: cons,
     source_code_link: "http://populardiagnostic.com/",
   },
   {
@@ -293,12 +289,9 @@ const projects = [
           name: "Outsidecity",
           color: "green-text-gradient",
         },
-        {
-          name: "Abrod",
-          color: "pink-text-gradient",
-        },
+        
       ],
-    image: tripguide,
+    video: pakages,
     source_code_link: "http://populardiagnostic.com/",
   },
 ];

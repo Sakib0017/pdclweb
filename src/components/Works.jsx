@@ -13,20 +13,20 @@ const ProjectCard = ({
   name,
   description,
   tags,
-  image,
+  video,
   source_code_link,
 }) => {
   return (
-    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
+    <div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
       <div
        
         className='bg-[#ffffff] shadow-lg p-0  sm:w-[360px] w-full'
       >
         <div className='relative w-full h-[230px]'>
-          <img
-            src={image}
-            alt='project_image'
-            className='w-full h-[200px] object-cover opacity-95'
+          <video
+            src={video}
+            alt='project_image' 
+            className='w-full h-[200px] object-cover opacity-95' autoPlay loop muted
           />
 
           <div className='absolute inset-0 flex justify-end p-3 card-img_hover'>
@@ -59,7 +59,7 @@ const ProjectCard = ({
           ))}
         </div>
       </div>
-    </motion.div>
+    </div>
   );
 };
 

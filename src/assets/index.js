@@ -69,8 +69,14 @@ import Gener from "./Gener.png";
 import Color from "./Color.png";
 import Hepat from "./Hepat.png";
 import back from "./back.jpg";
+import pakages from "./pakages.mp4";
+import cons from "./cons.mp4";
+import diagn from "./diag.mp4";
 export {
   logo,
+  pakages,
+  cons,
+  diagn,
   backend,
   back,
   Color,

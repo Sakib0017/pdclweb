@@ -24,8 +24,8 @@ function Contact() {
       
      <Navbar />
      <div className={`justify-center  items-center p-2 text-center flex flex-col  text-white`}>
-       <div className="flex flex-col mt-[200px] max-w-7xl container rounded block items-stretch md:flex-row  bg-[#f3f3f3]  mx-auto">
-       <Card color="transparent" className="mx-auto w-full max-w-7xl" shadow={false}>
+       <div className="flex flex-col mt-[200px] max-w-7xl container rounded block items-stretch md:flex-row    mx-auto">
+       <Card color="transparent" className="mx-auto w-full max-w-7xl" shadow={true}>
    
 
       <form className="mt-8 mb-2 w-full p-5 max-w-7xl  sm:w-300">
@@ -120,12 +120,7 @@ function Contact() {
             </div>
             </div>
             <div>
-            <div className=' mx-auto p-2 '>
-            
-            <h5 className='text-[44px] text-center p-5 font-ubuntu font-bold text-[#006642]'>HOT LINE : 10636</h5>   
-            <p className='text-[30px] text-center font-ubuntu text-[#006642]'>info@populardiagnostic.com</p>
-            <p className='text-[30px] text-center font-ubuntu text-[#006642]'>House #16, Road # 2, Dhanmondi R/A, Dhaka-1205, Bangladesh</p>
-          </div>
+           
             </div>
      <Tech />
 

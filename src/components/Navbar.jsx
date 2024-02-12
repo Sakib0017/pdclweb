@@ -34,14 +34,14 @@ const Navbar = () => {
     <>
    
 
-  <nav className={`${styles.paddingX} w-full  flex items-center shadow-lg fixed top-[25px] z-20 bg-white`} >
+  <nav className={`${styles.paddingX} w-full  flex items-center shadow fixed top-[25px] z-20 bg-white`} >
   
   
-  <div className="w-full h-[80px] flex flex-wrap justify-between max-w-7xl text-[#006642]  mx-auto" >
+  <div className="w-full h-[70px] flex flex-wrap justify-between max-w-7xl text-[#006642]  mx-auto" >
     
-  <div className="w-full h-[80px]  flex flex-row max-w-7xl justify-between  items-center  mx-auto">
-     <Link to="/" className="flex items-center  gap-2" onClick={() => {setActive(""); window.scrollTo(0, 0);}}>
-          <img src={logo} alt="logo" className="w-[50px] h-[50px] bg-none object-contain" />
+  <div className="w-full h-[70px]  flex flex-row max-w-7xl justify-between  items-center  mx-auto">
+     <Link to="/" className="flex items-center  gap-0" onClick={() => {setActive(""); window.scrollTo(0, 0);}}>
+          <img src={logo} alt="logo" className="w-[30px] h-[30px] bg-none object-contain" />
           
         </Link>
        {/* <div className=" mt-[-50px] ml-[50px] p-1  text-center h-[55px] w-[80px] rounded-br-[20px]  rounded-bl-[20px]  bg-[#006642]">
@@ -55,17 +55,17 @@ const Navbar = () => {
   </div> */}
         <ul className="list-none  hidden sm:flex mx-auto flex-row gap-1">
         <li className="flex mr-4  flex-row justify-center items-center">
+        <div className="flex flex-row  ">
          
-         <div className="flex flex-col  items-center  justify-center me-auto ">
-        
-         <Link to="/login" ><p onClick={() => navigate('/')} className="text-[#006642]  items-center flex flex-row text-[16px] mx-auto font-medium font-ubuntu"> 
+         
+         <Link to="/login">      <p className="text-[#006642]  items-center flex flex-row text-[16px] ms-0 me-1 font-medium font-ubuntu"> 
            
-             
-           <a href=""><span className="pl-1 text-[16px] font-medium font-ubuntu hidden md:block">PATAINT PORTAL</span></a></p></Link>
-                       
-                       
-   
+            
+           
+           <a href=""> <span className="pl-1 text-[16px] font-bold font-ubuntu hidden md:block">Pataint Portal</span></a></p>
+                 </Link>
            </div>
+         
            
            </li>
    
@@ -79,7 +79,7 @@ const Navbar = () => {
            
             
            
-           <a href=""> <span className="pl-1 text-[16px] font-medium font-ubuntu hidden md:block">HEALTH PAKAGES</span></a></p>
+           <a href=""> <span className="pl-1 text-[16px] font-bold font-ubuntu hidden md:block">Pakages</span></a></p>
                  </Link>
            </div>
            
@@ -95,7 +95,7 @@ const Navbar = () => {
          <Link to="/modal">  <p className="text-[#006642]  items-center flex flex-row text-[16px] ms-0 me-1 font-medium font-ubuntu"> 
           
              
-                 <a href=""> <span className="pl-1 text-[16px] font-medium font-ubuntu hidden md:block">BRANCHES & SERVICES</span></a></p>
+                 <a href=""> <span className="pl-1 text-[16px] font-bold font-ubuntu hidden md:block">Branchs</span></a></p>
                  </Link>
            </div>
            
@@ -108,7 +108,7 @@ const Navbar = () => {
         
            <Link to="/notice"><p className="text-[#006642]  items-center flex flex-row text-[16px] ms-0 me-1 font-medium font-ubuntu"> 
          
-           <a href=""><span className="pl-1  text-[16px] font-medium font-ubuntu hidden md:block">NOTICES</span></a></p>
+           <a href=""><span className="pl-1  text-[16px] font-bold font-ubuntu hidden md:block">Notices</span></a></p>
            </Link>         
                        
    
@@ -121,7 +121,7 @@ const Navbar = () => {
            
               <Link to="/contact"><p className="text-[#006642]  items-center flex flex-row text-[16px] ms-0 me-1 font-medium font-ubuntu"> 
             
-              <a href=""><span className="pl-1  text-[16px] font-medium font-ubuntu hidden md:block">CONTACT</span></a></p>
+              <a href=""><span className="pl-1  text-[16px] font-bold font-ubuntu hidden md:block">Contact</span></a></p>
               </Link>         
                           
       
@@ -134,7 +134,7 @@ const Navbar = () => {
            
               <Link to="/about"><p className="text-[#006642]  items-center flex flex-row text-[16px] ms-0 me-1 font-medium font-ubuntu"> 
             
-              <a href=""><span className="pl-1  text-[16px] font-medium font-ubuntu hidden md:block">ABOUT US</span></a></p>
+              <a href=""><span className="pl-1  text-[16px] font-bold font-ubuntu hidden md:block">About Us</span></a></p>
               </Link>         
                           
       
@@ -144,28 +144,33 @@ const Navbar = () => {
             
         </ul>
         
-        <div className="flex items-center hidden md:block md:order-2 space-x-1 md:space-x-0 rtl:space-x-reverse">
+        <div className=" items-end hidden md:block md:order-2 ">
       
       <Popover placement="bottom">
           <PopoverHandler>
-          <p type="button" data-dropdown-toggle="language-dropdown-menu" className="ms-auto inline-flex items-center font-ubuntu justify-center px-4 py-2 text-sm  rounded-lg cursor-pointer">
-      <svg className="w-[25px] h-[25px] text-[#006642] hover:text-[#000000]" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 16">
-              <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/> <path  d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" clip-rule="evenodd"/>
-              </svg>
-              <span className="text-[#006642] hover:text-[#000000] text-[16px] ms-0 mx-auto  font-medium font-ubuntu">My Account</span>
+          <p type="button" data-dropdown-toggle="language-dropdown-menu" className="ms-auto inline-flex items-end font-ubuntu justify-end text-sm  rounded-lg cursor-pointer">
+          <svg class="w-[20px] h-[20px] fill-[#006642] p-0" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+
+<path d="M224 256A128 128 0 1 1 224 0a128 128 0 1 1 0 256zM209.1 359.2l-18.6-31c-6.4-10.7 1.3-24.2 13.7-24.2H224h19.7c12.4 0 20.1 13.6 13.7 24.2l-18.6 31 33.4 123.9 36-146.9c2-8.1 9.8-13.4 17.9-11.3c70.1 17.6 121.9 81 121.9 156.4c0 17-13.8 30.7-30.7 30.7H285.5c-2.1 0-4-.4-5.8-1.1l.3 1.1H168l.3-1.1c-1.8 .7-3.8 1.1-5.8 1.1H30.7C13.8 512 0 498.2 0 481.3c0-75.5 51.9-138.9 121.9-156.4c8.1-2 15.9 3.3 17.9 11.3l36 146.9 33.4-123.9z"></path>
+
+</svg>
       </p>
       </PopoverHandler>
           <PopoverContent className="mt-[24px]">
          <Link to="/login"> <p type="button" data-dropdown-toggle="language-dropdown-menu" className="ms-auto inline-flex items-center font-ubuntu justify-center px-4 py-2 text-sm  rounded-lg cursor-pointer">
-      <svg className="w-[20px] h-[20px] text-[#006642] hover:text-[#000000]" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 16">
-              <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/> <path  d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" clip-rule="evenodd"/>
-              </svg>
+         <svg class="w-[25px] h-[25px] fill-[#006642] p-1" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+
+<path d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-45.7 48C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512H418.3c16.4 0 29.7-13.3 29.7-29.7C448 383.8 368.2 304 269.7 304H178.3z"></path>
+
+</svg>
               <span className="text-[#006642] hover:text-[#000000] text-[13px] ms-0 mx-auto  font-bold font-ubuntu">Login</span>
       </p></Link><br />
       <Link to="/sign"><p type="button" data-dropdown-toggle="language-dropdown-menu" className="ms-auto inline-flex items-center font-ubuntu justify-center px-4 py-2 text-sm  rounded-lg cursor-pointer">
-      <svg className="w-[20px] h-[20px] text-[#006642] hover:text-[#000000]" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 16">
-              <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/> <path  d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" clip-rule="evenodd"/>
-              </svg>
+      <svg class="w-[25px] h-[25px] fill-[#006642] p-1" viewBox="0 0 640 512" xmlns="http://www.w3.org/2000/svg">
+
+  <path d="M96 128a128 128 0 1 1 256 0A128 128 0 1 1 96 128zM0 482.3C0 383.8 79.8 304 178.3 304h91.4C368.2 304 448 383.8 448 482.3c0 16.4-13.3 29.7-29.7 29.7H29.7C13.3 512 0 498.7 0 482.3zM504 312V248H440c-13.3 0-24-10.7-24-24s10.7-24 24-24h64V136c0-13.3 10.7-24 24-24s24 10.7 24 24v64h64c13.3 0 24 10.7 24 24s-10.7 24-24 24H552v64c0 13.3-10.7 24-24 24s-24-10.7-24-24z"></path>
+
+</svg>
               <span className="text-[#006642] hover:text-[#000000] text-[13px] ms-0 mx-auto font-bold font-ubuntu">Register</span>
       </p></Link>
            </PopoverContent>
@@ -182,46 +187,133 @@ const Navbar = () => {
           
           
    
-        <div className="sm:hidden flex flex-1 justify-end items-center">
+        <div className="md:hidden  flex flex-1 justify-end items-start">
             <img src={toggle ? close : menu}  alt="menu" className="w-[28px] h-[28px] object-contain cursor-pointer" onClick={() => setToggle(!toggle)} />
-            <div className={`${!toggle ? 'hidden' :'flex'} p-6 bg-[#ffffff]  absolute top-20 right-20 mx-4 my-2 min-w-[335px] z-10 rounded-xl`}>
-                <ul className="list-none flex justify-start items-start flex-col gap-5">
-                {navLinks.map((link) => 
-                  <li key={link.id} className={`${
-                    active === link.title
-                    ?"text-black"
-                    :"text-[#006642]"} hover:text-black text-[14px] font-ubuntu cursor-pointer`} onClick={() => setActive(link.title)}>
-                    <a href={`#${link.id}`}>{link.title}</a>
-                  </li>
-                )}
-               
+            <div className={`${!toggle ? 'hidden' :'flex'} p-10 bg-[#f3f3f3]  absolute top-20 rounded-md`}>
+                <ul className=" flex me-auto flex-col gap-3">
+                <li className="inline-flex flex-row justify-start items-start">
+        <div className="flex flex-row  ">
+         
+         
+         <Link to="/login">      <p className="text-[#006642] me-auto  items-start flex flex-row text-[16px]  font-medium font-ubuntu"> 
+           
+            
+           
+           <a href=""> <span className=" me-auto text-[16px] font-bold font-ubuntu ">Pataint Portal</span></a></p>
+                 </Link>
+           </div>
+         
+           
+           </li>
+                <li className="inline-flex flex-row justify-start items-start">
+           
+         <div className="flex flex-col ">
+         
+         
+         <Link to="/health">      <p className="text-[#006642] me-auto  items-start flex flex-row text-[16px]  font-bold font-ubuntu"> 
+           
+            
+           
+           <a href=""> <span className="me-auto text-[16px] font-bold font-ubuntu">Pakages</span></a></p>
+                 </Link>
+           </div>
+           
+           </li>
+            
+            
+            <li className="inline-flex flex-row justify-start items-start">
+           
+         <div className="flex flex-row  ">
+         
+        
+                       
+         <Link to="/modal">  <p className="text-[#006642] me-auto items-start flex flex-row text-[16px] font-medium font-ubuntu"> 
+          
+             
+                 <a href=""> <span className="text-[16px] font-bold font-ubuntu ">Branchs</span></a></p>
+                 </Link>
+           </div>
+           
+           </li>
+            
+            
+           <li className="inline-flex flex-row justify-start items-start">
+            
+         <div className="flex flex-row  ">
+        
+           <Link to="/notice"><p className="text-[#006642]  items-center flex flex-row text-[16px]  font-medium font-ubuntu"> 
+         
+           <a href=""><span className="text-[16px] font-bold font-ubuntu ">Notices</span></a></p>
+           </Link>         
+                       
+   
+           </div>
+           
+           </li>
+           <li className="inline-flex flex-row justify-start items-start">
+            
+            <div className="flex flex-row  ">
+           
+              <Link to="/contact"><p className="text-[#006642]  items-center flex flex-row text-[16px] ms-0 me-1 font-medium font-ubuntu"> 
+            
+              <a href=""><span className="text-[16px] font-bold font-ubuntu ">Contact</span></a></p>
+              </Link>         
+                          
+      
+              </div>
               
-          <li>
-            <a href="#" className="block px-4 py-2 text-sm  me-auto  font-ubuntu text-white-700 hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-white" role="menuitem">
-              <div className="inline-flex items-center">
-              <a href="#" className=" p-1 rounded-[50px] text-white-400 inline-flex flex-row hover:text-[#000000] dark:hover:text-[#000000]">
-              <svg className="w-[20px] h-[20px]" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 13">
-              <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/> <path  d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" clip-rule="evenodd"/>
-              </svg>
+              </li>
+              <li className="inline-flex flex-row justify-start items-start">
+            
+            <div className="flex flex-row  ">
+           
+              <Link to="/about"><p className="text-[#006642]  items-center flex flex-row text-[16px] ms-0 me-1 font-medium font-ubuntu"> 
+            
+              <a href=""><span className="text-[16px] font-bold font-ubuntu ">About Us</span></a></p>
+              </Link>         
+                          
+      
+              </div>
               
-          </a>
+              </li>
+              <li className="inline-flex flex-row justify-start items-start">
+            
+            <div className="flex flex-row  ">
+           
+              <Link to="/login"><p className="text-[#006642]  items-center flex flex-row text-[16px] ms-0 me-1 font-medium font-ubuntu"> 
+              <svg class="w-[12px] h-[12px]  fill-[#006642]" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
 
-          <span className="text-[#006642] hover:text-[#000000] text-[14px]   font-ubuntu ms-0 me-auto  font-ubuntu">login</span>
+<path d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-45.7 48C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512H418.3c16.4 0 29.7-13.3 29.7-29.7C448 383.8 368.2 304 269.7 304H178.3z"></path>
+
+</svg>
+              <a href=""><span className="text-[16px] pl-2 font-bold font-ubuntu ">Login</span></a></p>
+              </Link>         
+                          
+      
               </div>
-            </a>
-          </li>
-          <li>
-            <a href="Modal.jsx" className="block px-4 py-2 text-sm text-[#006642] hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-white" role="menuitem">
-              <div className="inline-flex items-center">
-              <a href="#" className=" p-1 rounded-[50px] text-black-400 inline-flex flex-row hover:text-[#000000] dark:hover:text-[#000000]">
-              <svg className="w-[20px] h-[20px]" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 13">
-              <path d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1H7zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/> <path  d="M5.216 14A2.238 2.238 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.325 6.325 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1h4.216z"/> <path d="M4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z" clip-rule="evenodd"/>
-              </svg>
               
-          </a> <span className="text-[#006642] text-[14px]   font-ubuntu hover:text-[#000000] text-[13px] ms-0 mx-auto  font-ubuntu">Register</span>
+              </li>
+
+              <li className="inline-flex flex-row justify-start items-start">
+            
+            <div className="flex flex-row  ">
+           
+              <Link to="/sign"><p className="text-[#006642]  items-center flex flex-row text-[16px] ms-0 me-1 font-medium font-ubuntu"> 
+              <svg class="w-[15px] h-[15px] fill-[#006642] " viewBox="0 0 640 512" xmlns="http://www.w3.org/2000/svg">
+
+<path d="M96 128a128 128 0 1 1 256 0A128 128 0 1 1 96 128zM0 482.3C0 383.8 79.8 304 178.3 304h91.4C368.2 304 448 383.8 448 482.3c0 16.4-13.3 29.7-29.7 29.7H29.7C13.3 512 0 498.7 0 482.3zM504 312V248H440c-13.3 0-24-10.7-24-24s10.7-24 24-24h64V136c0-13.3 10.7-24 24-24s24 10.7 24 24v64h64c13.3 0 24 10.7 24 24s-10.7 24-24 24H552v64c0 13.3-10.7 24-24 24s-24-10.7-24-24z"></path>
+
+</svg>
+              <a href=""><span className="text-[16px] pl-1 font-bold font-ubuntu ">Register</span></a></p>
+              </Link>         
+                          
+      
               </div>
-            </a>
-          </li>
+              
+              </li>
+              
+         
+         
           
           
         
