@@ -43,30 +43,30 @@ const Nav = () => {
 
   return (
     <>
-   <nav className={`${styles.paddingX}shadow-lg   w-full fixed h-[25px] top-0 z-20 flex flex-col items-center  bg-[#006642]`} >
+   <nav className={`${styles.paddingX}shadow-lg   w-full fixed h-[33px] top-0 z-20 flex flex-col items-center justify-center bg-[#d5e7d9]`} >
   <div className="w-full h-[25px]  flex flex-wrap items-center   justify-between max-w-7xl text-[#ffffff] " >
   <div className="flex flex-row items-center  justify-start me-auto">
     <div className="flex flex-row items-center  justify-center ">
-  <a href="#" className="text-[#ffffff]">
-  <svg className="w-4 h-4 ml-2 fill-[#ffffff]" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <a href="#" className="text-[#006642]">
+  <svg className="w-4 h-4 ml-2 fill-[#006642]" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
 
     <path d="M280 0C408.1 0 512 103.9 512 232c0 13.3-10.7 24-24 24s-24-10.7-24-24c0-101.6-82.4-184-184-184c-13.3 0-24-10.7-24-24s10.7-24 24-24zm8 192a32 32 0 1 1 0 64 32 32 0 1 1 0-64zm-32-72c0-13.3 10.7-24 24-24c75.1 0 136 60.9 136 136c0 13.3-10.7 24-24 24s-24-10.7-24-24c0-48.6-39.4-88-88-88c-13.3 0-24-10.7-24-24zM117.5 1.4c19.4-5.3 39.7 4.6 47.4 23.2l40 96c6.8 16.3 2.1 35.2-11.6 46.3L144 207.3c33.3 70.4 90.3 127.4 160.7 160.7L345 318.7c11.2-13.7 30-18.4 46.3-11.6l96 40c18.6 7.7 28.5 28 23.2 47.4l-24 88C481.8 499.9 466 512 448 512C200.6 512 0 311.4 0 64C0 46 12.1 30.2 29.5 25.4l88-24z"></path>
 
     </svg>
               
               </a>
-              <p className="pl-1 text-[12px] font-bold font-ubuntu">10636</p>   </div>
+              <p className="pl-1 text-[12px] text-[#006642] font-bold font-ubuntu">10636</p>   </div>
               
               <div className="flex flex-row items-center  justify-center ">
-              <a href="#" className="text-[#ffffff] pl-2 ">
-              <svg class="w-4 h-4 fill-[#ffffff] " viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+              <a href="#" className="text-[#006642] pl-2 ">
+              <svg class="w-4 h-4 fill-[#006642] " viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
 
                <path d="M464 256A208 208 0 1 1 48 256a208 208 0 1 1 416 0zM0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zM232 120V256c0 8 4 15.5 10.7 20l96 64c11 7.4 25.9 4.4 33.3-6.7s4.4-25.9-6.7-33.3L280 243.2V120c0-13.3-10.7-24-24-24s-24 10.7-24 24z"></path>
 
                 </svg>
               
               </a>
-              <p className="pl-1 text-[12px]  font-ubuntu">We are open 24/7(Only Dhanmondi)
+              <p className="pl-1 text-[12px] hidden md:block text-[#006642] font-ubuntu">We are open 24/7(Only Dhanmondi)
 </p> 
               </div>
               </div>
