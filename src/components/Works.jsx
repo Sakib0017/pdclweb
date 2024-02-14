@@ -69,7 +69,8 @@ const Works = () => {
   
   return (
     <>
-    <div className="flex flex-wrap  mb-10 gap-10 shadow-lg p-5 rounded-[5px]">
+    <div  className="">
+    <div className="flex flex-wrap  flex-row mb-10 gap-10 shadow-lg p-5 rounded-[5px]">
     <div className="bg-[#ffffff] mx-auto w-full ">
       <div className="flex flex-wrap   max-w-7xl mx-auto  ">
        <div className="w-[480px]  border-l-[5px]  border-[#006642] border-opacity-50 pl-2  text-start ml-3">
@@ -121,7 +122,7 @@ const Works = () => {
 
 
          
-    
+      </div>
     </>
   );
 };

@@ -11,6 +11,7 @@ function Layout() {
       <Navbar />
       
       <Hero />
+      
       <Works />
       <Feedbacks />
       <Cor />
