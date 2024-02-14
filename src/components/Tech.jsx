@@ -167,7 +167,7 @@ const Tech = () => {
 </svg></a>
       </PopoverHandler>
           <PopoverContent>
-          <Link onClick={handleClick1} ><p onClick={() => navigate('/')} className="text-[#006642]  items-center flex flex-row text-[12px] mx-auto  font-ubuntu"> 
+          <Link to="/sample" ><p onClick={() => navigate('/')} className="text-[#006642]  items-center flex flex-row text-[12px] mx-auto  font-ubuntu"> 
         
           
         <a href=""><span className="pl-1 text-[13px] ">Home Sample Collection</span></a></p></Link>
@@ -225,7 +225,7 @@ const Tech = () => {
 </a>
       </PopoverHandler>
           <PopoverContent>
-          <Link onClick={handleClick2}><p className="text-[#006642]  items-center flex flex-row text-[12px] ms-0 me-1  font-ubuntu"> 
+          <Link to="/complain"><p className="text-[#006642]  items-center flex flex-row text-[12px] ms-0 me-1  font-ubuntu"> 
       
          
         <a href=""><span className="pl-1  text-[13px] ">Complain Submission</span></a></p>

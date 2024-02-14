@@ -8,6 +8,8 @@ import {
   } from "@material-tailwind/react";
   import { Input, Select, Option } from "@material-tailwind/react";
 
+import { useNavigate, Link } from "react-router-dom";
+
 function Sample() {
   return (
     <div className='bg-[#e2f0e5] p-3'>
@@ -138,10 +140,12 @@ This is a required question</p>
     </Card>
     </div>
     <div className="flex max-w-[40rem]  bg-[#e2f0e5] pb-3 mx-auto">
-      <Button className="bg-[#006642] me-auto">Submit</Button>
-      <p className=' pt-3 text-[15px] ms-auto text-[#006642] font-bold font-ubuntu'>Clear form</p>
+    <Link to="/"><p className=" pt-3 text-[15px] me-auto text-[#006642] font-bold font-ubuntu">Go Back</p></Link>
     
-    </div>
+      <p className=' pt-3 text-[15px] mx-auto text-[#006642] font-bold font-ubuntu'>Clear form</p>
+      <Button className="bg-[#006642] ms-auto">Submit</Button>
+      
+     </div>
     <div className="flex max-w-[40rem]  bg-[#e2f0e5] pb-3 mx-auto">
       
       <p className=' pt-0 text-[11px] mx-auto text-[black] font-small font-ubuntu'>This form was created inside of Popular Pharmaceuticals Ltd.. Report Abuse</p>

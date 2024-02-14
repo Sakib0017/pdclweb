@@ -7,7 +7,7 @@ import {
     Button,
   } from "@material-tailwind/react";
   import { Input, Select, Option } from "@material-tailwind/react";
-
+  import { useNavigate, Link } from "react-router-dom";
 function Complain() {
   return (
     <div className='bg-[#e2f0e5] '>
@@ -156,9 +156,11 @@ This is a required question</pre>
     </Card>
     </div>
     <div className="flex max-w-[40rem]  bg-[#e2f0e5] pb-3 mx-auto">
-      <Button className="bg-[#006642] me-auto">Submit</Button>
-      <p className=' pt-3 text-[15px] ms-auto text-[#006642] font-bold font-ubuntu'>Clear form</p>
+    <Link to="/"><p className=" pt-3 text-[15px] me-auto text-[#006642] font-bold font-ubuntu">Go Back</p></Link>
     
+      
+      <p className=' pt-3 text-[15px] ms-auto text-[#006642] font-bold font-ubuntu'>Clear form</p>
+      <Button className="bg-[#006642] ms-auto">Submit</Button>
     </div>
     <div className="flex max-w-[40rem]  bg-[#e2f0e5] pb-3 mx-auto">
       
