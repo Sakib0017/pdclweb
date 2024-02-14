@@ -22,11 +22,11 @@ const FeedbackCard = ({
 
     <div >
     <p className='text-[#006642] font-ubuntu font-black text-[48px]'>"</p>
-      <p className='text-[#006642] font-ubuntu tracking-wider text-[18px]'>{testimonial}</p>
+      <p className='text-[#006642] font-ubuntu text-[18px]'>{testimonial}</p>
       <p className='text-[#006642] font-ubuntu font-black text-[48px]'>"</p>
 
       <div className='mt-7 flex justify-between items-center gap-1'>
-        <div className='flex-1 flex flex-col'>
+        <div className=' flex flex-col'>
           <p className='text-[#006642] font-medium text-[16px]'>
             <span className='blue-text-gradient font-ubuntu'>@</span> {name}
           </p>
@@ -57,7 +57,7 @@ const Feedbacks = () => {
          
        
       </div>
-      <div className={` flex flex-wrap gap-7`}>
+      <div className={` flex flex-row gap-5`}>
         {testimonials.map((testimonial, index) => (
           <FeedbackCard key={testimonial.name} index={index} {...testimonial} />
         ))}

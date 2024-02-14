@@ -20,7 +20,7 @@ const ProjectCard = ({
     <div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
       <div
        
-        className='bg-[#ffffff] shadow-lg p-0  sm:w-[360px] w-full'
+        className='bg-[#ffffff] shadow-lg p-0  sm:w-[360px] '
       >
         <div className='relative w-full h-[230px]'>
           <video
@@ -69,14 +69,14 @@ const Works = () => {
   
   return (
     <>
-    <div className="flex flex-row flex-wrap mb-10 gap-10 shadow-lg p-5 rounded-[5px]">
+    <div className="flex flex-row  mb-10 gap-10 shadow-lg p-5 rounded-[5px]">
     <div className="bg-[#ffffff] mx-auto w-full ">
-      <div className="flex flex-row  flex-wrap max-w-screen-xl mx-auto  ">
+      <div className="flex flex-row   max-w-7xl mx-auto  ">
        <div className="w-[480px]  border-l-[5px]  border-[#006642] border-opacity-50 pl-2  text-start ml-3">
        <h1 className="text-gray-900/50 font-ubuntu font-bold">DISCOVER <span className="text-[#006642] font-ubuntu">POPULAR</span></h1>
          <p className="text-[#006642] font-ubuntu ">Popular Diagnostic Centre Ltd. exists to provide a better patient experience. We are a one-stop-shop for your health, offering caring doctors, world-class diagnostics and much more world-class diagnostics and much more.</p>
         </div>
-        <div className="flex flex-row flex-wrap max-w-7xl mx-auto  ">
+        <div className="flex flex-row max-w-7xl mx-auto  ">
           <div className="flex flex-col items-start p-2 ">
             <h6 className="text-[#006642] font-small font-ubuntu text-[60px]">27</h6>
               <p className="text-[#006642] font-bold font-ubuntu text-[20px]">
@@ -110,7 +110,7 @@ const Works = () => {
 
       
 
-      <div className=' flex mx-auto p-0 justify-center flex-wrap gap-7'>
+      <div className=' flex  p-1 justify-center flex-row gap-5'>
         {projects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
