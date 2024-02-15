@@ -262,6 +262,9 @@ const Tech = () => {
 
 
 <div className="sm:hidden">
+  <div className="fixed bottom-[70px] w-[50px] p-1 right-0 bg-none">
+<marquee direction="up" loop="" className="text-center text-[16px]  font-ubuntu font-extrabold text-gray-400">D<br></br>o<br></br>w<br></br>n<br></br>l<br></br>o<br></br>a<br></br>d<br></br>R<br></br>e<br></br>p<br></br>o<br></br>r<br></br>t<br></br>s</marquee>
+</div>
 
 <Popover placement="top">
           <PopoverHandler>
