@@ -1,0 +1,48 @@
+{
+    "routes": [
+        {
+            "src": "/",
+            "dest": "/"
+        },
+        {
+            "src": "/report",
+            "dest": "/"
+        },
+        {
+            "src": "/login",
+            "dest": "/"
+        },
+        {
+            "src": "/sample",
+            "dest": "/"
+        },
+        {
+            "src": "/sign",
+            "dest": "/"
+        },
+        {
+            "src": "/complain",
+            "dest": "/"
+        },
+        {
+            "src": "/modal",
+            "dest": "/"
+        },
+        {
+            "src": "/notice",
+            "dest": "/"
+        },
+        {
+            "src": "/contact",
+            "dest": "/"
+        },
+        {
+            "src": "/health",
+            "dest": "/"
+        },
+        {
+            "src": "/details",
+            "dest": "/"
+        }
+    ]
+}
