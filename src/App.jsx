@@ -1,7 +1,15 @@
+import React from 'react';
 import {Routes, Route, BrowserRouter } from "react-router-dom";
-
-import { Modal, Layout, Sample,Contact,Health,Details, Complain,Login,Notice, Sign, Report } from "./components";
-
+import Report from "./components/Report";
+import Modal from "./components/Modal";
+import Layout from "./components/Layout";
+import Sample from "./components/Sample";
+import Contact from "./components/Contact";
+import Health from "./components/Health";
+import Details from "./components/Details";
+import Complain from "./components/Complain";
+import Login from "./components/Login";
+import Sign from "./components/Sign";
 const App = () => {
   return (
     <>
