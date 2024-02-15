@@ -142,14 +142,14 @@ const Tech = () => {
         
        
         
-          <Link > <a> <p className="text-[#006642]  pl-2 cursor-pointer justify-start items-start text-[12px] font-medium  font-ubuntu">All BRANCHES 》</p></a></Link>
+          <a> <Link > <a> <p className="text-[#006642]  pl-2 cursor-pointer justify-start items-start text-[12px] font-medium  font-ubuntu">All BRANCHES 》</p></a></Link></a>
         
-          <Link to="/details"><a  href=""> <p className="text-[#006642]  cursor-pointer justify-center items-center text-[12px] p-2  font-ubuntu">Dhanmondi(09666 787801)</p></a></Link>
-           <Link to="/details"><a  href=""> <p className="text-[#006642] cursor-pointer justify-center items-center text-[12px] p-2  font-ubuntu">Shantinagar(09666 787803)</p></a></Link>
-           <Link to="/details"><a  href=""> <p className="text-[#006642] cursor-pointer justify-center items-center text-[12px] p-2  font-ubuntu">English Road(09666 787802)</p></a></Link>
-           <Link to="/details"><a  href=""> <p className="text-[#006642] cursor-pointer justify-center items-center text-[12px] p-2  font-ubuntu">Savar(09666 787808)</p></a></Link>
-           <Link to="/details"><a  href=""> <p className="text-[#006642] cursor-pointer justify-center items-center text-[12px] p-2  font-ubuntu">Mirpur(09666 787807)</p></a></Link>
-           <Link to="/details"><a  href=""> <p className="text-[#006642] cursor-pointer justify-center items-center text-[12px] p-2  font-ubuntu">Uttara(09666 787805)</p></a></Link>
+          <a><Link to="/details"><a  href=""> <p className="text-[#006642]  cursor-pointer justify-center items-center text-[12px] p-2  font-ubuntu">Dhanmondi(09666 787801)</p></a></Link></a>
+          <a> <Link to="/details"><a  href=""> <p className="text-[#006642] cursor-pointer justify-center items-center text-[12px] p-2  font-ubuntu">Shantinagar(09666 787803)</p></a></Link></a>
+          <a> <Link to="/details"><a  href=""> <p className="text-[#006642] cursor-pointer justify-center items-center text-[12px] p-2  font-ubuntu">English Road(09666 787802)</p></a></Link></a>
+          <a> <Link to="/details"><a  href=""> <p className="text-[#006642] cursor-pointer justify-center items-center text-[12px] p-2  font-ubuntu">Savar(09666 787808)</p></a></Link></a>
+          <a> <Link to="/details"><a  href=""> <p className="text-[#006642] cursor-pointer justify-center items-center text-[12px] p-2  font-ubuntu">Mirpur(09666 787807)</p></a></Link></a>
+          <a>  <Link to="/details"><a  href=""> <p className="text-[#006642] cursor-pointer justify-center items-center text-[12px] p-2  font-ubuntu">Uttara(09666 787805)</p></a></Link></a>
 
           
       
@@ -167,10 +167,10 @@ const Tech = () => {
 </svg></a>
       </PopoverHandler>
           <PopoverContent>
-          <Link to="/sample" ><p onClick={() => navigate('/')} className="text-[#006642]  items-center flex flex-row text-[12px] mx-auto  font-ubuntu"> 
+          <a> <Link to="/sample" ><p onClick={() => navigate('/')} className="text-[#006642]  items-center flex flex-row text-[12px] mx-auto  font-ubuntu"> 
         
           
-        <a href=""><span className="pl-1 text-[13px] ">Home Sample Collection</span></a></p></Link>
+        <a href=""><span className="pl-1 text-[13px] ">Home Sample Collection</span></a></p></Link></a>
       
            </PopoverContent>
         </Popover>
@@ -206,11 +206,11 @@ const Tech = () => {
           <PopoverContent>
               
                     
-      <Link to="/login">  <p className="text-[#006642]  items-center flex flex-row text-[12px] ms-0 me-1  font-ubuntu"> 
+          <a> <Link to="/login">  <p className="text-[#006642]  items-center flex flex-row text-[12px] ms-0 me-1  font-ubuntu"> 
        
       
           <a href=""> <span className="pl-1 text-[13px] ">Report Download</span></a></p>
-          </Link>
+          </Link></a>
       
            </PopoverContent>
         </Popover>
@@ -225,11 +225,11 @@ const Tech = () => {
 </a>
       </PopoverHandler>
           <PopoverContent>
-          <Link to="/complain"><p className="text-[#006642]  items-center flex flex-row text-[12px] ms-0 me-1  font-ubuntu"> 
+          <a><Link to="/complain"><p className="text-[#006642]  items-center flex flex-row text-[12px] ms-0 me-1  font-ubuntu"> 
       
          
         <a href=""><span className="pl-1  text-[13px] ">Complain Submission</span></a></p>
-        </Link>   
+        </Link>   </a>
       
            </PopoverContent>
         </Popover>
@@ -244,11 +244,11 @@ const Tech = () => {
 </a>
       </PopoverHandler>
           <PopoverContent>
-          <Link onClick={handleClick2}><p className="text-[#006642]  items-center flex flex-row text-[12px] ms-0 me-1  font-ubuntu"> 
+          <a> <Link onClick={handleClick2}><p className="text-[#006642]  items-center flex flex-row text-[12px] ms-0 me-1  font-ubuntu"> 
       
          
         <a href=""><span className="pl-1  text-[13px] ">Messanger Chat</span></a></p>
-        </Link>   
+        </Link>   </a>
       
            </PopoverContent>
         </Popover>
@@ -292,14 +292,14 @@ const Tech = () => {
         
        
         
-          <Link > <a> <p className="text-[#006642]  pl-2 cursor-pointer justify-start items-start text-[12px] font-medium  font-ubuntu">All BRANCHES 》</p></a></Link>
+          <a><Link > <a> <p className="text-[#006642]  pl-2 cursor-pointer justify-start items-start text-[12px] font-medium  font-ubuntu">All BRANCHES 》</p></a></Link></a>
         
-          <Link to="/details"><a  href=""> <p className="text-[#006642]  cursor-pointer justify-center items-center text-[12px] p-2  font-ubuntu">Dhanmondi(09666 787801)</p></a></Link>
-           <Link to="/details"><a  href=""> <p className="text-[#006642] cursor-pointer justify-center items-center text-[12px] p-2  font-ubuntu">Shantinagar(09666 787803)</p></a></Link>
-           <Link to="/details"><a  href=""> <p className="text-[#006642] cursor-pointer justify-center items-center text-[12px] p-2  font-ubuntu">English Road(09666 787802)</p></a></Link>
-           <Link to="/details"><a  href=""> <p className="text-[#006642] cursor-pointer justify-center items-center text-[12px] p-2  font-ubuntu">Savar(09666 787808)</p></a></Link>
-           <Link to="/details"><a  href=""> <p className="text-[#006642] cursor-pointer justify-center items-center text-[12px] p-2  font-ubuntu">Mirpur(09666 787807)</p></a></Link>
-           <Link to="/details"><a  href=""> <p className="text-[#006642] cursor-pointer justify-center items-center text-[12px] p-2  font-ubuntu">Uttara(09666 787805)</p></a></Link>
+          <a><Link to="/details"><a  href=""> <p className="text-[#006642]  cursor-pointer justify-center items-center text-[12px] p-2  font-ubuntu">Dhanmondi(09666 787801)</p></a></Link></a>
+          <a> <Link to="/details"><a  href=""> <p className="text-[#006642] cursor-pointer justify-center items-center text-[12px] p-2  font-ubuntu">Shantinagar(09666 787803)</p></a></Link></a>
+          <a> <Link to="/details"><a  href=""> <p className="text-[#006642] cursor-pointer justify-center items-center text-[12px] p-2  font-ubuntu">English Road(09666 787802)</p></a></Link></a>
+          <a> <Link to="/details"><a  href=""> <p className="text-[#006642] cursor-pointer justify-center items-center text-[12px] p-2  font-ubuntu">Savar(09666 787808)</p></a></Link></a>
+          <a> <Link to="/details"><a  href=""> <p className="text-[#006642] cursor-pointer justify-center items-center text-[12px] p-2  font-ubuntu">Mirpur(09666 787807)</p></a></Link></a>
+          <a> <Link to="/details"><a  href=""> <p className="text-[#006642] cursor-pointer justify-center items-center text-[12px] p-2  font-ubuntu">Uttara(09666 787805)</p></a></Link></a>
 
           
       
@@ -317,10 +317,10 @@ const Tech = () => {
 </svg></a>
       </PopoverHandler>
           <PopoverContent>
-          <Link to="/sample" ><p onClick={() => navigate('/')} className="text-[#006642]  items-center flex flex-row text-[12px] mx-auto  font-ubuntu"> 
+          <a><Link to="/sample" ><p onClick={() => navigate('/')} className="text-[#006642]  items-center flex flex-row text-[12px] mx-auto  font-ubuntu"> 
         
           
-        <a href=""><span className="pl-1 text-[13px] ">Home Sample Collection</span></a></p></Link>
+        <a href=""><span className="pl-1 text-[13px] ">Home Sample Collection</span></a></p></Link></a>
       
            </PopoverContent>
         </Popover>
@@ -356,11 +356,11 @@ const Tech = () => {
           <PopoverContent>
               
                     
-      <Link to="/login">  <p className="text-[#006642]  items-center flex flex-row text-[12px] ms-0 me-1  font-ubuntu"> 
+          <a><Link to="/login">  <p className="text-[#006642]  items-center flex flex-row text-[12px] ms-0 me-1  font-ubuntu"> 
        
       
           <a href=""> <span className="pl-1 text-[13px] ">Report Download</span></a></p>
-          </Link>
+          </Link></a>
       
            </PopoverContent>
         </Popover>
@@ -375,11 +375,11 @@ const Tech = () => {
 </a>
       </PopoverHandler>
           <PopoverContent>
-          <Link to="/complain"><p className="text-[#006642]  items-center flex flex-row text-[12px] ms-0 me-1  font-ubuntu"> 
+          <a> <Link to="/complain"><p className="text-[#006642]  items-center flex flex-row text-[12px] ms-0 me-1  font-ubuntu"> 
       
          
         <a href=""><span className="pl-1  text-[13px] ">Complain Submission</span></a></p>
-        </Link>   
+        </Link>   </a>
       
            </PopoverContent>
         </Popover>
@@ -394,11 +394,11 @@ const Tech = () => {
 </a>
       </PopoverHandler>
           <PopoverContent>
-          <Link onClick={handleClick2}><p className="text-[#006642]  items-center flex flex-row text-[12px] ms-0 me-1  font-ubuntu"> 
+          <a> <Link onClick={handleClick2}><p className="text-[#006642]  items-center flex flex-row text-[12px] ms-0 me-1  font-ubuntu"> 
       
          
         <a href=""><span className="pl-1  text-[13px] ">Messanger Chat</span></a></p>
-        </Link>   
+        </Link>   </a>
       
            </PopoverContent>
         </Popover>
