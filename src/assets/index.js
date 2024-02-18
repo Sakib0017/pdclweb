@@ -85,7 +85,6 @@ export {
   back,
   Color,
   Hepat,
-  dical,
   Hepa,
   Gast,
   Inte,
