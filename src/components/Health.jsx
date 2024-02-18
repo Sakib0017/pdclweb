@@ -80,7 +80,7 @@ function Health() {
        <div className="flex flex-col">
        <form className="max-w-7xl shadow items-center justify-center">
   <div className="grid md:grid-cols-3   md:gap-1 ">
-    <div className="text-black text-center p-5 mb-0 mt-0">
+    <div className="text-black text-center">
     <h3 className="text-[24px] text-[#006642] font-ubuntu font-bold">Health Cheak-up Pakages<br></br>For 40 Years Age Above</h3>
     <Card className="h-full w-full shadow-none overflow-scroll">
       <table className="w-full min-w-max table-auto text-left">
@@ -131,7 +131,7 @@ function Health() {
     </div>
   </div>
   <div className="grid md:grid-cols-3   md:gap-1">
-    <div className="text-black text-center p-5 mb-0 mt-0">
+    <div className="text-black text-center">
       <p className="text-[24px] text-[#006642] font-bold pt-10 font-ubuntu">'We are committed to<br></br> meet our patient's needs<br></br> compassionately by utilizing<br></br> safe and appropriate tests'</p>
     <img className="p-10 mx-auto" src={dical}/>
     </div>
@@ -154,7 +154,7 @@ function Health() {
   <div className="grid md:grid-cols-3   md:gap-1 ">
   <div className="text-black  text-center">
     <div className="text-black text-center mb-0 mt-0">
-    <div className="text-black text-center p-5 mb-0 mt-0">
+    <div className="text-black text-center">
     <h3 className="text-[20px] text-[#006642] font-ubuntu font-bold">Primary Health Cheak-up Pakage-1<br></br>For 40 Years Age Above</h3>
     <Card className="h-full w-full shadow-none">
       <table className="w-full min-w-max table-auto text-left">
@@ -188,7 +188,7 @@ function Health() {
     </div>
     <div className="text-black  text-center">
     <div className="text-black text-center mb-0 mt-0">
-    <div className="text-black text-center p-5 mb-0 mt-0">
+    <div className="text-black text-center ">
     <h3 className="text-[20px] text-[#006642] font-ubuntu font-bold">Primary Health Cheak-up Pakage-2<br></br>For 40 Years Age Above</h3>
     <Card className="h-full w-full shadow-none">
       <table className="w-full min-w-max table-auto text-left">
@@ -221,7 +221,7 @@ function Health() {
     </div>
     </div>
     <div className="text-black text-center ">
-    <div className="text-black text-center p-5 mb-0 mt-0">
+    <div className="text-black text-center ">
     <h3 className="text-[20px] text-[#006642] font-ubuntu font-bold">Health Cheak-up Pakages<br></br>For 40 Years Age Above</h3>
     
     <Card className="h-full w-full shadow-none ">
@@ -256,12 +256,12 @@ function Health() {
   </div>
   <div className="grid md:grid-cols-3   md:gap-1">
     <div className="text-black text-center">
-    <div className="text-black text-center p-5 mb-0 mt-0">
+    <div className="text-black text-center ">
     <img className=" mx-auto h-[500px] w-full" src={dhan}/>
     </div>
     </div>
     <div className="text-black text-center">
-    <div className="text-black text-center p-5 mb-0 mt-0">
+    <div className="text-black text-center">
     <Card className="h-full w-full shadow-none ">
     <h3 className="text-[20px] text-[#006642] font-ubuntu font-bold">Comprehensive Health Check-up<br></br>Pakages for Male</h3>
     
@@ -294,7 +294,7 @@ function Health() {
     </div>
     </div>
     <div className="text-black text-center">
-    <div className="text-black text-center p-5 mb-0 mt-0">
+    <div className="text-black text-center ">
     <h3 className="text-[20px] text-[#006642] font-ubuntu font-bold">Comprehensive Health Check-up<br></br>Pakages for Female</h3>
     <Card className="h-full w-full shadow-none ">
       <table className="w-full min-w-max table-auto text-left">

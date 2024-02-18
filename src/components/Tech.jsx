@@ -291,7 +291,7 @@ const Tech = () => {
 {/*<div className="fixed bottom-[10px] w-[100px] p-0 right-[40px] bg-none">
   <img src={arrow1} alt="arrow1" className="w-[100px]  h-[60px] " />
 </div> */}
-<div className="fixed bottom-[53px] w-[80px] p-1 right-0 bg-none">
+<div className="fixed bottom-[56px] w-[80px] p-0 right-0 bg-none">
   <img src={arrow1} alt="arrow2" className="w-[80px]  h-[60px] " />
 </div>
 
