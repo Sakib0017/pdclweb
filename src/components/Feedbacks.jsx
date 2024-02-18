@@ -54,7 +54,6 @@ const Feedbacks = () => {
         <motion.div variants={textVariant()}>
           
           <h2 className=" text-Start text-gray-900/50 font-medium font-ubuntu text-[28px]">TESTIMONIALS</h2>
-          <h2 className=" text-Start text-gray-900/50 font-medium font-ubuntu text-[28px]">TESTIMONIALS</h2>
          
         </motion.div>
       </div>
