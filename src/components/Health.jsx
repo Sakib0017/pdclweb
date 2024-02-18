@@ -127,7 +127,7 @@ function Health() {
     </div>
     <div className="text-black text-center ">
           <h5 className="text-[36px] text-[#006642] font-bold pt-8 font-ubuntu">POPULAR <br></br>HEALTH CHECK-UP <br></br>PAKAGES</h5>
-          <img className="mx-auto mt-[100px] " src={healh} />
+          <img className="mx-auto mt-[100px] w-[250px] h-[250px] " src={healh} />
     </div>
   </div>
   <div className="grid md:grid-cols-3   md:gap-1">

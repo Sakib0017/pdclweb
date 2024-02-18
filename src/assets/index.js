@@ -73,8 +73,14 @@ import cover from "./cover.jpeg";
 import pakages from "./pakages.mp4";
 import cons from "./cons.mp4";
 import diagn from "./diag.mp4";
+import arrow from "./arrow.gif";
+import arrow1 from "./arrow1.gif";
+import arrow2 from "./arrow2.gif";
 export {
   logo,
+  arrow,
+  arrow1,
+  arrow2,
   pakages,
   healh,
   cons,
