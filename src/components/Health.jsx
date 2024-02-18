@@ -76,9 +76,9 @@ function Health() {
       
      <Navbar />
      <div className={` justify-center items-center  text-center flex flex-wrap  text-white`}>
-       <div className=" flex-wrap  max-w-screen-xl container rounded block items-stretch md:flex-wrap   mt-[150px] mx-auto">
+       <div className="  flex-col  max-w-7xl container  md:flex-col   mt-[150px] mx-auto">
        <div className="flex flex-col">
-       <form className="max-w-screen-xl shadow items-center justify-center">
+       <form className="max-w-7xl shadow items-center justify-center">
   <div className="grid md:grid-cols-3   md:gap-1 ">
     <div className="text-black text-center p-5 mb-0 mt-0">
     <h3 className="text-[24px] text-[#006642] font-ubuntu font-bold">Health Cheak-up Pakages<br></br>For 40 Years Age Above</h3>
