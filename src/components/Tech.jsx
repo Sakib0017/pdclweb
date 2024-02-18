@@ -6,6 +6,13 @@ import { technologies } from "../constants";
 import img from "../assets/link.jpg";
 import back from "../assets/back.jpg";
 import { useNavigate, Link } from "react-router-dom";
+import { healh, dical, cover } from "../assets";
+import {
+   
+  Card, Typography
+} from "@material-tailwind/react";
+
+
 
 import {
   Popover,
@@ -45,9 +52,11 @@ const Tech = () => {
     <>
     
     <footer className="flex flex-row flex-wrap mt-10  justify-center">
-    <div className="bg-[#f3f3f3]  shadow-lg  opacity-90 mx-auto w-full ">
-      <div className=' flex mx-auto p-3 justify-evenly max-w-screen-xl flex-wrap '>
-        <div className=' '>
+    <div className="bg-[#f3f3f3]   opacity-90 mx-auto w-full ">
+    <form className="max-w-screen-xl mx-auto  items-center justify-center">
+  <div className="grid md:grid-cols-3   md:gap-1 ">
+  <div className="text-black p-10 text-center">
+  
             <h2 className="mb-6 text-[18px] font-bold font-ubuntu text-[#006642] uppercase dark:text-[#006642]">Contact Us</h2>
             <ul className="text-gray-500 dark:text-gray-400 font-medium">
                 <li className="mb-4">
@@ -62,7 +71,10 @@ const Tech = () => {
                 
             </ul>
         </div>
-        <div className=' '>
+    
+   
+  <div className='text-black p-10 text-center '>
+  <div className=' '>
             <h2 className="mb-6 font-bold font-ubuntu text-[#006642] uppercase dark:text-[#006642]">Important Links</h2>
             <ul className="text-gray-500 dark:text-gray-400 font-medium">
                 <li className="mb-4">
@@ -85,7 +97,8 @@ const Tech = () => {
                 </li>
             </ul>
         </div>
-        <div className=''>
+        </div>
+        <div className='text-black p-10 text-center'>
             <h1 className="mb-6 font-bold font-ubuntu text-[#006642] uppercase dark:text-[#006642]">Quick Links</h1>
             <ul className="text-gray-500 dark:text-gray-400 font-medium">
                 <li className="mb-4">
@@ -109,6 +122,18 @@ const Tech = () => {
             </ul>
         </div>
         
+    
+   
+  </div>
+
+ 
+</form>
+</div>
+    <div className="bg-[#f3f3f3]  shadow-lg  opacity-90 mx-auto w-full ">
+      <div className=' flex mx-auto p-3 justify-evenly max-w-screen-xl flex-wrap '>
+       
+        
+       
     </div>
     <img src={img} className="flex mt-4 p-5  sm:justify-center w-full max-w-7xl mx-auto "/>
     <div className="bg-[#d5e7d9] shadow-lg  px-4 py-6 mt-5 md:flex md:items-center md:justify-between ">

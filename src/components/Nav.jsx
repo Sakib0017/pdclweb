@@ -55,7 +55,7 @@ const Nav = () => {
     </svg>
               
               </a>
-              <p className="pl-1 text-[12px] text-[#006642] font-bold font-ubuntu">10636</p>   </div>
+              <p className="pl-1 text-[16px] text-[#006642] font-bold font-ubuntu">10636<span className="text-[12px] pl-1  font-ubuntu font-normal">(Dhanmondi)</span></p>   </div>
               
               <div className="flex flex-row items-center  justify-center ">
               <a href="#" className="text-[#006642] pl-2 ">
@@ -66,7 +66,7 @@ const Nav = () => {
                 </svg>
               
               </a>
-              <p className="pl-1 text-[12px] hidden md:block text-[#006642] font-ubuntu">We are open 24/7(Only Dhanmondi)
+              <p className="pl-1 text-[12px]  text-[#006642] font-bold font-ubuntu">24/7
 </p> 
               </div>
               </div>

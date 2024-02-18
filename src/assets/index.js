@@ -21,7 +21,7 @@ import akn from "./akn.png";
 import dhan from "./dhan.jpg";
 import hea1 from "./hea1.jpeg";
 import hea2 from "./hea2.jpeg";
-
+import dical from "./dical.jpg";
 import about from "./about.png";
 import branch from "./branch.png";
 import star from "./star.png";
@@ -47,7 +47,7 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.png";
-
+import healh from "./healh.jpg";
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
@@ -69,18 +69,23 @@ import Gener from "./Gener.png";
 import Color from "./Color.png";
 import Hepat from "./Hepat.png";
 import back from "./back.jpg";
+import cover from "./cover.jpeg";
 import pakages from "./pakages.mp4";
 import cons from "./cons.mp4";
 import diagn from "./diag.mp4";
 export {
   logo,
   pakages,
+  healh,
   cons,
+  dical,
+  cover,
   diagn,
   backend,
   back,
   Color,
   Hepat,
+  dical,
   Hepa,
   Gast,
   Inte,

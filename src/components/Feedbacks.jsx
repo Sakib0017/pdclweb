@@ -16,7 +16,7 @@ const FeedbackCard = ({
 }) => (
   <motion.div
     variants={fadeIn("", "spring", index * 0.5, 0.75)}
-    className='bg-[#f3f3f3] p-10   xs:w-[555px]'
+    className='bg-[#f3f3f3] p-10  sm:w-[555px] w-auto'
   >
     
 
@@ -49,19 +49,23 @@ const Feedbacks = () => {
   return (
     <div className={` bg-none `}>
       <div
-        className={`  min-h-[100px]`}
+        className={`  min-h-[200px]`}
       >
-       
+        <motion.div variants={textVariant()}>
           
           <h2 className=" text-Start text-gray-900/50 font-medium font-ubuntu text-[28px]">TESTIMONIALS</h2>
          
-       
+        </motion.div>
       </div>
-      <div className={` flex flex-wrap gap-5`}>
-        {testimonials.map((testimonial, index) => (
+     
+      <div className={` sm:mt-[-100px] flex flex-wrap gap-7`}>
+     
+    {testimonials.map((testimonial, index) => (
           <FeedbackCard key={testimonial.name} index={index} {...testimonial} />
         ))}
-      </div>
+    </div>
+    
+      
     </div>
   );
 };

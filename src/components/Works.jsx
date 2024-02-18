@@ -20,7 +20,7 @@ const ProjectCard = ({
     <div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
       <div
        
-        className='bg-[#ffffff] shadow-lg p-0  sm:w-[360px] '
+        className='bg-[#ffffff] shadow-lg p-0  sm:w-[360px] w-auto '
       >
         <div className='relative w-full h-[230px]'>
           <video
@@ -109,14 +109,12 @@ const Works = () => {
         </div>
       </motion.div>
 
-      
-
-      <div className=' flex  p-1 justify-center flex-wrap gap-5'>
-        {projects.map((project, index) => (
+      <div className={`  flex flex-wrap gap-7`}>
+    {projects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
-        
-      </div>
+    </div>
+ 
       <a href="/"><p className='text-[#006642] pt-1 text-end pr-2 text-[20px]  font-ubuntu'>View More.....</p></a>
       
 
