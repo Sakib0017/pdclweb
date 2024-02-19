@@ -43,6 +43,10 @@
         {
             "src": "/details",
             "dest": "/"
+        },
+        {
+            "src": "/about",
+            "dest": "/"
         }
     ]
 }
