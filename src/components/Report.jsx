@@ -49,7 +49,7 @@ const TABLE_ROWS = [
 ];
 function Report() {
   return (
-    <div className="bg-gray-200">
+    <div className="bg-white">
     <Nav />
      
       
@@ -60,7 +60,7 @@ function Report() {
         </div>
     
         <div className="flex flex-col pb-10 mx-auto p-3  max-w-7xl">
-        <Card className="h-full w-full overflow-scroll">
+        <Card className="h-full w-full overflow-scroll bg-gray-100">
       <table className="w-full min-w-max table-auto  text-left">
         <thead>
           <tr>

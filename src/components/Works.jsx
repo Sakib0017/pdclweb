@@ -20,7 +20,7 @@ const ProjectCard = ({
     <div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
       <div
        
-        className='bg-[#ffffff] shadow-lg p-0  sm:w-[360px] w-auto '
+        className='bg-gray-100 shadow-lg p-0  sm:w-[360px] w-auto '
       >
         <div className='relative w-full h-[230px]'>
           <video
@@ -70,8 +70,8 @@ const Works = () => {
   return (
     <>
     <div  className="">
-    <div className="flex flex-wrap  flex-row mb-10 gap-10 shadow-lg p-5 rounded-[5px]">
-    <div className="bg-[#ffffff] mx-auto w-full ">
+    <div className="flex flex-wrap bg-gray-100 flex-row mb-10 gap-10 shadow-lg p-5 rounded-[5px]">
+    <div className=" mx-auto w-full ">
       <div className="flex flex-wrap   max-w-7xl mx-auto  ">
        <div className="w-[480px]  border-l-[5px]  border-[#006642] border-opacity-50 pl-2  text-start ml-3">
        <h1 className="text-gray-900/50 font-ubuntu font-bold">DISCOVER <span className="text-[#006642] font-ubuntu">POPULAR</span></h1>

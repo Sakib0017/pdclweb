@@ -75,8 +75,33 @@ import pakages from "./pakages.mp4";
 import cons from "./cons.mp4";
 import diagn from "./diag.mp4";
 import arrow from "./arrow.gif";
+
+import char from "./char.png";
+import md from "./md.png";
+import ad from "./ad.png";
+import gm from "./gm.png";
+import dgm from "./dmd.png";
+import agm from "./agm.png";
+import age from "./age.png";
+import agf from "./agf.png";
+import m from "./m.png";
+import mm from "./mm.png";
+import me from "./me.png";
+import mf from "./mf.png";
 export {
   logo,
+  char,
+  md,
+  ad,
+  agf,
+  gm,
+  agm,
+  me,
+  mf,
+  m,
+  age,
+  dgm,
+  mm,
   arrow,
   pakages,
   healh,

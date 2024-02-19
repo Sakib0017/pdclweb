@@ -52,7 +52,7 @@ const Tech = () => {
     <>
     
     <footer className="flex flex-row flex-wrap mt-10  justify-center">
-    <div className="bg-[#f3f3f3]   opacity-90 mx-auto w-full ">
+    <div className="bg-gray-100   opacity-90 mx-auto w-full ">
     <form className="max-w-screen-xl mx-auto  items-center justify-center">
   <div className="grid md:grid-cols-3   md:gap-1 ">
   <div className="text-black p-10 text-center">
