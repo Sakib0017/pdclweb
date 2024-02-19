@@ -292,7 +292,7 @@ const Tech = () => {
   <img src={arrow1} alt="arrow1" className="w-[100px]  h-[60px] " />
 </div> */}
 <div className="fixed bottom-[70px]  right-0 bg-none">
-  <img src={arrow} alt="arrow2" className="w-[80px]  h-[160px] " />
+  <img src={arrow} alt="arrow2" className="w-[80px]  h-[80px] " />
 </div>
 
 <Popover placement="top">
