@@ -61,6 +61,7 @@ import gmail from "./gmail.png";
 import downloads from "./downloads.png";
 import Inter from "./Inter.png";
 import printer from "./printer.png";
+import background from "./background.jpg";
 import Med from "./Med.png";
 import Inte from "./Inte.png";
 import Hepa from "./Hepa.png";
@@ -81,6 +82,7 @@ export {
   healh,
   cons,
   dical,
+  background,
   cover,
   diagn,
   backend,

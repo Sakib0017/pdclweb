@@ -48,7 +48,7 @@ const ProjectCard = ({
 
 function Notice() {
   return (
-   <div className="bg-white">
+   <div className="bg-gray-200">
    <Nav />
      
       

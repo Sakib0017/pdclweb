@@ -48,7 +48,7 @@ const ProjectCard = ({
 const Modal = () => {
 
   return (
-    <div className="bg-white">
+    <div className="bg-gray-200">
     <Nav />
      
       

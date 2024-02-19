@@ -12,7 +12,7 @@ import { useNavigate, Link } from "react-router-dom";
 
 function Sample() {
   return (
-    <div className='bg-[#e2f0e5] p-3'>
+    <div className='bg-[#e2f0e5] p-1'>
     <div className=' pt-0'>
     <Card className="w-full max-w-[40rem] p-3 mx-auto flex-col">
       <CardBody

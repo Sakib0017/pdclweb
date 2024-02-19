@@ -21,7 +21,9 @@ module.exports = {
       screens: {
         xs: "300px",
       },
-      
+      backgroundImage: {
+        
+      },
     },
   },
   plugins: [],

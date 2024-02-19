@@ -49,7 +49,7 @@ const TABLE_ROWS = [
 ];
 function Report() {
   return (
-    <div className="bg-white">
+    <div className="bg-gray-200">
     <Nav />
      
       

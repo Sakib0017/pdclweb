@@ -18,14 +18,14 @@ import {
 import { Link } from "react-router-dom";
 function Contact() {
   return (
-    <div className="bg-white">
+    <div className="bg-gray-200">
    <Nav />
      
       
      <Navbar />
      <div className={`justify-center  items-center p-2 text-center flex flex-col  text-white`}>
-       <div className=" flex-col mt-[200px] max-w-7xl container rounded block items-stretch md:flex-row    mx-auto">
-       <Card color="transparent" className="mx-auto w-full max-w-7xl" shadow={true}>
+       <div className=" flex-col mt-[200px] max-w-7xl container  block items-stretch md:flex-row    mx-auto">
+       <Card  className="mx-auto w-full rounded-[10px] max-w-7xl" shadow={true}>
    
 
       <form className="mt-8 mb-2 w-full p-5 max-w-7xl  sm:w-300">
