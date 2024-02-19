@@ -6,7 +6,7 @@ import { technologies } from "../constants";
 import img from "../assets/link.jpg";
 import back from "../assets/back.jpg";
 import { useNavigate, Link } from "react-router-dom";
-import { healh, dical, cover, arrow, arrow1, arrow2 } from "../assets";
+import { healh, dical, cover, arrow } from "../assets";
 import {
    
   Card, Typography
@@ -291,8 +291,8 @@ const Tech = () => {
 {/*<div className="fixed bottom-[10px] w-[100px] p-0 right-[40px] bg-none">
   <img src={arrow1} alt="arrow1" className="w-[100px]  h-[60px] " />
 </div> */}
-<div className="fixed bottom-[70px] w-[77px]  right-0 bg-none">
-  <img src={arrow1} alt="arrow2" className="w-[77px]  h-[60px] " />
+<div className="fixed bottom-[70px]  right-0 bg-none">
+  <img src={arrow} alt="arrow2" className="w-[80px]  h-[160px] " />
 </div>
 
 <Popover placement="top">

@@ -111,7 +111,7 @@ function Health() {
     </Card>
     </div>
     <div className="text-black  text-center">
-    <div className="text-black text-center p-5 mb-0 mt-0">
+    <div className="text-black text-center">
     <h3 className="text-[24px] text-[#006642] font-bold font-ubuntu pb-10">হেল্‌থ চেক-আপ এর পূর্ব প্রস্ততি সমূহ:- </h3>
     <p className=" font-ubuntu">০১ হেল্‌থ চেক-আপ এর বিষয়ে জানতে পপুলার অনুসন্ধান কেন্দ্রে যোগাযোগ করুন</p>
     <p className=" font-ubuntu">০২ হেল্‌থ চেক-আপ এর বিষয়ে জানতে পপুলার অনুসন্ধান কেন্দ্রে যোগাযোগ করুন</p>
