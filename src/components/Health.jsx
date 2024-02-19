@@ -258,7 +258,7 @@ function Health() {
   <div className="grid md:grid-cols-3   md:gap-1">
     <div className="text-black text-center">
     <div className="text-black text-center ">
-    <img className=" mx-auto h-[500px] p-1 w-full" src={dhan}/>
+    <img className=" mx-auto h-[550px] p-1 w-[350px]" src={dhan}/>
     </div>
     </div>
     <div className="text-black text-center">
