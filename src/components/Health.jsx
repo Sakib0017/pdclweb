@@ -258,47 +258,15 @@ function Health() {
   <div className="grid md:grid-cols-3   md:gap-1">
    
     <div className="text-black text-center ">
-    <img className=" mx-auto h-[550px] p-1 w-[300px]" src={dhan}/>
+    <img className=" mx-auto h-[500px] p-1 w-auto" src={dhan}/>
     </div>
-    </div>
-    <div className="text-black text-center">
-    <div className="text-black  overflow-scroll text-center">
     
-    <h3 className="text-[20px] text-[#006642] font-ubuntu font-bold">Comprehensive Health Check-up<br></br>Pakages for Male</h3>
-    <Card className="h-auto w-full  shadow-transparent  bg-gray-100">
-      <table className="w-full min-w-max  table-auto text-left">
-     
-        <tbody>
-          {TABLE_ROWS.map(({ no, test, price }) => (
-            <tr key={no} className="even:bg-blue-gray-50/50">
-              <td className="p-4 ">
-                <Typography variant="small" color="blue-gray" className="font-normal font-ubuntu">
-                  {no}
-                </Typography>
-              </td>
-              <td className="p-4">
-                <Typography variant="small" color="blue-gray" className="font-normal font-ubuntu">
-                  {test}
-                </Typography>
-              </td>
-              <td className="p-4">
-                <Typography variant="small" color="blue-gray" className="font-normal font-ubuntu">
-                  {price}
-                </Typography>
-              </td>
-              
-            </tr>
-          ))}
-        </tbody>
-      </table>
-    </Card>
    
-    </div>
-   
-    <div className="text-black overflow-scroll text-center ">
-    <h3 className="text-[20px] text-[#006642] font-ubuntu font-bold">Comprehensive Health Check-up<br></br>Pakages for Female</h3>
+    <div className="text-black  overflow-scroll text-center ">
+    <h3 className="text-[20px] text-[#006642] font-ubuntu font-bold">Health Cheak-up Pakages<br></br>For 40 Years Age Above</h3>
+    
     <Card className="h-auto w-full  shadow-transparent bg-gray-100 ">
-      <table className="w-full min-w-max table-auto  text-left">
+      <table className="w-full min-w-max  table-auto text-left">
        
         <tbody>
           {TABLE_ROWS.map(({ no, test, price }) => (
@@ -324,9 +292,41 @@ function Health() {
         </tbody>
       </table>
     </Card>
-    
+   
     </div>
-  </div>
+    <div className="text-black  overflow-scroll text-center ">
+    <h3 className="text-[20px] text-[#006642] font-ubuntu font-bold">Health Cheak-up Pakages<br></br>For 40 Years Age Above</h3>
+    
+    <Card className="h-auto w-full  shadow-transparent bg-gray-100 ">
+      <table className="w-full min-w-max  table-auto text-left">
+       
+        <tbody>
+          {TABLE_ROWS.map(({ no, test, price }) => (
+            <tr key={no} className="even:bg-blue-gray-50/50">
+              <td className="p-4 ">
+                <Typography variant="small" color="blue-gray" className="font-normal font-ubuntu">
+                  {no}
+                </Typography>
+              </td>
+              <td className="p-4">
+                <Typography variant="small" color="blue-gray" className="font-normal font-ubuntu">
+                  {test}
+                </Typography>
+              </td>
+              <td className="p-4">
+                <Typography variant="small" color="blue-gray" className="font-normal font-ubuntu">
+                  {price}
+                </Typography>
+              </td>
+              
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </Card>
+   
+    </div>
+    </div>
   
 </form>
      </div>      
