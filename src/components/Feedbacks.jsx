@@ -26,7 +26,7 @@ const Feedbacks = () => {
        <div className="flex flex-col">
        <form className="max-w-7xl  items-center bg-none rounded-[10px] justify-center">
   <div className="grid md:grid-cols-2 items-center justify-center mx-auto  md:gap-1 ">
-    <div className=" m-2 p-5 bg-gray-100 shadow text-start">
+    <div className=" m-2 p-10 bg-gray-100 shadow text-start">
     
     <div className="flex flex-wrap   max-w-7xl   ">
     <div >
@@ -53,7 +53,7 @@ const Feedbacks = () => {
     </div>   
         </div>
  </div>
-    <div className=" m-2 bg-gray-100 shadow  p-5 text-start">
+    <div className=" m-2 bg-gray-100 shadow  p-10 text-start">
     
     <div className="flex flex-wrap   max-w-7xl   ">
     <div >
