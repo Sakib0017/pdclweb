@@ -41,13 +41,13 @@ const Hero = ({ color }) => {
               <a
                 className={
                   "text-[10px] font-ubuntu font-bold uppercase px-2 py-3  shadow-lg rounded block leading-normal " +
-                  (openTab === 1
+                  (openTab === 2
                     ? "text-[#006642] bg-" + color + "-600"
                     : "text-" + color + "-600 bg-[#006642] ")
                 }
                 onClick={e => {
                   e.preventDefault();
-                  setOpenTab(1);
+                  setOpenTab(2);
                 }}
                 data-toggle="tab"
                 href="#link1"
@@ -60,13 +60,13 @@ const Hero = ({ color }) => {
               <a
                 className={
                   "text-[10px] font-ubuntu  font-bold uppercase px-2 py-3 shadow-lg rounded block leading-normal " +
-                  (openTab === 2
+                  (openTab === 1
                     ? "text-[#006642] bg-" + color + "-600"
                     : "text-" + color + "-600 bg-[#006642]")
                 }
                 onClick={e => {
                   e.preventDefault();
-                  setOpenTab(2);
+                  setOpenTab(1);
                 }}
                 data-toggle="tab"
                 href="#link2"
@@ -98,7 +98,7 @@ const Hero = ({ color }) => {
           <div className="relative flex flex-col min-w-0   w-full mb-1 shadow-lg rounded">
             <div className="px-2 py-2 flex-auto">
               <div className="tab-content tab-space">
-                <div className={openTab === 1 ? "block" : "hidden"} id="link1">
+                <div className={openTab === 2 ? "block" : "hidden"} id="link1">
                 <form className="max-w-screen-xl   mx-auto">
   <div className="grid md:grid-cols-4 pt-6 pb-6 md:gap-1">
     <div className="relative z-0 w-full mb-1 group ">
@@ -137,7 +137,7 @@ const Hero = ({ color }) => {
   
 </form>
                 </div>
-                <div className={openTab === 2 ? "block" : "hidden"} id="link2">
+                <div className={openTab === 1 ? "block" : "hidden"} id="link2">
                 <form className="max-w-screen-xl  mx-auto">
   <div className="grid md:grid-cols-4  md:gap-1">
     
@@ -246,13 +246,13 @@ const Hero = ({ color }) => {
               <a
                 className={
                   "text-[10px] font-bold font-ubuntu uppercase px-2 py-3  shadow-lg rounded block leading-normal " +
-                  (openTab === 1
+                  (openTab === 2
                     ? "text-[#006642] bg-" + color + "-600"
                     : "text-" + color + "-600 bg-[#006642] ")
                 }
                 onClick={e => {
                   e.preventDefault();
-                  setOpenTab(1);
+                  setOpenTab(2);
                 }}
                 data-toggle="tab"
                 href="#link1"
@@ -265,13 +265,13 @@ const Hero = ({ color }) => {
               <a
                 className={
                   "text-[10px] font-bold font-ubuntu uppercase px-2 py-3 shadow-lg rounded block leading-normal " +
-                  (openTab === 2
+                  (openTab === 1
                     ? "text-[#006642] bg-" + color + "-600"
                     : "text-" + color + "-600 bg-[#006642]")
                 }
                 onClick={e => {
                   e.preventDefault();
-                  setOpenTab(2);
+                  setOpenTab(1);
                 }}
                 data-toggle="tab"
                 href="#link2"
@@ -303,7 +303,7 @@ const Hero = ({ color }) => {
           <div className="relative flex flex-col min-w-0   w-full mb-1 shadow-lg rounded">
             <div className="px-2 py-2 flex-auto ">
               <div className="tab-content tab-space">
-                <div className={openTab === 1 ? "block" : "hidden"} id="link1">
+                <div className={openTab === 2 ? "block" : "hidden"} id="link1">
                 <form className="max-w-screen-xl bg-[#f3f3f3] mx-auto">
   <div className="grid md:grid-cols-5  md:gap-1">
     <div className="relative z-0 w-full mb-1 group">
@@ -342,7 +342,7 @@ const Hero = ({ color }) => {
   
 </form>
                 </div>
-                <div className={openTab === 2 ? "block" : "hidden"} id="link2">
+                <div className={openTab === 1 ? "block" : "hidden"} id="link2">
                 <form className="max-w-screen-xl  mx-auto">
   <div className="grid md:grid-cols-5  md:gap-1">
     
