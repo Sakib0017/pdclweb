@@ -47,27 +47,27 @@ function Report() {
         <thead>
           <tr>
            
-              <th className="border-b  text-[#006642] border-blue-gray-100 bg-blue-gray-50 p-4">
+              <th className="border-b  text-[#006642]  border-blue-gray-100 bg-blue-gray-50 p-4">
                 
                  <p>Test Name</p>
                 
               </th>
-              <th className="border-b  text-[#006642] border-blue-gray-100 bg-blue-gray-50 p-4">
+              <th className="border-b  text-[#006642]  border-blue-gray-100 bg-blue-gray-50 p-4">
                 
                 <p>Pataint Name</p>
                
              </th>
-             <th className="border-b  text-[#006642] border-blue-gray-100 bg-blue-gray-50 p-4">
+             <th className="border-b  text-[#006642]  border-blue-gray-100 bg-blue-gray-50 p-4">
                 
                 <p>Publish Date</p>
                
              </th>
-             <th className="border-b  text-[#006642] border-blue-gray-100 bg-blue-gray-50 p-4">
+             <th className="border-b  text-[#006642]  border-blue-gray-100 bg-blue-gray-50 p-4">
                 
                 <p>Download</p>
                
              </th>
-             <th className="border-b  text-[#006642] border-blue-gray-100 bg-blue-gray-50 p-4">
+             <th className="border-b  text-[#006642]   border-blue-gray-100 bg-blue-gray-50 p-4">
                 
                 <p>Print</p>
                
@@ -78,23 +78,23 @@ function Report() {
         <tbody>
           
             <tr  className="even:bg-blue-gray-50/50">
-              <td className="p-4  text-[#006642] font-ubuntu">
+              <td className="p-4  text-[#006642] font-ubuntu ">
                
                   <p>Tssue Cell Test</p>
               
               </td>
-              <td className="p-4  text-[#006642] font-ubuntu">
+              <td className="p-4  text-[#006642] font-ubuntu ">
                
               <p>Rayhan Ali</p>
                
               </td>
-              <td className="p-4 text-[#006642] font-ubuntu">
+              <td className="p-4 text-[#006642] font-ubuntu ">
               
               <p>19/09/23</p>
                
               </td>
               <td className="p-2">
-                <button onClick={downloadPDF}> <img className=" h-[18px] w-[18px]"  src={downloads} /></button>
+                <button className="" onClick={downloadPDF}> <img className=" h-[18px] w-[18px]"  src={downloads} /></button>
               
                   
                
