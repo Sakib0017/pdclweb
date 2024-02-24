@@ -61,8 +61,8 @@ const Hero = ({ color }) => {
                 className={
                   "text-[10px] font-ubuntu  font-bold uppercase px-2 py-3 shadow-lg rounded block leading-normal " +
                   (openTab === 1
-                    ? "text-[#006642] bg-" + color + "-600"
-                    : "text-" + color + "-600 bg-[#006642]")
+                    ? "text-[#006642]  bg-" + color + "-600"
+                    : "text-" + color + "-600  bg-[#006642]")
                 }
                 onClick={e => {
                   e.preventDefault();
@@ -72,7 +72,7 @@ const Hero = ({ color }) => {
                 href="#link2"
                 role="tablist"
               >
-                 APPOINTMENT
+                 <p className='text-shadow'>APPOINTMENT</p>
               </a>
             </li>
             <li className=" mr-2 last:mr-0 fixed-right flex-auto text-center">

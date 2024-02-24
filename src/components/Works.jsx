@@ -102,9 +102,9 @@ const Works = () => {
     
         <div className='relative w-full h-auto'>
           <video
-            src={pakages}
+            src={diag}
             alt='project_image' 
-            className='w-full h-[200px] object-cover opacity-95' autoPlay loop muted
+            className='w-full h-[220px] object-cover opacity-95' autoPlay loop muted
           />
 
           <div className='absolute inset-0 flex justify-end p-3 card-img_hover'>
@@ -121,22 +121,22 @@ const Works = () => {
           </div>
         </div>
 
-        <div className='mt-0 p-5'>
+        <div className='mt-0 p-2'>
           <h3 className='text-[#006642] p-2 font-ubuntu text-[24px]'>HEALTH DIAGNOSIS</h3>
-          <p className='mt-2 text-[#006642] font-ubuntu p-2 text-[14px]'>Ambulance BD 24 is the best ambulance service in Dhaka, Bangladesh. We provide emergency ambulance service in Dhaka city and transport patient and transport.</p>
+          <p className='mt-2 text-[#006642] font-ubuntu p-2 text-[14px]'>Ambulance BD 24 is the best ambulance service in Dhaka.Ambulance BD 24 is the best ambulance service in Dhaka, Bangladesh.</p>
         </div>
 
-        <div className='mt-0 p-5 flex font-ubuntu flex-wrap  gap-2'>
+        <div className='mt-0 p-2 flex font-ubuntu flex-wrap  gap-2'>
           
             <p
               
-              className={`text-[14px] p-2 text-[blue] font-ubuntu `}
+              className={`text-[14px] pl-2 pb-2 text-[blue] font-ubuntu `}
             >
               #InsideDhaka
             </p>
             <p
               
-            className={`text-[14px] p-2 text-[blue] font-ubuntu `}
+            className={`text-[14px] pl-2 pb-2 text-[gray] font-ubuntu `}
           >
             #OutsideDhaka
           </p>
@@ -150,7 +150,7 @@ const Works = () => {
           <video
             src={cons}
             alt='project_image' 
-            className='w-full h-[200px] object-cover opacity-95' autoPlay loop muted
+            className='w-full h-[220px] object-cover opacity-95' autoPlay loop muted
           />
 
           <div className='absolute inset-0 flex justify-end p-3 card-img_hover'>
@@ -167,22 +167,22 @@ const Works = () => {
           </div>
         </div>
 
-        <div className='mt-0 p-5'>
+        <div className='mt-0 p-2'>
           <h3 className='text-[#006642] p-2 font-ubuntu text-[24px]'>HEALTH CONSULTATION</h3>
-          <p className='mt-2 text-[#006642] font-ubuntu p-2 text-[14px]'>Blood Bank Management System  Management System (BBMS) under Safe Blood Transfusion Program, HSM, DGHS. Blood Transfusion Transfusion Program, HSM, DGHS.</p>
+          <p className='mt-2 text-[#006642] font-ubuntu p-2 text-[14px]'>Blood Bank Management System  Management Safe Blood.Blood Bank Management System  Management under Safe Blood.</p>
         </div>
 
-        <div className='mt-0 p-5 flex font-ubuntu flex-wrap  gap-2'>
+        <div className='mt-0 p-2 flex font-ubuntu flex-wrap  gap-2'>
          
             <p
              
-              className={`text-[14px] p-2 text-[blue] font-ubuntu `}
+              className={`text-[14px] pl-2 pb-2 text-[blue] font-ubuntu `}
             >
               #InsideDhaka
             </p>
             <p
              
-             className={`text-[14px] p-2 text-[blue] font-ubuntu `}
+             className={`text-[14px] pl-2 pb-2 text-[gray] font-ubuntu `}
            >
              #OutsideDhaka
            </p>
@@ -193,12 +193,12 @@ const Works = () => {
     
         <div className='relative w-full h-auto'>
           <video
-            src={diag}
+            src={pakages}
             alt='project_image' 
-            className='w-full h-[200px] object-cover opacity-95' autoPlay loop muted
+            className='w-full h-[220px] object-cover opacity-95' autoPlay loop muted
           />
 
-          <div className='absolute inset-0 flex justify-end p-3 card-img_hover'>
+          <div className='absolute inset-0 flex justify-end p-0 card-img_hover'>
             <div
               onClick={() => window.open(source_code_link, "_blank")}
               className='green-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
@@ -212,22 +212,22 @@ const Works = () => {
           </div>
         </div>
 
-        <div className='mt-0 p-5'>
+        <div className='mt-0 p-2'>
           <h3 className='text-[#006642] p-2 font-ubuntu text-[24px]'>ALL HEALTH PAKAGES</h3>
-          <p className='mt-2 text-[#006642] font-ubuntu p-2 text-[14px]'>We believe everyone should have access to convenient, affordable, and high-quality healthcare. Our health checks and packages help you stay on top of your top of your</p>
+          <p className='mt-2 text-[#006642] font-ubuntu p-2 text-[14px]'>We believe everyone should have access convenient access.We believe everyone should have access to convenient access.</p>
         </div>
 
-        <div className='mt-0 p-5 flex font-ubuntu flex-wrap  gap-2'>
+        <div className='mt-0 p-2 flex font-ubuntu flex-wrap  gap-1'>
           
             <p
             
-              className={`text-[14px] text-[blue] p-2 font-ubuntu`}
+              className={`text-[14px] text-[blue] pl-2 pb-2 font-ubuntu`}
             >
               #InsideDhaka
             </p>
             <p
             
-            className={`text-[14px] p-2 text-[blue] font-ubuntu`}
+            className={`text-[14px] pl-2 text-[gray] pb-2 font-ubuntu`}
           >
             #OutsideDhaka
           </p>
