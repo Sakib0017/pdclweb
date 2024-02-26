@@ -246,11 +246,11 @@ const projects = [
       "Ambulance BD 24 is the best ambulance service in Dhaka, Bangladesh. We provide emergency ambulance service in Dhaka city and transport patient.",
       tags: [
         {
-          name: "Incity",
+          name: "Indhaka",
           color: "blue-text-gradient",
         },
         {
-          name: "Outsidecity",
+          name: "Outsidedhaka",
           color: "green-text-gradient",
         },
         
@@ -264,11 +264,11 @@ const projects = [
       "Blood Bank Management System  Management System (BBMS) under Safe Blood Transfusion Program, HSM, DGHS. Blood Transfusion Transfusion Program, HSM, DGHS.",
     tags: [
       {
-        name: "Incity",
+        name: "Indhaka",
         color: "blue-text-gradient",
       },
       {
-        name: "Outsidecity",
+        name: "Outsidedhaka",
         color: "green-text-gradient",
       },
       
@@ -282,11 +282,11 @@ const projects = [
       "We believe everyone should have access to convenient, affordable, and high-quality healthcare. Our health checks and packages help you stay on top of your ",
       tags: [
         {
-          name: "Incity",
+          name: "Indhaka",
           color: "blue-text-gradient",
         },
         {
-          name: "Outsidecity",
+          name: "Outsidedhaka",
           color: "green-text-gradient",
         },
         
