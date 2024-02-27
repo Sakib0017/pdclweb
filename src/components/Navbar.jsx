@@ -193,13 +193,13 @@ const Navbar = () => {
 <path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM64 256c0-17.7 14.3-32 32-32H480c17.7 0 32 14.3 32 32s-14.3 32-32 32H96c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"></path>
 
 </svg>
-            <div className={`${!toggle ? 'hidden' :'flex'} p-10 bg-white  absolute top-20 rounded-md`}>
+            <div className={`${!toggle ? 'hidden' :'flex'} p-10 bg-emerald-900/90  absolute top-20 rounded-md`}>
                 <ul className=" flex me-auto flex-col gap-3">
                 <li className="inline-flex flex-row justify-start items-start">
         <div className="flex flex-row  ">
          
          
-        <a><Link to="/login">      <p className="text-emerald-900/80 me-auto  items-start flex flex-row text-[16px]  font-medium font-ubuntu"> 
+        <a><Link to="/login">      <p className="text-white me-auto  items-start flex flex-row text-[16px]  font-medium font-ubuntu"> 
            
             
            
@@ -214,7 +214,7 @@ const Navbar = () => {
          <div className="flex flex-col ">
          
          
-         <a> <Link to="/health">      <p className="text-emerald-900/80 me-auto  items-start flex flex-row text-[16px]  font-bold font-ubuntu"> 
+         <a> <Link to="/health">      <p className="text-white me-auto  items-start flex flex-row text-[16px]  font-bold font-ubuntu"> 
            
             
            
@@ -231,7 +231,7 @@ const Navbar = () => {
          
         
                        
-         <a>  <Link to="/modal">  <p className="text-emerald-900/80 me-auto items-start flex flex-row text-[16px] font-medium font-ubuntu"> 
+         <a>  <Link to="/modal">  <p className="text-white me-auto items-start flex flex-row text-[16px] font-medium font-ubuntu"> 
           
              
                  <a href=""> <span className="text-[16px] font-bold font-ubuntu ">Branchs</span></a></p>
@@ -245,7 +245,7 @@ const Navbar = () => {
             
          <div className="flex flex-row  ">
         
-         <a> <Link to="/notice"><p className="text-emerald-900/80  items-center flex flex-row text-[16px]  font-medium font-ubuntu"> 
+         <a> <Link to="/notice"><p className="text-white  items-center flex flex-row text-[16px]  font-medium font-ubuntu"> 
          
            <a href=""><span className="text-[16px] font-bold font-ubuntu ">Notices</span></a></p>
            </Link>      </a>   
@@ -258,7 +258,7 @@ const Navbar = () => {
             
             <div className="flex flex-row  ">
            
-            <a>  <Link to="/contact"><p className="text-emerald-900/80  items-center flex flex-row text-[16px] ms-0 me-1 font-medium font-ubuntu"> 
+            <a>  <Link to="/contact"><p className="text-white  items-center flex flex-row text-[16px] ms-0 me-1 font-medium font-ubuntu"> 
             
               <a href=""><span className="text-[16px] font-bold font-ubuntu ">Contact</span></a></p>
               </Link>   </a>      
@@ -271,7 +271,7 @@ const Navbar = () => {
             
             <div className="flex flex-row  ">
            
-            <a>  <Link to="/about"><p className="text-emerald-900/80  items-center flex flex-row text-[16px] ms-0 me-1 font-medium font-ubuntu"> 
+            <a>  <Link to="/about"><p className="text-white  items-center flex flex-row text-[16px] ms-0 me-1 font-medium font-ubuntu"> 
             
               <a href=""><span className="text-[16px] font-bold font-ubuntu ">About Us</span></a></p>
               </Link>    </a>     
@@ -284,8 +284,8 @@ const Navbar = () => {
             
             <div className="flex flex-row  ">
            
-            <a> <Link to="/login"><p className="text-emerald-900/80  items-center flex flex-row text-[16px] ms-0 me-1 font-medium font-ubuntu"> 
-              <svg class="w-[12px] h-[12px]  fill-emerald-900/80" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+            <a> <Link to="/login"><p className="text-white  items-center flex flex-row text-[16px] ms-0 me-1 font-medium font-ubuntu"> 
+              <svg class="w-[12px] h-[12px]  fill-white" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
 
 <path d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-45.7 48C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512H418.3c16.4 0 29.7-13.3 29.7-29.7C448 383.8 368.2 304 269.7 304H178.3z"></path>
 
@@ -302,8 +302,8 @@ const Navbar = () => {
             
             <div className="flex flex-row  ">
            
-            <a>  <Link to="/sign"><p className="text-emerald-900/80  items-center flex flex-row text-[16px] ms-0 me-1 font-medium font-ubuntu"> 
-              <svg class="w-[15px] h-[15px] fill-emerald-900/80 " viewBox="0 0 640 512" xmlns="http://www.w3.org/2000/svg">
+            <a>  <Link to="/sign"><p className="text-white  items-center flex flex-row text-[16px] ms-0 me-1 font-medium font-ubuntu"> 
+              <svg class="w-[15px] h-[15px] fill-white " viewBox="0 0 640 512" xmlns="http://www.w3.org/2000/svg">
 
 <path d="M96 128a128 128 0 1 1 256 0A128 128 0 1 1 96 128zM0 482.3C0 383.8 79.8 304 178.3 304h91.4C368.2 304 448 383.8 448 482.3c0 16.4-13.3 29.7-29.7 29.7H29.7C13.3 512 0 498.7 0 482.3zM504 312V248H440c-13.3 0-24-10.7-24-24s10.7-24 24-24h64V136c0-13.3 10.7-24 24-24s24 10.7 24 24v64h64c13.3 0 24 10.7 24 24s-10.7 24-24 24H552v64c0 13.3-10.7 24-24 24s-24-10.7-24-24z"></path>
 

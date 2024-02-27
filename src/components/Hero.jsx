@@ -21,7 +21,7 @@ const Hero = ({ color }) => {
       
        <video className=" w-full h-[700px] object-cover object-top   top-0 left-0" src={video} autoPlay loop muted />
        <div className='absolute w-full h-[700px]  top-0 left-0 bg-gray-900/50'></div>
-      <div className={`${styles.paddingX} absolute top-[80px]  inset-0 justify-center   items-bottom  text-center flex flex-col  text-gray-600`}>
+      <div className={`${styles.paddingX} absolute  top-[80px]  inset-1 justify-center   items-bottom  text-center flex flex-col  text-white`}>
        
        
        
@@ -32,7 +32,7 @@ const Hero = ({ color }) => {
        
        
        <div className="flex-col  hidden md:block   max-w-7xl     mx-auto">
-        <div className="w-full rounded-[5px] shadow bg-gray-900 ">
+        <div className="w-full rounded-[5px] shadow bg-white ">
           <ul
             className="flex mb-0 ml-2 mr-2 list-none   flex-wrap pt-1 pb-2 flex-row"
             role="tablist"
@@ -42,8 +42,8 @@ const Hero = ({ color }) => {
                 className={
                   "text-[10px] font-ubuntu font-bold uppercase px-2 py-3  shadow-lg rounded block leading-normal " +
                   (openTab === 2
-                    ? "text-gray-600 bg-" + color + "-600"
-                    : "text-" + color + "-600 bg-white ")
+                    ? "text-slate-900 bg-" + color + "-600"
+                    : "text-" + color + "-600 bg-emerald-900/80 ")
                 }
                 onClick={e => {
                   e.preventDefault();
@@ -61,8 +61,8 @@ const Hero = ({ color }) => {
                 className={
                   "text-[10px] font-ubuntu  font-bold uppercase px-2 py-3 shadow-lg rounded block leading-normal " +
                   (openTab === 1
-                    ? "text-gray-600  bg-" + color + "-600"
-                    : "text-" + color + "-600  bg-white")
+                    ? "text-slate-900  bg-" + color + "-600"
+                    : "text-" + color + "-600  bg-emerald-900/80")
                 }
                 onClick={e => {
                   e.preventDefault();
@@ -80,8 +80,8 @@ const Hero = ({ color }) => {
                 className={
                   "text-[10px] font-ubuntu font-bold uppercase px-2 py-3 shadow-lg rounded block leading-normal " +
                   (openTab === 3
-                    ? "text-gray-600 bg-" + color + "-600"
-                    : "text-" + color + "-600 bg-white")
+                    ? "text-slate-900 bg-" + color + "-600"
+                    : "text-" + color + "-600 bg-emerald-900/80")
                 }
                 onClick={e => {
                   e.preventDefault();
@@ -130,7 +130,7 @@ const Hero = ({ color }) => {
   <option value="DE">Wednesday</option>
 </select></div> */}
     
-<button type="button" className="text-gray-600  rounded block h-[43px] hover:text-gray-600 border bg-gray-900 border-[black] hover:bg-white focus:ring-4 focus:outline-none focus:ring-[#00a884] font-ubuntu  text-[10px] font-bold px-5 py-2.5 text-center  mb-0 dark:border-[#00a884] dark:text-[#00a884] dark:hover:text-gray-600 dark:hover:bg-[#00a884] dark:focus:ring-[#00a884]">DOCTORS</button>
+<button type="button" className="text-white  rounded block h-[43px] hover:text-slate-900 border bg-emerald-900/80 border-none hover:bg-white focus:ring-4 focus:outline-none focus:ring-[#00a884] font-ubuntu  text-[10px] font-bold px-5 py-2.5 text-center  mb-0 dark:border-[#00a884] dark:text-[#00a884] dark:hover:text-gray-600 dark:hover:bg-[#00a884] dark:focus:ring-[#00a884]">DOCTORS</button>
     
     </div>
  
@@ -185,7 +185,7 @@ const Hero = ({ color }) => {
   
   
 </select></div>*/}
-    <button type="button" className="text-gray-600 rounded block h-[43px] bg-gray-900 hover:text-gray-600 border border-[black] hover:bg-white focus:ring-4 focus:outline-none focus:ring-[#125133] font-ubuntu  text-[10px] font-bold px-5 py-2.5 text-center  dark:border-[black] dark:text-[#125133] dark:hover:text-gray-600 dark:hover:bg-white dark:focus:ring-[#125133]">APPOINTMENT</button>
+    <button type="button" className="text-white  rounded block h-[43px] hover:text-slate-900 border bg-emerald-900/80 border-none hover:bg-white focus:ring-4 focus:outline-none focus:ring-[#125133] font-ubuntu  text-[10px] font-bold px-5 py-2.5 text-center  dark:border-[black] dark:text-[#125133] dark:hover:text-gray-600 dark:hover:bg-white dark:focus:ring-[#125133]">APPOINTMENT</button>
     
     </div>
  
@@ -220,7 +220,7 @@ const Hero = ({ color }) => {
   <option value="DE">Germany</option>
 </select></div> */}
      
-<button type="button" className="text-gray-600 rounded block bg-gray-900 hover:text-gray-600 border h-[43px] border-[black] hover:bg-white focus:ring-4 focus:outline-none focus:ring-[#125133] font-ubuntu  text-[10px] font-bold px-5 py-2.5 text-center  dark:border-[black] dark:text-[#125133] dark:hover:text-gray-600 dark:hover:bg-white dark:focus:ring-[#125133]">CHARGES</button>
+<button type="button" className="text-white  rounded block h-[43px] hover:text-slate-900 border bg-emerald-900/80 border-none hover:bg-white focus:ring-4 focus:outline-none focus:ring-[#125133] font-ubuntu  text-[10px] font-bold px-5 py-2.5 text-center  dark:border-[black] dark:text-[#125133] dark:hover:text-gray-600 dark:hover:bg-white dark:focus:ring-[#125133]">CHARGES</button>
     
     </div>
  
@@ -236,8 +236,8 @@ const Hero = ({ color }) => {
      
 
 
-      <div className="flex flex-col mb-2 rounded-[10px] sm:hidden  flex-1  justify-top items-center    mt-[40px] mx-auto">
-        <div className="w-full h-auto bg-gray-900 p-2 rounded block">
+      <div className="flex flex-col mb-2 rounded-[10px] sm:hidden  flex-1  justify-top items-center    mt-[15px] mx-auto">
+        <div className=" w-full h-auto bg-white p-2 rounded block">
           <ul
             className="flex mb-0 ml-2 mr-2 list-none flex-wrap pt-1 pb-1 flex-col shadow-lg"
             role="tablist"
@@ -247,8 +247,8 @@ const Hero = ({ color }) => {
                 className={
                   "text-[10px] font-bold font-ubuntu uppercase px-2 py-3  shadow-lg rounded block leading-normal " +
                   (openTab === 2
-                    ? "text-gray-600 bg-" + color + "-600"
-                    : "text-" + color + "-600 bg-white ")
+                    ? "text-slate-900 bg-" + color + "-600"
+                    : "text-" + color + "-600 bg-emerald-900/80 ")
                 }
                 onClick={e => {
                   e.preventDefault();
@@ -266,8 +266,8 @@ const Hero = ({ color }) => {
                 className={
                   "text-[10px] font-bold font-ubuntu uppercase px-2 py-3 shadow-lg rounded block leading-normal " +
                   (openTab === 1
-                    ? "text-gray-600 bg-" + color + "-600"
-                    : "text-" + color + "-600 bg-white")
+                    ? "text-slate-900 bg-" + color + "-600"
+                    : "text-" + color + "-600 bg-emerald-900/80")
                 }
                 onClick={e => {
                   e.preventDefault();
@@ -285,8 +285,8 @@ const Hero = ({ color }) => {
                 className={
                   "text-[10px] font-bold font-ubuntu uppercase px-2 py-3 shadow-lg rounded block leading-normal " +
                   (openTab === 3
-                    ? "text-gray-600 bg-" + color + "-600"
-                    : "text-" + color + "-600 bg-white")
+                    ? "text-slate-900 bg-" + color + "-600"
+                    : "text-" + color + "-600 bg-emerald-900/80")
                 }
                 onClick={e => {
                   e.preventDefault();
@@ -304,7 +304,7 @@ const Hero = ({ color }) => {
             <div className="px-2 py-2 flex-auto ">
               <div className="tab-content tab-space">
                 <div className={openTab === 2 ? "block" : "hidden"} id="link1">
-                <form className="max-w-screen-xl bg-gray-900 mx-auto">
+                <form className="max-w-screen-xl bg-white mx-auto">
   <div className="grid md:grid-cols-5  md:gap-1">
     <div className="relative z-0 w-full mb-1 group">
         <input type="text" name="floating_first_name" placeholder="Doctors Name" id="floating_first_name" className="block pl-2 py-2.5 px-0 w-full text-sm text-gray-600 bg-transparent border   border-1 border-[black]  dark:text-gray-600 dark:border-[black] dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"  required />
@@ -335,7 +335,7 @@ const Hero = ({ color }) => {
   <option value="DE">Wednesday</option>
               </select></div> */}
     
-<button type="button" className="text-gray-600 rounded block h-[43px] hover:text-gray-600 border bg-gray-900 border-[black] hover:bg-white focus:ring-4 focus:outline-none focus:ring-[#00a884] font-ubuntu text-[10px] font-bold px-5 py-2.5 text-center  mb-0 dark:border-[#00a884] dark:text-[#00a884] dark:hover:text-gray-600 dark:hover:bg-[#00a884] dark:focus:ring-[#00a884]">DOCTORS</button>
+<button type="button" className="text-white rounded block h-[43px] hover:text-slate-900 border bg-emerald-900/80  hover:bg-white focus:ring-4 focus:outline-none focus:ring-[#00a884] font-ubuntu text-[10px] font-bold px-5 py-2.5 text-center  mb-0 dark:border-[#00a884] dark:text-[#00a884] dark:hover:text-gray-600 dark:hover:bg-[#00a884] dark:focus:ring-[#00a884]">DOCTORS</button>
     
     </div>
  
@@ -390,7 +390,7 @@ const Hero = ({ color }) => {
   
   
               </select></div> */}
-    <button type="button" className="text-gray-600 rounded block h-[43px] bg-gray-900 hover:text-gray-600 border border-[black] hover:bg-white focus:ring-4 focus:outline-none focus:ring-[#125133] font-ubuntu  text-[10px] font-bold px-5 py-2.5 text-center  dark:border-[black] dark:text-[#125133] dark:hover:text-gray-600 dark:hover:bg-white dark:focus:ring-[#125133]">APPOINTMENT</button>
+    <button type="button" className="text-white rounded block h-[43px] hover:text-slate-900 border bg-emerald-900/80  hover:bg-white focus:ring-4 focus:outline-none focus:ring-[#125133] font-ubuntu  text-[10px] font-bold px-5 py-2.5 text-center  dark:border-[black] dark:text-[#125133] dark:hover:text-gray-600 dark:hover:bg-white dark:focus:ring-[#125133]">APPOINTMENT</button>
     
     </div>
  
@@ -425,7 +425,7 @@ const Hero = ({ color }) => {
   <option value="DE">Germany</option>
 </select></div>
      */}
-<button type="button" className="text-gray-600 rounded block bg-gray-900 hover:text-gray-600 border h-[43px] border-[black] hover:bg-white focus:ring-4 focus:outline-none focus:ring-[#125133] font-ubuntu  text-[10px] font-bold px-5 py-2.5 text-center  dark:border-[black] dark:text-[#125133] dark:hover:text-gray-600 dark:hover:bg-white dark:focus:ring-[#125133]">CHARGES</button>
+<button type="button" className="text-white rounded block h-[43px] hover:text-slate-900 border bg-emerald-900/80  hover:bg-white focus:ring-4 focus:outline-none focus:ring-[#125133] font-ubuntu  text-[10px] font-bold px-5 py-2.5 text-center  dark:border-[black] dark:text-[#125133] dark:hover:text-gray-600 dark:hover:bg-white dark:focus:ring-[#125133]">CHARGES</button>
     
     </div>
  
