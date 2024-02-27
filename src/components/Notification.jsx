@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 
 function Notification() {
+  
   const [showNotification, setShowNotification] = useState(true);
 
   // Hide notification after a certain time
@@ -11,13 +12,15 @@ function Notification() {
 
   return (
     <>
-    <div 
-      className={`fixed top-[300px] hidden md:block right-[700px] p-5 bg-emerald-900/90 text-white  rounded-lg shadow-md transition-opacity ${showNotification ? 'opacity-100' : 'opacity-0'}`}
+   <div
+      
+      className={`fixed w-[500px] top-[270px] hidden md:block right-[55px] rounded-lg bg-emerald-900/90 text-white p-4 shadow-md transition-opacity ${showNotification ? 'opacity-100' : 'opacity-0'}`}
+        
     >
-     Please click the Icon Button in the Top-Right-center <br></br>
-     corner to  Collect Your Report, Branches Contact, Sample <br></br>
-     Collection from Home, Online Doctor Consaltancy, 
-     <br></br>Submit Complain And Chat Messanger with Us. 
+     Please click the Icons in the Top-Right-center corner to<br></br>
+     Collect Your Report, Branches Contact,Sample Collection<br></br>
+     from Home, Online Doctor Consaltancy, Submit Complain<br></br> 
+     And Chat Messanger with Us. 
      <div className='flex flex-row'>
      <p className="text-start  p-5">
      <span 

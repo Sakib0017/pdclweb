@@ -187,13 +187,13 @@ const Navbar = () => {
           
           
    
-        <div className="md:hidden  flex flex-1 justify-end items-start">
+        <div className="sm:hidden  flex flex-1 justify-end items-start">
         <svg  className="w-[28px] h-[28px] fill-emerald-900/80" onClick={() => setToggle(!toggle)}  viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
 
 <path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM64 256c0-17.7 14.3-32 32-32H480c17.7 0 32 14.3 32 32s-14.3 32-32 32H96c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"></path>
 
 </svg>
-            <div className={`${!toggle ? 'hidden' :'flex'} p-10 fill-white  absolute top-20 rounded-md`}>
+            <div className={`${!toggle ? 'hidden' :'flex'} p-10 bg-white  absolute top-20 rounded-md`}>
                 <ul className=" flex me-auto flex-col gap-3">
                 <li className="inline-flex flex-row justify-start items-start">
         <div className="flex flex-row  ">
