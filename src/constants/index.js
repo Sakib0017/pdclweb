@@ -268,7 +268,7 @@ const projects = [
     id:2,
     name: "HEALTH CONSULTATION",
     description:
-      "Blood Bank Management System  Management System (BBMS) under Safe Blood Transfusion Program, HSM, DGHS. Blood Transfusion Transfusion Program, HSM, DGHS.",
+      "Blood Bank Management System (BBMS) under Safe Blood Transfusion Program, HSM, DGHS. Blood Transfusion Transfusion Program, HSM, DGHS.",
     tags: [
       {
         name: "Indhaka",
@@ -287,7 +287,7 @@ const projects = [
     id:3,
     name: "HEALTH PAKAGES",
     description:
-      "We believe everyone should have access to convenient, affordable, and high-quality healthcare. Our health checks and packages help you stay on top of your ",
+      "We believe everyone should have access to convenient and quality healthcare. Our health checks and packages help you stay on top of your.",
       tags: [
         {
           name: "Indhaka",

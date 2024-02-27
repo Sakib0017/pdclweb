@@ -18,7 +18,7 @@ const FeedbackCard = ({
     className="grid md:grid-row-2 items-center justify-center sm:w-[550px] w-full mx-auto  md:gap-0 "
   >
     
-    <div className=" m-2 p-10 bg-emerald-900/20 shadow text-start">
+    <div className=" m-2 p-10 bg-emerald-900/5 shadow text-start">
     
     <div className="flex flex-wrap   max-w-7xl   ">
     <div >

@@ -20,12 +20,12 @@ const ProjectCard = ({
       <div
         className="grid md:grid-row-3 items-center sm:w-[380px] w-full justify-center mx-auto  md:gap-1 "
       >
-        <div className="text-black m-2 bg-emerald-900/10 shadow w-auto text-center">
+        <div className="text-black m-2 bg-emerald-900/5 shadow w-auto text-center">
         <div className='relative w-auto h-auto'>
           <video
             src={video}
             alt='project_image' 
-            className='w-full h-[220px] object-cover opacity-95' autoPlay loop muted
+            className='w-full h-[220px] object-cover opacity-90' autoPlay loop muted
           />
 
           <div className='absolute inset-0 flex justify-end p-3 card-img_hover'>
@@ -72,28 +72,28 @@ const Works = () => {
     <div  className="">
     
     <div className=" flex-row hidden md:block flex-wrap mb-10 gap-10">
-    <div className="bg-emerald-900/10 shadow p-5 mx-auto w-full ">
-      <div className="flex flex-row  flex-wrap max-w-screen-xl mx-auto  ">
-       <div className="w-[480px]  border-l-[5px]  border-[#006642] border-opacity-50 pl-2  text-start ml-3">
-       <h1 className="text-gray-900/50 font-ubuntu font-bold">DISCOVER <span className="text-[#006642] font-ubuntu">POPULAR</span></h1>
-         <p className="text-[#006642] font-ubuntu ">Popular Diagnostic Centre Ltd. exists to provide a better patient experience. We are a one-stop-shop for your health, offering caring doctors, world-class diagnostics and much more world-class diagnostics and much more.</p>
+    <div className="bg-emerald-900/5 shadow p-5 mx-auto w-full ">
+      <div className="flex flex-col  flex-wrap max-w-screen-xl mx-auto  ">
+       <div className="w-auto  border-l-[5px]  border-[#006642] border-opacity-50 pl-2  text-start ml-3">
+       <h1 className="text-slate-900 font-ubuntu font-bold">DISCOVER <span className="text-[#006642] font-ubuntu">POPULAR</span></h1>
+         <p className="text-[#006642] font-ubuntu ">Popular Diagnostic Centre Ltd. Popular Diagnostic Centre Ltd. Popular Diagnostic Centre Ltd. Popular Diagnostic Centre Ltd. exists to provide a better patient experience. We are a one-stop-shop for your health, offering caring doctors, world-class diagnostics and much more world-class diagnostics and much more world-class diagnostics and much more world-class diagnostics and much more.</p>
         </div>
-        <div className="flex flex-wrap items-start justify-center ms-auto ">
-          <div className="flex flex-col items-start me-auto">
-            <h6 className="text-gray-900/50 font-bold font-ubuntu text-[60px]">27</h6>
+        <div className="flex flex-wrap items-center justify-center mx-auto ">
+          <div className="flex flex-col items-start mx-auto">
+            <h6 className="text-slate-900 font-bold font-ubuntu text-[60px]">27</h6>
               <p className="text-[#006642] font-bold font-ubuntu text-[20px]">
                 DEPARTMENTS
               </p>
                
           </div>
-          <div className="flex items-start flex-col me-auto ml-5">
-            <h6 className="text-gray-900/50 font-bold font-ubuntu text-[60px]">5K+</h6>
+          <div className="flex items-start flex-col mx-auto ml-20">
+            <h6 className="text-slate-900 font-bold font-ubuntu text-[60px]">5K+</h6>
               <p className="text-[#006642] font-bold font-ubuntu text-[20px]">
                 DOCTORS
               </p>
           </div>
-          <div className="flex flex-col items-start mx-auto ml-5">
-            <h6 className="text-gray-900/50 font-bold font-ubuntu text-[60px]">270K+</h6>
+          <div className="flex flex-col items-start mx-auto ml-20">
+            <h6 className="text-slate-900 font-bold font-ubuntu text-[60px]">270K+</h6>
               <p className="text-[#006642]  font-bold font-ubuntu text-[20px]">
                 PATIENTS SERVED
               </p>
@@ -105,28 +105,28 @@ const Works = () => {
 
 
       <div className=" flex-col sm:hidden flex-wrap mb-10 gap-10">
-    <div className="bg-emerald-900/10 p-5 mx-auto w-full ">
+    <div className="bg-emerald-900/5 p-5 mx-auto w-full ">
       <div className="flex flex-col  flex-wrap max-w-screen-xl mx-auto  ">
        <div className="w-full  border-l-[5px]  border-[#006642] border-opacity-50 pl-2  text-start ml-3">
-       <h1 className="text-gray-900/50 font-ubuntu font-bold">DISCOVER <span className="text-[#006642] font-ubuntu">POPULAR</span></h1>
-         <p className="text-[#006642] font-ubuntu ">Popular Diagnostic Centre Ltd. exists to provide a better patient experience. We are a one-stop-shop for your health, offering caring doctors, world-class diagnostics and much more world-class diagnostics and much more.</p>
+       <h1 className="text-slate-900 font-ubuntu font-bold">DISCOVER <span className="text-[#006642] font-ubuntu">POPULAR</span></h1>
+         <p className="text-slate-900 font-ubuntu ">Popular Diagnostic Centre Ltd. exists to provide a better patient experience. We are a one-stop-shop for your health, offering caring doctors, world-class diagnostics and much more world-class diagnostics and much more.</p>
         </div>
         <div className="flex flex-col items-center justify-center mx-auto ">
           <div className="flex flex-col items-center mx-auto">
-            <h6 className="text-gray-900/50 font-bold font-ubuntu text-[60px]">27</h6>
+            <h6 className="text-slate-900 font-bold font-ubuntu text-[60px]">27</h6>
               <p className="text-[#006642] font-bold font-ubuntu text-[20px]">
                 DEPARTMENTS
               </p>
                
           </div>
           <div className="flex items-center flex-col mx-auto ">
-            <h6 className="text-gray-900/50 font-bold font-ubuntu text-[60px]">5K+</h6>
+            <h6 className="text-slate-900 font-bold font-ubuntu text-[60px]">5K+</h6>
               <p className="text-[#006642] font-bold font-ubuntu text-[20px]">
                 DOCTORS
               </p>
           </div>
           <div className="flex flex-col items-center mx-auto ">
-            <h6 className="text-gray-900/50 font-bold font-ubuntu text-[60px]">270K+</h6>
+            <h6 className="text-slate-900 font-bold font-ubuntu text-[60px]">270K+</h6>
               <p className="text-[#006642]  font-bold font-ubuntu text-[20px]">
                 PATIENTS SERVED
               </p>

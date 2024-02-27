@@ -34,12 +34,12 @@ const Navbar = () => {
     <>
    
 
-  <nav className={`${styles.paddingX} w-full  flex items-center shadow fixed top-[25px] z-20 bg-emerald-900/80`} >
+  <nav className={`${styles.paddingX} w-full  flex items-center shadow fixed top-[25px] z-20 bg-emerald-900/90`} >
   
   
-  <div className="w-full h-[75px] flex flex-wrap justify-between max-w-7xl text-white  mx-auto" >
+  <div className="w-full h-[50px] flex flex-wrap justify-between max-w-7xl text-white  mx-auto" >
     
-  <div className="w-full h-[75px]  flex flex-row max-w-7xl justify-between  items-center  mx-auto">
+  <div className="w-full h-[50px]  flex flex-row max-w-7xl justify-between  items-center  mx-auto">
   <a><Link to="/" className="flex items-center  gap-0" onClick={() => {setActive(""); window.scrollTo(0, 0);}}>
           <img src={logo} alt="logo" className="w-[30px] h-[30px] bg-none object-contain" />
           
@@ -188,7 +188,7 @@ const Navbar = () => {
           
    
         <div className="md:hidden  flex flex-1 justify-end items-start">
-        <svg  className="w-[40px] h-[40px] fill-white" onClick={() => setToggle(!toggle)}  viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+        <svg  className="w-[28px] h-[28px] fill-white" onClick={() => setToggle(!toggle)}  viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
 
 <path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM64 256c0-17.7 14.3-32 32-32H480c17.7 0 32 14.3 32 32s-14.3 32-32 32H96c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"></path>
 

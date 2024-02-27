@@ -1,5 +1,5 @@
 import React from 'react'
-import {   Feedbacks, Hero, Cor,  Nav, Navbar,  Tech, Works, StarsCanvas } from "../components";
+import {   Feedbacks, Hero, Cor,  Nav, Navbar, Notification,  Tech, Works, StarsCanvas } from "../components";
 
 function Layout() {
   return (
@@ -11,7 +11,7 @@ function Layout() {
       <Navbar />
       
       <Hero />
-      
+      <Notification />
       <Works />
       <Feedbacks />
       <Cor />

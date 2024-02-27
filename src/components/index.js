@@ -21,6 +21,7 @@ import Cor from './Cor';
 import Notice from './Notice';
 import Health from './Health';
 import Details from './Details';
+import Notification from './Notification';
 export {
   Modal,
   Notice,
@@ -33,6 +34,7 @@ export {
   Report,
   Complain,
   Hero,
+  Notification,
   Count,
   Sample,
   Nav,
