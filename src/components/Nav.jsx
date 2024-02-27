@@ -43,7 +43,7 @@ const Nav = () => {
 
   return (
     <>
-   <nav className={`${styles.paddingX}shadow-lg   w-full fixed h-[25px] top-0 z-20 flex flex-col items-center justify-center bg-slate-900`} >
+   <nav className={`${styles.paddingX} shadow-lg   w-full fixed h-[25px] top-0 z-20 flex flex-col items-center justify-center bg-slate-900`} >
   <div className="w-full h-[25px]  flex flex-wrap items-center   justify-between max-w-7xl text-[#ffffff] " >
   <div className="flex flex-row items-center  justify-start me-auto">
     <div className="flex flex-row items-center  justify-center ">
