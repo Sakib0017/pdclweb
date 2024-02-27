@@ -20,7 +20,7 @@ const ProjectCard = ({
       <div
         className="grid md:grid-row-3 items-center sm:w-[380px] w-full justify-center mx-auto  md:gap-1 "
       >
-        <div className="text-black m-2 bg-gray-100 shadow w-auto text-center">
+        <div className="text-black m-2 bg-emerald-900/10 shadow w-auto text-center">
         <div className='relative w-auto h-auto'>
           <video
             src={video}
@@ -36,7 +36,7 @@ const ProjectCard = ({
               <img
                 src={logo}
                 alt='source code'
-                className='w-1/2 h-1/2 object-contain '
+                className='w-1/2 h-1/2 object-contain'
               />
             </div>
           </div>
@@ -72,7 +72,7 @@ const Works = () => {
     <div  className="">
     
     <div className=" flex-row hidden md:block flex-wrap mb-10 gap-10">
-    <div className="bg-gray-100 shadow p-5 mx-auto w-full ">
+    <div className="bg-emerald-900/10 shadow p-5 mx-auto w-full ">
       <div className="flex flex-row  flex-wrap max-w-screen-xl mx-auto  ">
        <div className="w-[480px]  border-l-[5px]  border-[#006642] border-opacity-50 pl-2  text-start ml-3">
        <h1 className="text-gray-900/50 font-ubuntu font-bold">DISCOVER <span className="text-[#006642] font-ubuntu">POPULAR</span></h1>
@@ -105,7 +105,7 @@ const Works = () => {
 
 
       <div className=" flex-col sm:hidden flex-wrap mb-10 gap-10">
-    <div className="bg-gray-100 p-5 mx-auto w-full ">
+    <div className="bg-emerald-900/10 p-5 mx-auto w-full ">
       <div className="flex flex-col  flex-wrap max-w-screen-xl mx-auto  ">
        <div className="w-full  border-l-[5px]  border-[#006642] border-opacity-50 pl-2  text-start ml-3">
        <h1 className="text-gray-900/50 font-ubuntu font-bold">DISCOVER <span className="text-[#006642] font-ubuntu">POPULAR</span></h1>
@@ -146,8 +146,8 @@ const Works = () => {
 
       
        <div className='flex  mx-auto p-0 justify-center  justify-items-center flex-wrap  gap-0'>
-        {projects.map((project, index) => (
-          <ProjectCard key={`project-${index}`} index={index} {...project} />
+        {projects.map((project) => (
+          <ProjectCard key={project.id} {...project} />
         ))}
         
       </div>

@@ -76,6 +76,12 @@ import cons from "./cons.mp4";
 import diagn from "./diag.mp4";
 import arrow from "./arrow.gif";
 
+
+import AmarlabLogo from "./tech/AmarlabLogo.png";
+import hajj from "./tech/hajj.png";
+import purehealth from "./tech/purehealth.png";
+
+
 import char from "./char.png";
 import md from "./md.png";
 import ad from "./ad.png";
@@ -100,8 +106,11 @@ export {
   mf,
   m,
   age,
+  purehealth,
+  hajj,
   dgm,
   mm,
+  AmarlabLogo,
   arrow,
   pakages,
   healh,

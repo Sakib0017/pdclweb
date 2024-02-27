@@ -18,7 +18,7 @@ const FeedbackCard = ({
     className="grid md:grid-row-2 items-center justify-center sm:w-[550px] w-full mx-auto  md:gap-0 "
   >
     
-    <div className=" m-2 p-10 bg-gray-100 shadow text-start">
+    <div className=" m-2 p-10 bg-emerald-900/20 shadow text-start">
     
     <div className="flex flex-wrap   max-w-7xl   ">
     <div >
@@ -55,7 +55,7 @@ const Feedbacks = () => {
     <div className={` bg-none `}>
      
         
-          <h2 className="mt-[-100px] text-Start text-gray-900/50 font-medium mb-[20px] font-ubuntu text-[28px]">TESTIMONIALS</h2>
+          <h2 className="mt-[-100px] text-Start text-gray-900/50 font-bold mb-[20px] font-ubuntu text-[28px]">TESTIMONIALS</h2>
          
      
           <div className={`  flex  mx-auto p-0 justify-center  justify-items-center flex-wrap  gap-0`}>

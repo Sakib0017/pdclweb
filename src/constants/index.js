@@ -24,6 +24,9 @@ import {
   diagn,
   cons,
   pakages,
+  AmarlabLogo,
+  purehealth, 
+  hajj,
   home,
   about,
   branch,
@@ -130,10 +133,7 @@ const technologies = [
     name: "React JS",
     icon: reactjs,
   },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
+  
   {
     name: "Tailwind CSS",
     icon: tailwind,
@@ -142,28 +142,32 @@ const technologies = [
     name: "Node JS",
     icon: nodejs,
   },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
+ 
+  
   {
     name: "git",
     icon: git,
   },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
-  },
+ 
+  
 ];
-
+const service = [
+  {
+    name: "AmarlabLogo",
+    icon: AmarlabLogo,
+  },
+  {
+    name: "hajj",
+    icon: hajj,
+  },
+  {
+    name: "purehealth",
+    icon: purehealth,
+  },
+  
+ 
+  
+];
 const experiences = [
   {
     title: "Popular Diagnostic",
@@ -237,10 +241,12 @@ const testimonials = [
     image: "http://populardiagnostic.com/public/testimonial/2-20190319153146.jpg",
   },
   
+  
 ];
 
 const projects = [
   {
+    id: 1,
     name: "HEALTH DIAGNOSIS",
     description:
       "Ambulance BD 24 is the best ambulance service in Dhaka, Bangladesh. We provide emergency ambulance service in Dhaka city and transport patient.",
@@ -259,6 +265,7 @@ const projects = [
     source_code_link: "http://populardiagnostic.com/",
   },
   {
+    id:2,
     name: "HEALTH CONSULTATION",
     description:
       "Blood Bank Management System  Management System (BBMS) under Safe Blood Transfusion Program, HSM, DGHS. Blood Transfusion Transfusion Program, HSM, DGHS.",
@@ -277,6 +284,7 @@ const projects = [
     source_code_link: "http://populardiagnostic.com/",
   },
   {
+    id:3,
     name: "HEALTH PAKAGES",
     description:
       "We believe everyone should have access to convenient, affordable, and high-quality healthcare. Our health checks and packages help you stay on top of your ",
@@ -294,6 +302,7 @@ const projects = [
     video: pakages,
     source_code_link: "http://populardiagnostic.com/",
   },
+  
 ];
 const projects1 = [
   {
@@ -457,4 +466,4 @@ const projects2 = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects, projects1, projects2 };
+export { services,service, technologies, experiences, testimonials, projects, projects1, projects2 };
