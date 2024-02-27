@@ -14,7 +14,7 @@ function Notification() {
     <>
    <div
       
-      className={`fixed w-[500px] top-[270px] hidden md:block right-[55px] rounded-lg bg-emerald-900/90 text-white p-4 shadow-md transition-opacity ${showNotification ? 'opacity-100' : 'opacity-0'}`}
+      className={`fixed w-[500px] top-[85px] hidden md:block right-[55px] rounded-lg bg-emerald-900/90 text-white p-4 shadow-md transition-opacity ${showNotification ? 'opacity-100' : 'opacity-0'}`}
         
     >
      Please click the Icons in the Top-Right-center corner to<br></br>
@@ -41,7 +41,7 @@ function Notification() {
      </div>
     </div>
     <div 
-      className={`fixed top-[300px] right-[35px] p-5 sm:hidden  bg-emerald-900/90 text-white  rounded-lg shadow-md transition-opacity ${showNotification ? 'opacity-100' : 'opacity-0'}`}
+      className={`fixed top-[300px] w-[390px] right-[3px] p-5 sm:hidden  bg-emerald-900/90 text-white  rounded-lg shadow-md transition-opacity ${showNotification ? 'opacity-100' : 'opacity-0'}`}
     >
      Please click the Icon Button in the bottom<br></br>
      -Right corner to  Collect Your Report, <br></br>
