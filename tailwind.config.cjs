@@ -18,6 +18,9 @@ module.exports = {
       screens: {
         xs: "300px",
       },
+      width: {
+        content: "fit-content",
+      },
       backgroundImage: {
       
       },

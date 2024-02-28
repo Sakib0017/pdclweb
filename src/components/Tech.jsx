@@ -7,7 +7,7 @@ import img from "../assets/link.jpg";
 import back from "../assets/back.jpg";
 import { useNavigate, Link } from "react-router-dom";
 import { healh, dical, cover, arrow } from "../assets";
-
+import { Tooltip } from "@material-tailwind/react";
 
 
 import {
@@ -127,17 +127,21 @@ const Tech = ({ message, children }) => {
 
        
            <div >
-           <Popover placement="left-start">
-          <PopoverHandler>
           
+          
+          
+          <Popover placement="left-start">
+          <Tooltip className="bg-gray-900/50  p-3 hover:cursor-pointer font-extrabold rounded-none" content="Branches Hotline" placement="left">
+          <PopoverHandler>
           <a target="_blank" className={`fixed touch-pinch-zoom top-[220px] border-[1px] border-gray-200/90 right-0   bg-emerald-900/80 shadow-md ${isVisible ? 'opacity-100' : 'opacity-0 pointer-events-none'}`}>
     <svg class="w-[50px] h-[50px] p-2 touch-pinch-zoom fill-[#ffffff]" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
 
   <path d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z"></path>
 
 </svg></a>
-      </PopoverHandler>
-          <PopoverContent className="bg-emerald-900/80">
+</PopoverHandler>
+</Tooltip>
+<PopoverContent className="bg-emerald-900/80">
         
        
         <div className="">
@@ -156,10 +160,16 @@ const Tech = ({ message, children }) => {
           
       
            </PopoverContent>
-        </Popover>
+           </Popover>
+      
+         
+      
+         
+        
     
                  
         <Popover placement="left">
+        <Tooltip className="bg-gray-900/50 p-3  font-extrabold rounded-none" content="Home Sample Collection" placement="left">
           <PopoverHandler>
           <a  target="_blank" className={`fixed top-[270px] border-[1px] border-gray-200/90 right-0 bg-emerald-900/80 shadow-md ${isVisible ? 'opacity-100' : 'opacity-0 pointer-events-none'}`}>
     <svg class="w-[50px] h-[50px] p-2 fill-[#ffffff]" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
@@ -168,6 +178,7 @@ const Tech = ({ message, children }) => {
 
 </svg></a>
       </PopoverHandler>
+      </Tooltip>
           <PopoverContent className="bg-emerald-900/80">
           <a> <Link to="/sample" ><p onClick={() => navigate('/')} className="text-white  items-center flex flex-row text-[12px] mx-auto  font-ubuntu"> 
         
@@ -177,6 +188,7 @@ const Tech = ({ message, children }) => {
            </PopoverContent>
         </Popover>
         <Popover placement="left">
+        <Tooltip className="bg-gray-900/50 p-3 font-extrabold rounded-none" content="Video Consutancy" placement="left">
           <PopoverHandler>
           <a  target="_blank" className={`fixed top-[320px] right-0 bg-emerald-900/80 border-[1px] border-gray-200/90 shadow-md ${isVisible ? 'opacity-100' : 'opacity-0 pointer-events-none'}`}>
 <svg class="w-[50px] h-[50px] p-2 fill-[#ffffff]" viewBox="0 0 576 512" xmlns="http://www.w3.org/2000/svg">
@@ -186,6 +198,7 @@ const Tech = ({ message, children }) => {
 </svg>
 </a>
       </PopoverHandler>
+      </Tooltip>
           <PopoverContent className="bg-emerald-900/80">
          
           <p className="text-white  items-center flex flex-row text-[12px] ms-0 me-1  font-ubuntu"> 
@@ -196,6 +209,7 @@ const Tech = ({ message, children }) => {
            </PopoverContent>
         </Popover>
            <Popover placement="left">
+           <Tooltip className="bg-gray-900/50 p-3 font-extrabold rounded-none" content="Report Download" placement="left">
           <PopoverHandler>
           <a  target="_blank" className={`fixed top-[370px]  border-[1px] border-gray-200/90 right-0 bg-emerald-900/80 shadow-md ${isVisible ? 'opacity-100' : 'opacity-0 pointer-events-none'}`}>
 <svg class="w-[50px] h-[50px] p-2 fill-[#ffffff]" viewBox="0 0 384 512" xmlns="http://www.w3.org/2000/svg">
@@ -205,6 +219,7 @@ const Tech = ({ message, children }) => {
 </svg>
 </a>
       </PopoverHandler>
+      </Tooltip>
           <PopoverContent className="bg-emerald-900/80">
               
                     
@@ -217,6 +232,7 @@ const Tech = ({ message, children }) => {
            </PopoverContent>
         </Popover>
           <Popover placement="left">
+          <Tooltip className="bg-gray-900/50 p-3 font-extrabold rounded-none" content="Complain Submission" placement="left">
           <PopoverHandler>
           <a  target="_blank" className={`fixed top-[420px]  border-[1px] border-gray-200/90 right-0 bg-emerald-900/80 shadow-md ${isVisible ? 'opacity-100' : 'opacity-0 pointer-events-none'}`}>
 <svg class="w-[50px] h-[50px] p-2 fill-[#ffffff]" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
@@ -226,6 +242,7 @@ const Tech = ({ message, children }) => {
 </svg>
 </a>
       </PopoverHandler>
+      </Tooltip>
           <PopoverContent className="bg-emerald-900/80">
           <a><Link to="/complain"><p className="text-white  items-center flex flex-row text-[12px] ms-0 me-1  font-ubuntu"> 
       
@@ -236,6 +253,7 @@ const Tech = ({ message, children }) => {
            </PopoverContent>
         </Popover>
         <Popover placement="left">
+        <Tooltip className="bg-gray-900/50 p-3 font-extrabold rounded-none" content="Messanger Chat" placement="left">
           <PopoverHandler>
           <a  target="_blank" className={`fixed top-[470px]     border-[1px] border-gray-200/90 right-0 bg-emerald-900/80 shadow-md ${isVisible ? 'opacity-100' : 'opacity-0 pointer-events-none'}`}>
           <svg class="w-[50px] h-[50px] p-2 fill-[#ffffff]" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
@@ -245,8 +263,9 @@ const Tech = ({ message, children }) => {
 </svg>
 </a>
       </PopoverHandler>
+      </Tooltip>
           <PopoverContent className="bg-emerald-900/80">
-          <a> <Link ><p className="text-white  items-center flex flex-row text-[12px] ms-0 me-1  font-ubuntu"> 
+          <a> <Link ><p className="text-white   flex flex-row text-[12px] ms-0 me-1  font-ubuntu"> 
       
          
         <a href=""><span className="pl-1  text-[13px] ">Messanger Chat</span></a></p>
@@ -274,6 +293,7 @@ const Tech = ({ message, children }) => {
          
        
         <Popover placement="top">
+        <Tooltip className="bg-gray-900/50 p-3 font-extrabold rounded-none" content="Branches Hotline" placement="top">
           <PopoverHandler>
           <a target="_blank" className={`fixed right-[310px] sm:hidden border-[1px] border-gray-200/90 bottom-0 bg-emerald-900/80 shadow-md ${isVisible ? 'opacity-100' : 'opacity-0 pointer-events-none'}`}>
     <svg class="w-[60px] h-[60px] p-2 fill-[#ffffff]" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
@@ -282,7 +302,8 @@ const Tech = ({ message, children }) => {
 
 </svg></a>
       </PopoverHandler>
-          <PopoverContent className="bg-emerald-900/80">
+      </Tooltip>
+          <PopoverContent className="bg-emerald-900/90">
           <a><Link > <a> <p className="text-white  pl-2 cursor-pointer justify-start items-start text-[12px] font-medium  font-ubuntu">All BRANCHES 》</p></a></Link></a>
         
           <a><Link to="/details"><a  href=""> <p className="text-white  cursor-pointer justify-center items-center text-[12px] p-2  font-ubuntu">Dhanmondi(09666 787801)</p></a></Link></a>
@@ -296,6 +317,7 @@ const Tech = ({ message, children }) => {
         </Popover>
                  
         <Popover placement="top">
+        <Tooltip className="bg-gray-900/50 p-3 font-extrabold rounded-none" content="Home Sample Collection" placement="top">
           <PopoverHandler>
           <a  target="_blank" className={`fixed right-[250px] sm:hidden border-[1px] border-gray-200/90 bottom-0 bg-emerald-900/80 shadow-md ${isVisible ? 'opacity-100' : 'opacity-0 pointer-events-none'}`}>
     <svg class="w-[60px] h-[60px] p-2 fill-[#ffffff]" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
@@ -304,7 +326,8 @@ const Tech = ({ message, children }) => {
 
 </svg></a>
       </PopoverHandler>
-          <PopoverContent className="bg-emerald-900/80">
+      </Tooltip>
+          <PopoverContent className="bg-emerald-900/90">
           <a><Link to="/sample" ><p onClick={() => navigate('/')} className="text-white  items-center flex flex-row text-[12px] mx-auto  font-ubuntu"> 
         
           
@@ -313,6 +336,7 @@ const Tech = ({ message, children }) => {
            </PopoverContent>
         </Popover>
         <Popover placement="top">
+        <Tooltip className="bg-gray-900/50 p-3 font-extrabold rounded-none" content="Video Consutancy" placement="top">
           <PopoverHandler>
           <a  target="_blank" className={`fixed right-[190px] sm:hidden   bottom-0 bg-emerald-900/80 border-[1px] border-gray-200/90 shadow-md ${isVisible ? 'opacity-100' : 'opacity-0 pointer-events-none'}`}>
 <svg class="w-[60px] h-[60px] p-2 fill-[#ffffff]" viewBox="0 0 576 512" xmlns="http://www.w3.org/2000/svg">
@@ -322,7 +346,8 @@ const Tech = ({ message, children }) => {
 </svg>
 </a>
       </PopoverHandler>
-          <PopoverContent className="bg-emerald-900/80">
+      </Tooltip>
+          <PopoverContent className="bg-emerald-900/90">
          
           <p className="text-white  items-center flex flex-row text-[12px] ms-0 me-1  font-ubuntu"> 
         
@@ -332,6 +357,7 @@ const Tech = ({ message, children }) => {
            </PopoverContent>
         </Popover>
            <Popover placement="top">
+           <Tooltip className="bg-gray-900/50 p-3 font-extrabold rounded-none" content="Report Download" placement="top">
           <PopoverHandler>
           <a  target="_blank" className={`fixed right-[130px] sm:hidden border-[1px] border-gray-200/90 bottom-0 bg-emerald-900/80 shadow-md ${isVisible ? 'opacity-100' : 'opacity-0 pointer-events-none'}`}>
 <svg class="w-[60px] h-[60px] p-2 fill-[#ffffff]" viewBox="0 0 384 512" xmlns="http://www.w3.org/2000/svg">
@@ -341,7 +367,8 @@ const Tech = ({ message, children }) => {
 </svg>
 </a>
       </PopoverHandler>
-          <PopoverContent className="bg-emerald-900/80">
+      </Tooltip>
+          <PopoverContent className="bg-emerald-900/90">
               
                     
           <a><Link to="/login">  <p className="text-white sm:hidden items-center flex flex-row text-[12px] ms-0 me-1  font-ubuntu"> 
@@ -353,6 +380,7 @@ const Tech = ({ message, children }) => {
            </PopoverContent>
         </Popover>
           <Popover placement="top">
+          <Tooltip className="bg-gray-900/50 p-3 font-extrabold rounded-none" content="Complain Submission" placement="top">
           <PopoverHandler>
           <a  target="_blank" className={`fixed right-[70px] sm:hidden border-[1px] border-gray-200/90 bottom-0 bg-emerald-900/80 shadow-md ${isVisible ? 'opacity-100' : 'opacity-0 pointer-events-none'}`}>
 <svg class="w-[60px] h-[60px] p-2 fill-[#ffffff]" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
@@ -362,7 +390,8 @@ const Tech = ({ message, children }) => {
 </svg>
 </a>
       </PopoverHandler>
-          <PopoverContent className="bg-emerald-900/80">
+      </Tooltip>
+          <PopoverContent className="bg-emerald-900/90">
           <a> <Link to="/complain"><p className="text-white sm:hidden items-center flex flex-row text-[12px] ms-0 me-1  font-ubuntu"> 
       
          
@@ -372,6 +401,7 @@ const Tech = ({ message, children }) => {
            </PopoverContent>
         </Popover>
         <Popover placement="top">
+        <Tooltip className="bg-gray-900/50 p-3 font-extrabold rounded-none" content="Messanger Chat" placement="top">
           <PopoverHandler>
           <a  target="_blank" className={`fixed right-[10px]    sm:hidden border-[1px] border-gray-200/90 bottom-0 bg-emerald-900/80 shadow-md ${isVisible ? 'opacity-100' : 'opacity-0 pointer-events-none'}`}>
           <svg class="w-[60px] h-[60px] p-2 fill-[#ffffff]" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
@@ -381,7 +411,8 @@ const Tech = ({ message, children }) => {
 </svg>
 </a>
       </PopoverHandler>
-          <PopoverContent className="bg-emerald-900/80">
+      </Tooltip>
+          <PopoverContent className="bg-emerald-900/90">
           <a> <Link ><p className="text-white sm:hidden items-center flex flex-row text-[12px] ms-0 me-1  font-ubuntu"> 
       
          

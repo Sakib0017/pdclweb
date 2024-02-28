@@ -8,7 +8,7 @@ module.exports = {
         'ubuntu': ['"Ubuntu"'],
       },
       colors: {
-        primary: "#ffffff",
+        primary: "#645050",
         secondary: "#01DF74",
         tertiary: "#151030",
         "black-100": "#100d25",
@@ -21,6 +21,9 @@ module.exports = {
       },
       screens: {
         xs: "300px",
+      },
+      width: {
+        content: "fit-content",
       },
       backgroundImage: {
         

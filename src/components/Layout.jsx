@@ -3,7 +3,7 @@ import {   Feedbacks, Hero, Cor,  Nav, Navbar, Notification,  Tech, Works, Stars
 
 function Layout() {
   return (
-    <div className="bg-white">
+    <div className="bg-gray-50">
         
       <Nav />
      
