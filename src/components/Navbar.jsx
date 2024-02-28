@@ -97,20 +97,14 @@ const Navbar = () => {
                  <Popover placement="bottom">
           <PopoverHandler>
           
-          <a>   <p className="text-emerald-900/80  items-center flex flex-row text-[16px] ms-0 me-1 font-medium font-ubuntu"> 
+          <a><Link to="/modal"> <p className="text-emerald-900/80  items-center flex flex-row text-[16px] ms-0 me-1 font-medium font-ubuntu"> 
           
             
          <span className="pl-1 text-[16px] font-bold font-ubuntu hidden md:block cursor-pointer">Branchs</span>
           </p>
-                 </a>
+          </Link>    </a> 
       </PopoverHandler>
-          <PopoverContent className="mt-[24px] fill-white">
-          <a><Link to="/details"><p onClick={() => navigate('/')} className="text-emerald-900/80  items-center flex flex-row text-[16px] ms-0 me-1 font-medium font-ubuntu"> 
-         
-           <a ><span className="pl-1  text-[16px] font-bold font-ubuntu hidden md:block">Dhanmondi</span></a></p>
-           </Link>         
-           </a>      
-           </PopoverContent>
+          
         </Popover>
                  
       
