@@ -15,7 +15,7 @@ function Layout() {
       <Works />
       <Feedbacks />
       <Cor />
-      <Tech />
+      <Tech/>
     </div>
   )
 }

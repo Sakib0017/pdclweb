@@ -34,12 +34,12 @@ const Navbar = () => {
     <>
    
 
-  <nav className={`${styles.paddingX} w-full  flex items-center shadow fixed top-[25px] z-20 bg-white`} >
+  <nav className={`${styles.paddingX} w-full  flex items-center shadow fixed top-[25px] z-20 bg-gray-100/80`} >
   
   
-  <div className="w-full h-[50px] flex flex-wrap justify-between max-w-7xl text-emerald-900/80  mx-auto" >
+  <div className="w-full h-[75px] flex flex-wrap justify-between max-w-7xl text-emerald-900/80  mx-auto" >
     
-  <div className="w-full h-[50px]  flex flex-row max-w-7xl justify-between  items-center  mx-auto">
+  <div className="w-full h-[75px]  flex flex-row max-w-7xl justify-between  items-center  mx-auto">
   <a><Link to="/" className="flex items-center  gap-0" onClick={() => {setActive(""); window.scrollTo(0, 0);}}>
           <img src={logo} alt="logo" className="w-[30px] h-[30px] bg-none object-contain" />
           
@@ -92,11 +92,31 @@ const Navbar = () => {
          
         
                        
-         <a> <Link to="/modal">  <p className="text-emerald-900/80  items-center flex flex-row text-[16px] ms-0 me-1 font-medium font-ubuntu"> 
           
-             
-                 <a href=""> <span className="pl-1 text-[16px] font-bold font-ubuntu hidden md:block">Branchs</span></a></p>
-                 </Link></a>
+                 
+                 <Popover placement="bottom">
+          <PopoverHandler>
+          
+          <a>   <p className="text-emerald-900/80  items-center flex flex-row text-[16px] ms-0 me-1 font-medium font-ubuntu"> 
+          
+            
+         <span className="pl-1 text-[16px] font-bold font-ubuntu hidden md:block cursor-pointer">Branchs</span>
+          </p>
+                 </a>
+      </PopoverHandler>
+          <PopoverContent className="mt-[24px] fill-white">
+          <a><Link to="/details"><p onClick={() => navigate('/')} className="text-emerald-900/80  items-center flex flex-row text-[16px] ms-0 me-1 font-medium font-ubuntu"> 
+         
+           <a ><span className="pl-1  text-[16px] font-bold font-ubuntu hidden md:block">Dhanmondi</span></a></p>
+           </Link>         
+           </a>      
+           </PopoverContent>
+        </Popover>
+                 
+      
+      
+     
+              
            </div>
            
            </li>

@@ -32,7 +32,7 @@ const Hero = ({ color }) => {
        
        
        <div className="flex-col  hidden md:block   max-w-7xl     mx-auto">
-        <div className="w-full rounded-[5px] shadow bg-white ">
+        <div className="w-full rounded-[5px] shadow bg-gray-100/80 ">
           <ul
             className="flex mb-0 ml-2 mr-2 list-none   flex-wrap pt-1 pb-2 flex-row"
             role="tablist"
@@ -236,8 +236,8 @@ const Hero = ({ color }) => {
      
 
 
-      <div className="flex flex-col mb-2 rounded-[10px] sm:hidden  flex-1  justify-top items-center    mt-[15px] mx-auto">
-        <div className=" w-full h-auto bg-white p-2 rounded block">
+      <div className="flex flex-col mb-2 rounded-[10px] sm:hidden  flex-1  justify-top items-center    mt-[30px] mx-auto">
+        <div className=" w-full h-auto bg-gray-100/80 p-2 rounded block">
           <ul
             className="flex mb-0 ml-2 mr-2 list-none flex-wrap pt-1 pb-1 flex-col shadow-lg"
             role="tablist"

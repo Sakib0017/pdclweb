@@ -24,7 +24,7 @@ const About = () => {
 <div className="bg-white">
 <Nav />
  <Navbar />
- <div className={` justify-center items-center  text-center flex flex-wrap `}>
+ {/*<div className={` justify-center items-center  text-center flex flex-wrap `}>
        <div className="  flex-col  max-w-7xl container  md:flex-col   mt-[150px] mx-auto">
        <div className="flex flex-col">
        <form className="max-w-7xl  items-center justify-center">
@@ -41,12 +41,12 @@ const About = () => {
     </form>
     </div>
     </div>
-    </div>
+    </div>*/}
     <div className={` justify-center items-center  text-center flex flex-wrap `}>
        <div className="  flex-col  max-w-7xl container  md:flex-col   mt-[150px] mx-auto">
        <div className="flex flex-col">
        <form className="max-w-7xl  items-center bg-none rounded-[10px] justify-center">
-  <div className="grid md:grid-cols-4 bg-gray-100 shadow md:gap-1 ">
+  <div className="grid md:grid-cols-4 bg-gray-100-5 shadow md:gap-1 ">
     <div className="text-black  text-center">
     
     </div>
@@ -64,7 +64,7 @@ const About = () => {
          
     </div>
   </div>
-  <div className="grid md:grid-cols-3 mt-5 bg-gray-100 shadow mx-auto   md:gap-1 ">
+  <div className="grid md:grid-cols-3 mt-5 bg-gray-100-5 shadow mx-auto   md:gap-1 ">
     
     <div className="text-black  text-center">
     <img className="h-[350px] mx-auto p-5 w-[300px]" src={ad} />
@@ -82,7 +82,7 @@ const About = () => {
    <p className="text-[#006642] font-ubuntu text-[12px] pb-2">DGM & Head of Finance & Accounts</p>
     </div>
   </div>
-  <div className="grid md:grid-cols-3 mt-5 bg-gray-100 shadow  md:gap-1 ">
+  <div className="grid md:grid-cols-3 mt-5 bg-gray-100-5 shadow  md:gap-1 ">
     
     <div className="text-black  text-center">
     <img className="h-[350px] mx-auto p-5 w-[300px]" src={agm} />
@@ -100,7 +100,7 @@ const About = () => {
    <p className="text-[#006642] font-ubuntu text-[12px] pb-2">AGM, (Finance & Accounts)</p>
     </div>
   </div>
-  <div className="grid md:grid-cols-4 mt-5 bg-gray-100 shadow md:gap-1 ">
+  <div className="grid md:grid-cols-4 mt-5 bg-gray-100-5 shadow md:gap-1 ">
     <div className="text-black  text-center">
     <img className="h-[350px] mx-auto p-[50px] w-[320px]" src={m} />
     <p className="text-[#006642] font-ubuntu font-bold ">MOHAMMAD ARIF</p>

@@ -79,11 +79,11 @@ function Health() {
      <div className={` justify-center items-center  text-center flex flex-wrap `}>
        <div className="  flex-col  max-w-7xl container  md:flex-col   mt-[150px] mx-auto">
        <div className="flex flex-col">
-       <form className="max-w-7xl shadow items-center p-10 bg-gray-100 rounded-[10px] justify-center">
+       <form className="max-w-7xl shadow items-center p-10 bg-gray-100-5 rounded-[10px] justify-center">
   <div className="grid md:grid-cols-3   md:gap-1 ">
     <div className="text-black overflow-scroll text-center">
     <h3 className="text-[24px] text-[#006642] font-ubuntu font-bold">Health Cheak-up Pakages<br></br>For 40 Years Age Above</h3>
-    <Card className="h-auto w-full    shadow-transparent bg-gray-100">
+    <Card className="h-auto w-full    shadow-transparent bg-gray-100-5">
       <table className="w-full min-w-max  text-left">
        
         <tbody>
@@ -150,14 +150,14 @@ function Health() {
   
 </form>
 
-<form className="max-w-screen-xl bg-gray-100 p-10 rounded-[10px] shadow mt-10 items-center justify-center">
+<form className="max-w-screen-xl bg-gray-100-5 p-10 rounded-[10px] shadow mt-10 items-center justify-center">
   
   <div className="grid md:grid-cols-3   md:gap-1 ">
   
    
     <div className="text-black overflow-scroll text-center">
     <h3 className="text-[20px] text-[#006642] font-ubuntu font-bold">Primary Health Cheak-up Pakage-1<br></br>For 40 Years Age Above</h3>
-    <Card className="h-auto w-full  shadow-transparent bg-gray-100">
+    <Card className="h-auto w-full  shadow-transparent bg-gray-100-5">
       <table className="w-full min-w-max table-auto text-left">
        
         <tbody>
@@ -191,7 +191,7 @@ function Health() {
     
     <div className="text-black overflow-scroll text-center ">
     <h3 className="text-[20px] text-[#006642] font-ubuntu font-bold">Primary Health Cheak-up Pakage-2<br></br>For 40 Years Age Above</h3>
-    <Card className="h-auto w-full   shadow-transparent bg-gray-100">
+    <Card className="h-auto w-full   shadow-transparent bg-gray-100-5">
       <table className="w-full min-w-max  table-auto text-left">
        
         <tbody>
@@ -225,7 +225,7 @@ function Health() {
     <div className="text-black  overflow-scroll text-center ">
     <h3 className="text-[20px] text-[#006642] font-ubuntu font-bold">Health Cheak-up Pakages<br></br>For 40 Years Age Above</h3>
     
-    <Card className="h-auto w-full  shadow-transparent bg-gray-100 ">
+    <Card className="h-auto w-full  shadow-transparent bg-gray-100-5 ">
       <table className="w-full min-w-max  table-auto text-left">
        
         <tbody>
@@ -265,7 +265,7 @@ function Health() {
     <div className="text-black  overflow-scroll text-center ">
     <h3 className="text-[20px] text-[#006642] font-ubuntu font-bold">Health Cheak-up Pakages<br></br>For 40 Years Age Above</h3>
     
-    <Card className="h-auto w-full  shadow-transparent bg-gray-100 ">
+    <Card className="h-auto w-full  shadow-transparent bg-gray-100-5 ">
       <table className="w-full min-w-max  table-auto text-left">
        
         <tbody>
@@ -297,7 +297,7 @@ function Health() {
     <div className="text-black  overflow-scroll text-center ">
     <h3 className="text-[20px] text-[#006642] font-ubuntu font-bold">Health Cheak-up Pakages<br></br>For 40 Years Age Above</h3>
     
-    <Card className="h-auto w-full  shadow-transparent bg-gray-100 ">
+    <Card className="h-auto w-full  shadow-transparent bg-gray-100-5 ">
       <table className="w-full min-w-max  table-auto text-left">
        
         <tbody>
