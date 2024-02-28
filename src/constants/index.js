@@ -226,7 +226,7 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+      "A complete, advanced and friendly diagnostic and medical services provider in Bangladesh. Their qualified workforce and quality equipment give best result for any treatment like an international service.",
     name: "Mr. Ahmed",
     designation: "CFO",
     company: "Biman Bangladesh",
@@ -234,9 +234,9 @@ const testimonials = [
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
+      "Popular Diagnostic Centre Ltd. provides best diagnostic and medical services. They have most advanced medical equipment to diagnosis any type of diseases. I am so satisfied for their customer support.",
     name: "Mr. Hasan",
-    designation: "COO",
+    designation: "Chairperson",
     company: "Brac Bank",
     image: "http://populardiagnostic.com/public/testimonial/2-20190319153146.jpg",
   },
