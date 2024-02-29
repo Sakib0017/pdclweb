@@ -22,16 +22,16 @@ const FeedbackCard = ({
     
     <div className="flex flex-wrap   max-w-7xl   ">
     <div >
-    <p className='text-[#006642] font-ubuntu font-black text-[48px]'>"</p>
-      <p className='text-[#006642] font-ubuntu text-[18px]'>{testimonial}</p>
-      <p className='text-[#006642] font-ubuntu font-black text-[48px]'>"</p>
+    <p className='text-[#006642] font-ubuntu font-bold text-[48px]'>"</p>
+      <p className='text-[#006642] font-ubuntu  font-medium text-[16px]'>{testimonial}</p>
+      <p className='text-[#006642] font-ubuntu font-bold text-[48px]'>"</p>
 
       <div className='mt-7 flex justify-between items-center gap-1'>
         <div className=' flex flex-col'>
           <p className='text-[#006642] font-medium text-[16px]'>
-            <span className='blue-text-gradient font-ubuntu'>@</span> {name}
+            <span className='blue-text-gradient font-ubuntu font-bold'>@</span> {name}
           </p>
-          <p className='mt-1 blue-text-gradient font-ubuntu text-[12px]'>
+          <p className='mt-1 blue-text-gradient font-ubuntu font-bold text-[14px]'>
           {designation} of {company}
           </p>
         </div>

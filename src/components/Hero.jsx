@@ -32,7 +32,7 @@ const Hero = ({ color }) => {
        
        
        <div className="flex-col  hidden md:block   max-w-7xl     mx-auto">
-        <div className="w-full rounded-[5px] shadow bg-gray-100/80 ">
+        <div className="w-full rounded-[5px] shadow bg-gray-100/95 ">
           <ul
             className="flex mb-0 ml-2 mr-2 list-none   flex-wrap pt-1 pb-2 flex-row"
             role="tablist"
@@ -40,7 +40,7 @@ const Hero = ({ color }) => {
             <li className=" mr-2 mb-1 last:mr-0 fixed-left flex-auto text-center">
               <a
                 className={
-                  "text-[10px] font-ubuntu font-bold uppercase px-2 py-3  shadow-lg rounded block leading-normal " +
+                  "text-[16px] font-ubuntu font-bold  px-2 py-3  shadow-lg rounded block leading-normal " +
                   (openTab === 2
                     ? "text-slate-900 bg-" + color + "-600"
                     : "text-" + color + "-600 bg-emerald-900/80 ")
@@ -53,13 +53,13 @@ const Hero = ({ color }) => {
                 href="#link1"
                 role="tablist"
               >
-                FIND DOCTORS
+                Find Doctor
               </a>
             </li>
             <li className=" mr-2 last:mr-0 fixed-center flex-auto text-center">
               <a
                 className={
-                  "text-[10px] font-ubuntu  font-bold uppercase px-2 py-3 shadow-lg rounded block leading-normal " +
+                  "text-[16px] font-ubuntu  font-bold  px-2 py-3 shadow-lg rounded block leading-normal " +
                   (openTab === 1
                     ? "text-slate-900  bg-" + color + "-600"
                     : "text-" + color + "-600  bg-emerald-900/80")
@@ -72,13 +72,13 @@ const Hero = ({ color }) => {
                 href="#link2"
                 role="tablist"
               >
-                 <p className='text-shadow'>APPOINTMENT</p>
+                 <p className='text-shadow'>Appointment</p>
               </a>
             </li>
             <li className=" mr-2 last:mr-0 fixed-right flex-auto text-center">
               <a
                 className={
-                  "text-[10px] font-ubuntu font-bold uppercase px-2 py-3 shadow-lg rounded block leading-normal " +
+                  "text-[16px] font-ubuntu font-bold  px-2 py-3 shadow-lg rounded block leading-normal " +
                   (openTab === 3
                     ? "text-slate-900 bg-" + color + "-600"
                     : "text-" + color + "-600 bg-emerald-900/80")
@@ -91,7 +91,7 @@ const Hero = ({ color }) => {
                 href="#link3"
                 role="tablist"
               >
-                 TEST PRICES
+                 Test Price
               </a>
             </li>
           </ul>
@@ -130,7 +130,7 @@ const Hero = ({ color }) => {
   <option value="DE">Wednesday</option>
 </select></div> */}
     
-<button type="button" className="text-white  rounded block h-[43px] hover:text-slate-900 border bg-emerald-900/80 border-none hover:bg-white focus:ring-4 focus:outline-none focus:ring-[#00a884] font-ubuntu  text-[10px] font-bold px-5 py-2.5 text-center  mb-0 dark:border-[#00a884] dark:text-[#00a884] dark:hover:text-gray-600 dark:hover:bg-[#00a884] dark:focus:ring-[#00a884]">DOCTORS</button>
+<button type="button" className="text-white  rounded block h-[43px] hover:text-slate-900 border bg-emerald-900/80 border-none hover:bg-white focus:ring-4 focus:outline-none focus:ring-[#00a884] font-ubuntu  text-[16px] font-bold px-5 py-2.5 text-center  mb-0 dark:border-[#00a884] dark:text-[#00a884] dark:hover:text-gray-600 dark:hover:bg-[#00a884] dark:focus:ring-[#00a884]">Doctor</button>
     
     </div>
  
@@ -185,7 +185,7 @@ const Hero = ({ color }) => {
   
   
 </select></div>*/}
-    <button type="button" className="text-white  rounded block h-[43px] hover:text-slate-900 border bg-emerald-900/80 border-none hover:bg-white focus:ring-4 focus:outline-none focus:ring-[#125133] font-ubuntu  text-[10px] font-bold px-5 py-2.5 text-center  dark:border-[black] dark:text-[#125133] dark:hover:text-gray-600 dark:hover:bg-white dark:focus:ring-[#125133]">APPOINTMENT</button>
+    <button type="button" className="text-white  rounded block h-[43px] hover:text-slate-900 border bg-emerald-900/80 border-none hover:bg-white focus:ring-4 focus:outline-none focus:ring-[#125133] font-ubuntu  text-[16px] font-bold px-5 py-2.5 text-center  dark:border-[black] dark:text-[#125133] dark:hover:text-gray-600 dark:hover:bg-white dark:focus:ring-[#125133]">Appointment</button>
     
     </div>
  
@@ -220,7 +220,7 @@ const Hero = ({ color }) => {
   <option value="DE">Germany</option>
 </select></div> */}
      
-<button type="button" className="text-white  rounded block h-[43px] hover:text-slate-900 border bg-emerald-900/80 border-none hover:bg-white focus:ring-4 focus:outline-none focus:ring-[#125133] font-ubuntu  text-[10px] font-bold px-5 py-2.5 text-center  dark:border-[black] dark:text-[#125133] dark:hover:text-gray-600 dark:hover:bg-white dark:focus:ring-[#125133]">CHARGES</button>
+<button type="button" className="text-white  rounded block h-[43px] hover:text-slate-900 border bg-emerald-900/80 border-none hover:bg-white focus:ring-4 focus:outline-none focus:ring-[#125133] font-ubuntu  text-[16px] font-bold px-5 py-2.5 text-center  dark:border-[black] dark:text-[#125133] dark:hover:text-gray-600 dark:hover:bg-white dark:focus:ring-[#125133]">Charge</button>
     
     </div>
  
@@ -237,7 +237,7 @@ const Hero = ({ color }) => {
 
 
       <div className="flex flex-col mb-2 rounded-[10px] sm:hidden  flex-1  justify-top items-center    mt-[30px] mx-auto">
-        <div className=" w-full h-auto bg-gray-100/80 p-2 rounded block">
+        <div className=" w-full h-auto bg-gray-100/95 p-2 rounded block">
           <ul
             className="flex mb-0 ml-2 mr-2 list-none flex-wrap pt-1 pb-1 flex-col shadow-lg"
             role="tablist"
@@ -245,7 +245,7 @@ const Hero = ({ color }) => {
             <li className="pb-1  last:mr-0 flex-auto text-center">
               <a
                 className={
-                  "text-[10px] font-bold font-ubuntu uppercase px-2 py-3  shadow-lg rounded block leading-normal " +
+                  "text-[16px] font-bold font-ubuntu  px-2 py-3  shadow-lg rounded block leading-normal " +
                   (openTab === 2
                     ? "text-slate-900 bg-" + color + "-600"
                     : "text-" + color + "-600 bg-emerald-900/80 ")
@@ -258,13 +258,13 @@ const Hero = ({ color }) => {
                 href="#link1"
                 role="tablist"
               >
-                FIND DOCTORS
+                Find Doctor
               </a>
             </li>
             <li className="pb-1 last:mr-0 flex-auto text-center">
               <a
                 className={
-                  "text-[10px] font-bold font-ubuntu uppercase px-2 py-3 shadow-lg rounded block leading-normal " +
+                  "text-[16px] font-bold font-ubuntu  px-2 py-3 shadow-lg rounded block leading-normal " +
                   (openTab === 1
                     ? "text-slate-900 bg-" + color + "-600"
                     : "text-" + color + "-600 bg-emerald-900/80")
@@ -277,13 +277,13 @@ const Hero = ({ color }) => {
                 href="#link2"
                 role="tablist"
               >
-                 APPOINTMENT
+                 Appointment
               </a>
             </li>
             <li className=" last:mr-0 flex-auto text-center">
               <a
                 className={
-                  "text-[10px] font-bold font-ubuntu uppercase px-2 py-3 shadow-lg rounded block leading-normal " +
+                  "text-[16px] font-bold font-ubuntu  px-2 py-3 shadow-lg rounded block leading-normal " +
                   (openTab === 3
                     ? "text-slate-900 bg-" + color + "-600"
                     : "text-" + color + "-600 bg-emerald-900/80")
@@ -296,7 +296,7 @@ const Hero = ({ color }) => {
                 href="#link3"
                 role="tablist"
               >
-                 TEST PRICES
+                 Test Price
               </a>
             </li>
           </ul>
@@ -335,7 +335,7 @@ const Hero = ({ color }) => {
   <option value="DE">Wednesday</option>
               </select></div> */}
     
-<button type="button" className="text-white rounded block h-[43px] hover:text-slate-900 border bg-emerald-900/80  hover:bg-white focus:ring-4 focus:outline-none focus:ring-[#00a884] font-ubuntu text-[10px] font-bold px-5 py-2.5 text-center  mb-0 dark:border-[#00a884] dark:text-[#00a884] dark:hover:text-gray-600 dark:hover:bg-[#00a884] dark:focus:ring-[#00a884]">DOCTORS</button>
+<button type="button" className="text-white rounded block h-[43px] hover:text-slate-900 border bg-emerald-900/80  hover:bg-white focus:ring-4 focus:outline-none focus:ring-[#00a884] font-ubuntu text-[16px] font-bold px-5 py-2.5 text-center  mb-0 dark:border-[#00a884] dark:text-[#00a884] dark:hover:text-gray-600 dark:hover:bg-[#00a884] dark:focus:ring-[#00a884]">Doctor</button>
     
     </div>
  
@@ -390,7 +390,7 @@ const Hero = ({ color }) => {
   
   
               </select></div> */}
-    <button type="button" className="text-white rounded block h-[43px] hover:text-slate-900 border bg-emerald-900/80  hover:bg-white focus:ring-4 focus:outline-none focus:ring-[#125133] font-ubuntu  text-[10px] font-bold px-5 py-2.5 text-center  dark:border-[black] dark:text-[#125133] dark:hover:text-gray-600 dark:hover:bg-white dark:focus:ring-[#125133]">APPOINTMENT</button>
+    <button type="button" className="text-white rounded block h-[43px] hover:text-slate-900 border bg-emerald-900/80  hover:bg-white focus:ring-4 focus:outline-none focus:ring-[#125133] font-ubuntu  text-[16px] font-bold px-5 py-2.5 text-center  dark:border-[black] dark:text-[#125133] dark:hover:text-gray-600 dark:hover:bg-white dark:focus:ring-[#125133]">Appoinment</button>
     
     </div>
  
@@ -425,7 +425,7 @@ const Hero = ({ color }) => {
   <option value="DE">Germany</option>
 </select></div>
      */}
-<button type="button" className="text-white rounded block h-[43px] hover:text-slate-900 border bg-emerald-900/80  hover:bg-white focus:ring-4 focus:outline-none focus:ring-[#125133] font-ubuntu  text-[10px] font-bold px-5 py-2.5 text-center  dark:border-[black] dark:text-[#125133] dark:hover:text-gray-600 dark:hover:bg-white dark:focus:ring-[#125133]">CHARGES</button>
+<button type="button" className="text-white rounded block h-[43px] hover:text-slate-900 border bg-emerald-900/80  hover:bg-white focus:ring-4 focus:outline-none focus:ring-[#125133] font-ubuntu  text-[16px] font-bold px-5 py-2.5 text-center  dark:border-[black] dark:text-[#125133] dark:hover:text-gray-600 dark:hover:bg-white dark:focus:ring-[#125133]">Charge</button>
     
     </div>
  

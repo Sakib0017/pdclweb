@@ -43,11 +43,11 @@ const ProjectCard = ({
         </div>
 
         <div className='mt-0 p-5'>
-          <h3 className='text-[#006642] p-2 font-ubuntu text-[24px]'>{name}</h3>
-          <p className='mt-2 text-[#006642] font-ubuntu p-2 text-[14px]'>{description}</p>
+          <h3 className='text-[#006642] font-medium p-2 font-ubuntu text-[24px]'>{name}</h3>
+          <p className='mt-2 text-[#006642] font-medium font-ubuntu p-2 text-[16px]'>{description}</p>
         </div>
 
-        <div className='mt-0  flex font-ubuntu flex-wrap p-2 gap-2'>
+        <div className='mt-0 font-medium flex font-ubuntu flex-wrap p-2 gap-2'>
           {tags.map((tag) => (
             <p
               key={`${name}-${tag.name}`}
@@ -75,8 +75,8 @@ const Works = () => {
     <div className="bg-gray-100/5 shadow p-5 mx-auto w-full ">
       <div className="flex flex-col  flex-wrap max-w-screen-xl mx-auto  ">
        <div className="w-auto  border-l-[5px]  border-[#006642] border-opacity-50 pl-2  text-start ml-3">
-       <h1 className="text-slate-900 font-ubuntu font-bold">DISCOVER <span className="text-[#006642] font-ubuntu">POPULAR</span></h1>
-         <p className="text-[#006642] font-ubuntu ">Popular Diagnostic Centre Ltd. Popular Diagnostic Centre Ltd. Popular Diagnostic Centre Ltd. Popular Diagnostic Centre Ltd. exists to provide a better patient experience. We are a one-stop-shop for your health, offering caring doctors, world-class diagnostics and much more world-class diagnostics and much more world-class diagnostics and much more world-class diagnostics and much more.</p>
+       <h1 className="text-slate-900 font-ubuntu font-bold text-[24px]">DISCOVER <span className="text-[#006642] font-ubuntu">POPULAR</span></h1>
+         <p className="text-[#006642] font-ubuntu text-[16px] font-medium">Popular Diagnostic Centre Ltd. Popular Diagnostic Centre Ltd. Popular Diagnostic Centre Ltd. Popular Diagnostic Centre Ltd. exists to provide a better patient experience. We are a one-stop-shop for your health, offering caring doctors, world-class diagnostics and much more world-class diagnostics and much more world-class diagnostics and much more world-class diagnostics and much more.</p>
         </div>
         <div className="flex flex-wrap items-center justify-center mx-auto ">
           <div className="flex flex-col items-start mx-auto">
@@ -105,11 +105,11 @@ const Works = () => {
 
 
       <div className=" flex-col sm:hidden flex-wrap mb-10 gap-10">
-    <div className="bg-gray-100/5 p-5 mx-auto w-full ">
+    <div className="bg-gray-100/5 shadow p-5 mx-auto w-full ">
       <div className="flex flex-col  flex-wrap max-w-screen-xl mx-auto  ">
        <div className="w-full  border-l-[5px]  border-[#006642] border-opacity-50 pl-2  text-start ml-3">
-       <h1 className="text-slate-900 font-ubuntu font-bold">DISCOVER <span className="text-[#006642] font-ubuntu">POPULAR</span></h1>
-         <p className="text-slate-900 font-ubuntu ">Popular Diagnostic Centre Ltd. exists to provide a better patient experience. We are a one-stop-shop for your health, offering caring doctors, world-class diagnostics and much more world-class diagnostics and much more.</p>
+       <h1 className="text-slate-900 font-ubuntu font-bold text-[24px]">DISCOVER <span className="text-[#006642] font-ubuntu">POPULAR</span></h1>
+         <p className="text-[#006642] font-ubuntu text-[16px] font-medium">Popular Diagnostic Centre Ltd. exists to provide a better patient experience. We are a one-stop-shop for your health, offering caring doctors, world-class diagnostics and much more world-class diagnostics and much more.</p>
         </div>
         <div className="flex flex-col items-center justify-center mx-auto ">
           <div className="flex flex-col items-center mx-auto">
@@ -154,7 +154,7 @@ const Works = () => {
      
      
  
-      <a href="/"><p className='text-[#006642] pt-1 text-end pr-2 text-[20px]  font-ubuntu'>View More.....</p></a>
+      <a href="/"><p className='text-[#006642] pt-1 text-end pr-2 text-[20px] font-medium font-ubuntu'>View More.....</p></a>
     </div>
     </>
   );
