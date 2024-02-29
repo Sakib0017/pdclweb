@@ -6,6 +6,7 @@ import { logo ,tripguide } from "../assets";
 import { SectionWrapper } from "../hoc";
 import { projects1  } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
+import { Link } from "react-router-dom";
 const ProjectCard = ({
   index,
   image,
@@ -31,12 +32,12 @@ const ProjectCard = ({
           
         </div>
 
-        <div className='mt-0 p-5'>
+       <Link to="/details"> <div className='mt-0 p-5 h-[280px]'>
           <p className='text-[#006642] p-2 font-ubuntu text-[15px]'>{name}</p>
           <p className='text-[#006642] p-2 font-ubuntu text-[15px]'>{address}</p>
           <p className='text-[#006642] p-2 font-ubuntu text-[15px]'>{Hotline}</p>
           <p className='text-[#006642] p-2 font-ubuntu text-[15px]'>{Email}</p>
-        </div>
+        </div></Link>
 
        
       </div>

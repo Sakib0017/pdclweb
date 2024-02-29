@@ -33,4 +33,4 @@ function Cor() {
   )
 }
 
-export default SectionWrapper(Cor, "");
+export default Cor;

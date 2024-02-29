@@ -6,7 +6,8 @@ import { logo ,tripguide, akn, dhan } from "../assets";
 import { SectionWrapper } from "../hoc";
 import { projects1  } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
-
+// import { Link } from "react-router-dom";
+import ReactDOM from "react-dom/client";
 
 function Details() {
   return (
@@ -30,7 +31,9 @@ function Details() {
         <div className='mt-0 p-5'>
           <p className='text-[#006642] p-2 font-ubuntu text-[15px]'>Popular Diagnostic Centre Ltd. (Dhanmondi)</p>
           <p className='text-[#006642] p-2 font-ubuntu text-[15px]'>Address: House # 16, Road # 2, Dhanmondi, Dhaka1205</p>
+          
           </div>
+          
 
        
       </div>
