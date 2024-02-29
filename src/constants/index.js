@@ -226,7 +226,7 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+      "A complete, advanced and friendly diagnostic and medical services provider in Bangladesh. Their qualified workforce and quality equipment give best result for any treatment like an international service.",
     name: "Mr. Ahmed",
     designation: "CFO",
     company: "Biman Bangladesh",
@@ -234,9 +234,9 @@ const testimonials = [
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
+      "Popular Diagnostic Centre Ltd. provides best diagnostic and medical services. They have most advanced medical equipment to diagnosis any type of diseases. I am so satisfied for their customer support.",
     name: "Mr. Hasan",
-    designation: "COO",
+    designation: "Chairperson",
     company: "Brac Bank",
     image: "http://populardiagnostic.com/public/testimonial/2-20190319153146.jpg",
   },
@@ -388,221 +388,299 @@ const projects1 = [
     image: dhan,
     name: "Popular Diagnostic Centre Ltd. (Mirpur (U-1))",
     address:"Address: House # 67, Avenue # 5, Block # C, Section-6 Mirpur, (Original-10),Pallabi, Dhaka.",
-    Hotline:"Hotline: 09666 787803",
+    Hotline:"Hotline: 09666 787807",
     Email:"Email: info@populardiagnostic.com",
     branchPage: {
       location:"",
       braManImg:"",
-      braManName:"Name: Md. Shahi Mahmud",
+      braManName:"Name: Mr. Abdullah Al Mahmud",
       braManDesignation:"Designation: AGM & Head of Branch",
     }
   },
   {
     image: dhan,
-    name: "Popular Diagnostic Centre Ltd. (Shantinagar (U-1))",
-    address:"Address: House # 11, Shantinagar , Motijheel, Dhaka.",
-    Hotline:"Hotline: 09666 787803",
+    name: "Popular Diagnostic Centre Ltd. (Mirpur (U-2))",
+    address:"House # 02, Avenue # 01, Block # A, Section-10(Bnaroshi Polli Gate-01), Pallabi, Mirpur, Dhaka.",
+    Hotline:"Hotline: 09666 787807",
     Email:"Email: info@populardiagnostic.com",
     branchPage: {
       location:"",
       braManImg:"",
-      braManName:"Name: Md. Shahi Mahmud",
+      braManName:"Name: Mr. Abdullah Al Mahmud",
       braManDesignation:"Designation: AGM & Head of Branch",
     }
   },
   {
     image: dhan,
-    name: "Popular Diagnostic Centre Ltd. (Shantinagar (U-1))",
-    address:"Address: House # 11, Shantinagar , Motijheel, Dhaka.",
-    Hotline:"Hotline: 09666 787803",
+    name: "Popular Diagnostic Centre Ltd. (Badda)",
+    address:"Address: Cha-90/2, North Badda (Pragoti Sharoni), Dhaka-1212.",
+    Hotline:"Hotline: 09666 787809",
     Email:"Email: info@populardiagnostic.com",
     branchPage: {
       location:"",
       braManImg:"",
-      braManName:"Name: Md. Shahi Mahmud",
+      braManName:"Name: Mr. Firoz Mia",
+      braManDesignation:"Designation: Head of Branch",
+    }
+  },
+  {
+    image: dhan,
+    name: "Popular Diagnostic Centre Ltd. (Uttara (U-1))",
+    address:"Address: House # 21, Road # 7, Sector # 4, Jashim Uddin More, Uttara, Dhaka-1230",
+    Hotline:"Hotline: 09666 787805",
+    Email:"Email: info@populardiagnostic.com",
+    branchPage: {
+      location:"",
+      braManImg:"",
+      braManName:"Name: Mr. Zohurul Islam",
+      braManDesignation:"Designation: Senior Branch Manager",
+    }
+  },
+  {
+    image: dhan,
+    name: "Popular Diagnostic Centre Ltd. (Uttara (U-2))",
+    address:"Address: House # 25, Road # 7, Sector # 4, Jashim Uddin Moar, Uttara, Dhaka.",
+    Hotline:"Hotline:  09666 787805",
+    Email:"Email: info@populardiagnostic.com",
+    branchPage: {
+      location:"",
+      braManImg:"",
+      braManName:"Name: Mr. Zohurul Islam",
+      braManDesignation:"Designation: Senior Branch Manager",
+    }
+  },
+  {
+    image: dhan,
+    name: "Popular Diagnostic Centre Ltd. (Uttara Garib-E-Newaz)",
+    address:"Address: House #41, Uttara-Garib-E-Newaz Avenue, Sector # 13, Uttara, Dhaka",
+    Hotline:"Hotline: 09666787823",
+    Email:"Email: info@populardiagnostic.com",
+    branchPage: {
+      location:"",
+      braManImg:"",
+      braManName:"Name:  Md. Jahurul Islam Rony",
+      braManDesignation:"Designation: Branch In-Charge",
+    }
+  },
+  {
+    image: dhan,
+    name: "Popular Diagnostic Centre Ltd. (Jatrabari)",
+    address:"Address: 33,Shahid Faruk sarak, North jatrabari, Dhaka-1204",
+    Hotline:"Hotline: 09666787822",
+    Email:"Email: info@populardiagnostic.com",
+    branchPage: {
+      location:"",
+      braManImg:"",
+      braManName:"Name:  Md. Mizanur Rahman Biswas",
+      braManDesignation:"Designation: Branch Manager",
+    }
+  },
+  {
+    image: dhan,
+    name: "Popular Diagnostic Centre Ltd. (Savar)",
+    address:"Address: E/22, Talbagh, Anandapur, Savar, Dhaka.",
+    Hotline:"Hotline: 09666 787808",
+    Email:"Email: info@populardiagnostic.com",
+    branchPage: {
+      location:"",
+      braManImg:"",
+      braManName:"Name:  Mr. Raju Ahmmed Khalek",
+      braManDesignation:"Designation: Branch In-Charge",
+    }
+  },
+  {
+    image: dhan,
+    name: "Popular Diagnostic Centre Ltd. (Gazipur)",
+    address:"Address: Gazipur Shibbari More (Near VIP Bus Terminal and Walton Show Room)",
+    Hotline:"Hotline: 09666 787816",
+    Email:"Email: info@populardiagnostic.com",
+    branchPage: {
+      location:"",
+      braManImg:"",
+      braManName:"Name: Ajoy Kumar Datta",
+      braManDesignation:"Designation: Branch Manager",
+    }
+  },
+  {
+    image: dhan,
+    name: "Popular Diagnostic Centre Ltd. (Narayangonj)",
+    address:"Address: 231/4, Bangabandhu Road, Balur Math, Chashara, Narayangonj.",
+    Hotline:"Hotline: 09666 787804",
+    Email:"Email: info@populardiagnostic.com",
+    branchPage: {
+      location:"",
+      braManImg:"",
+      braManName:"Name: Md. Shahidul Islam",
       braManDesignation:"Designation: AGM & Head of Branch",
     }
   },
   {
     image: dhan,
-    name: "Popular Diagnostic Centre Ltd. (Shantinagar (U-1))",
-    address:"Address: House # 11, Shantinagar , Motijheel, Dhaka.",
-    Hotline:"Hotline: 09666 787803",
+    name: "Popular Diagnostic Centre Ltd. (Bogura (U-1))",
+    address:"Address: H # 12/305, Thanthania Bus-Stand Sherpur Road, Bogura.",
+    Hotline:"Hotline: 09666 787812",
     Email:"Email: info@populardiagnostic.com",
     branchPage: {
       location:"",
       braManImg:"",
-      braManName:"Name: Md. Shahi Mahmud",
+      braManName:"Name: Mr. Rezwan Ahmed",
+      braManDesignation:"Designation: Senior Branch Manager",
+    }
+  },
+  {
+    image: dhan,
+    name: "Popular Diagnostic Centre Ltd. (Bogura (U-2))",
+    address:"Address: H # 12/310, Thanthania Bus-Stand Sherpur Road, Bogura.",
+    Hotline:"Hotline:  09666 787812",
+    Email:"Email: info@populardiagnostic.com",
+    branchPage: {
+      location:"",
+      braManImg:"",
+      braManName:"Name: Mr. Rezwan Ahmed",
+      braManDesignation:"Designation: Senior Branch Manager",
+    }
+  },
+  {
+    image: dhan,
+    name: "Popular Diagnostic Centre Ltd. (Bogura (U-3))",
+    address:"Address: H # 14/1979, Rahman Market, Silimpur, Bogra.",
+    Hotline:"Hotline:  09666 787812",
+    Email:"Email: info@populardiagnostic.com",
+    branchPage: {
+      location:"",
+      braManImg:"",
+      braManName:"Name: Mr. Rezwan Ahmed",
+      braManDesignation:"Designation: Senior Branch Manager",
+    }
+  },
+  {
+    image: dhan,
+    name: "Popular Diagnostic Centre Ltd. (Rajshahi)",
+    address:"Address: House # 474, Chowdhury Tower, Laxmipur, Rajshahi.",
+    Hotline:"Hotline: 09666 787811",
+    Email:"Email: info@populardiagnostic.com",
+    branchPage: {
+      location:"",
+      braManImg:"",
+      braManName:"Name: Mr. Farid Mohammad Shamim",
       braManDesignation:"Designation: AGM & Head of Branch",
     }
   },
   {
     image: dhan,
-    name: "Popular Diagnostic Centre Ltd. (Shantinagar (U-1))",
-    address:"Address: House # 11, Shantinagar , Motijheel, Dhaka.",
-    Hotline:"Hotline: 09666 787803",
+    name: "Popular Diagnostic Centre Ltd. (Noakhali)",
+    address:"Address: House #1222, New Bus stand (Near Shaheed Bhulu Stadium) Maijdee Court, Noakhali.",
+    Hotline:"Hotline: 09666 787818",
     Email:"Email: info@populardiagnostic.com",
     branchPage: {
       location:"",
       braManImg:"",
-      braManName:"Name: Md. Shahi Mahmud",
-      braManDesignation:"Designation: AGM & Head of Branch",
+      braManName:"Name: Mr. Muhammad Reaz Hossain",
+      braManDesignation:"Designation: Branch Manager",
     }
   },
   {
     image: dhan,
-    name: "Popular Diagnostic Centre Ltd. (Shantinagar (U-1))",
-    address:"Address: House # 11, Shantinagar , Motijheel, Dhaka.",
-    Hotline:"Hotline: 09666 787803",
+    name: "Popular Diagnostic Centre Ltd. (Chattogram)",
+    address:"Address: 20/B. K. B. Fazlul Kader Road, Panchlaish, Chattogram.",
+    Hotline:"Hotline: 09666 787810",
     Email:"Email: info@populardiagnostic.com",
     branchPage: {
       location:"",
       braManImg:"",
-      braManName:"Name: Md. Shahi Mahmud",
-      braManDesignation:"Designation: AGM & Head of Branch",
+      braManName:"Name: Mr. Oaly Ashraf Khan",
+      braManDesignation:"Designation: Senior Branch Manager",
     }
   },
   {
     image: dhan,
-    name: "Popular Diagnostic Centre Ltd. (Shantinagar (U-1))",
-    address:"Address: House # 11, Shantinagar , Motijheel, Dhaka.",
-    Hotline:"Hotline: 09666 787803",
+    name: "Popular Diagnostic Centre Ltd. (Mymensingh)",
+    address:"Address: 252/1, Charpara Road (Opposite of Mymensingh Medical College & Hospital), Mymensingh.",
+    Hotline:"Hotline: 09666 787814",
     Email:"Email: info@populardiagnostic.com",
     branchPage: {
       location:"",
       braManImg:"",
-      braManName:"Name: Md. Shahi Mahmud",
-      braManDesignation:"Designation: AGM & Head of Branch",
+      braManName:"Name: Mr. Nur Islam",
+      braManDesignation:"Designation: Senior Branch Manager",
     }
   },
   {
     image: dhan,
-    name: "Popular Diagnostic Centre Ltd. (Shantinagar (U-1))",
-    address:"Address: House # 11, Shantinagar , Motijheel, Dhaka.",
-    Hotline:"Hotline: 09666 787803",
+    name: "Popular Diagnostic Centre Ltd. (Rangpur (U-1))",
+    address:"Address: 77/1, Road No-1, Dhap, Jail Road, Rangpur.",
+    Hotline:"Hotline: 09666 787813",
     Email:"Email: info@populardiagnostic.com",
     branchPage: {
       location:"",
       braManImg:"",
-      braManName:"Name: Md. Shahi Mahmud",
-      braManDesignation:"Designation: AGM & Head of Branch",
+      braManName:"Name: Mr. Md. Abdul Ahad",
+      braManDesignation:"Designation: Branch Manager",
     }
   },
   {
     image: dhan,
-    name: "Popular Diagnostic Centre Ltd. (Shantinagar (U-1))",
-    address:"Address: House # 11, Shantinagar , Motijheel, Dhaka.",
-    Hotline:"Hotline: 09666 787803",
+    name: "Popular Diagnostic Centre Ltd. (Rangpur (U-2))",
+    address:"Address: 77/1, Road No-1, Dhap, Jail Road, Rangpur.",
+    Hotline:"Hotline: 09666 787813",
     Email:"Email: info@populardiagnostic.com",
     branchPage: {
       location:"",
       braManImg:"",
-      braManName:"Name: Md. Shahi Mahmud",
-      braManDesignation:"Designation: AGM & Head of Branch",
+      braManName:"Name: Mr. Md. Abdul Ahad",
+      braManDesignation:"Designation: Branch Manager",
     }
   },
   {
     image: dhan,
-    name: "Popular Diagnostic Centre Ltd. (Shantinagar (U-1))",
-    address:"Address: House # 11, Shantinagar , Motijheel, Dhaka.",
-    Hotline:"Hotline: 09666 787803",
+    name: "Popular Diagnostic Centre Ltd. (Dinajpur)",
+    address:"Address: House #44, 1 No. Upashahar, Fulbari Bus stand, Dinajpur.",
+    Hotline:"Hotline:  09666 787815",
     Email:"Email: info@populardiagnostic.com",
     branchPage: {
       location:"",
       braManImg:"",
-      braManName:"Name: Md. Shahi Mahmud",
-      braManDesignation:"Designation: AGM & Head of Branch",
+      braManName:"Name: Md. Foyzur Rahman",
+      braManDesignation:"Designation: Branch Manager",
     }
   },
   {
     image: dhan,
-    name: "Popular Diagnostic Centre Ltd. (Shantinagar (U-1))",
-    address:"Address: House # 11, Shantinagar , Motijheel, Dhaka.",
-    Hotline:"Hotline: 09666 787803",
+    name: "Popular Diagnostic Centre Ltd. (Khulna)",
+    address:"Address: Popular  Diagnostic  Centre Ltd. Khulna Branch, 37 KDA Avenue, Khulna.",
+    Hotline:"Hotline: 09666 787821",
     Email:"Email: info@populardiagnostic.com",
     branchPage: {
       location:"",
       braManImg:"",
-      braManName:"Name: Md. Shahi Mahmud",
-      braManDesignation:"Designation: AGM & Head of Branch",
+      braManName:"Name: Md. Sohel Chowdhury",
+      braManDesignation:"Designation: Branch Manager",
     }
   },
   {
     image: dhan,
-    name: "Popular Diagnostic Centre Ltd. (Shantinagar (U-1))",
-    address:"Address: House # 11, Shantinagar , Motijheel, Dhaka.",
-    Hotline:"Hotline: 09666 787803",
+    name: "Popular Diagnostic Centre Ltd. (Kushtia)",
+    address:"Address: City Tower - House No.1, Mir Mosharraf Hossain Road, Coart Para, Kushtia",
+    Hotline:"Hotline: 09666 787817",
     Email:"Email: info@populardiagnostic.com",
     branchPage: {
       location:"",
       braManImg:"",
-      braManName:"Name: Md. Shahi Mahmud",
-      braManDesignation:"Designation: AGM & Head of Branch",
+      braManName:"Name: Shamsuzzoha Khan John",
+      braManDesignation:"Designation: Branch In Charge",
     }
   },
   {
     image: dhan,
-    name: "Popular Diagnostic Centre Ltd. (Shantinagar (U-1))",
-    address:"Address: House # 11, Shantinagar , Motijheel, Dhaka.",
-    Hotline:"Hotline: 09666 787803",
+    name: "Popular Diagnostic Centre Ltd. (Barishal)",
+    address:"Address: 109, 955 Shahid Nazrul Islam Sarak, South Alekanda Banglabazar, Barishal.",
+    Hotline:"Hotline: 09666 787819",
     Email:"Email: info@populardiagnostic.com",
     branchPage: {
       location:"",
       braManImg:"",
-      braManName:"Name: Md. Shahi Mahmud",
-      braManDesignation:"Designation: AGM & Head of Branch",
-    }
-  },
-  {
-    image: dhan,
-    name: "Popular Diagnostic Centre Ltd. (Shantinagar (U-1))",
-    address:"Address: House # 11, Shantinagar , Motijheel, Dhaka.",
-    Hotline:"Hotline: 09666 787803",
-    Email:"Email: info@populardiagnostic.com",
-    branchPage: {
-      location:"",
-      braManImg:"",
-      braManName:"Name: Md. Shahi Mahmud",
-      braManDesignation:"Designation: AGM & Head of Branch",
-    }
-  },
-  {
-    image: dhan,
-    name: "Popular Diagnostic Centre Ltd. (Shantinagar (U-1))",
-    address:"Address: House # 11, Shantinagar , Motijheel, Dhaka.",
-    Hotline:"Hotline: 09666 787803",
-    Email:"Email: info@populardiagnostic.com",
-    branchPage: {
-      location:"",
-      braManImg:"",
-      braManName:"Name: Md. Shahi Mahmud",
-      braManDesignation:"Designation: AGM & Head of Branch",
-    }
-  },
-  {
-    image: dhan,
-    name: "Popular Diagnostic Centre Ltd. (Shantinagar (U-1))",
-    address:"Address: House # 11, Shantinagar , Motijheel, Dhaka.",
-    Hotline:"Hotline: 09666 787803",
-    Email:"Email: info@populardiagnostic.com",
-    branchPage: {
-      location:"",
-      braManImg:"",
-      braManName:"Name: Md. Shahi Mahmud",
-      braManDesignation:"Designation: AGM & Head of Branch",
-    }
-  },
-  {
-    image: dhan,
-    name: "Popular Diagnostic Centre Ltd. (Shantinagar (U-1))",
-    address:"Address: House # 11, Shantinagar , Motijheel, Dhaka.",
-    Hotline:"Hotline: 09666 787803",
-    Email:"Email: info@populardiagnostic.com",
-    branchPage: {
-      location:"",
-      braManImg:"",
-      braManName:"Name: Md. Shahi Mahmud",
-      braManDesignation:"Designation: AGM & Head of Branch",
+      braManName:"Name: Md. Mosharrof Hossain",
+      braManDesignation:"Designation: Branch Manager",
     }
   },
 ];
