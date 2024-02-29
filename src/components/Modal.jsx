@@ -14,6 +14,7 @@ const ProjectCard = ({
   address,
   Hotline,
   Email,
+  heading,
   
 }) => {
   return (
@@ -32,11 +33,12 @@ const ProjectCard = ({
           
         </div>
 
-       <Link to="/details"> <div className='mt-0 p-5 h-[300px]'>
+       <Link to="/details"> <div className='mt-0 p-5 h-[350px]'>
+          <h1 className='text-[#006642] font-ubuntu font-bold flex justify-center text-[25px]'>{heading}</h1>
           <p className='text-[#006642] p-2 font-ubuntu font-medium text-[16px]'>{name}</p>
-          <p className='text-[#006642] p-2 font-ubuntu font-medium text-[16px]'>{address}</p>
-          <p className='text-[#006642] p-2 font-ubuntu font-medium text-[16px]'>{Hotline}</p>
-          <p className='text-[#006642] p-2 font-ubuntu font-medium text-[16px]'>{Email}</p>
+          <p className='text-[#006642] p-2 font-ubuntu text-[16px]'><span className=' text-[18px] font-medium font-ubuntu'>Address: </span> {address}</p>
+          <p className='text-[#006642] p-2 font-ubuntu text-[16px]'><span className=' text-[18px] font-medium font-ubuntu'>Hotline: </span> {Hotline}</p>
+          <p className='text-[#006642] p-2 font-ubuntu text-[16px]'><span className=' text-[18px] font-medium font-ubuntu'>Email: </span> {Email}</p>
         </div></Link>
 
        

@@ -94,6 +94,54 @@ import m from "./m.png";
 import mm from "./mm.png";
 import me from "./me.png";
 import mf from "./mf.png";
+
+import Badda from "./PDCLbranches/Badda.webp";
+import Barishal from "./PDCLbranches/Barishal.webp";
+import BoguraU1 from "./PDCLbranches/BoguraU1.webp";
+import BoguraU2 from "./PDCLbranches/BoguraU2.webp";
+import BoguraU3 from "./PDCLbranches/BoguraU3.webp";
+import Chattogram from "./PDCLbranches/Chattogram.webp";
+import Dhanmondi from "./PDCLbranches/Dhanmondi.webp";
+import Dinajpur from "./PDCLbranches/Dinajpur.webp";
+import EnglishRoad from "./PDCLbranches/EnglishRoad.webp";
+import Gazipur from "./PDCLbranches/Gazipur.webp";
+import Jatrabari from "./PDCLbranches/Jatrabari.webp";
+import Khulna from "./PDCLbranches/Khulna.webp";
+import Kushtia from "./PDCLbranches/Kushtia.webp";
+import MirpurU1 from "./PDCLbranches/MirpurU1.webp";
+import MirpurU2 from "./PDCLbranches/MirpurU2.webp";
+import Mymensingh from "./PDCLbranches/Mymensingh.webp";
+import Narayangonj from "./PDCLbranches/Narayangonj.webp";
+import Noakhali from "./PDCLbranches/Noakhali.webp";
+import Rajshahi from "./PDCLbranches/Rajshahi.webp";
+import RangpurU1 from "./PDCLbranches/RangpurU1.webp";
+import RangpurU2 from "./PDCLbranches/RangpurU2.webp";
+import Savar from "./PDCLbranches/Savar.webp";
+import ShantinagarU1 from "./PDCLbranches/ShantinagarU1.webp";
+import ShantinagarU2 from "./PDCLbranches/ShantinagarU2.webp";
+import ShyamoliU1 from "./PDCLbranches/ShyamoliU1.webp";
+import ShyamoliU2 from "./PDCLbranches/ShyamoliU2.webp";
+import UttaraGaribENewaz from "./PDCLbranches/UttaraGaribENewaz.webp";
+import UttaraU1 from "./PDCLbranches/UttaraU1.webp";
+import UttaraU2 from "./PDCLbranches/UttaraU2.webp";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 export {
   logo,
   char,
@@ -186,4 +234,33 @@ export {
   jobit,
   tripguide,
   telephone,
+  Badda,
+  Barishal,
+  BoguraU1,
+  BoguraU2,
+  BoguraU3,
+  Chattogram,
+  Dhanmondi,
+  Dinajpur,
+  EnglishRoad,
+  Gazipur,
+  Jatrabari,
+  Khulna,
+  Kushtia,
+  MirpurU1,
+  MirpurU2,
+  Mymensingh,
+  Narayangonj,
+  Noakhali,
+  Rajshahi,
+  RangpurU1,
+  RangpurU2,
+  Savar,
+  ShantinagarU1,
+  ShantinagarU2,
+  ShyamoliU1,
+  ShyamoliU2,
+  UttaraGaribENewaz,
+  UttaraU1,
+  UttaraU2,
 };
