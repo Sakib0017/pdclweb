@@ -89,19 +89,13 @@
 import React, { useState } from "react";
 import { Details, Nav, Navbar, Tech } from "../components";
 import { motion } from "framer-motion";
-import { styles } from "../styles";
-import { logo, tripguide } from "../assets";
-import { SectionWrapper } from "../hoc";
 import { projects1 } from "../constants";
-import { fadeIn, textVariant } from "../utils/motion";
-import { Link } from "react-router-dom";
+import { textVariant } from "../utils/motion";
 
 const ProjectCard = ({ image, name, address, Hotline, Email, heading, branchPage }) => {
   const [isOpen, setIsOpen] = useState(false);
-
   const handleOpenModal = () => setIsOpen(true);
   const handleCloseModal = () => setIsOpen(false);
-
   return (
     <div className="bg-gray-100-5 p-0 shadow-xl rounded-md sm:w-[299px] w-full">
       <div className="relative w-full pb-5">
