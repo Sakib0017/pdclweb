@@ -491,7 +491,7 @@ const projects1 = [
     }
   },
   {
-    heading: "Uttara Garib-E-Newaz",
+    heading: "Uttara Garib E Newaz",
     image: UttaraGaribENewaz,
     name: "Popular Diagnostic Centre Ltd. (Uttara Garib-E-Newaz)",
     address:"House #41, Uttara-Garib-E-Newaz Avenue, Sector # 13, Uttara, Dhaka",
