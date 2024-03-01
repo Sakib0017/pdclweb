@@ -111,35 +111,20 @@ const ProjectCard = ({ image, name, address, Hotline, Email, heading, branchPage
           className="w-full rounded-md object-cover opacity-95"
         />
       </div>
-      <div className="p-5 h-[380px] flex flex-col justify-between gap-3">
-        <h1 className="text-[#006642] font-ubuntu font-bold flex justify-center text-[25px]">
-          {heading}
-        </h1>
-        <p className="text-[#006642] p-2 font-ubuntu font-medium text-[16px]">
-          {name}
-        </p>
-        <p className="text-[#006642] p-2 font-ubuntu text-[16px]">
-          <span className="text-[18px] font-medium font-ubuntu">Address: </span>
-          {address}
-        </p>
-        <p className="text-[#006642] p-2 font-ubuntu text-[16px]">
-          <span className="text-[18px] font-medium font-ubuntu">Hotline: </span>
-          {Hotline}
-        </p>
-        <p className="text-[#006642] p-2 font-ubuntu text-[16px]">
-          <span className="text-[18px] font-medium font-ubuntu">Email: </span>
-          {Email}
-        </p>
-        <p className="text-[#006642] p-2 font-ubuntu text-[16px]">
-          
-        </p>
-        <button
-          className="bg-[#006642] hover:bg-[#005c3f] text-white font-ubuntu font-medium py-2 px-4 rounded-md focus:outline-none"
+          <div className='p-5 h-[420px] flex flex-col justify-between'>
+             <h1 className='text-[#006642] font-ubuntu font-bold flex justify-center text-[25px]'>{heading}</h1>
+             <p className='text-[#006642] p-2 font-ubuntu font-medium text-[16px]'>{name}</p>
+            <p className='text-[#006642] p-2 font-ubuntu text-[16px]'><span className=' text-[18px] font-medium font-ubuntu'>Address: </span> {address}</p>
+            <p className='text-[#006642] p-2 font-ubuntu text-[16px]'><span className=' text-[18px] font-medium font-ubuntu'>Hotline: </span> {Hotline}</p>          
+            <p className='text-[#006642] p-2 font-ubuntu text-[16px]'><span className=' text-[18px] font-medium font-ubuntu'>Email: </span> {Email}</p>
+            <button
+          className="bg-[#006642] hover:bg-[#005c3f] text-white font-ubuntu font-medium py-2 px-4 rounded-md focus:outline-none shadow-md"
           onClick={handleOpenModal}
         >
           View Details
         </button>
-      </div>
+        </div>
+
       {isOpen && <Details branchPage={branchPage} onClose= {handleCloseModal}/>}
     </div>
   );

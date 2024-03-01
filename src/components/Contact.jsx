@@ -1,5 +1,5 @@
 import React from "react";
-import {   Nav, Navbar,  Tech} from "../components";
+import { Nav, Navbar,  Tech} from "../components";
 import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { printer ,downloads } from "../assets";
