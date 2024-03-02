@@ -129,6 +129,27 @@ import UttaraU2 from "./PDCLbranches/UttaraU2.webp";
 
 
 import AchintoKumarNag from "./PDCLbranches/Managers/AchintoKumarNag.png";
+import AjoyKumarDatta from "./PDCLbranches/Managers/AjoyKumarDatta.png";
+import MdSohelChowdhury from "./PDCLbranches/Managers/MdSohelChowdhury.png";
+import MdFoyzurRahman from "./PDCLbranches/Managers/MdFoyzurRahman.png";
+import MdJahurulIslamRony from "./PDCLbranches/Managers/MdJahurulIslamRony.png";
+import MdMahbuburRahmanChowdhury from "./PDCLbranches/Managers/MdMahbuburRahmanChowdhury.png";
+import MdMizanurRahmanBiswas from "./PDCLbranches/Managers/MdMizanurRahmanBiswas.png";
+import MdMosharrofHossain from "./PDCLbranches/Managers/MdMosharrofHossain.png";
+import MdShahidulIslam from "./PDCLbranches/Managers/MdShahidulIslam.png";
+import MdShahiMahmud from "./PDCLbranches/Managers/MdShahiMahmud.png";
+import MrAbdullahAlMahmud from "./PDCLbranches/Managers/MrAbdullahAlMahmud.png";
+import MrFaridMohammadShamim from "./PDCLbranches/Managers/MrFaridMohammadShamim.png";
+import MrFirozMia from "./PDCLbranches/Managers/MrFirozMia.png";
+import MrMdAbdulAhad from "./PDCLbranches/Managers/MrMdAbdulAhad.png";
+import MrMuhammadReazHossain from "./PDCLbranches/Managers/MrMuhammadReazHossain.png";
+import MrNezamulHaqueRipon from "./PDCLbranches/Managers/MrNezamulHaqueRipon.png";
+import MrNurIslam from "./PDCLbranches/Managers/MrNurIslam.png";
+import MrOalyAshrafKhan from "./PDCLbranches/Managers/MrOalyAshrafKhan.png";
+import MrRajuAhmmedKhalek from "./PDCLbranches/Managers/MrRajuAhmmedKhalek.png";
+import MrRezwanAhmed from "./PDCLbranches/Managers/MrRezwanAhmed.png";
+import MrZohurulIslam from "./PDCLbranches/Managers/MrZohurulIslam.png";
+import ShamsuzzohaKhanJohn from "./PDCLbranches/Managers/ShamsuzzohaKhanJohn.png";
 
 
 
@@ -264,4 +285,25 @@ export {
   UttaraU1,
   UttaraU2,
   AchintoKumarNag,
+  AjoyKumarDatta,
+  MdSohelChowdhury,
+  MdFoyzurRahman,
+  MdJahurulIslamRony,
+  MdMahbuburRahmanChowdhury,
+  MdMizanurRahmanBiswas,
+  MdMosharrofHossain,
+  MdShahidulIslam,
+  MdShahiMahmud,
+  MrAbdullahAlMahmud,
+  MrFaridMohammadShamim,
+  MrFirozMia,
+  MrMdAbdulAhad,
+  MrMuhammadReazHossain,
+  MrNezamulHaqueRipon,
+  MrNurIslam,
+  MrOalyAshrafKhan,
+  MrRajuAhmmedKhalek,
+  MrRezwanAhmed,
+  MrZohurulIslam,
+  ShamsuzzohaKhanJohn,
 };

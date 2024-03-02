@@ -97,20 +97,20 @@ const ProjectCard = ({ image, name, address, Hotline, Email, heading, branchPage
   const handleOpenModal = () => setIsOpen(true);
   const handleCloseModal = () => setIsOpen(false);
   return (
-    <div className="bg-gray-100-5 p-0 shadow-2xl rounded-2xl sm:w-[299px] w-full">
-      <div className="relative w-full pb-5">
+    <div className="bg-gray-100/5 p-0 shadow-2xl rounded-2xl sm:w-[299px] w-full">
+      <div className="relative w-full">
         <img
           src={image}
           alt="Branch_image"
           className="w-full shadow-xl rounded-3xl object-cover opacity-95 p-2 "
         />
       </div>
-          <div className='p-5 h-[420px] flex flex-col justify-between'>
-             <h1 className='text-[#006642] font-ubuntu font-bold text-center text-[25px]'>{heading}</h1>
-             <p className='text-[#006642] p-2 font-ubuntu font-medium text-[16px]'>{name}</p>
-            <p className='text-[#006642] p-2 font-ubuntu text-[16px]'><span className=' text-[18px] font-medium font-ubuntu'>Address: </span> {address}</p>
-            <p className='text-[#006642] p-2 font-ubuntu text-[16px]'><span className=' text-[18px] font-medium font-ubuntu'>Hotline: </span> {Hotline}</p>          
-            <p className='text-[#006642] p-2 font-ubuntu text-[16px]'><span className=' text-[18px] font-medium font-ubuntu'>Email: </span> {Email}</p>
+          <div className='pl-3 pr-2 pt-2 pb-3 h-[360px] flex flex-col justify-between'>
+             <h1 className='text-[#006642] px-2 font-ubuntu font-bold text-center text-[25px]'>{heading}</h1>
+             <p className='text-[#006642] px-2 font-ubuntu font-medium text-[16px]'>{name}</p>
+            <p className='text-[#006642] px-2 font-ubuntu text-[16px]'><span className=' text-[18px] font-medium font-ubuntu'>Address: </span> {address}</p>
+            <p className='text-[#006642] px-2 font-ubuntu text-[16px]'><span className=' text-[18px] font-medium font-ubuntu'>Hotline: </span> {Hotline}</p>          
+            <p className='text-[#006642] px-2 font-ubuntu text-[16px]'><span className=' text-[18px] font-medium font-ubuntu'>Email: </span> {Email}</p>
             <button
           className="bg-[#006642] hover:bg-[#005c3f] text-white font-ubuntu font-medium py-2 px-4 rounded-md focus:outline-none shadow-md"
           onClick={handleOpenModal}

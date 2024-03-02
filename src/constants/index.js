@@ -89,7 +89,28 @@ import {
   UttaraGaribENewaz,
   UttaraU1,
   UttaraU2,
-  AchintoKumarNag
+  AchintoKumarNag,
+  AjoyKumarDatta,
+  MdSohelChowdhury,
+  MdFoyzurRahman,
+  MdJahurulIslamRony,
+  MdMahbuburRahmanChowdhury,
+  MdMizanurRahmanBiswas,
+  MdMosharrofHossain,
+  MdShahidulIslam,
+  MdShahiMahmud,
+  MrAbdullahAlMahmud,
+  MrFaridMohammadShamim,
+  MrFirozMia,
+  MrMdAbdulAhad,
+  MrMuhammadReazHossain,
+  MrNezamulHaqueRipon,
+  MrNurIslam,
+  MrOalyAshrafKhan,
+  MrRajuAhmmedKhalek,
+  MrRezwanAhmed,
+  MrZohurulIslam,
+  ShamsuzzohaKhanJohn
 } from "../assets";
 
 export const navLinks = [
@@ -361,8 +382,8 @@ const projects1 = [
     Hotline:"09666 787802",
     Email:"info@populardiagnostic.com",
     branchPage: {
-      location:"",
-      braManImg:"",
+      location:"https://maps.google.com/maps?q=23.713776,90.4109699&hl=es;z=14&output=embed",
+      braManImg: MdMahbuburRahmanChowdhury,
       braManName:"Md. Mahbubur Rahman Chowdhury",
       braManDesignation:"Branch Manager",
     }
@@ -376,8 +397,8 @@ const projects1 = [
     Hotline:"09666 787803",
     Email:"info@populardiagnostic.com",
     branchPage: {
-      location:"",
-      braManImg:"",
+      location:"https://maps.google.com/maps?q=23.7412031,90.4124384&hl=es;z=14&output=embed",
+      braManImg: MdShahiMahmud,
       braManName:"Md. Shahi Mahmud",
       braManDesignation:"AGM & Head of Branch",
     }
@@ -391,8 +412,8 @@ const projects1 = [
     Hotline:"09666 787803",
     Email:"info@populardiagnostic.com",
     branchPage: {
-      location:"",
-      braManImg:"",
+      location:"https://maps.google.com/maps?q=23.7420844,90.4121534&hl=es;z=14&output=embed",
+      braManImg: MdShahiMahmud,
       braManName:"Md. Shahi Mahmud",
       braManDesignation:"AGM & Head of Branch",
     }
@@ -406,8 +427,8 @@ const projects1 = [
     Hotline:"09666 787806",
     Email:"info@populardiagnostic.com",
     branchPage: {
-      location:"",
-      braManImg:"",
+      location:"https://maps.google.com/maps?q=23.7718253,90.3674465&hl=es;z=14&output=embed",
+      braManImg: MrNezamulHaqueRipon,
       braManName:"Mr. Nezamul Haque Ripon",
       braManDesignation:"AGM & Head of Branch",
     }
@@ -421,8 +442,8 @@ const projects1 = [
     Hotline:"09666-787806",
     Email:"info@populardiagnostic.com",
     branchPage: {
-      location:"",
-      braManImg:"",
+      location:"https://maps.google.com/maps?q=23.76892267744971,90.36856338476504&hl=es;z=14&output=embed",
+      braManImg: MrNezamulHaqueRipon,
       braManName:"Mr. Nezamul Haque Ripon",
       braManDesignation:"AGM & Head of Branch",
     }
@@ -436,8 +457,8 @@ const projects1 = [
     Hotline:"09666 787807",
     Email:"info@populardiagnostic.com",
     branchPage: {
-      location:"",
-      braManImg:"",
+      location:"https://maps.google.com/maps?q=23.8106471,90.3673446&hl=es;z=14&output=embed",
+      braManImg: MrAbdullahAlMahmud,
       braManName:"Mr. Abdullah Al Mahmud",
       braManDesignation:"AGM & Head of Branch",
     }
@@ -451,8 +472,8 @@ const projects1 = [
     Hotline:"09666 787807",
     Email:"info@populardiagnostic.com",
     branchPage: {
-      location:"",
-      braManImg:"",
+      location:"https://maps.google.com/maps?q=24.7433735,90.4059255&hl=es;z=14&output=embed",
+      braManImg: MrAbdullahAlMahmud,
       braManName:"Mr. Abdullah Al Mahmud",
       braManDesignation:"AGM & Head of Branch",
     }
@@ -466,8 +487,8 @@ const projects1 = [
     Hotline:"09666 787809",
     Email:"info@populardiagnostic.com",
     branchPage: {
-      location:"",
-      braManImg:"",
+      location:"https://maps.google.com/maps?q=23.7885462,90.4250215&hl=es;z=14&output=embed",
+      braManImg: MrFirozMia  ,
       braManName:"Mr. Firoz Mia",
       braManDesignation:"Head of Branch",
     }
@@ -481,8 +502,8 @@ const projects1 = [
     Hotline:"09666 787805",
     Email:"info@populardiagnostic.com",
     branchPage: {
-      location:"",
-      braManImg:"",
+      location:"https://maps.google.com/maps?q=23.8610668,90.40031&hl=es;z=14&output=embed",
+      braManImg: MrZohurulIslam,
       braManName:"Mr. Zohurul Islam",
       braManDesignation:"Senior Branch Manager",
     }
@@ -496,8 +517,8 @@ const projects1 = [
     Hotline:"09666 787805",
     Email:"info@populardiagnostic.com",
     branchPage: {
-      location:"",
-      braManImg:"",
+      location:"https://maps.google.com/maps?q=23.8613902,90.4007901&hl=es;z=14&output=embed",
+      braManImg: MrZohurulIslam,
       braManName:"Mr. Zohurul Islam",
       braManDesignation:"Senior Branch Manager",
     }
@@ -511,8 +532,8 @@ const projects1 = [
     Hotline:"09666787823",
     Email:"info@populardiagnostic.com",
     branchPage: {
-      location:"",
-      braManImg:"",
+      location:"https://maps.google.com/maps?q=23.87267692544794,90.3906825609275&hl=es;z=14&output=embed",
+      braManImg: MdJahurulIslamRony,
       braManName:" Md. Jahurul Islam Rony",
       braManDesignation:"Branch In-Charge",
     }
@@ -526,8 +547,8 @@ const projects1 = [
     Hotline:"09666787822",
     Email:"info@populardiagnostic.com",
     branchPage: {
-      location:"",
-      braManImg:"",
+      location:"https://maps.google.com/maps?q=23.709443131735878,90.43211759426138&hl=es;z=14&output=embed",
+      braManImg: MdMizanurRahmanBiswas,
       braManName:" Md. Mizanur Rahman Biswas",
       braManDesignation:"Branch Manager",
     }
@@ -541,8 +562,8 @@ const projects1 = [
     Hotline:"09666 787808",
     Email:"info@populardiagnostic.com",
     branchPage: {
-      location:"",
-      braManImg:"",
+      location:"https://maps.google.com/maps?q=23.839972,90.257242&hl=es;z=14&output=embed",
+      braManImg: MrRajuAhmmedKhalek,
       braManName:" Mr. Raju Ahmmed Khalek",
       braManDesignation:"Branch In-Charge",
     }
@@ -556,13 +577,13 @@ const projects1 = [
     Hotline:"09666 787816",
     Email:"info@populardiagnostic.com",
     branchPage: {
-      location:"",
-      braManImg:"",
+      location:"https://maps.google.com/maps?q=23.9969328,90.4148069&hl=es;z=14&output=embed",
+      braManImg:AjoyKumarDatta,
       braManName:"Ajoy Kumar Datta",
       braManDesignation:"Branch Manager",
     }
   },
-  {
+  { 
     branchID: 16,
     heading: "Narayangonj",
     image: Narayangonj,
@@ -571,8 +592,8 @@ const projects1 = [
     Hotline:"09666 787804",
     Email:"info@populardiagnostic.com",
     branchPage: {
-      location:"",
-      braManImg:"",
+      location:"https://maps.google.com/maps?q=23.6223054,90.5004152&hl=es;z=14&output=embed",
+      braManImg: MdShahidulIslam,
       braManName:"Md. Shahidul Islam",
       braManDesignation:"AGM & Head of Branch",
     }
@@ -586,8 +607,8 @@ const projects1 = [
     Hotline:"09666 787812",
     Email:"info@populardiagnostic.com",
     branchPage: {
-      location:"",
-      braManImg:"",
+      location:"https://maps.google.com/maps?q=24.8321186,89.3762719&hl=es;z=14&output=embed",
+      braManImg: MrRezwanAhmed,
       braManName:"Mr. Rezwan Ahmed",
       braManDesignation:"Senior Branch Manager",
     }
@@ -601,8 +622,8 @@ const projects1 = [
     Hotline:"09666 787812",
     Email:"info@populardiagnostic.com",
     branchPage: {
-      location:"",
-      braManImg:"",
+      location:"https://maps.google.com/maps?q=24.8321186,89.3762719&hl=es;z=14&output=embed",
+      braManImg: MrRezwanAhmed,
       braManName:"Mr. Rezwan Ahmed",
       braManDesignation:"Senior Branch Manager",
     }
@@ -616,8 +637,8 @@ const projects1 = [
     Hotline:"09666 787812",
     Email:"info@populardiagnostic.com",
     branchPage: {
-      location:"",
-      braManImg:"",
+      location:"https://maps.google.com/maps?q=24.8280095,89.3527289&hl=es;z=14&output=embed",
+      braManImg: MrRezwanAhmed,
       braManName:"Mr. Rezwan Ahmed",
       braManDesignation:"Senior Branch Manager",
     }
@@ -631,8 +652,8 @@ const projects1 = [
     Hotline:"09666 787811",
     Email:"info@populardiagnostic.com",
     branchPage: {
-      location:"",
-      braManImg:"",
+      location:"https://maps.google.com/maps?q=24.3723311,88.5811372&hl=es;z=14&output=embed",
+      braManImg: MrFaridMohammadShamim,
       braManName:"Mr. Farid Mohammad Shamim",
       braManDesignation:"AGM & Head of Branch",
     }
@@ -646,8 +667,8 @@ const projects1 = [
     Hotline:"09666 787818",
     Email:"info@populardiagnostic.com",
     branchPage: {
-      location:"",
-      braManImg:"",
+      location:"https://maps.google.com/maps?q=22.875063,91.097225&hl=es;z=14&output=embed",
+      braManImg: MrMuhammadReazHossain,
       braManName:"Mr. Muhammad Reaz Hossain",
       braManDesignation:"Branch Manager",
     }
@@ -661,8 +682,8 @@ const projects1 = [
     Hotline:"09666 787810",
     Email:"info@populardiagnostic.com",
     branchPage: {
-      location:"",
-      braManImg:"",
+      location:"https://maps.google.com/maps?q=22.360777,91.831786&hl=es;z=14&output=embed",
+      braManImg: MrOalyAshrafKhan,
       braManName:"Mr. Oaly Ashraf Khan",
       braManDesignation:"Senior Branch Manager",
     }
@@ -676,8 +697,8 @@ const projects1 = [
     Hotline:"09666 787814",
     Email:"info@populardiagnostic.com",
     branchPage: {
-      location:"",
-      braManImg:"",
+      location:"https://maps.google.com/maps?q=24.744623,90.408583&hl=es;z=14&output=embed",
+      braManImg: MrNurIslam,
       braManName:"Mr. Nur Islam",
       braManDesignation:"Senior Branch Manager",
     }
@@ -691,8 +712,8 @@ const projects1 = [
     Hotline:"09666 787813",
     Email:"info@populardiagnostic.com",
     branchPage: {
-      location:"",
-      braManImg:"",
+      location:"https://maps.google.com/maps?q=25.7610566,89.2348999&hl=es;z=14&output=embed",
+      braManImg: MrMdAbdulAhad,
       braManName:"Mr. Md. Abdul Ahad",
       braManDesignation:"Branch Manager",
     }
@@ -706,8 +727,8 @@ const projects1 = [
     Hotline:"09666 787813",
     Email:"info@populardiagnostic.com",
     branchPage: {
-      location:"",
-      braManImg:"",
+      location:"https://maps.google.com/maps?q=25.7610566,89.2348999&hl=es;z=14&output=embed",
+      braManImg: MrMdAbdulAhad,
       braManName:"Mr. Md. Abdul Ahad",
       braManDesignation:"Branch Manager",
     }
@@ -721,8 +742,8 @@ const projects1 = [
     Hotline:"09666 787815",
     Email:"info@populardiagnostic.com",
     branchPage: {
-      location:"",
-      braManImg:"",
+      location:"https://maps.google.com/maps?q=25.6199955,88.6449272&hl=es;z=14&output=embed",
+      braManImg: MdFoyzurRahman,
       braManName:"Md. Foyzur Rahman",
       braManDesignation:"Branch Manager",
     }
@@ -736,8 +757,8 @@ const projects1 = [
     Hotline:"09666 787821",
     Email:"info@populardiagnostic.com",
     branchPage: {
-      location:"",
-      braManImg:"",
+      location:"https://maps.google.com/maps?q=22.815210,89.555067&hl=es;z=14&output=embed",
+      braManImg: MdSohelChowdhury,
       braManName:"Md. Sohel Chowdhury",
       braManDesignation:"Branch Manager",
     }
@@ -751,8 +772,8 @@ const projects1 = [
     Hotline:"09666 787817",
     Email:"info@populardiagnostic.com",
     branchPage: {
-      location:"",
-      braManImg:"",
+      location:"https://maps.google.com/maps?q=23.903603,89.127746&hl=es;z=14&output=embed",
+      braManImg: ShamsuzzohaKhanJohn,
       braManName:"Shamsuzzoha Khan John",
       braManDesignation:"Branch In Charge",
     }
@@ -766,8 +787,8 @@ const projects1 = [
     Hotline:"09666 787819",
     Email:"info@populardiagnostic.com",
     branchPage: {
-      location:"",
-      braManImg:"",
+      location:"https://maps.google.com/maps?q=22.692741,90.361966&hl=es;z=14&output=embed",
+      braManImg: MdMosharrofHossain,
       braManName:"Md. Mosharrof Hossain",
       braManDesignation:"Branch Manager",
     }
