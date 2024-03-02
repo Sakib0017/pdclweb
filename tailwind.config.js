@@ -14,6 +14,7 @@ module.exports = {
         "black-100": "#100d25",
         "black-200": "#090325",
         "white-100": "#f3f3f3",
+        'PDCL-green': '#006642',
       },
       lighting: {
         neon: 'text-white text-shadow-lg stroke-2 stroke-white',

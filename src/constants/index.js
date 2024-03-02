@@ -89,6 +89,7 @@ import {
   UttaraGaribENewaz,
   UttaraU1,
   UttaraU2,
+  AchintoKumarNag
 } from "../assets";
 
 export const navLinks = [
@@ -336,6 +337,7 @@ const projects = [
 ];
 const projects1 = [
   {
+    branchID: 1,
     heading: "Dhanmondi",
     image: Dhanmondi,
     name: "Popular Diagnostic Centre Ltd. (Dhanmondi)",
@@ -343,14 +345,15 @@ const projects1 = [
     Hotline:"10636, 09666 787801 ",
     Email:"info@populardiagnostic.com",
     branchPage: {
-      location:"",
-      braManImg:"",
+      location:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3652.2197080792394!2d90.37959757619976!3d23.73954337867781!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8ca7af5f82b%3A0xce7d1ab6b16a027!2sPopular%20Diagnostic%20Centre%20Ltd.!5e0!3m2!1sen!2sbd!4v1706512680599!5m2!1sen!2sbd",
+      braManImg: AchintoKumarNag,
       braManName:"Achinto Kumar Nag",
       braManDesignation:"AGM (HR & Admin)",
     }
 
   },
   {
+    branchID: 2,
     heading: "English Road",
     image: EnglishRoad,
     name: "Popular Diagnostic Centre Ltd. (English road)",
@@ -365,6 +368,7 @@ const projects1 = [
     }
   },
   {
+    branchID: 3,
     heading: "Shantinagar (U-1)",
     image: ShantinagarU1,
     name: "Popular Diagnostic Centre Ltd. (Shantinagar (U-1))",
@@ -379,6 +383,7 @@ const projects1 = [
     }
   },
   {
+    branchID: 4,
     heading: "Shantinagar (U-2)",
     image: ShantinagarU2,
     name: "Popular Diagnostic Centre Ltd. (Shantinagar (U-2))",
@@ -393,6 +398,7 @@ const projects1 = [
     }
   },
   {
+    branchID: 5,
     heading: "Shyamoli (U-1)",
     image: ShyamoliU1,
     name: "Popular Diagnostic Centre Ltd. (Shyamoli (U-1))",
@@ -407,6 +413,7 @@ const projects1 = [
     }
   },
   {
+    branchID: 6,
     heading: "Shyamoli (U-2)",
     image: ShyamoliU2,
     name: "Popular Diagnostic Centre Ltd. (Shyamoli (U-2))",
@@ -421,6 +428,7 @@ const projects1 = [
     }
   },
   {
+    branchID: 7,
     heading: "Mirpur (U-1)",
     image: MirpurU1,
     name: "Popular Diagnostic Centre Ltd. (Mirpur (U-1))",
@@ -435,6 +443,7 @@ const projects1 = [
     }
   },
   {
+    branchID: 8,
     heading: "Mirpur (U-2)",
     image: MirpurU2,
     name: "Popular Diagnostic Centre Ltd. (Mirpur (U-2))",
@@ -449,6 +458,7 @@ const projects1 = [
     }
   },
   {
+    branchID: 9,
     heading: "Badda",
     image: Badda,
     name: "Popular Diagnostic Centre Ltd. (Badda)",
@@ -463,6 +473,7 @@ const projects1 = [
     }
   },
   {
+    branchID: 10,
     heading: "Uttara (U-1)",
     image: UttaraU1,
     name: "Popular Diagnostic Centre Ltd. (Uttara (U-1))",
@@ -477,6 +488,7 @@ const projects1 = [
     }
   },
   {
+    branchID: 11,
     heading: "Uttara (U-2)",
     image: UttaraU2,
     name: "Popular Diagnostic Centre Ltd. (Uttara (U-2))",
@@ -491,6 +503,7 @@ const projects1 = [
     }
   },
   {
+    branchID: 12,
     heading: "Uttara Garib E Newaz",
     image: UttaraGaribENewaz,
     name: "Popular Diagnostic Centre Ltd. (Uttara Garib-E-Newaz)",
@@ -505,6 +518,7 @@ const projects1 = [
     }
   },
   {
+    branchID: 13,
     heading: "Jatrabari",
     image: Jatrabari,
     name: "Popular Diagnostic Centre Ltd. (Jatrabari)",
@@ -519,6 +533,7 @@ const projects1 = [
     }
   },
   {
+    branchID: 14,
     heading: "Savar",
     image: Savar,
     name: "Popular Diagnostic Centre Ltd. (Savar)",
@@ -533,6 +548,7 @@ const projects1 = [
     }
   },
   {
+    branchID: 15,
     heading: "Gazipur",
     image: Gazipur,
     name: "Popular Diagnostic Centre Ltd. (Gazipur)",
@@ -547,6 +563,7 @@ const projects1 = [
     }
   },
   {
+    branchID: 16,
     heading: "Narayangonj",
     image: Narayangonj,
     name: "Popular Diagnostic Centre Ltd. (Narayangonj)",
@@ -561,6 +578,7 @@ const projects1 = [
     }
   },
   {
+    branchID: 17,
     heading: "Bogura (U-1)",
     image: BoguraU1,
     name: "Popular Diagnostic Centre Ltd. (Bogura (U-1))",
@@ -575,6 +593,7 @@ const projects1 = [
     }
   },
   {
+    branchID: 18,
     heading: "Bogura (U-2)",
     image: BoguraU2,
     name: "Popular Diagnostic Centre Ltd. (Bogura (U-2))",
@@ -589,6 +608,7 @@ const projects1 = [
     }
   },
   {
+    branchID: 19,
     heading: "Bogura (U-3)",
     image: BoguraU3,
     name: "Popular Diagnostic Centre Ltd. (Bogura (U-3))",
@@ -603,6 +623,7 @@ const projects1 = [
     }
   },
   {
+    branchID: 20,
     heading: "Rajshahi",
     image: Rajshahi,
     name: "Popular Diagnostic Centre Ltd. (Rajshahi)",
@@ -617,6 +638,7 @@ const projects1 = [
     }
   },
   {
+    branchID: 21,
     heading: "Noakhali",
     image: Noakhali,
     name: "Popular Diagnostic Centre Ltd. (Noakhali)",
@@ -631,6 +653,7 @@ const projects1 = [
     }
   },
   {
+    branchID: 22,
     heading: "Chattogram",
     image: Chattogram,
     name: "Popular Diagnostic Centre Ltd. (Chattogram)",
@@ -645,6 +668,7 @@ const projects1 = [
     }
   },
   {
+    branchID: 23,
     heading: "Mymensingh",
     image: Mymensingh,
     name: "Popular Diagnostic Centre Ltd. (Mymensingh)",
@@ -659,6 +683,7 @@ const projects1 = [
     }
   },
   {
+    branchID: 24,
     heading: "Rangpur (U-1)",
     image: RangpurU1,
     name: "Popular Diagnostic Centre Ltd. (Rangpur (U-1))",
@@ -673,6 +698,7 @@ const projects1 = [
     }
   },
   {
+    branchID: 25,
     heading: "Rangpur (U-2)",
     image: RangpurU2,
     name: "Popular Diagnostic Centre Ltd. (Rangpur (U-2))",
@@ -687,6 +713,7 @@ const projects1 = [
     }
   },
   {
+    branchID: 26,
     heading: "Dinajpur",
     image: Dinajpur,
     name: "Popular Diagnostic Centre Ltd. (Dinajpur)",
@@ -701,6 +728,7 @@ const projects1 = [
     }
   },
   {
+    branchID: 27,
     heading: "Khulna",
     image: Khulna,
     name: "Popular Diagnostic Centre Ltd. (Khulna)",
@@ -715,6 +743,7 @@ const projects1 = [
     }
   },
   {
+    branchID: 28,
     heading: "Kushtia",
     image: Kushtia,
     name: "Popular Diagnostic Centre Ltd. (Kushtia)",
@@ -729,6 +758,7 @@ const projects1 = [
     }
   },
   {
+    branchID: 29,
     heading: "Barishal",
     image: Barishal,
     name: "Popular Diagnostic Centre Ltd. (Barishal)",

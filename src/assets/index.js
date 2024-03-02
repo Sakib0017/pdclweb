@@ -128,7 +128,7 @@ import UttaraU2 from "./PDCLbranches/UttaraU2.webp";
 
 
 
-
+import AchintoKumarNag from "./PDCLbranches/Managers/AchintoKumarNag.png";
 
 
 
@@ -263,4 +263,5 @@ export {
   UttaraGaribENewaz,
   UttaraU1,
   UttaraU2,
+  AchintoKumarNag,
 };

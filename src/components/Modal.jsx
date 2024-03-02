@@ -97,16 +97,16 @@ const ProjectCard = ({ image, name, address, Hotline, Email, heading, branchPage
   const handleOpenModal = () => setIsOpen(true);
   const handleCloseModal = () => setIsOpen(false);
   return (
-    <div className="bg-gray-100-5 p-0 shadow-xl rounded-md sm:w-[299px] w-full">
+    <div className="bg-gray-100-5 p-0 shadow-2xl rounded-md sm:w-[299px] w-full">
       <div className="relative w-full pb-5">
         <img
           src={image}
-          alt="project_image"
+          alt="Branch_image"
           className="w-full rounded-md object-cover opacity-95"
         />
       </div>
           <div className='p-5 h-[420px] flex flex-col justify-between'>
-             <h1 className='text-[#006642] font-ubuntu font-bold flex justify-center text-[25px]'>{heading}</h1>
+             <h1 className='text-[#006642] font-ubuntu font-bold text-center text-[25px]'>{heading}</h1>
              <p className='text-[#006642] p-2 font-ubuntu font-medium text-[16px]'>{name}</p>
             <p className='text-[#006642] p-2 font-ubuntu text-[16px]'><span className=' text-[18px] font-medium font-ubuntu'>Address: </span> {address}</p>
             <p className='text-[#006642] p-2 font-ubuntu text-[16px]'><span className=' text-[18px] font-medium font-ubuntu'>Hotline: </span> {Hotline}</p>          
