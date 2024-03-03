@@ -55,22 +55,64 @@ const ProjectCard = ({ image, name, address, Hotline, Email, heading, branchPage
 };
 
 const Modal = () => {
+  const [filterByCity, setFilterByCity] = useState(false); 
+  const [searchTerm, setSearchTerm] = useState(""); 
+
+  const filteredProjects = filterByCity
+    ? projects1.filter((project) => project.branchPage.braCity === "Dhaka")
+    : projects1;
+
+  const filteredAndSearchedProjects = filteredProjects.filter((project) => {
+    const searchTermLower = searchTerm.toLowerCase();
+    const projectNameLower = project.name.toLowerCase();
+    return projectNameLower.includes(searchTermLower);
+  });
+
+  const handleFilterToggle = () => {
+    setFilterByCity(!filterByCity); 
+  };
+
+  const handleSearchChange = (event) => {
+    setSearchTerm(event.target.value); 
+  };
+
   return (
     <div className="bg-white">
       <Nav />
       <Navbar />
       <motion.div variants={textVariant()}>
-        <div className="flex flex-col pt-[200px] mx-auto max-w-7xl">
-          <h2 className="text-gray-900/50 pb-5 text-center pl-2 text-[28px] font-bold font-ubuntu">
-            ALL THE BRANCHES CONTACT INFO
+        
+        <div className="flex flex-col pt-[150px] pb mx-auto max-w-7xl">
+
+          <h2 className="text-gray-900/50 pb-5 text-center text-[35px] font-bold font-ubuntu">
+            ALL BRANCHES
           </h2>
+
+        </div>
+        <div className="flex flex-col-reverse gap-2 sm:flex-row pb-10 row-span-1 mx-12 xl:mx-auto xl:max-w-7xl justify-between">
+
+        <button
+            className="bg-gray-900/50 hover:bg-[#006642] h-[40px] text-white font-ubuntu font-medium py-2 px-4 rounded-md focus:outline-none shadow-md"
+            onClick={handleFilterToggle}
+          >
+            {filterByCity ? "Show All Branches" : "Inside Dhaka"}
+          </button>
+
+        <input
+            className="px-2 py-1 border text-[#006642] border-PDCL-green bg-gray-200 h-[40px] rounded-lg focus:outline-none focus:ring-1 focus:ring-PDCL-green"
+            type="text"
+            placeholder="Search Branches"
+            value={searchTerm}
+            onChange={handleSearchChange}
+          />
+          
         </div>
       </motion.div>
       <div className="flex mx-auto pb-10 max-w-7xl justify-center flex-wrap gap-7">
-        {projects1.map((project) => (
+        {filteredAndSearchedProjects.map((project) => (
           <ProjectCard
             key={project.branchID}
-            {...project}
+            {...project} 
           />
         ))}
       </div>
@@ -78,5 +120,6 @@ const Modal = () => {
     </div>
   );
 };
+
 
 export default Modal;
