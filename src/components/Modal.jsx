@@ -80,8 +80,9 @@ const Modal = () => {
     <div className="bg-white">
       <Nav />
       <Navbar />
-      <motion.div variants={textVariant()}>
+      <div>
         
+      </div>
         <div className="flex flex-col pt-[150px] pb mx-auto max-w-7xl">
 
           <h2 className="text-gray-900/50 pb-5 text-center text-[35px] font-bold font-ubuntu">
@@ -89,17 +90,18 @@ const Modal = () => {
           </h2>
 
         </div>
-        <div className="flex flex-col-reverse gap-2 sm:flex-row pb-10 row-span-1 mx-12 xl:mx-auto xl:max-w-7xl justify-between">
+
+        <div className="sticky top-[99px] z-10 rounded-xl shadow-2xl bg-white flex flex-col-reverse gap-2 sm:flex-row p-5 row-span-1 mx-12 xl:mx-auto xl:max-w-7xl justify-between">
 
         <button
-            className="bg-gray-900/50 hover:bg-[#006642] h-[40px] text-white font-ubuntu font-medium py-2 px-4 rounded-md focus:outline-none shadow-md"
+            className=" bg-gray-900/50 hover:bg-[#006642] text-white font-ubuntu font-medium py-2 px-4 rounded-md focus:outline-none shadow-md"
             onClick={handleFilterToggle}
           >
             {filterByCity ? "Show All Branches" : "Inside Dhaka"}
           </button>
 
         <input
-            className="px-2 py-1 border text-[#006642] border-PDCL-green bg-gray-200 h-[40px] rounded-lg focus:outline-none focus:ring-1 focus:ring-PDCL-green"
+            className="px-2 py-1 border text-[#006642] border-PDCL-green bg-gray-200  rounded-lg focus:outline-none focus:ring-1 focus:ring-PDCL-green"
             type="text"
             placeholder="Search Branches"
             value={searchTerm}
@@ -107,8 +109,8 @@ const Modal = () => {
           />
           
         </div>
-      </motion.div>
-      <div className="flex mx-auto pb-10 max-w-7xl justify-center flex-wrap gap-7">
+
+      <div className="flex mx-auto pb-10 pt-2 max-w-7xl justify-center flex-wrap gap-7">
         {filteredAndSearchedProjects.map((project) => (
           <ProjectCard
             key={project.branchID}
