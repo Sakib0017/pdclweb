@@ -211,14 +211,7 @@ const Hero = ({ color }) => {
         <input type="text" name="floating_first_name" placeholder="Service Name" id="floating_first_name" className="block py-2.5 px-0 w-full text-sm text-gray-600 bg-transparent border   border-1 border-gray-500  dark:text-gray-600 dark:border-gray-500 dark:focus:border-PDCL-green focus:outline-none focus:ring-0 focus:border-PDCL-green peer pl-2"  required />
         
     </div>
-    {/*<div className="relative z-0 w-full mb-1 group">
-    <select id="countries" className="block py-2.5 px-0 w-full text-sm text-gray-600-500 bg-transparent border border-[#00a884]  border-1 border-[#00a884]  dark:text-gray-600 dark:border-[#00a884] dark:focus:border-PDCL-green focus:outline-none focus:ring-0 focus:border-PDCL-green peer pl-2">
-  <option selected>Choose a branch</option>
-  <option value="US">United States</option>
-  <option value="CA">Canada</option>
-  <option value="FR">France</option>
-  <option value="DE">Germany</option>
-</select></div> */}
+
      
 <button type="button" className="text-white  rounded block h-[43px] hover:text-white border bg-PDCL-green border-none focus:ring-4 focus:outline-none focus:ring-[#006642] font-ubuntu  text-[16px] font-bold px-5 py-2.5 text-center  mb-0 dark:border-[#006642] dark:text-white dark:hover:text-white dark:hover:bg-gray-500 dark:focus:ring-[#006642]">Charge</button>
     
