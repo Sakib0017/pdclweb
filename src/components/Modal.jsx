@@ -29,7 +29,7 @@ const ProjectCard = ({ image, name, address, Hotline, Email, heading, branchPage
   const handleCloseModal = () => setIsOpen(false);
 
   return (
-    <div className="bg-gray-100/5 p-0 shadow-2xl rounded-2xl sm:w-[299px] w-full">
+    <div className="bg-gradient-to-b from-white to-[#00664218] hover:bg-gray-100 p-0 shadow-2xl rounded-2xl sm:w-[299px] w-full">
       <div className="relative w-full">
         <img
           src={image}

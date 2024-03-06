@@ -28,7 +28,7 @@ const Nav = () => {
     </svg>
               
               </a>
-              <h2 className={`${styles.lightingNeon}  pl-1 text-[18px]  font-extrabold   font-ubuntu`}>10636<span className={`${styles.lightingNeon} text-[15px] pl-1  font-ubuntu font-normal`}>(Dhanmondi)</span></h2>   
+              <h2 className={`${styles.lightingNeon}  pl-1 text-[18px]  font-extrabold   font-ubuntu`}>10636  <span className={`${styles.lightingNeon} text-[15px] pl-1  font-ubuntu font-normal`}>(Dhanmondi)</span></h2>   
            </div>
               
               <div className="flex flex-row items-center  justify-center ">

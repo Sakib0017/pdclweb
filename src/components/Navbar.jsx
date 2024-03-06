@@ -41,7 +41,7 @@ const Navbar = () => {
     
   <div className="w-full h-[70px]  flex flex-row max-w-7xl justify-between  items-center  mx-auto">
   <a><Link to="/" className="flex items-center  gap-0" onClick={() => {setActive(""); window.scrollTo(0, 0);}}>
-          <img src={logo} alt="logo" className="w-[30px] h-[30px] bg-none object-contain" />
+          <img src={logo} alt="logo" className="w-[45px] h-[45px] bg-none object-contain" />
           
         </Link></a>
        {/* <div className=" mt-[-50px] ml-[50px] p-1  text-center h-[55px] w-[80px] rounded-br-[20px]  rounded-bl-[20px]  fill-white">
@@ -58,11 +58,11 @@ const Navbar = () => {
         <div className="flex flex-row  ">
          
          
-        <a> <Link to="/login">      <p className="text-emerald-900/80  items-center flex flex-row text-[20px] ms-0 me-1 font-medium font-ubuntu"> 
+        <a> <Link to="/login">   <p className="text-emerald-900/80  items-center flex flex-row text-[20px] ms-0 me-1 font-medium font-ubuntu"> 
            
             
            
-           <a href=""> <span className="pl-1 text-[20px] font-bold font-ubuntu hidden md:block">Pataint Portal</span></a></p>
+           <a href=""> <span className="pl-1 text-[20px] font-bold font-ubuntu hidden md:block">Portal</span></a></p>
                  </Link></a>
            </div>
          
@@ -79,7 +79,7 @@ const Navbar = () => {
            
             
            
-           <a href=""> <span className="pl-1 text-[20px] font-bold font-ubuntu hidden md:block">Pakages</span></a></p>
+           <a href=""> <span className="pl-1 text-[20px] font-bold font-ubuntu hidden md:block">Packages</span></a></p>
                  </Link></a>
            </div>
            
@@ -100,7 +100,7 @@ const Navbar = () => {
           <a><Link to="/modal"> <p className="text-emerald-900/80  items-center flex flex-row text-[20px] ms-0 me-1 font-medium font-ubuntu"> 
           
             
-         <span className="pl-1 text-[20px] font-bold font-ubuntu hidden md:block cursor-pointer">Branchs</span>
+         <span className="pl-1 text-[20px] font-bold font-ubuntu hidden md:block cursor-pointer">Branches</span>
           </p>
           </Link>    </a> 
       </PopoverHandler>
@@ -122,7 +122,7 @@ const Navbar = () => {
         
            <a><Link to="/notice"><p className="text-emerald-900/80  items-center flex flex-row text-[20px] ms-0 me-1 font-medium font-ubuntu"> 
          
-           <a href=""><span className="pl-1  text-[20px] font-bold font-ubuntu hidden md:block">Notices</span></a></p>
+           <a href=""><span className="pl-1  text-[20px] font-bold font-ubuntu hidden md:block">Notice</span></a></p>
            </Link>         
            </a>          
    
@@ -232,7 +232,7 @@ const Navbar = () => {
            
             
            
-           <a href=""> <span className="me-auto text-[20px] font-bold font-ubuntu">Pakages</span></a></p>
+           <a href=""> <span className="me-auto text-[20px] font-bold font-ubuntu">Packages</span></a></p>
                  </Link></a>
            </div>
            
@@ -248,7 +248,7 @@ const Navbar = () => {
          <a>  <Link to="/modal">  <p className="text-white me-auto items-start flex flex-row text-[20px] font-medium font-ubuntu"> 
           
              
-                 <a href=""> <span className="text-[20px] font-bold font-ubuntu ">Branchs</span></a></p>
+                 <a href=""> <span className="text-[20px] font-bold font-ubuntu ">Branches</span></a></p>
                  </Link></a>
            </div>
            
@@ -261,7 +261,7 @@ const Navbar = () => {
         
          <a> <Link to="/notice"><p className="text-white  items-center flex flex-row text-[20px]  font-medium font-ubuntu"> 
          
-           <a href=""><span className="text-[20px] font-bold font-ubuntu ">Notices</span></a></p>
+           <a href=""><span className="text-[20px] font-bold font-ubuntu ">Notice</span></a></p>
            </Link>      </a>   
                        
    
@@ -317,7 +317,7 @@ const Navbar = () => {
             <div className="flex flex-row  ">
            
             <a>  <Link to="/sign"><p className="text-white  items-center flex flex-row text-[20px] ms-0 me-1 font-medium font-ubuntu"> 
-              <svg class="w-[15px] h-[15px] fill-white " viewBox="0 0 640 512" xmlns="http://www.w3.org/2000/svg">
+              <svg class="w-[30px] h-[30px] fill-white " viewBox="0 0 640 512" xmlns="http://www.w3.org/2000/svg">
 
 <path d="M96 128a128 128 0 1 1 256 0A128 128 0 1 1 96 128zM0 482.3C0 383.8 79.8 304 178.3 304h91.4C368.2 304 448 383.8 448 482.3c0 16.4-13.3 29.7-29.7 29.7H29.7C13.3 512 0 498.7 0 482.3zM504 312V248H440c-13.3 0-24-10.7-24-24s10.7-24 24-24h64V136c0-13.3 10.7-24 24-24s24 10.7 24 24v64h64c13.3 0 24 10.7 24 24s-10.7 24-24 24H552v64c0 13.3-10.7 24-24 24s-24-10.7-24-24z"></path>
 

@@ -5,7 +5,7 @@ import { topManagement } from "../constants";
 
 const ProjectCard = ({ manImg, manName, manDesignation }) => {
   return (
-    <div className="bg-gray-100/5 p-0 shadow-2xl rounded-2xl sm:w-[299px] w-full">
+    <div className="bg-gradient-to-b from-white to-[#00664218] hover:bg-gray-100 p-0 shadow-2xl rounded-2xl sm:w-[299px] w-full">
       <div className="relative w-full">
         <img
           src={manImg}
@@ -24,6 +24,34 @@ const ProjectCard = ({ manImg, manName, manDesignation }) => {
     </div>
   );
 };
+
+
+// const ProjectCard = ({ manImg, manName, manDesignation }) => {
+//   return (
+//     <div className="overflow-hidden">
+//     <div className="bg-gradient-to-br from-white to-[#0066420e] rounded-2xl opacity-90 shadow-2xl sm:w-[299px] w-full">
+//       <div className="relative w-full">
+//         {/* Gradient background */}
+//         <div className="absolute inset-0  z-10"></div>
+
+//         <img
+//           src={manImg}
+//           alt="Top_Management_Image"
+//           className="w-full shadow-xl rounded-3xl object-cover opacity-95 p-2 z-20"
+//         />
+//       </div>
+//       <div className="py-7 flex flex-col text-center">
+//         <p className="text-gray-600 px-2 font-bold font-ubuntu text-[24px]">
+//           {manName}
+//         </p>
+//         <p className="text-[#808080] px-2 font-medium font-ubuntu text-[16px]">
+//           {manDesignation}
+//         </p>
+//       </div>
+//     </div>
+//     </div>
+//   );
+// };
 
 
 
@@ -45,28 +73,28 @@ const About = () => {
         </h2>
       </div>
 
-      {/* Top Section */}
+      {/* Top section for chairman ma'am, Md sir and Sardin sir */}
       <div className="flex mx-auto pb-10 pt-2 max-w-7xl justify-center flex-wrap gap-7">
         {topPosition.map((project) => (
           <ProjectCard key={project.manID} {...project} />
         ))}
       </div>
 
-      {/* Second Section */}
+      {/* Second section for general managers and advisors*/}
       <div className="flex mx-auto py-10  max-w-7xl justify-center flex-wrap gap-7">
         {secondTopPosition.map((project) => (
           <ProjectCard key={project.manID} {...project} />
         ))}
       </div>
 
-      {/* Third Section */}
+      {/* Third section for AGMs */}
       <div className="flex mx-auto py-10 max-w-7xl justify-center flex-wrap gap-7">
         {thirdTopPosition.map((project) => (
           <ProjectCard key={project.manID} {...project} />
         ))}
       </div>
 
-      {/* Fourth Section */}
+      {/* Fourth section for managers */}
       <div className="flex mx-auto py-10 max-w-7xl justify-center flex-wrap gap-7">
         {fourthTopPosition.map((project) => (
           <ProjectCard key={project.manID} {...project} />
