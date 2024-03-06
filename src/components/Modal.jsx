@@ -6,16 +6,16 @@ import { textVariant } from "../utils/motion";
 
 const BranchContact = ({ address, Hotline, Email }) => {
   return (
-    <div className="h-[180px] flex flex-col justify-between">
-      <p className="text-[#006642] px-2 font-ubuntu text-[16px]">
+    <div className="h-[180px] flex flex-col justify-between text-gray-500 px-2 font-ubuntu text-[16px]">
+      <p>
         <span className="text-[18px] font-medium font-ubuntu">Address: </span>
         {address}
       </p>
-      <p className="text-[#006642] px-2 font-ubuntu text-[16px]">
+      <p>
         <span className="text-[18px] font-medium font-ubuntu">Hotline: </span>
         {Hotline}
       </p>
-      <p className="text-[#006642] px-2 font-ubuntu text-[16px]">
+      <p>
         <span className="text-[18px] font-medium font-ubuntu">Email: </span>
         {Email}
       </p>
@@ -39,10 +39,10 @@ const ProjectCard = ({ image, name, address, Hotline, Email, heading, branchPage
       </div>
       <div className='pl-3 pr-2 pt-2 pb-3 h-[360px] flex flex-col justify-between'>
       <h1 className='text-[#006642] px-2 font-ubuntu font-bold text-center text-[25px]'>{heading}</h1>
-      <p className='text-[#006642] px-2 font-ubuntu font-medium text-[16px]'>{name}</p>
+      <p className='text-gray-600 px-2 font-ubuntu font-semibold text-[16px]'>{name}</p>
       <BranchContact address={address} Hotline={Hotline} Email={Email} />
       <button
-      className="bg-[#006642] hover:bg-[#005c3f] text-white font-ubuntu font-medium py-2 px-4 rounded-md focus:outline-none shadow-md"
+      className="bg-[#006642] hover:bg-gray-500 text-white font-ubuntu font-medium py-2 px-4 rounded-md focus:outline-none shadow-md"
       onClick={handleOpenModal}
       >
         View Details

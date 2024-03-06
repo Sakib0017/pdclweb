@@ -76,7 +76,7 @@ const Works = () => {
       <div className="flex flex-col  flex-wrap max-w-screen-xl mx-auto  ">
        <div className="w-auto  border-l-[5px]  border-[#006642] border-opacity-50 pl-2  text-start ml-3">
        <h1 className="text-slate-900 font-ubuntu font-bold text-[24px]">DISCOVER <span className="text-[#006642] font-ubuntu">POPULAR</span></h1>
-         <p className="text-[#006642] font-ubuntu text-[16px] font-medium">Popular Diagnostic Centre Ltd. Popular Diagnostic Centre Ltd. Popular Diagnostic Centre Ltd. Popular Diagnostic Centre Ltd. exists to provide a better patient experience. We are a one-stop-shop for your health, offering caring doctors, world-class diagnostics and much more world-class diagnostics and much more world-class diagnostics and much more world-class diagnostics and much more.</p>
+         <p className="text-gray-500 font-ubuntu text-[16px] font-medium">Popular Diagnostic Centre Ltd. Popular Diagnostic Centre Ltd. Popular Diagnostic Centre Ltd. Popular Diagnostic Centre Ltd. exists to provide a better patient experience. We are a one-stop-shop for your health, offering caring doctors, world-class diagnostics and much more world-class diagnostics and much more world-class diagnostics and much more world-class diagnostics and much more.</p>
         </div>
         <div className="flex flex-wrap items-center justify-center mx-auto ">
           <div className="flex flex-col items-start mx-auto">
@@ -109,7 +109,7 @@ const Works = () => {
       <div className="flex flex-col  flex-wrap max-w-screen-xl mx-auto  ">
        <div className="w-full  border-l-[5px]  border-[#006642] border-opacity-50 pl-2  text-start ml-3">
        <h1 className="text-slate-900 font-ubuntu font-bold text-[24px]">DISCOVER <span className="text-[#006642] font-ubuntu">POPULAR</span></h1>
-         <p className="text-[#006642] font-ubuntu text-[16px] font-medium">Popular Diagnostic Centre Ltd. exists to provide a better patient experience. We are a one-stop-shop for your health, offering caring doctors, world-class diagnostics and much more world-class diagnostics and much more.</p>
+         <p className="text-gray-500 font-ubuntu text-[16px] font-medium">Popular Diagnostic Centre Ltd. exists to provide a better patient experience. We are a one-stop-shop for your health, offering caring doctors, world-class diagnostics and much more world-class diagnostics and much more.</p>
         </div>
         <div className="flex flex-col items-center justify-center mx-auto ">
           <div className="flex flex-col items-center mx-auto">

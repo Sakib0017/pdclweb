@@ -152,10 +152,17 @@ import MrZohurulIslam from "./PDCLbranches/Managers/MrZohurulIslam.png";
 import ShamsuzzohaKhanJohn from "./PDCLbranches/Managers/ShamsuzzohaKhanJohn.png";
 
 
-
-
-
-
+import AbdurRazzak from "./TopManagement/AbdurRazzak.png";
+import AfzalHossain from "./TopManagement/AfzalHossain.png";
+import DrMostafizurRahman from "./TopManagement/DrMostafizurRahman.png";
+import LateTaheraAkhter from "./TopManagement/LateTaheraAkhter.png";
+import MdAlauddinFCMA from "./TopManagement/MdAlauddinFCMA.png";
+import MdSahabUddin from "./TopManagement/MdSahabUddin.png";
+import MdZiaulHaqueFaruk from "./TopManagement/MdZiaulHaqueFaruk.png";
+import MohammadArif from "./TopManagement/MohammadArif.png";
+import MosaddequeHossain from "./TopManagement/MosaddequeHossain.png";
+import MostafaNurmohammadPalash from "./TopManagement/MostafaNurmohammadPalash.png";
+import MrKabirAhmed from "./TopManagement/MrKabirAhmed.png";
 
 
 
@@ -306,4 +313,15 @@ export {
   MrRezwanAhmed,
   MrZohurulIslam,
   ShamsuzzohaKhanJohn,
+  AbdurRazzak,
+  AfzalHossain,
+  DrMostafizurRahman,
+  LateTaheraAkhter,
+  MdAlauddinFCMA,
+  MdSahabUddin,
+  MdZiaulHaqueFaruk,
+  MohammadArif,
+  MosaddequeHossain,
+  MostafaNurmohammadPalash,
+  MrKabirAhmed
 };
