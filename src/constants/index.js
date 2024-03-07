@@ -121,7 +121,8 @@ import {
   MohammadArif,
   MosaddequeHossain,
   MostafaNurmohammadPalash,
-  MrKabirAhmed
+  MrKabirAhmed,
+  SardinRahman
 } from "../assets";
 
 export const navLinks = [
@@ -383,60 +384,66 @@ const topManagement = [
   },
   {
     manID: 3,
+    manImg: SardinRahman,
+    manName:"Sardin Rahman",
+    manDesignation:"Deputy Managing Director",
+  },
+  {
+    manID: 4,
     manImg: AfzalHossain,
     manName:"Afzal Hossain",
     manDesignation:"Advisor, Marketing",
   },
   {
-    manID: 4,
+    manID: 5,
     manImg: MosaddequeHossain,
     manName:"Mosaddeque Hossain",
     manDesignation:"General Manager, Customer Services",
   },
   {
-    manID: 5,
+    manID: 6,
     manImg: MdAlauddinFCMA,
     manName:"Md Alauddin, FCMA",
     manDesignation:"DGM & Head of Finance & Accounts",
   },
   {
-    manID: 6,
+    manID: 7,
     manImg: AchintoKumarNag,
     manName:"Achinto Kumar Nag",
     manDesignation:"AGM (HR & Admin)",
   },
   {
-    manID: 7,
+    manID: 8,
     manImg: MostafaNurmohammadPalash,
     manName:"Mostafa Nurmohammad (Palash)",
     manDesignation:"AGM, (Engineering)",
   },
   {
-    manID: 8,
+    manID: 9,
     manImg: AbdurRazzak,
     manName:"Abdur Razzak",
     manDesignation:"AGM, (Finance & Accounts)",
   },
   {
-    manID: 9,
+    manID: 10,
     manImg: MohammadArif,
     manName:"Mohammad Arif",
     manDesignation:"Manager, (ICT)",
   },
   {
-    manID: 10,
+    manID: 11,
     manImg: MdZiaulHaqueFaruk,
     manName:"Md Ziaul Haque Faruk",
     manDesignation:"Manager, (Marketing)",
   },
   {
-    manID: 11,
+    manID: 12,
     manImg: MrKabirAhmed,
     manName:"Mr Kabir Ahmed",
     manDesignation:"Manager, (Engineering)",
   },
   {
-    manID: 12,
+    manID: 13,
     manImg: MdSahabUddin,
     manName:"Md Sahab Uddin",
     manDesignation:"Manager, (Finance & Accounts)",

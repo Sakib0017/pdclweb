@@ -26,41 +26,14 @@ const ProjectCard = ({ manImg, manName, manDesignation }) => {
 };
 
 
-// const ProjectCard = ({ manImg, manName, manDesignation }) => {
-//   return (
-//     <div className="overflow-hidden">
-//     <div className="bg-gradient-to-br from-white to-[#0066420e] rounded-2xl opacity-90 shadow-2xl sm:w-[299px] w-full">
-//       <div className="relative w-full">
-//         {/* Gradient background */}
-//         <div className="absolute inset-0  z-10"></div>
-
-//         <img
-//           src={manImg}
-//           alt="Top_Management_Image"
-//           className="w-full shadow-xl rounded-3xl object-cover opacity-95 p-2 z-20"
-//         />
-//       </div>
-//       <div className="py-7 flex flex-col text-center">
-//         <p className="text-gray-600 px-2 font-bold font-ubuntu text-[24px]">
-//           {manName}
-//         </p>
-//         <p className="text-[#808080] px-2 font-medium font-ubuntu text-[16px]">
-//           {manDesignation}
-//         </p>
-//       </div>
-//     </div>
-//     </div>
-//   );
-// };
-
 
 
 const About = () => {
   // Split the topManagement data into groups
-  const topPosition = topManagement.slice(0, 2);
-  const secondTopPosition = topManagement.slice(2, 5);
-  const thirdTopPosition = topManagement.slice(5, 8);
-  const fourthTopPosition = topManagement.slice(8, 12);
+  const topPosition = topManagement.slice(0, 3);
+  const secondTopPosition = topManagement.slice(3, 6);
+  const thirdTopPosition = topManagement.slice(6, 9);
+  const fourthTopPosition = topManagement.slice(9, 13);
 
   return (
     <div className="bg-white">

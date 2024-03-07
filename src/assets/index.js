@@ -163,6 +163,7 @@ import MohammadArif from "./TopManagement/MohammadArif.png";
 import MosaddequeHossain from "./TopManagement/MosaddequeHossain.png";
 import MostafaNurmohammadPalash from "./TopManagement/MostafaNurmohammadPalash.png";
 import MrKabirAhmed from "./TopManagement/MrKabirAhmed.png";
+import SardinRahman from "./TopManagement/SardinRahman.png";
 
 
 
@@ -323,5 +324,6 @@ export {
   MohammadArif,
   MosaddequeHossain,
   MostafaNurmohammadPalash,
-  MrKabirAhmed
+  MrKabirAhmed,
+  SardinRahman
 };
