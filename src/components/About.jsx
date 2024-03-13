@@ -1,6 +1,6 @@
-import React from "react";
 import { Nav, Navbar, Tech } from "../components";
-import { topManagement } from "../constants";
+import { ServiceCost, topManagement } from "../constants";
+import React, { useState } from 'react';
 
 
 const ProjectCard = ({ manImg, manName, manDesignation }) => {
@@ -34,6 +34,36 @@ const About = () => {
   const secondTopPosition = topManagement.slice(3, 6);
   const thirdTopPosition = topManagement.slice(6, 9);
   const fourthTopPosition = topManagement.slice(9, 13);
+
+  const [selectedBranch, setSelectedBranch] = useState(null);
+  const [filteredServices, setFilteredServices] = useState([]);
+  const [searchTerm, setSearchTerm] = useState('');
+
+  const handleBranchChange = (event) => {
+    setSelectedBranch(event.target.value);
+    setFilteredServices([]); // Reset filtered services on branch change
+    setSearchTerm(''); // Reset search term on branch change
+  };
+
+  const handleSearchChange = (event) => {
+    setSearchTerm(event.target.value.toLowerCase());
+    const branchServices = ServiceCost.find(
+      (branch) => branch.braId === parseInt(selectedBranch)
+    )?.services;
+    if (branchServices) {
+      const filtered = branchServices.flatMap((category) =>
+        category.items.filter((service) =>
+          service.serviceName.toLowerCase().includes(searchTerm)
+        )
+      );
+            // Limit results to top 5
+      const topFive = filtered.slice(0, 5);
+      setFilteredServices(topFive);
+    } else {
+      setFilteredServices([]);
+    }
+  };
+
 
   return (
     <div className="bg-white">
@@ -74,8 +104,38 @@ const About = () => {
         ))}
       </div>
 
-      <Tech />
+      <div>
+        <h1 className="bg-black text-white font-bold text-center text-[24px]"> Test Price Searching <span className="text-red-500 font-bold text-[10px]">temporary</span> </h1> 
+        <div className="text-black ">
+      <select value={selectedBranch} onChange={handleBranchChange}>
+        <option value="">Select Branch</option>
+        {ServiceCost.map((branch) => (
+          <option key={branch.braId} value={branch.braId}>
+            {branch.braName}
+          </option>
+        ))}
+      </select>
+      <br />
+      <input
+        type="text"
+        placeholder="Search Services"
+        value={searchTerm}
+        onChange={handleSearchChange}
+      />
+      {filteredServices.length > 0 && (
+        <ul>
+          {filteredServices.map((service) => (
+            <li key={service.serviceId}>{service.serviceName} .................... {service.price}.00 taka</li>
+          ))}
+        </ul>
+      )}
     </div>
+      </div>
+
+      <Tech />
+
+    </div>
+
   );
 };
 
