@@ -244,10 +244,14 @@ const Hero = ({ color }) => {
         
         {filteredServices.length > 0 && (
         <ul>
-          {filteredServices.map((service) => (
-            <li className="text-gray-900" key={service.serviceId}>{service.serviceName} .................... {service.price}.00 taka</li>
-          ))}
-        </ul>
+        <li className="flex justify-between px-4 py-2 bg-gray-400 font-bold"> <p>Service Name</p> <p>Service Cost</p>  </li>
+        {filteredServices.map((service) => (
+          <li key={service.serviceId} className="flex justify-between px-4 py-2 hover:bg-gray-100"><p className="text-gray-600">{service.serviceName}</p>
+          <p className="font-medium text-gray-700">
+            {service.price}.00
+          </p></li>
+        ))}
+      </ul>
       )}
     </div>
     
