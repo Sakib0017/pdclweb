@@ -1,6 +1,8 @@
 import { Nav, Navbar, Tech } from "../components";
 import { ServiceCost, topManagement } from "../constants";
 import React, { useState } from "react";
+import AutoSizer from 'react-virtualized/dist/commonjs/AutoSizer';
+import List from 'react-virtualized/dist/commonjs/List';
 
 const ProjectCard = ({ manImg, manName, manDesignation }) => {
   return (
@@ -24,6 +26,14 @@ const ProjectCard = ({ manImg, manName, manDesignation }) => {
   );
 };
 
+
+const ListHeader = () => (
+  <div className="flex justify-between px-4 py-2 bg-gray-400 font-bold">
+    <p>Service Name</p>
+    <p>Service Cost</p>
+  </div>
+);
+
 const About = () => {
   // Split the topManagement data into groups
   const topPosition = topManagement.slice(0, 3);
@@ -34,6 +44,7 @@ const About = () => {
   const [selectedBranch, setSelectedBranch] = useState(null);
   const [filteredServices, setFilteredServices] = useState([]);
   const [searchTerm, setSearchTerm] = useState("");
+  
 
   const handleBranchChange = (event) => {
     setSelectedBranch(event.target.value);
@@ -52,13 +63,26 @@ const About = () => {
           service.serviceName.toLowerCase().includes(searchTerm)
         )
       );
-      // Limit results to top 5
-      const topFive = filtered.slice(0, 5);
-      setFilteredServices(topFive);
+      setFilteredServices(filtered);
     } else {
       setFilteredServices([]);
     }
   };
+  const renderRow = ({ index, style }) => {
+    const service = filteredServices[index];
+
+    return (
+      <li
+        key={service.serviceId}
+        style={style}
+        className="flex justify-between px-4 py-2 hover:bg-gray-100"
+      >
+        <p className="text-gray-600">{service.serviceName}</p>
+        <p className="font-medium text-gray-700">{service.price}.00</p>
+      </li>
+    );
+  };
+
 
   return (
     <div className="bg-white">
@@ -99,7 +123,7 @@ const About = () => {
         ))}
       </div>
 
-      {/* <div>
+      <div>
         <h1 className="bg-black text-white font-bold text-center text-[24px]">
           {" "}
           Test Price Searching{" "}
@@ -107,43 +131,44 @@ const About = () => {
             temporary
           </span>{" "}
         </h1>
-        <div className="text-black ">
-          <select value={selectedBranch} onChange={handleBranchChange}>
-            <option value="">Select Branch</option>
-            {ServiceCost.map((branch) => (
-              <option key={branch.braId} value={branch.braId}>
-                {branch.braName}
-              </option>
-            ))}
-          </select>
-          <br />
-          <input
-            type="text"
-            placeholder="Search Services"
-            value={searchTerm}
-            onChange={handleSearchChange}
-          />
-          {filteredServices.length > 0 && (
-            <ul>
-              <li className="flex justify-between px-4 py-2 bg-gray-200 font-bold">
-                {" "}
-                <p>Service Name</p> <p>Service Cost</p>{" "}
-              </li>
-              {filteredServices.map((service) => (
-                <li
-                  key={service.serviceId}
-                  className="flex justify-between px-4 py-2 hover:bg-gray-100"
-                >
-                  <p className="text-gray-600">{service.serviceName}</p>
-                  <p className="font-medium text-gray-700">
-                    {service.price}.00
-                  </p>
-                </li>
-              ))}
-            </ul>
-          )}
+        <div className="text-black">
+      <select value={selectedBranch} onChange={handleBranchChange}>
+        <option value="">Select Branch</option>
+        {ServiceCost.map((branch) => (
+          <option key={branch.braId} value={branch.braId}>
+            {branch.braName}
+          </option>
+        ))}
+      </select>
+      <br />
+      <input
+        type="text"
+        placeholder="Search Services"
+        value={searchTerm}
+        onChange={handleSearchChange}
+      />
+      {filteredServices.length > 0 && (
+        <div>
+          {/* Render the header */}
+          <ListHeader />
+
+          {/* List */}
+          <AutoSizer>
+            {({ width }) => (
+              <List
+                height={250}
+                rowCount={filteredServices.length}
+                rowHeight={50}
+                rowRenderer={renderRow}
+                overscanRowCount={5}
+                width={width}
+              />
+            )}
+          </AutoSizer>
         </div>
-      </div> */}
+      )}
+    </div>
+      </div>
 
       <Tech />
     </div>
