@@ -28494,6 +28494,12939 @@ const ServiceCost = [
       // ... other categories in English Road branch
     ],
   },
+  {
+    braId: 3,
+    braName: "Shantinagar",
+    services: [
+      {
+        categoryId: 1,
+        categoryName: "AMBULANCE",
+        items: [
+          {
+            serviceId: 5342,
+            serviceName: "Ambulance Service (DMCH/ BSMMU Area)",
+            price: 500,
+          },
+          {
+            serviceId: 5343,
+            serviceName:
+              "Ambulance Service (Inside Dhaka City Corporation Area)",
+            price: 700,
+          },
+          {
+            serviceId: 5344,
+            serviceName: "Ambulance Service (within Savar area)",
+            price: 800,
+          },
+        ],
+      },
+      {
+        categoryId: 2,
+        categoryName: "BLOOD BANK",
+        items: [
+          {
+            serviceId: 5345,
+            serviceName: "Blood Drawing",
+            price: 600,
+          },
+          {
+            serviceId: 5346,
+            serviceName: "Blood Screening+Drawing+Grouping",
+            price: 2100,
+          },
+          {
+            serviceId: 5347,
+            serviceName: "Blood Screening+Grouping",
+            price: 1500,
+          },
+        ],
+      },
+      {
+        categoryId: 3,
+        categoryName: "COLONOSCOPY",
+        items: [
+          {
+            serviceId: 5348,
+            serviceName: "CLO Test",
+            price: 600,
+          },
+          {
+            serviceId: 5349,
+            serviceName: "CLO Test (DFARUQUE)",
+            price: 600,
+          },
+          {
+            serviceId: 5350,
+            serviceName: "Colonoscopy with Polypectomy (DMian)",
+            price: 11000,
+          },
+          {
+            serviceId: 5351,
+            serviceName: "Colonoscopy with Polypectomy (MR)",
+            price: 11000,
+          },
+          {
+            serviceId: 5352,
+            serviceName: "Colonoscopy with Polypectomy (MRAHMAN)",
+            price: 11000,
+          },
+          {
+            serviceId: 5353,
+            serviceName: "Colposcopy",
+            price: 3000,
+          },
+          {
+            serviceId: 5354,
+            serviceName: "Colposcopy - 1",
+            price: 0,
+          },
+          {
+            serviceId: 5355,
+            serviceName: "Foreign body removal (R)",
+            price: 12000,
+          },
+          {
+            serviceId: 5356,
+            serviceName: "Full Video Colonoscopy",
+            price: 6000,
+          },
+          {
+            serviceId: 5357,
+            serviceName: "Full Video Colonoscopy (A)",
+            price: 6000,
+          },
+          {
+            serviceId: 5358,
+            serviceName: "Full Video Colonoscopy (DAROB)",
+            price: 6000,
+          },
+          {
+            serviceId: 5359,
+            serviceName: "Full Video Colonoscopy (DDEWAN)",
+            price: 6000,
+          },
+          {
+            serviceId: 5360,
+            serviceName: "Full Video Colonoscopy (DFARUQUE)",
+            price: 8000,
+          },
+          {
+            serviceId: 5361,
+            serviceName: "Full Video Colonoscopy (DMASUD)",
+            price: 6000,
+          },
+          {
+            serviceId: 5362,
+            serviceName: "Full Video Colonoscopy (DMIAN)",
+            price: 6000,
+          },
+          {
+            serviceId: 5363,
+            serviceName: "Full Video Colonoscopy (DROSI)",
+            price: 6000,
+          },
+          {
+            serviceId: 5364,
+            serviceName: "Full Video Colonoscopy (DROWSHAN)",
+            price: 8000,
+          },
+          {
+            serviceId: 5365,
+            serviceName: "Full Video Colonoscopy (DSWAPAN)",
+            price: 6000,
+          },
+          {
+            serviceId: 5366,
+            serviceName: "Full Video Colonoscopy (M)",
+            price: 8000,
+          },
+          {
+            serviceId: 5367,
+            serviceName: "Full Video Colonoscopy (MR)",
+            price: 6000,
+          },
+          {
+            serviceId: 5368,
+            serviceName: "Full Video Colonoscopy (MRAHMAN)",
+            price: 6000,
+          },
+          {
+            serviceId: 5369,
+            serviceName: "Full Video Colonoscopy (P)",
+            price: 6000,
+          },
+          {
+            serviceId: 5370,
+            serviceName: "Full Video Colonoscopy (R)",
+            price: 10000,
+          },
+          {
+            serviceId: 5371,
+            serviceName: "Full Video Colonoscopy and Ileoscopy (R)",
+            price: 12000,
+          },
+          {
+            serviceId: 5372,
+            serviceName: "Multiple Colonoscopy with Polypectomy (M)",
+            price: 13000,
+          },
+          {
+            serviceId: 5373,
+            serviceName: "Sedation (P)",
+            price: 600,
+          },
+          {
+            serviceId: 5374,
+            serviceName: "Short Video Colonoscopy",
+            price: 4000,
+          },
+          {
+            serviceId: 5375,
+            serviceName: "Short Video Colonoscopy (A)",
+            price: 4000,
+          },
+          {
+            serviceId: 5376,
+            serviceName: "Short Video Colonoscopy (DDEWAN)",
+            price: 3500,
+          },
+          {
+            serviceId: 5377,
+            serviceName: "Short Video Colonoscopy (DFARUQUE)",
+            price: 5000,
+          },
+          {
+            serviceId: 5378,
+            serviceName: "Short Video Colonoscopy (DMASUD)",
+            price: 3500,
+          },
+          {
+            serviceId: 5379,
+            serviceName: "Short Video Colonoscopy (DROWSHAN)",
+            price: 5000,
+          },
+          {
+            serviceId: 5380,
+            serviceName: "Short Video Colonoscopy (DSWAPAN)",
+            price: 3500,
+          },
+          {
+            serviceId: 5381,
+            serviceName: "Short Video Colonoscopy (M)",
+            price: 5000,
+          },
+          {
+            serviceId: 5382,
+            serviceName: "Short Video Colonoscopy (MR)",
+            price: 3500,
+          },
+          {
+            serviceId: 5383,
+            serviceName: "Short Video Colonoscopy (MRAHMAN)",
+            price: 3500,
+          },
+          {
+            serviceId: 5384,
+            serviceName: "Short Video Colonoscopy (P)",
+            price: 3500,
+          },
+          {
+            serviceId: 5385,
+            serviceName: "Short Video Colonoscopy (R)",
+            price: 7000,
+          },
+          {
+            serviceId: 5386,
+            serviceName: "Video Clonoscopic Polypectomy Multiple (M)",
+            price: 18000,
+          },
+          {
+            serviceId: 5387,
+            serviceName: "Video Colonoscopy of Polypectomy.(Multiple)",
+            price: 18000,
+          },
+          {
+            serviceId: 5388,
+            serviceName: "Video Colonoscopy of Polypectomy.(Single)",
+            price: 15000,
+          },
+          {
+            serviceId: 5389,
+            serviceName: "Video Colonoscopy Polypectomy (Extra Multiple) (A)",
+            price: 25000,
+          },
+          {
+            serviceId: 5390,
+            serviceName: "Video Colonoscopy Polypectomy (Extra Multiple) (R)",
+            price: 25500,
+          },
+          {
+            serviceId: 5391,
+            serviceName: "Video Colonoscopy Polypectomy (Multiple) (A)",
+            price: 20000,
+          },
+          {
+            serviceId: 5392,
+            serviceName: "Video Colonoscopy Polypectomy (Multiple) (R)",
+            price: 22500,
+          },
+          {
+            serviceId: 5393,
+            serviceName: "Video Colonoscopy with Polypectomy (DDEWAN)",
+            price: 11000,
+          },
+          {
+            serviceId: 5394,
+            serviceName: "Video Colonoscopy with Polypectomy (DHABIB)",
+            price: 11000,
+          },
+          {
+            serviceId: 5395,
+            serviceName: "Video Colonoscopy with Polypectomy (DMASUD)",
+            price: 11000,
+          },
+          {
+            serviceId: 5396,
+            serviceName: "Video Colonoscopy with Polypectomy (DMIAN)",
+            price: 11000,
+          },
+          {
+            serviceId: 5397,
+            serviceName: "Video Colonoscopy with Polypectomy (DRABIUL)",
+            price: 11000,
+          },
+          {
+            serviceId: 5398,
+            serviceName: "Video Colonoscopy with Polypectomy (DSWAPAN)",
+            price: 11000,
+          },
+          {
+            serviceId: 5399,
+            serviceName: "Video Colonoscopy with Polypectomy (M)",
+            price: 15000,
+          },
+          {
+            serviceId: 5400,
+            serviceName: "Video Colonoscopy with Polypectomy (Single) (A)",
+            price: 16000,
+          },
+          {
+            serviceId: 5401,
+            serviceName: "Video Colonoscopy with Polypectomy (Single) (R)",
+            price: 19500,
+          },
+          {
+            serviceId: 5402,
+            serviceName:
+              "Video Colonoscopy with Polypectomy Multiple(DRFARUQUE)",
+            price: 18000,
+          },
+          {
+            serviceId: 5403,
+            serviceName:
+              "Video Colonoscopy with Polypectomy Multiple(DRROWSHAN)",
+            price: 18000,
+          },
+          {
+            serviceId: 5404,
+            serviceName: "Video Colonoscopy with Polypectomy Single(DRFARUQUE)",
+            price: 15000,
+          },
+          {
+            serviceId: 5405,
+            serviceName: "Video Colonoscopy with Polypectomy Single(DRROWSHAN)",
+            price: 15000,
+          },
+          {
+            serviceId: 5406,
+            serviceName: "Video Full Colonoscopy.",
+            price: 6000,
+          },
+          {
+            serviceId: 5407,
+            serviceName: "Video Proctoscopy",
+            price: 4000,
+          },
+          {
+            serviceId: 5408,
+            serviceName: "Video Proctoscopy (M)",
+            price: 4000,
+          },
+          {
+            serviceId: 5409,
+            serviceName: "Video Proctoscopy / Sigmodoscopy.",
+            price: 4000,
+          },
+          {
+            serviceId: 5410,
+            serviceName: "Video Proctosigmiodscopy (M)",
+            price: 4000,
+          },
+          {
+            serviceId: 5411,
+            serviceName: "Video Procto-sigmoidscopy",
+            price: 4000,
+          },
+          {
+            serviceId: 5412,
+            serviceName: "Video Procto-sigmoidscopy (A)",
+            price: 4000,
+          },
+          {
+            serviceId: 5413,
+            serviceName: "Video Procto-sigmoidscopy (R)",
+            price: 5000,
+          },
+          {
+            serviceId: 5414,
+            serviceName: "Video Short Colonoscopy.",
+            price: 4000,
+          },
+          {
+            serviceId: 5415,
+            serviceName: "Video Sigmoidscopy (DAROB)",
+            price: 3000,
+          },
+          {
+            serviceId: 5416,
+            serviceName: "Video Sigmoidscopy (DDEWAN)",
+            price: 3000,
+          },
+          {
+            serviceId: 5417,
+            serviceName: "Video Sigmoidscopy (DFARUQUE)",
+            price: 4000,
+          },
+          {
+            serviceId: 5418,
+            serviceName: "Video Sigmoidscopy (DMASUD)",
+            price: 3000,
+          },
+          {
+            serviceId: 5419,
+            serviceName: "Video Sigmoidscopy (DMIAN)",
+            price: 3000,
+          },
+          {
+            serviceId: 5420,
+            serviceName: "Video Sigmoidscopy (DROSI)",
+            price: 3000,
+          },
+          {
+            serviceId: 5421,
+            serviceName: "Video Sigmoidscopy (DROWSHAN)",
+            price: 4000,
+          },
+          {
+            serviceId: 5422,
+            serviceName: "Video Sigmoidscopy (DSWAPAN)",
+            price: 3000,
+          },
+          {
+            serviceId: 5423,
+            serviceName: "Video Sigmoidscopy (MR)",
+            price: 4000,
+          },
+          {
+            serviceId: 5424,
+            serviceName: "Video Varicial Banding (MR)",
+            price: 6000,
+          },
+        ],
+      },
+      {
+        categoryId: 4,
+        categoryName: "Diagnostic Charges",
+        items: [
+          {
+            serviceId: 5425,
+            serviceName: "Anesthesia",
+            price: 1500,
+          },
+          {
+            serviceId: 5426,
+            serviceName: "Anesthesia for  CT Scan / MRI and Medicine Charge",
+            price: 3000,
+          },
+          {
+            serviceId: 5427,
+            serviceName: "Anesthesia for  CT Scan / MRI and Medicine Charge.",
+            price: 2500,
+          },
+          {
+            serviceId: 5428,
+            serviceName: "Anesthesia for Banding",
+            price: 1600,
+          },
+          {
+            serviceId: 5429,
+            serviceName: "Anesthesia for colonoscopy",
+            price: 1500,
+          },
+          {
+            serviceId: 5430,
+            serviceName: "Anesthesia for CT.Scan of Brain",
+            price: 1300,
+          },
+          {
+            serviceId: 5431,
+            serviceName: "Anesthesia for CT.Scan of Brain + EEG",
+            price: 2500,
+          },
+          {
+            serviceId: 5432,
+            serviceName: "Anesthesia for CT.Scan of Brain+PNS/Orbit",
+            price: 2000,
+          },
+          {
+            serviceId: 5433,
+            serviceName: "Anesthesia for CT.Scan of Ear+MRI of Ear",
+            price: 2500,
+          },
+          {
+            serviceId: 5434,
+            serviceName: "Anesthesia for CT.Scan of Ear+MRI of Ear+Echo",
+            price: 3000,
+          },
+          {
+            serviceId: 5435,
+            serviceName:
+              "Anesthesia for CT.Scan of Joint(Shoulder/Hip/Knee/Ankle etc)",
+            price: 1500,
+          },
+          {
+            serviceId: 5436,
+            serviceName: "Anesthesia for CT.Scan of Upper/Lower Abdomen",
+            price: 1500,
+          },
+          {
+            serviceId: 5437,
+            serviceName: "Anesthesia for CT.Scan of Whole Abdomen",
+            price: 1500,
+          },
+          {
+            serviceId: 5438,
+            serviceName: "Anesthesia for Dilatation",
+            price: 1600,
+          },
+          {
+            serviceId: 5439,
+            serviceName: "Anesthesia for Endoscopy",
+            price: 1000,
+          },
+          {
+            serviceId: 5440,
+            serviceName: "Anesthesia for Endoscopy + Colonoscopy",
+            price: 2000,
+          },
+          {
+            serviceId: 5441,
+            serviceName: "Anesthesia for ERCP (Critical)",
+            price: 3000,
+          },
+          {
+            serviceId: 5442,
+            serviceName: "Anesthesia for ERCP (Normal)",
+            price: 2200,
+          },
+          {
+            serviceId: 5443,
+            serviceName: "Anesthesia for Foreign Body",
+            price: 2000,
+          },
+          {
+            serviceId: 5444,
+            serviceName: "Anesthesia for MRI of Brain",
+            price: 1500,
+          },
+          {
+            serviceId: 5445,
+            serviceName: "Anesthesia for MRI of Brain + EEG",
+            price: 2500,
+          },
+          {
+            serviceId: 5446,
+            serviceName:
+              "Anesthesia for MRI of Joint(Shoulder/Hip/Knee/Ankle etc)",
+            price: 1500,
+          },
+          {
+            serviceId: 5447,
+            serviceName: "Anesthesia for MRI of Upper/Lower Abdomen",
+            price: 1500,
+          },
+          {
+            serviceId: 5448,
+            serviceName: "Anesthesia for MRI of Whole Spine",
+            price: 3000,
+          },
+          {
+            serviceId: 5449,
+            serviceName: "Anesthesia for OGD B/V",
+            price: 1500,
+          },
+          {
+            serviceId: 5450,
+            serviceName: "Anesthesia for Polypectomy",
+            price: 2000,
+          },
+          {
+            serviceId: 5451,
+            serviceName: "Anesthesia for Proctoscopy (A)",
+            price: 0,
+          },
+          {
+            serviceId: 5452,
+            serviceName: "Bone Marrow Collection Charge (1846) (596)",
+            price: 1500,
+          },
+          {
+            serviceId: 5453,
+            serviceName: "Butterfly with Syringe",
+            price: 40,
+          },
+          {
+            serviceId: 5454,
+            serviceName: "CD of  X-Ray",
+            price: 200,
+          },
+          {
+            serviceId: 5455,
+            serviceName: "CD of CT-Scan",
+            price: 200,
+          },
+          {
+            serviceId: 5456,
+            serviceName: "CD of MRI",
+            price: 200,
+          },
+          {
+            serviceId: 5457,
+            serviceName: "Collection Charge for COVID-19",
+            price: 1000,
+          },
+          {
+            serviceId: 5458,
+            serviceName: "Collection Charge-1000",
+            price: 1000,
+          },
+          {
+            serviceId: 5459,
+            serviceName: "Collection Charge-200",
+            price: 200,
+          },
+          {
+            serviceId: 5460,
+            serviceName: "Collection Charge-300",
+            price: 300,
+          },
+          {
+            serviceId: 5461,
+            serviceName: "Collection Charge-500",
+            price: 500,
+          },
+          {
+            serviceId: 5462,
+            serviceName: "Collection of Endoscopy & Biopsy",
+            price: 500,
+          },
+          {
+            serviceId: 5463,
+            serviceName: "Collection of Home",
+            price: 200,
+          },
+          {
+            serviceId: 5464,
+            serviceName: "Collection1",
+            price: 50,
+          },
+          {
+            serviceId: 5465,
+            serviceName: "Collection-300",
+            price: 300,
+          },
+          {
+            serviceId: 5466,
+            serviceName: "Collection-400",
+            price: 400,
+          },
+          {
+            serviceId: 5467,
+            serviceName: "Consultant Fee",
+            price: 1500,
+          },
+          {
+            serviceId: 5468,
+            serviceName:
+              "Contrast for MRI with procedure, appliances & extra film",
+            price: 2500,
+          },
+          {
+            serviceId: 5469,
+            serviceName: "Core Biopsy Instrument (Disposable)",
+            price: 3000,
+          },
+          {
+            serviceId: 5470,
+            serviceName: "Core Biopsy_Collection Charge",
+            price: 2500,
+          },
+          {
+            serviceId: 5471,
+            serviceName: "CT / MRI Extra Film-1",
+            price: 500,
+          },
+          {
+            serviceId: 5472,
+            serviceName: "CT / MRI Extra Film-2",
+            price: 1000,
+          },
+          {
+            serviceId: 5473,
+            serviceName: "CT / MRI Extra Film-3",
+            price: 1500,
+          },
+          {
+            serviceId: 5474,
+            serviceName: "CT / MRI Extra Film-4",
+            price: 2000,
+          },
+          {
+            serviceId: 5475,
+            serviceName: "CT / MRI Extra Film-5",
+            price: 2500,
+          },
+          {
+            serviceId: 5476,
+            serviceName: "CT / MRI Extra Film-6",
+            price: 3000,
+          },
+          {
+            serviceId: 5477,
+            serviceName:
+              "CT Contrast - 100 ml with procedure, appliances & extra film",
+            price: 2500,
+          },
+          {
+            serviceId: 5478,
+            serviceName:
+              "CT Contrast - 50 ml with procedure, appliances & extra film",
+            price: 1300,
+          },
+          {
+            serviceId: 5479,
+            serviceName:
+              "CT Contrast Angio with procedure, appliances & extra film",
+            price: 2500,
+          },
+          {
+            serviceId: 5480,
+            serviceName: "CT Extra Screening Charge",
+            price: 2500,
+          },
+          {
+            serviceId: 5481,
+            serviceName: "CT Scan Test Review Reporting Charge",
+            price: 500,
+          },
+          {
+            serviceId: 5482,
+            serviceName: "Defecography Of Preparation Charge",
+            price: 0,
+          },
+          {
+            serviceId: 5483,
+            serviceName: "Diabetics (Follow-up)",
+            price: 50,
+          },
+          {
+            serviceId: 5484,
+            serviceName: "Diabetics (Service Charge)",
+            price: 100,
+          },
+          {
+            serviceId: 5485,
+            serviceName: "Diabetics Book",
+            price: 100,
+          },
+          {
+            serviceId: 5486,
+            serviceName: "Disposable Syringe Set",
+            price: 1500,
+          },
+          {
+            serviceId: 5487,
+            serviceName: "Doctor Fee (FNAC)",
+            price: 0,
+          },
+          {
+            serviceId: 5488,
+            serviceName: "Doctors Fee- 2",
+            price: 2000,
+          },
+          {
+            serviceId: 5489,
+            serviceName: "Doctors Fee-1",
+            price: 1500,
+          },
+          {
+            serviceId: 5490,
+            serviceName: "Doctors Fee-3",
+            price: 800,
+          },
+          {
+            serviceId: 5491,
+            serviceName: "EMG One Time Needle Charge",
+            price: 800,
+          },
+          {
+            serviceId: 5492,
+            serviceName: "Enema Preparation Charge",
+            price: 100,
+          },
+          {
+            serviceId: 5493,
+            serviceName: "Extra Screening Charge",
+            price: 2000,
+          },
+          {
+            serviceId: 5494,
+            serviceName: "FNAC Collection 1",
+            price: 500,
+          },
+          {
+            serviceId: 5495,
+            serviceName: "FNAC Collection Charge",
+            price: 0,
+          },
+          {
+            serviceId: 5496,
+            serviceName: "Instrument Charge for procedure",
+            price: 700,
+          },
+          {
+            serviceId: 5497,
+            serviceName: "MRI Test Review Reporting Charge",
+            price: 1000,
+          },
+          {
+            serviceId: 5498,
+            serviceName: "Nebulization Charge",
+            price: 200,
+          },
+          {
+            serviceId: 5499,
+            serviceName: "Physical Examination (Certificate)",
+            price: 100,
+          },
+          {
+            serviceId: 5500,
+            serviceName: "Physical Examination (Certificate)_200",
+            price: 200,
+          },
+          {
+            serviceId: 5501,
+            serviceName: "Physical Examination (Certificate)_300",
+            price: 300,
+          },
+          {
+            serviceId: 5502,
+            serviceName: "Service Charge for HSG (Dr. Syeda Nazlee Mostofa)",
+            price: 800,
+          },
+          {
+            serviceId: 5503,
+            serviceName: "Service Charge for HSG (Hysterosalpingogram)",
+            price: 800,
+          },
+          {
+            serviceId: 5504,
+            serviceName: "Service Charge-1",
+            price: 200,
+          },
+          {
+            serviceId: 5505,
+            serviceName: "Service Charge-2",
+            price: 300,
+          },
+          {
+            serviceId: 5506,
+            serviceName: "Service Charge-3",
+            price: 400,
+          },
+          {
+            serviceId: 5507,
+            serviceName: "Service Charge-4",
+            price: 2500,
+          },
+          {
+            serviceId: 5508,
+            serviceName: "T.T Vax ( Tetanus )",
+            price: 200,
+          },
+          {
+            serviceId: 5509,
+            serviceName: "Trephine Biopsy Instrument (Disposable)",
+            price: 3000,
+          },
+          {
+            serviceId: 5510,
+            serviceName: "Trephine Biopsy_Collection Charge",
+            price: 2000,
+          },
+          {
+            serviceId: 5511,
+            serviceName:
+              "USG/CT Guided FNAC Core Cut Biopsy Needle & Procedure Charge",
+            price: 0,
+          },
+          {
+            serviceId: 5512,
+            serviceName:
+              "X-Ray Contrast- 350 - 100 ml with procedure, appliances & extra film (10001)",
+            price: 2500,
+          },
+          {
+            serviceId: 5513,
+            serviceName:
+              "X-Ray Contrast- 350 - 50 ml with procedure, appliances & extra film (10000)",
+            price: 1300,
+          },
+        ],
+      },
+      {
+        categoryId: 5,
+        categoryName: "ECG",
+        items: [
+          {
+            serviceId: 5514,
+            serviceName: "ECG",
+            price: 400,
+          },
+          {
+            serviceId: 5515,
+            serviceName: "ECG (N)",
+            price: 400,
+          },
+          {
+            serviceId: 5516,
+            serviceName: "ECG (N) (up to 5 years)(24)",
+            price: 400,
+          },
+          {
+            serviceId: 5517,
+            serviceName: "ECG (up to 5 years)",
+            price: 400,
+          },
+          {
+            serviceId: 5518,
+            serviceName: "Holter ECG 120hrs",
+            price: 0,
+          },
+          {
+            serviceId: 5519,
+            serviceName: "Holter ECG 24hrs",
+            price: 3000,
+          },
+          {
+            serviceId: 5520,
+            serviceName: "Holter ECG 48hrs",
+            price: 4000,
+          },
+          {
+            serviceId: 5521,
+            serviceName: "Holter ECG 72hrs",
+            price: 0,
+          },
+          {
+            serviceId: 5522,
+            serviceName: "Holter ECG 96hrs",
+            price: 0,
+          },
+        ],
+      },
+      {
+        categoryId: 6,
+        categoryName: "ECHO",
+        items: [
+          {
+            serviceId: 5523,
+            serviceName: "Anesthesia Charge for Echo/Echo Color Doppler",
+            price: 1500,
+          },
+          {
+            serviceId: 5524,
+            serviceName: "Colour Doppler Echo CFM",
+            price: 2600,
+          },
+          {
+            serviceId: 5525,
+            serviceName: "Echo Colour Doppler",
+            price: 3000,
+          },
+          {
+            serviceId: 5526,
+            serviceName: "Echo Colour Doppler (Child)",
+            price: 3600,
+          },
+          {
+            serviceId: 5527,
+            serviceName: "24 Hrs Ambulatory BP",
+            price: 3000,
+          },
+          {
+            serviceId: 5528,
+            serviceName: "2D Echo",
+            price: 1600,
+          },
+          {
+            serviceId: 5529,
+            serviceName: "Anesthesia Charge for EEG",
+            price: 1500,
+          },
+          {
+            serviceId: 5530,
+            serviceName: "Fetal Cardiac Anomaly / Fetal Echo - Cardiography",
+            price: 4000,
+          },
+          {
+            serviceId: 5531,
+            serviceName: "Transthoracic 2D-Echo Study",
+            price: 1500,
+          },
+          {
+            serviceId: 5532,
+            serviceName: "Transthoracic Echo-Doppler Study",
+            price: 2600,
+          },
+          {
+            serviceId: 5533,
+            serviceName: "Bronco Dilator/Reversibility Test",
+            price: 2000,
+          },
+          {
+            serviceId: 5534,
+            serviceName:
+              "Pulmonary Function Test/Lung Function Test/Spirometry",
+            price: 1000,
+          },
+        ],
+      },
+      {
+        categoryId: 7,
+        categoryName: "ENDOSCOPY",
+        items: [
+          {
+            serviceId: 5535,
+            serviceName: "Balloon Dilatation of Duodenum (A)",
+            price: 20000,
+          },
+          {
+            serviceId: 5536,
+            serviceName: "Balloon Dilatation of Duodenum (DAROB)",
+            price: 10000,
+          },
+          {
+            serviceId: 5537,
+            serviceName: "Balloon Dilatation of Duodenum (DDEWAN)",
+            price: 10000,
+          },
+          {
+            serviceId: 5538,
+            serviceName: "Balloon Dilatation of Duodenum (DFARUQUE)",
+            price: 10000,
+          },
+          {
+            serviceId: 5539,
+            serviceName: "Balloon Dilatation of Duodenum (DMASUD)",
+            price: 10000,
+          },
+          {
+            serviceId: 5540,
+            serviceName: "Balloon Dilatation of Duodenum (DMIAN)",
+            price: 10000,
+          },
+          {
+            serviceId: 5541,
+            serviceName: "Balloon Dilatation of Duodenum (DROSI)",
+            price: 10000,
+          },
+          {
+            serviceId: 5542,
+            serviceName: "Balloon Dilatation of Duodenum (DROWSHAN)",
+            price: 10000,
+          },
+          {
+            serviceId: 5543,
+            serviceName: "Balloon Dilatation of Duodenum (DSWAPAN)",
+            price: 10000,
+          },
+          {
+            serviceId: 5544,
+            serviceName: "Balloon Dilatation of Duodenum (MR)",
+            price: 15000,
+          },
+          {
+            serviceId: 5545,
+            serviceName: "Balloon Dilatation of Duodenum (MRAHMAN)",
+            price: 10000,
+          },
+          {
+            serviceId: 5546,
+            serviceName: "Balloon Dilatation of Duodenum (R)",
+            price: 15000,
+          },
+          {
+            serviceId: 5547,
+            serviceName: "Balloon Dilatation of Oesophageal (DAROB)",
+            price: 10000,
+          },
+          {
+            serviceId: 5548,
+            serviceName: "Balloon Dilatation of Oesophageal (DDEWAN)",
+            price: 10000,
+          },
+          {
+            serviceId: 5549,
+            serviceName: "Balloon Dilatation of Oesophageal (DFARUQUE)",
+            price: 10000,
+          },
+          {
+            serviceId: 5550,
+            serviceName: "Balloon Dilatation of Oesophageal (DMASUD)",
+            price: 10000,
+          },
+          {
+            serviceId: 5551,
+            serviceName: "Balloon Dilatation of Oesophageal (DMIAN)",
+            price: 10000,
+          },
+          {
+            serviceId: 5552,
+            serviceName: "Balloon Dilatation of Oesophageal (DROSI)",
+            price: 10000,
+          },
+          {
+            serviceId: 5553,
+            serviceName: "Balloon Dilatation of Oesophageal (DROWSHAN)",
+            price: 10000,
+          },
+          {
+            serviceId: 5554,
+            serviceName: "Balloon Dilatation of Oesophageal (DSWAPAN)",
+            price: 10000,
+          },
+          {
+            serviceId: 5555,
+            serviceName: "Balloon Dilatation of Oesophageal (MR)",
+            price: 10000,
+          },
+          {
+            serviceId: 5556,
+            serviceName: "Balloon Dilatation of Oesophageal (MRAHMAN)",
+            price: 10000,
+          },
+          {
+            serviceId: 5557,
+            serviceName: "Balloon Dilatation of Oesophageal (R)",
+            price: 10000,
+          },
+          {
+            serviceId: 5558,
+            serviceName: "Balloon Dilatation of Oesophagus (A)",
+            price: 10000,
+          },
+          {
+            serviceId: 5559,
+            serviceName: "Bronchoscopy",
+            price: 6000,
+          },
+          {
+            serviceId: 5560,
+            serviceName: "Bronchoscopy Medicine",
+            price: 500,
+          },
+          {
+            serviceId: 5561,
+            serviceName: "CLO  Test (A)",
+            price: 600,
+          },
+          {
+            serviceId: 5562,
+            serviceName: "CLO  Test (M)",
+            price: 600,
+          },
+          {
+            serviceId: 5563,
+            serviceName: "CLO Test (DAROB)",
+            price: 600,
+          },
+          {
+            serviceId: 5564,
+            serviceName: "CLO Test (DDEWAN)",
+            price: 600,
+          },
+          {
+            serviceId: 5565,
+            serviceName: "CLO Test (DMASUD)",
+            price: 600,
+          },
+          {
+            serviceId: 5566,
+            serviceName: "CLO Test (DMIAN)",
+            price: 600,
+          },
+          {
+            serviceId: 5567,
+            serviceName: "CLO Test (DROSI)",
+            price: 600,
+          },
+          {
+            serviceId: 5568,
+            serviceName: "CLO Test (DROWSHAN)",
+            price: 600,
+          },
+          {
+            serviceId: 5569,
+            serviceName: "CLO Test (DSWAPAN)",
+            price: 600,
+          },
+          {
+            serviceId: 5570,
+            serviceName: "CLO Test (MR)",
+            price: 600,
+          },
+          {
+            serviceId: 5571,
+            serviceName: "CLO Test (MRAHMAN)",
+            price: 600,
+          },
+          {
+            serviceId: 5572,
+            serviceName: "CLO Test (P)",
+            price: 600,
+          },
+          {
+            serviceId: 5573,
+            serviceName: "CLO Test (R)",
+            price: 600,
+          },
+          {
+            serviceId: 5574,
+            serviceName: "CLO Test Only.",
+            price: 600,
+          },
+          {
+            serviceId: 5575,
+            serviceName: "Endoscopic Glue Injection of Fundal Varix (A)",
+            price: 12000,
+          },
+          {
+            serviceId: 5576,
+            serviceName:
+              "Endoscopic Removal of Foreign body Fish Bone/Meat Bone (A)",
+            price: 14000,
+          },
+          {
+            serviceId: 5577,
+            serviceName:
+              "Endoscopic Removal of Foreign body Fish Bone/Meat Bone (R)",
+            price: 12000,
+          },
+          {
+            serviceId: 5578,
+            serviceName: "Endoscopic Removal of Foreign body Teeth (A)",
+            price: 20000,
+          },
+          {
+            serviceId: 5579,
+            serviceName:
+              "Endoscopy Removal of Foregone Body Coin /Pin /Key (A)",
+            price: 16000,
+          },
+          {
+            serviceId: 5580,
+            serviceName: "ERCP & Papilotomy (DAROB)",
+            price: 18000,
+          },
+          {
+            serviceId: 5581,
+            serviceName: "ERCP & Papilotomy (DDEWAN)",
+            price: 18000,
+          },
+          {
+            serviceId: 5582,
+            serviceName: "ERCP & Papilotomy (DFARUQUE)",
+            price: 18000,
+          },
+          {
+            serviceId: 5583,
+            serviceName: "ERCP & Papilotomy (DMASUD)",
+            price: 18000,
+          },
+          {
+            serviceId: 5584,
+            serviceName: "ERCP & Papilotomy (DMIAN)",
+            price: 18000,
+          },
+          {
+            serviceId: 5585,
+            serviceName: "ERCP & Papilotomy (DROSI)",
+            price: 18000,
+          },
+          {
+            serviceId: 5586,
+            serviceName: "ERCP & Papilotomy (DROWSHAN)",
+            price: 18000,
+          },
+          {
+            serviceId: 5587,
+            serviceName: "ERCP & Papilotomy (DSWAPAN)",
+            price: 18000,
+          },
+          {
+            serviceId: 5588,
+            serviceName: "ERCP & Papilotomy (MR)",
+            price: 18000,
+          },
+          {
+            serviceId: 5589,
+            serviceName: "ERCP & Papilotomy (MRAHMAN)",
+            price: 15400,
+          },
+          {
+            serviceId: 5590,
+            serviceName: "ERCP & Papilotomy (R)",
+            price: 18000,
+          },
+          {
+            serviceId: 5591,
+            serviceName: "ERCP & Stenting (DAROB)",
+            price: 27000,
+          },
+          {
+            serviceId: 5592,
+            serviceName: "ERCP & Stenting (DDEWAN)",
+            price: 27000,
+          },
+          {
+            serviceId: 5593,
+            serviceName: "ERCP & Stenting (DFARUQUE)",
+            price: 27000,
+          },
+          {
+            serviceId: 5594,
+            serviceName: "ERCP & Stenting (DMASUD)",
+            price: 27000,
+          },
+          {
+            serviceId: 5595,
+            serviceName: "ERCP & Stenting (DMIAN)",
+            price: 27000,
+          },
+          {
+            serviceId: 5596,
+            serviceName: "ERCP & Stenting (DROSI)",
+            price: 27000,
+          },
+          {
+            serviceId: 5597,
+            serviceName: "ERCP & Stenting (DROWSHAN)",
+            price: 27000,
+          },
+          {
+            serviceId: 5598,
+            serviceName: "ERCP & Stenting (DSWAPAN)",
+            price: 27000,
+          },
+          {
+            serviceId: 5599,
+            serviceName: "ERCP & Stenting (MR)",
+            price: 27000,
+          },
+          {
+            serviceId: 5600,
+            serviceName: "ERCP & Stenting (MRAHMAN)",
+            price: 27000,
+          },
+          {
+            serviceId: 5601,
+            serviceName: "ERCP & Stenting (R)",
+            price: 29000,
+          },
+          {
+            serviceId: 5602,
+            serviceName: "ERCP & Stone Extraction (DAROB)",
+            price: 28000,
+          },
+          {
+            serviceId: 5603,
+            serviceName: "ERCP & Stone Extraction (DDEWAN)",
+            price: 28000,
+          },
+          {
+            serviceId: 5604,
+            serviceName: "ERCP & Stone Extraction (DFARUQUE)",
+            price: 28000,
+          },
+          {
+            serviceId: 5605,
+            serviceName: "ERCP & Stone Extraction (DMASUD)",
+            price: 28000,
+          },
+          {
+            serviceId: 5606,
+            serviceName: "ERCP & Stone Extraction (DMIAN)",
+            price: 28000,
+          },
+          {
+            serviceId: 5607,
+            serviceName: "ERCP & Stone Extraction (DROSI)",
+            price: 28000,
+          },
+          {
+            serviceId: 5608,
+            serviceName: "ERCP & Stone Extraction (DROWSHAN)",
+            price: 28000,
+          },
+          {
+            serviceId: 5609,
+            serviceName: "ERCP & Stone Extraction (DSWAPAN)",
+            price: 28000,
+          },
+          {
+            serviceId: 5610,
+            serviceName: "ERCP & Stone Extraction (MR)",
+            price: 28000,
+          },
+          {
+            serviceId: 5611,
+            serviceName: "ERCP & Stone Extraction (MRAHMAN)",
+            price: 28000,
+          },
+          {
+            serviceId: 5612,
+            serviceName: "ERCP & Stone Extraction (R)",
+            price: 30000,
+          },
+          {
+            serviceId: 5613,
+            serviceName: "ERCP + CHANGE OF STENT (A)",
+            price: 18000,
+          },
+          {
+            serviceId: 5614,
+            serviceName: "ERCP + NBDT (A)",
+            price: 20000,
+          },
+          {
+            serviceId: 5615,
+            serviceName: "ERCP + Papillotomy",
+            price: 15400,
+          },
+          {
+            serviceId: 5616,
+            serviceName: "ERCP and Ascaris Extraction (A)",
+            price: 32000,
+          },
+          {
+            serviceId: 5617,
+            serviceName: "ERCP and Papillotomy (A)",
+            price: 20000,
+          },
+          {
+            serviceId: 5618,
+            serviceName: "ERCP and Stenting (A)",
+            price: 30000,
+          },
+          {
+            serviceId: 5619,
+            serviceName: "ERCP and Stone Extraction (A)",
+            price: 32000,
+          },
+          {
+            serviceId: 5620,
+            serviceName: "ERCP Diagnostic (A)",
+            price: 13000,
+          },
+          {
+            serviceId: 5621,
+            serviceName: "ERCP Diagnostic (DAROB)",
+            price: 10000,
+          },
+          {
+            serviceId: 5622,
+            serviceName: "ERCP Diagnostic (DDEWAN)",
+            price: 10000,
+          },
+          {
+            serviceId: 5623,
+            serviceName: "ERCP Diagnostic (DFARUQUE)",
+            price: 10000,
+          },
+          {
+            serviceId: 5624,
+            serviceName: "ERCP Diagnostic (DMASUD)",
+            price: 10000,
+          },
+          {
+            serviceId: 5625,
+            serviceName: "ERCP Diagnostic (DMIAN)",
+            price: 10000,
+          },
+          {
+            serviceId: 5626,
+            serviceName: "ERCP Diagnostic (DROSI)",
+            price: 10000,
+          },
+          {
+            serviceId: 5627,
+            serviceName: "ERCP Diagnostic (DROWSHAN)",
+            price: 10000,
+          },
+          {
+            serviceId: 5628,
+            serviceName: "ERCP Diagnostic (DSWAPAN)",
+            price: 10000,
+          },
+          {
+            serviceId: 5629,
+            serviceName: "ERCP Diagnostic (MR)",
+            price: 10000,
+          },
+          {
+            serviceId: 5630,
+            serviceName: "ERCP Diagnostic (MRAHMAN)",
+            price: 10000,
+          },
+          {
+            serviceId: 5631,
+            serviceName: "ERCP Diagnostic (R)",
+            price: 12000,
+          },
+          {
+            serviceId: 5632,
+            serviceName: "ERCP Removal of stent & stone extraction (A)",
+            price: 22000,
+          },
+          {
+            serviceId: 5633,
+            serviceName: "ERCP Re-Stent (A)",
+            price: 20000,
+          },
+          {
+            serviceId: 5634,
+            serviceName: "ERCP, Lithotripsy and Stone Extraction (A)",
+            price: 38000,
+          },
+          {
+            serviceId: 5635,
+            serviceName: "Esophageal Reflux Study (A)",
+            price: 5500,
+          },
+          {
+            serviceId: 5636,
+            serviceName: "Esophegeal Dilatation of Savary Giliard (A)",
+            price: 12000,
+          },
+          {
+            serviceId: 5637,
+            serviceName: "Fiber Optic Laryngoscopy (FOL)",
+            price: 2000,
+          },
+          {
+            serviceId: 5638,
+            serviceName: "Foreign body removal (A)",
+            price: 14000,
+          },
+          {
+            serviceId: 5639,
+            serviceName: "Haemistasis of Ulcer Bleeding Injection",
+            price: 7000,
+          },
+          {
+            serviceId: 5640,
+            serviceName: "Haemostasis of Ulcer bleeding (Haemoclip) (A)",
+            price: 10000,
+          },
+          {
+            serviceId: 5641,
+            serviceName: "Haemostasis of Ulcer bleeding with Injection (A)",
+            price: 7000,
+          },
+          {
+            serviceId: 5642,
+            serviceName: "Liver abcess Drainage (A)",
+            price: 4000,
+          },
+          {
+            serviceId: 5643,
+            serviceName: "Oesophageal Dilatation of Ballon (CRE)",
+            price: 15000,
+          },
+          {
+            serviceId: 5644,
+            serviceName: "Oesophageal Stenting (A)",
+            price: 22000,
+          },
+          {
+            serviceId: 5645,
+            serviceName:
+              "Oesophegeal Dilatation of Balloon (Achelasia ) (A)(1823)",
+            price: 14000,
+          },
+          {
+            serviceId: 5646,
+            serviceName: "Oesophegeal Dilatation of Balloon (CRE)",
+            price: 15000,
+          },
+          {
+            serviceId: 5647,
+            serviceName: "Oesophegeal Dilatation of Balloon (DDEWAN)",
+            price: 15000,
+          },
+          {
+            serviceId: 5648,
+            serviceName: "Oesophegeal Dilatation of Balloon (DFARUQUE)",
+            price: 15000,
+          },
+          {
+            serviceId: 5649,
+            serviceName: "Oesophegeal Dilatation of Balloon (DMASUD)",
+            price: 15000,
+          },
+          {
+            serviceId: 5650,
+            serviceName: "Oesophegeal Dilatation of Balloon (DMIAN)",
+            price: 15000,
+          },
+          {
+            serviceId: 5651,
+            serviceName: "Oesophegeal Dilatation of Balloon (DROSI)",
+            price: 15000,
+          },
+          {
+            serviceId: 5652,
+            serviceName: "Oesophegeal Dilatation of Balloon (DROWSHAN)",
+            price: 15000,
+          },
+          {
+            serviceId: 5653,
+            serviceName: "Oesophegeal Dilatation of Balloon (DSWAPAN)",
+            price: 15000,
+          },
+          {
+            serviceId: 5654,
+            serviceName: "Oesophegeal Dilatation of Balloon (MR)",
+            price: 10000,
+          },
+          {
+            serviceId: 5655,
+            serviceName: "Oesophegeal Dilatation of Balloon (MRAHMAN)",
+            price: 15000,
+          },
+          {
+            serviceId: 5656,
+            serviceName: "Oesophegeal Dilatation of Balloon (R)",
+            price: 10000,
+          },
+          {
+            serviceId: 5657,
+            serviceName: "Oesophegeal Dilatation of Balloon(p)",
+            price: 15000,
+          },
+          {
+            serviceId: 5658,
+            serviceName: "Oesophegeal Dilatation of Savary Giliard(p)",
+            price: 5000,
+          },
+          {
+            serviceId: 5659,
+            serviceName: "Oesphageal Stenting",
+            price: 18000,
+          },
+          {
+            serviceId: 5660,
+            serviceName: "PTC",
+            price: 18000,
+          },
+          {
+            serviceId: 5661,
+            serviceName: "Sedation (M)",
+            price: 600,
+          },
+          {
+            serviceId: 5662,
+            serviceName: "Sedation Test (A)",
+            price: 600,
+          },
+          {
+            serviceId: 5663,
+            serviceName: "Sedation Test Only.",
+            price: 600,
+          },
+          {
+            serviceId: 5664,
+            serviceName: "Short Video Colonoscopy (DAROB)",
+            price: 4000,
+          },
+          {
+            serviceId: 5665,
+            serviceName: "Short Video Colonoscopy (DMIAN)",
+            price: 4000,
+          },
+          {
+            serviceId: 5666,
+            serviceName: "Short Video Colonoscopy (DROSI)",
+            price: 4000,
+          },
+          {
+            serviceId: 5667,
+            serviceName: "Video Endooscopic Varicial Band Ligation (A)",
+            price: 7500,
+          },
+          {
+            serviceId: 5668,
+            serviceName: "Video Endoscopic Sclerotherapy (A)",
+            price: 7500,
+          },
+          {
+            serviceId: 5669,
+            serviceName: "Video Endoscopic Varicial Band Ligation (M)",
+            price: 7000,
+          },
+          {
+            serviceId: 5670,
+            serviceName: "Video Endoscopy",
+            price: 2500,
+          },
+          {
+            serviceId: 5671,
+            serviceName: "Video Endoscopy and CLO Test (DAROB)",
+            price: 2600,
+          },
+          {
+            serviceId: 5672,
+            serviceName: "Video Endoscopy and CLO Test (DDEWAN)",
+            price: 2600,
+          },
+          {
+            serviceId: 5673,
+            serviceName: "Video Endoscopy and CLO Test (DFARUQUE)",
+            price: 2600,
+          },
+          {
+            serviceId: 5674,
+            serviceName: "Video Endoscopy and CLO Test (DMASUD)",
+            price: 2600,
+          },
+          {
+            serviceId: 5675,
+            serviceName: "Video Endoscopy and CLO Test (DMIAN)",
+            price: 2600,
+          },
+          {
+            serviceId: 5676,
+            serviceName: "Video Endoscopy and CLO Test (DROSI)",
+            price: 2600,
+          },
+          {
+            serviceId: 5677,
+            serviceName: "Video Endoscopy and CLO Test (DROWSHAN)",
+            price: 2600,
+          },
+          {
+            serviceId: 5678,
+            serviceName: "Video Endoscopy and CLO Test (DSWAPAN)",
+            price: 2600,
+          },
+          {
+            serviceId: 5679,
+            serviceName: "Video Endoscopy and CLO Test (MR)",
+            price: 2600,
+          },
+          {
+            serviceId: 5680,
+            serviceName: "Video Endoscopy and CLO Test (MRAHMAN)",
+            price: 2600,
+          },
+          {
+            serviceId: 5681,
+            serviceName: "Video Endoscopy and CLO Test (R)",
+            price: 3100,
+          },
+          {
+            serviceId: 5682,
+            serviceName: "Video Endoscopy B/V (Front View & Lateral View) (A)",
+            price: 5500,
+          },
+          {
+            serviceId: 5683,
+            serviceName: "Video Endoscopy of Polypectomy.(Multiple)",
+            price: 18000,
+          },
+          {
+            serviceId: 5684,
+            serviceName: "Video Endoscopy of Polypectomy.(Single)",
+            price: 15000,
+          },
+          {
+            serviceId: 5685,
+            serviceName: "Video Endoscopy of Removal of Foregone Body",
+            price: 14000,
+          },
+          {
+            serviceId: 5686,
+            serviceName: "Video Endoscopy Of Upper GIT",
+            price: 0,
+          },
+          {
+            serviceId: 5687,
+            serviceName: "Video Endoscopy Of Upper GIT (A)",
+            price: 2500,
+          },
+          {
+            serviceId: 5688,
+            serviceName: "Video Endoscopy of Upper GIT (DAROB)",
+            price: 2000,
+          },
+          {
+            serviceId: 5689,
+            serviceName: "Video Endoscopy of Upper GIT (DDEWAN)",
+            price: 2000,
+          },
+          {
+            serviceId: 5690,
+            serviceName: "Video Endoscopy of Upper GIT (DFARUQUE)",
+            price: 2500,
+          },
+          {
+            serviceId: 5691,
+            serviceName: "Video Endoscopy of Upper GIT (DMASUD)",
+            price: 2000,
+          },
+          {
+            serviceId: 5692,
+            serviceName: "Video Endoscopy of Upper GIT (DMIAN)",
+            price: 2000,
+          },
+          {
+            serviceId: 5693,
+            serviceName: "Video Endoscopy of Upper GIT (DROSI)",
+            price: 2000,
+          },
+          {
+            serviceId: 5694,
+            serviceName: "Video Endoscopy of Upper GIT (DROWSHAN)",
+            price: 2500,
+          },
+          {
+            serviceId: 5695,
+            serviceName: "Video Endoscopy of Upper GIT (DSWAPAN)",
+            price: 2000,
+          },
+          {
+            serviceId: 5696,
+            serviceName: "Video Endoscopy Of Upper GIT (M)",
+            price: 2500,
+          },
+          {
+            serviceId: 5697,
+            serviceName: "Video Endoscopy of Upper GIT (MR)",
+            price: 2000,
+          },
+          {
+            serviceId: 5698,
+            serviceName: "Video Endoscopy of Upper GIT (MRAHMAN)",
+            price: 2000,
+          },
+          {
+            serviceId: 5699,
+            serviceName: "Video Endoscopy Of Upper GIT (P)",
+            price: 2000,
+          },
+          {
+            serviceId: 5700,
+            serviceName: "Video Endoscopy of Upper GIT (R)",
+            price: 3000,
+          },
+          {
+            serviceId: 5701,
+            serviceName: "Video Endoscopy of upper GIT with CLO Test (A)",
+            price: 3100,
+          },
+          {
+            serviceId: 5702,
+            serviceName: "Video Endoscopy of upper GIT with Sedation Test (A)",
+            price: 3100,
+          },
+          {
+            serviceId: 5703,
+            serviceName:
+              "Video Endoscopy of upper GIT, CLO and Sedation Test (A)",
+            price: 3700,
+          },
+          {
+            serviceId: 5704,
+            serviceName: "Video Endoscopy of Upper GIT.",
+            price: 2500,
+          },
+          {
+            serviceId: 5705,
+            serviceName: "Video Endoscopy Upper GIT with CLO (M)",
+            price: 3100,
+          },
+          {
+            serviceId: 5706,
+            serviceName: "Video Endoscopy Upper GIT with Sedation (M)",
+            price: 3100,
+          },
+          {
+            serviceId: 5707,
+            serviceName: "Video Endoscopy Upper GIT, CLO and Sedation (M)",
+            price: 3700,
+          },
+          {
+            serviceId: 5708,
+            serviceName: "Video Endoscopy with Polypectomy",
+            price: 0,
+          },
+          {
+            serviceId: 5709,
+            serviceName: "Video Endoscopy with Polypectomy (DAROB)",
+            price: 11000,
+          },
+          {
+            serviceId: 5710,
+            serviceName: "Video Endoscopy with Polypectomy (DDEWAN)",
+            price: 11000,
+          },
+          {
+            serviceId: 5711,
+            serviceName: "Video Endoscopy with Polypectomy (DMASUD)",
+            price: 11000,
+          },
+          {
+            serviceId: 5712,
+            serviceName: "Video Endoscopy with Polypectomy (DMIAN)",
+            price: 11000,
+          },
+          {
+            serviceId: 5713,
+            serviceName: "Video Endoscopy with Polypectomy (DROSI)",
+            price: 11000,
+          },
+          {
+            serviceId: 5714,
+            serviceName: "Video Endoscopy with Polypectomy (DSWAPAN)",
+            price: 11000,
+          },
+          {
+            serviceId: 5715,
+            serviceName:
+              "Video Endoscopy with Polypectomy (Extra multiple) (A)(2706)",
+            price: 25000,
+          },
+          {
+            serviceId: 5716,
+            serviceName:
+              "Video Endoscopy with Polypectomy (Extra multiple) (R)",
+            price: 20000,
+          },
+          {
+            serviceId: 5717,
+            serviceName: "Video Endoscopy with polypectomy (M)",
+            price: 15000,
+          },
+          {
+            serviceId: 5718,
+            serviceName: "Video Endoscopy with Polypectomy (MR)",
+            price: 11000,
+          },
+          {
+            serviceId: 5719,
+            serviceName: "Video Endoscopy with Polypectomy (MRAHMAN)",
+            price: 11000,
+          },
+          {
+            serviceId: 5720,
+            serviceName: "Video Endoscopy with Polypectomy (Multiple)",
+            price: 0,
+          },
+          {
+            serviceId: 5721,
+            serviceName:
+              "Video Endoscopy with Polypectomy (Multiple) (A)  (2702)",
+            price: 20000,
+          },
+          {
+            serviceId: 5722,
+            serviceName: "Video Endoscopy with Polypectomy (Multiple) (R)",
+            price: 16000,
+          },
+          {
+            serviceId: 5723,
+            serviceName: "Video Endoscopy with Polypectomy (Single)",
+            price: 0,
+          },
+          {
+            serviceId: 5724,
+            serviceName: "Video Endoscopy with polypectomy (Single) (A)",
+            price: 16000,
+          },
+          {
+            serviceId: 5725,
+            serviceName: "Video Endoscopy with polypectomy (Single) (R)",
+            price: 14000,
+          },
+          {
+            serviceId: 5726,
+            serviceName: "Video Endoscopy with polypectomy Multiple (M)",
+            price: 18000,
+          },
+          {
+            serviceId: 5727,
+            serviceName: "Video Endoscopy with Polypectomy Multiple(DRFARUQUE)",
+            price: 18000,
+          },
+          {
+            serviceId: 5728,
+            serviceName: "Video Endoscopy with Polypectomy Multiple(DRROWSHAN)",
+            price: 18000,
+          },
+          {
+            serviceId: 5729,
+            serviceName: "Video Endoscopy with Polypectomy Single(DRFARUQUE)",
+            price: 15000,
+          },
+          {
+            serviceId: 5730,
+            serviceName: "Video Endoscopy with Polypectomy Single(DRROWSHAN)",
+            price: 15000,
+          },
+          {
+            serviceId: 5731,
+            serviceName: "Video Endoscopy with Sedation (DAROB)",
+            price: 2600,
+          },
+          {
+            serviceId: 5732,
+            serviceName: "Video Endoscopy with Sedation (DDEWAN)",
+            price: 2600,
+          },
+          {
+            serviceId: 5733,
+            serviceName: "Video Endoscopy with Sedation (DFARUQUE)",
+            price: 3100,
+          },
+          {
+            serviceId: 5734,
+            serviceName: "Video Endoscopy with Sedation (DMASUD)",
+            price: 2600,
+          },
+          {
+            serviceId: 5735,
+            serviceName: "Video Endoscopy with Sedation (DMIAN)",
+            price: 2600,
+          },
+          {
+            serviceId: 5736,
+            serviceName: "Video Endoscopy with Sedation (DROSI)",
+            price: 2600,
+          },
+          {
+            serviceId: 5737,
+            serviceName: "Video Endoscopy with Sedation (DROWSHAN)",
+            price: 3100,
+          },
+          {
+            serviceId: 5738,
+            serviceName: "Video Endoscopy with Sedation (DSWAPAN)",
+            price: 2600,
+          },
+          {
+            serviceId: 5739,
+            serviceName: "Video Endoscopy with Sedation (MR)",
+            price: 2600,
+          },
+          {
+            serviceId: 5740,
+            serviceName: "Video Endoscopy with Sedation (MRAHMAN)",
+            price: 2600,
+          },
+          {
+            serviceId: 5741,
+            serviceName: "Video Endoscopy with Sedation (R)",
+            price: 2600,
+          },
+          {
+            serviceId: 5742,
+            serviceName: "Video Sclerotherapy (DAROB)",
+            price: 6000,
+          },
+          {
+            serviceId: 5743,
+            serviceName: "Video Sclerotherapy (DDEWAN)",
+            price: 6000,
+          },
+          {
+            serviceId: 5744,
+            serviceName: "Video Sclerotherapy (DFARUQUE)",
+            price: 6000,
+          },
+          {
+            serviceId: 5745,
+            serviceName: "Video Sclerotherapy (DMASUD)",
+            price: 6000,
+          },
+          {
+            serviceId: 5746,
+            serviceName: "Video Sclerotherapy (DMIAN)",
+            price: 6000,
+          },
+          {
+            serviceId: 5747,
+            serviceName: "Video Sclerotherapy (DROSI)",
+            price: 6000,
+          },
+          {
+            serviceId: 5748,
+            serviceName: "Video Sclerotherapy (DROWSHAN)",
+            price: 6000,
+          },
+          {
+            serviceId: 5749,
+            serviceName: "Video Sclerotherapy (DSWAPAN)",
+            price: 6000,
+          },
+          {
+            serviceId: 5750,
+            serviceName: "Video Sclerotherapy (M)",
+            price: 6000,
+          },
+          {
+            serviceId: 5751,
+            serviceName: "Video Sclerotherapy (MR)",
+            price: 6000,
+          },
+          {
+            serviceId: 5752,
+            serviceName: "Video Sclerotherapy (MRAHMAN)",
+            price: 6000,
+          },
+          {
+            serviceId: 5753,
+            serviceName: "Video Sclerotherapy (P)",
+            price: 3500,
+          },
+          {
+            serviceId: 5754,
+            serviceName: "Video Sclerotherapy (R)",
+            price: 10000,
+          },
+          {
+            serviceId: 5755,
+            serviceName: "Video Sigmoidscopy",
+            price: 4000,
+          },
+          {
+            serviceId: 5756,
+            serviceName: "Video Sigmoidscopy (MR)",
+            price: 3000,
+          },
+          {
+            serviceId: 5757,
+            serviceName: "Video Sigmoidscopy (MRAHMAN)",
+            price: 3000,
+          },
+          {
+            serviceId: 5758,
+            serviceName: "Video Varical Banding",
+            price: 7000,
+          },
+          {
+            serviceId: 5759,
+            serviceName: "Video Varicial Banding (DAROB)",
+            price: 6000,
+          },
+          {
+            serviceId: 5760,
+            serviceName: "Video Varicial Banding (DDEWAN)",
+            price: 6000,
+          },
+          {
+            serviceId: 5761,
+            serviceName: "Video Varicial Banding (DFARUQUE)",
+            price: 7000,
+          },
+          {
+            serviceId: 5762,
+            serviceName: "Video Varicial Banding (DMASUD)",
+            price: 6000,
+          },
+          {
+            serviceId: 5763,
+            serviceName: "Video Varicial Banding (DMIAN)",
+            price: 6000,
+          },
+          {
+            serviceId: 5764,
+            serviceName: "Video Varicial Banding (DROSI)",
+            price: 6000,
+          },
+          {
+            serviceId: 5765,
+            serviceName: "Video Varicial Banding (DROWSHAN)",
+            price: 7000,
+          },
+          {
+            serviceId: 5766,
+            serviceName: "Video Varicial Banding (DSWAPAN)",
+            price: 6000,
+          },
+          {
+            serviceId: 5767,
+            serviceName: "Video Varicial Banding (MRAHMAN)",
+            price: 6000,
+          },
+          {
+            serviceId: 5768,
+            serviceName: "Video Varicial Banding (R)",
+            price: 10000,
+          },
+        ],
+      },
+      {
+        categoryId: 8,
+        categoryName: "Exercise Tolerance Test",
+        items: [
+          {
+            serviceId: 5769,
+            serviceName: "ETT",
+            price: 2800,
+          },
+        ],
+      },
+      {
+        categoryId: 9,
+        categoryName: "FIBROSCAN",
+        items: [
+          {
+            serviceId: 5770,
+            serviceName: "Fibroscan with CAP",
+            price: 4000,
+          },
+        ],
+      },
+      {
+        categoryId: 10,
+        categoryName: "INVOICE TDS",
+        items: [
+          {
+            serviceId: 5771,
+            serviceName: "OPD CATEGORY",
+            price: 0,
+          },
+        ],
+      },
+      {
+        categoryId: 11,
+        categoryName: "MOLECULAR DIAGNOSTIC LABORATORY",
+        items: [
+          {
+            serviceId: 5772,
+            serviceName: "Collection fee",
+            price: 100,
+          },
+          {
+            serviceId: 5773,
+            serviceName: "HBV-DNA (Quantitative)",
+            price: 8000,
+          },
+          {
+            serviceId: 5774,
+            serviceName: "HCV Genotyping PCR",
+            price: 15000,
+          },
+          {
+            serviceId: 5775,
+            serviceName: "HCV-RNA  (Ql.)  PCR",
+            price: 7000,
+          },
+          {
+            serviceId: 5776,
+            serviceName: "HCV-RNA  (Qn.)  PCR",
+            price: 12000,
+          },
+          {
+            serviceId: 5777,
+            serviceName: "HLA-B27 Genotyping",
+            price: 4000,
+          },
+          {
+            serviceId: 5778,
+            serviceName: "HPV-DNA  Array (Genotyping)",
+            price: 6000,
+          },
+        ],
+      },
+      {
+        categoryId: 12,
+        categoryName: "NEUROLOGY",
+        items: [
+          {
+            serviceId: 5779,
+            serviceName: "Digital EEG",
+            price: 3000,
+          },
+          {
+            serviceId: 5780,
+            serviceName: "Digital EEG (01 Hour )",
+            price: 8000,
+          },
+          {
+            serviceId: 5781,
+            serviceName: "Digital EEG (03 Hour)",
+            price: 18000,
+          },
+          {
+            serviceId: 5782,
+            serviceName: "Digital EEG (30 Minutes)",
+            price: 3500,
+          },
+          {
+            serviceId: 5783,
+            serviceName: "Digital EEG (Q)(5)",
+            price: 2500,
+          },
+          {
+            serviceId: 5784,
+            serviceName: "Digital EEG (Sleep & Awake )",
+            price: 6000,
+          },
+          {
+            serviceId: 5785,
+            serviceName: "EMG (Both Multiple Side)",
+            price: 2000,
+          },
+          {
+            serviceId: 5786,
+            serviceName: "EMG (Multiple Sites)",
+            price: 1000,
+          },
+          {
+            serviceId: 5787,
+            serviceName: "EMG Both Limb (Upper & Lower)",
+            price: 14000,
+          },
+          {
+            serviceId: 5788,
+            serviceName: "EMG Lower Limb (Left & Right)",
+            price: 7000,
+          },
+          {
+            serviceId: 5789,
+            serviceName: "EMG Lower Limb (Left Side)",
+            price: 3500,
+          },
+          {
+            serviceId: 5790,
+            serviceName: "EMG Lower Limb (Right Side)",
+            price: 3500,
+          },
+          {
+            serviceId: 5791,
+            serviceName: "EMG Upper Limb (Left & Right)",
+            price: 7000,
+          },
+          {
+            serviceId: 5792,
+            serviceName: "EMG Upper Limb (Left Side)",
+            price: 3500,
+          },
+          {
+            serviceId: 5793,
+            serviceName: "EMG Upper Limb (Right Side)",
+            price: 3500,
+          },
+          {
+            serviceId: 5794,
+            serviceName: "EMG NCV Both Side (Upper & Lower)",
+            price: 22000,
+          },
+          {
+            serviceId: 5795,
+            serviceName: "NCV (Both Multiple Side)",
+            price: 2000,
+          },
+          {
+            serviceId: 5796,
+            serviceName: "NCV (Multiple Sites)",
+            price: 1000,
+          },
+          {
+            serviceId: 5797,
+            serviceName: "NCV Both Limb (Upper & Lower)",
+            price: 14000,
+          },
+          {
+            serviceId: 5798,
+            serviceName: "NCV Lower Limb (Left & Right)",
+            price: 7000,
+          },
+          {
+            serviceId: 5799,
+            serviceName: "NCV Lower Limb (Left Side)",
+            price: 3500,
+          },
+          {
+            serviceId: 5800,
+            serviceName: "NCV Lower Limb (Right Side)",
+            price: 3500,
+          },
+          {
+            serviceId: 5801,
+            serviceName: "NCV Single Part",
+            price: 7000,
+          },
+          {
+            serviceId: 5802,
+            serviceName: "NCV Upper Limb (Left & Right)",
+            price: 7000,
+          },
+          {
+            serviceId: 5803,
+            serviceName: "NCV Upper Limb (Left Side)",
+            price: 3500,
+          },
+          {
+            serviceId: 5804,
+            serviceName: "NCV Upper Limb (Right Side)",
+            price: 3500,
+          },
+        ],
+      },
+      {
+        categoryId: 13,
+        categoryName: "PACKAGE",
+        items: [
+          {
+            serviceId: 5805,
+            serviceName: "Akij Footwear Ltd (Above 40 Years)",
+            price: 7929,
+          },
+          {
+            serviceId: 5806,
+            serviceName: "Akij Footwear Ltd (Below 40 Years)",
+            price: 6369,
+          },
+          {
+            serviceId: 5807,
+            serviceName: "Bengal Plastic Pipe Ltd.",
+            price: 10440,
+          },
+          {
+            serviceId: 5808,
+            serviceName: "Bengal Polymer Wares Ltd.",
+            price: 10440,
+          },
+          {
+            serviceId: 5809,
+            serviceName: "Comprehensive Health Check-up Package For Female",
+            price: 9800,
+          },
+          {
+            serviceId: 5810,
+            serviceName: "Comprehensive Health Check-up Package For Male",
+            price: 8000,
+          },
+          {
+            serviceId: 5811,
+            serviceName: "HBs AG & Hepavax-B (Package)",
+            price: 0,
+          },
+          {
+            serviceId: 5812,
+            serviceName: "Health Check-up Package For 40 Years Above",
+            price: 10500,
+          },
+          {
+            serviceId: 5813,
+            serviceName: "Manpower Health CheckUp Female",
+            price: 7950,
+          },
+          {
+            serviceId: 5814,
+            serviceName: "Manpower Health Check-Up Female",
+            price: 4900,
+          },
+          {
+            serviceId: 5815,
+            serviceName: "Manpower Health CheckUp Male",
+            price: 7950,
+          },
+          {
+            serviceId: 5816,
+            serviceName: "Manpower Health Check-Up Male",
+            price: 4900,
+          },
+          {
+            serviceId: 5817,
+            serviceName: "Modhumoti Bank Ltd.",
+            price: 2000,
+          },
+          {
+            serviceId: 5818,
+            serviceName:
+              "Pre & Post Covid-19 Health Checkup Package (Only for Bkash Payment)",
+            price: 0,
+          },
+          {
+            serviceId: 5819,
+            serviceName: "Pre-Employment Health Checkup for Brac Bank Ltd.",
+            price: 0,
+          },
+          {
+            serviceId: 5820,
+            serviceName: "Pre-Employment Health Checkup for NRB Bank Ltd.",
+            price: 3250,
+          },
+          {
+            serviceId: 5821,
+            serviceName: "Primary Health Check-up Package-1",
+            price: 4200,
+          },
+          {
+            serviceId: 5822,
+            serviceName: "Primary Health Check-up Package-2",
+            price: 5200,
+          },
+          {
+            serviceId: 5823,
+            serviceName:
+              "Ramadan Health checkup Package (Only for Bkash Payment)",
+            price: 0,
+          },
+          {
+            serviceId: 5824,
+            serviceName: "Trust Bank Health Check-up Package(Dope Test)",
+            price: 2800,
+          },
+          {
+            serviceId: 5825,
+            serviceName: "Trust Bank Health Check-up Package(Regular)",
+            price: 1950,
+          },
+          {
+            serviceId: 5826,
+            serviceName: "WORK SPACE Health Check-up package",
+            price: 1550,
+          },
+          {
+            serviceId: 5827,
+            serviceName: "ZXY International FZCO (Category A)",
+            price: 3000,
+          },
+          {
+            serviceId: 5828,
+            serviceName: "ZXY International FZCO (Category B)",
+            price: 3500,
+          },
+        ],
+      },
+      {
+        categoryId: 14,
+        categoryName: "PATHOLOGY",
+        items: [
+          {
+            serviceId: 5829,
+            serviceName: "1 hour postprandial Plasma glucose",
+            price: 200,
+          },
+          {
+            serviceId: 5830,
+            serviceName: "1.5 hrs postprandial Plasma glucose",
+            price: 200,
+          },
+          {
+            serviceId: 5831,
+            serviceName: "2 hrs postprandial Plasma glucose",
+            price: 200,
+          },
+          {
+            serviceId: 5832,
+            serviceName: "24 hrs Urinary  Microalbumin",
+            price: 1200,
+          },
+          {
+            serviceId: 5833,
+            serviceName: "24 hrs. Urinary Chloride (Cl)",
+            price: 400,
+          },
+          {
+            serviceId: 5834,
+            serviceName: "24 hrs. Urinary Creatinine",
+            price: 500,
+          },
+          {
+            serviceId: 5835,
+            serviceName: "24 hrs. Urinary Potassium (K)",
+            price: 400,
+          },
+          {
+            serviceId: 5836,
+            serviceName: "24 hrs. Urinary Sodium (Na)",
+            price: 400,
+          },
+          {
+            serviceId: 5837,
+            serviceName: "24 hrs. Urinary Total Protein",
+            price: 500,
+          },
+          {
+            serviceId: 5838,
+            serviceName: "24 hrs. Urine for Albumin",
+            price: 500,
+          },
+          {
+            serviceId: 5839,
+            serviceName: "24 hrs. Urine for Calcium",
+            price: 500,
+          },
+          {
+            serviceId: 5840,
+            serviceName: "24 hrs. Urine for Electrolytes",
+            price: 1000,
+          },
+          {
+            serviceId: 5841,
+            serviceName: "24 hrs. Urine for Magnesium",
+            price: 1200,
+          },
+          {
+            serviceId: 5842,
+            serviceName: "24 hrs. Urine for Phosphate",
+            price: 500,
+          },
+          {
+            serviceId: 5843,
+            serviceName: "24 hrs. Urine for Urea",
+            price: 500,
+          },
+          {
+            serviceId: 5844,
+            serviceName: "24 hrs. Urine for Uric Acid",
+            price: 500,
+          },
+          {
+            serviceId: 5845,
+            serviceName: "Acid Phosphatase",
+            price: 1300,
+          },
+          {
+            serviceId: 5846,
+            serviceName: "Aldehyde Test",
+            price: 1300,
+          },
+          {
+            serviceId: 5847,
+            serviceName: "Aldolase",
+            price: 1300,
+          },
+          {
+            serviceId: 5848,
+            serviceName: "Alkaline phosphatase",
+            price: 500,
+          },
+          {
+            serviceId: 5849,
+            serviceName: "ALT (SGPT)",
+            price: 500,
+          },
+          {
+            serviceId: 5850,
+            serviceName: "Ammonia",
+            price: 1300,
+          },
+          {
+            serviceId: 5851,
+            serviceName: "Amylase",
+            price: 1300,
+          },
+          {
+            serviceId: 5852,
+            serviceName: "Angiotensin Converting Enzyme (ACE)",
+            price: 4000,
+          },
+          {
+            serviceId: 5853,
+            serviceName: "APTT",
+            price: 1200,
+          },
+          {
+            serviceId: 5854,
+            serviceName: "Ascitic Fluid for Biochemical test",
+            price: 800,
+          },
+          {
+            serviceId: 5855,
+            serviceName: "AST (SGOT)",
+            price: 500,
+          },
+          {
+            serviceId: 5856,
+            serviceName: "Bicarbonate (HCO3)",
+            price: 300,
+          },
+          {
+            serviceId: 5857,
+            serviceName: "Bilirubin (D/I)",
+            price: 500,
+          },
+          {
+            serviceId: 5858,
+            serviceName: "Bilirubin (Total)",
+            price: 300,
+          },
+          {
+            serviceId: 5859,
+            serviceName: "Blood for ADA",
+            price: 1400,
+          },
+          {
+            serviceId: 5860,
+            serviceName: "Blood for Osmolality",
+            price: 1400,
+          },
+          {
+            serviceId: 5861,
+            serviceName: "BUN",
+            price: 500,
+          },
+          {
+            serviceId: 5862,
+            serviceName: "Calory Function Tests",
+            price: 1400,
+          },
+          {
+            serviceId: 5863,
+            serviceName: "CAPD Fluid for Biochemical Test",
+            price: 1000,
+          },
+          {
+            serviceId: 5864,
+            serviceName: "Carbondioxide (CO2)",
+            price: 300,
+          },
+          {
+            serviceId: 5865,
+            serviceName: "Ceruloplasmin",
+            price: 1400,
+          },
+          {
+            serviceId: 5866,
+            serviceName: "Chloride (Cl)",
+            price: 300,
+          },
+          {
+            serviceId: 5867,
+            serviceName: "Cholesterol (Total)",
+            price: 400,
+          },
+          {
+            serviceId: 5868,
+            serviceName: "CK-MB",
+            price: 1400,
+          },
+          {
+            serviceId: 5869,
+            serviceName:
+              "Corresponding Urine Sugar with 1.h after 75 gm Glucose",
+            price: 50,
+          },
+          {
+            serviceId: 5870,
+            serviceName: "Corresponding Urine Sugar with 2 hrs after Lunch",
+            price: 50,
+          },
+          {
+            serviceId: 5871,
+            serviceName:
+              "Corresponding Urine Sugar with 2.h after 75 gm Glucose",
+            price: 50,
+          },
+          {
+            serviceId: 5872,
+            serviceName: "Corresponding Urine Sugar with 2HABF",
+            price: 50,
+          },
+          {
+            serviceId: 5873,
+            serviceName: "Corresponding Urine Sugar with Fasting",
+            price: 50,
+          },
+          {
+            serviceId: 5874,
+            serviceName: "Corresponding Urine Sugar with RPG",
+            price: 50,
+          },
+          {
+            serviceId: 5875,
+            serviceName: "CPK",
+            price: 1400,
+          },
+          {
+            serviceId: 5876,
+            serviceName: "C-Reactive Protein",
+            price: 600,
+          },
+          {
+            serviceId: 5877,
+            serviceName: "Creatinine Clearance Rate",
+            price: 1100,
+          },
+          {
+            serviceId: 5878,
+            serviceName: "CSF for Biochemical Test",
+            price: 1000,
+          },
+          {
+            serviceId: 5879,
+            serviceName: "Cyst Fluid for Biochemical Test",
+            price: 1000,
+          },
+          {
+            serviceId: 5880,
+            serviceName: "D - Dimer",
+            price: 1500,
+          },
+          {
+            serviceId: 5881,
+            serviceName: "eGFR (MDRD)",
+            price: 1300,
+          },
+          {
+            serviceId: 5882,
+            serviceName: "FACTOR IX",
+            price: 1400,
+          },
+          {
+            serviceId: 5883,
+            serviceName: "FACTOR VII",
+            price: 3000,
+          },
+          {
+            serviceId: 5884,
+            serviceName: "FACTOR VIII",
+            price: 1400,
+          },
+          {
+            serviceId: 5885,
+            serviceName: "Fasting Plasma glucose",
+            price: 200,
+          },
+          {
+            serviceId: 5886,
+            serviceName: "FDP",
+            price: 1300,
+          },
+          {
+            serviceId: 5887,
+            serviceName: "Fibrinogen",
+            price: 1100,
+          },
+          {
+            serviceId: 5888,
+            serviceName: "Fluid for ADA",
+            price: 1400,
+          },
+          {
+            serviceId: 5889,
+            serviceName: "Fluid for Albumin",
+            price: 500,
+          },
+          {
+            serviceId: 5890,
+            serviceName: "Fluid for Amylase",
+            price: 1200,
+          },
+          {
+            serviceId: 5891,
+            serviceName: "Fluid for Biochemical Test",
+            price: 1000,
+          },
+          {
+            serviceId: 5892,
+            serviceName: "Fluid for Creatinine",
+            price: 500,
+          },
+          {
+            serviceId: 5893,
+            serviceName: "Fluid for LDH",
+            price: 1100,
+          },
+          {
+            serviceId: 5894,
+            serviceName: "Gall Blader Fluid Analysis",
+            price: 1300,
+          },
+          {
+            serviceId: 5895,
+            serviceName: "Gall Blader Fluid for Biochemical test",
+            price: 1000,
+          },
+          {
+            serviceId: 5896,
+            serviceName: "GFR",
+            price: 1400,
+          },
+          {
+            serviceId: 5897,
+            serviceName: "GGT",
+            price: 1200,
+          },
+          {
+            serviceId: 5898,
+            serviceName: "Globulin",
+            price: 1000,
+          },
+          {
+            serviceId: 5899,
+            serviceName: "Glucose Tolerance Test",
+            price: 650,
+          },
+          {
+            serviceId: 5900,
+            serviceName: "Glucose Tolerance Test 2.5 hrs",
+            price: 250,
+          },
+          {
+            serviceId: 5901,
+            serviceName: "Glucose Tolerance Test 3 hrs",
+            price: 250,
+          },
+          {
+            serviceId: 5902,
+            serviceName: "GTT 2nd",
+            price: 250,
+          },
+          {
+            serviceId: 5903,
+            serviceName: "GTT 3rd",
+            price: 250,
+          },
+          {
+            serviceId: 5904,
+            serviceName: "GTT1st",
+            price: 250,
+          },
+          {
+            serviceId: 5905,
+            serviceName: "Hb Electrophoresis",
+            price: 1600,
+          },
+          {
+            serviceId: 5906,
+            serviceName: "HDL - Cholesterol",
+            price: 400,
+          },
+          {
+            serviceId: 5907,
+            serviceName: "Iron",
+            price: 1400,
+          },
+          {
+            serviceId: 5908,
+            serviceName: "Lactate",
+            price: 1400,
+          },
+          {
+            serviceId: 5909,
+            serviceName: "LDH",
+            price: 1400,
+          },
+          {
+            serviceId: 5910,
+            serviceName: "LDL - Cholesterol",
+            price: 400,
+          },
+          {
+            serviceId: 5911,
+            serviceName: "Lipase",
+            price: 1400,
+          },
+          {
+            serviceId: 5912,
+            serviceName: "Lipid Profile",
+            price: 1400,
+          },
+          {
+            serviceId: 5913,
+            serviceName: "Lipid Profile (R)",
+            price: 1400,
+          },
+          {
+            serviceId: 5914,
+            serviceName: "Lithium",
+            price: 1300,
+          },
+          {
+            serviceId: 5915,
+            serviceName: "Liver Abscess Fluid for Biochemical Tests",
+            price: 1000,
+          },
+          {
+            serviceId: 5916,
+            serviceName: "Liver Function Test",
+            price: 1000,
+          },
+          {
+            serviceId: 5917,
+            serviceName: "Lupus Anticoagulants",
+            price: 5000,
+          },
+          {
+            serviceId: 5918,
+            serviceName: "Magnesium",
+            price: 1300,
+          },
+          {
+            serviceId: 5919,
+            serviceName: "Micro Albumin Creatinine Ratio",
+            price: 1300,
+          },
+          {
+            serviceId: 5920,
+            serviceName: "Nasal Secretion for Biochemical",
+            price: 1300,
+          },
+          {
+            serviceId: 5921,
+            serviceName: "Pancreatic Amylase",
+            price: 1300,
+          },
+          {
+            serviceId: 5922,
+            serviceName: "PCN Tube (Urine) for Creatinine",
+            price: 0,
+          },
+          {
+            serviceId: 5923,
+            serviceName: "Pericardial Fluid for Biochemical test",
+            price: 1000,
+          },
+          {
+            serviceId: 5924,
+            serviceName: "Peritoneal Fluid for Biochemical test",
+            price: 1000,
+          },
+          {
+            serviceId: 5925,
+            serviceName: "Plasma glucose 1 hour ABF",
+            price: 200,
+          },
+          {
+            serviceId: 5926,
+            serviceName: "Plasma glucose 1 hour after 50gm glu.",
+            price: 250,
+          },
+          {
+            serviceId: 5927,
+            serviceName: "Plasma glucose 1 hour after 70 gm glu.",
+            price: 250,
+          },
+          {
+            serviceId: 5928,
+            serviceName: "Plasma glucose 1 hour after 75gm glucose.",
+            price: 250,
+          },
+          {
+            serviceId: 5929,
+            serviceName: "Plasma glucose 1 hr after dinner",
+            price: 200,
+          },
+          {
+            serviceId: 5930,
+            serviceName: "Plasma glucose 1 hr after meal",
+            price: 200,
+          },
+          {
+            serviceId: 5931,
+            serviceName: "Plasma glucose 1.5  hrs after meal",
+            price: 200,
+          },
+          {
+            serviceId: 5932,
+            serviceName: "Plasma glucose 1.5 hrs ABF",
+            price: 200,
+          },
+          {
+            serviceId: 5933,
+            serviceName: "Plasma glucose 1.5 hrs after 50gm glu.",
+            price: 250,
+          },
+          {
+            serviceId: 5934,
+            serviceName: "Plasma glucose 1.5 hrs after 70 gm glu.",
+            price: 250,
+          },
+          {
+            serviceId: 5935,
+            serviceName: "Plasma glucose 1.5 hrs after 75gm glu.",
+            price: 250,
+          },
+          {
+            serviceId: 5936,
+            serviceName: "Plasma glucose 1hr after lunch",
+            price: 200,
+          },
+          {
+            serviceId: 5937,
+            serviceName: "Plasma glucose 2 hrs ABF",
+            price: 200,
+          },
+          {
+            serviceId: 5938,
+            serviceName: "Plasma glucose 2 hrs ABF (With Tablet / Insulin)",
+            price: 200,
+          },
+          {
+            serviceId: 5939,
+            serviceName: "Plasma glucose 2 hrs after 50gm glu.",
+            price: 250,
+          },
+          {
+            serviceId: 5940,
+            serviceName: "Plasma glucose 2 hrs after 70 gm glu.",
+            price: 250,
+          },
+          {
+            serviceId: 5941,
+            serviceName: "Plasma glucose 2 hrs after 75gm glu.",
+            price: 250,
+          },
+          {
+            serviceId: 5942,
+            serviceName: "Plasma glucose 2 hrs after dinner",
+            price: 200,
+          },
+          {
+            serviceId: 5943,
+            serviceName: "Plasma glucose 2 hrs after Iftar",
+            price: 200,
+          },
+          {
+            serviceId: 5944,
+            serviceName: "Plasma glucose 2 hrs after lunch",
+            price: 200,
+          },
+          {
+            serviceId: 5945,
+            serviceName: "Plasma glucose 2 hrs after meal",
+            price: 200,
+          },
+          {
+            serviceId: 5946,
+            serviceName: "Plasma glucose 2.5 hrs after 75 gm glucose",
+            price: 250,
+          },
+          {
+            serviceId: 5947,
+            serviceName: "Plasma glucose 3 hrs after 75 gm glucose",
+            price: 250,
+          },
+          {
+            serviceId: 5948,
+            serviceName: "Plasma glucose 30 minutes after 75gm glucose",
+            price: 250,
+          },
+          {
+            serviceId: 5949,
+            serviceName: "Plasma glucose 4 hrs after 75 gm glucose",
+            price: 250,
+          },
+          {
+            serviceId: 5950,
+            serviceName: "Plasma glucose before dinner",
+            price: 200,
+          },
+          {
+            serviceId: 5951,
+            serviceName: "Plasma glucose before lunch",
+            price: 200,
+          },
+          {
+            serviceId: 5952,
+            serviceName: "Pleural Fluid for Biochemical test",
+            price: 1000,
+          },
+          {
+            serviceId: 5953,
+            serviceName: "Postprandial Plasma glucose",
+            price: 200,
+          },
+          {
+            serviceId: 5954,
+            serviceName: "Potassium (K)",
+            price: 300,
+          },
+          {
+            serviceId: 5955,
+            serviceName: "Protein C",
+            price: 4000,
+          },
+          {
+            serviceId: 5956,
+            serviceName: "Protein Electrophoresis",
+            price: 1600,
+          },
+          {
+            serviceId: 5957,
+            serviceName: "Protein S",
+            price: 4000,
+          },
+          {
+            serviceId: 5958,
+            serviceName: "Prothrombin Time (INR)",
+            price: 800,
+          },
+          {
+            serviceId: 5959,
+            serviceName: "Random Plasma glucose",
+            price: 200,
+          },
+          {
+            serviceId: 5960,
+            serviceName: "Serum Albumin",
+            price: 600,
+          },
+          {
+            serviceId: 5961,
+            serviceName: "Serum Calcium",
+            price: 600,
+          },
+          {
+            serviceId: 5962,
+            serviceName: "Serum Creatinine",
+            price: 400,
+          },
+          {
+            serviceId: 5963,
+            serviceName: "Serum Electrolytes",
+            price: 1000,
+          },
+          {
+            serviceId: 5964,
+            serviceName: "Serum Immuno Electrophoresis",
+            price: 5000,
+          },
+          {
+            serviceId: 5965,
+            serviceName: "Serum Inorganic Phosphate (PO4)",
+            price: 600,
+          },
+          {
+            serviceId: 5966,
+            serviceName: "Serum Uric Acid",
+            price: 600,
+          },
+          {
+            serviceId: 5967,
+            serviceName: "Serum-ascites albumin gradient(SAAG)",
+            price: 1000,
+          },
+          {
+            serviceId: 5968,
+            serviceName: "Sodium (Na)",
+            price: 300,
+          },
+          {
+            serviceId: 5969,
+            serviceName: "Spot Urine Calcium",
+            price: 500,
+          },
+          {
+            serviceId: 5970,
+            serviceName: "Spot Urine Calcium Creatinine Ratio",
+            price: 1100,
+          },
+          {
+            serviceId: 5971,
+            serviceName: "Spot Urine Chloride (Cl)",
+            price: 500,
+          },
+          {
+            serviceId: 5972,
+            serviceName: "Spot Urine Creatinine",
+            price: 500,
+          },
+          {
+            serviceId: 5973,
+            serviceName: "Spot Urine Electrolytes",
+            price: 1200,
+          },
+          {
+            serviceId: 5974,
+            serviceName: "Spot Urine for Urea",
+            price: 0,
+          },
+          {
+            serviceId: 5975,
+            serviceName: "Spot Urine Inorganic Phosphate",
+            price: 600,
+          },
+          {
+            serviceId: 5976,
+            serviceName: "Spot Urine Potassium (K)",
+            price: 400,
+          },
+          {
+            serviceId: 5977,
+            serviceName: "Spot Urine Protein",
+            price: 700,
+          },
+          {
+            serviceId: 5978,
+            serviceName: "Spot Urine Protein Creatinine Ratio",
+            price: 1100,
+          },
+          {
+            serviceId: 5979,
+            serviceName: "Spot Urine Sodium (Na) ",
+            price: 400,
+          },
+          {
+            serviceId: 5980,
+            serviceName: "Spot Urine Uric Acid",
+            price: 500,
+          },
+          {
+            serviceId: 5981,
+            serviceName: "STP AG Ratio",
+            price: 1300,
+          },
+          {
+            serviceId: 5982,
+            serviceName: "Synovial Fluid for Biochemical test",
+            price: 1000,
+          },
+          {
+            serviceId: 5983,
+            serviceName: "T. I. B. C.",
+            price: 1400,
+          },
+          {
+            serviceId: 5984,
+            serviceName: "Total Acid Phosphatase",
+            price: 1000,
+          },
+          {
+            serviceId: 5985,
+            serviceName: "Total Protein",
+            price: 700,
+          },
+          {
+            serviceId: 5986,
+            serviceName: "Transferrin saturation test",
+            price: 2000,
+          },
+          {
+            serviceId: 5987,
+            serviceName: "Triglycerides",
+            price: 400,
+          },
+          {
+            serviceId: 5988,
+            serviceName: "Urea",
+            price: 500,
+          },
+          {
+            serviceId: 5989,
+            serviceName: "Urinary Amylase",
+            price: 1300,
+          },
+          {
+            serviceId: 5990,
+            serviceName: "Urinary Calcium",
+            price: 600,
+          },
+          {
+            serviceId: 5991,
+            serviceName: "Urinary Inorganic Phosphate",
+            price: 500,
+          },
+          {
+            serviceId: 5992,
+            serviceName: "Urinary Osmolality",
+            price: 1300,
+          },
+          {
+            serviceId: 5993,
+            serviceName: "Urinary Uric Acid",
+            price: 600,
+          },
+          {
+            serviceId: 5994,
+            serviceName: "Urinary V.M.A (Vanilmandelic Acid)",
+            price: 2500,
+          },
+          {
+            serviceId: 5995,
+            serviceName: "Urine for Microalbumin",
+            price: 1300,
+          },
+          {
+            serviceId: 5996,
+            serviceName: "Bence-Jones Protein",
+            price: 800,
+          },
+          {
+            serviceId: 5997,
+            serviceName: "Fecal Calprotectin (fCAL)",
+            price: 5000,
+          },
+          {
+            serviceId: 5998,
+            serviceName: "Liver abscess fluid for E. Histolytica",
+            price: 500,
+          },
+          {
+            serviceId: 5999,
+            serviceName: "PCN Tube (Urine) for PH",
+            price: 400,
+          },
+          {
+            serviceId: 6000,
+            serviceName: "PCN Tube (Urine) for Specific Gravity",
+            price: 0,
+          },
+          {
+            serviceId: 6001,
+            serviceName: "PH",
+            price: 500,
+          },
+          {
+            serviceId: 6002,
+            serviceName: "Pleural Fluid for PH",
+            price: 500,
+          },
+          {
+            serviceId: 6003,
+            serviceName: "Sickly Test",
+            price: 200,
+          },
+          {
+            serviceId: 6004,
+            serviceName: "Stool for Floatation Test",
+            price: 400,
+          },
+          {
+            serviceId: 6005,
+            serviceName: "Stool for Occult Blood Test",
+            price: 400,
+          },
+          {
+            serviceId: 6006,
+            serviceName: "Stool for Reducing Substance",
+            price: 300,
+          },
+          {
+            serviceId: 6007,
+            serviceName: "Stool Routine Examination",
+            price: 300,
+          },
+          {
+            serviceId: 6008,
+            serviceName: "Tuberculin Test (0.1 ml = 10 TU)",
+            price: 700,
+          },
+          {
+            serviceId: 6009,
+            serviceName: "Urine  for Albumin",
+            price: 400,
+          },
+          {
+            serviceId: 6010,
+            serviceName: "Urine for Bile Pigments",
+            price: 400,
+          },
+          {
+            serviceId: 6011,
+            serviceName: "Urine for Bile Salts",
+            price: 400,
+          },
+          {
+            serviceId: 6012,
+            serviceName: "Urine for Bilirubin",
+            price: 400,
+          },
+          {
+            serviceId: 6013,
+            serviceName: "Urine For Chyle",
+            price: 0,
+          },
+          {
+            serviceId: 6014,
+            serviceName: "Urine for Ferric Chloride Test",
+            price: 400,
+          },
+          {
+            serviceId: 6015,
+            serviceName: "Urine for Haemoglobin",
+            price: 300,
+          },
+          {
+            serviceId: 6016,
+            serviceName: "Urine for Ketone Bodies",
+            price: 400,
+          },
+          {
+            serviceId: 6017,
+            serviceName: "Urine For Leu (Leukocytes)",
+            price: 400,
+          },
+          {
+            serviceId: 6018,
+            serviceName: "Urine For Nitrite",
+            price: 400,
+          },
+          {
+            serviceId: 6019,
+            serviceName: "Urine for Occult blood Test",
+            price: 400,
+          },
+          {
+            serviceId: 6020,
+            serviceName: "Urine for RBC (Morphology)",
+            price: 300,
+          },
+          {
+            serviceId: 6021,
+            serviceName: "Urine for Specific Gravity",
+            price: 400,
+          },
+          {
+            serviceId: 6022,
+            serviceName: "Urine for Sugar",
+            price: 250,
+          },
+          {
+            serviceId: 6023,
+            serviceName: "Urine for Urobilinogen",
+            price: 400,
+          },
+          {
+            serviceId: 6024,
+            serviceName: "Urine Routine Examination",
+            price: 400,
+          },
+          {
+            serviceId: 6025,
+            serviceName: "SARS_CoV-2",
+            price: 3500,
+          },
+          {
+            serviceId: 6026,
+            serviceName: "Ascitic Fluid for Malignant Cells",
+            price: 1200,
+          },
+          {
+            serviceId: 6027,
+            serviceName:
+              "Both  breast nipple discharge cytology for malignant cells",
+            price: 0,
+          },
+          {
+            serviceId: 6028,
+            serviceName: "Bronchial Washing Cytology for Malignant Cells",
+            price: 1200,
+          },
+          {
+            serviceId: 6029,
+            serviceName: "Bronchoscopic Biopsy",
+            price: 1000,
+          },
+          {
+            serviceId: 6030,
+            serviceName: "Cervical Smear Cytology for Malignant Cells",
+            price: 1200,
+          },
+          {
+            serviceId: 6031,
+            serviceName: "CSF Cytology for Malignant Cells",
+            price: 1200,
+          },
+          {
+            serviceId: 6032,
+            serviceName: "Cytology",
+            price: 1200,
+          },
+          {
+            serviceId: 6033,
+            serviceName: "Endometrium (CURETTAGE)",
+            price: 1000,
+          },
+          {
+            serviceId: 6034,
+            serviceName: "Endoscopic Biopsy of Oesophegus",
+            price: 1000,
+          },
+          {
+            serviceId: 6035,
+            serviceName: "Endoscopic Biopsy of Stomach",
+            price: 1000,
+          },
+          {
+            serviceId: 6036,
+            serviceName: "Fluid Cytology for Malignant Cells",
+            price: 1200,
+          },
+          {
+            serviceId: 6037,
+            serviceName: "FNAC",
+            price: 1500,
+          },
+          {
+            serviceId: 6038,
+            serviceName: "FNAC (Both Breast)",
+            price: 3000,
+          },
+          {
+            serviceId: 6039,
+            serviceName: "FNAC (Both Testis)",
+            price: 0,
+          },
+          {
+            serviceId: 6040,
+            serviceName: "FNAC (L. Node)",
+            price: 1200,
+          },
+          {
+            serviceId: 6041,
+            serviceName: "FNAC (Left Breast)",
+            price: 1500,
+          },
+          {
+            serviceId: 6042,
+            serviceName: "FNAC (Pathology)",
+            price: 0,
+          },
+          {
+            serviceId: 6043,
+            serviceName: "FNAC (Right Breast)",
+            price: 1500,
+          },
+          {
+            serviceId: 6044,
+            serviceName: "FNAC (Small Tumour)",
+            price: 1200,
+          },
+          {
+            serviceId: 6045,
+            serviceName: "FNAC (Ultrasound Guided)",
+            price: 3000,
+          },
+          {
+            serviceId: 6046,
+            serviceName: "FNAC from Lung",
+            price: 1200,
+          },
+          {
+            serviceId: 6047,
+            serviceName: "Gall Bladder Fluid for Malignant Cells",
+            price: 1200,
+          },
+          {
+            serviceId: 6048,
+            serviceName: "HVS Cytology for Malignanat Cells",
+            price: 1200,
+          },
+          {
+            serviceId: 6049,
+            serviceName:
+              "Lt. Breast nipple discharge cytology for malignant cells",
+            price: 0,
+          },
+          {
+            serviceId: 6050,
+            serviceName: "Nipple Discharge Cytology for Malignant Cells",
+            price: 1200,
+          },
+          {
+            serviceId: 6051,
+            serviceName: "Oral/Mucosal Swab For Cytology and Malignant Cells",
+            price: 1200,
+          },
+          {
+            serviceId: 6052,
+            serviceName: "Pericardial Fluid for Malignant Cells",
+            price: 1200,
+          },
+          {
+            serviceId: 6053,
+            serviceName: "Peritoneal Fluid for Malignant Cells",
+            price: 1200,
+          },
+          {
+            serviceId: 6054,
+            serviceName: "Pleural Fluid for Malignant Cells",
+            price: 1200,
+          },
+          {
+            serviceId: 6055,
+            serviceName: "Prostatic smear Cytology for Malignant Cells",
+            price: 1200,
+          },
+          {
+            serviceId: 6056,
+            serviceName: "Pus Cytology For Malignant Cell",
+            price: 1200,
+          },
+          {
+            serviceId: 6057,
+            serviceName: "Skin Biopsy",
+            price: 1200,
+          },
+          {
+            serviceId: 6058,
+            serviceName: "Skin Scrapping for Cytology",
+            price: 1200,
+          },
+          {
+            serviceId: 6059,
+            serviceName: "Slide Delivery for Cytology",
+            price: 500,
+          },
+          {
+            serviceId: 6060,
+            serviceName: "Slide Delivery for Histopathology",
+            price: 500,
+          },
+          {
+            serviceId: 6061,
+            serviceName: "Slide Review for Cytology  (1 SLIDE)",
+            price: 800,
+          },
+          {
+            serviceId: 6062,
+            serviceName: "Slide Review for Cytology (2 SLIDE)",
+            price: 1000,
+          },
+          {
+            serviceId: 6063,
+            serviceName: "Sputum Cytology for Malignant Cells",
+            price: 1200,
+          },
+          {
+            serviceId: 6064,
+            serviceName: "Sputum For Eosinophils",
+            price: 500,
+          },
+          {
+            serviceId: 6065,
+            serviceName: "Swab Cytology  for Malignant Cells",
+            price: 1200,
+          },
+          {
+            serviceId: 6066,
+            serviceName: "Synovial Fluid for Malignant Cells",
+            price: 1200,
+          },
+          {
+            serviceId: 6067,
+            serviceName: "Tissue from Cervix (Biopsy)",
+            price: 800,
+          },
+          {
+            serviceId: 6068,
+            serviceName: "Tongue Scrapping Cytology for Malignant Cells",
+            price: 1200,
+          },
+          {
+            serviceId: 6069,
+            serviceName: "Tongue Scrapping for Cutology for Cellular Study",
+            price: 1200,
+          },
+          {
+            serviceId: 6070,
+            serviceName: "Urine Cytology for Malignant Cells",
+            price: 1200,
+          },
+          {
+            serviceId: 6071,
+            serviceName: "Vault smear Cytology for Malignant Cells",
+            price: 1200,
+          },
+          {
+            serviceId: 6072,
+            serviceName: "Vulval Swab For Cytology",
+            price: 1200,
+          },
+          {
+            serviceId: 6073,
+            serviceName: "Vulval Swab For Cytology and Malignant Cells",
+            price: 1200,
+          },
+          {
+            serviceId: 6074,
+            serviceName: "Bleeding Time",
+            price: 200,
+          },
+          {
+            serviceId: 6075,
+            serviceName: "Blood for Microfileria",
+            price: 1300,
+          },
+          {
+            serviceId: 6076,
+            serviceName: "Bone Marrow Examination",
+            price: 5000,
+          },
+          {
+            serviceId: 6077,
+            serviceName: "Bone Marrow Study",
+            price: 5000,
+          },
+          {
+            serviceId: 6078,
+            serviceName: "CBC, ESR",
+            price: 400,
+          },
+          {
+            serviceId: 6079,
+            serviceName: "Circulating Eosinophil Count",
+            price: 400,
+          },
+          {
+            serviceId: 6080,
+            serviceName: "Clotting Time",
+            price: 200,
+          },
+          {
+            serviceId: 6081,
+            serviceName: "DLC",
+            price: 300,
+          },
+          {
+            serviceId: 6082,
+            serviceName: "ESR",
+            price: 200,
+          },
+          {
+            serviceId: 6083,
+            serviceName: "Film/Cell Morphology",
+            price: 400,
+          },
+          {
+            serviceId: 6084,
+            serviceName: "Haemoglobin",
+            price: 200,
+          },
+          {
+            serviceId: 6085,
+            serviceName: "HCT",
+            price: 250,
+          },
+          {
+            serviceId: 6086,
+            serviceName: "LE Cells",
+            price: 300,
+          },
+          {
+            serviceId: 6087,
+            serviceName: "Malarial Parasite",
+            price: 300,
+          },
+          {
+            serviceId: 6088,
+            serviceName: "MCH",
+            price: 200,
+          },
+          {
+            serviceId: 6089,
+            serviceName: "MCHC",
+            price: 200,
+          },
+          {
+            serviceId: 6090,
+            serviceName: "MCV",
+            price: 200,
+          },
+          {
+            serviceId: 6091,
+            serviceName: "Platelets Count",
+            price: 300,
+          },
+          {
+            serviceId: 6092,
+            serviceName: "Reticulocyte Count",
+            price: 300,
+          },
+          {
+            serviceId: 6093,
+            serviceName: "Slit smear from skin nodule for L.D. bodies",
+            price: 200,
+          },
+          {
+            serviceId: 6094,
+            serviceName: "TC - RBC",
+            price: 200,
+          },
+          {
+            serviceId: 6095,
+            serviceName: "TC - WBC",
+            price: 200,
+          },
+          {
+            serviceId: 6096,
+            serviceName: "TC, DC, Hb%, ESR",
+            price: 400,
+          },
+          {
+            serviceId: 6097,
+            serviceName: "Appendix (Resected)",
+            price: 1500,
+          },
+          {
+            serviceId: 6098,
+            serviceName: "Cervix (Resected)",
+            price: 1500,
+          },
+          {
+            serviceId: 6099,
+            serviceName: "Core Biopsy",
+            price: 1500,
+          },
+          {
+            serviceId: 6100,
+            serviceName: "Full Breast (Resected)",
+            price: 2500,
+          },
+          {
+            serviceId: 6101,
+            serviceName: "Gall Bladder (Resected)",
+            price: 1500,
+          },
+          {
+            serviceId: 6102,
+            serviceName: "Histopathology Intermediate",
+            price: 2000,
+          },
+          {
+            serviceId: 6103,
+            serviceName: "Histopathology Large",
+            price: 2500,
+          },
+          {
+            serviceId: 6104,
+            serviceName: "Histopathology Small",
+            price: 1500,
+          },
+          {
+            serviceId: 6105,
+            serviceName: "Kidny (Needle Biopsy)",
+            price: 1500,
+          },
+          {
+            serviceId: 6106,
+            serviceName: "L.Node (Single)",
+            price: 1500,
+          },
+          {
+            serviceId: 6107,
+            serviceName: "Large Gut (Resected)",
+            price: 2500,
+          },
+          {
+            serviceId: 6108,
+            serviceName: "Left Breast (Biopsy)",
+            price: 1500,
+          },
+          {
+            serviceId: 6109,
+            serviceName: "Ovary (Resected)",
+            price: 2500,
+          },
+          {
+            serviceId: 6110,
+            serviceName: "Right Breast (Biopsy)",
+            price: 1500,
+          },
+          {
+            serviceId: 6111,
+            serviceName: "Slide Review for Histopathology (1 SLIDE).",
+            price: 800,
+          },
+          {
+            serviceId: 6112,
+            serviceName: "Slide Review for Histopathology (2 SLIDE)",
+            price: 1000,
+          },
+          {
+            serviceId: 6113,
+            serviceName: "Small Gut (Resected)",
+            price: 1000,
+          },
+          {
+            serviceId: 6114,
+            serviceName: "Total Kidny (Resected)",
+            price: 2500,
+          },
+          {
+            serviceId: 6115,
+            serviceName: "Trephine Biopsy",
+            price: 2000,
+          },
+          {
+            serviceId: 6116,
+            serviceName: "Uterus & Ovary (Resected)",
+            price: 2500,
+          },
+          {
+            serviceId: 6117,
+            serviceName: "Uterus (Resected)",
+            price: 1500,
+          },
+          {
+            serviceId: 6118,
+            serviceName: "Breast Tumor Profile-1 (ER, PR & HER2)",
+            price: 11000,
+          },
+          {
+            serviceId: 6119,
+            serviceName: "Breast Tumor Profile-2 (ER,PR,Her-2 & Ki-67)",
+            price: 14000,
+          },
+          {
+            serviceId: 6120,
+            serviceName:
+              "Breast Tumor Profile-3 (ER,PR,Her-2 & Ki-67 & E-Cadherin)",
+            price: 16000,
+          },
+          {
+            serviceId: 6121,
+            serviceName: "ER",
+            price: 4000,
+          },
+          {
+            serviceId: 6122,
+            serviceName: "HER2",
+            price: 4000,
+          },
+          {
+            serviceId: 6123,
+            serviceName: "MLH1",
+            price: 0,
+          },
+          {
+            serviceId: 6124,
+            serviceName: "PR",
+            price: 4000,
+          },
+          {
+            serviceId: 6125,
+            serviceName: "17a - OH Progesterone",
+            price: 2500,
+          },
+          {
+            serviceId: 6126,
+            serviceName: "24 hrs Urinary Metanephrine",
+            price: 4000,
+          },
+          {
+            serviceId: 6127,
+            serviceName: "ACTH",
+            price: 1400,
+          },
+          {
+            serviceId: 6128,
+            serviceName: "ACTH Before Injection",
+            price: 0,
+          },
+          {
+            serviceId: 6129,
+            serviceName: "Allergy profile",
+            price: 6000,
+          },
+          {
+            serviceId: 6130,
+            serviceName: "Alpha Feto Protein",
+            price: 1400,
+          },
+          {
+            serviceId: 6131,
+            serviceName: "Amphetamine",
+            price: 1400,
+          },
+          {
+            serviceId: 6132,
+            serviceName: "ANA-HEp-2",
+            price: 1500,
+          },
+          {
+            serviceId: 6133,
+            serviceName: "Anti HAV - IgM",
+            price: 1400,
+          },
+          {
+            serviceId: 6134,
+            serviceName: "Anti HBc - IgM",
+            price: 1400,
+          },
+          {
+            serviceId: 6135,
+            serviceName: "Anti HBc (Total)",
+            price: 1400,
+          },
+          {
+            serviceId: 6136,
+            serviceName: "Anti HBe",
+            price: 1400,
+          },
+          {
+            serviceId: 6137,
+            serviceName: "Anti HBs",
+            price: 1400,
+          },
+          {
+            serviceId: 6138,
+            serviceName: "Anti HCV",
+            price: 1400,
+          },
+          {
+            serviceId: 6139,
+            serviceName: "Anti HEV - IgM",
+            price: 1400,
+          },
+          {
+            serviceId: 6140,
+            serviceName: "Anti Thyroid Ab",
+            price: 2500,
+          },
+          {
+            serviceId: 6141,
+            serviceName: "Anti- TPO Ab",
+            price: 1400,
+          },
+          {
+            serviceId: 6142,
+            serviceName: "Anti-Cardiolipin antibody",
+            price: 1800,
+          },
+          {
+            serviceId: 6143,
+            serviceName: "Anti-CCP",
+            price: 2000,
+          },
+          {
+            serviceId: 6144,
+            serviceName: "Anti-ds DNA",
+            price: 1600,
+          },
+          {
+            serviceId: 6145,
+            serviceName: "Anti-Jo-I",
+            price: 1500,
+          },
+          {
+            serviceId: 6146,
+            serviceName: "Anti-Mitochondrial Antibody",
+            price: 1800,
+          },
+          {
+            serviceId: 6147,
+            serviceName: "Anti-Mullerian Hormone (AMH)",
+            price: 4000,
+          },
+          {
+            serviceId: 6148,
+            serviceName: "Anti-Nuclear Ab (ANA)",
+            price: 1400,
+          },
+          {
+            serviceId: 6149,
+            serviceName: "Anti-Phospholipid Antibody",
+            price: 2000,
+          },
+          {
+            serviceId: 6150,
+            serviceName: "Anti-RNP",
+            price: 1500,
+          },
+          {
+            serviceId: 6151,
+            serviceName: "Anti-Scl-70",
+            price: 1500,
+          },
+          {
+            serviceId: 6152,
+            serviceName: "Anti-Sm",
+            price: 1500,
+          },
+          {
+            serviceId: 6153,
+            serviceName: "Anti-SS-A",
+            price: 1500,
+          },
+          {
+            serviceId: 6154,
+            serviceName: "Anti-SS-B",
+            price: 1500,
+          },
+          {
+            serviceId: 6155,
+            serviceName: "Anti-TG Ab",
+            price: 1400,
+          },
+          {
+            serviceId: 6156,
+            serviceName: "B - hCG",
+            price: 1400,
+          },
+          {
+            serviceId: 6157,
+            serviceName: "B N P",
+            price: 3000,
+          },
+          {
+            serviceId: 6158,
+            serviceName: "B2 - Microglobulin",
+            price: 1400,
+          },
+          {
+            serviceId: 6159,
+            serviceName: "Benzodiazepines",
+            price: 1400,
+          },
+          {
+            serviceId: 6160,
+            serviceName: "CA 125",
+            price: 1400,
+          },
+          {
+            serviceId: 6161,
+            serviceName: "CA 15-3",
+            price: 1400,
+          },
+          {
+            serviceId: 6162,
+            serviceName: "CA 19-9",
+            price: 1400,
+          },
+          {
+            serviceId: 6163,
+            serviceName: "C-ANCA",
+            price: 1400,
+          },
+          {
+            serviceId: 6164,
+            serviceName: "Cannabinoids",
+            price: 1400,
+          },
+          {
+            serviceId: 6165,
+            serviceName: "Cardiac Troponin I (ES)",
+            price: 1200,
+          },
+          {
+            serviceId: 6166,
+            serviceName: "CEA",
+            price: 1400,
+          },
+          {
+            serviceId: 6167,
+            serviceName: "CMV - IgG",
+            price: 1400,
+          },
+          {
+            serviceId: 6168,
+            serviceName: "CMV - IgM",
+            price: 1400,
+          },
+          {
+            serviceId: 6169,
+            serviceName: "Cocaine",
+            price: 1400,
+          },
+          {
+            serviceId: 6170,
+            serviceName: "Copper",
+            price: 1400,
+          },
+          {
+            serviceId: 6171,
+            serviceName: "Cortisol",
+            price: 1400,
+          },
+          {
+            serviceId: 6172,
+            serviceName: "Cortisol (Evening)",
+            price: 1400,
+          },
+          {
+            serviceId: 6173,
+            serviceName: "Cortisol (Morning)",
+            price: 1400,
+          },
+          {
+            serviceId: 6174,
+            serviceName: "Cortisol level 0.5 hr After Injection",
+            price: 0,
+          },
+          {
+            serviceId: 6175,
+            serviceName: "Cortisol level 1hr After Injection",
+            price: 0,
+          },
+          {
+            serviceId: 6176,
+            serviceName: "Cortisol level 2 hrs. After Injection",
+            price: 0,
+          },
+          {
+            serviceId: 6177,
+            serviceName: "Cortisol level before Injection",
+            price: 0,
+          },
+          {
+            serviceId: 6178,
+            serviceName: "COVID-19 Rapid Antigen Test",
+            price: 700,
+          },
+          {
+            serviceId: 6179,
+            serviceName: "C-Peptide",
+            price: 1500,
+          },
+          {
+            serviceId: 6180,
+            serviceName: "Cyclosporine",
+            price: 3000,
+          },
+          {
+            serviceId: 6181,
+            serviceName: "Cyclosporine ( C0 )(B245)",
+            price: 3000,
+          },
+          {
+            serviceId: 6182,
+            serviceName: "Cyclosporine ( C2 )(A245)",
+            price: 3000,
+          },
+          {
+            serviceId: 6183,
+            serviceName: "DHEA - SO4",
+            price: 1400,
+          },
+          {
+            serviceId: 6184,
+            serviceName: "Digoxin",
+            price: 1400,
+          },
+          {
+            serviceId: 6185,
+            serviceName: "ENA Profile",
+            price: 8000,
+          },
+          {
+            serviceId: 6186,
+            serviceName: "Erythropoietin(EPO)",
+            price: 4000,
+          },
+          {
+            serviceId: 6187,
+            serviceName: "Estradiol (E2)",
+            price: 1400,
+          },
+          {
+            serviceId: 6188,
+            serviceName: "Ferritin",
+            price: 1200,
+          },
+          {
+            serviceId: 6189,
+            serviceName: "Folate / Folic Acid",
+            price: 1400,
+          },
+          {
+            serviceId: 6190,
+            serviceName: "Free PSA",
+            price: 1400,
+          },
+          {
+            serviceId: 6191,
+            serviceName: "Free PSA/ PSA Ratio",
+            price: 2000,
+          },
+          {
+            serviceId: 6192,
+            serviceName: "Free T3",
+            price: 1400,
+          },
+          {
+            serviceId: 6193,
+            serviceName: "Free T4",
+            price: 1400,
+          },
+          {
+            serviceId: 6194,
+            serviceName: "Free Testosterone",
+            price: 2000,
+          },
+          {
+            serviceId: 6195,
+            serviceName: "Free Testosterone (Pooled Serum)",
+            price: 2000,
+          },
+          {
+            serviceId: 6196,
+            serviceName: "FSH",
+            price: 1400,
+          },
+          {
+            serviceId: 6197,
+            serviceName: "Gentamicin",
+            price: 1400,
+          },
+          {
+            serviceId: 6198,
+            serviceName: "Growth Hormone",
+            price: 1400,
+          },
+          {
+            serviceId: 6199,
+            serviceName: "Growth Hormone Stimulation Test",
+            price: 1400,
+          },
+          {
+            serviceId: 6200,
+            serviceName: "Growth Hormone Suppression Test",
+            price: 1400,
+          },
+          {
+            serviceId: 6201,
+            serviceName: "H. Pylori - IgG",
+            price: 1400,
+          },
+          {
+            serviceId: 6202,
+            serviceName: "H. Pylori Antibody",
+            price: 1400,
+          },
+          {
+            serviceId: 6203,
+            serviceName: "Hb A1c",
+            price: 1400,
+          },
+          {
+            serviceId: 6204,
+            serviceName: "HBe Ag",
+            price: 1400,
+          },
+          {
+            serviceId: 6205,
+            serviceName: "HBs Ag",
+            price: 700,
+          },
+          {
+            serviceId: 6206,
+            serviceName: "HBsAgQ2",
+            price: 2500,
+          },
+          {
+            serviceId: 6207,
+            serviceName: "HCVAg(Quantitative)",
+            price: 4000,
+          },
+          {
+            serviceId: 6208,
+            serviceName: "High Sensitive Troponin-I",
+            price: 1400,
+          },
+          {
+            serviceId: 6209,
+            serviceName: "HIV - 1&2",
+            price: 1400,
+          },
+          {
+            serviceId: 6210,
+            serviceName: "HOMA IR",
+            price: 1500,
+          },
+          {
+            serviceId: 6211,
+            serviceName: "Homocysteine",
+            price: 3000,
+          },
+          {
+            serviceId: 6212,
+            serviceName: "HSV 1 - IgG",
+            price: 1400,
+          },
+          {
+            serviceId: 6213,
+            serviceName: "HSV 1 - IgM",
+            price: 1400,
+          },
+          {
+            serviceId: 6214,
+            serviceName: "HSV 1 & 2 - IgG",
+            price: 1400,
+          },
+          {
+            serviceId: 6215,
+            serviceName: "HSV 1 & 2 - IgM",
+            price: 1400,
+          },
+          {
+            serviceId: 6216,
+            serviceName: "HSV 2 - IgG",
+            price: 1400,
+          },
+          {
+            serviceId: 6217,
+            serviceName: "HSV 2 - IgM",
+            price: 1400,
+          },
+          {
+            serviceId: 6218,
+            serviceName: "hTSH",
+            price: 800,
+          },
+          {
+            serviceId: 6219,
+            serviceName: "ICT for Alcohol",
+            price: 500,
+          },
+          {
+            serviceId: 6220,
+            serviceName: "ICT for Amphitamine",
+            price: 700,
+          },
+          {
+            serviceId: 6221,
+            serviceName: "ICT for Benzodiazepine",
+            price: 700,
+          },
+          {
+            serviceId: 6222,
+            serviceName: "ICT for Cannabinoids",
+            price: 700,
+          },
+          {
+            serviceId: 6223,
+            serviceName: "ICT for Cocaine",
+            price: 700,
+          },
+          {
+            serviceId: 6224,
+            serviceName: "ICT for HBsAg",
+            price: 500,
+          },
+          {
+            serviceId: 6225,
+            serviceName: "ICT for Morphine",
+            price: 1400,
+          },
+          {
+            serviceId: 6226,
+            serviceName: "ICT for Opiates",
+            price: 700,
+          },
+          {
+            serviceId: 6227,
+            serviceName: "Insulin (Random)",
+            price: 1400,
+          },
+          {
+            serviceId: 6228,
+            serviceName: "Insulin(Fasting)",
+            price: 1400,
+          },
+          {
+            serviceId: 6229,
+            serviceName: "Insulin(PP)",
+            price: 1400,
+          },
+          {
+            serviceId: 6230,
+            serviceName: "Intact PTH",
+            price: 1400,
+          },
+          {
+            serviceId: 6231,
+            serviceName: "Interleukin-6",
+            price: 2200,
+          },
+          {
+            serviceId: 6232,
+            serviceName: "LH",
+            price: 1400,
+          },
+          {
+            serviceId: 6233,
+            serviceName: "NT-proBNP",
+            price: 3000,
+          },
+          {
+            serviceId: 6234,
+            serviceName: "Opiates",
+            price: 1400,
+          },
+          {
+            serviceId: 6235,
+            serviceName: "P-ANCA",
+            price: 1400,
+          },
+          {
+            serviceId: 6236,
+            serviceName: "Phenobarbital",
+            price: 1200,
+          },
+          {
+            serviceId: 6237,
+            serviceName: "Phenytoin",
+            price: 1400,
+          },
+          {
+            serviceId: 6238,
+            serviceName: "Progesterone",
+            price: 1400,
+          },
+          {
+            serviceId: 6239,
+            serviceName: "Prolactin",
+            price: 1400,
+          },
+          {
+            serviceId: 6240,
+            serviceName: "PSA",
+            price: 1400,
+          },
+          {
+            serviceId: 6241,
+            serviceName: "Rubella - IgG",
+            price: 1400,
+          },
+          {
+            serviceId: 6242,
+            serviceName: "Rubella - IgM",
+            price: 1400,
+          },
+          {
+            serviceId: 6243,
+            serviceName: "Serum Procalcitonin",
+            price: 2000,
+          },
+          {
+            serviceId: 6244,
+            serviceName: "SHBG",
+            price: 1400,
+          },
+          {
+            serviceId: 6245,
+            serviceName: "Short Synacthen Test",
+            price: 3600,
+          },
+          {
+            serviceId: 6246,
+            serviceName: "T3",
+            price: 800,
+          },
+          {
+            serviceId: 6247,
+            serviceName: "T4",
+            price: 800,
+          },
+          {
+            serviceId: 6248,
+            serviceName: "Tacrolimus",
+            price: 4000,
+          },
+          {
+            serviceId: 6249,
+            serviceName: "Testosterone",
+            price: 1400,
+          },
+          {
+            serviceId: 6250,
+            serviceName: "Total HCG",
+            price: 1400,
+          },
+          {
+            serviceId: 6251,
+            serviceName: "Total IgE",
+            price: 1400,
+          },
+          {
+            serviceId: 6252,
+            serviceName: "Toxo - IgG",
+            price: 1400,
+          },
+          {
+            serviceId: 6253,
+            serviceName: "Toxo - IgM",
+            price: 1400,
+          },
+          {
+            serviceId: 6254,
+            serviceName: "TSH receptor antibodies (TRAb)",
+            price: 3000,
+          },
+          {
+            serviceId: 6255,
+            serviceName: "Valproic Acid",
+            price: 1400,
+          },
+          {
+            serviceId: 6256,
+            serviceName: "Vitamin B-12",
+            price: 2500,
+          },
+          {
+            serviceId: 6257,
+            serviceName: "Vitamin D ( 25 - OH )",
+            price: 4000,
+          },
+          {
+            serviceId: 6258,
+            serviceName: "Vitamin D3/D2",
+            price: 6000,
+          },
+          {
+            serviceId: 6259,
+            serviceName: "Abcess fluid for GeneXpert(MTB)",
+            price: 6000,
+          },
+          {
+            serviceId: 6260,
+            serviceName: "Abdomenal Discharge Fluid for C/S",
+            price: 1500,
+          },
+          {
+            serviceId: 6261,
+            serviceName: "Abscess Fluid for AFB",
+            price: 600,
+          },
+          {
+            serviceId: 6262,
+            serviceName: "Abscess Fluid for Anti TB IgA",
+            price: 1400,
+          },
+          {
+            serviceId: 6263,
+            serviceName: "Abscess Fluid for Anti TB IgG",
+            price: 1400,
+          },
+          {
+            serviceId: 6264,
+            serviceName: "Abscess Fluid for Anti TB IgM",
+            price: 1400,
+          },
+          {
+            serviceId: 6265,
+            serviceName: "Antibody Against Chicken Pox(Vericella)",
+            price: 600,
+          },
+          {
+            serviceId: 6266,
+            serviceName: "Anti-sperm Antibody Test",
+            price: 1000,
+          },
+          {
+            serviceId: 6267,
+            serviceName: "Ascitic Fluid C/S for AFB",
+            price: 1500,
+          },
+          {
+            serviceId: 6268,
+            serviceName: "Ascitic Fluid for AFB",
+            price: 600,
+          },
+          {
+            serviceId: 6269,
+            serviceName: "Ascitic Fluid for Anti TB IgA",
+            price: 1400,
+          },
+          {
+            serviceId: 6270,
+            serviceName: "Ascitic Fluid for Anti TB IgG",
+            price: 1400,
+          },
+          {
+            serviceId: 6271,
+            serviceName: "Ascitic Fluid for Anti TB IgM",
+            price: 1400,
+          },
+          {
+            serviceId: 6272,
+            serviceName: "Ascitic Fluid for C/S",
+            price: 1500,
+          },
+          {
+            serviceId: 6273,
+            serviceName: "Ascitic Fluid for C/S ( Blood culture bottle)",
+            price: 0,
+          },
+          {
+            serviceId: 6274,
+            serviceName: "Ascitic Fluid for Cytology",
+            price: 1200,
+          },
+          {
+            serviceId: 6275,
+            serviceName: "Ascitic fluid for GeneXpert(MTB)",
+            price: 6000,
+          },
+          {
+            serviceId: 6276,
+            serviceName: "Ascitic Fluid for Gram Stain",
+            price: 600,
+          },
+          {
+            serviceId: 6277,
+            serviceName: "ASO Titre",
+            price: 600,
+          },
+          {
+            serviceId: 6278,
+            serviceName: "Aspirated Fluid C/S for AFB",
+            price: 1500,
+          },
+          {
+            serviceId: 6279,
+            serviceName: "Aspirated Fluid C/S for Anerobic",
+            price: 1500,
+          },
+          {
+            serviceId: 6280,
+            serviceName: "Aspirated fluid for C/S",
+            price: 1500,
+          },
+          {
+            serviceId: 6281,
+            serviceName: "Aspirated Fluid for Gram Stain",
+            price: 600,
+          },
+          {
+            serviceId: 6282,
+            serviceName: "Aspiration Fluid for AFB Stain",
+            price: 600,
+          },
+          {
+            serviceId: 6283,
+            serviceName: "Aural Swab for CS",
+            price: 1500,
+          },
+          {
+            serviceId: 6284,
+            serviceName: "Aural/Swab for Gram Stain",
+            price: 600,
+          },
+          {
+            serviceId: 6285,
+            serviceName: "Bile for C/S",
+            price: 1500,
+          },
+          {
+            serviceId: 6286,
+            serviceName: "Blood C/S (Lysis Method)",
+            price: 1500,
+          },
+          {
+            serviceId: 6287,
+            serviceName: "Blood C/S for Anerobic (FAN Method)",
+            price: 2500,
+          },
+          {
+            serviceId: 6288,
+            serviceName: "Blood for C/S (FAN Method)",
+            price: 2000,
+          },
+          {
+            serviceId: 6289,
+            serviceName: "Blood for C/S (FAN Method) (C)",
+            price: 1500,
+          },
+          {
+            serviceId: 6290,
+            serviceName: "Blood Group & RH Factor",
+            price: 200,
+          },
+          {
+            serviceId: 6291,
+            serviceName: "Blood Grouping",
+            price: 200,
+          },
+          {
+            serviceId: 6292,
+            serviceName: "Bony Tissue for C/S",
+            price: 1500,
+          },
+          {
+            serviceId: 6293,
+            serviceName: "Breast Absess for C/S",
+            price: 1500,
+          },
+          {
+            serviceId: 6294,
+            serviceName: "Bronchial Brushing for Gram Stain",
+            price: 600,
+          },
+          {
+            serviceId: 6295,
+            serviceName: "Bronchial Lavage Cytology",
+            price: 1200,
+          },
+          {
+            serviceId: 6296,
+            serviceName: "Bronchial Washing for AFB",
+            price: 600,
+          },
+          {
+            serviceId: 6297,
+            serviceName: "Bronchial Washing for C/S",
+            price: 1500,
+          },
+          {
+            serviceId: 6298,
+            serviceName: "Bronchial Washing for C/S for AFB",
+            price: 1500,
+          },
+          {
+            serviceId: 6299,
+            serviceName: "Bronchial Washing for Fungus",
+            price: 600,
+          },
+          {
+            serviceId: 6300,
+            serviceName: "Bronchial Washing for Gram Stain",
+            price: 600,
+          },
+          {
+            serviceId: 6301,
+            serviceName: "Broncho-alveolai Lavage for AFB Stain",
+            price: 600,
+          },
+          {
+            serviceId: 6302,
+            serviceName: "Broncho-alveolai Lavage for C/S",
+            price: 1500,
+          },
+          {
+            serviceId: 6303,
+            serviceName: "Broncho-alveolai Lavage for Fungus",
+            price: 600,
+          },
+          {
+            serviceId: 6304,
+            serviceName: "Broncho-alveolai Lavage for Gram Stain",
+            price: 600,
+          },
+          {
+            serviceId: 6305,
+            serviceName: "Bronchoalveolar Lavage for GeneXpert(MTB)",
+            price: 6000,
+          },
+          {
+            serviceId: 6306,
+            serviceName: "Bronchoscope of washing for C/S",
+            price: 1500,
+          },
+          {
+            serviceId: 6307,
+            serviceName: "Brucella & Rickettsia",
+            price: 800,
+          },
+          {
+            serviceId: 6308,
+            serviceName: "Buccal Swab for C/S",
+            price: 1500,
+          },
+          {
+            serviceId: 6309,
+            serviceName: "C.V. Tip for C/S",
+            price: 1500,
+          },
+          {
+            serviceId: 6310,
+            serviceName: "CAPD Fluid for AFB",
+            price: 600,
+          },
+          {
+            serviceId: 6311,
+            serviceName: "CAPD Fluid for Anti TB IgA",
+            price: 1400,
+          },
+          {
+            serviceId: 6312,
+            serviceName: "CAPD Fluid for Anti TB IgG",
+            price: 1400,
+          },
+          {
+            serviceId: 6313,
+            serviceName: "CAPD Fluid for Anti TB IgM",
+            price: 1400,
+          },
+          {
+            serviceId: 6314,
+            serviceName: "CAPD Fluid for C/S",
+            price: 1500,
+          },
+          {
+            serviceId: 6315,
+            serviceName: "CAPD Fluid for Cytology",
+            price: 1200,
+          },
+          {
+            serviceId: 6316,
+            serviceName: "CAPD Fluid for Fungus",
+            price: 600,
+          },
+          {
+            serviceId: 6317,
+            serviceName: "CAPD Fluid for Gram Stain",
+            price: 600,
+          },
+          {
+            serviceId: 6318,
+            serviceName: "Catheter Tip for C/S",
+            price: 1500,
+          },
+          {
+            serviceId: 6319,
+            serviceName: "Cervical Smear for AFB",
+            price: 600,
+          },
+          {
+            serviceId: 6320,
+            serviceName: "Cervical Smear for C/S",
+            price: 1500,
+          },
+          {
+            serviceId: 6321,
+            serviceName: "Cervical Smear for Gram Stain",
+            price: 600,
+          },
+          {
+            serviceId: 6322,
+            serviceName: "Cervical Smear for Wet Film",
+            price: 500,
+          },
+          {
+            serviceId: 6323,
+            serviceName: "Complement 3 (C3)",
+            price: 1400,
+          },
+          {
+            serviceId: 6324,
+            serviceName: "Complement 4 (C4)",
+            price: 1400,
+          },
+          {
+            serviceId: 6325,
+            serviceName: "Conjunctival Swab (Lt.) for AFB",
+            price: 600,
+          },
+          {
+            serviceId: 6326,
+            serviceName: "Conjunctival Swab (Lt.) for Gram Stain",
+            price: 600,
+          },
+          {
+            serviceId: 6327,
+            serviceName: "Conjunctival Swab (Rt.) for AFB",
+            price: 600,
+          },
+          {
+            serviceId: 6328,
+            serviceName: "Conjunctival Swab (Rt.) for Gram Stain",
+            price: 600,
+          },
+          {
+            serviceId: 6329,
+            serviceName: "Conjunctival Swab(Lt.) for C/S",
+            price: 1500,
+          },
+          {
+            serviceId: 6330,
+            serviceName: "Conjunctival Swab(Rt.) for C/S",
+            price: 1500,
+          },
+          {
+            serviceId: 6331,
+            serviceName: "Coombs Test (D/I)",
+            price: 1200,
+          },
+          {
+            serviceId: 6332,
+            serviceName: "Coombs Test Direct",
+            price: 600,
+          },
+          {
+            serviceId: 6333,
+            serviceName: "Coombs Test Indirect",
+            price: 600,
+          },
+          {
+            serviceId: 6334,
+            serviceName: "Corneal Swab (Lt.) for C/S",
+            price: 1500,
+          },
+          {
+            serviceId: 6335,
+            serviceName: "Corneal Swab (Rt.) for C/S",
+            price: 1500,
+          },
+          {
+            serviceId: 6336,
+            serviceName: "CSF Analysis",
+            price: 1400,
+          },
+          {
+            serviceId: 6337,
+            serviceName: "CSF C/S for AFB",
+            price: 1500,
+          },
+          {
+            serviceId: 6338,
+            serviceName: "CSF C/S for Fungus",
+            price: 1500,
+          },
+          {
+            serviceId: 6339,
+            serviceName: "CSF for AFB",
+            price: 600,
+          },
+          {
+            serviceId: 6340,
+            serviceName: "CSF for Anti TB IgA",
+            price: 1400,
+          },
+          {
+            serviceId: 6341,
+            serviceName: "CSF for Anti TB IgG",
+            price: 1400,
+          },
+          {
+            serviceId: 6342,
+            serviceName: "CSF for Anti TB IgM",
+            price: 1400,
+          },
+          {
+            serviceId: 6343,
+            serviceName: "CSF for C/S",
+            price: 1500,
+          },
+          {
+            serviceId: 6344,
+            serviceName: "CSF for Cytology",
+            price: 1200,
+          },
+          {
+            serviceId: 6345,
+            serviceName: "CSF for GeneXpert(MTB)",
+            price: 6000,
+          },
+          {
+            serviceId: 6346,
+            serviceName: "CSF for Gram Stain",
+            price: 600,
+          },
+          {
+            serviceId: 6347,
+            serviceName: "CSF FOR TPHA",
+            price: 600,
+          },
+          {
+            serviceId: 6348,
+            serviceName: "CSF for VDRL",
+            price: 800,
+          },
+          {
+            serviceId: 6349,
+            serviceName: "Cyst Fluid for Cytology",
+            price: 1200,
+          },
+          {
+            serviceId: 6350,
+            serviceName: "Cystic Fluid  for Gram Stain",
+            price: 600,
+          },
+          {
+            serviceId: 6351,
+            serviceName: "Cystic Fluid for AFB",
+            price: 600,
+          },
+          {
+            serviceId: 6352,
+            serviceName: "Cystic Fluid for C/S",
+            price: 1500,
+          },
+          {
+            serviceId: 6353,
+            serviceName: "Dengue NS1 Ag",
+            price: 300,
+          },
+          {
+            serviceId: 6354,
+            serviceName: "Dialysis Fluid for C/S",
+            price: 1500,
+          },
+          {
+            serviceId: 6355,
+            serviceName: "Discharge for AFB",
+            price: 600,
+          },
+          {
+            serviceId: 6356,
+            serviceName: "Discharge for C/S",
+            price: 1500,
+          },
+          {
+            serviceId: 6357,
+            serviceName: "Discharge for Gram Stain",
+            price: 600,
+          },
+          {
+            serviceId: 6358,
+            serviceName: "Discharge for Wet Film",
+            price: 600,
+          },
+          {
+            serviceId: 6359,
+            serviceName: "Ear Swab(Lt.) for AFB",
+            price: 600,
+          },
+          {
+            serviceId: 6360,
+            serviceName: "Ear Swab(Lt.) for C/S",
+            price: 1500,
+          },
+          {
+            serviceId: 6361,
+            serviceName: "Ear Swab(Lt.) for Gram Stain",
+            price: 600,
+          },
+          {
+            serviceId: 6362,
+            serviceName: "Ear Swab(Rt.) for AFB",
+            price: 600,
+          },
+          {
+            serviceId: 6363,
+            serviceName: "Ear Swab(Rt.) for C/S",
+            price: 1500,
+          },
+          {
+            serviceId: 6364,
+            serviceName: "Ear Swab(Rt.) for Gram Stain",
+            price: 600,
+          },
+          {
+            serviceId: 6365,
+            serviceName: "ELISA test for Anti TB IgA",
+            price: 1400,
+          },
+          {
+            serviceId: 6366,
+            serviceName: "ELISA test for Anti TB IgG",
+            price: 1400,
+          },
+          {
+            serviceId: 6367,
+            serviceName: "ELISA test for Anti TB IgM",
+            price: 1400,
+          },
+          {
+            serviceId: 6368,
+            serviceName: "ELISA Test for Dengue Ab.",
+            price: 500,
+          },
+          {
+            serviceId: 6369,
+            serviceName: "Febrile Antigens",
+            price: 1200,
+          },
+          {
+            serviceId: 6370,
+            serviceName: "Fluid C/S for AFB",
+            price: 1500,
+          },
+          {
+            serviceId: 6371,
+            serviceName: "Fluid for AFB Stain",
+            price: 600,
+          },
+          {
+            serviceId: 6372,
+            serviceName: "Fluid for C/S",
+            price: 1500,
+          },
+          {
+            serviceId: 6373,
+            serviceName: "Fluid for Cytology",
+            price: 1200,
+          },
+          {
+            serviceId: 6374,
+            serviceName: "Fluid for Fungus",
+            price: 600,
+          },
+          {
+            serviceId: 6375,
+            serviceName: "Fluid for GeneXpert(MTB)",
+            price: 6000,
+          },
+          {
+            serviceId: 6376,
+            serviceName: "Fluid for Gram Stain",
+            price: 600,
+          },
+          {
+            serviceId: 6377,
+            serviceName: "Gall Bladder Fluid Analysis",
+            price: 1200,
+          },
+          {
+            serviceId: 6378,
+            serviceName: "Gall Blader Fluid for AFB",
+            price: 600,
+          },
+          {
+            serviceId: 6379,
+            serviceName: "Gall Blader Fluid for Anti TB IgA",
+            price: 1400,
+          },
+          {
+            serviceId: 6380,
+            serviceName: "Gall Blader Fluid for Anti TB IgG",
+            price: 1400,
+          },
+          {
+            serviceId: 6381,
+            serviceName: "Gall Blader Fluid for Anti TB IgM",
+            price: 1400,
+          },
+          {
+            serviceId: 6382,
+            serviceName: "Gall Blader Fluid for C/S",
+            price: 1500,
+          },
+          {
+            serviceId: 6383,
+            serviceName: "Gall Blader Fluid for Cytology",
+            price: 1200,
+          },
+          {
+            serviceId: 6384,
+            serviceName: "Gall Blader Fluid for Gram Stain",
+            price: 600,
+          },
+          {
+            serviceId: 6385,
+            serviceName: "Gastric Fluid for AFB",
+            price: 600,
+          },
+          {
+            serviceId: 6386,
+            serviceName: "Gum Swab for C/S",
+            price: 1500,
+          },
+          {
+            serviceId: 6387,
+            serviceName: "Gum Swab for Gram Stain",
+            price: 600,
+          },
+          {
+            serviceId: 6388,
+            serviceName: "Hair Clipping for Fungus",
+            price: 600,
+          },
+          {
+            serviceId: 6389,
+            serviceName: "Hair For C/S",
+            price: 1500,
+          },
+          {
+            serviceId: 6390,
+            serviceName: "Hair Root C/S for Fungus",
+            price: 1500,
+          },
+          {
+            serviceId: 6391,
+            serviceName: "Hair Root for Fungus",
+            price: 600,
+          },
+          {
+            serviceId: 6392,
+            serviceName: "HVS C/S for Anerobic",
+            price: 1500,
+          },
+          {
+            serviceId: 6393,
+            serviceName: "HVS C/S for Fungus",
+            price: 1500,
+          },
+          {
+            serviceId: 6394,
+            serviceName: "HVS For AFB",
+            price: 600,
+          },
+          {
+            serviceId: 6395,
+            serviceName: "HVS for C/S",
+            price: 1500,
+          },
+          {
+            serviceId: 6396,
+            serviceName: "HVS for Gram Stain",
+            price: 600,
+          },
+          {
+            serviceId: 6397,
+            serviceName: "HVS for Wet Film",
+            price: 600,
+          },
+          {
+            serviceId: 6398,
+            serviceName: "ICT for Chikungunya IgM ",
+            price: 1200,
+          },
+          {
+            serviceId: 6399,
+            serviceName: "ICT for Chikungunya: (IgG & IgM)",
+            price: 1200,
+          },
+          {
+            serviceId: 6400,
+            serviceName: "ICT for Chlamydia",
+            price: 1400,
+          },
+          {
+            serviceId: 6401,
+            serviceName: "ICT for Dengue Antibodies: (IgG & IgM)",
+            price: 300,
+          },
+          {
+            serviceId: 6402,
+            serviceName: "ICT For Filaria",
+            price: 1400,
+          },
+          {
+            serviceId: 6403,
+            serviceName: "ICT For Kalazar",
+            price: 1400,
+          },
+          {
+            serviceId: 6404,
+            serviceName: "ICT for Malaria (p.f/p.v)",
+            price: 1400,
+          },
+          {
+            serviceId: 6405,
+            serviceName: "ICT for TPHA",
+            price: 800,
+          },
+          {
+            serviceId: 6406,
+            serviceName: "ICT For Tuberculosis",
+            price: 1400,
+          },
+          {
+            serviceId: 6407,
+            serviceName: "IgA",
+            price: 1400,
+          },
+          {
+            serviceId: 6408,
+            serviceName: "IgG",
+            price: 1400,
+          },
+          {
+            serviceId: 6409,
+            serviceName: "IgM",
+            price: 1400,
+          },
+          {
+            serviceId: 6410,
+            serviceName: "Intra Ocular Fluid C/S for Fungus",
+            price: 1500,
+          },
+          {
+            serviceId: 6411,
+            serviceName: "Intra Ocular Fluid for C/S",
+            price: 1500,
+          },
+          {
+            serviceId: 6412,
+            serviceName: "Intra Ocular Fluid for Gram Stain",
+            price: 600,
+          },
+          {
+            serviceId: 6413,
+            serviceName: "Latex Agglutination Test For Bacterial Antigens",
+            price: 2000,
+          },
+          {
+            serviceId: 6414,
+            serviceName: "Lesion for C/S",
+            price: 1500,
+          },
+          {
+            serviceId: 6415,
+            serviceName: "Lesion for Gram Stain",
+            price: 600,
+          },
+          {
+            serviceId: 6416,
+            serviceName: "Liver abscess fluid for Analysis",
+            price: 1400,
+          },
+          {
+            serviceId: 6417,
+            serviceName: "Liver abscess fluid for C/S",
+            price: 1500,
+          },
+          {
+            serviceId: 6418,
+            serviceName: "Liver Abscess Fluid for Cytology",
+            price: 1200,
+          },
+          {
+            serviceId: 6419,
+            serviceName: "Machine Swab for C/S",
+            price: 1500,
+          },
+          {
+            serviceId: 6420,
+            serviceName: "Nail Cliping C/S for Fungus",
+            price: 1500,
+          },
+          {
+            serviceId: 6421,
+            serviceName: "Nail Clipping for Fungus",
+            price: 600,
+          },
+          {
+            serviceId: 6422,
+            serviceName: "Nail for C/S",
+            price: 1500,
+          },
+          {
+            serviceId: 6423,
+            serviceName: "Nail Scraping for Fungus",
+            price: 600,
+          },
+          {
+            serviceId: 6424,
+            serviceName: "Nasal Sawab Gram Stain",
+            price: 600,
+          },
+          {
+            serviceId: 6425,
+            serviceName: "Nasal Scrapping for Hensens Bacilli",
+            price: 600,
+          },
+          {
+            serviceId: 6426,
+            serviceName: "Nasal Swab for C/S",
+            price: 1500,
+          },
+          {
+            serviceId: 6427,
+            serviceName: "Nasal Swab for Fungus",
+            price: 600,
+          },
+          {
+            serviceId: 6428,
+            serviceName: "Nasopharynx (Lt.) Swab for C/S",
+            price: 1500,
+          },
+          {
+            serviceId: 6429,
+            serviceName: "Nasopharynx (Rt.) Swab for C/S",
+            price: 1500,
+          },
+          {
+            serviceId: 6430,
+            serviceName: "Nipple Discharge for AFB Stain",
+            price: 600,
+          },
+          {
+            serviceId: 6431,
+            serviceName: "Nipple Discharge for C/S",
+            price: 1500,
+          },
+          {
+            serviceId: 6432,
+            serviceName: "Nipple Discharge for Cytology",
+            price: 1000,
+          },
+          {
+            serviceId: 6433,
+            serviceName: "Nipple Discharge for Gram Stain",
+            price: 600,
+          },
+          {
+            serviceId: 6434,
+            serviceName: "Nipple Discharge(Left) for C/S",
+            price: 1500,
+          },
+          {
+            serviceId: 6435,
+            serviceName: "Nipple Discharge(Right) for C/S",
+            price: 1500,
+          },
+          {
+            serviceId: 6436,
+            serviceName: "Oral Lassion Scrapping for Fungus",
+            price: 600,
+          },
+          {
+            serviceId: 6437,
+            serviceName: "Oral Lassion Scrapping for Gram Stain",
+            price: 600,
+          },
+          {
+            serviceId: 6438,
+            serviceName: "Oral Swab for AFB Stain",
+            price: 600,
+          },
+          {
+            serviceId: 6439,
+            serviceName: "Oral Swab for C/S",
+            price: 1500,
+          },
+          {
+            serviceId: 6440,
+            serviceName: "Oral Swab for Gram Stain",
+            price: 600,
+          },
+          {
+            serviceId: 6441,
+            serviceName: "Otomycotic Plug (Ear) for Microscopy",
+            price: 600,
+          },
+          {
+            serviceId: 6442,
+            serviceName: "Otomycotic Plug (Lt. Ear) for C/S",
+            price: 1500,
+          },
+          {
+            serviceId: 6443,
+            serviceName: "P. D. Fluid for C/S",
+            price: 1500,
+          },
+          {
+            serviceId: 6444,
+            serviceName: "P/S C/S for Fungus",
+            price: 1500,
+          },
+          {
+            serviceId: 6445,
+            serviceName: "P/S for AFB",
+            price: 600,
+          },
+          {
+            serviceId: 6446,
+            serviceName: "P/S for C/S",
+            price: 1500,
+          },
+          {
+            serviceId: 6447,
+            serviceName: "P/S for Fungus",
+            price: 600,
+          },
+          {
+            serviceId: 6448,
+            serviceName: "P/S for Gram Stain",
+            price: 600,
+          },
+          {
+            serviceId: 6449,
+            serviceName: "P/S for Wet Film",
+            price: 600,
+          },
+          {
+            serviceId: 6450,
+            serviceName: "Paps smear for C/S",
+            price: 1500,
+          },
+          {
+            serviceId: 6451,
+            serviceName: "Pericardial Fluid for AFB Stain",
+            price: 600,
+          },
+          {
+            serviceId: 6452,
+            serviceName: "Pericardial Fluid for Anti TB IgA",
+            price: 1400,
+          },
+          {
+            serviceId: 6453,
+            serviceName: "Pericardial Fluid for Anti TB IgG",
+            price: 1400,
+          },
+          {
+            serviceId: 6454,
+            serviceName: "Pericardial Fluid for Anti TB IgM",
+            price: 1400,
+          },
+          {
+            serviceId: 6455,
+            serviceName: "Pericardial Fluid for C/S",
+            price: 1500,
+          },
+          {
+            serviceId: 6456,
+            serviceName: "Pericardial Fluid for Cytology",
+            price: 1200,
+          },
+          {
+            serviceId: 6457,
+            serviceName: "Pericardial fluid for GeneXpert(MTB)",
+            price: 6000,
+          },
+          {
+            serviceId: 6458,
+            serviceName: "Pericardial Fluid for Gram Stain",
+            price: 600,
+          },
+          {
+            serviceId: 6459,
+            serviceName: "Peritoneal Fluid Analysis",
+            price: 1400,
+          },
+          {
+            serviceId: 6460,
+            serviceName: "Peritoneal Fluid for AFB",
+            price: 600,
+          },
+          {
+            serviceId: 6461,
+            serviceName: "Peritoneal Fluid for Anti TB IgA",
+            price: 1400,
+          },
+          {
+            serviceId: 6462,
+            serviceName: "Peritoneal Fluid for Anti TB IgG",
+            price: 1400,
+          },
+          {
+            serviceId: 6463,
+            serviceName: "Peritoneal Fluid for Anti TB IgM",
+            price: 1400,
+          },
+          {
+            serviceId: 6464,
+            serviceName: "Peritoneal Fluid for C/S",
+            price: 1500,
+          },
+          {
+            serviceId: 6465,
+            serviceName: "Peritoneal Fluid for Cytology",
+            price: 1200,
+          },
+          {
+            serviceId: 6466,
+            serviceName: "Peritoneal Fluid for Gram Stain",
+            price: 600,
+          },
+          {
+            serviceId: 6467,
+            serviceName: "Peri-Urethral Swab for C/S",
+            price: 1500,
+          },
+          {
+            serviceId: 6468,
+            serviceName: "Pleural Fluid Analysis",
+            price: 1400,
+          },
+          {
+            serviceId: 6469,
+            serviceName: "Pleural Fluid for AFB",
+            price: 600,
+          },
+          {
+            serviceId: 6470,
+            serviceName: "Pleural Fluid for Anti TB IgA",
+            price: 1400,
+          },
+          {
+            serviceId: 6471,
+            serviceName: "Pleural Fluid for Anti TB IgG",
+            price: 1400,
+          },
+          {
+            serviceId: 6472,
+            serviceName: "Pleural Fluid for Anti TB IgM",
+            price: 1400,
+          },
+          {
+            serviceId: 6473,
+            serviceName: "Pleural Fluid for C/S",
+            price: 1500,
+          },
+          {
+            serviceId: 6474,
+            serviceName: "Pleural Fluid for Cytology",
+            price: 1500,
+          },
+          {
+            serviceId: 6475,
+            serviceName: "Pleural fluid for GeneXpert(MTB)",
+            price: 6000,
+          },
+          {
+            serviceId: 6476,
+            serviceName: "Pleural Fluid for Gram Stain",
+            price: 600,
+          },
+          {
+            serviceId: 6477,
+            serviceName: "Pregnancy Test (HCG Level)",
+            price: 1400,
+          },
+          {
+            serviceId: 6478,
+            serviceName: "Preputial Smear for C/S",
+            price: 1500,
+          },
+          {
+            serviceId: 6479,
+            serviceName: "Preputial Smear for Gram Stain",
+            price: 600,
+          },
+          {
+            serviceId: 6480,
+            serviceName: "Prostatic Smear C/S for Anerobic",
+            price: 1500,
+          },
+          {
+            serviceId: 6481,
+            serviceName: "Pus C/S for AFB",
+            price: 1500,
+          },
+          {
+            serviceId: 6482,
+            serviceName: "Pus C/S for Anerobic",
+            price: 1500,
+          },
+          {
+            serviceId: 6483,
+            serviceName: "Pus C/S for Fungus",
+            price: 1500,
+          },
+          {
+            serviceId: 6484,
+            serviceName: "Pus for AFB",
+            price: 600,
+          },
+          {
+            serviceId: 6485,
+            serviceName: "Pus for C/S",
+            price: 1500,
+          },
+          {
+            serviceId: 6486,
+            serviceName: "Pus for Fungus",
+            price: 600,
+          },
+          {
+            serviceId: 6487,
+            serviceName: "Pus for GeneXpert(MTB)",
+            price: 6000,
+          },
+          {
+            serviceId: 6488,
+            serviceName: "Pus for Gram Stain",
+            price: 600,
+          },
+          {
+            serviceId: 6489,
+            serviceName: "Pus from the lesion of breast for C/S",
+            price: 1500,
+          },
+          {
+            serviceId: 6490,
+            serviceName: "QuantiFERON-TB Gold Plus",
+            price: 8000,
+          },
+          {
+            serviceId: 6491,
+            serviceName: "R. A. Test (Titre)",
+            price: 700,
+          },
+          {
+            serviceId: 6492,
+            serviceName: "Rectal Swab for AFB",
+            price: 600,
+          },
+          {
+            serviceId: 6493,
+            serviceName: "Rectal Swab for C/S",
+            price: 1500,
+          },
+          {
+            serviceId: 6494,
+            serviceName: "Rectal Swab for Gram Stain",
+            price: 600,
+          },
+          {
+            serviceId: 6495,
+            serviceName: "Rh Antibody(Anti- D Ab)",
+            price: 1200,
+          },
+          {
+            serviceId: 6496,
+            serviceName: "Rose Waaler Test (Titre)",
+            price: 700,
+          },
+          {
+            serviceId: 6497,
+            serviceName: "Saliva for Fungus",
+            price: 600,
+          },
+          {
+            serviceId: 6498,
+            serviceName: "Scrapping from Lt. Cheek for C/S",
+            price: 1500,
+          },
+          {
+            serviceId: 6499,
+            serviceName: "Scrapping from Rt. Cheek for C/S",
+            price: 1500,
+          },
+          {
+            serviceId: 6500,
+            serviceName: "Scrapping from Tongue for C/S",
+            price: 1500,
+          },
+          {
+            serviceId: 6501,
+            serviceName: "Scrapping from Tongue for Gram Stain",
+            price: 600,
+          },
+          {
+            serviceId: 6502,
+            serviceName: "Scrapping from Tung for AFB Stain",
+            price: 600,
+          },
+          {
+            serviceId: 6503,
+            serviceName: "Semen Analysis",
+            price: 1000,
+          },
+          {
+            serviceId: 6504,
+            serviceName: "Semen for AFB Stain",
+            price: 600,
+          },
+          {
+            serviceId: 6505,
+            serviceName: "Semen for C/S",
+            price: 1500,
+          },
+          {
+            serviceId: 6506,
+            serviceName: "Semen for Gram Stain",
+            price: 600,
+          },
+          {
+            serviceId: 6507,
+            serviceName: "Serum Chlamydia Trachomatis IgG",
+            price: 1400,
+          },
+          {
+            serviceId: 6508,
+            serviceName: "Skin for C/S",
+            price: 1500,
+          },
+          {
+            serviceId: 6509,
+            serviceName: "Skin Scrapping C/S for AFB",
+            price: 1500,
+          },
+          {
+            serviceId: 6510,
+            serviceName: "Skin Scrapping C/S for Fungus",
+            price: 1500,
+          },
+          {
+            serviceId: 6511,
+            serviceName: "Skin scrapping for AFB Stain",
+            price: 600,
+          },
+          {
+            serviceId: 6512,
+            serviceName: "Skin Scrapping for Fungus",
+            price: 600,
+          },
+          {
+            serviceId: 6513,
+            serviceName: "Skin Scrapping for Fungus from Lips",
+            price: 600,
+          },
+          {
+            serviceId: 6514,
+            serviceName: "Skin Swab for C/S",
+            price: 1500,
+          },
+          {
+            serviceId: 6515,
+            serviceName: "Sputum C/S for AFB",
+            price: 1500,
+          },
+          {
+            serviceId: 6516,
+            serviceName: "Sputum C/S for Anerobic",
+            price: 1500,
+          },
+          {
+            serviceId: 6517,
+            serviceName: "Sputum C/S for Fungus",
+            price: 1500,
+          },
+          {
+            serviceId: 6518,
+            serviceName: "Sputum for AFB",
+            price: 600,
+          },
+          {
+            serviceId: 6519,
+            serviceName: "Sputum for AFB (1st Sample)",
+            price: 0,
+          },
+          {
+            serviceId: 6520,
+            serviceName: "Sputum for AFB (2nd Sample)",
+            price: 0,
+          },
+          {
+            serviceId: 6521,
+            serviceName: "Sputum for AFB (3rd Sample)",
+            price: 0,
+          },
+          {
+            serviceId: 6522,
+            serviceName: "Sputum for C/S",
+            price: 1500,
+          },
+          {
+            serviceId: 6523,
+            serviceName: "Sputum for Fungus",
+            price: 600,
+          },
+          {
+            serviceId: 6524,
+            serviceName: "Sputum for GeneXpert(MTB)",
+            price: 6000,
+          },
+          {
+            serviceId: 6525,
+            serviceName: "Sputum for Gram Stain",
+            price: 600,
+          },
+          {
+            serviceId: 6526,
+            serviceName: "SS C/S for Fungus from Lt. Palm",
+            price: 1500,
+          },
+          {
+            serviceId: 6527,
+            serviceName: "SS C/S for Fungus from Lt. Sole",
+            price: 1500,
+          },
+          {
+            serviceId: 6528,
+            serviceName: "SS C/S for Fungus from Rt. Hand",
+            price: 1500,
+          },
+          {
+            serviceId: 6529,
+            serviceName: "SS C/S for Fungus from Rt. Leg",
+            price: 1500,
+          },
+          {
+            serviceId: 6530,
+            serviceName: "SSF from Abdomen",
+            price: 600,
+          },
+          {
+            serviceId: 6531,
+            serviceName: "SSF from Arm",
+            price: 600,
+          },
+          {
+            serviceId: 6532,
+            serviceName: "SSF from Axilla",
+            price: 600,
+          },
+          {
+            serviceId: 6533,
+            serviceName: "SSF from Back",
+            price: 600,
+          },
+          {
+            serviceId: 6534,
+            serviceName: "SSF from Breast",
+            price: 600,
+          },
+          {
+            serviceId: 6535,
+            serviceName: "SSF from Chest",
+            price: 600,
+          },
+          {
+            serviceId: 6536,
+            serviceName: "SSF From Ear (Lt.)",
+            price: 600,
+          },
+          {
+            serviceId: 6537,
+            serviceName: "SSF From Ear (Rt.)",
+            price: 600,
+          },
+          {
+            serviceId: 6538,
+            serviceName: "SSF from Elbow",
+            price: 600,
+          },
+          {
+            serviceId: 6539,
+            serviceName: "SSF from Face",
+            price: 600,
+          },
+          {
+            serviceId: 6540,
+            serviceName: "SSF from Forehead",
+            price: 600,
+          },
+          {
+            serviceId: 6541,
+            serviceName: "SSF From Gram Stain",
+            price: 600,
+          },
+          {
+            serviceId: 6542,
+            serviceName: "SSF from Groin",
+            price: 600,
+          },
+          {
+            serviceId: 6543,
+            serviceName: "SSF from Hip",
+            price: 600,
+          },
+          {
+            serviceId: 6544,
+            serviceName: "SSF from Left Eye",
+            price: 600,
+          },
+          {
+            serviceId: 6545,
+            serviceName: "SSF from Left Palm",
+            price: 600,
+          },
+          {
+            serviceId: 6546,
+            serviceName: "SSF from Left Sole",
+            price: 600,
+          },
+          {
+            serviceId: 6547,
+            serviceName: "SSF from Lt. Cheek",
+            price: 600,
+          },
+          {
+            serviceId: 6548,
+            serviceName: "SSF from Lt. Foot",
+            price: 600,
+          },
+          {
+            serviceId: 6549,
+            serviceName: "SSF from Lt. Hand",
+            price: 600,
+          },
+          {
+            serviceId: 6550,
+            serviceName: "SSF from Lt. Leg",
+            price: 600,
+          },
+          {
+            serviceId: 6551,
+            serviceName: "SSF from Lt. Shoulder",
+            price: 600,
+          },
+          {
+            serviceId: 6552,
+            serviceName: "SSF from Lt. Toe",
+            price: 600,
+          },
+          {
+            serviceId: 6553,
+            serviceName: "SSF from Neck",
+            price: 600,
+          },
+          {
+            serviceId: 6554,
+            serviceName: "SSF from Right Sole",
+            price: 600,
+          },
+          {
+            serviceId: 6555,
+            serviceName: "SSF from Rightt Palm",
+            price: 600,
+          },
+          {
+            serviceId: 6556,
+            serviceName: "SSF from Rt. Cheek",
+            price: 600,
+          },
+          {
+            serviceId: 6557,
+            serviceName: "SSF from Rt. Foot",
+            price: 600,
+          },
+          {
+            serviceId: 6558,
+            serviceName: "SSF from Rt. Hand",
+            price: 600,
+          },
+          {
+            serviceId: 6559,
+            serviceName: "SSF from Rt. Leg",
+            price: 600,
+          },
+          {
+            serviceId: 6560,
+            serviceName: "SSF from Rt. Shoulder",
+            price: 600,
+          },
+          {
+            serviceId: 6561,
+            serviceName: "SSF from Rt. Toe",
+            price: 600,
+          },
+          {
+            serviceId: 6562,
+            serviceName: "SSF from Scalp",
+            price: 600,
+          },
+          {
+            serviceId: 6563,
+            serviceName: "SSF from Thigh",
+            price: 600,
+          },
+          {
+            serviceId: 6564,
+            serviceName: "SSF from Tongue",
+            price: 600,
+          },
+          {
+            serviceId: 6565,
+            serviceName: "SSF from Waist",
+            price: 600,
+          },
+          {
+            serviceId: 6566,
+            serviceName: "Stool for C/S",
+            price: 1500,
+          },
+          {
+            serviceId: 6567,
+            serviceName: "Sub Dural Fluid for AFB",
+            price: 600,
+          },
+          {
+            serviceId: 6568,
+            serviceName: "Sub dural Fluid for C/S",
+            price: 1500,
+          },
+          {
+            serviceId: 6569,
+            serviceName: "Sub Dural Fluid for Gram Stain",
+            price: 600,
+          },
+          {
+            serviceId: 6570,
+            serviceName: "Suction Tip for C/S",
+            price: 1500,
+          },
+          {
+            serviceId: 6571,
+            serviceName: "Swab C/S for AFB",
+            price: 1500,
+          },
+          {
+            serviceId: 6572,
+            serviceName: "Swab C/S for Fungus",
+            price: 1500,
+          },
+          {
+            serviceId: 6573,
+            serviceName: "Swab for C/S",
+            price: 1500,
+          },
+          {
+            serviceId: 6574,
+            serviceName: "Swab from A/C for C/S",
+            price: 1500,
+          },
+          {
+            serviceId: 6575,
+            serviceName: "Swab from Cervix for C/S",
+            price: 1500,
+          },
+          {
+            serviceId: 6576,
+            serviceName: "Swab from Cot for C/S",
+            price: 1500,
+          },
+          {
+            serviceId: 6577,
+            serviceName: "Swab from floor for C/S",
+            price: 1500,
+          },
+          {
+            serviceId: 6578,
+            serviceName: "Swab from wall for C/S",
+            price: 1500,
+          },
+          {
+            serviceId: 6579,
+            serviceName: "Synovial Fluid for AFB",
+            price: 600,
+          },
+          {
+            serviceId: 6580,
+            serviceName: "Synovial Fluid for Anti TB IgA",
+            price: 1400,
+          },
+          {
+            serviceId: 6581,
+            serviceName: "Synovial Fluid for Anti TB IgG",
+            price: 1400,
+          },
+          {
+            serviceId: 6582,
+            serviceName: "Synovial Fluid for Anti TB IgM",
+            price: 1400,
+          },
+          {
+            serviceId: 6583,
+            serviceName: "Synovial Fluid for C/S",
+            price: 1500,
+          },
+          {
+            serviceId: 6584,
+            serviceName: "Synovial Fluid for Cytology",
+            price: 1200,
+          },
+          {
+            serviceId: 6585,
+            serviceName: "Synovial Fluid for Gram Stain",
+            price: 600,
+          },
+          {
+            serviceId: 6586,
+            serviceName: "T / E Tube For C/S",
+            price: 1500,
+          },
+          {
+            serviceId: 6587,
+            serviceName: "Throat Swab for AFB",
+            price: 600,
+          },
+          {
+            serviceId: 6588,
+            serviceName: "Throat Swab for C/S",
+            price: 1500,
+          },
+          {
+            serviceId: 6589,
+            serviceName: "Throat Swab for Fungus",
+            price: 600,
+          },
+          {
+            serviceId: 6590,
+            serviceName: "Throat Swab for Gram Stain",
+            price: 600,
+          },
+          {
+            serviceId: 6591,
+            serviceName: "Throat Swab for KLB",
+            price: 600,
+          },
+          {
+            serviceId: 6592,
+            serviceName: "Tissue C/S for AFB",
+            price: 1500,
+          },
+          {
+            serviceId: 6593,
+            serviceName: "Tissue for AFB",
+            price: 600,
+          },
+          {
+            serviceId: 6594,
+            serviceName: "Tissue for C/S",
+            price: 1500,
+          },
+          {
+            serviceId: 6595,
+            serviceName: "Tissue for Fungus",
+            price: 600,
+          },
+          {
+            serviceId: 6596,
+            serviceName: "Tissue for GeneXpert(MTB)",
+            price: 6000,
+          },
+          {
+            serviceId: 6597,
+            serviceName: "Tissue for Gram Stain",
+            price: 600,
+          },
+          {
+            serviceId: 6598,
+            serviceName: "Tongue Scrapping C/S for Fungus",
+            price: 1500,
+          },
+          {
+            serviceId: 6599,
+            serviceName: "Tongue Scrapping for Fungus",
+            price: 600,
+          },
+          {
+            serviceId: 6600,
+            serviceName: "Tongue Swab C/S for Fungus",
+            price: 1500,
+          },
+          {
+            serviceId: 6601,
+            serviceName: "Tongue Swab for C/S",
+            price: 1500,
+          },
+          {
+            serviceId: 6602,
+            serviceName: "Tongue Swab for Fungus",
+            price: 600,
+          },
+          {
+            serviceId: 6603,
+            serviceName: "TPHA (Qty)",
+            price: 1000,
+          },
+          {
+            serviceId: 6604,
+            serviceName: "Tracheal Aspirate for AFB Stain",
+            price: 600,
+          },
+          {
+            serviceId: 6605,
+            serviceName: "Tracheal Aspirate for C/S",
+            price: 1500,
+          },
+          {
+            serviceId: 6606,
+            serviceName: "Tracheal Aspirate for GeneXpert(MTB)",
+            price: 6000,
+          },
+          {
+            serviceId: 6607,
+            serviceName: "Tracheal Aspirate for Gram Stain",
+            price: 600,
+          },
+          {
+            serviceId: 6608,
+            serviceName: "Trachiostomy Tube Swab for C/S",
+            price: 1500,
+          },
+          {
+            serviceId: 6609,
+            serviceName: "Triple Antigen",
+            price: 1200,
+          },
+          {
+            serviceId: 6610,
+            serviceName: "Umbilical Swab for C/S",
+            price: 1500,
+          },
+          {
+            serviceId: 6611,
+            serviceName: "Umbilical Swab for Gram Stain",
+            price: 600,
+          },
+          {
+            serviceId: 6612,
+            serviceName: "Urethral Discharge for AFB",
+            price: 600,
+          },
+          {
+            serviceId: 6613,
+            serviceName: "Urethral Discharge for C/S",
+            price: 1500,
+          },
+          {
+            serviceId: 6614,
+            serviceName: "Urethral Discharge for Gram Stain",
+            price: 600,
+          },
+          {
+            serviceId: 6615,
+            serviceName: "Urethral Discharge for Wet Film",
+            price: 600,
+          },
+          {
+            serviceId: 6616,
+            serviceName: "Urine C/S for AFB",
+            price: 1500,
+          },
+          {
+            serviceId: 6617,
+            serviceName: "Urine C/S for Anerobic",
+            price: 1500,
+          },
+          {
+            serviceId: 6618,
+            serviceName: "Urine C/S for Fungus",
+            price: 1500,
+          },
+          {
+            serviceId: 6619,
+            serviceName: "Urine for AFB",
+            price: 600,
+          },
+          {
+            serviceId: 6620,
+            serviceName: "Urine for C/S",
+            price: 1500,
+          },
+          {
+            serviceId: 6621,
+            serviceName: "Urine for C/S (C)",
+            price: 600,
+          },
+          {
+            serviceId: 6622,
+            serviceName: "Urine for C/S (L)",
+            price: 0,
+          },
+          {
+            serviceId: 6623,
+            serviceName: "Urine for C/S with MIC",
+            price: 0,
+          },
+          {
+            serviceId: 6624,
+            serviceName: "Urine for GeneXpert (MTB)",
+            price: 6000,
+          },
+          {
+            serviceId: 6625,
+            serviceName: "Urine for Gram Stain",
+            price: 600,
+          },
+          {
+            serviceId: 6626,
+            serviceName: "Urine for Pregnancy Test",
+            price: 300,
+          },
+          {
+            serviceId: 6627,
+            serviceName: "Urine for Wet Film",
+            price: 500,
+          },
+          {
+            serviceId: 6628,
+            serviceName: "Vaginal Scrapping for fungus",
+            price: 600,
+          },
+          {
+            serviceId: 6629,
+            serviceName: "Vaginal Swab for AFB",
+            price: 600,
+          },
+          {
+            serviceId: 6630,
+            serviceName: "Vaginal Swab for C/S",
+            price: 1500,
+          },
+          {
+            serviceId: 6631,
+            serviceName: "Vaginal Swab for Fungus",
+            price: 600,
+          },
+          {
+            serviceId: 6632,
+            serviceName: "Vaginal Swab for Gram Stain",
+            price: 600,
+          },
+          {
+            serviceId: 6633,
+            serviceName: "Vault Smear for C/S",
+            price: 1500,
+          },
+          {
+            serviceId: 6634,
+            serviceName: "Vault Smear for Gram Stain",
+            price: 600,
+          },
+          {
+            serviceId: 6635,
+            serviceName: "VDRL",
+            price: 600,
+          },
+          {
+            serviceId: 6636,
+            serviceName: "VDRL (Qty)",
+            price: 1200,
+          },
+          {
+            serviceId: 6637,
+            serviceName: "Vi Antigen of S. Typhi",
+            price: 1200,
+          },
+          {
+            serviceId: 6638,
+            serviceName: "Vitreous Aspirate C/S for Fungus",
+            price: 1500,
+          },
+          {
+            serviceId: 6639,
+            serviceName: "Vitreous Aspirate for C/S",
+            price: 1500,
+          },
+          {
+            serviceId: 6640,
+            serviceName: "Vitreous Aspirate for Fungus",
+            price: 600,
+          },
+          {
+            serviceId: 6641,
+            serviceName: "Vitreous Aspirate for Gram Stain",
+            price: 600,
+          },
+          {
+            serviceId: 6642,
+            serviceName: "Vulval scrapping for fungus",
+            price: 600,
+          },
+          {
+            serviceId: 6643,
+            serviceName: "Vulval swab for C/S",
+            price: 1500,
+          },
+          {
+            serviceId: 6644,
+            serviceName: "Vulval Swab for Gram Stain",
+            price: 600,
+          },
+          {
+            serviceId: 6645,
+            serviceName: "Widal Test",
+            price: 600,
+          },
+          {
+            serviceId: 6646,
+            serviceName: "Wound Swab for AFB",
+            price: 600,
+          },
+          {
+            serviceId: 6647,
+            serviceName: "Wound Swab for C/S",
+            price: 1500,
+          },
+          {
+            serviceId: 6648,
+            serviceName: "Wound Swab for Gram Stain",
+            price: 600,
+          },
+        ],
+      },
+      {
+        categoryId: 15,
+        categoryName: "RADIOLOGY",
+        items: [
+          {
+            serviceId: 6649,
+            serviceName:
+              "AP Spine 2 (Two) side measurement of bone densitometer (Dexa Scan)(2203)",
+            price: 3000,
+          },
+          {
+            serviceId: 6650,
+            serviceName:
+              "Dual Femur measurement of bone densitometer (Dexa Scan)",
+            price: 1500,
+          },
+          {
+            serviceId: 6651,
+            serviceName: "Forearm measurement of bone densitometer (Dexa Scan)",
+            price: 1500,
+          },
+          {
+            serviceId: 6652,
+            serviceName:
+              "Lateral Spine (LVA) of bone densitometer (Dexa Scan)(2205)",
+            price: 2000,
+          },
+          {
+            serviceId: 6653,
+            serviceName:
+              "Single Femur Measurement of bone densitometer (Dexa Scan)",
+            price: 1500,
+          },
+          {
+            serviceId: 6654,
+            serviceName: "Vesico Ureteric Reflux",
+            price: 2000,
+          },
+          {
+            serviceId: 6655,
+            serviceName: "Whole body scan of bone densitometer (Dexa Scan)",
+            price: 3000,
+          },
+          {
+            serviceId: 6656,
+            serviceName: "Cardiac CT for Calcium Scoring",
+            price: 6000,
+          },
+          {
+            serviceId: 6657,
+            serviceName: "CT Abdominal Aortogram",
+            price: 14000,
+          },
+          {
+            serviceId: 6658,
+            serviceName: "CT Angio Abdomenal Vessel",
+            price: 14000,
+          },
+          {
+            serviceId: 6659,
+            serviceName: "CT Angio of Aortogram",
+            price: 14000,
+          },
+          {
+            serviceId: 6660,
+            serviceName: "CT Angio of Brain",
+            price: 12000,
+          },
+          {
+            serviceId: 6661,
+            serviceName: "CT Angio of Brain & Neck Vessel",
+            price: 14000,
+          },
+          {
+            serviceId: 6662,
+            serviceName:
+              "CT Angio of Brain perfusion With Acetazolamide Challenge",
+            price: 0,
+          },
+          {
+            serviceId: 6663,
+            serviceName:
+              "CT Angio of Brain perfusion With Acetazolamide Challenge & Neck vessel",
+            price: 0,
+          },
+          {
+            serviceId: 6664,
+            serviceName: "CT Angio of Cardiac",
+            price: 12000,
+          },
+          {
+            serviceId: 6665,
+            serviceName: "CT Angio of Liver / Three Phase Liver",
+            price: 12000,
+          },
+          {
+            serviceId: 6666,
+            serviceName: "CT Angio of Neck Vessels",
+            price: 12000,
+          },
+          {
+            serviceId: 6667,
+            serviceName: "CT Angio of Peripheral Lower Limbs",
+            price: 12000,
+          },
+          {
+            serviceId: 6668,
+            serviceName: "CT Angio of Peripheral Upper Limbs",
+            price: 12000,
+          },
+          {
+            serviceId: 6669,
+            serviceName: "CT Angio of Pulmonary Vessel",
+            price: 12000,
+          },
+          {
+            serviceId: 6670,
+            serviceName: "CT Angio of Renal",
+            price: 12000,
+          },
+          {
+            serviceId: 6671,
+            serviceName: "CT Cisternography / Cistetnogram",
+            price: 12000,
+          },
+          {
+            serviceId: 6672,
+            serviceName: "CT CSF Rhinorrhea (PNS + T2 MRI)",
+            price: 8000,
+          },
+          {
+            serviceId: 6673,
+            serviceName: "CT Enterography",
+            price: 12000,
+          },
+          {
+            serviceId: 6674,
+            serviceName: "CT Guided FNAC-1",
+            price: 3500,
+          },
+          {
+            serviceId: 6675,
+            serviceName: "CT Guided FNAC-2",
+            price: 3500,
+          },
+          {
+            serviceId: 6676,
+            serviceName: "CT Nesopharunx",
+            price: 6000,
+          },
+          {
+            serviceId: 6677,
+            serviceName: "CT Oesophagus",
+            price: 6000,
+          },
+          {
+            serviceId: 6678,
+            serviceName:
+              "CT of GE Visipaque Contrast-50 ml with procedure, appliances & extra film.",
+            price: 4300,
+          },
+          {
+            serviceId: 6679,
+            serviceName: "CT of Oral Cavity",
+            price: 6000,
+          },
+          {
+            serviceId: 6680,
+            serviceName: "CT of Parotid Gland",
+            price: 6000,
+          },
+          {
+            serviceId: 6681,
+            serviceName: "CT of Thyroid Gland",
+            price: 6000,
+          },
+          {
+            serviceId: 6682,
+            serviceName: "CT Scan of Base of the Skull",
+            price: 6000,
+          },
+          {
+            serviceId: 6683,
+            serviceName: "CT Scan of Ears",
+            price: 6000,
+          },
+          {
+            serviceId: 6684,
+            serviceName: "CT Scan of Left Ankle",
+            price: 6500,
+          },
+          {
+            serviceId: 6685,
+            serviceName: "CT Scan of Left Ear/Mastoid",
+            price: 6000,
+          },
+          {
+            serviceId: 6686,
+            serviceName: "CT Scan of Left Elbow Joint",
+            price: 6500,
+          },
+          {
+            serviceId: 6687,
+            serviceName: "CT Scan of Left Foot",
+            price: 6500,
+          },
+          {
+            serviceId: 6688,
+            serviceName: "CT Scan of Left Hip Joint",
+            price: 6500,
+          },
+          {
+            serviceId: 6689,
+            serviceName: "CT Scan of Left Knee Joint",
+            price: 6500,
+          },
+          {
+            serviceId: 6690,
+            serviceName: "CT Scan of Left Leg",
+            price: 6500,
+          },
+          {
+            serviceId: 6691,
+            serviceName: "CT Scan of Left Shoulder Joint",
+            price: 6500,
+          },
+          {
+            serviceId: 6692,
+            serviceName: "CT Scan of Left Thigh",
+            price: 6500,
+          },
+          {
+            serviceId: 6693,
+            serviceName: "CT Scan of Left Wrist Joint",
+            price: 6500,
+          },
+          {
+            serviceId: 6694,
+            serviceName: "CT Scan of Orbits",
+            price: 6000,
+          },
+          {
+            serviceId: 6695,
+            serviceName: "CT Scan of Right Ankle",
+            price: 6500,
+          },
+          {
+            serviceId: 6696,
+            serviceName: "CT Scan of Right Ear/Mastoid",
+            price: 6000,
+          },
+          {
+            serviceId: 6697,
+            serviceName: "CT Scan of Right Elbow Joint",
+            price: 6500,
+          },
+          {
+            serviceId: 6698,
+            serviceName: "CT Scan of Right Foot",
+            price: 6500,
+          },
+          {
+            serviceId: 6699,
+            serviceName: "CT Scan of Right Hip Joint",
+            price: 6500,
+          },
+          {
+            serviceId: 6700,
+            serviceName: "CT Scan of Right Knee Joint",
+            price: 6500,
+          },
+          {
+            serviceId: 6701,
+            serviceName: "CT Scan of Right Leg",
+            price: 6500,
+          },
+          {
+            serviceId: 6702,
+            serviceName: "CT Scan of Right Shoulder Joint",
+            price: 6500,
+          },
+          {
+            serviceId: 6703,
+            serviceName: "CT Scan of Right Thigh",
+            price: 6500,
+          },
+          {
+            serviceId: 6704,
+            serviceName: "CT Scan of Right Wrist Joint",
+            price: 6500,
+          },
+          {
+            serviceId: 6705,
+            serviceName: "CT Supra-renalgland",
+            price: 6000,
+          },
+          {
+            serviceId: 6706,
+            serviceName: "CT Urography",
+            price: 12000,
+          },
+          {
+            serviceId: 6707,
+            serviceName: "Douche Charge (For CT/MRI)",
+            price: 200,
+          },
+          {
+            serviceId: 6708,
+            serviceName: "FNAC CT",
+            price: 1500,
+          },
+          {
+            serviceId: 6709,
+            serviceName: "Low dose CT. Scan of Chest Screening",
+            price: 4000,
+          },
+          {
+            serviceId: 6710,
+            serviceName: "Spiral CT Scan Base of Skull",
+            price: 6000,
+          },
+          {
+            serviceId: 6711,
+            serviceName: "Spiral CT Scan of Adrenal Glands",
+            price: 6000,
+          },
+          {
+            serviceId: 6712,
+            serviceName: "Spiral CT Scan of Brain",
+            price: 4000,
+          },
+          {
+            serviceId: 6713,
+            serviceName: "Spiral CT Scan of Brain & ..............",
+            price: 7000,
+          },
+          {
+            serviceId: 6714,
+            serviceName: "Spiral CT Scan of Brain & Orbit/P.N.S.",
+            price: 7000,
+          },
+          {
+            serviceId: 6715,
+            serviceName: "Spiral CT Scan of Cervical Spine",
+            price: 6000,
+          },
+          {
+            serviceId: 6716,
+            serviceName: "Spiral CT Scan of Chest (HRCT)",
+            price: 6000,
+          },
+          {
+            serviceId: 6717,
+            serviceName: "Spiral CT Scan of Chest/Lungs",
+            price: 6000,
+          },
+          {
+            serviceId: 6718,
+            serviceName: "Spiral CT Scan of Dorsal/Thoracic Spine",
+            price: 6000,
+          },
+          {
+            serviceId: 6719,
+            serviceName: "Spiral CT Scan of Face",
+            price: 6000,
+          },
+          {
+            serviceId: 6720,
+            serviceName: "Spiral CT Scan of HBS/Liver",
+            price: 6000,
+          },
+          {
+            serviceId: 6721,
+            serviceName: "Spiral CT Scan of Kidnys",
+            price: 6000,
+          },
+          {
+            serviceId: 6722,
+            serviceName: "Spiral CT Scan of KUB",
+            price: 12000,
+          },
+          {
+            serviceId: 6723,
+            serviceName: "Spiral CT Scan of KUB (Screening)",
+            price: 10000,
+          },
+          {
+            serviceId: 6724,
+            serviceName: "Spiral CT Scan of Lower Abdomen",
+            price: 6000,
+          },
+          {
+            serviceId: 6725,
+            serviceName: "Spiral CT Scan of Lumbo Secral Spine",
+            price: 6000,
+          },
+          {
+            serviceId: 6726,
+            serviceName: "Spiral CT Scan of Neck",
+            price: 6000,
+          },
+          {
+            serviceId: 6727,
+            serviceName: "Spiral CT Scan of P. N. S.",
+            price: 6000,
+          },
+          {
+            serviceId: 6728,
+            serviceName: "Spiral CT Scan of Pelvis With 3D",
+            price: 6000,
+          },
+          {
+            serviceId: 6729,
+            serviceName: "Spiral CT Scan of Pituitary Gland",
+            price: 6000,
+          },
+          {
+            serviceId: 6730,
+            serviceName: "Spiral CT Scan of Upper Abdomen",
+            price: 6000,
+          },
+          {
+            serviceId: 6731,
+            serviceName: "Spiral CT Scan of Whole Abdomen",
+            price: 12000,
+          },
+          {
+            serviceId: 6732,
+            serviceName: "Mammography of Both Breast",
+            price: 2400,
+          },
+          {
+            serviceId: 6733,
+            serviceName: "Mammography of Left Breast",
+            price: 1200,
+          },
+          {
+            serviceId: 6734,
+            serviceName: "Mammography of Right Breast",
+            price: 1200,
+          },
+          {
+            serviceId: 6735,
+            serviceName: "CARDIAC MAGNETIC RESONANCE IMAGING (CMR)",
+            price: 25000,
+          },
+          {
+            serviceId: 6736,
+            serviceName: "Cine MRI of Cysternogram",
+            price: 9000,
+          },
+          {
+            serviceId: 6737,
+            serviceName: "Contrast : Gadolinium",
+            price: 2500,
+          },
+          {
+            serviceId: 6738,
+            serviceName: "Extra Film Charge(Per Film)",
+            price: 500,
+          },
+          {
+            serviceId: 6739,
+            serviceName: "Extra Film Charge-2(Per Film@500.TK)",
+            price: 1000,
+          },
+          {
+            serviceId: 6740,
+            serviceName: "Extra Film Charge-3(Per Film@500.TK)",
+            price: 1500,
+          },
+          {
+            serviceId: 6741,
+            serviceName: "Extra Film Charge-4(Per Film@500.TK)",
+            price: 2000,
+          },
+          {
+            serviceId: 6742,
+            serviceName: "Extra Film Charge-5(Per Film@500.TK)",
+            price: 2500,
+          },
+          {
+            serviceId: 6743,
+            serviceName: "Extra Film Charge-6(Per Film@500.TK)",
+            price: 3000,
+          },
+          {
+            serviceId: 6744,
+            serviceName: "mp MRI of Urinary Bladder Mass",
+            price: 9000,
+          },
+          {
+            serviceId: 6745,
+            serviceName: "MR of Peripharal Angio Lower Limbs",
+            price: 12000,
+          },
+          {
+            serviceId: 6746,
+            serviceName: "MR of Peripharal Angio Upper Limbs",
+            price: 12000,
+          },
+          {
+            serviceId: 6747,
+            serviceName: "MR Renal Angiography",
+            price: 7000,
+          },
+          {
+            serviceId: 6748,
+            serviceName: "MR UROGRAPHY",
+            price: 0,
+          },
+          {
+            serviceId: 6749,
+            serviceName: "MRA Neck & MRA of Brain",
+            price: 10000,
+          },
+          {
+            serviceId: 6750,
+            serviceName: "MRA of Brain",
+            price: 7000,
+          },
+          {
+            serviceId: 6751,
+            serviceName: "MRA of Hip",
+            price: 8500,
+          },
+          {
+            serviceId: 6752,
+            serviceName: "MRA of Neck",
+            price: 7000,
+          },
+          {
+            serviceId: 6753,
+            serviceName: "MRCP",
+            price: 8000,
+          },
+          {
+            serviceId: 6754,
+            serviceName: "MRCP With CT Scan",
+            price: 10000,
+          },
+          {
+            serviceId: 6755,
+            serviceName: "MRI &  MRA of Brain",
+            price: 10000,
+          },
+          {
+            serviceId: 6756,
+            serviceName: "MRI & MRA of Neck",
+            price: 10000,
+          },
+          {
+            serviceId: 6757,
+            serviceName: "MRI & MRS of Brain",
+            price: 10000,
+          },
+          {
+            serviceId: 6758,
+            serviceName: "MRI & MRV of Brain",
+            price: 10000,
+          },
+          {
+            serviceId: 6759,
+            serviceName: "MRI Enterography",
+            price: 18000,
+          },
+          {
+            serviceId: 6760,
+            serviceName: "MRI of  Dorsal Spine With Screening Whole Spine",
+            price: 7000,
+          },
+          {
+            serviceId: 6761,
+            serviceName: "MRI of Adreenal Glands",
+            price: 8500,
+          },
+          {
+            serviceId: 6762,
+            serviceName: "MRI of Adrenal Gland",
+            price: 8500,
+          },
+          {
+            serviceId: 6763,
+            serviceName: "MRI of Both Breast",
+            price: 14000,
+          },
+          {
+            serviceId: 6764,
+            serviceName: "MRI of Both Breast Screening",
+            price: 9000,
+          },
+          {
+            serviceId: 6765,
+            serviceName: "MRI of Both Hip Joint",
+            price: 10000,
+          },
+          {
+            serviceId: 6766,
+            serviceName: "MRI of Both Hip Joint With Screening Of Lumbar Spine",
+            price: 0,
+          },
+          {
+            serviceId: 6767,
+            serviceName: "MRI of Both T.M Joint",
+            price: 10000,
+          },
+          {
+            serviceId: 6768,
+            serviceName: "MRI of Both T.M. Joint",
+            price: 12000,
+          },
+          {
+            serviceId: 6769,
+            serviceName: "MRI of Brachial Plexus",
+            price: 8000,
+          },
+          {
+            serviceId: 6770,
+            serviceName: "MRI of Brain",
+            price: 7000,
+          },
+          {
+            serviceId: 6771,
+            serviceName: "MRI of Brain & Orbits",
+            price: 9000,
+          },
+          {
+            serviceId: 6772,
+            serviceName: "MRI of Brain (Neuro Navigation Protocol)",
+            price: 12000,
+          },
+          {
+            serviceId: 6773,
+            serviceName:
+              "MRI of Brain Stroke Protocol (Brain+PW +DTI+MRA+ Brain & Neck)",
+            price: 15000,
+          },
+          {
+            serviceId: 6774,
+            serviceName: "MRI of Cervical Spine",
+            price: 7000,
+          },
+          {
+            serviceId: 6775,
+            serviceName: "MRI of Cervical Spine and Flexion (Sag+axial)",
+            price: 0,
+          },
+          {
+            serviceId: 6776,
+            serviceName: "MRI of Cervical Spine With Screening Whole Spine",
+            price: 7000,
+          },
+          {
+            serviceId: 6777,
+            serviceName: "MRI of Chest",
+            price: 8000,
+          },
+          {
+            serviceId: 6778,
+            serviceName: "MRI of Dorsal Spine",
+            price: 7000,
+          },
+          {
+            serviceId: 6779,
+            serviceName: "MRI of Dorso Lumbar Spine",
+            price: 14000,
+          },
+          {
+            serviceId: 6780,
+            serviceName: "MRI of DWIBS",
+            price: 10000,
+          },
+          {
+            serviceId: 6781,
+            serviceName: "MRI of Ears",
+            price: 8000,
+          },
+          {
+            serviceId: 6782,
+            serviceName: "MRI of Face",
+            price: 9000,
+          },
+          {
+            serviceId: 6783,
+            serviceName: "MRI of Finger",
+            price: 8000,
+          },
+          {
+            serviceId: 6784,
+            serviceName: "MRI of Fistula gram",
+            price: 8000,
+          },
+          {
+            serviceId: 6785,
+            serviceName: "MRI of Kidneys",
+            price: 8000,
+          },
+          {
+            serviceId: 6786,
+            serviceName: "MRI of KUB",
+            price: 14000,
+          },
+          {
+            serviceId: 6787,
+            serviceName: "MRI of Left Ankle Joint",
+            price: 8500,
+          },
+          {
+            serviceId: 6788,
+            serviceName: "MRI of Left Arm",
+            price: 8500,
+          },
+          {
+            serviceId: 6789,
+            serviceName: "MRI of Left Ear & Rt Ear",
+            price: 8500,
+          },
+          {
+            serviceId: 6790,
+            serviceName: "MRI of Left Elbow Joint",
+            price: 8500,
+          },
+          {
+            serviceId: 6791,
+            serviceName: "MRI of Left Foot",
+            price: 8500,
+          },
+          {
+            serviceId: 6792,
+            serviceName: "MRI of Left Forearm",
+            price: 8000,
+          },
+          {
+            serviceId: 6793,
+            serviceName: "MRI of Left Hand",
+            price: 8500,
+          },
+          {
+            serviceId: 6794,
+            serviceName: "MRI of Left Hip Joint",
+            price: 8500,
+          },
+          {
+            serviceId: 6795,
+            serviceName: "MRI of Left IAC",
+            price: 7000,
+          },
+          {
+            serviceId: 6796,
+            serviceName: "MRI of Left Knee Joint",
+            price: 8500,
+          },
+          {
+            serviceId: 6797,
+            serviceName: "MRI of Left Leg",
+            price: 8500,
+          },
+          {
+            serviceId: 6798,
+            serviceName: "MRI of Left Mastoid",
+            price: 7000,
+          },
+          {
+            serviceId: 6799,
+            serviceName: "MRI of Left Shoulder Joint",
+            price: 8500,
+          },
+          {
+            serviceId: 6800,
+            serviceName: "MRI of Left Thigh",
+            price: 8500,
+          },
+          {
+            serviceId: 6801,
+            serviceName: "MRI of Left Wrist Joint",
+            price: 8500,
+          },
+          {
+            serviceId: 6802,
+            serviceName: "MRI of Liver/HBS",
+            price: 8000,
+          },
+          {
+            serviceId: 6803,
+            serviceName: "MRI of Lower Abdomen",
+            price: 8000,
+          },
+          {
+            serviceId: 6804,
+            serviceName: "MRI of Lumbar Spine With Screening Whole Spine",
+            price: 7000,
+          },
+          {
+            serviceId: 6805,
+            serviceName: "MRI of Lumbo-Sacral Spine",
+            price: 7000,
+          },
+          {
+            serviceId: 6806,
+            serviceName: "MRI of MAT Spine",
+            price: 9000,
+          },
+          {
+            serviceId: 6807,
+            serviceName: "MRI of Nasopharynx",
+            price: 8000,
+          },
+          {
+            serviceId: 6808,
+            serviceName: "MRI of Neck",
+            price: 9000,
+          },
+          {
+            serviceId: 6809,
+            serviceName: "MRI of Oral Cavities",
+            price: 9000,
+          },
+          {
+            serviceId: 6810,
+            serviceName: "MRI of Orbits",
+            price: 9000,
+          },
+          {
+            serviceId: 6811,
+            serviceName: "MRI of P. N. S.",
+            price: 9000,
+          },
+          {
+            serviceId: 6812,
+            serviceName: "MRI of Parotid Gland",
+            price: 9000,
+          },
+          {
+            serviceId: 6813,
+            serviceName: "MRI of Pelvis",
+            price: 8000,
+          },
+          {
+            serviceId: 6814,
+            serviceName: "MRI of Penis",
+            price: 9000,
+          },
+          {
+            serviceId: 6815,
+            serviceName: "MRI of PNS",
+            price: 9000,
+          },
+          {
+            serviceId: 6816,
+            serviceName: "MRI of Prostate",
+            price: 10000,
+          },
+          {
+            serviceId: 6817,
+            serviceName: "MRI of Rectum",
+            price: 8500,
+          },
+          {
+            serviceId: 6818,
+            serviceName: "MRI of Right Ankle Joint",
+            price: 8500,
+          },
+          {
+            serviceId: 6819,
+            serviceName: "MRI of Right Arm",
+            price: 8500,
+          },
+          {
+            serviceId: 6820,
+            serviceName: "MRI of Right Elbow Joint",
+            price: 8500,
+          },
+          {
+            serviceId: 6821,
+            serviceName: "MRI of Right Foot",
+            price: 8500,
+          },
+          {
+            serviceId: 6822,
+            serviceName: "MRI of Right Forearm",
+            price: 8500,
+          },
+          {
+            serviceId: 6823,
+            serviceName: "MRI of Right Hand",
+            price: 8500,
+          },
+          {
+            serviceId: 6824,
+            serviceName: "MRI of Right Hip Joint",
+            price: 8500,
+          },
+          {
+            serviceId: 6825,
+            serviceName: "MRI of Right IAC+ MRA",
+            price: 8500,
+          },
+          {
+            serviceId: 6826,
+            serviceName: "MRI of Right Knee Joint",
+            price: 8500,
+          },
+          {
+            serviceId: 6827,
+            serviceName: "MRI of Right Leg",
+            price: 8500,
+          },
+          {
+            serviceId: 6828,
+            serviceName: "MRI of Right Mastoid",
+            price: 7000,
+          },
+          {
+            serviceId: 6829,
+            serviceName: "MRI of Right Shoulder Joint",
+            price: 8500,
+          },
+          {
+            serviceId: 6830,
+            serviceName: "MRI of Right Thigh",
+            price: 8500,
+          },
+          {
+            serviceId: 6831,
+            serviceName: "MRI of Right Wrist Joint",
+            price: 8500,
+          },
+          {
+            serviceId: 6832,
+            serviceName: "MRI of Scapula/Clavicle (Rt/Lf)",
+            price: 8500,
+          },
+          {
+            serviceId: 6833,
+            serviceName: "MRI of Sella & Perisellar/ Pituitary Region",
+            price: 7000,
+          },
+          {
+            serviceId: 6834,
+            serviceName: "MRI of SI Joint",
+            price: 8500,
+          },
+          {
+            serviceId: 6835,
+            serviceName: "MRI of T.M Joint Right (Open & Close)",
+            price: 9000,
+          },
+          {
+            serviceId: 6836,
+            serviceName: "MRI of T.M. Joint Left (Open & Close)",
+            price: 9000,
+          },
+          {
+            serviceId: 6837,
+            serviceName: "MRI of T2 axial ...................................",
+            price: 0,
+          },
+          {
+            serviceId: 6838,
+            serviceName: "MRI of Thyroid Gland",
+            price: 9000,
+          },
+          {
+            serviceId: 6839,
+            serviceName: "MRI of Toes",
+            price: 9000,
+          },
+          {
+            serviceId: 6840,
+            serviceName: "MRI of Tongue",
+            price: 9000,
+          },
+          {
+            serviceId: 6841,
+            serviceName: "MRI of Upper Abdomen",
+            price: 8000,
+          },
+          {
+            serviceId: 6842,
+            serviceName: "MRI of Upper Abdomen/HBS with MRCP",
+            price: 12000,
+          },
+          {
+            serviceId: 6843,
+            serviceName: "MRI of Urogram",
+            price: 8000,
+          },
+          {
+            serviceId: 6844,
+            serviceName: "MRI of Whole Abdomen",
+            price: 14000,
+          },
+          {
+            serviceId: 6845,
+            serviceName: "MRI of Whole Abdomen with MRCP",
+            price: 18000,
+          },
+          {
+            serviceId: 6846,
+            serviceName: "MRI of Whole Body",
+            price: 28000,
+          },
+          {
+            serviceId: 6847,
+            serviceName: "MRI of Whole Spine",
+            price: 21000,
+          },
+          {
+            serviceId: 6848,
+            serviceName: "MRI Perfusion of Brain",
+            price: 7000,
+          },
+          {
+            serviceId: 6849,
+            serviceName: "MRI S.I Joint",
+            price: 9000,
+          },
+          {
+            serviceId: 6850,
+            serviceName: "MRI Tractography",
+            price: 7000,
+          },
+          {
+            serviceId: 6851,
+            serviceName: "MRI Whole Spine for Bony Metastasis",
+            price: 9000,
+          },
+          {
+            serviceId: 6852,
+            serviceName: "MRS of Brain",
+            price: 7000,
+          },
+          {
+            serviceId: 6853,
+            serviceName: "MRV of Brain",
+            price: 7000,
+          },
+          {
+            serviceId: 6854,
+            serviceName: "Cephalometric View",
+            price: 500,
+          },
+          {
+            serviceId: 6855,
+            serviceName: "OPG",
+            price: 500,
+          },
+          {
+            serviceId: 6856,
+            serviceName: "OPG (Open & Close )",
+            price: 1000,
+          },
+          {
+            serviceId: 6857,
+            serviceName: "Choanogram (Nasal)",
+            price: 2000,
+          },
+          {
+            serviceId: 6858,
+            serviceName: "Dental film - One film",
+            price: 200,
+          },
+          {
+            serviceId: 6859,
+            serviceName: "Dental film - Three film",
+            price: 600,
+          },
+          {
+            serviceId: 6860,
+            serviceName: "Dental film - Two film",
+            price: 400,
+          },
+          {
+            serviceId: 6861,
+            serviceName: "Digital  Micturating Cysto Urethrogram ( M.C. U )",
+            price: 3000,
+          },
+          {
+            serviceId: 6862,
+            serviceName: "Digital 24 Hrs. late Film for Barium Follow through",
+            price: 600,
+          },
+          {
+            serviceId: 6863,
+            serviceName: "Digital 24 Hrs. late Film for I.V.U.",
+            price: 600,
+          },
+          {
+            serviceId: 6864,
+            serviceName:
+              "Digital Ba-meal study of small bowel Ileo-caecal gut with spot film of Ileo-caecal gut",
+            price: 2800,
+          },
+          {
+            serviceId: 6865,
+            serviceName:
+              "Digital Ba-meal study of Stomach, Duodenum, Follow through(G.I. Tract)",
+            price: 3000,
+          },
+          {
+            serviceId: 6866,
+            serviceName:
+              "Digital Ba-meal study of Stomach,Duodenum & Followthrough of small gut & Ileo-caecal gut",
+            price: 3000,
+          },
+          {
+            serviceId: 6867,
+            serviceName:
+              "Digital Barium enema of colon (large gut) Double contrast",
+            price: 3000,
+          },
+          {
+            serviceId: 6868,
+            serviceName:
+              "Digital Barium meal study of Ileo-caecal gut and appendix",
+            price: 3000,
+          },
+          {
+            serviceId: 6869,
+            serviceName: "Digital Barium meal study of Stomach, Duodenum",
+            price: 3000,
+          },
+          {
+            serviceId: 6870,
+            serviceName:
+              "Digital Barium meal study of Stomach, Duodenum & Hiatus Hernia",
+            price: 3000,
+          },
+          {
+            serviceId: 6871,
+            serviceName:
+              "Digital Barium meal study of Stomach, Duodenum (Double contrast)",
+            price: 3000,
+          },
+          {
+            serviceId: 6872,
+            serviceName:
+              "Digital Barium meal study of Stomach, Duodenum including (G.I. Tract)",
+            price: 3000,
+          },
+          {
+            serviceId: 6873,
+            serviceName: "Digital Barium Swallow of Oesophagus",
+            price: 2800,
+          },
+          {
+            serviceId: 6874,
+            serviceName:
+              "Digital Barium Swallow of Oesophagus including Hiatus Hernia",
+            price: 2800,
+          },
+          {
+            serviceId: 6875,
+            serviceName:
+              "Digital Cologram/Loopogram (Barium enema) through colostomy opening",
+            price: 3000,
+          },
+          {
+            serviceId: 6876,
+            serviceName:
+              "Digital Fluoroscopy of chest to see movement of diaphragm with one spot film",
+            price: 600,
+          },
+          {
+            serviceId: 6877,
+            serviceName: "Digital X - Ray of Flexion and Extension",
+            price: 1000,
+          },
+          {
+            serviceId: 6878,
+            serviceName: "Digital X-Ray Extra film",
+            price: 600,
+          },
+          {
+            serviceId: 6879,
+            serviceName: "Digital X-Ray Extra film (ONE)",
+            price: 400,
+          },
+          {
+            serviceId: 6880,
+            serviceName: "Digital X-Ray for 100% (One Film)",
+            price: 600,
+          },
+          {
+            serviceId: 6881,
+            serviceName: "Digital X-Ray for 100% (Three Films)",
+            price: 1800,
+          },
+          {
+            serviceId: 6882,
+            serviceName: "Digital X-Ray for 100% (Two Films)",
+            price: 1200,
+          },
+          {
+            serviceId: 6883,
+            serviceName: "Digital X-Ray of  Both Ankle joint Lateral view",
+            price: 600,
+          },
+          {
+            serviceId: 6884,
+            serviceName: "Digital X-Ray of  Both Shoulder joint Lateral view",
+            price: 1200,
+          },
+          {
+            serviceId: 6885,
+            serviceName: "Digital X-Ray of ..................",
+            price: 600,
+          },
+          {
+            serviceId: 6886,
+            serviceName:
+              "Digital X-Ray of Abdomen Erect Posture AP & Lat. View",
+            price: 1500,
+          },
+          {
+            serviceId: 6887,
+            serviceName:
+              "Digital X-Ray of Abdomen Erect Posture Including Diaphragm (Child)",
+            price: 600,
+          },
+          {
+            serviceId: 6888,
+            serviceName: "Digital X-Ray of Acoustic meatus perorbital view",
+            price: 600,
+          },
+          {
+            serviceId: 6889,
+            serviceName: "Digital X-Ray of Atlanto axial joint OM view",
+            price: 600,
+          },
+          {
+            serviceId: 6890,
+            serviceName:
+              "Digital X-Ray of Atlanton Axial O.M & Lateral View ( B / V )",
+            price: 1200,
+          },
+          {
+            serviceId: 6891,
+            serviceName:
+              "Digital X-Ray of Ba-enema of colon Single contrast of child to examin Hirscha.",
+            price: 3000,
+          },
+          {
+            serviceId: 6892,
+            serviceName: "Digital X-Ray of Ba-Followthrough double contrast",
+            price: 3000,
+          },
+          {
+            serviceId: 6893,
+            serviceName:
+              "Digital X-Ray of Ba-meal of small intestine and follow thorough",
+            price: 3000,
+          },
+          {
+            serviceId: 6894,
+            serviceName: "Digital X-Ray of Bone age ( Adult Clavicle & Pelvis)",
+            price: 1800,
+          },
+          {
+            serviceId: 6895,
+            serviceName: "Digital X-Ray of Bone Age (Child)",
+            price: 1200,
+          },
+          {
+            serviceId: 6896,
+            serviceName: "Digital X-Ray of Both Ankle Joint & Both Foot",
+            price: 2200,
+          },
+          {
+            serviceId: 6897,
+            serviceName: "Digital X-Ray of Both Ankle Joint (B/V)",
+            price: 1200,
+          },
+          {
+            serviceId: 6898,
+            serviceName: "Digital X-Ray of Both Ankle Joint AP View",
+            price: 600,
+          },
+          {
+            serviceId: 6899,
+            serviceName: "Digital X-Ray of Both Ankle Joint Lateral View",
+            price: 600,
+          },
+          {
+            serviceId: 6900,
+            serviceName: "Digital X-Ray of Both Clavicle AP View",
+            price: 600,
+          },
+          {
+            serviceId: 6901,
+            serviceName: "Digital X-Ray of Both Feet AP View",
+            price: 600,
+          },
+          {
+            serviceId: 6902,
+            serviceName: "Digital X-Ray of Both feet both view",
+            price: 1200,
+          },
+          {
+            serviceId: 6903,
+            serviceName: "Digital X-Ray of Both Feet Lateral View",
+            price: 600,
+          },
+          {
+            serviceId: 6904,
+            serviceName: "Digital X-Ray of Both foot (B/V)",
+            price: 1200,
+          },
+          {
+            serviceId: 6905,
+            serviceName: "Digital X-Ray of Both Hand (B/V)",
+            price: 1200,
+          },
+          {
+            serviceId: 6906,
+            serviceName: "Digital X-Ray of Both Hand AP View",
+            price: 600,
+          },
+          {
+            serviceId: 6907,
+            serviceName: "Digital X-Ray of Both Hand B/V",
+            price: 1200,
+          },
+          {
+            serviceId: 6908,
+            serviceName: "Digital X-Ray of Both hand for bone age",
+            price: 1200,
+          },
+          {
+            serviceId: 6909,
+            serviceName: "Digital X-Ray of Both Hand Lateral View",
+            price: 600,
+          },
+          {
+            serviceId: 6910,
+            serviceName: "Digital X-Ray of Both hand with wrist joint AP view",
+            price: 1200,
+          },
+          {
+            serviceId: 6911,
+            serviceName: "Digital X-Ray of Both Heel B/V",
+            price: 1200,
+          },
+          {
+            serviceId: 6912,
+            serviceName:
+              "Digital X-Ray of Both heel lateral view for soft tissue",
+            price: 600,
+          },
+          {
+            serviceId: 6913,
+            serviceName: "Digital X-Ray of Both hip joint (B/V)",
+            price: 1200,
+          },
+          {
+            serviceId: 6914,
+            serviceName: "Digital X-Ray of Both hip joint Lat view",
+            price: 1200,
+          },
+          {
+            serviceId: 6915,
+            serviceName:
+              "Digital X-Ray of Both Knee AP, Lat Rt & Lt. Oblique standing position",
+            price: 2200,
+          },
+          {
+            serviceId: 6916,
+            serviceName: "Digital X-Ray of Both Knee Joint and Oblique View",
+            price: 2200,
+          },
+          {
+            serviceId: 6917,
+            serviceName: "Digital X-Ray of Both Knee Joint and Skyline B/V",
+            price: 2200,
+          },
+          {
+            serviceId: 6918,
+            serviceName: "Digital X-Ray of Both Knee Joint AP View",
+            price: 600,
+          },
+          {
+            serviceId: 6919,
+            serviceName:
+              "Digital X-Ray of Both Knee Joint AP View Standing Position",
+            price: 600,
+          },
+          {
+            serviceId: 6920,
+            serviceName: "Digital X-Ray of Both Knee Joint B/V (Child)",
+            price: 1000,
+          },
+          {
+            serviceId: 6921,
+            serviceName: "Digital X-Ray of Both Knee Joint Lat. View",
+            price: 600,
+          },
+          {
+            serviceId: 6922,
+            serviceName: "Digital X-Ray of Both Knee Joint skyline position",
+            price: 600,
+          },
+          {
+            serviceId: 6923,
+            serviceName: "Digital X-Ray of Both Knee Joints(BV) AP & Lateral",
+            price: 1200,
+          },
+          {
+            serviceId: 6924,
+            serviceName: "Digital X-Ray of Both Leg AP View",
+            price: 1200,
+          },
+          {
+            serviceId: 6925,
+            serviceName:
+              "Digital X-Ray of Both Leg with Ankle Joint in Standing Position",
+            price: 1200,
+          },
+          {
+            serviceId: 6926,
+            serviceName:
+              "Digital X-Ray of Both Mastoid AP oblique & Lateral Oblique view",
+            price: 1200,
+          },
+          {
+            serviceId: 6927,
+            serviceName: "Digital X-Ray of Both Shoulder AP & Axillary View",
+            price: 2200,
+          },
+          {
+            serviceId: 6928,
+            serviceName: "Digital X-Ray of Both shoulder joint (B/V)",
+            price: 2200,
+          },
+          {
+            serviceId: 6929,
+            serviceName: "Digital X-Ray of Both Shoulder joint AP View",
+            price: 1200,
+          },
+          {
+            serviceId: 6930,
+            serviceName: "Digital X-Ray of Both T.M. Joint open & close Mouth",
+            price: 2200,
+          },
+          {
+            serviceId: 6931,
+            serviceName: "Digital X-Ray of Both Wrist AP View",
+            price: 600,
+          },
+          {
+            serviceId: 6932,
+            serviceName: "Digital X-Ray of Both Wrist Lateral View",
+            price: 600,
+          },
+          {
+            serviceId: 6933,
+            serviceName:
+              "Digital X-Ray of C. Spine AP,Lat,Flexion,Extension,Neutral",
+            price: 2200,
+          },
+          {
+            serviceId: 6934,
+            serviceName: "Digital X-Ray of Cervical One Oblique View",
+            price: 600,
+          },
+          {
+            serviceId: 6935,
+            serviceName: "Digital X-Ray of Cervical spine AP & both lat view",
+            price: 1800,
+          },
+          {
+            serviceId: 6936,
+            serviceName:
+              "Digital X-Ray of Cervical spine AP & Both oblique View",
+            price: 1800,
+          },
+          {
+            serviceId: 6937,
+            serviceName:
+              "Digital X-Ray of Cervical spine AP & Lateral View (B/V)",
+            price: 1200,
+          },
+          {
+            serviceId: 6938,
+            serviceName:
+              "Digital X-Ray of Cervical spine AP & One oblique View",
+            price: 1200,
+          },
+          {
+            serviceId: 6939,
+            serviceName: "Digital X-Ray of Cervical spine AP View Only",
+            price: 600,
+          },
+          {
+            serviceId: 6940,
+            serviceName:
+              "Digital X-Ray of Cervical spine AP, Lateral & Both oblique View",
+            price: 2200,
+          },
+          {
+            serviceId: 6941,
+            serviceName:
+              "Digital X-Ray of Cervical spine AP, Lateral & Left oblique View",
+            price: 1800,
+          },
+          {
+            serviceId: 6942,
+            serviceName:
+              "Digital X-Ray of Cervical spine AP, Lateral & Right oblique View",
+            price: 1800,
+          },
+          {
+            serviceId: 6943,
+            serviceName:
+              "Digital X-Ray of Cervical spine AP,Lat,Flexion,Extension, & Rt. oblique view",
+            price: 2800,
+          },
+          {
+            serviceId: 6944,
+            serviceName:
+              "Digital X-Ray of Cervical Spine B/V with Atlanto Axial Joint",
+            price: 1800,
+          },
+          {
+            serviceId: 6945,
+            serviceName: "Digital X-Ray of Cervical Spine Both Lateral View",
+            price: 1200,
+          },
+          {
+            serviceId: 6946,
+            serviceName: "Digital X-Ray of Cervical Spine Both Oblique View",
+            price: 1200,
+          },
+          {
+            serviceId: 6947,
+            serviceName:
+              "Digital X-Ray of Cervical spine flexion, extention and open mouth",
+            price: 1800,
+          },
+          {
+            serviceId: 6948,
+            serviceName:
+              "Digital X-Ray of Cervical spine Lateral & Both oblique View",
+            price: 1800,
+          },
+          {
+            serviceId: 6949,
+            serviceName:
+              "Digital X-Ray of Cervical spine Lateral & One oblique View",
+            price: 1200,
+          },
+          {
+            serviceId: 6950,
+            serviceName: "Digital X-Ray of Cervical spine Lateral View",
+            price: 600,
+          },
+          {
+            serviceId: 6951,
+            serviceName:
+              "Digital X-Ray of Cervical spine One Oblique  View Only",
+            price: 600,
+          },
+          {
+            serviceId: 6952,
+            serviceName:
+              "Digital X-Ray of Cervico-dorsal spine (Cervico-Thoracic) spine AP & Lateral view",
+            price: 1200,
+          },
+          {
+            serviceId: 6953,
+            serviceName: "Digital X-ray of Chest AP & Lateral View",
+            price: 1200,
+          },
+          {
+            serviceId: 6954,
+            serviceName: "Digital X-Ray of Chest AP View",
+            price: 600,
+          },
+          {
+            serviceId: 6955,
+            serviceName: "Digital X-Ray of Chest AP View (100% Equal Size)",
+            price: 600,
+          },
+          {
+            serviceId: 6956,
+            serviceName: "Digital X-Ray of Chest AP, Rt. Letaral, Oblique View",
+            price: 1800,
+          },
+          {
+            serviceId: 6957,
+            serviceName:
+              "Digital X-Ray of Chest apical lordotic & Lt. Lat view",
+            price: 1200,
+          },
+          {
+            serviceId: 6958,
+            serviceName: "Digital X-Ray of Chest Apical view",
+            price: 600,
+          },
+          {
+            serviceId: 6959,
+            serviceName:
+              "Digital X-Ray of Chest for Rib Left Side (Oblique View)",
+            price: 600,
+          },
+          {
+            serviceId: 6960,
+            serviceName:
+              "Digital X-Ray of Chest for Rib Right Side (Oblique View)",
+            price: 600,
+          },
+          {
+            serviceId: 6961,
+            serviceName:
+              "Digital X-Ray of Chest Inspiratory & Expiratory PA view",
+            price: 1200,
+          },
+          {
+            serviceId: 6962,
+            serviceName: "Digital X-Ray of Chest left lateral decubitus view",
+            price: 600,
+          },
+          {
+            serviceId: 6963,
+            serviceName: "Digital X-Ray of Chest left lateral view",
+            price: 600,
+          },
+          {
+            serviceId: 6964,
+            serviceName: "Digital X-Ray of Chest Lordotic View",
+            price: 600,
+          },
+          {
+            serviceId: 6965,
+            serviceName: "Digital X-Ray of Chest P/A View  (1154)",
+            price: 0,
+          },
+          {
+            serviceId: 6966,
+            serviceName: "Digital X-Ray of Chest P/A View (100% Equal Size)",
+            price: 600,
+          },
+          {
+            serviceId: 6967,
+            serviceName: "Digital X-Ray of Chest PA & lateral view",
+            price: 1200,
+          },
+          {
+            serviceId: 6968,
+            serviceName: "Digital X-Ray of Chest PA & left lateral view",
+            price: 1200,
+          },
+          {
+            serviceId: 6969,
+            serviceName: "Digital X-Ray of Chest PA & right lateral view",
+            price: 1200,
+          },
+          {
+            serviceId: 6970,
+            serviceName: "Digital X-Ray of Chest PA with Sternum",
+            price: 1200,
+          },
+          {
+            serviceId: 6971,
+            serviceName: "Digital X-Ray of Chest Penetrating Lateral View",
+            price: 600,
+          },
+          {
+            serviceId: 6972,
+            serviceName: "Digital X-Ray of Chest Penetrating View",
+            price: 600,
+          },
+          {
+            serviceId: 6973,
+            serviceName: "Digital X-Ray of Chest right lateral decubitus view",
+            price: 600,
+          },
+          {
+            serviceId: 6974,
+            serviceName: "Digital X-Ray of Chest right lateral view",
+            price: 600,
+          },
+          {
+            serviceId: 6975,
+            serviceName: "Digital X-Ray of Clavical (B/V)",
+            price: 1200,
+          },
+          {
+            serviceId: 6976,
+            serviceName: "Digital X-Ray of Coccyx Bone Both View",
+            price: 1200,
+          },
+          {
+            serviceId: 6977,
+            serviceName:
+              "Digital X-Ray of Cone both Lat view of lumbo secral joint",
+            price: 1200,
+          },
+          {
+            serviceId: 6978,
+            serviceName: "Digital X-Ray of Cone down AP & Lat view",
+            price: 1200,
+          },
+          {
+            serviceId: 6979,
+            serviceName: "Digital X-Ray of Cone down Lateral View",
+            price: 600,
+          },
+          {
+            serviceId: 6980,
+            serviceName: "Digital X-Ray of Dacrocystogram",
+            price: 3000,
+          },
+          {
+            serviceId: 6981,
+            serviceName: "Digital X-Ray of Distal Cologram",
+            price: 2500,
+          },
+          {
+            serviceId: 6982,
+            serviceName:
+              "Digital X-Ray of Dorsal (Thoracic) spine AP & Lateral View",
+            price: 1200,
+          },
+          {
+            serviceId: 6983,
+            serviceName:
+              "Digital X-ray of Dorsal (Thoracic) Spine AP & Lateral view (B/V)",
+            price: 1200,
+          },
+          {
+            serviceId: 6984,
+            serviceName: "Digital X-Ray of Dorsal (Thoracic) spine AP View",
+            price: 600,
+          },
+          {
+            serviceId: 6985,
+            serviceName:
+              "Digital X-Ray of Dorsal (Thoracic) spine AP, Lateral & Both oblique View",
+            price: 2400,
+          },
+          {
+            serviceId: 6986,
+            serviceName:
+              "Digital X-Ray of Dorsal (Thoracic) spine AP, Lateral & One oblique View",
+            price: 1800,
+          },
+          {
+            serviceId: 6987,
+            serviceName:
+              "Digital X-Ray of Dorsal (Thoracic) spine Lateral View",
+            price: 600,
+          },
+          {
+            serviceId: 6988,
+            serviceName:
+              "Digital X-Ray of Dorsal spine AP, Lat & Both oblique view",
+            price: 2400,
+          },
+          {
+            serviceId: 6989,
+            serviceName: "Digital X-Ray of Dorsal Spine both Lateral view",
+            price: 1200,
+          },
+          {
+            serviceId: 6990,
+            serviceName: "Digital X-Ray of Dorsal Spine both Oblique view",
+            price: 1200,
+          },
+          {
+            serviceId: 6991,
+            serviceName:
+              "Digital X-Ray of Dorso lumber  ( Thoraco-Lumber )   Spine  AP  View",
+            price: 600,
+          },
+          {
+            serviceId: 6992,
+            serviceName:
+              "Digital X-Ray of Dorso lumber (Thoraco-Lumber) spine (B/V) AP & Lateral View(874)",
+            price: 1200,
+          },
+          {
+            serviceId: 6993,
+            serviceName:
+              "Digital X-Ray of Dorso Lumber (Thoraco-Lumber) Spine AP View",
+            price: 600,
+          },
+          {
+            serviceId: 6994,
+            serviceName:
+              "Digital X-Ray of Dorso lumber (Thoraco-Lumber) spine Lateral View",
+            price: 600,
+          },
+          {
+            serviceId: 6995,
+            serviceName:
+              "Digital X-Ray of Dorso Lumber Spine AP,Lat,Flexion,Extension,Neutral",
+            price: 2200,
+          },
+          {
+            serviceId: 6996,
+            serviceName:
+              "Digital X-Ray of Dorso-Lumbar spine both lateral view",
+            price: 1200,
+          },
+          {
+            serviceId: 6997,
+            serviceName:
+              "Digital X-Ray of Dorso-Lumbar spine both oblique view",
+            price: 1200,
+          },
+          {
+            serviceId: 6998,
+            serviceName: "Digital X-Ray of Dorso-Lumber AP, Lat & Oblique View",
+            price: 1800,
+          },
+          {
+            serviceId: 6999,
+            serviceName: "Digital X-Ray of Face",
+            price: 600,
+          },
+          {
+            serviceId: 7000,
+            serviceName: "Digital X-Ray of Face AP & Lat. View",
+            price: 1200,
+          },
+          {
+            serviceId: 7001,
+            serviceName: "Digital X-Ray of Ferguson View",
+            price: 1200,
+          },
+          {
+            serviceId: 7002,
+            serviceName: "Digital X-Ray of Fistulogram",
+            price: 2200,
+          },
+          {
+            serviceId: 7003,
+            serviceName:
+              "Digital X-Ray of Fluroscopic Guided Marking of Disc Level",
+            price: 600,
+          },
+          {
+            serviceId: 7004,
+            serviceName: "Digital X-Ray of Hysterosalpingography",
+            price: 2500,
+          },
+          {
+            serviceId: 7005,
+            serviceName: "Digital X-Ray of I. A. M. Perorbital view",
+            price: 600,
+          },
+          {
+            serviceId: 7006,
+            serviceName: "Digital X-Ray of I. V. U.",
+            price: 2500,
+          },
+          {
+            serviceId: 7007,
+            serviceName: "Digital X-Ray of I. V. U. with late film",
+            price: 2500,
+          },
+          {
+            serviceId: 7008,
+            serviceName: "Digital X-Ray of I. V. U. with M. C. U.",
+            price: 3000,
+          },
+          {
+            serviceId: 7009,
+            serviceName: "Digital X-Ray of Invertogram",
+            price: 600,
+          },
+          {
+            serviceId: 7010,
+            serviceName:
+              "Digital X-Ray of Invertogram (Plain abdomen erect lateral with legs uo)",
+            price: 1000,
+          },
+          {
+            serviceId: 7011,
+            serviceName:
+              "Digital X-Ray of Knee joint oblique view RT (ONE FILM)",
+            price: 600,
+          },
+          {
+            serviceId: 7012,
+            serviceName: "Digital X-Ray of L/S spine Ap & Both Lat view",
+            price: 1800,
+          },
+          {
+            serviceId: 7013,
+            serviceName:
+              "Digital X-Ray of L/S spine AP,Lat,Flexion,Extension, & Rt. oblique view",
+            price: 2500,
+          },
+          {
+            serviceId: 7014,
+            serviceName: "Digital X-Ray of L/S Spine Both Oblique View",
+            price: 1200,
+          },
+          {
+            serviceId: 7015,
+            serviceName: "Digital X-Ray of L/S Spine Left Oblique View",
+            price: 600,
+          },
+          {
+            serviceId: 7016,
+            serviceName: "Digital X-Ray of L/S Spine Rt. Oblique View",
+            price: 600,
+          },
+          {
+            serviceId: 7017,
+            serviceName: "Digital X-Ray of L/S, Spine both lateral view",
+            price: 1200,
+          },
+          {
+            serviceId: 7018,
+            serviceName: "Digital X-Ray of Left Ankle joint AP & Lateral view",
+            price: 600,
+          },
+          {
+            serviceId: 7019,
+            serviceName: "Digital X-Ray of Left Clavicle AP & Lateral View",
+            price: 1200,
+          },
+          {
+            serviceId: 7020,
+            serviceName: "Digital X-Ray of Left Clavicle AP View",
+            price: 600,
+          },
+          {
+            serviceId: 7021,
+            serviceName: "Digital X-Ray of Left Ear",
+            price: 600,
+          },
+          {
+            serviceId: 7022,
+            serviceName: "Digital X-Ray of Left Elbow joint AP & Lateral view",
+            price: 600,
+          },
+          {
+            serviceId: 7023,
+            serviceName:
+              "Digital X-Ray of Left Elbow joint AP, Lat. & oblique view",
+            price: 1200,
+          },
+          {
+            serviceId: 7024,
+            serviceName: "Digital X-Ray of Left Foot AP & Oblique View (B/V)",
+            price: 600,
+          },
+          {
+            serviceId: 7025,
+            serviceName:
+              "Digital X-Ray of Left Forearm (Radius&Ulna) AP & Lat.View including Wrist joint",
+            price: 800,
+          },
+          {
+            serviceId: 7026,
+            serviceName:
+              "Digital X-Ray of Left Forearm(Radius&Ulna)AP &Lat.View inclu.Elbow &Wrist joint",
+            price: 800,
+          },
+          {
+            serviceId: 7027,
+            serviceName: "Digital X-Ray of Left Hand AP & Lateral View",
+            price: 600,
+          },
+          {
+            serviceId: 7028,
+            serviceName: "Digital X-Ray of Left Hand PA & Oblique View",
+            price: 600,
+          },
+          {
+            serviceId: 7029,
+            serviceName:
+              "Digital X-Ray of Left Heel (Calcaneum) Axial & Lateral View",
+            price: 600,
+          },
+          {
+            serviceId: 7030,
+            serviceName:
+              "Digital X-Ray of Left hip joint AP & Lateral View(One Film)",
+            price: 800,
+          },
+          {
+            serviceId: 7031,
+            serviceName: "Digital X-Ray of Left hip joint AP View",
+            price: 600,
+          },
+          {
+            serviceId: 7032,
+            serviceName: "Digital X-Ray of Left hip joint Lateral View",
+            price: 600,
+          },
+          {
+            serviceId: 7033,
+            serviceName: "Digital X-Ray of Left Hip joint oblique view",
+            price: 600,
+          },
+          {
+            serviceId: 7034,
+            serviceName:
+              "Digital X-Ray of Left Humerus (Arm) AP & Lat. View including Shoulder joint(One Film)",
+            price: 1200,
+          },
+          {
+            serviceId: 7035,
+            serviceName:
+              "Digital X-Ray of Left Humerus (Arm)AP &Lat.View including Shoulder &Elbow joint(One Film)",
+            price: 1200,
+          },
+          {
+            serviceId: 7036,
+            serviceName:
+              "Digital X-Ray of Left knee joint (B/V) AP & Lateral view",
+            price: 600,
+          },
+          {
+            serviceId: 7037,
+            serviceName:
+              "Digital X-Ray of Left knee joint AP, Lateral & Skyline view",
+            price: 1200,
+          },
+          {
+            serviceId: 7038,
+            serviceName:
+              "Digital X-Ray of Left knee joint AP, Lateral, Skyline & Intercondylar view",
+            price: 2000,
+          },
+          {
+            serviceId: 7039,
+            serviceName:
+              "Digital X-Ray of Left Leg (Tibia & Fibula) including Knee & Ankle joint",
+            price: 1200,
+          },
+          {
+            serviceId: 7040,
+            serviceName:
+              "Digital X-Ray of Left Leg including ankle joint AP & Lat view",
+            price: 1200,
+          },
+          {
+            serviceId: 7041,
+            serviceName:
+              "Digital X-Ray of Left Leg including knee joint AP & Lat view",
+            price: 1200,
+          },
+          {
+            serviceId: 7042,
+            serviceName:
+              "Digital X-Ray of Left Leg(B/V) AP & Lateral View (One Film)",
+            price: 1200,
+          },
+          {
+            serviceId: 7043,
+            serviceName:
+              "Digital X-Ray of Left lower jaw AP, Lat & Oblique view",
+            price: 1800,
+          },
+          {
+            serviceId: 7044,
+            serviceName: "Digital X-Ray of Left Orbit AP & Lateral (Up & Down)",
+            price: 1200,
+          },
+          {
+            serviceId: 7045,
+            serviceName:
+              "Digital X-Ray of Left Scapula AP & Lateral view with shoulder joint",
+            price: 1200,
+          },
+          {
+            serviceId: 7046,
+            serviceName: "Digital X-Ray of Left Scapula AP view",
+            price: 600,
+          },
+          {
+            serviceId: 7047,
+            serviceName: "Digital X-Ray of Left shoulder joint AP View",
+            price: 600,
+          },
+          {
+            serviceId: 7048,
+            serviceName:
+              "Digital X-Ray of Left sub-mandibular gland lateral oblique view",
+            price: 600,
+          },
+          {
+            serviceId: 7049,
+            serviceName: "Digital X-Ray of Left T.M. Joint open & close Mouth",
+            price: 1200,
+          },
+          {
+            serviceId: 7050,
+            serviceName:
+              "Digital X-Ray of Left Thigh (femur) AP & Lateral view including Knee joint",
+            price: 1200,
+          },
+          {
+            serviceId: 7051,
+            serviceName:
+              "Digital X-Ray of Left Thigh (femur) AP& Lateral view inclu.hip joint in one film",
+            price: 1200,
+          },
+          {
+            serviceId: 7052,
+            serviceName:
+              "Digital X-Ray of Left Thigh (femur)AP& Lateral view inclu.Knee joint in one film",
+            price: 1200,
+          },
+          {
+            serviceId: 7053,
+            serviceName:
+              "Digital X-Ray of Left Thigh (femur)AP& Lateral view including hip joint",
+            price: 1200,
+          },
+          {
+            serviceId: 7054,
+            serviceName: "Digital X-Ray of Left thumb (B/V)",
+            price: 600,
+          },
+          {
+            serviceId: 7055,
+            serviceName: "Digital X-Ray of Left Thumb B/V",
+            price: 600,
+          },
+          {
+            serviceId: 7056,
+            serviceName:
+              "Digital X-Ray of Left Wrist joint AP, Lateral View & Oblique view",
+            price: 1200,
+          },
+          {
+            serviceId: 7057,
+            serviceName: "Digital X-Ray of Left Wrist Joint PA & Lateral View",
+            price: 600,
+          },
+          {
+            serviceId: 7058,
+            serviceName: "Digital X-Ray of Lower Limb AP",
+            price: 1200,
+          },
+          {
+            serviceId: 7059,
+            serviceName: "Digital X-Ray of Lower Limb Lateral",
+            price: 1200,
+          },
+          {
+            serviceId: 7060,
+            serviceName:
+              "Digital X-Ray of LS Spine AP,Lat,Flexion,Extension,Neutral",
+            price: 2000,
+          },
+          {
+            serviceId: 7061,
+            serviceName: "Digital X-Ray of Lt . Wrist Both Oblique View",
+            price: 600,
+          },
+          {
+            serviceId: 7062,
+            serviceName: "Digital X-Ray of Lt.  Obturator Oblique View",
+            price: 600,
+          },
+          {
+            serviceId: 7063,
+            serviceName: "Digital X-Ray of Lt. Ankle Both Oblique View",
+            price: 600,
+          },
+          {
+            serviceId: 7064,
+            serviceName: "Digital X-Ray of Lt. Arm AP & Lateral View",
+            price: 1200,
+          },
+          {
+            serviceId: 7065,
+            serviceName: "Digital X-Ray of Lt. Arm Both Oblique View",
+            price: 800,
+          },
+          {
+            serviceId: 7066,
+            serviceName: "Digital X-Ray of Lt. Finger Both Oblique View",
+            price: 600,
+          },
+          {
+            serviceId: 7067,
+            serviceName: "Digital X-Ray of Lt. Foot AP & Lat. View",
+            price: 600,
+          },
+          {
+            serviceId: 7068,
+            serviceName: "Digital X-Ray of Lt. Foot Both Oblique View",
+            price: 600,
+          },
+          {
+            serviceId: 7069,
+            serviceName:
+              "Digital X-Ray of Lt. Foot including ankle joint (B/V)",
+            price: 1200,
+          },
+          {
+            serviceId: 7070,
+            serviceName: "Digital X-Ray of Lt. Foot including heel lat view",
+            price: 600,
+          },
+          {
+            serviceId: 7071,
+            serviceName: "Digital X-Ray of Lt. Forearm Both Oblique View",
+            price: 600,
+          },
+          {
+            serviceId: 7072,
+            serviceName: "Digital X-Ray of Lt. Heel with Ankle AP and Lat View",
+            price: 1200,
+          },
+          {
+            serviceId: 7073,
+            serviceName: "Digital X-Ray of Lt. Iliac Oblique View",
+            price: 600,
+          },
+          {
+            serviceId: 7074,
+            serviceName: "Digital X-Ray of Lt. Index Finger AP & Lat View",
+            price: 600,
+          },
+          {
+            serviceId: 7075,
+            serviceName:
+              "Digital X-Ray of Lt. Knee Joint AP & Lat. View ( Standing Position)",
+            price: 600,
+          },
+          {
+            serviceId: 7076,
+            serviceName:
+              "Digital X-Ray of Lt. Knee Joint AP, Lat in weight bearing position",
+            price: 800,
+          },
+          {
+            serviceId: 7077,
+            serviceName:
+              "Digital X-Ray of Lt. Knee joint AP, Lat. & Intercondylar view",
+            price: 1200,
+          },
+          {
+            serviceId: 7078,
+            serviceName: "Digital X-Ray of Lt. Leg AP & Lateral view (Child)",
+            price: 600,
+          },
+          {
+            serviceId: 7079,
+            serviceName: "Digital X-Ray of Lt. Little Finger AP & Lat View",
+            price: 600,
+          },
+          {
+            serviceId: 7080,
+            serviceName: "Digital X-Ray of Lt. Lower Leg Both Oblique View",
+            price: 600,
+          },
+          {
+            serviceId: 7081,
+            serviceName: "Digital X-Ray of Lt. Middle Finger AP & Lateral View",
+            price: 600,
+          },
+          {
+            serviceId: 7082,
+            serviceName: "Digital X-Ray of Lt. Patella Axial View",
+            price: 600,
+          },
+          {
+            serviceId: 7083,
+            serviceName: "Digital X-Ray of Lt. Ring Finger AP & Lat View",
+            price: 600,
+          },
+          {
+            serviceId: 7084,
+            serviceName:
+              "Digital X-Ray of Lt. Shoulder Joint AP & Lateral View",
+            price: 1200,
+          },
+          {
+            serviceId: 7085,
+            serviceName:
+              "Digital X-Ray of Lt. Shoulder joint AP, Lat. & oblique view",
+            price: 1800,
+          },
+          {
+            serviceId: 7086,
+            serviceName:
+              "Digital X-Ray of Lt. Shoulder Jt. AP,Lat,Abduction,Adduction",
+            price: 2000,
+          },
+          {
+            serviceId: 7087,
+            serviceName:
+              "Digital X-Ray of Lt. Shoulder Jt. AP,Lat,Internal & External rotation",
+            price: 2000,
+          },
+          {
+            serviceId: 7088,
+            serviceName: "Digital X-Ray of Lt. Thigh Both Oblique View",
+            price: 1200,
+          },
+          {
+            serviceId: 7089,
+            serviceName:
+              "Digital X-Ray of Lt. Thight AP & Lateral view (Child)",
+            price: 600,
+          },
+          {
+            serviceId: 7090,
+            serviceName:
+              "Digital X-Ray of Lumber spine (B/V) AP & Lateral View",
+            price: 1200,
+          },
+          {
+            serviceId: 7091,
+            serviceName: "Digital X-Ray of Lumber Spine AP View",
+            price: 600,
+          },
+          {
+            serviceId: 7092,
+            serviceName:
+              "Digital X-Ray of Lumber Spine AP, Lat & Both Oblique View",
+            price: 2000,
+          },
+          {
+            serviceId: 7093,
+            serviceName: "Digital X-Ray of Lumber Spine lateral view",
+            price: 600,
+          },
+          {
+            serviceId: 7094,
+            serviceName: "Digital X-Ray of Lumbo Sacral Spine P/A view",
+            price: 600,
+          },
+          {
+            serviceId: 7095,
+            serviceName: "Digital X-Ray of Lumbo secral lat & oblique view",
+            price: 1800,
+          },
+          {
+            serviceId: 7096,
+            serviceName: "Digital X-Ray of Lumbo-sacral spine  AP  View",
+            price: 600,
+          },
+          {
+            serviceId: 7097,
+            serviceName:
+              "Digital X-Ray of Lumbo-sacral spine (B/V) AP & Lateral View",
+            price: 1200,
+          },
+          {
+            serviceId: 7098,
+            serviceName:
+              "Digital X-Ray of Lumbo-sacral spine (B/V) PA & Lateral View",
+            price: 1200,
+          },
+          {
+            serviceId: 7099,
+            serviceName:
+              "Digital X-Ray of Lumbo-sacral spine AP & Both oblique View",
+            price: 1800,
+          },
+          {
+            serviceId: 7100,
+            serviceName: "Digital X-Ray of Lumbo-sacral spine Lateral View",
+            price: 600,
+          },
+          {
+            serviceId: 7101,
+            serviceName:
+              "Digital X-Ray of Lumbo-sacral spine PA, Lateral & Both oblique View",
+            price: 2000,
+          },
+          {
+            serviceId: 7102,
+            serviceName:
+              "Digital X-Ray of Lumbo-sacral spine PA, Lateral & One oblique View",
+            price: 1800,
+          },
+          {
+            serviceId: 7103,
+            serviceName:
+              "Digital X-Ray of Lumbo-Secral Spine Both Oblique View",
+            price: 1200,
+          },
+          {
+            serviceId: 7104,
+            serviceName: "Digital X-Ray of Mandible both lateral oblique view",
+            price: 1200,
+          },
+          {
+            serviceId: 7105,
+            serviceName: "Digital X-Ray of Mandible left lateral oblique view",
+            price: 600,
+          },
+          {
+            serviceId: 7106,
+            serviceName:
+              "Digital X-Ray of Mandible PA & both lateral oblique view",
+            price: 1500,
+          },
+          {
+            serviceId: 7107,
+            serviceName:
+              "Digital X-Ray of Mandible PA & left lateral oblique view",
+            price: 1200,
+          },
+          {
+            serviceId: 7108,
+            serviceName:
+              "Digital X-Ray of Mandible PA & right lateral oblique view",
+            price: 1200,
+          },
+          {
+            serviceId: 7109,
+            serviceName: "Digital X-Ray of Mandible PA view",
+            price: 600,
+          },
+          {
+            serviceId: 7110,
+            serviceName: "Digital X-Ray of Mandible right lateral oblique view",
+            price: 600,
+          },
+          {
+            serviceId: 7111,
+            serviceName:
+              "Digital X-Ray of Mastoid AP oblique & Lateral Oblique view left side",
+            price: 1200,
+          },
+          {
+            serviceId: 7112,
+            serviceName:
+              "Digital X-Ray of Mastoid AP oblique & Lateral Oblique view right side",
+            price: 1200,
+          },
+          {
+            serviceId: 7113,
+            serviceName: "Digital X-Ray of Mastoid Towens View(S)",
+            price: 600,
+          },
+          {
+            serviceId: 7114,
+            serviceName: "Digital X-Ray of Mastoid Towne`s View(S837)",
+            price: 600,
+          },
+          {
+            serviceId: 7115,
+            serviceName: "Digital X-Ray of Mastoid Townes & Stenverse View",
+            price: 1200,
+          },
+          {
+            serviceId: 7116,
+            serviceName: "Digital X-Ray of Mastoid Townes (B/V)",
+            price: 1200,
+          },
+          {
+            serviceId: 7117,
+            serviceName: "Digital X-Ray of Maxilla, Left Lateral oblique view",
+            price: 600,
+          },
+          {
+            serviceId: 7118,
+            serviceName: "Digital X-Ray of Maxilla, Right Lateral oblique view",
+            price: 600,
+          },
+          {
+            serviceId: 7119,
+            serviceName: "Digital X-Ray of Micturating Cystogram",
+            price: 3000,
+          },
+          {
+            serviceId: 7120,
+            serviceName: "Digital X-Ray of Mortise view (one film)",
+            price: 600,
+          },
+          {
+            serviceId: 7121,
+            serviceName: "Digital X-Ray of Myelogram",
+            price: 3000,
+          },
+          {
+            serviceId: 7122,
+            serviceName: "Digital X-Ray of Nasal Bones both lateral view",
+            price: 600,
+          },
+          {
+            serviceId: 7123,
+            serviceName:
+              "Digital X-Ray of Nasopharynx lateral view for soft tissues/adenoid",
+            price: 600,
+          },
+          {
+            serviceId: 7124,
+            serviceName: "Digital X-Ray of Neck AP & Lateral View",
+            price: 1200,
+          },
+          {
+            serviceId: 7125,
+            serviceName:
+              "Digital X-Ray of Neck lateral view for soft tissue/Nasopharynx",
+            price: 600,
+          },
+          {
+            serviceId: 7126,
+            serviceName: "Digital X-Ray of Neck of Cervical Ribs",
+            price: 600,
+          },
+          {
+            serviceId: 7127,
+            serviceName: "Digital X-Ray of Nephro Urethrogram (Normal)",
+            price: 2500,
+          },
+          {
+            serviceId: 7128,
+            serviceName: "Digital X-Ray of Nephrostogram",
+            price: 2500,
+          },
+          {
+            serviceId: 7129,
+            serviceName: "Digital X-Ray of O.C.G. (Oral Cholecystography)",
+            price: 1800,
+          },
+          {
+            serviceId: 7130,
+            serviceName:
+              "Digital X-Ray of Occlusal view for lower jaw (Mandible)",
+            price: 600,
+          },
+          {
+            serviceId: 7131,
+            serviceName: "Digital X-Ray of Occlusal view for upper jaw",
+            price: 600,
+          },
+          {
+            serviceId: 7132,
+            serviceName: "Digital X-Ray of Occlusal view of maxilla",
+            price: 600,
+          },
+          {
+            serviceId: 7133,
+            serviceName: "Digital X-Ray of Optic foramen",
+            price: 600,
+          },
+          {
+            serviceId: 7134,
+            serviceName: "Digital X-Ray of P. T. C.",
+            price: 1800,
+          },
+          {
+            serviceId: 7135,
+            serviceName: "Digital X-Ray of P.N.S. O/M & Lateral view",
+            price: 1200,
+          },
+          {
+            serviceId: 7136,
+            serviceName: "Digital X-Ray of P.N.S. O/M view",
+            price: 600,
+          },
+          {
+            serviceId: 7137,
+            serviceName:
+              "Digital X-Ray of Pelvis AP & Both Hip joint Letaral View",
+            price: 1800,
+          },
+          {
+            serviceId: 7138,
+            serviceName: "Digital X-Ray of Pelvis AP & lateral both view",
+            price: 1200,
+          },
+          {
+            serviceId: 7139,
+            serviceName:
+              "Digital X-Ray of Pelvis AP & Lateral View with Both hip joint",
+            price: 1800,
+          },
+          {
+            serviceId: 7140,
+            serviceName: "Digital X-Ray of Pelvis AP View",
+            price: 600,
+          },
+          {
+            serviceId: 7141,
+            serviceName:
+              "Digital X-Ray of Pelvis AP View ( Frog-Leg Position-Adult)",
+            price: 600,
+          },
+          {
+            serviceId: 7142,
+            serviceName:
+              "Digital X-Ray of Pelvis AP View ( Frog-Leg Position-Child)",
+            price: 600,
+          },
+          {
+            serviceId: 7143,
+            serviceName:
+              "Digital X-Ray of Pelvis AP with Both hip joint AP View(One Film)",
+            price: 600,
+          },
+          {
+            serviceId: 7144,
+            serviceName: "Digital X-Ray of Pelvis Both Oblique view",
+            price: 800,
+          },
+          {
+            serviceId: 7145,
+            serviceName: "Digital X-Ray of Pelvis erect lat view for CPD",
+            price: 800,
+          },
+          {
+            serviceId: 7146,
+            serviceName: "Digital X-Ray of Pelvis erect posture",
+            price: 600,
+          },
+          {
+            serviceId: 7147,
+            serviceName: "Digital X-Ray of Pelvis Erect Posture (CPD)",
+            price: 600,
+          },
+          {
+            serviceId: 7148,
+            serviceName: "Digital X-Ray of Pelvis Lateral View",
+            price: 600,
+          },
+          {
+            serviceId: 7149,
+            serviceName:
+              "Digital X-Ray of Pelvis with both hip joint AP view (Child)",
+            price: 600,
+          },
+          {
+            serviceId: 7150,
+            serviceName: "Digital X-Ray of Pericathetar Urethogram(X781)",
+            price: 3000,
+          },
+          {
+            serviceId: 7151,
+            serviceName: "Digital X-Ray of Phonogram",
+            price: 2000,
+          },
+          {
+            serviceId: 7152,
+            serviceName: "Digital X-Ray of Plain Abdomen AP & Lat. View",
+            price: 1200,
+          },
+          {
+            serviceId: 7153,
+            serviceName: "Digital X-Ray of Plain Abdomen AP View",
+            price: 600,
+          },
+          {
+            serviceId: 7154,
+            serviceName: "Digital X-Ray of Plain Abdomen AP View (Child)",
+            price: 600,
+          },
+          {
+            serviceId: 7155,
+            serviceName: "Digital X-Ray of Plain Abdomen Erect & Supine View",
+            price: 1200,
+          },
+          {
+            serviceId: 7156,
+            serviceName:
+              "Digital X-Ray of Plain Abdomen Erect View including Diaphragm",
+            price: 600,
+          },
+          {
+            serviceId: 7157,
+            serviceName: "Digital X-Ray of Plain Abdomen in Supine View",
+            price: 600,
+          },
+          {
+            serviceId: 7158,
+            serviceName: "Digital X-Ray of Plain Abdomen Lateral View",
+            price: 600,
+          },
+          {
+            serviceId: 7159,
+            serviceName:
+              "Digital X-Ray of Plain KUB (Children below 10 yrs) one film",
+            price: 600,
+          },
+          {
+            serviceId: 7160,
+            serviceName: "Digital X-Ray of Plain KUB AP & Lateral View",
+            price: 1200,
+          },
+          {
+            serviceId: 7161,
+            serviceName: "Digital X-Ray of Plain KUB AP View",
+            price: 600,
+          },
+          {
+            serviceId: 7162,
+            serviceName:
+              "Digital X-Ray of Plain KUB AP View and Lumber Spine lat-View",
+            price: 1200,
+          },
+          {
+            serviceId: 7163,
+            serviceName: "Digital X-Ray of Plain KUB Erect View (Standing)",
+            price: 600,
+          },
+          {
+            serviceId: 7164,
+            serviceName: "Digital X-Ray of Retrograde Pyelography (Urography)",
+            price: 2500,
+          },
+          {
+            serviceId: 7165,
+            serviceName: "Digital X-Ray of Retrograde Urethro Cystogram",
+            price: 2500,
+          },
+          {
+            serviceId: 7166,
+            serviceName: "Digital X-Ray of Retrograde Urethrogram (RGU)",
+            price: 2500,
+          },
+          {
+            serviceId: 7167,
+            serviceName:
+              "Digital X-Ray of Retrograde Urethrogram with Antegrade cystogram",
+            price: 2500,
+          },
+          {
+            serviceId: 7168,
+            serviceName: "Digital X-Ray of Retrograde Urethrogram with MCU",
+            price: 2800,
+          },
+          {
+            serviceId: 7169,
+            serviceName: "Digital X-Ray of Right Ankle joint AP & Lateral view",
+            price: 600,
+          },
+          {
+            serviceId: 7170,
+            serviceName: "Digital X-Ray of Right Clavicle AP & Lateral View",
+            price: 1200,
+          },
+          {
+            serviceId: 7171,
+            serviceName: "Digital X-Ray of Right Clavicle AP View",
+            price: 600,
+          },
+          {
+            serviceId: 7172,
+            serviceName: "Digital X-Ray of Right Elbow joint AP & Lateral view",
+            price: 600,
+          },
+          {
+            serviceId: 7173,
+            serviceName:
+              "Digital X-Ray of Right Elbow joint AP, Lat. & oblique view",
+            price: 1200,
+          },
+          {
+            serviceId: 7174,
+            serviceName: "Digital X-Ray of Right Foot AP & Oblique View (B/V)",
+            price: 600,
+          },
+          {
+            serviceId: 7175,
+            serviceName:
+              "Digital X-Ray of Right Forearm (Radius&Ulna) AP & Lat.View including Elbow joint",
+            price: 800,
+          },
+          {
+            serviceId: 7176,
+            serviceName:
+              "Digital X-Ray of Right Forearm (Radius&Ulna) AP & Lat.View including Wrist joint",
+            price: 800,
+          },
+          {
+            serviceId: 7177,
+            serviceName:
+              "Digital X-Ray of Right Forearm(Radius&Ulna)AP &Lat.View inclu.Elbow &Wrist joint",
+            price: 800,
+          },
+          {
+            serviceId: 7178,
+            serviceName: "Digital X-Ray of Right Hand AP & Lateral View",
+            price: 600,
+          },
+          {
+            serviceId: 7179,
+            serviceName: "Digital X-Ray of Right Hand PA & Oblique View",
+            price: 600,
+          },
+          {
+            serviceId: 7180,
+            serviceName:
+              "Digital X-Ray of Right Heel (Calcaneum) Axial & Lateral View",
+            price: 600,
+          },
+          {
+            serviceId: 7181,
+            serviceName:
+              "Digital X-Ray of Right hip joint AP & Lateral View (one Film)",
+            price: 1000,
+          },
+          {
+            serviceId: 7182,
+            serviceName: "Digital X-Ray of Right hip joint AP View",
+            price: 600,
+          },
+          {
+            serviceId: 7183,
+            serviceName: "Digital X-Ray of Right hip joint Lateral View",
+            price: 600,
+          },
+          {
+            serviceId: 7184,
+            serviceName:
+              "Digital X-Ray of Right Humerus (Arm) AP & Lat. View including Shoulder joint(One Film)",
+            price: 1200,
+          },
+          {
+            serviceId: 7185,
+            serviceName:
+              "Digital X-Ray of Right Humerus(Arm)AP &Lat.View including Shoulder&Elbow joint(One Film)",
+            price: 1200,
+          },
+          {
+            serviceId: 7186,
+            serviceName:
+              "Digital X-Ray of Right knee joint (B/V) AP & Lateral view",
+            price: 600,
+          },
+          {
+            serviceId: 7187,
+            serviceName:
+              "Digital X-Ray of Right knee joint AP, Lateral & Skyline view",
+            price: 1200,
+          },
+          {
+            serviceId: 7188,
+            serviceName:
+              "Digital X-Ray of Right knee joint AP, Lateral, Skyline & Intercondylar view",
+            price: 1500,
+          },
+          {
+            serviceId: 7189,
+            serviceName:
+              "Digital X-Ray of Right Leg (Tibia & Fibula) including Knee & Ankle joint",
+            price: 1200,
+          },
+          {
+            serviceId: 7190,
+            serviceName:
+              "Digital X-Ray of Right Leg including ankle joint AP & Lat view",
+            price: 1200,
+          },
+          {
+            serviceId: 7191,
+            serviceName:
+              "Digital X-Ray of Right Leg including knee joint AP & Lat view",
+            price: 1200,
+          },
+          {
+            serviceId: 7192,
+            serviceName:
+              "Digital X-Ray of Right Leg(B/V) AP & Lateral View (One Film)",
+            price: 1200,
+          },
+          {
+            serviceId: 7193,
+            serviceName: "Digital X-Ray of Right S/C joint AP & Oblique view",
+            price: 1200,
+          },
+          {
+            serviceId: 7194,
+            serviceName:
+              "Digital X-Ray of Right Scapula AP & Lateral view with shoulder joint",
+            price: 1200,
+          },
+          {
+            serviceId: 7195,
+            serviceName: "Digital X-Ray of Right Scapula AP view",
+            price: 600,
+          },
+          {
+            serviceId: 7196,
+            serviceName: "Digital X-Ray of Right shoulder joint AP View",
+            price: 600,
+          },
+          {
+            serviceId: 7197,
+            serviceName:
+              "Digital X-Ray of Right sub-mandibular gland lateral oblique view",
+            price: 600,
+          },
+          {
+            serviceId: 7198,
+            serviceName: "Digital X-Ray of Right T.M. Joint open & close Mouth",
+            price: 1200,
+          },
+          {
+            serviceId: 7199,
+            serviceName:
+              "Digital X-Ray of Right Thigh (femur) AP & Lateral view including hip joint",
+            price: 1200,
+          },
+          {
+            serviceId: 7200,
+            serviceName:
+              "Digital X-Ray of Right Thigh (femur) AP & Lateral view including Knee joint",
+            price: 1200,
+          },
+          {
+            serviceId: 7201,
+            serviceName:
+              "Digital X-Ray of Right Thigh (femur) AP&Lateral view inclu. Knee joint in 1 film",
+            price: 1200,
+          },
+          {
+            serviceId: 7202,
+            serviceName: "Digital X-Ray of Right thumb (B/V)",
+            price: 600,
+          },
+          {
+            serviceId: 7203,
+            serviceName: "Digital X-Ray of Right Thumb B/V",
+            price: 600,
+          },
+          {
+            serviceId: 7204,
+            serviceName:
+              "Digital X-Ray of Right Wrist joint AP, Lateral View & Oblique view",
+            price: 1200,
+          },
+          {
+            serviceId: 7205,
+            serviceName: "Digital X-Ray of Right Wrist Joint PA & Lateral View",
+            price: 600,
+          },
+          {
+            serviceId: 7206,
+            serviceName: "Digital X-Ray of Rt Wrist Both Bblique View",
+            price: 600,
+          },
+          {
+            serviceId: 7207,
+            serviceName: "Digital X-Ray of Rt.  Iliac Oblique View",
+            price: 600,
+          },
+          {
+            serviceId: 7208,
+            serviceName: "Digital X-Ray of Rt. Ankle Both Oblique View",
+            price: 600,
+          },
+          {
+            serviceId: 7209,
+            serviceName: "Digital X-Ray of Rt. Arm AP & Lateral View",
+            price: 1200,
+          },
+          {
+            serviceId: 7210,
+            serviceName: "Digital X-Ray of Rt. Arm Both Oblique View",
+            price: 800,
+          },
+          {
+            serviceId: 7211,
+            serviceName: "Digital X-Ray of Rt. Finger Both Oblique View",
+            price: 600,
+          },
+          {
+            serviceId: 7212,
+            serviceName: "Digital X-Ray of Rt. Foot AP & Lat. View",
+            price: 600,
+          },
+          {
+            serviceId: 7213,
+            serviceName: "Digital X-Ray of Rt. Foot Both Oblique View",
+            price: 600,
+          },
+          {
+            serviceId: 7214,
+            serviceName:
+              "Digital X-Ray of Rt. Foot including ankle joint (B/V)",
+            price: 1200,
+          },
+          {
+            serviceId: 7215,
+            serviceName: "Digital X-Ray of Rt. Foot including heel lat view",
+            price: 600,
+          },
+          {
+            serviceId: 7216,
+            serviceName: "Digital X-Ray of Rt. Forearm Both Oblique view",
+            price: 800,
+          },
+          {
+            serviceId: 7217,
+            serviceName: "Digital X-Ray of Rt. Heel with Ankle AP and Lat View",
+            price: 1200,
+          },
+          {
+            serviceId: 7218,
+            serviceName: "Digital X-Ray of Rt. Index Finger AP & Lat View",
+            price: 600,
+          },
+          {
+            serviceId: 7219,
+            serviceName:
+              "Digital X-Ray of Rt. Knee Joint AP & Lat View (Standing Position)",
+            price: 600,
+          },
+          {
+            serviceId: 7220,
+            serviceName:
+              "Digital X-Ray of Rt. Knee Joint AP, Lat & both oblique view in standing position",
+            price: 2000,
+          },
+          {
+            serviceId: 7221,
+            serviceName:
+              "Digital X-Ray of Rt. Knee Joint AP, Lat in weight bearing position",
+            price: 1200,
+          },
+          {
+            serviceId: 7222,
+            serviceName:
+              "Digital X-Ray of Rt. Knee joint AP, Lat. & Intercondylar view",
+            price: 1200,
+          },
+          {
+            serviceId: 7223,
+            serviceName: "Digital X-Ray of Rt. Leg AP & Lateral view (Child)",
+            price: 600,
+          },
+          {
+            serviceId: 7224,
+            serviceName: "Digital X-Ray of Rt. Little Finger AP & Lat View",
+            price: 600,
+          },
+          {
+            serviceId: 7225,
+            serviceName: "Digital X-Ray of Rt. Lower Leg Both Oblique View",
+            price: 800,
+          },
+          {
+            serviceId: 7226,
+            serviceName: "Digital X-Ray of Rt. Middle Finger AP & Lateral View",
+            price: 600,
+          },
+          {
+            serviceId: 7227,
+            serviceName: "Digital X-Ray of Rt. Middle finger AP, Lat view",
+            price: 600,
+          },
+          {
+            serviceId: 7228,
+            serviceName: "Digital X-Ray of Rt. Obturator  Oblique View",
+            price: 600,
+          },
+          {
+            serviceId: 7229,
+            serviceName: "Digital X-Ray of Rt. Orbit AP & Lateral (Up & Down)",
+            price: 1200,
+          },
+          {
+            serviceId: 7230,
+            serviceName: "Digital X-Ray of Rt. Patella Axial View",
+            price: 600,
+          },
+          {
+            serviceId: 7231,
+            serviceName: "Digital X-Ray of Rt. Ring Finger AP & Lat View",
+            price: 600,
+          },
+          {
+            serviceId: 7232,
+            serviceName: "Digital X-Ray of Rt. Shoulder AP, Lat & Oblique view",
+            price: 1800,
+          },
+          {
+            serviceId: 7233,
+            serviceName:
+              "Digital X-Ray of Rt. Shoulder Joint AP & Lateral View",
+            price: 1200,
+          },
+          {
+            serviceId: 7234,
+            serviceName:
+              "Digital X-Ray of Rt. Shoulder Jt. AP,Lat,Aboduction,Adaction",
+            price: 2000,
+          },
+          {
+            serviceId: 7235,
+            serviceName:
+              "Digital X-Ray of Rt. Shoulder Jt. AP,Lat,Internal & External rotation",
+            price: 2000,
+          },
+          {
+            serviceId: 7236,
+            serviceName: "Digital X-Ray of Rt. Thigh AP & Lateral view (Child)",
+            price: 600,
+          },
+          {
+            serviceId: 7237,
+            serviceName: "Digital X-Ray of Rt. Thigh Both Oblique View",
+            price: 1200,
+          },
+          {
+            serviceId: 7238,
+            serviceName: "Digital X-Ray of S. I. Joint (B/V)",
+            price: 1200,
+          },
+          {
+            serviceId: 7239,
+            serviceName: "Digital X-Ray of S. I. Joint Both oblique view",
+            price: 800,
+          },
+          {
+            serviceId: 7240,
+            serviceName: "Digital X-Ray of S. I. Joint PA view",
+            price: 600,
+          },
+          {
+            serviceId: 7241,
+            serviceName:
+              "Digital X-Ray of Sacro-Coccygeal spine AP & Lateral View",
+            price: 1200,
+          },
+          {
+            serviceId: 7242,
+            serviceName: "Digital X-Ray of Sacro-Coccygeal spine Lateral View",
+            price: 600,
+          },
+          {
+            serviceId: 7243,
+            serviceName: "Digital X-Ray of Scaphoid view for wrist joint",
+            price: 600,
+          },
+          {
+            serviceId: 7244,
+            serviceName: "Digital X-Ray of Scapula Lateral View",
+            price: 600,
+          },
+          {
+            serviceId: 7245,
+            serviceName: "Digital X-Ray of Scapula Oblique View",
+            price: 600,
+          },
+          {
+            serviceId: 7246,
+            serviceName: "Digital X-Ray of Scoliogram (one film)",
+            price: 600,
+          },
+          {
+            serviceId: 7247,
+            serviceName: "Digital X-Ray of Scoliogram AP & LATERAL VIEW(S1176)",
+            price: 1200,
+          },
+          {
+            serviceId: 7248,
+            serviceName: "Digital X-Ray of Sinogram",
+            price: 2000,
+          },
+          {
+            serviceId: 7249,
+            serviceName: "Digital X-Ray of Sinus (PNS)",
+            price: 600,
+          },
+          {
+            serviceId: 7250,
+            serviceName: "Digital X-Ray of Skiagram",
+            price: 1200,
+          },
+          {
+            serviceId: 7251,
+            serviceName: "Digital X-Ray of Skull AP & Lateral view",
+            price: 1200,
+          },
+          {
+            serviceId: 7252,
+            serviceName: "Digital X-Ray of Skull AP Rt. and Lt. Lat view",
+            price: 1800,
+          },
+          {
+            serviceId: 7253,
+            serviceName: "Digital X-Ray of Skull AP View",
+            price: 600,
+          },
+          {
+            serviceId: 7254,
+            serviceName: "Digital X-Ray of Skull base of the skull",
+            price: 600,
+          },
+          {
+            serviceId: 7255,
+            serviceName:
+              "Digital X-Ray of Skull for Sella Turcica/Pituitary Fossa Cone down view",
+            price: 600,
+          },
+          {
+            serviceId: 7256,
+            serviceName:
+              "Digital X-Ray of Skull for Sella Turcica/Pituitary Fossa Lateral view",
+            price: 600,
+          },
+          {
+            serviceId: 7257,
+            serviceName: "Digital X-Ray of Skull for sinuses (P.N.S. O/M)",
+            price: 600,
+          },
+          {
+            serviceId: 7258,
+            serviceName: "Digital X-Ray of Skull for Sinuses (PNS O/M View)",
+            price: 600,
+          },
+          {
+            serviceId: 7259,
+            serviceName: "Digital X-Ray of Skull Lateral view",
+            price: 600,
+          },
+          {
+            serviceId: 7260,
+            serviceName: "Digital X-Ray of Skull Left Lat view",
+            price: 600,
+          },
+          {
+            serviceId: 7261,
+            serviceName: "Digital X-Ray of Skull PA & Lateral view",
+            price: 1200,
+          },
+          {
+            serviceId: 7262,
+            serviceName: "Digital X-Ray of Skull Right Lat view",
+            price: 600,
+          },
+          {
+            serviceId: 7263,
+            serviceName: "Digital X-Ray of Skull silla tursica both view",
+            price: 1200,
+          },
+          {
+            serviceId: 7264,
+            serviceName: "Digital X-Ray of Skull Townes View",
+            price: 600,
+          },
+          {
+            serviceId: 7265,
+            serviceName:
+              "Digital X-Ray of Skull Transorbital PA view for internal auditory canal",
+            price: 600,
+          },
+          {
+            serviceId: 7266,
+            serviceName: "Digital X-Ray of Skull with Mandible AP view",
+            price: 600,
+          },
+          {
+            serviceId: 7267,
+            serviceName: "Digital X-Ray of Spinal colum B/V",
+            price: 2000,
+          },
+          {
+            serviceId: 7268,
+            serviceName: "Digital X-Ray of Sternum AP & Lateral View",
+            price: 1200,
+          },
+          {
+            serviceId: 7269,
+            serviceName: "Digital X-Ray of Sternum AP, Lat & Oblique View",
+            price: 1800,
+          },
+          {
+            serviceId: 7270,
+            serviceName: "Digital X-Ray of Sternum Lateral View",
+            price: 600,
+          },
+          {
+            serviceId: 7271,
+            serviceName: "Digital X-Ray of Sternum Oblique & lateral View",
+            price: 1200,
+          },
+          {
+            serviceId: 7272,
+            serviceName: "Digital X-Ray of Sternum Oblique View",
+            price: 600,
+          },
+          {
+            serviceId: 7273,
+            serviceName: "Digital X-Ray of Styloid Process B/V",
+            price: 1200,
+          },
+          {
+            serviceId: 7274,
+            serviceName: "Digital X-Ray of Styloid process PA View (One Film)",
+            price: 600,
+          },
+          {
+            serviceId: 7275,
+            serviceName:
+              "Digital X-Ray of Styloid process per-Orbital View (One Film)",
+            price: 600,
+          },
+          {
+            serviceId: 7276,
+            serviceName: "Digital X-Ray of Submento vertical view",
+            price: 600,
+          },
+          {
+            serviceId: 7277,
+            serviceName:
+              "Digital X-Ray of Tendo Achilies/Tendo Calcaneum (Only Lateral View)",
+            price: 600,
+          },
+          {
+            serviceId: 7278,
+            serviceName: "Digital X-Ray of Trans Orbital Patrus view",
+            price: 600,
+          },
+          {
+            serviceId: 7279,
+            serviceName: "Digital X-Ray of T-Tube Cholangiogram",
+            price: 2800,
+          },
+          {
+            serviceId: 7280,
+            serviceName: "Digital X-Ray of Upper Limb AP",
+            price: 1800,
+          },
+          {
+            serviceId: 7281,
+            serviceName: "Digital X-Ray of Upper Limb Lateral",
+            price: 1800,
+          },
+          {
+            serviceId: 7282,
+            serviceName: "Digital X-Ray of Whole Spine",
+            price: 3000,
+          },
+          {
+            serviceId: 7283,
+            serviceName: "Digital X-Ray of Wrist Joints to Assess Bone Age",
+            price: 600,
+          },
+          {
+            serviceId: 7284,
+            serviceName: "Digital X-Ray of Zygomatic, arches",
+            price: 600,
+          },
+          {
+            serviceId: 7285,
+            serviceName: "Douche Charge (For X-ray)",
+            price: 200,
+          },
+          {
+            serviceId: 7286,
+            serviceName: "Loopgram / Cologram Child",
+            price: 2500,
+          },
+          {
+            serviceId: 7287,
+            serviceName: "PORTABLE XRAY ABDOMEN AP",
+            price: 800,
+          },
+          {
+            serviceId: 7288,
+            serviceName: "PORTABLE XRAY C/S SPINE BV",
+            price: 1200,
+          },
+          {
+            serviceId: 7289,
+            serviceName: "PORTABLE XRAY CXR AP",
+            price: 800,
+          },
+          {
+            serviceId: 7290,
+            serviceName: "PORTABLE XRAY CXR AP & OBLIQUE",
+            price: 1800,
+          },
+          {
+            serviceId: 7291,
+            serviceName: "PORTABLE XRAY CXR OBLIQUE",
+            price: 1200,
+          },
+          {
+            serviceId: 7292,
+            serviceName: "PORTABLE XRAY FEMUR AP & LATERAL",
+            price: 1200,
+          },
+          {
+            serviceId: 7293,
+            serviceName: "PORTABLE XRAY L/S SPINE AP & LATERAL",
+            price: 1200,
+          },
+          {
+            serviceId: 7294,
+            serviceName: "PORTABLE XRAY LEG AP & LATERAL",
+            price: 1200,
+          },
+          {
+            serviceId: 7295,
+            serviceName: "Portable X-ray of Right Knee Joint B/V",
+            price: 0,
+          },
+          {
+            serviceId: 7296,
+            serviceName: "PORTABLE XRAY PELVIS AP",
+            price: 800,
+          },
+          {
+            serviceId: 7297,
+            serviceName: "PORTABLE XRAY SKULL AP & LATERAL",
+            price: 1200,
+          },
+          {
+            serviceId: 7298,
+            serviceName: "Sialogram Lefl sub mandibular gland & duct (Digital)",
+            price: 2500,
+          },
+          {
+            serviceId: 7299,
+            serviceName: "Sialogram Left parotid gland",
+            price: 2500,
+          },
+          {
+            serviceId: 7300,
+            serviceName: "Sialogram right parotid gland",
+            price: 2500,
+          },
+          {
+            serviceId: 7301,
+            serviceName:
+              "Sialogram right sub mandibular gland & duct (Digital)",
+            price: 2500,
+          },
+          {
+            serviceId: 7302,
+            serviceName: "Venography of Both  LIMB",
+            price: 12000,
+          },
+          {
+            serviceId: 7303,
+            serviceName: "Venography of Left  LIMB",
+            price: 5000,
+          },
+          {
+            serviceId: 7304,
+            serviceName: "Venography of one  LIMB",
+            price: 5000,
+          },
+          {
+            serviceId: 7305,
+            serviceName: "Venography of Right  LIMB",
+            price: 5000,
+          },
+          {
+            serviceId: 7306,
+            serviceName: "Venography of Two  LIMB",
+            price: 10000,
+          },
+          {
+            serviceId: 7307,
+            serviceName: "X-ray Ankle joint Mortise view",
+            price: 600,
+          },
+          {
+            serviceId: 7308,
+            serviceName: "X-Ray Left Shoulder Joint Lateral View",
+            price: 600,
+          },
+          {
+            serviceId: 7309,
+            serviceName: "X-Ray of Ankle Joint  Both oblique View",
+            price: 600,
+          },
+          {
+            serviceId: 7310,
+            serviceName: "X-ray of Both Leg AP",
+            price: 1200,
+          },
+          {
+            serviceId: 7311,
+            serviceName: "X-ray of Both Thigh AP",
+            price: 1200,
+          },
+          {
+            serviceId: 7312,
+            serviceName: "X-ray of Cloacogram",
+            price: 3000,
+          },
+          {
+            serviceId: 7313,
+            serviceName: "X-ray of Coanagram",
+            price: 2500,
+          },
+          {
+            serviceId: 7314,
+            serviceName: "X-ray of Defecography",
+            price: 3000,
+          },
+          {
+            serviceId: 7315,
+            serviceName: "X-ray of Genitogram",
+            price: 3000,
+          },
+          {
+            serviceId: 7316,
+            serviceName: "X-ray of LS Spine Flexion & Extension View",
+            price: 1000,
+          },
+          {
+            serviceId: 7317,
+            serviceName: "X-Ray of Lt. Shoulder Jt. Axillary View",
+            price: 600,
+          },
+          {
+            serviceId: 7318,
+            serviceName: "X-Ray of Lt. Shoulder Jt. Supraspinatus Outlet View",
+            price: 600,
+          },
+          {
+            serviceId: 7319,
+            serviceName: "X-Ray of Lumber Spine Flexion & Extension View",
+            price: 1000,
+          },
+          {
+            serviceId: 7320,
+            serviceName: "X-ray of Meckel's Diverticulum",
+            price: 2000,
+          },
+          {
+            serviceId: 7321,
+            serviceName: "X-ray of Nasal Bone Both View",
+            price: 1200,
+          },
+          {
+            serviceId: 7322,
+            serviceName: "X-ray of Pelvis AP & Inlet & Outlet view",
+            price: 1800,
+          },
+          {
+            serviceId: 7323,
+            serviceName: "X-Ray of Pelvis Modified Ferguson (M.F.) View",
+            price: 800,
+          },
+          {
+            serviceId: 7324,
+            serviceName: "X-ray of Right Ankle Joint (Mortise View)",
+            price: 600,
+          },
+          {
+            serviceId: 7325,
+            serviceName: "X-Ray of Rt. Shoulder Jt. Axillary View",
+            price: 600,
+          },
+          {
+            serviceId: 7326,
+            serviceName: "X-Ray of Rt. Shoulder Jt. Supraspinatus Outlet View",
+            price: 600,
+          },
+          {
+            serviceId: 7327,
+            serviceName: "X-Ray of S.I. Joint Modified Ferguson (M.F.) View",
+            price: 700,
+          },
+          {
+            serviceId: 7328,
+            serviceName: "X-ray of Scanogram",
+            price: 1500,
+          },
+          {
+            serviceId: 7329,
+            serviceName: "X-ray of Whole Spine AP/Lateral &  Rt. Lt. Bending",
+            price: 2000,
+          },
+          {
+            serviceId: 7330,
+            serviceName: "X-Ray of Wrist Joint  Both oblique View",
+            price: 600,
+          },
+        ],
+      },
+      {
+        categoryId: 16,
+        categoryName: "REGISTRATION",
+        items: [
+          {
+            serviceId: 7331,
+            serviceName: "Registration Charges",
+            price: 50,
+          },
+        ],
+      },
+      {
+        categoryId: 17,
+        categoryName: "ULTRASOUND",
+        items: [
+          {
+            serviceId: 7332,
+            serviceName: "ABVS Both Breast with Ultrasound",
+            price: 4000,
+          },
+          {
+            serviceId: 7333,
+            serviceName: "ABVS Single Breast with Ultrasound",
+            price: 2500,
+          },
+          {
+            serviceId: 7334,
+            serviceName: "Adrenal(F722)",
+            price: 1800,
+          },
+          {
+            serviceId: 7335,
+            serviceName: "Anomaly + BPP(F800)",
+            price: 4500,
+          },
+          {
+            serviceId: 7336,
+            serviceName: "Anomaly Scan With Dopler",
+            price: 2300,
+          },
+          {
+            serviceId: 7337,
+            serviceName: "Ant. Abd Wall(F801)",
+            price: 2000,
+          },
+          {
+            serviceId: 7338,
+            serviceName: "Biophysical Profile with Color Doppler",
+            price: 4000,
+          },
+          {
+            serviceId: 7339,
+            serviceName: "CD(F767)",
+            price: 1000,
+          },
+          {
+            serviceId: 7340,
+            serviceName: "Cervix + Internal Os(F747)",
+            price: 2500,
+          },
+          {
+            serviceId: 7341,
+            serviceName: "Color Doppler USG of Lower Abdomen",
+            price: 2500,
+          },
+          {
+            serviceId: 7342,
+            serviceName: "Color Doppler Uterus & adnexa",
+            price: 2500,
+          },
+          {
+            serviceId: 7343,
+            serviceName: "Doppler of Swelling/Mass",
+            price: 4000,
+          },
+          {
+            serviceId: 7344,
+            serviceName: "Doppler Study (USG) of Whole Abdomen",
+            price: 8000,
+          },
+          {
+            serviceId: 7345,
+            serviceName: "Doppler Study of Abdominal aorta and its branches",
+            price: 4000,
+          },
+          {
+            serviceId: 7346,
+            serviceName: "Doppler Study of both Limbs",
+            price: 4000,
+          },
+          {
+            serviceId: 7347,
+            serviceName: "Doppler Study of Kidney/Renal Perfusion",
+            price: 4000,
+          },
+          {
+            serviceId: 7348,
+            serviceName: "Doppler Study of Lower limb Veins/deep veins",
+            price: 4000,
+          },
+          {
+            serviceId: 7349,
+            serviceName: "Doppler Study of Lower limb Vessels",
+            price: 4000,
+          },
+          {
+            serviceId: 7350,
+            serviceName: "Doppler Study of Lower Limb Vessels Left",
+            price: 0,
+          },
+          {
+            serviceId: 7351,
+            serviceName: "Doppler Study of Lower Limb Vessels Right",
+            price: 0,
+          },
+          {
+            serviceId: 7352,
+            serviceName:
+              "Doppler Study of Neck/Popliteal Mass/growth in other parts of the body",
+            price: 4000,
+          },
+          {
+            serviceId: 7353,
+            serviceName: "Doppler Study of Pampiniform Plexus",
+            price: 4000,
+          },
+          {
+            serviceId: 7354,
+            serviceName: "Doppler Study of Penile vessels",
+            price: 4000,
+          },
+          {
+            serviceId: 7355,
+            serviceName: "Doppler Study of Peripheral Vascular Doppler",
+            price: 4000,
+          },
+          {
+            serviceId: 7356,
+            serviceName: "Doppler Study of Upper limb Vessels",
+            price: 4000,
+          },
+          {
+            serviceId: 7357,
+            serviceName: "Doppler Study of Upper Limb Vessels Left",
+            price: 0,
+          },
+          {
+            serviceId: 7358,
+            serviceName: "Doppler Study of Upper Limb Vessels Right",
+            price: 0,
+          },
+          {
+            serviceId: 7359,
+            serviceName: "Doppler Ultrasonogram of Pregnancy Profile",
+            price: 0,
+          },
+          {
+            serviceId: 7360,
+            serviceName: "Doppler Ultrasonogram of TVS",
+            price: 0,
+          },
+          {
+            serviceId: 7361,
+            serviceName: "Doppler USG of -----------------------",
+            price: 2500,
+          },
+          {
+            serviceId: 7362,
+            serviceName: "Doppler USG of ????.",
+            price: 4000,
+          },
+          {
+            serviceId: 7363,
+            serviceName: "Doppler USG of Portal & Hepatic Vein",
+            price: 4000,
+          },
+          {
+            serviceId: 7364,
+            serviceName: "Doppler USG of Scrotum and Testis",
+            price: 8000,
+          },
+          {
+            serviceId: 7365,
+            serviceName: "Doppler USG of Testis",
+            price: 4000,
+          },
+          {
+            serviceId: 7366,
+            serviceName: "Doppler USG of TVS",
+            price: 4000,
+          },
+          {
+            serviceId: 7367,
+            serviceName: "Doppler(F746)",
+            price: 4000,
+          },
+          {
+            serviceId: 7368,
+            serviceName: "Duplex Study of  Testis",
+            price: 2500,
+          },
+          {
+            serviceId: 7369,
+            serviceName: "Duplex Study of Upper Limb Vessels",
+            price: 8000,
+          },
+          {
+            serviceId: 7370,
+            serviceName: "Fetal Anomaly - 4D(F703)",
+            price: 4000,
+          },
+          {
+            serviceId: 7371,
+            serviceName: "Fetal Biophysical Profile (BPP - Priplet) 2D(F793)",
+            price: 4000,
+          },
+          {
+            serviceId: 7372,
+            serviceName: "Fetal Biophysical Profile (BPP - Priplet) 4D(F794)",
+            price: 4000,
+          },
+          {
+            serviceId: 7373,
+            serviceName: "Fetal Biophysical Profile(BPP)  - 4D(F702)",
+            price: 4000,
+          },
+          {
+            serviceId: 7374,
+            serviceName: "Fetal BPP (Biophysical Profile)(F709)",
+            price: 4000,
+          },
+          {
+            serviceId: 7375,
+            serviceName: "Fetal BPP (Biophysican Profile - Twin) 2D(F791)",
+            price: 4500,
+          },
+          {
+            serviceId: 7376,
+            serviceName: "Fetal BPP (Biophysican Profile - Twin) 4D(F792)",
+            price: 5500,
+          },
+          {
+            serviceId: 7377,
+            serviceName: "Fetal Growth - 4D(F704)",
+            price: 5000,
+          },
+          {
+            serviceId: 7378,
+            serviceName: "Fetal Growth + Anomaly (Single) 4D(F797)",
+            price: 5000,
+          },
+          {
+            serviceId: 7379,
+            serviceName: "Fetal Growth + Anomaly (Triplet) 4D(F799)",
+            price: 8000,
+          },
+          {
+            serviceId: 7380,
+            serviceName: "Fetal Growth + Anomaly (Twin) 4D(F798)",
+            price: 7000,
+          },
+          {
+            serviceId: 7381,
+            serviceName: "Fetal Growth + Anomaly(F706)",
+            price: 2500,
+          },
+          {
+            serviceId: 7382,
+            serviceName: "Fetal Growth + BPP(Well-being) - 4D(F705)",
+            price: 5000,
+          },
+          {
+            serviceId: 7383,
+            serviceName: "Fetal Growth + BPP(Well-being) 2D(F707)",
+            price: 4500,
+          },
+          {
+            serviceId: 7384,
+            serviceName: "FETAL SEX(F733)",
+            price: 1500,
+          },
+          {
+            serviceId: 7385,
+            serviceName: "Fetal Well-being - 4D(F701)",
+            price: 4000,
+          },
+          {
+            serviceId: 7386,
+            serviceName: "Fetal Well-being(F710)",
+            price: 3500,
+          },
+          {
+            serviceId: 7387,
+            serviceName: "FNAC GUIDED(G638)",
+            price: 1500,
+          },
+          {
+            serviceId: 7388,
+            serviceName: "Folliculometry SONO AVC(F735)",
+            price: 2000,
+          },
+          {
+            serviceId: 7389,
+            serviceName: "Folli-Culometry(F751)",
+            price: 1500,
+          },
+          {
+            serviceId: 7390,
+            serviceName: "Genito-urinary System(F784)",
+            price: 3000,
+          },
+          {
+            serviceId: 7391,
+            serviceName: "Growth Scan ( Triplet )  2D(F788)",
+            price: 5500,
+          },
+          {
+            serviceId: 7392,
+            serviceName: "Growth Scan (Single)(F708)",
+            price: 4000,
+          },
+          {
+            serviceId: 7393,
+            serviceName: "Growth Scan (Twin) - 4D(F742)",
+            price: 6000,
+          },
+          {
+            serviceId: 7394,
+            serviceName: "Growth Scan (Twin) (2D)(F776)",
+            price: 4500,
+          },
+          {
+            serviceId: 7395,
+            serviceName: "Growth Scan + Anomaly (4D)(F758)",
+            price: 3000,
+          },
+          {
+            serviceId: 7396,
+            serviceName: "Growth Scan + BPP (4D)(F759)",
+            price: 3000,
+          },
+          {
+            serviceId: 7397,
+            serviceName: "HBS & KUB - 2D(F732)",
+            price: 1500,
+          },
+          {
+            serviceId: 7398,
+            serviceName: "HBS & KUB - 4D(F756)",
+            price: 2000,
+          },
+          {
+            serviceId: 7399,
+            serviceName: "HBS (4D)(F727)",
+            price: 1500,
+          },
+          {
+            serviceId: 7400,
+            serviceName: "HBS(F723)",
+            price: 1200,
+          },
+          {
+            serviceId: 7401,
+            serviceName: "KUB & Pelvis(F757)",
+            price: 1800,
+          },
+          {
+            serviceId: 7402,
+            serviceName: "KUB & PVR(F737)",
+            price: 1800,
+          },
+          {
+            serviceId: 7403,
+            serviceName: "KUB (Kidneys, Ureter, Bladder)(F721)",
+            price: 1800,
+          },
+          {
+            serviceId: 7404,
+            serviceName: "KUB , Prostat & PVR ( Female )(F783)",
+            price: 1800,
+          },
+          {
+            serviceId: 7405,
+            serviceName: "KUB , Prostat & PVR ( Male )(F782)",
+            price: 1800,
+          },
+          {
+            serviceId: 7406,
+            serviceName: "KUB + Prostate(F802)",
+            price: 1800,
+          },
+          {
+            serviceId: 7407,
+            serviceName: "KUB, Pelvis & PVR (Female)(F778)",
+            price: 1800,
+          },
+          {
+            serviceId: 7408,
+            serviceName: "KUB, Prostate & PVR(F741)",
+            price: 1500,
+          },
+          {
+            serviceId: 7409,
+            serviceName: "KUB/Kidneys (4D)(F738)",
+            price: 2500,
+          },
+          {
+            serviceId: 7410,
+            serviceName: "Machine Charge for injection (Type-I)(M721)",
+            price: 1000,
+          },
+          {
+            serviceId: 7411,
+            serviceName: "Machine Charge for injection (Type-II)(M722)",
+            price: 2000,
+          },
+          {
+            serviceId: 7412,
+            serviceName: "Machine Charge for injection (Type-III)(M723)",
+            price: 3000,
+          },
+          {
+            serviceId: 7413,
+            serviceName: "Machine Charge for injection (Type-IV)(M724)",
+            price: 4000,
+          },
+          {
+            serviceId: 7414,
+            serviceName: "Machine Charge for injection (Type-V)(M725)",
+            price: 5000,
+          },
+          {
+            serviceId: 7415,
+            serviceName: "Neurel Tabe Soft Marker(F803)",
+            price: 4000,
+          },
+          {
+            serviceId: 7416,
+            serviceName: "Pelvis (T/A & TVS) with internal os(F768)",
+            price: 3500,
+          },
+          {
+            serviceId: 7417,
+            serviceName: "Pelvis (T/A) - 4D(F760)",
+            price: 3000,
+          },
+          {
+            serviceId: 7418,
+            serviceName: "Portable Ultrasonogram Doppler USG of Testis(P790)",
+            price: 2000,
+          },
+          {
+            serviceId: 7419,
+            serviceName: "Portable Ultrasonogram Guided Prostate Biopsy(P773)",
+            price: 2000,
+          },
+          {
+            serviceId: 7420,
+            serviceName:
+              "Portable Ultrasonogram of ............................(P791)",
+            price: 3000,
+          },
+          {
+            serviceId: 7421,
+            serviceName: "Portable Ultrasonogram of Ascites(P758)",
+            price: 2000,
+          },
+          {
+            serviceId: 7422,
+            serviceName: "Portable Ultrasonogram of Both Breast(P737)",
+            price: 2000,
+          },
+          {
+            serviceId: 7423,
+            serviceName: "Portable Ultrasonogram of Brain(P721)",
+            price: 2000,
+          },
+          {
+            serviceId: 7424,
+            serviceName: "Portable Ultrasonogram of Breast & Thyroid(P749)",
+            price: 2000,
+          },
+          {
+            serviceId: 7425,
+            serviceName: "Portable Ultrasonogram of FNAC(P745)",
+            price: 2000,
+          },
+          {
+            serviceId: 7426,
+            serviceName: "Portable Ultrasonogram of Foetal Anomaly Scan(P779)",
+            price: 2000,
+          },
+          {
+            serviceId: 7427,
+            serviceName:
+              "Portable Ultrasonogram of Foetal Biophysical profile(P772)",
+            price: 2000,
+          },
+          {
+            serviceId: 7428,
+            serviceName: "Portable Ultrasonogram of HBS & Breast(P755)",
+            price: 2000,
+          },
+          {
+            serviceId: 7429,
+            serviceName: "Portable Ultrasonogram of HBS & KUB(P702)",
+            price: 2000,
+          },
+          {
+            serviceId: 7430,
+            serviceName: "Portable Ultrasonogram of HBS & Pancreas(P704)",
+            price: 2000,
+          },
+          {
+            serviceId: 7431,
+            serviceName: "Portable Ultrasonogram of HBS & Pelvic Organs(P703)",
+            price: 2000,
+          },
+          {
+            serviceId: 7432,
+            serviceName: "Portable Ultrasonogram of HBS & Prostate(P708)",
+            price: 2000,
+          },
+          {
+            serviceId: 7433,
+            serviceName: "Portable Ultrasonogram of HBS & Testis(P707)",
+            price: 2000,
+          },
+          {
+            serviceId: 7434,
+            serviceName: "Portable Ultrasonogram of HBS(P701)",
+            price: 2000,
+          },
+          {
+            serviceId: 7435,
+            serviceName: "Portable Ultrasonogram of HBS, KUB & Breast(P752)",
+            price: 2000,
+          },
+          {
+            serviceId: 7436,
+            serviceName:
+              "Portable Ultrasonogram of HBS, KUB & Pelvic Organs(P743)",
+            price: 2000,
+          },
+          {
+            serviceId: 7437,
+            serviceName: "Portable Ultrasonogram of HBS, KUB & Prostate(P705)",
+            price: 2000,
+          },
+          {
+            serviceId: 7438,
+            serviceName: "Portable Ultrasonogram of HBS, KUB & PVR(P762)",
+            price: 2000,
+          },
+          {
+            serviceId: 7439,
+            serviceName: "Portable Ultrasonogram of HBS, KUB & Testis(P754)",
+            price: 2000,
+          },
+          {
+            serviceId: 7440,
+            serviceName:
+              "Portable Ultrasonogram of HBS, KUB, Prostate & PVR(P706)",
+            price: 2000,
+          },
+          {
+            serviceId: 7441,
+            serviceName:
+              "Portable Ultrasonogram of HBS, KUB, Prostate & Testis(P709)",
+            price: 2000,
+          },
+          {
+            serviceId: 7442,
+            serviceName:
+              "Portable Ultrasonogram of HBS, KUB, Prostate, PVR & Testis(P710)",
+            price: 2000,
+          },
+          {
+            serviceId: 7443,
+            serviceName:
+              "Portable Ultrasonogram of HBS, KUB, PVR & Pelvic Organs(P767)",
+            price: 2000,
+          },
+          {
+            serviceId: 7444,
+            serviceName:
+              "Portable Ultrasonogram of HBS, Pancreas & Kidney(P770)",
+            price: 2000,
+          },
+          {
+            serviceId: 7445,
+            serviceName: "Portable Ultrasonogram of HBS, Pancreas & KUB(P711)",
+            price: 2000,
+          },
+          {
+            serviceId: 7446,
+            serviceName:
+              "Portable Ultrasonogram of HBS, Pancrease & Pelvic Organs(P712)",
+            price: 2000,
+          },
+          {
+            serviceId: 7447,
+            serviceName:
+              "Portable Ultrasonogram of HBS, Pelvic Organ & PVR(P764)",
+            price: 2000,
+          },
+          {
+            serviceId: 7448,
+            serviceName:
+              "Portable Ultrasonogram of HBS, Pelvic Organs & Breast(P753)",
+            price: 2000,
+          },
+          {
+            serviceId: 7449,
+            serviceName: "Portable Ultrasonogram of KUB & Breast(P756)",
+            price: 2000,
+          },
+          {
+            serviceId: 7450,
+            serviceName: "Portable Ultrasonogram of KUB & Pelvic Organs(P718)",
+            price: 2000,
+          },
+          {
+            serviceId: 7451,
+            serviceName: "Portable Ultrasonogram of KUB & Prostate(P715)",
+            price: 2000,
+          },
+          {
+            serviceId: 7452,
+            serviceName: "Portable Ultrasonogram of KUB & PVR(P716)",
+            price: 2000,
+          },
+          {
+            serviceId: 7453,
+            serviceName:
+              "Portable Ultrasonogram of KUB & Suprarenal gland(P771)",
+            price: 2000,
+          },
+          {
+            serviceId: 7454,
+            serviceName: "Portable Ultrasonogram of KUB & Testis(P750)",
+            price: 2000,
+          },
+          {
+            serviceId: 7455,
+            serviceName: "Portable Ultrasonogram of KUB & Thyroid(P765)",
+            price: 2000,
+          },
+          {
+            serviceId: 7456,
+            serviceName: "Portable Ultrasonogram of KUB(P714)",
+            price: 2000,
+          },
+          {
+            serviceId: 7457,
+            serviceName:
+              "Portable Ultrasonogram of KUB, Pelvic Organ & PVR(P763)",
+            price: 2000,
+          },
+          {
+            serviceId: 7458,
+            serviceName:
+              "Portable Ultrasonogram of KUB, Pelvic Organs & Breast(P751)",
+            price: 2000,
+          },
+          {
+            serviceId: 7459,
+            serviceName: "Portable Ultrasonogram of KUB, Prostate & PVR(P717)",
+            price: 2000,
+          },
+          {
+            serviceId: 7460,
+            serviceName:
+              "Portable Ultrasonogram of KUB, Prostate & Testis(P746)",
+            price: 2000,
+          },
+          {
+            serviceId: 7461,
+            serviceName:
+              "Portable Ultrasonogram of KUB,Prostate,PVR & Transrectal(P761)",
+            price: 2000,
+          },
+          {
+            serviceId: 7462,
+            serviceName: "Portable Ultrasonogram of Left Breast(P738)",
+            price: 2000,
+          },
+          {
+            serviceId: 7463,
+            serviceName: "Portable Ultrasonogram of Lower Abdomen(P724)",
+            price: 2000,
+          },
+          {
+            serviceId: 7464,
+            serviceName: "Portable Ultrasonogram of Lower Chest(P760)",
+            price: 2000,
+          },
+          {
+            serviceId: 7465,
+            serviceName: "Portable Ultrasonogram of Neck(P759)",
+            price: 2000,
+          },
+          {
+            serviceId: 7466,
+            serviceName:
+              "Portable Ultrasonogram of Pelvic Organs & Breast(P744)",
+            price: 2000,
+          },
+          {
+            serviceId: 7467,
+            serviceName: "Portable Ultrasonogram of Pelvic Organs(P733)",
+            price: 2000,
+          },
+          {
+            serviceId: 7468,
+            serviceName: "Portable Ultrasonogram of Portal Vein(P748)",
+            price: 2000,
+          },
+          {
+            serviceId: 7469,
+            serviceName:
+              "Portable Ultrasonogram of Pregnancy Profile With  Foetal Doppler(P778)",
+            price: 2000,
+          },
+          {
+            serviceId: 7470,
+            serviceName: "Portable Ultrasonogram of Pregnancy Profile(P777)",
+            price: 2000,
+          },
+          {
+            serviceId: 7471,
+            serviceName: "Portable Ultrasonogram of Prostate & Testis(P747)",
+            price: 2000,
+          },
+          {
+            serviceId: 7472,
+            serviceName: "Portable Ultrasonogram of Prostate(P757)",
+            price: 2000,
+          },
+          {
+            serviceId: 7473,
+            serviceName: "Portable Ultrasonogram of PVR & Prostate(P719)",
+            price: 2000,
+          },
+          {
+            serviceId: 7474,
+            serviceName: "Portable Ultrasonogram of PVR(P713)",
+            price: 2000,
+          },
+          {
+            serviceId: 7475,
+            serviceName: "Portable Ultrasonogram of Right Breast(P739)",
+            price: 2000,
+          },
+          {
+            serviceId: 7476,
+            serviceName: "Portable Ultrasonogram of Testis(P720)",
+            price: 2000,
+          },
+          {
+            serviceId: 7477,
+            serviceName: "Portable Ultrasonogram of Thyroid Gland(P736)",
+            price: 2000,
+          },
+          {
+            serviceId: 7478,
+            serviceName: "Portable Ultrasonogram of Transrectal(P741)",
+            price: 2000,
+          },
+          {
+            serviceId: 7479,
+            serviceName: "Portable Ultrasonogram of Transvaginal(P742)",
+            price: 2000,
+          },
+          {
+            serviceId: 7480,
+            serviceName: "Portable Ultrasonogram of Upper Abdomen(P723)",
+            price: 2000,
+          },
+          {
+            serviceId: 7481,
+            serviceName:
+              "Portable Ultrasonogram of Urinary Bladder & PVR(P735)",
+            price: 2000,
+          },
+          {
+            serviceId: 7482,
+            serviceName: "Portable Ultrasonogram of Urinary System(P734)",
+            price: 2000,
+          },
+          {
+            serviceId: 7483,
+            serviceName: "Portable Ultrasonogram of Uterus & Ovary(P776)",
+            price: 2000,
+          },
+          {
+            serviceId: 7484,
+            serviceName:
+              "Portable Ultrasonogram of Whole Abdomen & Both Breast(P729)",
+            price: 2000,
+          },
+          {
+            serviceId: 7485,
+            serviceName:
+              "Portable Ultrasonogram of Whole Abdomen & Left Breast(P730)",
+            price: 2000,
+          },
+          {
+            serviceId: 7486,
+            serviceName:
+              "Portable Ultrasonogram of Whole Abdomen & Lymphnodes(P768)",
+            price: 2000,
+          },
+          {
+            serviceId: 7487,
+            serviceName:
+              "Portable Ultrasonogram of Whole Abdomen & Prostate(P725)",
+            price: 2000,
+          },
+          {
+            serviceId: 7488,
+            serviceName: "Portable Ultrasonogram of Whole Abdomen & PVR(P769)",
+            price: 2000,
+          },
+          {
+            serviceId: 7489,
+            serviceName:
+              "Portable Ultrasonogram of Whole Abdomen & Right Breast(P731)",
+            price: 2000,
+          },
+          {
+            serviceId: 7490,
+            serviceName:
+              "Portable Ultrasonogram of Whole Abdomen & Thyroid Gland(P728)",
+            price: 2000,
+          },
+          {
+            serviceId: 7491,
+            serviceName: "Portable Ultrasonogram of Whole Abdomen(P722)",
+            price: 2500,
+          },
+          {
+            serviceId: 7492,
+            serviceName:
+              "Portable Ultrasonogram of Whole Abdomen, Both Breast & Thyroid Gland(P732)",
+            price: 2000,
+          },
+          {
+            serviceId: 7493,
+            serviceName:
+              "Portable Ultrasonogram of Whole Abdomen, Prostate & PVR(P726)",
+            price: 2000,
+          },
+          {
+            serviceId: 7494,
+            serviceName: "Portable Ultrasonogram USCD(P740)",
+            price: 2000,
+          },
+          {
+            serviceId: 7495,
+            serviceName: "Pregnancy Profile (3D/4D)(F765)",
+            price: 2500,
+          },
+          {
+            serviceId: 7496,
+            serviceName: "Pregnancy Profile (Triplet)",
+            price: 0,
+          },
+          {
+            serviceId: 7497,
+            serviceName: "Pregnancy Profile (Triplet) - 2D(F773)",
+            price: 5000,
+          },
+          {
+            serviceId: 7498,
+            serviceName: "Pregnancy Profile (Triplet) - 3D/4D(F774)",
+            price: 5500,
+          },
+          {
+            serviceId: 7499,
+            serviceName: "Pregnancy Profile (Twin)",
+            price: 0,
+          },
+          {
+            serviceId: 7500,
+            serviceName: "Pregnancy Profile (Twin) - 2D(F761)",
+            price: 1200,
+          },
+          {
+            serviceId: 7501,
+            serviceName: "Pregnancy Profile (Twin) - 4D(F762)",
+            price: 2000,
+          },
+          {
+            serviceId: 7502,
+            serviceName: "PVR(F734)",
+            price: 1200,
+          },
+          {
+            serviceId: 7503,
+            serviceName: "Rt./ Lt. Breast (2D)(F771)",
+            price: 1300,
+          },
+          {
+            serviceId: 7504,
+            serviceName: "Rt./ Lt. Breast (3D/4D)(F772)",
+            price: 3000,
+          },
+          {
+            serviceId: 7505,
+            serviceName: "Single - 1st Obstetrics scan + Anomaly - 4D(F715)",
+            price: 4000,
+          },
+          {
+            serviceId: 7506,
+            serviceName: "Single - Anomaly  (4D)(F724)",
+            price: 2500,
+          },
+          {
+            serviceId: 7507,
+            serviceName: "Single - Anomaly 4D(F743)",
+            price: 2500,
+          },
+          {
+            serviceId: 7508,
+            serviceName: "Thyroid(F725)",
+            price: 1500,
+          },
+          {
+            serviceId: 7509,
+            serviceName: "Triplet - 1st Obstetrics Scan + Anomaly 4D(F786)",
+            price: 4000,
+          },
+          {
+            serviceId: 7510,
+            serviceName: "Triplet Anomaly 4D(F796)",
+            price: 2500,
+          },
+          {
+            serviceId: 7511,
+            serviceName: "Twin - 1st Obstetrics scan + Anomaly (F731)",
+            price: 2500,
+          },
+          {
+            serviceId: 7512,
+            serviceName: "Twin Anomaly (4D)(F720)",
+            price: 2500,
+          },
+          {
+            serviceId: 7513,
+            serviceName: "Twin Anomaly 4D(F744)",
+            price: 2500,
+          },
+          {
+            serviceId: 7514,
+            serviceName: "Twin Anomaly(F717)",
+            price: 2500,
+          },
+          {
+            serviceId: 7515,
+            serviceName: "Twin BPP ( 2D )(F718)",
+            price: 2000,
+          },
+          {
+            serviceId: 7516,
+            serviceName: "Twin BPP (4D)(F711)",
+            price: 3000,
+          },
+          {
+            serviceId: 7517,
+            serviceName: "Twin BPP + Growth(F795)",
+            price: 3000,
+          },
+          {
+            serviceId: 7518,
+            serviceName: "Twin BPP 4D(F745)",
+            price: 3000,
+          },
+          {
+            serviceId: 7519,
+            serviceName: "Twin Growth(F716)",
+            price: 1800,
+          },
+          {
+            serviceId: 7520,
+            serviceName: "Ultrasonogram Guided Prostate Biopsy",
+            price: 1500,
+          },
+          {
+            serviceId: 7521,
+            serviceName: "Ultrasonogram Guided Prostate Biopsy 4D(D773)",
+            price: 2000,
+          },
+          {
+            serviceId: 7522,
+            serviceName: "Ultrasonogram of  FNAC",
+            price: 1500,
+          },
+          {
+            serviceId: 7523,
+            serviceName:
+              "Ultrasonogram of  Viability + Cervix + Internal Os(F712)",
+            price: 3500,
+          },
+          {
+            serviceId: 7524,
+            serviceName: "Ultrasonogram of  Whole Abdomen & Adrenal (2D)(F728)",
+            price: 2000,
+          },
+          {
+            serviceId: 7525,
+            serviceName: "Ultrasonogram of .............................",
+            price: 1500,
+          },
+          {
+            serviceId: 7526,
+            serviceName: "Ultrasonogram of ?????????????(D704)",
+            price: 1800,
+          },
+          {
+            serviceId: 7527,
+            serviceName: "Ultrasonogram of Ankle Joint(M710)",
+            price: 2500,
+          },
+          {
+            serviceId: 7528,
+            serviceName: "Ultrasonogram of Arm(M728)",
+            price: 2500,
+          },
+          {
+            serviceId: 7529,
+            serviceName: "Ultrasonogram of Ascites",
+            price: 1500,
+          },
+          {
+            serviceId: 7530,
+            serviceName: "Ultrasonogram of Ascites 4D(D758)",
+            price: 2000,
+          },
+          {
+            serviceId: 7531,
+            serviceName: "Ultrasonogram of Back",
+            price: 2500,
+          },
+          {
+            serviceId: 7532,
+            serviceName: "Ultrasonogram of Both Breast",
+            price: 3000,
+          },
+          {
+            serviceId: 7533,
+            serviceName: "Ultrasonogram of Both Breast 4D(D737)",
+            price: 3500,
+          },
+          {
+            serviceId: 7534,
+            serviceName: "Ultrasonogram of Both Breasts (3D/4D)(F770)",
+            price: 3500,
+          },
+          {
+            serviceId: 7535,
+            serviceName: "Ultrasonogram of Brain",
+            price: 1500,
+          },
+          {
+            serviceId: 7536,
+            serviceName: "Ultrasonogram of Brain 4D(D721)",
+            price: 2000,
+          },
+          {
+            serviceId: 7537,
+            serviceName: "Ultrasonogram of Breast & Thyroid",
+            price: 2500,
+          },
+          {
+            serviceId: 7538,
+            serviceName: "Ultrasonogram of Breast & Thyroid 4D(D749)",
+            price: 3500,
+          },
+          {
+            serviceId: 7539,
+            serviceName: "Ultrasonogram of Buttock(M713)",
+            price: 2000,
+          },
+          {
+            serviceId: 7540,
+            serviceName: "Ultrasonogram of Caudal Root(M705)",
+            price: 1800,
+          },
+          {
+            serviceId: 7541,
+            serviceName: "Ultrasonogram of CTS assay(M719)",
+            price: 2000,
+          },
+          {
+            serviceId: 7542,
+            serviceName: "Ultrasonogram of Doppler of ????. 4D(D770)",
+            price: 3000,
+          },
+          {
+            serviceId: 7543,
+            serviceName: "Ultrasonogram of Elbow Joint(M703)",
+            price: 2000,
+          },
+          {
+            serviceId: 7544,
+            serviceName:
+              "Ultrasonogram of Enthesitis assay in Multiple Area(M718)",
+            price: 2500,
+          },
+          {
+            serviceId: 7545,
+            serviceName:
+              "Ultrasonogram of Erosion assay in Multiple Joint(M717)",
+            price: 2500,
+          },
+          {
+            serviceId: 7546,
+            serviceName: "Ultrasonogram of Facet Joint(M704)",
+            price: 2000,
+          },
+          {
+            serviceId: 7547,
+            serviceName: "Ultrasonogram of FNAC 4D(D745)",
+            price: 1800,
+          },
+          {
+            serviceId: 7548,
+            serviceName: "Ultrasonogram of FNAC/Aspiration",
+            price: 1500,
+          },
+          {
+            serviceId: 7549,
+            serviceName: "Ultrasonogram of Foetal Anomaly Scan",
+            price: 2500,
+          },
+          {
+            serviceId: 7550,
+            serviceName: "Ultrasonogram of Foetal Biophysical profile",
+            price: 2500,
+          },
+          {
+            serviceId: 7551,
+            serviceName: "Ultrasonogram of Foetal Biophysical profile 4D(D772)",
+            price: 3000,
+          },
+          {
+            serviceId: 7552,
+            serviceName: "Ultrasonogram of Folliculometry",
+            price: 1800,
+          },
+          {
+            serviceId: 7553,
+            serviceName: "Ultrasonogram of Folliculometry 4D(D727)",
+            price: 2500,
+          },
+          {
+            serviceId: 7554,
+            serviceName: "Ultrasonogram of Folliculometry Series",
+            price: 3000,
+          },
+          {
+            serviceId: 7555,
+            serviceName: "Ultrasonogram of Folliculometry Series 4D(D728)",
+            price: 2500,
+          },
+          {
+            serviceId: 7556,
+            serviceName: "Ultrasonogram of Foot(M711)",
+            price: 2000,
+          },
+          {
+            serviceId: 7557,
+            serviceName: "Ultrasonogram of Forearm(M729)",
+            price: 2000,
+          },
+          {
+            serviceId: 7558,
+            serviceName: "Ultrasonogram of Hand(M727)",
+            price: 2000,
+          },
+          {
+            serviceId: 7559,
+            serviceName: "Ultrasonogram of HBS & Breast",
+            price: 3000,
+          },
+          {
+            serviceId: 7560,
+            serviceName: "Ultrasonogram of HBS & Breast 4D(D755)",
+            price: 3500,
+          },
+          {
+            serviceId: 7561,
+            serviceName: "Ultrasonogram of HBS & KUB",
+            price: 1500,
+          },
+          {
+            serviceId: 7562,
+            serviceName: "Ultrasonogram of HBS & KUB 4D(D702)",
+            price: 2000,
+          },
+          {
+            serviceId: 7563,
+            serviceName: "Ultrasonogram of HBS & Pancreas",
+            price: 1500,
+          },
+          {
+            serviceId: 7564,
+            serviceName: "Ultrasonogram of HBS & Pancreas 4D(D701)",
+            price: 2000,
+          },
+          {
+            serviceId: 7565,
+            serviceName: "Ultrasonogram of HBS & Pelvic Organs",
+            price: 1200,
+          },
+          {
+            serviceId: 7566,
+            serviceName: "Ultrasonogram of HBS & Pelvic Organs 4D(D703)",
+            price: 2000,
+          },
+          {
+            serviceId: 7567,
+            serviceName: "Ultrasonogram of HBS & Prostate",
+            price: 1500,
+          },
+          {
+            serviceId: 7568,
+            serviceName: "Ultrasonogram of HBS & Prostate 4D(D708)",
+            price: 2000,
+          },
+          {
+            serviceId: 7569,
+            serviceName: "Ultrasonogram of HBS & Testis",
+            price: 2500,
+          },
+          {
+            serviceId: 7570,
+            serviceName: "Ultrasonogram of HBS & Testis 4D(D707)",
+            price: 3000,
+          },
+          {
+            serviceId: 7571,
+            serviceName: "Ultrasonogram of HBS, KUB & Breast",
+            price: 3000,
+          },
+          {
+            serviceId: 7572,
+            serviceName: "Ultrasonogram of HBS, KUB & Breast 4D(D752)",
+            price: 4000,
+          },
+          {
+            serviceId: 7573,
+            serviceName: "Ultrasonogram of HBS, KUB & Pelvic Organs",
+            price: 1500,
+          },
+          {
+            serviceId: 7574,
+            serviceName: "Ultrasonogram of HBS, KUB & Pelvic Organs 4D(D743)",
+            price: 2000,
+          },
+          {
+            serviceId: 7575,
+            serviceName: "Ultrasonogram of HBS, KUB & Prostate",
+            price: 1500,
+          },
+          {
+            serviceId: 7576,
+            serviceName: "Ultrasonogram of HBS, KUB & Prostate 4D(D705)",
+            price: 2000,
+          },
+          {
+            serviceId: 7577,
+            serviceName: "Ultrasonogram of HBS, KUB & PVR",
+            price: 1500,
+          },
+          {
+            serviceId: 7578,
+            serviceName: "Ultrasonogram of HBS, KUB & PVR 4D(D762)",
+            price: 2000,
+          },
+          {
+            serviceId: 7579,
+            serviceName: "Ultrasonogram of HBS, KUB & Testis",
+            price: 2500,
+          },
+          {
+            serviceId: 7580,
+            serviceName: "Ultrasonogram of HBS, KUB & Testis 4D(D754)",
+            price: 4000,
+          },
+          {
+            serviceId: 7581,
+            serviceName: "Ultrasonogram of HBS, KUB, Prostate & PVR",
+            price: 1800,
+          },
+          {
+            serviceId: 7582,
+            serviceName: "Ultrasonogram of HBS, KUB, Prostate & PVR 4D(D706)",
+            price: 2000,
+          },
+          {
+            serviceId: 7583,
+            serviceName: "Ultrasonogram of HBS, KUB, Prostate, PVR & Testis",
+            price: 3000,
+          },
+          {
+            serviceId: 7584,
+            serviceName:
+              "Ultrasonogram of HBS, KUB, Prostate, PVR & Testis 4D(D710)",
+            price: 4000,
+          },
+          {
+            serviceId: 7585,
+            serviceName: "Ultrasonogram of HBS, KUB, PVR & Pelvic Organs",
+            price: 1800,
+          },
+          {
+            serviceId: 7586,
+            serviceName:
+              "Ultrasonogram of HBS, KUB, PVR & Pelvic Organs 4D(D767)",
+            price: 2200,
+          },
+          {
+            serviceId: 7587,
+            serviceName: "Ultrasonogram of HBS, Pancreas & KUB",
+            price: 1500,
+          },
+          {
+            serviceId: 7588,
+            serviceName: "Ultrasonogram of HBS, Pancreas & KUB 4D(D711)",
+            price: 2000,
+          },
+          {
+            serviceId: 7589,
+            serviceName: "Ultrasonogram of HBS, Pancrease & Pelvic Organs",
+            price: 1800,
+          },
+          {
+            serviceId: 7590,
+            serviceName:
+              "Ultrasonogram of HBS, Pancrease & Pelvic Organs 4D(D712)",
+            price: 2000,
+          },
+          {
+            serviceId: 7591,
+            serviceName: "Ultrasonogram of HBS, Pelvic Organ & PVR",
+            price: 1500,
+          },
+          {
+            serviceId: 7592,
+            serviceName: "Ultrasonogram of HBS, Pelvic Organ & PVR 4D(D764)",
+            price: 2000,
+          },
+          {
+            serviceId: 7593,
+            serviceName: "Ultrasonogram of HBS, Pelvic Organs & Breast",
+            price: 3000,
+          },
+          {
+            serviceId: 7594,
+            serviceName:
+              "Ultrasonogram of HBS, Pelvic Organs & Breast 4D(D753)",
+            price: 4000,
+          },
+          {
+            serviceId: 7595,
+            serviceName: "Ultrasonogram of Heel(M715)",
+            price: 2000,
+          },
+          {
+            serviceId: 7596,
+            serviceName: "Ultrasonogram of Hip Joint(M708)",
+            price: 2000,
+          },
+          {
+            serviceId: 7597,
+            serviceName: "Ultrasonogram of Inguinal Region",
+            price: 1500,
+          },
+          {
+            serviceId: 7598,
+            serviceName: "Ultrasonogram of Inguinal Region.",
+            price: 1500,
+          },
+          {
+            serviceId: 7599,
+            serviceName: "Ultrasonogram of Joint",
+            price: 2000,
+          },
+          {
+            serviceId: 7600,
+            serviceName: "Ultrasonogram of Knee(M702)",
+            price: 2000,
+          },
+          {
+            serviceId: 7601,
+            serviceName: "Ultrasonogram of KUB",
+            price: 1200,
+          },
+          {
+            serviceId: 7602,
+            serviceName: "Ultrasonogram of KUB & Breast",
+            price: 2500,
+          },
+          {
+            serviceId: 7603,
+            serviceName: "Ultrasonogram of KUB & Breast 4D(D756)",
+            price: 3000,
+          },
+          {
+            serviceId: 7604,
+            serviceName: "Ultrasonogram of KUB & Pelvic Organs",
+            price: 1500,
+          },
+          {
+            serviceId: 7605,
+            serviceName: "Ultrasonogram of KUB & Pelvic Organs 4D(D718)",
+            price: 2000,
+          },
+          {
+            serviceId: 7606,
+            serviceName: "Ultrasonogram of KUB & Pelvic Organs MCC PVR",
+            price: 1800,
+          },
+          {
+            serviceId: 7607,
+            serviceName: "Ultrasonogram of KUB & Prostate",
+            price: 1500,
+          },
+          {
+            serviceId: 7608,
+            serviceName: "Ultrasonogram of KUB & Prostate 4D(D715)",
+            price: 2000,
+          },
+          {
+            serviceId: 7609,
+            serviceName: "Ultrasonogram of KUB & PVR",
+            price: 1500,
+          },
+          {
+            serviceId: 7610,
+            serviceName: "Ultrasonogram of KUB & PVR 4D(D716)",
+            price: 2000,
+          },
+          {
+            serviceId: 7611,
+            serviceName: "Ultrasonogram of KUB & Suprarenal gland",
+            price: 1500,
+          },
+          {
+            serviceId: 7612,
+            serviceName: "Ultrasonogram of KUB & Suprarenal gland 4D(D771)",
+            price: 2000,
+          },
+          {
+            serviceId: 7613,
+            serviceName: "Ultrasonogram of KUB & Testis",
+            price: 2500,
+          },
+          {
+            serviceId: 7614,
+            serviceName: "Ultrasonogram of KUB & Testis 4D(D750)",
+            price: 3000,
+          },
+          {
+            serviceId: 7615,
+            serviceName: "Ultrasonogram of KUB & Thyroid",
+            price: 2500,
+          },
+          {
+            serviceId: 7616,
+            serviceName: "Ultrasonogram of KUB & Thyroid 4D(D765)",
+            price: 3000,
+          },
+          {
+            serviceId: 7617,
+            serviceName: "Ultrasonogram of KUB +PVR+ MCC",
+            price: 1500,
+          },
+          {
+            serviceId: 7618,
+            serviceName: "Ultrasonogram of KUB 4D(D714)",
+            price: 2000,
+          },
+          {
+            serviceId: 7619,
+            serviceName: "Ultrasonogram of KUB With Inguinal Region",
+            price: 0,
+          },
+          {
+            serviceId: 7620,
+            serviceName: "Ultrasonogram of KUB, Pelvic Organ & PVR",
+            price: 1800,
+          },
+          {
+            serviceId: 7621,
+            serviceName: "Ultrasonogram of KUB, Pelvic Organ & PVR 4D(D763)",
+            price: 2000,
+          },
+          {
+            serviceId: 7622,
+            serviceName: "Ultrasonogram of KUB, Pelvic Organs & Breast",
+            price: 3000,
+          },
+          {
+            serviceId: 7623,
+            serviceName:
+              "Ultrasonogram of KUB, Pelvic Organs & Breast 4D(D751)",
+            price: 4000,
+          },
+          {
+            serviceId: 7624,
+            serviceName: "Ultrasonogram of KUB, Prostate & PVR",
+            price: 1500,
+          },
+          {
+            serviceId: 7625,
+            serviceName: "Ultrasonogram of KUB, Prostate & PVR 4D(D717)",
+            price: 2000,
+          },
+          {
+            serviceId: 7626,
+            serviceName: "Ultrasonogram of KUB, Prostate & Testis",
+            price: 2500,
+          },
+          {
+            serviceId: 7627,
+            serviceName: "Ultrasonogram of KUB, Prostate & Testis 4D(D746)",
+            price: 3000,
+          },
+          {
+            serviceId: 7628,
+            serviceName: "Ultrasonogram of KUB,Prostate,PVR & Transrectal",
+            price: 3500,
+          },
+          {
+            serviceId: 7629,
+            serviceName:
+              "Ultrasonogram of KUB,Prostate,PVR & Transrectal 4D(D761)",
+            price: 4000,
+          },
+          {
+            serviceId: 7630,
+            serviceName: "Ultrasonogram of Left Breast",
+            price: 1500,
+          },
+          {
+            serviceId: 7631,
+            serviceName: "Ultrasonogram of Left Breast 2D",
+            price: 2000,
+          },
+          {
+            serviceId: 7632,
+            serviceName: "Ultrasonogram of Left Breast 4D(D738)",
+            price: 1500,
+          },
+          {
+            serviceId: 7633,
+            serviceName: "Ultrasonogram of Leg(M726)",
+            price: 2000,
+          },
+          {
+            serviceId: 7634,
+            serviceName: "Ultrasonogram of Liver Elastography",
+            price: 2000,
+          },
+          {
+            serviceId: 7635,
+            serviceName: "Ultrasonogram of Lower Abdomen",
+            price: 1500,
+          },
+          {
+            serviceId: 7636,
+            serviceName: "Ultrasonogram of Lower Abdomen & KUB",
+            price: 0,
+          },
+          {
+            serviceId: 7637,
+            serviceName: "Ultrasonogram of Lower Abdomen & PVR",
+            price: 0,
+          },
+          {
+            serviceId: 7638,
+            serviceName: "Ultrasonogram of Lower Abdomen & Testis",
+            price: 0,
+          },
+          {
+            serviceId: 7639,
+            serviceName: "Ultrasonogram of Lower Abdomen 4D(D724)",
+            price: 2000,
+          },
+          {
+            serviceId: 7640,
+            serviceName: "Ultrasonogram of Lower Abdomen With Colour Doppler",
+            price: 2500,
+          },
+          {
+            serviceId: 7641,
+            serviceName: "Ultrasonogram of Lower Abdomen with Doppler Study",
+            price: 0,
+          },
+          {
+            serviceId: 7642,
+            serviceName: "Ultrasonogram of Lower Back Muscle(M716)",
+            price: 2000,
+          },
+          {
+            serviceId: 7643,
+            serviceName: "Ultrasonogram of Lower Chest",
+            price: 1500,
+          },
+          {
+            serviceId: 7644,
+            serviceName: "Ultrasonogram of Lower Chest 4D(D760)",
+            price: 2000,
+          },
+          {
+            serviceId: 7645,
+            serviceName: "Ultrasonogram of MCA+UA+Uterine artery",
+            price: 5000,
+          },
+          {
+            serviceId: 7646,
+            serviceName: "Ultrasonogram of MCC & PVR",
+            price: 1000,
+          },
+          {
+            serviceId: 7647,
+            serviceName: "Ultrasonogram of Neck",
+            price: 1500,
+          },
+          {
+            serviceId: 7648,
+            serviceName: "Ultrasonogram of Neck 4D(D759)",
+            price: 2000,
+          },
+          {
+            serviceId: 7649,
+            serviceName:
+              "Ultrasonogram of Nerve Tracking in Median / Ulnar Nerve(M720)",
+            price: 3000,
+          },
+          {
+            serviceId: 7650,
+            serviceName: "Ultrasonogram of Pelvic Organs",
+            price: 1500,
+          },
+          {
+            serviceId: 7651,
+            serviceName: "Ultrasonogram of Pelvic Organs & Breast 4D(D744)",
+            price: 3000,
+          },
+          {
+            serviceId: 7652,
+            serviceName: "Ultrasonogram of Pelvic Organs 4D(D733)",
+            price: 1800,
+          },
+          {
+            serviceId: 7653,
+            serviceName: "Ultrasonogram of Penis",
+            price: 1800,
+          },
+          {
+            serviceId: 7654,
+            serviceName: "Ultrasonogram of Penis & Testis",
+            price: 0,
+          },
+          {
+            serviceId: 7655,
+            serviceName: "Ultrasonogram of Penis 4D(D709)",
+            price: 2000,
+          },
+          {
+            serviceId: 7656,
+            serviceName: "Ultrasonogram of Penis/Penil shaft",
+            price: 1800,
+          },
+          {
+            serviceId: 7657,
+            serviceName: "Ultrasonogram of Portal Vein 4D(D748)",
+            price: 2500,
+          },
+          {
+            serviceId: 7658,
+            serviceName: "Ultrasonogram of Pregnancy +Adnexa",
+            price: 3500,
+          },
+          {
+            serviceId: 7659,
+            serviceName: "Ultrasonogram of Pregnancy Profile",
+            price: 1500,
+          },
+          {
+            serviceId: 7660,
+            serviceName:
+              "Ultrasonogram of Pregnancy Profile  and Doppler Study and Biophysical Profile",
+            price: 0,
+          },
+          {
+            serviceId: 7661,
+            serviceName: "Ultrasonogram of Pregnancy Profile 4D(D777)",
+            price: 2500,
+          },
+          {
+            serviceId: 7662,
+            serviceName:
+              "Ultrasonogram of Pregnancy Profile With  Foetal Doppler",
+            price: 2500,
+          },
+          {
+            serviceId: 7663,
+            serviceName:
+              "Ultrasonogram of Pregnancy Profile with Cervical Length",
+            price: 0,
+          },
+          {
+            serviceId: 7664,
+            serviceName:
+              "Ultrasonogram of Pregnancy Profile with Foetal Anomaly Scan",
+            price: 0,
+          },
+          {
+            serviceId: 7665,
+            serviceName:
+              "Ultrasonogram of Pregnancy Profile with Scar Thickness",
+            price: 0,
+          },
+          {
+            serviceId: 7666,
+            serviceName: "Ultrasonogram of Pregnancy Profile with TVS",
+            price: 0,
+          },
+          {
+            serviceId: 7667,
+            serviceName:
+              "Ultrasonogram of Pregnancy Profile with Whole Abdomen",
+            price: 0,
+          },
+          {
+            serviceId: 7668,
+            serviceName: "Ultrasonogram of Prostate",
+            price: 1200,
+          },
+          {
+            serviceId: 7669,
+            serviceName: "Ultrasonogram of Prostate & Testis",
+            price: 2000,
+          },
+          {
+            serviceId: 7670,
+            serviceName: "Ultrasonogram of Prostate & Testis 4D(D747)",
+            price: 3000,
+          },
+          {
+            serviceId: 7671,
+            serviceName: "Ultrasonogram of Prostate 4D(D757)",
+            price: 1800,
+          },
+          {
+            serviceId: 7672,
+            serviceName: "Ultrasonogram of PVR",
+            price: 1200,
+          },
+          {
+            serviceId: 7673,
+            serviceName: "Ultrasonogram of PVR & Prostate",
+            price: 1200,
+          },
+          {
+            serviceId: 7674,
+            serviceName: "Ultrasonogram of PVR & Prostate 4D(D719)",
+            price: 1800,
+          },
+          {
+            serviceId: 7675,
+            serviceName: "Ultrasonogram of PVR 4D(D713)",
+            price: 1800,
+          },
+          {
+            serviceId: 7676,
+            serviceName: "Ultrasonogram of Right Breast",
+            price: 1500,
+          },
+          {
+            serviceId: 7677,
+            serviceName: "Ultrasonogram of Right Breast 2D",
+            price: 2000,
+          },
+          {
+            serviceId: 7678,
+            serviceName: "Ultrasonogram of Right Breast 4D",
+            price: 2400,
+          },
+          {
+            serviceId: 7679,
+            serviceName: "",
+            price: 2500,
+          },
+          {
+            serviceId: 7680,
+            serviceName: "Ultrasonogram of Right Breast 4D(D739)",
+            price: 2000,
+          },
+          {
+            serviceId: 7681,
+            serviceName: "Ultrasonogram of Scrotum",
+            price: 1800,
+          },
+          {
+            serviceId: 7682,
+            serviceName: "Ultrasonogram of Scrotum with Inguinal Region",
+            price: 0,
+          },
+          {
+            serviceId: 7683,
+            serviceName: "Ultrasonogram of Shoulder(M701)",
+            price: 2000,
+          },
+          {
+            serviceId: 7684,
+            serviceName: "Ultrasonogram of SI Joint(M709)",
+            price: 2000,
+          },
+          {
+            serviceId: 7685,
+            serviceName: "Ultrasonogram of Small Joint(M706)",
+            price: 2000,
+          },
+          {
+            serviceId: 7686,
+            serviceName: "Ultrasonogram of Soft Tissue(M712)",
+            price: 2000,
+          },
+          {
+            serviceId: 7687,
+            serviceName: "Ultrasonogram of Stellate Ganglion(M714)",
+            price: 2000,
+          },
+          {
+            serviceId: 7688,
+            serviceName: "Ultrasonogram of Swelling",
+            price: 1500,
+          },
+          {
+            serviceId: 7689,
+            serviceName: "Ultrasonogram of Swelling with Doppler",
+            price: 0,
+          },
+          {
+            serviceId: 7690,
+            serviceName: "Ultrasonogram of Swelling/Mass",
+            price: 2000,
+          },
+          {
+            serviceId: 7691,
+            serviceName: "Ultrasonogram of Testis",
+            price: 1800,
+          },
+          {
+            serviceId: 7692,
+            serviceName: "Ultrasonogram of Testis 4D(D720)",
+            price: 2500,
+          },
+          {
+            serviceId: 7693,
+            serviceName: "Ultrasonogram of Thyroid Gland",
+            price: 1500,
+          },
+          {
+            serviceId: 7694,
+            serviceName: "Ultrasonogram of Thyroid Gland 4D(D736)",
+            price: 2000,
+          },
+          {
+            serviceId: 7695,
+            serviceName: "Ultrasonogram of Transrectal",
+            price: 2500,
+          },
+          {
+            serviceId: 7696,
+            serviceName: "Ultrasonogram of Transrectal 4D(D741)",
+            price: 3000,
+          },
+          {
+            serviceId: 7697,
+            serviceName: "Ultrasonogram of Transvaginal / TVS",
+            price: 1800,
+          },
+          {
+            serviceId: 7698,
+            serviceName: "Ultrasonogram of Transvaginal 4D(D742)",
+            price: 2500,
+          },
+          {
+            serviceId: 7699,
+            serviceName: "Ultrasonogram of TVS With Colour Doppler",
+            price: 2500,
+          },
+          {
+            serviceId: 7700,
+            serviceName: "Ultrasonogram of TVS with vascularity/color doppler",
+            price: 5000,
+          },
+          {
+            serviceId: 7701,
+            serviceName: "Ultrasonogram of Upper Abdomen",
+            price: 1500,
+          },
+          {
+            serviceId: 7702,
+            serviceName: "Ultrasonogram of Upper Abdomen 4D(D723)",
+            price: 2000,
+          },
+          {
+            serviceId: 7703,
+            serviceName: "Ultrasonogram of Upper Abdomen with Doppler Study",
+            price: 0,
+          },
+          {
+            serviceId: 7704,
+            serviceName: "Ultrasonogram of Urinary Bladder & PVR 4D(D735)",
+            price: 2000,
+          },
+          {
+            serviceId: 7705,
+            serviceName: "Ultrasonogram of Urinary System",
+            price: 1200,
+          },
+          {
+            serviceId: 7706,
+            serviceName: "Ultrasonogram of Urinary System 4D(D734)",
+            price: 1800,
+          },
+          {
+            serviceId: 7707,
+            serviceName: "Ultrasonogram of Uterus & Ovary",
+            price: 1500,
+          },
+          {
+            serviceId: 7708,
+            serviceName: "Ultrasonogram of Uterus & Ovary 4D(D776)",
+            price: 1800,
+          },
+          {
+            serviceId: 7709,
+            serviceName: "Ultrasonogram of Whole Abdomen",
+            price: 1800,
+          },
+          {
+            serviceId: 7710,
+            serviceName: "Ultrasonogram of Whole Abdomen & Both Breast",
+            price: 3600,
+          },
+          {
+            serviceId: 7711,
+            serviceName:
+              "Ultrasonogram of Whole Abdomen & Both Breast 4D(D729)",
+            price: 4500,
+          },
+          {
+            serviceId: 7712,
+            serviceName: "Ultrasonogram of Whole Abdomen & Left Breast",
+            price: 3000,
+          },
+          {
+            serviceId: 7713,
+            serviceName:
+              "Ultrasonogram of Whole Abdomen & Left Breast 4D(D730)",
+            price: 3500,
+          },
+          {
+            serviceId: 7714,
+            serviceName: "Ultrasonogram of Whole Abdomen & Lymphnodes",
+            price: 2000,
+          },
+          {
+            serviceId: 7715,
+            serviceName: "Ultrasonogram of Whole Abdomen & Lymphnodes 4D(D768)",
+            price: 2000,
+          },
+          {
+            serviceId: 7716,
+            serviceName: "Ultrasonogram of Whole Abdomen & Prostate",
+            price: 1800,
+          },
+          {
+            serviceId: 7717,
+            serviceName: "Ultrasonogram of Whole Abdomen & Prostate 4D(D725)",
+            price: 2500,
+          },
+          {
+            serviceId: 7718,
+            serviceName: "Ultrasonogram of Whole Abdomen & PVR",
+            price: 1800,
+          },
+          {
+            serviceId: 7719,
+            serviceName: "Ultrasonogram of Whole Abdomen & PVR 4D(D766)",
+            price: 2200,
+          },
+          {
+            serviceId: 7720,
+            serviceName: "Ultrasonogram of Whole Abdomen & Pylorus",
+            price: 0,
+          },
+          {
+            serviceId: 7721,
+            serviceName: "Ultrasonogram of Whole Abdomen & Right Breast",
+            price: 3000,
+          },
+          {
+            serviceId: 7722,
+            serviceName:
+              "Ultrasonogram of Whole Abdomen & Right Breast 4D(D731)",
+            price: 3500,
+          },
+          {
+            serviceId: 7723,
+            serviceName: "Ultrasonogram of Whole Abdomen & Testis(P727)",
+            price: 2000,
+          },
+          {
+            serviceId: 7724,
+            serviceName: "Ultrasonogram of Whole Abdomen (4D)(Female)(F739)",
+            price: 2500,
+          },
+          {
+            serviceId: 7725,
+            serviceName: "Ultrasonogram of Whole Abdomen (4D)(Male)(F739)",
+            price: 2500,
+          },
+          {
+            serviceId: 7726,
+            serviceName: "Ultrasonogram of Whole Abdomen 4D(D722)",
+            price: 2500,
+          },
+          {
+            serviceId: 7727,
+            serviceName: "Ultrasonogram of Whole Abdomen MCC PVR",
+            price: 1800,
+          },
+          {
+            serviceId: 7728,
+            serviceName: "Ultrasonogram of Whole Abdomen Prostate, MCC & PVR",
+            price: 1800,
+          },
+          {
+            serviceId: 7729,
+            serviceName: "Ultrasonogram of Whole Abdomen PVR and MCC",
+            price: 0,
+          },
+          {
+            serviceId: 7730,
+            serviceName: "Ultrasonogram of Whole Abdomen With Inguinal Region",
+            price: 0,
+          },
+          {
+            serviceId: 7731,
+            serviceName: "Ultrasonogram of Whole Abdomen with Pelvis 2D",
+            price: 1800,
+          },
+          {
+            serviceId: 7732,
+            serviceName:
+              "Ultrasonogram of Whole Abdomen with PVR - 2D(Female)(F755)",
+            price: 2000,
+          },
+          {
+            serviceId: 7733,
+            serviceName: "Ultrasonogram of Whole Abdomen with PVR - 2D(Male)",
+            price: 1800,
+          },
+          {
+            serviceId: 7734,
+            serviceName:
+              "Ultrasonogram of Whole Abdomen, Both Breast & Thyroid Gland 4D(D732)",
+            price: 5000,
+          },
+          {
+            serviceId: 7735,
+            serviceName: "Ultrasonogram of Whole Abdomen, Prostate & PVR",
+            price: 1800,
+          },
+          {
+            serviceId: 7736,
+            serviceName:
+              "Ultrasonogram of Whole Abdomen, Prostate & PVR 4D(D726)",
+            price: 2000,
+          },
+          {
+            serviceId: 7737,
+            serviceName: "Ultrasonogram of Wrist Joint(M707)",
+            price: 2000,
+          },
+          {
+            serviceId: 7738,
+            serviceName: "Ultrasonogram Pregnancy Profile With Growth Scan",
+            price: 2000,
+          },
+          {
+            serviceId: 7739,
+            serviceName: "Ultrasonogram Pregnancy profile with NT Scan",
+            price: 1800,
+          },
+          {
+            serviceId: 7740,
+            serviceName: "Ultrasonography of Hysterosalpino Graphy",
+            price: 3000,
+          },
+          {
+            serviceId: 7741,
+            serviceName: "Ultrasound of Genito Urinary System (GUS)",
+            price: 0,
+          },
+          {
+            serviceId: 7742,
+            serviceName: "Umbilical Artery / Uterine Artery Doppler(F777)",
+            price: 5000,
+          },
+          {
+            serviceId: 7743,
+            serviceName: "Upper Abdomen (2D)(F730)",
+            price: 1500,
+          },
+          {
+            serviceId: 7744,
+            serviceName: "Upper Abdomen (4D)(F740)",
+            price: 1800,
+          },
+          {
+            serviceId: 7745,
+            serviceName: "USCD",
+            price: 1800,
+          },
+          {
+            serviceId: 7746,
+            serviceName: "USCD 4D(D740)",
+            price: 2000,
+          },
+          {
+            serviceId: 7747,
+            serviceName: "USG Anomaly + Wellbeing",
+            price: 6000,
+          },
+          {
+            serviceId: 7748,
+            serviceName: "USG Anomaly + Wellbeing(Twin)",
+            price: 9000,
+          },
+          {
+            serviceId: 7749,
+            serviceName: "USG Both Breasts (2D)(F769)",
+            price: 2500,
+          },
+          {
+            serviceId: 7750,
+            serviceName: "USG Doppler of Pregnancy Profile",
+            price: 0,
+          },
+          {
+            serviceId: 7751,
+            serviceName: "USG Doppler of Rt/Lt knee Joint",
+            price: 2000,
+          },
+          {
+            serviceId: 7752,
+            serviceName: "USG Doppler Triplet",
+            price: 6000,
+          },
+          {
+            serviceId: 7753,
+            serviceName: "USG Doppler Twin",
+            price: 5000,
+          },
+          {
+            serviceId: 7754,
+            serviceName: "USG for Fetal Wt. Presentation & Liquor Volume(F790)",
+            price: 2500,
+          },
+          {
+            serviceId: 7755,
+            serviceName: "USG for Liquor Volume(F789)",
+            price: 2500,
+          },
+          {
+            serviceId: 7756,
+            serviceName: "USG Guided FNAC-1",
+            price: 1500,
+          },
+          {
+            serviceId: 7757,
+            serviceName: "USG Guided FNAC-2",
+            price: 1500,
+          },
+          {
+            serviceId: 7758,
+            serviceName: "USG L/R Axilla",
+            price: 1500,
+          },
+          {
+            serviceId: 7759,
+            serviceName: "USG of ------------",
+            price: 1500,
+          },
+          {
+            serviceId: 7760,
+            serviceName: "USG of Abdomen(R722)",
+            price: 1800,
+          },
+          {
+            serviceId: 7761,
+            serviceName: "USG of Ankle joint",
+            price: 2000,
+          },
+          {
+            serviceId: 7762,
+            serviceName: "USG of Anterior abdominal wall",
+            price: 1800,
+          },
+          {
+            serviceId: 7763,
+            serviceName: "USG of arm (MMZ)",
+            price: 2000,
+          },
+          {
+            serviceId: 7764,
+            serviceName: "USG of Both Knee Joint",
+            price: 4000,
+          },
+          {
+            serviceId: 7765,
+            serviceName: "USG of Brain(F726)",
+            price: 1800,
+          },
+          {
+            serviceId: 7766,
+            serviceName: "USG of Breast(R737)",
+            price: 2400,
+          },
+          {
+            serviceId: 7767,
+            serviceName: "USG of Calf Muscle(F713)",
+            price: 1800,
+          },
+          {
+            serviceId: 7768,
+            serviceName: "USG of cheek",
+            price: 1500,
+          },
+          {
+            serviceId: 7769,
+            serviceName: "USG of Chest(F729)",
+            price: 1800,
+          },
+          {
+            serviceId: 7770,
+            serviceName: "USG of forearm (MMZ)",
+            price: 2000,
+          },
+          {
+            serviceId: 7771,
+            serviceName: "USG of Hip joint",
+            price: 2000,
+          },
+          {
+            serviceId: 7772,
+            serviceName: "USG OF KUB, PROSTATE, MCC, PVR",
+            price: 1800,
+          },
+          {
+            serviceId: 7773,
+            serviceName: "USG of leg (MMZ)",
+            price: 2000,
+          },
+          {
+            serviceId: 7774,
+            serviceName: "USG of LT Knee Joint",
+            price: 2000,
+          },
+          {
+            serviceId: 7775,
+            serviceName: "USG of Musculosketal(R721)",
+            price: 2000,
+          },
+          {
+            serviceId: 7776,
+            serviceName: "USG of Neck(F714)",
+            price: 2000,
+          },
+          {
+            serviceId: 7777,
+            serviceName: "USG of Parotid Gland",
+            price: 1500,
+          },
+          {
+            serviceId: 7778,
+            serviceName: "USG of pelvis",
+            price: 1500,
+          },
+          {
+            serviceId: 7779,
+            serviceName: "USG of Pelvis (TVS) for Folliculoletry(F781)",
+            price: 2000,
+          },
+          {
+            serviceId: 7780,
+            serviceName:
+              "USG of Pelvis (TVS) with  anterior abdominal wall(F764)",
+            price: 2000,
+          },
+          {
+            serviceId: 7781,
+            serviceName: "USG of Pelvis Organs (T/A) - 2D(F750)",
+            price: 2500,
+          },
+          {
+            serviceId: 7782,
+            serviceName: "USG of RT Knee Joint",
+            price: 2000,
+          },
+          {
+            serviceId: 7783,
+            serviceName: "USG of Rt/Lt. Shoulder",
+            price: 2000,
+          },
+          {
+            serviceId: 7784,
+            serviceName: "USG of Testis(R720)",
+            price: 1800,
+          },
+          {
+            serviceId: 7785,
+            serviceName: "USG of thigh (MMZ)",
+            price: 2000,
+          },
+          {
+            serviceId: 7786,
+            serviceName: "USG of thyroid",
+            price: 1500,
+          },
+          {
+            serviceId: 7787,
+            serviceName: "USG of Whole Abdomen - 2D(Female)(F754)",
+            price: 1800,
+          },
+          {
+            serviceId: 7788,
+            serviceName: "USG of Whole Abdomen - 2D(Male)",
+            price: 1800,
+          },
+          {
+            serviceId: 7789,
+            serviceName: "USG of Whole Abdomen, MCC, PVR (M)",
+            price: 1800,
+          },
+          {
+            serviceId: 7790,
+            serviceName: "USG Power dopplar for MSK (MMZ)",
+            price: 1000,
+          },
+          {
+            serviceId: 7791,
+            serviceName: "USG Protable",
+            price: 6000,
+          },
+          {
+            serviceId: 7792,
+            serviceName: "USG Soft Market / Trisomy 21",
+            price: 4000,
+          },
+          {
+            serviceId: 7793,
+            serviceName: "USG T/A & Adrenals",
+            price: 3500,
+          },
+          {
+            serviceId: 7794,
+            serviceName: "USG TA & PVR",
+            price: 3500,
+          },
+          {
+            serviceId: 7795,
+            serviceName: "USG Transvaginal of pelvis organ(TVS) - 4D(F736)",
+            price: 2500,
+          },
+          {
+            serviceId: 7796,
+            serviceName: "USG Transvaginal of pelvis organs (TVS) - 2D(F749)",
+            price: 2000,
+          },
+          {
+            serviceId: 7797,
+            serviceName:
+              "USG Transvaginal of pelvis organs (TVS) - 4D & Doppler(F748)",
+            price: 2500,
+          },
+          {
+            serviceId: 7798,
+            serviceName: "USG TVS + PVR",
+            price: 2500,
+          },
+          {
+            serviceId: 7799,
+            serviceName: "Uterus & Adexa (T/A) 2D(F779)",
+            price: 2500,
+          },
+          {
+            serviceId: 7800,
+            serviceName: "Uterus & Adexa (T/A) 4D(F780)",
+            price: 3000,
+          },
+          {
+            serviceId: 7801,
+            serviceName: "Viability & Dating(F766)",
+            price: 2200,
+          },
+          {
+            serviceId: 7802,
+            serviceName: "Viability (Triplet) (TVS)(F785)",
+            price: 4500,
+          },
+          {
+            serviceId: 7803,
+            serviceName: "Viability (TVS)(F775)",
+            price: 3000,
+          },
+          {
+            serviceId: 7804,
+            serviceName: "Viability Twin (T/A)(F752)",
+            price: 3000,
+          },
+          {
+            serviceId: 7805,
+            serviceName: "Viability Twin (TVS)(F753)",
+            price: 4000,
+          },
+        ],
+      },
+      {
+        categoryId: 18,
+        categoryName: "UROFLOWETERY",
+        items: [
+          {
+            serviceId: 7806,
+            serviceName: "Uroflowmetry",
+            price: 1200,
+          },
+        ],
+      },
+      {
+        categoryId: 19,
+        categoryName: "VACCINATION",
+        items: [
+          {
+            serviceId: 7807,
+            serviceName: "Cervarix PFF 0.5 ml",
+            price: 2500,
+          },
+          {
+            serviceId: 7808,
+            serviceName: "Engerix-B (Adult)",
+            price: 650,
+          },
+          {
+            serviceId: 7809,
+            serviceName: "Engerix-B (Child)",
+            price: 500,
+          },
+          {
+            serviceId: 7810,
+            serviceName: "HAVRIX - A (Adult)",
+            price: 1350,
+          },
+          {
+            serviceId: 7811,
+            serviceName: "Havrix (Hepatitis -A) Double",
+            price: 1350,
+          },
+          {
+            serviceId: 7812,
+            serviceName: "Havrix (Hepatitis -A) Single",
+            price: 850,
+          },
+          {
+            serviceId: 7813,
+            serviceName: "Hepavax - B (Adult) (Including Pushing Charge)",
+            price: 650,
+          },
+          {
+            serviceId: 7814,
+            serviceName: "Hepavax - B (Including Pushing Charge)",
+            price: 500,
+          },
+          {
+            serviceId: 7815,
+            serviceName: "Hepavax (Adult)",
+            price: 350,
+          },
+          {
+            serviceId: 7816,
+            serviceName: "Hepavax (Adult) for PDCL Staff & Family Members",
+            price: 250,
+          },
+          {
+            serviceId: 7817,
+            serviceName: "Hiberix (Hbmeningis & Pheumonia)",
+            price: 700,
+          },
+          {
+            serviceId: 7818,
+            serviceName: "Hiberix (Hbmeningis & Pneumonia)",
+            price: 700,
+          },
+          {
+            serviceId: 7819,
+            serviceName: "Mencevax ACWY (Vaccine)",
+            price: 1300,
+          },
+          {
+            serviceId: 7820,
+            serviceName: "Priorix (MMR)",
+            price: 600,
+          },
+          {
+            serviceId: 7821,
+            serviceName: "Tritanrix (DPT - 3 doss Hepatitis)",
+            price: 500,
+          },
+          {
+            serviceId: 7822,
+            serviceName: "Typherix (Typhoid)",
+            price: 500,
+          },
+          {
+            serviceId: 7823,
+            serviceName: "Varilrix (Chicken Pox)",
+            price: 1500,
+          },
+        ],
+      },
+      {
+        categoryId: 20,
+        categoryName: "VACCUM TUBE",
+        items: [
+          {
+            serviceId: 7824,
+            serviceName: "Black Tube",
+            price: 25,
+          },
+          {
+            serviceId: 7825,
+            serviceName: "Blue Tube",
+            price: 20,
+          },
+          {
+            serviceId: 7826,
+            serviceName: "Gray Tube",
+            price: 20,
+          },
+          {
+            serviceId: 7827,
+            serviceName: "Green Tube",
+            price: 20,
+          },
+          {
+            serviceId: 7828,
+            serviceName: "Lavender Tube",
+            price: 20,
+          },
+          {
+            serviceId: 7829,
+            serviceName: "Red Tube",
+            price: 20,
+          },
+          {
+            serviceId: 7830,
+            serviceName: "Vaccum Needle(N)",
+            price: 20,
+          },
+          {
+            serviceId: 7831,
+            serviceName: "Whine Tube",
+            price: 20,
+          },
+        ],
+      },
+      {
+        categoryId: 21,
+        categoryName: "VASCULAR IMAGING",
+        items: [
+          {
+            serviceId: 7832,
+            serviceName: "Broncho Provocation test",
+            price: 1000,
+          },
+          {
+            serviceId: 7833,
+            serviceName: "Carotid Duplex",
+            price: 4000,
+          },
+          {
+            serviceId: 7834,
+            serviceName: "Doppler Study of Left Lower Limb Vessels",
+            price: 4000,
+          },
+          {
+            serviceId: 7835,
+            serviceName: "Doppler Study of Right Lower Limb Vessels",
+            price: 4000,
+          },
+          {
+            serviceId: 7836,
+            serviceName: "Duplex Study of Abdominal aorta and its branches",
+            price: 4000,
+          },
+          {
+            serviceId: 7837,
+            serviceName: "Duplex Study of Arteri",
+            price: 2500,
+          },
+          {
+            serviceId: 7838,
+            serviceName: "Duplex Study of Both Lower Limb Artery",
+            price: 4000,
+          },
+          {
+            serviceId: 7839,
+            serviceName: "Duplex Study of Both Lower limb Vessels",
+            price: 8000,
+          },
+          {
+            serviceId: 7840,
+            serviceName: "Duplex Study of Both Upper limb Vessels",
+            price: 8000,
+          },
+          {
+            serviceId: 7841,
+            serviceName: "Duplex Study of Kidney/Renal Perfusion",
+            price: 4000,
+          },
+          {
+            serviceId: 7842,
+            serviceName: "Duplex Study of Left Lower Limb Arteries",
+            price: 2000,
+          },
+          {
+            serviceId: 7843,
+            serviceName: "Duplex Study of Left Lower limb Vessels",
+            price: 4000,
+          },
+          {
+            serviceId: 7844,
+            serviceName: "Duplex Study of Left Upper limb Vessels",
+            price: 4000,
+          },
+          {
+            serviceId: 7845,
+            serviceName: "Duplex Study of Neck Vessel",
+            price: 4000,
+          },
+          {
+            serviceId: 7846,
+            serviceName:
+              "Duplex Study of Neck/Popliteal Mass/growth in other parts of the body",
+            price: 4000,
+          },
+          {
+            serviceId: 7847,
+            serviceName: "Duplex Study of Pampiniform Plexus",
+            price: 4000,
+          },
+          {
+            serviceId: 7848,
+            serviceName: "Duplex Study of Penile vessels",
+            price: 4000,
+          },
+          {
+            serviceId: 7849,
+            serviceName: "Duplex Study of Right Inguinal",
+            price: 0,
+          },
+          {
+            serviceId: 7850,
+            serviceName: "Duplex Study of Right Lower Limb Arteries",
+            price: 2000,
+          },
+          {
+            serviceId: 7851,
+            serviceName: "Duplex Study of Right Lower limb Vessels",
+            price: 4000,
+          },
+          {
+            serviceId: 7852,
+            serviceName: "Duplex Study of Right Upper limb Veins",
+            price: 4000,
+          },
+          {
+            serviceId: 7853,
+            serviceName: "Duplex Study of Scotum",
+            price: 2500,
+          },
+        ],
+      },
+      // ... other categories in English Road branch
+    ],
+  },
 ];
 
 export {
