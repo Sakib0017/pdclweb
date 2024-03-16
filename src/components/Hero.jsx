@@ -2,8 +2,14 @@ import { styles } from '../styles';
 import { ServiceCost, topManagement } from "../constants";
 import React, { useState } from 'react';
 import video from '../assets/video.mp4';
-
-
+import AutoSizer from 'react-virtualized/dist/commonjs/AutoSizer';
+import List from 'react-virtualized/dist/commonjs/List';
+const ListHeader = () => (
+  <div className="flex justify-between px-4 py-2 bg-gray-400 font-bold">
+    <p>Service Name</p>
+    <p>Service Cost</p>
+  </div>
+);
 const Hero = ({ color }) => {
   const [openTab, setOpenTab] = React.useState(1);
   const date = new Date();
@@ -11,39 +17,49 @@ const Hero = ({ color }) => {
       + ':' + date.getMinutes() 
       + ":" + date.getSeconds();
 
-      const topPosition = topManagement.slice(0, 3);
-      const secondTopPosition = topManagement.slice(3, 6);
-      const thirdTopPosition = topManagement.slice(6, 9);
-      const fourthTopPosition = topManagement.slice(9, 13);
+      
     
       const [selectedBranch, setSelectedBranch] = useState(null);
-      const [filteredServices, setFilteredServices] = useState([]);
-      const [searchTerm, setSearchTerm] = useState('');
-    
-      const handleBranchChange = (event) => {
-        setSelectedBranch(event.target.value);
-        setFilteredServices([]); // Reset filtered services on branch change
-        setSearchTerm(''); // Reset search term on branch change
-      };
-    
-      const handleSearchChange = (event) => {
-        setSearchTerm(event.target.value.toLowerCase());
-        const branchServices = ServiceCost.find(
-          (branch) => branch.braId === parseInt(selectedBranch)
-        )?.services;
-        if (branchServices) {
-          const filtered = branchServices.flatMap((category) =>
-            category.items.filter((service) =>
-              service.serviceName.toLowerCase().includes(searchTerm)
-            )
-          );
-                // Limit results to top 5
-          const topFive = filtered.slice(0, 5);
-          setFilteredServices(topFive);
-        } else {
-          setFilteredServices([]);
-        }
-      };
+  const [filteredServices, setFilteredServices] = useState([]);
+  const [searchTerm, setSearchTerm] = useState("");
+  
+
+  const handleBranchChange = (event) => {
+    setSelectedBranch(event.target.value);
+    setFilteredServices([]); // Reset filtered services on branch change
+    setSearchTerm(""); // Reset search term on branch change
+  };
+
+  const handleSearchChange = (event) => {
+    setSearchTerm(event.target.value.toLowerCase());
+    const branchServices = ServiceCost.find(
+      (branch) => branch.braId === parseInt(selectedBranch)
+    )?.services;
+    if (branchServices) {
+      const filtered = branchServices.flatMap((category) =>
+        category.items.filter((service) =>
+          service.serviceName.toLowerCase().includes(searchTerm)
+        )
+      );
+      setFilteredServices(filtered);
+    } else {
+      setFilteredServices([]);
+    }
+  };
+  const renderRow = ({ index, style }) => {
+    const service = filteredServices[index];
+
+    return (
+      <li
+        key={service.serviceId}
+        style={style}
+        className="flex justify-between px-4 py-2 bg-gray-300 hover:bg-gray-100"
+      >
+        <p className="text-gray-600">{service.serviceName}</p>
+        <p className="font-medium text-gray-700">{service.price}.00</p>
+      </li>
+    );
+  };
       
   
   return (
@@ -137,11 +153,11 @@ const Hero = ({ color }) => {
                 <form className="max-w-screen-xl   mx-auto">
   <div className="grid md:grid-rows-3 md:gap-1">
     <div className="relative z-0 w-full mb-1 group ">
-        <input type="text" name="floating_first_name" placeholder="Doctors Name" id="floating_first_name" className="block pl-2 py-2.5 px-0 w-[820px] text-sm text-gray-600 bg-transparent border border-gray-500  border-1   dark:text-gray-600 dark:border-gray-500 dark:focus:border-PDCL-green focus:outline-none focus:ring-0 focus:border-PDCL-green peer"  required />
+        <input type="text" name="floating_first_name" placeholder="Doctors Name" id="floating_first_name" className="block pl-2 py-2.5 px-0 w-[1200px] text-sm text-gray-600 bg-transparent border border-gray-500  border-1   dark:text-gray-600 dark:border-gray-500 dark:focus:border-PDCL-green focus:outline-none focus:ring-0 focus:border-PDCL-green peer"  required />
         
     </div>
     <div className="relative z-0 w-full mb-1 group">
-    <select id="countries" className="block py-2.5 px-0 w-[820px] text-sm text-gray-600 bg-transparent pl-2 border border-gray-500  border-1  dark:text-gray-600 dark:border-gray-500 dark:focus:border-PDCL-green focus:outline-none focus:ring-0 focus:border-PDCL-green peer">
+    <select id="countries" className="block py-2.5 px-0 w-[1200px] text-sm text-gray-600 bg-transparent pl-2 border border-gray-500  border-1  dark:text-gray-600 dark:border-gray-500 dark:focus:border-PDCL-green focus:outline-none focus:ring-0 focus:border-PDCL-green peer">
   <option  selected>Choose a Branch</option>
   <option  value="US">Dhanmondi</option>
   <option value="CA">Shymoli</option>
@@ -149,7 +165,7 @@ const Hero = ({ color }) => {
   <option value="DE">Uttara</option>
 </select></div>
 <div className="relative z-0 w-full mb-1 group">
-    <select id="countries" className="block py-2.5 px-0 w-[820px] text-sm text-gray-600 bg-transparent pl-2 border b  border-1 border-gray-500  dark:text-gray-600 dark:border-gray-500 dark:focus:border-PDCL-green focus:outline-none focus:ring-0 focus:border-PDCL-green peer">
+    <select id="countries" className="block py-2.5 px-0 w-[1200px] text-sm text-gray-600 bg-transparent pl-2 border b  border-1 border-gray-500  dark:text-gray-600 dark:border-gray-500 dark:focus:border-PDCL-green focus:outline-none focus:ring-0 focus:border-PDCL-green peer">
   <option selected>Choose a Specilization</option>
   <option value="US">Chest Medicine</option>
   <option value="CA">Neuro Medicine</option>
@@ -176,31 +192,31 @@ const Hero = ({ color }) => {
   <div className="grid md:grid-cols-3  md:gap-1">
     
   <div className="relative z-0 w-full mb-1 group">
-        <input type="text" name="floating_first_name" placeholder="Patient Name" id="floating_first_name" className="block py-2.5 px-0 w-full text-sm text-gray-600 bg-transparent border   border-1 border-gray-500  dark:text-gray-600 dark:border-gray-500 dark:focus:border-PDCL-green focus:outline-none focus:ring-0 focus:border-PDCL-green peer pl-2"  required />
+        <input type="text" name="floating_first_name" placeholder="Patient Name" id="floating_first_name" className="block py-2.5 px-0 w-[400px] text-sm text-gray-600 bg-transparent border   border-1 border-gray-500  dark:text-gray-600 dark:border-gray-500 dark:focus:border-PDCL-green focus:outline-none focus:ring-0 focus:border-PDCL-green peer pl-2"  required />
         
     </div>
     <div className="relative z-0 w-full mb-1 group">
-        <input type="text" name="floating_first_name" placeholder="Phone Number" id="floating_first_name" className="block py-2.5 px-0 w-full text-sm text-gray-600 bg-transparent border   border-1 border-gray-500  dark:text-gray-600 dark:border-gray-500 dark:focus:border-PDCL-green focus:outline-none focus:ring-0 focus:border-PDCL-green peer pl-2"  required />
+        <input type="text" name="floating_first_name" placeholder="Phone Number" id="floating_first_name" className="block py-2.5 px-0 w-[400px] text-sm text-gray-600 bg-transparent border   border-1 border-gray-500  dark:text-gray-600 dark:border-gray-500 dark:focus:border-PDCL-green focus:outline-none focus:ring-0 focus:border-PDCL-green peer pl-2"  required />
         
     </div>
     <div className="relative z-0 w-full mb-1 group">
-        <input type="text" name="floating_first_name" placeholder="Doctor Name" id="floating_first_name" className="block py-2.5 px-0 w-full text-sm text-gray-600 bg-transparent border   border-1 border-gray-500  dark:text-gray-600 dark:border-gray-500 dark:focus:border-PDCL-green focus:outline-none focus:ring-0 focus:border-PDCL-green peer pl-2"  required />
+        <input type="text" name="floating_first_name" placeholder="Doctor Name" id="floating_first_name" className="block py-2.5 px-0 w-[400px] text-sm text-gray-600 bg-transparent border   border-1 border-gray-500  dark:text-gray-600 dark:border-gray-500 dark:focus:border-PDCL-green focus:outline-none focus:ring-0 focus:border-PDCL-green peer pl-2"  required />
         
     </div>
     <div className="relative z-0 w-full mb-1 group">
-        <input type="text" name="floating_first_name" placeholder="Doctor's Specilitiy" id="floating_first_name" className="block py-2.5 px-0 w-full text-sm text-gray-600 bg-transparent border border-gray-500  border-1   dark:text-gray-600 dark:border-gray-500 dark:focus:border-PDCL-green focus:outline-none focus:ring-0 focus:border-PDCL-green peer pl-2"  required />
+        <input type="text" name="floating_first_name" placeholder="Doctor's Specilitiy" id="floating_first_name" className="block py-2.5 px-0 w-[400px] text-sm text-gray-600 bg-transparent border border-gray-500  border-1   dark:text-gray-600 dark:border-gray-500 dark:focus:border-PDCL-green focus:outline-none focus:ring-0 focus:border-PDCL-green peer pl-2"  required />
         
     </div>
     <div className="relative z-0 w-full mb-1 group">
-        <input type="text" name="floating_first_name" placeholder="Branch Name" id="floating_first_name" className="block py-2.5 px-0 w-full text-sm text-gray-600 bg-transparent border   border-1 border-gray-500  dark:text-gray-600 dark:border-gray-500 dark:focus:border-PDCL-green focus:outline-none focus:ring-0 focus:border-PDCL-green peer pl-2"  autocomplete="on" />
+        <input type="text" name="floating_first_name" placeholder="Branch Name" id="floating_first_name" className="block py-2.5 px-0 w-[400px] text-sm text-gray-600 bg-transparent border   border-1 border-gray-500  dark:text-gray-600 dark:border-gray-500 dark:focus:border-PDCL-green focus:outline-none focus:ring-0 focus:border-PDCL-green peer pl-2"  autocomplete="on" />
         
     </div>
     <div className="relative z-0 w-full mb-1 group">
-        <input type="date" name="floating_first_name" placeholder="Appointment Date" id="floating_first_name" className="block py-2.5 px-0 w-full text-sm text-gray-600 bg-transparent border   border-1 border-gray-500  dark:text-gray-600 dark:border-gray-500 dark:focus:border-PDCL-green focus:outline-none focus:ring-0 focus:border-PDCL-green peer pl-2"  required />
+        <input type="date" name="floating_first_name" placeholder="Appointment Date" id="floating_first_name" className="block py-2.5 px-0 w-[400px] text-sm text-gray-600 bg-transparent border   border-1 border-gray-500  dark:text-gray-600 dark:border-gray-500 dark:focus:border-PDCL-green focus:outline-none focus:ring-0 focus:border-PDCL-green peer pl-2"  required />
         
     </div>
     <div className="relative z-0 w-full mb-1 group">
-        <input type="text" name="floating_first_name" placeholder="Age" id="floating_first_name" className="block py-2.5 px-0 w-full text-sm text-gray-600 bg-transparent border   border-1 border-gray-500  dark:text-gray-600 dark:border-gray-500 dark:focus:border-PDCL-green focus:outline-none focus:ring-0 focus:border-PDCL-green peer pl-2"  required />
+        <input type="text" name="floating_first_name" placeholder="Age" id="floating_first_name" className="block py-2.5 px-0 w-[400px] text-sm text-gray-600 bg-transparent border   border-1 border-gray-500  dark:text-gray-600 dark:border-gray-500 dark:focus:border-PDCL-green focus:outline-none focus:ring-0 focus:border-PDCL-green peer pl-2"  required />
         
     </div>
    {/* <div className="relative z-0 w-full mb-1 group">
@@ -219,7 +235,7 @@ const Hero = ({ color }) => {
   
   
 </select></div>*/}
-    <button type="button" className="text-white  rounded block h-[43px] hover:text-white border bg-PDCL-green border-none focus:ring-4 focus:outline-none focus:ring-[#006642] font-ubuntu  text-[16px] font-bold px-5 py-2.5 text-center  mb-0 dark:border-[#006642] dark:text-white dark:hover:text-white dark:hover:bg-gray-500 dark:focus:ring-[#006642]">Appointment</button>
+    <button type="button" className="text-white  rounded block w-[400px] h-[43px] hover:text-white border bg-PDCL-green border-none focus:ring-4 focus:outline-none focus:ring-[#006642] font-ubuntu  text-[16px] font-bold px-5 py-2.5 text-center  mb-0 dark:border-[#006642] dark:text-white dark:hover:text-white dark:hover:bg-gray-500 dark:focus:ring-[#006642]">Appointment</button>
     
     </div>
  
@@ -230,7 +246,7 @@ const Hero = ({ color }) => {
                 <form className="max-w-7xl  mx-auto">
   <div className="grid md:grid-rows-1 pt-6 pb-6 md:gap-1">
   <div className="relative z-0 w-full mb-1 group">
-  <select value={selectedBranch} onChange={handleBranchChange} className="block  py-2.5 px-0 w-[820px]   text-sm text-gray-600 bg-transparent pl-2 border   border-1 border-gray-500  dark:text-gray-600 dark:border-gray-500 dark:focus:border-PDCL-green focus:outline-none focus:ring-0 focus:border-PDCL-green peer">
+  <select value={selectedBranch} onChange={handleBranchChange} className="block  py-2.5 px-0 w-[1200px]   text-sm text-gray-600 bg-transparent pl-2 border   border-1 border-gray-500  dark:text-gray-600 dark:border-gray-500 dark:focus:border-PDCL-green focus:outline-none focus:ring-0 focus:border-PDCL-green peer">
         <option value="">Select Branch</option>
         {ServiceCost.map((branch) => (
           <option key={branch.braId} value={branch.braId}>
@@ -240,17 +256,31 @@ const Hero = ({ color }) => {
       </select>
    </div>
     <div className="relative z-0 w-full mb-1 group">
-        <input type="text" value={searchTerm}  onChange={handleSearchChange} name="floating_first_name" placeholder="Test Name" id="floating_first_name" className="block py-2.5 px-0 w-[820px]  text-sm text-gray-900 bg-transparent border   border-1 border-gray-500  dark:text-gray-600 dark:border-gray-500 dark:focus:border-PDCL-green focus:outline-none focus:ring-0 focus:border-PDCL-green peer pl-2"  required />
+        <input type="text" value={searchTerm}  onChange={handleSearchChange} name="floating_first_name" placeholder="Test Name" id="floating_first_name" className="block py-2.5 px-0 w-[1200px]  text-sm text-gray-900 bg-transparent border   border-1 border-gray-500  dark:text-gray-600 dark:border-gray-500 dark:focus:border-PDCL-green focus:outline-none focus:ring-0 focus:border-PDCL-green peer pl-2"  required />
         
         {filteredServices.length > 0 && (
         <ul>
-        <li className="flex justify-between px-4 py-2 bg-gray-400 font-bold"> <p>Service Name</p> <p>Service Cost</p>  </li>
-        {filteredServices.map((service) => (
-          <li key={service.serviceId} className="flex justify-between px-4 py-2 hover:bg-gray-100"><p className="text-gray-600">{service.serviceName}</p>
-          <p className="font-medium text-gray-700">
-            {service.price}.00
-          </p></li>
-        ))}
+       
+        {filteredServices.length > 0 && (
+        <div>
+          {/* Render the header */}
+          <ListHeader />
+
+          {/* List */}
+          <AutoSizer>
+            {({ width }) => (
+              <List
+                height={250}
+                rowCount={filteredServices.length}
+                rowHeight={50}
+                rowRenderer={renderRow}
+                overscanRowCount={5}
+                width={width}
+              />
+            )}
+          </AutoSizer>
+        </div>
+      )}
       </ul>
       )}
     </div>
