@@ -1,7 +1,6 @@
 import { Nav, Navbar, Tech } from "../components";
 import { ServiceCost, topManagement } from "../constants";
-import React, { useState } from 'react';
-
+import React, { useState } from "react";
 
 const ProjectCard = ({ manImg, manName, manDesignation }) => {
   return (
@@ -25,9 +24,6 @@ const ProjectCard = ({ manImg, manName, manDesignation }) => {
   );
 };
 
-
-
-
 const About = () => {
   // Split the topManagement data into groups
   const topPosition = topManagement.slice(0, 3);
@@ -37,12 +33,12 @@ const About = () => {
 
   const [selectedBranch, setSelectedBranch] = useState(null);
   const [filteredServices, setFilteredServices] = useState([]);
-  const [searchTerm, setSearchTerm] = useState('');
+  const [searchTerm, setSearchTerm] = useState("");
 
   const handleBranchChange = (event) => {
     setSelectedBranch(event.target.value);
     setFilteredServices([]); // Reset filtered services on branch change
-    setSearchTerm(''); // Reset search term on branch change
+    setSearchTerm(""); // Reset search term on branch change
   };
 
   const handleSearchChange = (event) => {
@@ -56,14 +52,13 @@ const About = () => {
           service.serviceName.toLowerCase().includes(searchTerm)
         )
       );
-            // Limit results to top 5
+      // Limit results to top 5
       const topFive = filtered.slice(0, 5);
       setFilteredServices(topFive);
     } else {
       setFilteredServices([]);
     }
   };
-
 
   return (
     <div className="bg-white">
@@ -104,42 +99,54 @@ const About = () => {
         ))}
       </div>
 
-      <div>
-        <h1 className="bg-black text-white font-bold text-center text-[24px]"> Test Price Searching <span className="text-red-500 font-bold text-[10px]">temporary</span> </h1> 
+      {/* <div>
+        <h1 className="bg-black text-white font-bold text-center text-[24px]">
+          {" "}
+          Test Price Searching{" "}
+          <span className="text-red-500 font-bold text-[10px]">
+            temporary
+          </span>{" "}
+        </h1>
         <div className="text-black ">
-      <select value={selectedBranch} onChange={handleBranchChange}>
-        <option value="">Select Branch</option>
-        {ServiceCost.map((branch) => (
-          <option key={branch.braId} value={branch.braId}>
-            {branch.braName}
-          </option>
-        ))}
-      </select>
-      <br />
-      <input
-        type="text"
-        placeholder="Search Services"
-        value={searchTerm}
-        onChange={handleSearchChange}
-      />
-      {filteredServices.length > 0 && (
-        <ul>
-          <li className="flex justify-between px-4 py-2 bg-gray-200 font-bold"> <p>Service Name</p> <p>Service Cost</p>  </li>
-          {filteredServices.map((service) => (
-            <li key={service.serviceId} className="flex justify-between px-4 py-2 hover:bg-gray-100"><p className="text-gray-600">{service.serviceName}</p>
-            <p className="font-medium text-gray-700">
-              {service.price}.00
-            </p></li>
-          ))}
-        </ul>
-      )}
-    </div>
-      </div>
+          <select value={selectedBranch} onChange={handleBranchChange}>
+            <option value="">Select Branch</option>
+            {ServiceCost.map((branch) => (
+              <option key={branch.braId} value={branch.braId}>
+                {branch.braName}
+              </option>
+            ))}
+          </select>
+          <br />
+          <input
+            type="text"
+            placeholder="Search Services"
+            value={searchTerm}
+            onChange={handleSearchChange}
+          />
+          {filteredServices.length > 0 && (
+            <ul>
+              <li className="flex justify-between px-4 py-2 bg-gray-200 font-bold">
+                {" "}
+                <p>Service Name</p> <p>Service Cost</p>{" "}
+              </li>
+              {filteredServices.map((service) => (
+                <li
+                  key={service.serviceId}
+                  className="flex justify-between px-4 py-2 hover:bg-gray-100"
+                >
+                  <p className="text-gray-600">{service.serviceName}</p>
+                  <p className="font-medium text-gray-700">
+                    {service.price}.00
+                  </p>
+                </li>
+              ))}
+            </ul>
+          )}
+        </div>
+      </div> */}
 
       <Tech />
-
     </div>
-
   );
 };
 
