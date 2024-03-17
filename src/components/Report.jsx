@@ -1,129 +1,143 @@
-import React, { useRef } from "react";
-import {   Nav, Navbar,  Tech} from "../components";
+import { Nav, Navbar, Tech } from "../components";
+import React, { useState, useEffect } from 'react';
+import { projects1 } from "../constants";
 import { motion } from "framer-motion";
-import { styles } from "../styles";
-import { printer ,downloads } from "../assets";
-import { SectionWrapper } from "../hoc";
-import { projects1  } from "../constants";
-import { fadeIn, textVariant } from "../utils/motion";
-import { Card, Typography, IconButton } from "@material-tailwind/react";
-import html2canvas from 'html2canvas';
-import jsPDF from 'jspdf';
- 
 
-function Report() {
-  const pdfRef = useRef();
-  const downloadPDF = () =>{
-    const input = pdfRef.current;
-    html2canvas(input).then((canvas) => {
-      const imgData = canvas.toDataURL('image/png');
-      const pdf = new jsPDF('p', 'mm', 'a4', true);
-      const pdfWidth = pdf.internal.pageSize.getWidth();
-      const pdfHeight = pdf.internal.pageSize.getHeight();
-      const imgWidth = canvas.width;
-      const imgHeight = canvas.height;
-      const ratio = Math.min(pdfWidth / imgWidth, pdfHeight / imgHeight);
-      const imgX  = (pdfWidth - imgWidth * ratio ) / 2 ;
-      const imgY = 30;
-      pdf.addImage(imgData, 'PNG', imgX, imgY, imgWidth * ratio, imgHeight * ratio);
-      pdf.save('invoice.pdf');
-    });
-  };
+
+
+const spring = {
+  type: "spring",
+  stiffness: 700,
+  damping: 30
+};
+const buttonVariants = {
+  initial: { opacity: 1, scale: 1 },
+  animate: { opacity: 1, scale: 1.1 },
+  hover: { scale: 1.05 },
+};
+
+const searchBoxVariants = {
+  initial: { opacity: 1, scale: 1 },
+  hover: { scale: 1.03 },
+};
+
+
+const BranchCard = ({ branch, handleReportDownload }) => {
   return (
-    <>
-    <div className="bg-white" >
-    <Nav />
-     
-      
-     <Navbar />
- 
-  <div className="flex flex-col pt-[200px] mx-auto   max-w-7xl" >
-        <h2 className='text-gray-900/50 pb-5 text-center pl-2 text-[28px] font-bold font-ubuntu'>ALL THE REPORTS THAT YOU WANT</h2>
-        </div>
-    
-        <div className="flex flex-col pb-10 mx-auto p-3  max-w-7xl" >
-        <Card className="h-full w-full overflow-scroll bg-gray-100-5" ref={pdfRef}>
-      <table className="w-full min-w-max table-auto  text-left" >
-        <thead>
-          <tr>
-           
-              <th className="border-b  text-[#006642]  border-blue-gray-100 bg-blue-gray-50 p-4">
-                
-                 <p>Test Name</p>
-                
-              </th>
-              <th className="border-b  text-[#006642]  border-blue-gray-100 bg-blue-gray-50 p-4">
-                
-                <p>Pataint Name</p>
-               
-             </th>
-             <th className="border-b  text-[#006642]  border-blue-gray-100 bg-blue-gray-50 p-4">
-                
-                <p>Publish Date</p>
-               
-             </th>
-             <th className="border-b  text-[#006642]  border-blue-gray-100 bg-blue-gray-50 p-4">
-                
-                <p>Download</p>
-               
-             </th>
-             <th className="border-b  text-[#006642]   border-blue-gray-100 bg-blue-gray-50 p-4">
-                
-                <p>Print</p>
-               
-             </th>
-         
-          </tr>
-        </thead>
-        <tbody>
-          
-            <tr  className="even:bg-blue-gray-50/50">
-              <td className="p-4  text-[#006642] font-ubuntu ">
-               
-                  <p>Tssue Cell Test</p>
-              
-              </td>
-              <td className="p-4  text-[#006642] font-ubuntu ">
-               
-              <p>Rayhan Ali</p>
-               
-              </td>
-              <td className="p-4 text-[#006642] font-ubuntu ">
-              
-              <p>19/09/23</p>
-               
-              </td>
-              <td className="p-2">
-                <button className="" onClick={downloadPDF}> <img className=" h-[18px] w-[18px]"  src={downloads} /></button>
-              
-                  
-               
-              </td>
-              <td className="p-2 ">
-               <img className=" h-[18px] w-[18px]" onClick={downloadPDF} src={printer} />
-                  
-               
-              </td>
-            </tr>
-         
-        </tbody>
-      </table>
-    </Card>
-        
-        </div>
-    
+    <li
+      key={branch.branchID}
+      className=" bg-gradient-to-b from-white to-[#00664218] hover:bg-gray-100 text-gray-500 branch-card cursor-pointer rounded shadow-xl m-4"
+      onClick={() => handleReportDownload(branch.branchPage.reportDownload)}
+    >
+      <div className="branch-info p-4">
+        <h3 className="text-gray-600 font-medium">{branch.heading}</h3>
+        <p>{branch.address}</p>
+        <p>
+          Hotline: {branch.Hotline} | Email: {branch.Email}
+        </p>
+      </div>
+    </li>
+  );
+};
 
+const Report = () => {
+  const [searchTerm, setSearchTerm] = useState('');
+  const [allDhakaBranches, setAllDhakaBranches] = useState([]);
+  const [allOtherBranches, setAllOtherBranches] = useState([]);
+  const [filteredDhakaBranches, setFilteredDhakaBranches] = useState([]);
+  const [filteredOtherBranches, setFilteredOtherBranches] = useState([]);
 
+  useEffect(() => {
+    const dhaka = projects1.filter((branch) => branch.branchPage.braCity === 'Dhaka');
+    const others = projects1.filter((branch) => branch.branchPage.braCity !== 'Dhaka');
 
-     <Tech />
+    setAllDhakaBranches(dhaka);
+    setAllOtherBranches(others);
 
-     
-   </div>
-          
-   </>
-  )
-}
+    // Initial render: Set initial filtered lists to all branches
+    setFilteredDhakaBranches(dhaka);
+    setFilteredOtherBranches(others);
+  }, []);
 
+  const handleSearchChange = (event) => {
+    const searchQuery = event.target.value.toLowerCase();
+    setSearchTerm(searchQuery);
 
+    const filteredBranches = projects1.filter((branch) =>
+      branch.heading.toLowerCase().includes(searchQuery)
+    );
 
-export default Report
+    const dhaka = filteredBranches.filter(
+      (branch) => branch.branchPage.braCity === 'Dhaka'
+    );
+    const others = filteredBranches.filter(
+      (branch) => branch.branchPage.braCity !== 'Dhaka'
+    );
+
+    setFilteredDhakaBranches(dhaka);
+    setFilteredOtherBranches(others);
+  };
+
+  const handleReportDownload = (reportDownloadLink) => {
+    // Handle branch click event (consider opening link in new tab or redirecting)
+    window.open(reportDownloadLink, '_blank'); // Open report in new tab
+  };
+
+  return (
+    <div className="bg-white">
+      <Nav />
+      <Navbar />
+      <div className="p-10 flex flex-wrap mx-auto max-w-7xl">
+      <div className="flex flex-col w-full  pt-[100px] pb-10">
+      <motion.input 
+          type="text"
+          placeholder="Search branches..."
+          className="px-2 py-1 border text-[#006642] border-PDCL-green bg-gray-200  rounded-lg focus:outline-none focus:ring-1 focus:ring-PDCL-green"
+          value={searchTerm}
+          variants={searchBoxVariants}
+          onChange={handleSearchChange}
+          whileHover="hover"
+        />
+      </div>
+    <div className="report-container bg-white grid grid-cols-1 md:grid-cols-2 gap-4">
+
+      <div>
+        <h2 className="text-[#006642] text-center font-semibold">Dhaka Branches</h2>
+        {filteredDhakaBranches.length > 0 ? (
+          <ul>
+            {filteredDhakaBranches.map((branch) => (
+              <BranchCard
+                key={branch.branchID}
+                branch={branch}
+                handleReportDownload={handleReportDownload}
+              />
+            ))}
+          </ul>
+        ) : (
+          <p className="text-gray-600">No branches found inside Dhaka.</p>
+        )}
+      </div>
+      <div>
+        <h2 className="text-[#006642] text-center font-semibold">Other Branches</h2>
+        {filteredOtherBranches.length > 0 ? (
+          <ul>
+            {filteredOtherBranches.map((branch) => (
+              <BranchCard
+                key={branch.branchID}
+                branch={branch}
+                handleReportDownload={handleReportDownload}
+              />
+            ))}
+          </ul>
+        ) : (
+          <p className="text-gray-600">No branches found outside Dhaka.</p>
+        )}
+      </div>
+    </div>
+    </div>
+    <Tech />
+    </div>
+  );
+};
+
+export default Report;

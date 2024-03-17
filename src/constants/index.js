@@ -11,8 +11,6 @@ import {
   Gast,
   Color,
   Hepat,
-  brac,
-  biman,
   Gener,
   Inte,
   Med,
@@ -284,7 +282,8 @@ const testimonials = [
     name: "Mr. Ahmed",
     designation: "CFO",
     company: "Biman Bangladesh",
-    image:biman,
+    image:
+      "http://populardiagnostic.com/public/testimonial/1-20190319155227.jpg",
   },
   {
     testimonial:
@@ -292,7 +291,8 @@ const testimonials = [
     name: "Mr. Hasan",
     designation: "Chairperson",
     company: "Brac Bank",
-    image: brac,
+    image:
+      "http://populardiagnostic.com/public/testimonial/2-20190319153146.jpg",
   },
 ];
 
@@ -447,6 +447,7 @@ const projects1 = [
       braCity: "Dhaka",
       location:
         "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3652.2197080792394!2d90.37959757619976!3d23.73954337867781!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8ca7af5f82b%3A0xce7d1ab6b16a027!2sPopular%20Diagnostic%20Centre%20Ltd.!5e0!3m2!1sen!2sbd!4v1706512680599!5m2!1sen!2sbd",
+      reportDownload: "http://119.40.80.131/",
       braManImg: AchintoKumarNag,
       braManName: "Achinto Kumar Nag",
       braManDesignation: "AGM (HR & Admin)",
@@ -464,6 +465,7 @@ const projects1 = [
       braCity: "Dhaka",
       location:
         "https://maps.google.com/maps?q=23.713776,90.4109699&hl=es;z=14&output=embed",
+      reportDownload: "http://119.40.80.131/",
       braManImg: MdMahbuburRahmanChowdhury,
       braManName: "Md. Mahbubur Rahman Chowdhury",
       braManDesignation: "Branch Manager",
@@ -481,6 +483,7 @@ const projects1 = [
       braCity: "Dhaka",
       location:
         "https://maps.google.com/maps?q=23.7412031,90.4124384&hl=es;z=14&output=embed",
+      reportDownload: "http://119.40.80.131/",
       braManImg: MdShahiMahmud,
       braManName: "Md. Shahi Mahmud",
       braManDesignation: "AGM & Head of Branch",
@@ -498,6 +501,7 @@ const projects1 = [
       braCity: "Dhaka",
       location:
         "https://maps.google.com/maps?q=23.7420844,90.4121534&hl=es;z=14&output=embed",
+      reportDownload: "http://119.40.80.131/",
       braManImg: MdShahiMahmud,
       braManName: "Md. Shahi Mahmud",
       braManDesignation: "AGM & Head of Branch",
@@ -516,6 +520,7 @@ const projects1 = [
       braCity: "Dhaka",
       location:
         "https://maps.google.com/maps?q=23.7718253,90.3674465&hl=es;z=14&output=embed",
+      reportDownload: "http://prosoft.populardiagnostic.com:8877/ords/f?p=700:3:8271679877280:::::",
       braManImg: MrNezamulHaqueRipon,
       braManName: "Mr. Nezamul Haque Ripon",
       braManDesignation: "AGM & Head of Branch",
@@ -534,6 +539,7 @@ const projects1 = [
       braCity: "Dhaka",
       location:
         "https://maps.google.com/maps?q=23.76892267744971,90.36856338476504&hl=es;z=14&output=embed",
+      reportDownload: "http://prosoft.populardiagnostic.com:8877/ords/f?p=700:3:8271679877280:::::",
       braManImg: MrNezamulHaqueRipon,
       braManName: "Mr. Nezamul Haque Ripon",
       braManDesignation: "AGM & Head of Branch",
@@ -552,6 +558,7 @@ const projects1 = [
       braCity: "Dhaka",
       location:
         "https://maps.google.com/maps?q=23.8106471,90.3673446&hl=es;z=14&output=embed",
+      reportDownload: "http://119.40.80.131/",
       braManImg: MrAbdullahAlMahmud,
       braManName: "Mr. Abdullah Al Mahmud",
       braManDesignation: "AGM & Head of Branch",
@@ -570,6 +577,7 @@ const projects1 = [
       braCity: "Dhaka",
       location:
         "https://maps.google.com/maps?q=24.7433735,90.4059255&hl=es;z=14&output=embed",
+      reportDownload: "http://119.40.80.131/",
       braManImg: MrAbdullahAlMahmud,
       braManName: "Mr. Abdullah Al Mahmud",
       braManDesignation: "AGM & Head of Branch",
@@ -587,6 +595,7 @@ const projects1 = [
       braCity: "Dhaka",
       location:
         "https://maps.google.com/maps?q=23.7885462,90.4250215&hl=es;z=14&output=embed",
+      reportDownload: "http://119.40.80.131/",
       braManImg: MrFirozMia,
       braManName: "Mr. Firoz Mia",
       braManDesignation: "Head of Branch",
@@ -605,6 +614,7 @@ const projects1 = [
       braCity: "Dhaka",
       location:
         "https://maps.google.com/maps?q=23.8610668,90.40031&hl=es;z=14&output=embed",
+      reportDownload: "http://prosoft.populardiagnostic.com:8877/ords/f?p=700:3:8271679877280:::::",
       braManImg: MrZohurulIslam,
       braManName: "Mr. Zohurul Islam",
       braManDesignation: "Senior Branch Manager",
@@ -623,6 +633,7 @@ const projects1 = [
       braCity: "Dhaka",
       location:
         "https://maps.google.com/maps?q=23.8613902,90.4007901&hl=es;z=14&output=embed",
+      reportDownload: "http://prosoft.populardiagnostic.com:8877/ords/f?p=700:3:8271679877280:::::",
       braManImg: MrZohurulIslam,
       braManName: "Mr. Zohurul Islam",
       braManDesignation: "Senior Branch Manager",
@@ -641,6 +652,7 @@ const projects1 = [
       braCity: "Dhaka",
       location:
         "https://maps.google.com/maps?q=23.87267692544794,90.3906825609275&hl=es;z=14&output=embed",
+      reportDownload: "http://119.40.80.131/",
       braManImg: MdJahurulIslamRony,
       braManName: " Md. Jahurul Islam Rony",
       braManDesignation: "Branch In-Charge",
@@ -658,6 +670,7 @@ const projects1 = [
       braCity: "Dhaka",
       location:
         "https://maps.google.com/maps?q=23.709443131735878,90.43211759426138&hl=es;z=14&output=embed",
+      reportDownload: "http://119.40.80.131/",
       braManImg: MdMizanurRahmanBiswas,
       braManName: " Md. Mizanur Rahman Biswas",
       braManDesignation: "Branch Manager",
@@ -675,6 +688,7 @@ const projects1 = [
       braCity: "Dhaka",
       location:
         "https://maps.google.com/maps?q=23.839972,90.257242&hl=es;z=14&output=embed",
+      reportDownload: "http://119.40.80.131/",
       braManImg: MrRajuAhmmedKhalek,
       braManName: " Mr. Raju Ahmmed Khalek",
       braManDesignation: "Branch In-Charge",
@@ -693,6 +707,7 @@ const projects1 = [
       braCity: "Dhaka",
       location:
         "https://maps.google.com/maps?q=23.9969328,90.4148069&hl=es;z=14&output=embed",
+      reportDownload: "http://119.40.80.131/",
       braManImg: AjoyKumarDatta,
       braManName: "Ajoy Kumar Datta",
       braManDesignation: "Branch Manager",
@@ -710,6 +725,7 @@ const projects1 = [
       braCity: "Dhaka",
       location:
         "https://maps.google.com/maps?q=23.6223054,90.5004152&hl=es;z=14&output=embed",
+      reportDownload: "http://119.40.80.131/",
       braManImg: MdShahidulIslam,
       braManName: "Md. Shahidul Islam",
       braManDesignation: "AGM & Head of Branch",
@@ -727,6 +743,7 @@ const projects1 = [
       braCity: "Bogura",
       location:
         "https://maps.google.com/maps?q=24.8321186,89.3762719&hl=es;z=14&output=embed",
+      reportDownload: "http://119.40.80.131/",
       braManImg: MrRezwanAhmed,
       braManName: "Mr. Rezwan Ahmed",
       braManDesignation: "Senior Branch Manager",
@@ -744,6 +761,7 @@ const projects1 = [
       braCity: "Bogura",
       location:
         "https://maps.google.com/maps?q=24.8321186,89.3762719&hl=es;z=14&output=embed",
+      reportDownload: "http://119.40.80.131/",
       braManImg: MrRezwanAhmed,
       braManName: "Mr. Rezwan Ahmed",
       braManDesignation: "Senior Branch Manager",
@@ -761,6 +779,7 @@ const projects1 = [
       braCity: "Bogura",
       location:
         "https://maps.google.com/maps?q=24.8280095,89.3527289&hl=es;z=14&output=embed",
+      reportDownload: "http://119.40.80.131/",
       braManImg: MrRezwanAhmed,
       braManName: "Mr. Rezwan Ahmed",
       braManDesignation: "Senior Branch Manager",
@@ -778,6 +797,7 @@ const projects1 = [
       braCity: "Rajshahi",
       location:
         "https://maps.google.com/maps?q=24.3723311,88.5811372&hl=es;z=14&output=embed",
+      reportDownload: "http://119.40.80.131/",
       braManImg: MrFaridMohammadShamim,
       braManName: "Mr. Farid Mohammad Shamim",
       braManDesignation: "AGM & Head of Branch",
@@ -796,6 +816,7 @@ const projects1 = [
       braCity: "Noakhali",
       location:
         "https://maps.google.com/maps?q=22.875063,91.097225&hl=es;z=14&output=embed",
+      reportDownload: "http://119.40.80.131/",
       braManImg: MrMuhammadReazHossain,
       braManName: "Mr. Muhammad Reaz Hossain",
       braManDesignation: "Branch Manager",
@@ -813,6 +834,7 @@ const projects1 = [
       braCity: "Chattogram",
       location:
         "https://maps.google.com/maps?q=22.360777,91.831786&hl=es;z=14&output=embed",
+      reportDownload: "http://119.40.80.131/",
       braManImg: MrOalyAshrafKhan,
       braManName: "Mr. Oaly Ashraf Khan",
       braManDesignation: "Senior Branch Manager",
@@ -831,6 +853,7 @@ const projects1 = [
       braCity: "Mymensingh",
       location:
         "https://maps.google.com/maps?q=24.744623,90.408583&hl=es;z=14&output=embed",
+      reportDownload: "http://119.40.80.131/",
       braManImg: MrNurIslam,
       braManName: "Mr. Nur Islam",
       braManDesignation: "Senior Branch Manager",
@@ -848,6 +871,7 @@ const projects1 = [
       braCity: "Rangpur",
       location:
         "https://maps.google.com/maps?q=25.7610566,89.2348999&hl=es;z=14&output=embed",
+      reportDownload: "http://119.40.80.131/",
       braManImg: MrMdAbdulAhad,
       braManName: "Mr. Md. Abdul Ahad",
       braManDesignation: "Branch Manager",
@@ -865,6 +889,7 @@ const projects1 = [
       braCity: "Rangpur",
       location:
         "https://maps.google.com/maps?q=25.7610566,89.2348999&hl=es;z=14&output=embed",
+      reportDownload: "http://119.40.80.131/",
       braManImg: MrMdAbdulAhad,
       braManName: "Mr. Md. Abdul Ahad",
       braManDesignation: "Branch Manager",
@@ -882,6 +907,7 @@ const projects1 = [
       braCity: "Dinajpur",
       location:
         "https://maps.google.com/maps?q=25.6199955,88.6449272&hl=es;z=14&output=embed",
+      reportDownload: "http://119.40.80.131/",
       braManImg: MdFoyzurRahman,
       braManName: "Md. Foyzur Rahman",
       braManDesignation: "Branch Manager",
@@ -900,6 +926,7 @@ const projects1 = [
       braCity: "Khulna",
       location:
         "https://maps.google.com/maps?q=22.815210,89.555067&hl=es;z=14&output=embed",
+      reportDownload: "http://119.40.80.131/",
       braManImg: MdSohelChowdhury,
       braManName: "Md. Sohel Chowdhury",
       braManDesignation: "Branch Manager",
@@ -918,6 +945,7 @@ const projects1 = [
       braCity: "Kushtia",
       location:
         "https://maps.google.com/maps?q=23.903603,89.127746&hl=es;z=14&output=embed",
+      reportDownload: "http://119.40.80.131/",
       braManImg: ShamsuzzohaKhanJohn,
       braManName: "Shamsuzzoha Khan John",
       braManDesignation: "Branch In Charge",
@@ -936,6 +964,7 @@ const projects1 = [
       braCity: "Barishal",
       location:
         "https://maps.google.com/maps?q=22.692741,90.361966&hl=es;z=14&output=embed",
+      reportDownload: "http://119.40.80.131/",
       braManImg: MdMosharrofHossain,
       braManName: "Md. Mosharrof Hossain",
       braManDesignation: "Branch Manager",
@@ -15604,7 +15633,7 @@ const ServiceCost = [
     braName: "English Road",
     services: [
       {
-        categoryId: 23,
+        categoryId: 1,
         categoryName: "AMBULANCE",
         items: [
           {
@@ -15626,7 +15655,7 @@ const ServiceCost = [
         ],
       },
       {
-        categoryId: 24,
+        categoryId: 2,
         categoryName: "BLOOD BANK",
         items: [
           {
@@ -15647,7 +15676,7 @@ const ServiceCost = [
         ],
       },
       {
-        categoryId: 25,
+        categoryId: 3,
         categoryName: "COLONOSCOPY",
         items: [
           {
@@ -16010,7 +16039,7 @@ const ServiceCost = [
         ],
       },
       {
-        categoryId: 26,
+        categoryId: 4,
         categoryName: "Diagnostic Charges",
         items: [
           {
@@ -16450,7 +16479,7 @@ const ServiceCost = [
         ],
       },
       {
-        categoryId: 27,
+        categoryId: 5,
         categoryName: "ECG",
         items: [
           {
@@ -16481,7 +16510,7 @@ const ServiceCost = [
         ],
       },
       {
-        categoryId: 28,
+        categoryId: 6,
         categoryName: "ECHO",
         items: [
           {
@@ -16548,7 +16577,7 @@ const ServiceCost = [
         ],
       },
       {
-        categoryId: 29,
+        categoryId: 7,
         categoryName: "ENDOSCOPY",
         items: [
           {
@@ -17707,7 +17736,7 @@ const ServiceCost = [
         ],
       },
       {
-        categoryId: 30,
+        categoryId: 8,
         categoryName: "Exercise Tolerance Test",
         items: [
           {
@@ -17718,7 +17747,7 @@ const ServiceCost = [
         ],
       },
       {
-        categoryId: 31,
+        categoryId: 9,
         categoryName: "FIBROSCAN",
         items: [
           {
@@ -17729,7 +17758,7 @@ const ServiceCost = [
         ],
       },
       {
-        categoryId: 32,
+        categoryId: 10,
         categoryName: "INVOICE TDS",
         items: [
           {
@@ -17740,7 +17769,7 @@ const ServiceCost = [
         ],
       },
       {
-        categoryId: 33,
+        categoryId: 11,
         categoryName: "MOLECULAR DIAGNOSTIC LABORATORY",
         items: [
           {
@@ -17781,7 +17810,7 @@ const ServiceCost = [
         ],
       },
       {
-        categoryId: 34,
+        categoryId: 12,
         categoryName: "NEUROLOGY",
         items: [
           {
@@ -17917,7 +17946,7 @@ const ServiceCost = [
         ],
       },
       {
-        categoryId: 35,
+        categoryId: 13,
         categoryName: "OPHTHALMOLOGY",
         items: [
           {
@@ -17928,7 +17957,7 @@ const ServiceCost = [
         ],
       },
       {
-        categoryId: 36,
+        categoryId: 14,
         categoryName: "PACKAGE",
         items: [
           {
@@ -18061,7 +18090,7 @@ const ServiceCost = [
         ],
       },
       {
-        categoryId: 37,
+        categoryId: 15,
         categoryName: "PATHOLOGY",
         items: [
           {
@@ -22283,7 +22312,7 @@ const ServiceCost = [
         ],
       },
       {
-        categoryId: 38,
+        categoryId: 16,
         categoryName: "RADIOLOGY",
         items: [
           {
@@ -25944,7 +25973,7 @@ const ServiceCost = [
         ],
       },
       {
-        categoryId: 39,
+        categoryId: 17,
         categoryName: "REGISTRATION",
         items: [
           {
@@ -25955,7 +25984,7 @@ const ServiceCost = [
         ],
       },
       {
-        categoryId: 40,
+        categoryId: 18,
         categoryName: "ULTRASOUND",
         items: [
           {
@@ -28247,7 +28276,7 @@ const ServiceCost = [
         ],
       },
       {
-        categoryId: 41,
+        categoryId: 19,
         categoryName: "UROFLOWETERY",
         items: [
           {
@@ -28258,7 +28287,7 @@ const ServiceCost = [
         ],
       },
       {
-        categoryId: 42,
+        categoryId: 20,
         categoryName: "VACCINATION",
         items: [
           {
@@ -28349,7 +28378,7 @@ const ServiceCost = [
         ],
       },
       {
-        categoryId: 43,
+        categoryId: 21,
         categoryName: "VACCUM TUBE",
         items: [
           {
@@ -28395,7 +28424,7 @@ const ServiceCost = [
         ],
       },
       {
-        categoryId: 44,
+        categoryId: 22,
         categoryName: "VASCULAR IMAGING",
         items: [
           {
@@ -28499,7 +28528,7 @@ const ServiceCost = [
     braName: "Shantinagar",
     services: [
       {
-        categoryId: 45,
+        categoryId: 1,
         categoryName: "AMBULANCE",
         items: [
           {
@@ -28521,7 +28550,7 @@ const ServiceCost = [
         ],
       },
       {
-        categoryId: 46,
+        categoryId: 2,
         categoryName: "BLOOD BANK",
         items: [
           {
@@ -28542,7 +28571,7 @@ const ServiceCost = [
         ],
       },
       {
-        categoryId: 47,
+        categoryId: 3,
         categoryName: "COLONOSCOPY",
         items: [
           {
@@ -28935,7 +28964,7 @@ const ServiceCost = [
         ],
       },
       {
-        categoryId: 48,
+        categoryId: 4,
         categoryName: "Diagnostic Charges",
         items: [
           {
@@ -29395,7 +29424,7 @@ const ServiceCost = [
         ],
       },
       {
-        categoryId: 49,
+        categoryId: 5,
         categoryName: "ECG",
         items: [
           {
@@ -29446,7 +29475,7 @@ const ServiceCost = [
         ],
       },
       {
-        categoryId: 50,
+        categoryId: 6,
         categoryName: "ECHO",
         items: [
           {
@@ -29513,7 +29542,7 @@ const ServiceCost = [
         ],
       },
       {
-        categoryId: 51,
+        categoryId: 7,
         categoryName: "ENDOSCOPY",
         items: [
           {
@@ -30697,7 +30726,7 @@ const ServiceCost = [
         ],
       },
       {
-        categoryId: 52,
+        categoryId: 8,
         categoryName: "Exercise Tolerance Test",
         items: [
           {
@@ -30708,7 +30737,7 @@ const ServiceCost = [
         ],
       },
       {
-        categoryId: 53,
+        categoryId: 9,
         categoryName: "FIBROSCAN",
         items: [
           {
@@ -30719,7 +30748,7 @@ const ServiceCost = [
         ],
       },
       {
-        categoryId: 54,
+        categoryId: 10,
         categoryName: "INVOICE TDS",
         items: [
           {
@@ -30730,7 +30759,7 @@ const ServiceCost = [
         ],
       },
       {
-        categoryId: 55,
+        categoryId: 11,
         categoryName: "MOLECULAR DIAGNOSTIC LABORATORY",
         items: [
           {
@@ -30771,7 +30800,7 @@ const ServiceCost = [
         ],
       },
       {
-        categoryId: 56,
+        categoryId: 12,
         categoryName: "NEUROLOGY",
         items: [
           {
@@ -30907,7 +30936,7 @@ const ServiceCost = [
         ],
       },
       {
-        categoryId: 57,
+        categoryId: 13,
         categoryName: "PACKAGE",
         items: [
           {
@@ -31035,7 +31064,7 @@ const ServiceCost = [
         ],
       },
       {
-        categoryId: 58,
+        categoryId: 14,
         categoryName: "PATHOLOGY",
         items: [
           {
@@ -35146,7 +35175,7 @@ const ServiceCost = [
         ],
       },
       {
-        categoryId: 59,
+        categoryId: 15,
         categoryName: "RADIOLOGY",
         items: [
           {
@@ -38721,7 +38750,7 @@ const ServiceCost = [
         ],
       },
       {
-        categoryId: 60,
+        categoryId: 16,
         categoryName: "REGISTRATION",
         items: [
           {
@@ -38732,7 +38761,7 @@ const ServiceCost = [
         ],
       },
       {
-        categoryId: 61,
+        categoryId: 17,
         categoryName: "ULTRASOUND",
         items: [
           {
@@ -41160,7 +41189,7 @@ const ServiceCost = [
         ],
       },
       {
-        categoryId: 62,
+        categoryId: 18,
         categoryName: "UROFLOWETERY",
         items: [
           {
@@ -41171,7 +41200,7 @@ const ServiceCost = [
         ],
       },
       {
-        categoryId: 63,
+        categoryId: 19,
         categoryName: "VACCINATION",
         items: [
           {
@@ -41262,7 +41291,7 @@ const ServiceCost = [
         ],
       },
       {
-        categoryId: 64,
+        categoryId: 20,
         categoryName: "VACCUM TUBE",
         items: [
           {
@@ -41308,7 +41337,7 @@ const ServiceCost = [
         ],
       },
       {
-        categoryId: 65,
+        categoryId: 21,
         categoryName: "VASCULAR IMAGING",
         items: [
           {
