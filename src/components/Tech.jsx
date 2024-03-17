@@ -223,7 +223,7 @@ const Tech = ({ message, children }) => {
           <PopoverContent className="bg-emerald-900/80">
               
                     
-          <a> <Link to="/login">  <p className="text-white  items-center flex flex-row text-[12px] ms-0 me-1  font-ubuntu"> 
+          <a> <Link to="/report">  <p className="text-white  items-center flex flex-row text-[12px] ms-0 me-1  font-ubuntu"> 
        
       
           <a href=""> <span className="pl-1 text-[13px] ">Report Download</span></a></p>
