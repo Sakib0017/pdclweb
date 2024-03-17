@@ -15604,7 +15604,7 @@ const ServiceCost = [
     braName: "English Road",
     services: [
       {
-        categoryId: 1,
+        categoryId: 23,
         categoryName: "AMBULANCE",
         items: [
           {
@@ -15626,7 +15626,7 @@ const ServiceCost = [
         ],
       },
       {
-        categoryId: 2,
+        categoryId: 24,
         categoryName: "BLOOD BANK",
         items: [
           {
@@ -15647,7 +15647,7 @@ const ServiceCost = [
         ],
       },
       {
-        categoryId: 3,
+        categoryId: 25,
         categoryName: "COLONOSCOPY",
         items: [
           {
@@ -16010,7 +16010,7 @@ const ServiceCost = [
         ],
       },
       {
-        categoryId: 4,
+        categoryId: 26,
         categoryName: "Diagnostic Charges",
         items: [
           {
@@ -16450,7 +16450,7 @@ const ServiceCost = [
         ],
       },
       {
-        categoryId: 5,
+        categoryId: 27,
         categoryName: "ECG",
         items: [
           {
@@ -16481,7 +16481,7 @@ const ServiceCost = [
         ],
       },
       {
-        categoryId: 6,
+        categoryId: 28,
         categoryName: "ECHO",
         items: [
           {
@@ -16548,7 +16548,7 @@ const ServiceCost = [
         ],
       },
       {
-        categoryId: 7,
+        categoryId: 29,
         categoryName: "ENDOSCOPY",
         items: [
           {
@@ -17707,7 +17707,7 @@ const ServiceCost = [
         ],
       },
       {
-        categoryId: 8,
+        categoryId: 30,
         categoryName: "Exercise Tolerance Test",
         items: [
           {
@@ -17718,7 +17718,7 @@ const ServiceCost = [
         ],
       },
       {
-        categoryId: 9,
+        categoryId: 31,
         categoryName: "FIBROSCAN",
         items: [
           {
@@ -17729,7 +17729,7 @@ const ServiceCost = [
         ],
       },
       {
-        categoryId: 10,
+        categoryId: 32,
         categoryName: "INVOICE TDS",
         items: [
           {
@@ -17740,7 +17740,7 @@ const ServiceCost = [
         ],
       },
       {
-        categoryId: 11,
+        categoryId: 33,
         categoryName: "MOLECULAR DIAGNOSTIC LABORATORY",
         items: [
           {
@@ -17781,7 +17781,7 @@ const ServiceCost = [
         ],
       },
       {
-        categoryId: 12,
+        categoryId: 34,
         categoryName: "NEUROLOGY",
         items: [
           {
@@ -17917,7 +17917,7 @@ const ServiceCost = [
         ],
       },
       {
-        categoryId: 13,
+        categoryId: 35,
         categoryName: "OPHTHALMOLOGY",
         items: [
           {
@@ -17928,7 +17928,7 @@ const ServiceCost = [
         ],
       },
       {
-        categoryId: 14,
+        categoryId: 36,
         categoryName: "PACKAGE",
         items: [
           {
@@ -18061,7 +18061,7 @@ const ServiceCost = [
         ],
       },
       {
-        categoryId: 15,
+        categoryId: 37,
         categoryName: "PATHOLOGY",
         items: [
           {
@@ -22283,7 +22283,7 @@ const ServiceCost = [
         ],
       },
       {
-        categoryId: 16,
+        categoryId: 38,
         categoryName: "RADIOLOGY",
         items: [
           {
@@ -25944,7 +25944,7 @@ const ServiceCost = [
         ],
       },
       {
-        categoryId: 17,
+        categoryId: 39,
         categoryName: "REGISTRATION",
         items: [
           {
@@ -25955,7 +25955,7 @@ const ServiceCost = [
         ],
       },
       {
-        categoryId: 18,
+        categoryId: 40,
         categoryName: "ULTRASOUND",
         items: [
           {
@@ -28247,7 +28247,7 @@ const ServiceCost = [
         ],
       },
       {
-        categoryId: 19,
+        categoryId: 41,
         categoryName: "UROFLOWETERY",
         items: [
           {
@@ -28258,7 +28258,7 @@ const ServiceCost = [
         ],
       },
       {
-        categoryId: 20,
+        categoryId: 42,
         categoryName: "VACCINATION",
         items: [
           {
@@ -28349,7 +28349,7 @@ const ServiceCost = [
         ],
       },
       {
-        categoryId: 21,
+        categoryId: 43,
         categoryName: "VACCUM TUBE",
         items: [
           {
@@ -28395,7 +28395,7 @@ const ServiceCost = [
         ],
       },
       {
-        categoryId: 22,
+        categoryId: 44,
         categoryName: "VASCULAR IMAGING",
         items: [
           {
@@ -28499,7 +28499,7 @@ const ServiceCost = [
     braName: "Shantinagar",
     services: [
       {
-        categoryId: 1,
+        categoryId: 45,
         categoryName: "AMBULANCE",
         items: [
           {
@@ -28521,7 +28521,7 @@ const ServiceCost = [
         ],
       },
       {
-        categoryId: 2,
+        categoryId: 46,
         categoryName: "BLOOD BANK",
         items: [
           {
@@ -28542,7 +28542,7 @@ const ServiceCost = [
         ],
       },
       {
-        categoryId: 3,
+        categoryId: 47,
         categoryName: "COLONOSCOPY",
         items: [
           {
@@ -28935,7 +28935,7 @@ const ServiceCost = [
         ],
       },
       {
-        categoryId: 4,
+        categoryId: 48,
         categoryName: "Diagnostic Charges",
         items: [
           {
@@ -29395,7 +29395,7 @@ const ServiceCost = [
         ],
       },
       {
-        categoryId: 5,
+        categoryId: 49,
         categoryName: "ECG",
         items: [
           {
@@ -29446,7 +29446,7 @@ const ServiceCost = [
         ],
       },
       {
-        categoryId: 6,
+        categoryId: 50,
         categoryName: "ECHO",
         items: [
           {
@@ -29513,7 +29513,7 @@ const ServiceCost = [
         ],
       },
       {
-        categoryId: 7,
+        categoryId: 51,
         categoryName: "ENDOSCOPY",
         items: [
           {
@@ -30697,7 +30697,7 @@ const ServiceCost = [
         ],
       },
       {
-        categoryId: 8,
+        categoryId: 52,
         categoryName: "Exercise Tolerance Test",
         items: [
           {
@@ -30708,7 +30708,7 @@ const ServiceCost = [
         ],
       },
       {
-        categoryId: 9,
+        categoryId: 53,
         categoryName: "FIBROSCAN",
         items: [
           {
@@ -30719,7 +30719,7 @@ const ServiceCost = [
         ],
       },
       {
-        categoryId: 10,
+        categoryId: 54,
         categoryName: "INVOICE TDS",
         items: [
           {
@@ -30730,7 +30730,7 @@ const ServiceCost = [
         ],
       },
       {
-        categoryId: 11,
+        categoryId: 55,
         categoryName: "MOLECULAR DIAGNOSTIC LABORATORY",
         items: [
           {
@@ -30771,7 +30771,7 @@ const ServiceCost = [
         ],
       },
       {
-        categoryId: 12,
+        categoryId: 56,
         categoryName: "NEUROLOGY",
         items: [
           {
@@ -30907,7 +30907,7 @@ const ServiceCost = [
         ],
       },
       {
-        categoryId: 13,
+        categoryId: 57,
         categoryName: "PACKAGE",
         items: [
           {
@@ -31035,7 +31035,7 @@ const ServiceCost = [
         ],
       },
       {
-        categoryId: 14,
+        categoryId: 58,
         categoryName: "PATHOLOGY",
         items: [
           {
@@ -35146,7 +35146,7 @@ const ServiceCost = [
         ],
       },
       {
-        categoryId: 15,
+        categoryId: 59,
         categoryName: "RADIOLOGY",
         items: [
           {
@@ -38721,7 +38721,7 @@ const ServiceCost = [
         ],
       },
       {
-        categoryId: 16,
+        categoryId: 60,
         categoryName: "REGISTRATION",
         items: [
           {
@@ -38732,7 +38732,7 @@ const ServiceCost = [
         ],
       },
       {
-        categoryId: 17,
+        categoryId: 61,
         categoryName: "ULTRASOUND",
         items: [
           {
@@ -41160,7 +41160,7 @@ const ServiceCost = [
         ],
       },
       {
-        categoryId: 18,
+        categoryId: 62,
         categoryName: "UROFLOWETERY",
         items: [
           {
@@ -41171,7 +41171,7 @@ const ServiceCost = [
         ],
       },
       {
-        categoryId: 19,
+        categoryId: 63,
         categoryName: "VACCINATION",
         items: [
           {
@@ -41262,7 +41262,7 @@ const ServiceCost = [
         ],
       },
       {
-        categoryId: 20,
+        categoryId: 64,
         categoryName: "VACCUM TUBE",
         items: [
           {
@@ -41308,7 +41308,7 @@ const ServiceCost = [
         ],
       },
       {
-        categoryId: 21,
+        categoryId: 65,
         categoryName: "VASCULAR IMAGING",
         items: [
           {
