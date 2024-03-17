@@ -5,7 +5,7 @@ import video from '../assets/video.mp4';
 import AutoSizer from 'react-virtualized/dist/commonjs/AutoSizer';
 import List from 'react-virtualized/dist/commonjs/List';
 const ListHeader = () => (
-  <div className="flex justify-between px-8 py-2 bg-gray-400 font-bold">
+  <div className="flex  justify-between px-8 py-2  bg-gray-400 font-bold">
     <p>Service Name</p>
     <p>Service Cost</p>
   </div>
@@ -253,9 +253,9 @@ const Hero = ({ color }) => {
                 </div>
                 <div className={openTab === 3 ? "block" : "hidden"}  id="link3">
                 <form className="max-w-7xl  mx-auto">
-  <div className="grid md:grid-cols-4 pt-6 pb-6 md:gap-1">
-  <div className="relative z-0 w-full mb-1 group">
-  <select value={selectedBranch} onChange={handleBranchChange} className="block  py-2.5 px-0 w-full   text-sm text-gray-600 bg-transparent pl-2 border   border-1 border-gray-500  dark:text-gray-600 dark:border-gray-500 dark:focus:border-PDCL-green focus:outline-none focus:ring-0 focus:border-PDCL-green peer">
+  <div className="grid md:grid-cols-8   pt-6 pb-6 md:gap-[14px]">
+  <div  className="relative  mb-1 group ">
+  <select  value={selectedBranch} onChange={handleBranchChange} className="block py-2.5 px-0 w-full   text-sm text-gray-600 bg-transparent pl-2 border   border-1 border-gray-500  dark:text-gray-600 dark:border-gray-500 dark:focus:border-PDCL-green focus:outline-none focus:ring-0 focus:border-PDCL-green peer">
         <option value="">Select Branch</option>
         {ServiceCost.map((branch) => (
           <option key={branch.braId} value={branch.braId}>
@@ -264,11 +264,11 @@ const Hero = ({ color }) => {
         ))}
       </select>
    </div>
-    <div className="relative z-0 w-full mb-1 group">
-        <input type="text" value={searchTerm}  onChange={handleSearchChange} name="floating_first_name" placeholder="Test Name" id="floating_first_name" className="block  py-2.5 px-0 w-full  text-sm text-gray-900 bg-transparent border   border-1 border-gray-500  dark:text-gray-600 dark:border-gray-500 dark:focus:border-PDCL-green focus:outline-none focus:ring-0 focus:border-PDCL-green peer pl-2"  required />
+    <div  className="relative  col-span-7  mb-1 group ">
+        <input type="text" value={searchTerm}  onChange={handleSearchChange} name="floating_first_name" placeholder="Test Name" id="floating_first_name" className="block   py-2.5 px-0 w-full  text-sm text-gray-900 bg-transparent border   border-1 border-gray-500  dark:text-gray-600 dark:border-gray-500 dark:focus:border-PDCL-green focus:outline-none focus:ring-0 focus:border-PDCL-green peer pl-2"  required />
         
-        {filteredServices.length > 0 && (
-        <ul>
+        
+        <ul className='top-[100px]'>
        
         {filteredServices.length > 0 && (
         <div>
@@ -291,7 +291,7 @@ const Hero = ({ color }) => {
         </div>
       )}
       </ul>
-      )}
+      
     </div>
     
     </div>

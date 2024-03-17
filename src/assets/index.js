@@ -11,6 +11,8 @@ import home from "./home.png";
 import doct from "./doct.png";
 import app from "./app.png";
 import sea from "./sea.png";
+import biman from "./biman.png";
+import brac from "./brac.png";
 import medical from "./medical.png";
 import celebrating from "./celebrating.png";
 import office from "./office.png";
@@ -188,6 +190,8 @@ export {
   dgm,
   mm,
   AmarlabLogo,
+  brac,
+  biman,
   arrow,
   pakages,
   healh,

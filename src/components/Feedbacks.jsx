@@ -18,29 +18,41 @@ const FeedbackCard = ({
     className="grid md:grid-row-2 items-center justify-center sm:w-[550px] w-full mx-auto  md:gap-0 "
   >
     
-    <div className=" m-2 p-10 bg-gray-100/5 shadow text-start">
+    <div className=" m-1 p-10 bg-gray-100/5 shadow text-start">
     
     <div className="flex flex-wrap   max-w-7xl   ">
     <div >
-    <p className='text-[#006642] font-ubuntu font-bold text-[48px]'>"</p>
-      <p className='text-[#006642] font-ubuntu  font-medium text-[16px]'>{testimonial}</p>
-      <p className='text-[#006642] font-ubuntu font-bold text-[48px]'>"</p>
+    <div className='mt-0 flex justify-between items-end gap-0'>
+    <img
+          src={image}
+          alt={`feedback_by`}
+          className='w-20 h-10 mx-auto rounded object-cover'
+        />
+        </div>
+        <svg class="w-[30px] h-[30px] fill-[#006642]" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
 
-      <div className='mt-7 flex justify-between items-center gap-1'>
+        <path d="M0 216C0 149.7 53.7 96 120 96h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V320 288 216zm256 0c0-66.3 53.7-120 120-120h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H320c-35.3 0-64-28.7-64-64V320 288 216z"></path>
+
+        </svg>
+   
+      <p className='text-[#006642] font-ubuntu  font-medium text-[16px]'>{testimonial}</p>
+      <svg class="w-[30px] h-[30px] fill-[#006642]" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+
+      <path d="M448 296c0 66.3-53.7 120-120 120h-8c-17.7 0-32-14.3-32-32s14.3-32 32-32h8c30.9 0 56-25.1 56-56v-8H320c-35.3 0-64-28.7-64-64V160c0-35.3 28.7-64 64-64h64c35.3 0 64 28.7 64 64v32 32 72zm-256 0c0 66.3-53.7 120-120 120H64c-17.7 0-32-14.3-32-32s14.3-32 32-32h8c30.9 0 56-25.1 56-56v-8H64c-35.3 0-64-28.7-64-64V160c0-35.3 28.7-64 64-64h64c35.3 0 64 28.7 64 64v32 32 72z"></path>
+
+      </svg>
+
+      <div className='mt-0 flex justify-center items-center gap-0'>
         <div className=' flex flex-col'>
-          <p className='text-[#006642] font-medium text-[16px]'>
-            <span className='blue-text-gradient font-ubuntu font-bold'>@</span> {name}
+          <p className='text-[#006642] text-center  font-bold text-[16px]'>
+            {name}
           </p>
-          <p className='mt-1 blue-text-gradient font-ubuntu font-bold text-[14px]'>
+          <p className='mt-0 blue-text-gradient text-center  font-ubuntu font-bold text-[14px]'>
           {designation} of {company}
           </p>
         </div>
 
-        <img
-          src={image}
-          alt={`feedback_by`}
-          className='w-10 h-10 rounded-full object-cover'
-        />
+        
       </div>
     </div>   
         </div>
