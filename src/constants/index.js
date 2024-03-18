@@ -1811,7 +1811,7 @@ const ServiceCost = [
           {
             serviceId: 124,
             serviceName: "Bone Marrow Collection Charge (1846) (596)",
-            price: null,
+            price: 0,
           },
           {
             serviceId: 125,
@@ -1995,7 +1995,7 @@ const ServiceCost = [
           {
             serviceId: 160,
             serviceName: "Defecography Of Preparation Charge",
-            price: null,
+            price: 0,
           },
           {
             serviceId: 161,
@@ -2075,7 +2075,7 @@ const ServiceCost = [
           {
             serviceId: 176,
             serviceName: "FNAC Collection Charge",
-            price: null,
+            price: 0,
           },
           {
             serviceId: 177,
@@ -2239,12 +2239,12 @@ const ServiceCost = [
           {
             serviceId: 206,
             serviceName: "Echo Child Color Doppler",
-            price: null,
+            price: 0,
           },
           {
             serviceId: 207,
             serviceName: "Echo Color Doppler with LV Strain",
-            price: null,
+            price: 0,
           },
           {
             serviceId: 208,
@@ -2275,7 +2275,7 @@ const ServiceCost = [
           {
             serviceId: 213,
             serviceName: "Spirometry with Reversibility",
-            price: null,
+            price: 0,
           },
         ],
       },
@@ -3512,7 +3512,7 @@ const ServiceCost = [
           {
             serviceId: 455,
             serviceName: "Fibroscan of Liver",
-            price: null,
+            price: 0,
           },
           {
             serviceId: 456,
@@ -3788,7 +3788,7 @@ const ServiceCost = [
           {
             serviceId: 504,
             serviceName: "HBs AG & Hepavax-B (Package)",
-            price: null,
+            price: 0,
           },
           {
             serviceId: 505,
@@ -4496,7 +4496,7 @@ const ServiceCost = [
           {
             serviceId: 640,
             serviceName: "Lipid Profile (R)",
-            price: null,
+            price: 0,
           },
           {
             serviceId: 641,
@@ -5001,7 +5001,7 @@ const ServiceCost = [
           {
             serviceId: 741,
             serviceName: "Urine For Chyle",
-            price: null,
+            price: 0,
           },
           {
             serviceId: 742,
@@ -5077,7 +5077,7 @@ const ServiceCost = [
             serviceId: 756,
             serviceName:
               "Both  breast nipple discharge cytology for malignant cells",
-            price: null,
+            price: 0,
           },
           {
             serviceId: 757,
@@ -5183,7 +5183,7 @@ const ServiceCost = [
             serviceId: 777,
             serviceName:
               "Lt. Breast nipple discharge cytology for malignant cells",
-            price: null,
+            price: 0,
           },
           {
             serviceId: 778,
@@ -5328,7 +5328,7 @@ const ServiceCost = [
           {
             serviceId: 806,
             serviceName: "CBC",
-            price: null,
+            price: 0,
           },
           {
             serviceId: 807,
@@ -5699,7 +5699,7 @@ const ServiceCost = [
           {
             serviceId: 880,
             serviceName: "ACTH Before Injection",
-            price: null,
+            price: 0,
           },
           {
             serviceId: 881,
@@ -6449,7 +6449,7 @@ const ServiceCost = [
           {
             serviceId: 1030,
             serviceName: "Ascitic Fluid for C/S ( Blood culture bottle)",
-            price: null,
+            price: 0,
           },
           {
             serviceId: 1031,
@@ -7699,17 +7699,17 @@ const ServiceCost = [
           {
             serviceId: 1280,
             serviceName: "Sputum for AFB (1st Sample)",
-            price: null,
+            price: 0,
           },
           {
             serviceId: 1281,
             serviceName: "Sputum for AFB (2nd Sample)",
-            price: null,
+            price: 0,
           },
           {
             serviceId: 1282,
             serviceName: "Sputum for AFB (3rd Sample)",
-            price: null,
+            price: 0,
           },
           {
             serviceId: 1283,
@@ -8189,7 +8189,7 @@ const ServiceCost = [
           {
             serviceId: 1378,
             serviceName: "Urethral Discharge for Genexpert",
-            price: null,
+            price: 0,
           },
           {
             serviceId: 1379,
@@ -8229,17 +8229,17 @@ const ServiceCost = [
           {
             serviceId: 1386,
             serviceName: "Urine for C/S (C)",
-            price: null,
+            price: 0,
           },
           {
             serviceId: 1387,
             serviceName: "Urine for C/S (L)",
-            price: null,
+            price: 0,
           },
           {
             serviceId: 1388,
             serviceName: "Urine for C/S with MIC",
-            price: null,
+            price: 0,
           },
           {
             serviceId: 1389,
@@ -8647,7 +8647,7 @@ const ServiceCost = [
           {
             serviceId: 1467,
             serviceName: "CT angiogram of Mesenteric vessel",
-            price: null,
+            price: 0,
           },
           {
             serviceId: 1468,
@@ -8662,7 +8662,7 @@ const ServiceCost = [
           {
             serviceId: 1470,
             serviceName: "CT Cisternogram Lumber Puncture",
-            price: null,
+            price: 0,
           },
           {
             serviceId: 1471,
@@ -8764,7 +8764,7 @@ const ServiceCost = [
           {
             serviceId: 1490,
             serviceName: "CT Report Fee",
-            price: null,
+            price: 0,
           },
           {
             serviceId: 1491,
@@ -8784,7 +8784,7 @@ const ServiceCost = [
           {
             serviceId: 1494,
             serviceName: "CT Scan of  Larynx",
-            price: null,
+            price: 0,
           },
           {
             serviceId: 1495,
@@ -8809,7 +8809,7 @@ const ServiceCost = [
           {
             serviceId: 1499,
             serviceName: "CT Scan of Brain Ear's",
-            price: null,
+            price: 0,
           },
           {
             serviceId: 1500,
@@ -8874,7 +8874,7 @@ const ServiceCost = [
           {
             serviceId: 1512,
             serviceName: "CT Scan of Left Femur",
-            price: null,
+            price: 0,
           },
           {
             serviceId: 1513,
@@ -8894,7 +8894,7 @@ const ServiceCost = [
           {
             serviceId: 1516,
             serviceName: "Ct Scan of Left Heel (Calcaneum)",
-            price: null,
+            price: 0,
           },
           {
             serviceId: 1517,
@@ -8919,7 +8919,7 @@ const ServiceCost = [
           {
             serviceId: 1521,
             serviceName: "CT Scan of Left Scapula",
-            price: null,
+            price: 0,
           },
           {
             serviceId: 1522,
@@ -8939,7 +8939,7 @@ const ServiceCost = [
           {
             serviceId: 1525,
             serviceName: "CT Scan of Lower Jaw",
-            price: null,
+            price: 0,
           },
           {
             serviceId: 1526,
@@ -8949,17 +8949,17 @@ const ServiceCost = [
           {
             serviceId: 1527,
             serviceName: "CT Scan of Maxillofacial",
-            price: null,
+            price: 0,
           },
           {
             serviceId: 1528,
             serviceName: "CT Scan of Maxillofacial / Mandible (3D)",
-            price: null,
+            price: 0,
           },
           {
             serviceId: 1529,
             serviceName: "CT Scan of Nasopharynx",
-            price: null,
+            price: 0,
           },
           {
             serviceId: 1530,
@@ -8999,7 +8999,7 @@ const ServiceCost = [
           {
             serviceId: 1537,
             serviceName: "CT Scan of Right Femur",
-            price: null,
+            price: 0,
           },
           {
             serviceId: 1538,
@@ -9019,7 +9019,7 @@ const ServiceCost = [
           {
             serviceId: 1541,
             serviceName: "Ct Scan of Right Heel (Calcaneum)",
-            price: null,
+            price: 0,
           },
           {
             serviceId: 1542,
@@ -9039,12 +9039,12 @@ const ServiceCost = [
           {
             serviceId: 1545,
             serviceName: "CT Scan of Right Petromastoid Region",
-            price: null,
+            price: 0,
           },
           {
             serviceId: 1546,
             serviceName: "CT Scan of Right Scapula",
-            price: null,
+            price: 0,
           },
           {
             serviceId: 1547,
@@ -9064,7 +9064,7 @@ const ServiceCost = [
           {
             serviceId: 1550,
             serviceName: "CT Scan of Sacro-Cocegeal Region",
-            price: null,
+            price: 0,
           },
           {
             serviceId: 1551,
@@ -9084,7 +9084,7 @@ const ServiceCost = [
           {
             serviceId: 1554,
             serviceName: "CT Scan of Temporal Bone",
-            price: null,
+            price: 0,
           },
           {
             serviceId: 1555,
@@ -9099,7 +9099,7 @@ const ServiceCost = [
           {
             serviceId: 1557,
             serviceName: "CT Scan of Upper Jaw",
-            price: null,
+            price: 0,
           },
           {
             serviceId: 1558,
@@ -9255,7 +9255,7 @@ const ServiceCost = [
             serviceId: 1588,
             serviceName:
               "Spiral CT Scan of Upper Abdomen With Screening Of Chest",
-            price: null,
+            price: 0,
           },
           {
             serviceId: 1589,
@@ -9265,12 +9265,12 @@ const ServiceCost = [
           {
             serviceId: 1590,
             serviceName: "Triphasic CT Scan of HBS/ Liver/ Upper Abdomen",
-            price: null,
+            price: 0,
           },
           {
             serviceId: 1591,
             serviceName: "Triphasic CT Scan of Whole Abdomen",
-            price: null,
+            price: 0,
           },
           {
             serviceId: 1592,
@@ -9310,7 +9310,7 @@ const ServiceCost = [
           {
             serviceId: 1599,
             serviceName: "Canula Procedure Charge",
-            price: null,
+            price: 0,
           },
           {
             serviceId: 1600,
@@ -9395,7 +9395,7 @@ const ServiceCost = [
           {
             serviceId: 1616,
             serviceName: "MR Cystemography",
-            price: null,
+            price: 0,
           },
           {
             serviceId: 1617,
@@ -9405,7 +9405,7 @@ const ServiceCost = [
           {
             serviceId: 1618,
             serviceName: "MR Enterography",
-            price: null,
+            price: 0,
           },
           {
             serviceId: 1619,
@@ -9470,7 +9470,7 @@ const ServiceCost = [
           {
             serviceId: 1631,
             serviceName: "MRA & MRV",
-            price: null,
+            price: 0,
           },
           {
             serviceId: 1632,
@@ -9480,12 +9480,12 @@ const ServiceCost = [
           {
             serviceId: 1633,
             serviceName: "MRA Left/Right Left Lower  Limb",
-            price: null,
+            price: 0,
           },
           {
             serviceId: 1634,
             serviceName: "MRA Left/Right Left Upper Limb",
-            price: null,
+            price: 0,
           },
           {
             serviceId: 1635,
@@ -9505,7 +9505,7 @@ const ServiceCost = [
           {
             serviceId: 1638,
             serviceName: "MRA Of Back of Chest",
-            price: null,
+            price: 0,
           },
           {
             serviceId: 1639,
@@ -9603,22 +9603,22 @@ const ServiceCost = [
           {
             serviceId: 1657,
             serviceName: "MRI Extra Screening Charge",
-            price: null,
+            price: 0,
           },
           {
             serviceId: 1658,
             serviceName: "MRI Lower Limb Angiogram",
-            price: null,
+            price: 0,
           },
           {
             serviceId: 1659,
             serviceName: "MRI of  Cervical Spine (T2 Film)",
-            price: null,
+            price: 0,
           },
           {
             serviceId: 1660,
             serviceName: "MRI of  Dorsal Spine (T2 Film)",
-            price: null,
+            price: 0,
           },
           {
             serviceId: 1661,
@@ -9628,7 +9628,7 @@ const ServiceCost = [
           {
             serviceId: 1662,
             serviceName: "MRI of  Right Upper Limbs",
-            price: null,
+            price: 0,
           },
           {
             serviceId: 1663,
@@ -9663,7 +9663,7 @@ const ServiceCost = [
           {
             serviceId: 1669,
             serviceName: "MRI of Both Hip Joint With Screening Of Lumbar Spine",
-            price: null,
+            price: 0,
           },
           {
             serviceId: 1670,
@@ -9713,7 +9713,7 @@ const ServiceCost = [
           {
             serviceId: 1679,
             serviceName: "MRI of Brain (T2 Film)",
-            price: null,
+            price: 0,
           },
           {
             serviceId: 1680,
@@ -9824,7 +9824,7 @@ const ServiceCost = [
           {
             serviceId: 1701,
             serviceName: "MRI of Defecography",
-            price: null,
+            price: 0,
           },
           {
             serviceId: 1702,
@@ -10024,7 +10024,7 @@ const ServiceCost = [
           {
             serviceId: 1741,
             serviceName: "MRI of Lumbo-Sacral Spine(T2 Film)",
-            price: null,
+            price: 0,
           },
           {
             serviceId: 1742,
@@ -10034,7 +10034,7 @@ const ServiceCost = [
           {
             serviceId: 1743,
             serviceName: "MRI of Maxillofacial",
-            price: null,
+            price: 0,
           },
           {
             serviceId: 1744,
@@ -10049,7 +10049,7 @@ const ServiceCost = [
           {
             serviceId: 1746,
             serviceName: "MRI of Neck Vessels",
-            price: null,
+            price: 0,
           },
           {
             serviceId: 1747,
@@ -10079,7 +10079,7 @@ const ServiceCost = [
           {
             serviceId: 1752,
             serviceName: "MRI of Pelvis Screening  L/S Spine",
-            price: null,
+            price: 0,
           },
           {
             serviceId: 1753,
@@ -10204,12 +10204,12 @@ const ServiceCost = [
           {
             serviceId: 1777,
             serviceName: "MRI of S.I. Joint With Screening Of Lumbar Spine",
-            price: null,
+            price: 0,
           },
           {
             serviceId: 1778,
             serviceName: "MRI of Sacro-Coccygeal Region",
-            price: null,
+            price: 0,
           },
           {
             serviceId: 1779,
@@ -10274,7 +10274,7 @@ const ServiceCost = [
           {
             serviceId: 1791,
             serviceName: "MRI of Trigeminal Neuralgia Protocol",
-            price: null,
+            price: 0,
           },
           {
             serviceId: 1792,
@@ -10324,7 +10324,7 @@ const ServiceCost = [
           {
             serviceId: 1801,
             serviceName: "MRI Report Fee",
-            price: null,
+            price: 0,
           },
           {
             serviceId: 1802,
@@ -10555,7 +10555,7 @@ const ServiceCost = [
           {
             serviceId: 1845,
             serviceName: "Digital X-Ray Extra film (ONE)",
-            price: null,
+            price: 0,
           },
           {
             serviceId: 1846,
@@ -13113,7 +13113,7 @@ const ServiceCost = [
           {
             serviceId: 2326,
             serviceName: "Color Doppler USG of Lower Abdomen",
-            price: null,
+            price: 0,
           },
           {
             serviceId: 2327,
@@ -13133,7 +13133,7 @@ const ServiceCost = [
           {
             serviceId: 2330,
             serviceName: "Doppler Ultrasonogram of Pregnancy Profile",
-            price: null,
+            price: 0,
           },
           {
             serviceId: 2331,
@@ -13148,7 +13148,7 @@ const ServiceCost = [
           {
             serviceId: 2333,
             serviceName: "Doppler USG of -------------------------",
-            price: null,
+            price: 0,
           },
           {
             serviceId: 2334,
@@ -13163,7 +13163,7 @@ const ServiceCost = [
           {
             serviceId: 2336,
             serviceName: "Doppler USG of Scrotum",
-            price: null,
+            price: 0,
           },
           {
             serviceId: 2337,
@@ -13855,7 +13855,7 @@ const ServiceCost = [
           {
             serviceId: 2469,
             serviceName: "Pregnancy Profile (Triplet)",
-            price: null,
+            price: 0,
           },
           {
             serviceId: 2470,
@@ -13870,7 +13870,7 @@ const ServiceCost = [
           {
             serviceId: 2472,
             serviceName: "Pregnancy Profile (Twin)",
-            price: null,
+            price: 0,
           },
           {
             serviceId: 2473,
@@ -13990,7 +13990,7 @@ const ServiceCost = [
           {
             serviceId: 2496,
             serviceName: "Ultrasonogram of  TVS",
-            price: null,
+            price: 0,
           },
           {
             serviceId: 2497,
@@ -14579,17 +14579,17 @@ const ServiceCost = [
           {
             serviceId: 2612,
             serviceName: "Ultrasonogram of Lower Abdomen & KUB",
-            price: null,
+            price: 0,
           },
           {
             serviceId: 2613,
             serviceName: "Ultrasonogram of Lower Abdomen & PVR",
-            price: null,
+            price: 0,
           },
           {
             serviceId: 2614,
             serviceName: "Ultrasonogram of Lower Abdomen & Testis",
-            price: null,
+            price: 0,
           },
           {
             serviceId: 2615,
@@ -14665,7 +14665,7 @@ const ServiceCost = [
           {
             serviceId: 2629,
             serviceName: "Ultrasonogram of Penis & Testis",
-            price: null,
+            price: 0,
           },
           {
             serviceId: 2630,
@@ -14905,7 +14905,7 @@ const ServiceCost = [
           {
             serviceId: 2676,
             serviceName: "Ultrasonogram of Upper Abdomen with Doppler Study",
-            price: null,
+            price: 0,
           },
           {
             serviceId: 2677,
@@ -15136,7 +15136,7 @@ const ServiceCost = [
           {
             serviceId: 2721,
             serviceName: "USG Doppler of Rt/Lt knee Joint",
-            price: null,
+            price: 0,
           },
           {
             serviceId: 2722,
@@ -15266,7 +15266,7 @@ const ServiceCost = [
           {
             serviceId: 2747,
             serviceName: "USG of FibroScan",
-            price: null,
+            price: 0,
           },
           {
             serviceId: 2748,
@@ -15311,7 +15311,7 @@ const ServiceCost = [
           {
             serviceId: 2756,
             serviceName: "USG OF OVARY & SUPRARENAL GLAND",
-            price: null,
+            price: 0,
           },
           {
             serviceId: 2757,
@@ -15392,7 +15392,7 @@ const ServiceCost = [
           {
             serviceId: 2772,
             serviceName: "USG of Whole Abdomen & Adrenal Glands (M)",
-            price: null,
+            price: 0,
           },
           {
             serviceId: 2773,
