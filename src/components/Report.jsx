@@ -1,42 +1,27 @@
+
 import { Nav, Navbar, Tech } from "../components";
 import React, { useState, useEffect } from 'react';
-import { projects1 } from "../constants";
+import { reportDownload } from "../constants";
 import { motion } from "framer-motion";
-
-
-
-const spring = {
-  type: "spring",
-  stiffness: 700,
-  damping: 30
-};
-const buttonVariants = {
-  initial: { opacity: 1, scale: 1 },
-  animate: { opacity: 1, scale: 1.1 },
-  hover: { scale: 1.05 },
-};
 
 const searchBoxVariants = {
   initial: { opacity: 1, scale: 1 },
   hover: { scale: 1.03 },
 };
 
-
 const BranchCard = ({ branch, handleReportDownload }) => {
   return (
+   <div className="bg-gradient-to-b from-white to-[#00664218] hover:bg-gray-100 shadow-2xl rounded-2xl sm:w-[150px] w-full"> 
     <li
-      key={branch.branchID}
-      className=" bg-gradient-to-b from-white to-[#00664218] hover:bg-gray-100 text-gray-500 branch-card cursor-pointer rounded shadow-xl m-4"
-      onClick={() => handleReportDownload(branch.branchPage.reportDownload)}
+      key={branch.braID} m-4 
+      className="  text-gray-500 branch-card cursor-pointer m-1 flex items-center justify-center"
+      onClick={() => handleReportDownload(branch.downloadLink)}
     >
       <div className="branch-info p-4">
-        <h3 className="text-gray-600 font-medium">{branch.heading}</h3>
-        <p>{branch.address}</p>
-        <p>
-          Hotline: {branch.Hotline} | Email: {branch.Email}
-        </p>
+        <h3 className="text-gray-600 font-medium">{branch.braName}</h3>
       </div>
     </li>
+    </div>
   );
 };
 
@@ -48,8 +33,8 @@ const Report = () => {
   const [filteredOtherBranches, setFilteredOtherBranches] = useState([]);
 
   useEffect(() => {
-    const dhaka = projects1.filter((branch) => branch.branchPage.braCity === 'Dhaka');
-    const others = projects1.filter((branch) => branch.branchPage.braCity !== 'Dhaka');
+    const dhaka = reportDownload.filter((branch) => branch.braCity === 'Dhaka');
+    const others = reportDownload.filter((branch) => branch.braCity !== 'Dhaka');
 
     setAllDhakaBranches(dhaka);
     setAllOtherBranches(others);
@@ -63,15 +48,15 @@ const Report = () => {
     const searchQuery = event.target.value.toLowerCase();
     setSearchTerm(searchQuery);
 
-    const filteredBranches = projects1.filter((branch) =>
-      branch.heading.toLowerCase().includes(searchQuery)
+    const filteredBranches = reportDownload.filter((branch) =>
+      branch.braName.toLowerCase().includes(searchQuery)
     );
 
     const dhaka = filteredBranches.filter(
-      (branch) => branch.branchPage.braCity === 'Dhaka'
+      (branch) => branch.braCity === 'Dhaka'
     );
     const others = filteredBranches.filter(
-      (branch) => branch.branchPage.braCity !== 'Dhaka'
+      (branch) => branch.braCity !== 'Dhaka'
     );
 
     setFilteredDhakaBranches(dhaka);
@@ -88,54 +73,57 @@ const Report = () => {
       <Nav />
       <Navbar />
       <div className="p-10 flex flex-wrap mx-auto max-w-7xl">
-      <div className="flex flex-col w-full  pt-[100px] pb-10">
-      <motion.input 
-          type="text"
-          placeholder="Search branches..."
-          className="px-2 py-1 border text-[#006642] border-PDCL-green bg-gray-200  rounded-lg focus:outline-none focus:ring-1 focus:ring-PDCL-green"
-          value={searchTerm}
-          variants={searchBoxVariants}
-          onChange={handleSearchChange}
-          whileHover="hover"
-        />
+        <div className="flex flex-col w-full  pt-[100px] pb-10">
+          <motion.input
+            type="text"
+            placeholder="Search branches..."
+            className="px-2 py-1 border text-[#006642] border-PDCL-green bg-gray-200  rounded-lg focus:outline-none focus:ring-1 focus:ring-PDCL-green"
+            value={searchTerm}
+            variants={searchBoxVariants}
+            onChange={handleSearchChange}
+            whileHover="hover"
+          />
+        </div>
+        <div className="report-container bg-white flex flex-wrap justify-between"> {/* Use flexbox with justify-between for even card distribution */}
+          <div className="flex flex-wrap w-full md:w-1/2"> {/* Use flexbox with md:w-1/2 for two sections */}
+            <div className="flex flex-col items-center">
+              <h2 className="text-[#006642] text-center font-semibold">Branches Inside Dhaka</h2>
+              {filteredDhakaBranches.length > 0 ? (
+                <ul className="flex flex-wrap justify-between"> {/* Use flexbox with justify-between for even card distribution */}
+                  {filteredDhakaBranches.map((branch) => (
+                    <BranchCard
+                      key={branch.braID}
+                      branch={branch}
+                      handleReportDownload={handleReportDownload}
+                    />
+                  ))}
+                </ul>
+              ) : (
+                <p className="text-gray-600">No branches found inside Dhaka.</p>
+              )}
+            </div>
+          </div>
+        <div className="flex flex-wrap w-full md:w-1/2">
+        <div className="flex flex-col items-center">
+            <h2 className="text-[#006642] text-center font-semibold">Branches Outside Dhaka</h2>
+            {filteredOtherBranches.length > 0 ? (
+              <ul className="flex flex-wrap justify-between"> {/* Use grid for 4 columns within this section */}
+                {filteredOtherBranches.map((branch) => (
+                  <BranchCard
+                    key={branch.braID}
+                    branch={branch}
+                    handleReportDownload={handleReportDownload}
+                  />
+                ))}
+              </ul>
+            ) : (
+              <p className="text-gray-600">No branches found outside Dhaka.</p>
+            )}
+          </div>
+          </div>
+        </div>
       </div>
-    <div className="report-container bg-white grid grid-cols-1 md:grid-cols-2 gap-4">
-
-      <div>
-        <h2 className="text-[#006642] text-center font-semibold">Dhaka Branches</h2>
-        {filteredDhakaBranches.length > 0 ? (
-          <ul>
-            {filteredDhakaBranches.map((branch) => (
-              <BranchCard
-                key={branch.branchID}
-                branch={branch}
-                handleReportDownload={handleReportDownload}
-              />
-            ))}
-          </ul>
-        ) : (
-          <p className="text-gray-600">No branches found inside Dhaka.</p>
-        )}
-      </div>
-      <div>
-        <h2 className="text-[#006642] text-center font-semibold">Other Branches</h2>
-        {filteredOtherBranches.length > 0 ? (
-          <ul>
-            {filteredOtherBranches.map((branch) => (
-              <BranchCard
-                key={branch.branchID}
-                branch={branch}
-                handleReportDownload={handleReportDownload}
-              />
-            ))}
-          </ul>
-        ) : (
-          <p className="text-gray-600">No branches found outside Dhaka.</p>
-        )}
-      </div>
-    </div>
-    </div>
-    <Tech />
+      <Tech />
     </div>
   );
 };

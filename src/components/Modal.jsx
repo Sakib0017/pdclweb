@@ -154,6 +154,6 @@ const Modal = () => {
     </div>
   );
 };
-
+//4,6,8,11,19,25
 
 export default Modal;

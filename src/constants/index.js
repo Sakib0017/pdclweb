@@ -434,6 +434,144 @@ const topManagement = [
   },
 ];
 
+const reportDownload = [
+  {
+    braID: 1,
+    braName: "Dhanmondi",
+    downloadLink: "http://119.40.80.131/",
+    braCity: "Dhaka",
+  },
+  {
+    braID: 2,
+    braName: "English Road",
+    downloadLink: "http://119.40.80.131/",
+    braCity: "Dhaka",
+  },
+  {
+    braID: 3,
+    braName: "Shantinagar",
+    downloadLink: "http://119.40.80.131/",
+    braCity: "Dhaka",
+  },
+  {
+    braID: 4,
+    braName: "Shyamoli",
+    downloadLink:
+      "http://prosoft.populardiagnostic.com:8877/ords/f?p=700:3:8271679877280:::::",
+    braCity: "Dhaka",
+  },
+  {
+    braID: 5,
+    braName: "Mirpur",
+    downloadLink: "http://119.40.80.131/",
+    braCity: "Dhaka",
+  },
+  {
+    braID: 6,
+    braName: "Badda",
+    downloadLink: "http://119.40.80.131/",
+    braCity: "Dhaka",
+  },
+  {
+    braID: 7,
+    braName: "Uttara",
+    downloadLink:
+      "http://prosoft.populardiagnostic.com:8877/ords/f?p=700:3:8271679877280:::::",
+    braCity: "Dhaka",
+  },
+  {
+    braID: 8,
+    braName: "Uttara Garib E Newaz",
+    downloadLink: "http://119.40.80.131/",
+    braCity: "Dhaka",
+  },
+  {
+    braID: 9,
+    braName: "Jatrabari",
+    downloadLink: "http://119.40.80.131/",
+    braCity: "Dhaka",
+  },
+  {
+    braID: 10,
+    braName: "Savar",
+    downloadLink: "http://119.40.80.131/",
+    braCity: "Dhaka",
+  },
+  {
+    braID: 11,
+    braName: "Gazipur",
+    downloadLink: "http://119.40.80.131/",
+    braCity: "Dhaka",
+  },
+  {
+    braID: 12,
+    braName: "Narayangonj",
+    downloadLink: "http://119.40.80.131/",
+    braCity: "Dhaka",
+  },
+  {
+    braID: 13,
+    braName: "Bogura",
+    downloadLink: "http://119.40.80.131/",
+    braCity: "Bogura",
+  },
+  {
+    braID: 14,
+    braName: "Rajshahi",
+    downloadLink: "http://119.40.80.131/",
+    braCity: "Rajshahi",
+  },
+  {
+    braID: 15,
+    braName: "Noakhali",
+    downloadLink: "http://119.40.80.131/",
+    braCity: "Noakhali",
+  },
+  {
+    braID: 16,
+    braName: "Chattogram",
+    downloadLink: "http://119.40.80.131/",
+    braCity: "Chattogram",
+  },
+  {
+    braID: 17,
+    braName: "Mymensingh",
+    downloadLink: "http://119.40.80.131/",
+    braCity: "Mymensingh",
+  },
+  {
+    braID: 18,
+    braName: "Rangpur",
+    downloadLink: "http://119.40.80.131/",
+    braCity: "Rangpur",
+  },
+  {
+    braID: 19,
+    braName: "Dinajpur",
+    downloadLink: "http://119.40.80.131/",
+    braCity: "Dinajpur",
+  },
+  {
+    braID: 20,
+    braName: "Khulna",
+    downloadLink: "http://119.40.80.131/",
+    braCity: "Khulna",
+  },
+  {
+    braID: 21,
+    braName: "Kushtia",
+    downloadLink: "http://119.40.80.131/",
+    braCity: "Kushtia",
+  },
+  {
+    braID: 22,
+    braName: "Barishal",
+    downloadLink: "http://119.40.80.131/",
+    braCity: "Barishal",
+  },
+];
+
+
 const projects1 = [
   {
     branchID: 1,
@@ -41470,4 +41608,5 @@ export {
   topManagement,
   projects1,
   projects2,
+  reportDownload,
 };
