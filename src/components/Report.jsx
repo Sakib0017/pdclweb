@@ -11,14 +11,14 @@ const searchBoxVariants = {
 
 const BranchCard = ({ branch, handleReportDownload }) => {
   return (
-   <div className="bg-gradient-to-b from-white to-[#00664218] hover:bg-gray-100 shadow-2xl rounded-2xl sm:w-[150px] w-full"> 
+   <div className="bg-gradient-to-b from-white to-[#0066424b] hover:bg-gray-200 shadow-2xl m-2 rounded-2xl sm:w-[150px] w-full"> 
     <li
       key={branch.braID} m-4 
-      className="  text-gray-500 branch-card cursor-pointer m-1 flex items-center justify-center"
+      className="text-gray-600 hover:text-gray-800 branch-card cursor-pointer flex items-center justify-center"
       onClick={() => handleReportDownload(branch.downloadLink)}
     >
       <div className="branch-info p-4">
-        <h3 className="text-gray-600 font-medium">{branch.braName}</h3>
+        <h3 className="text-center font-medium">{branch.braName}</h3>
       </div>
     </li>
     </div>
@@ -84,10 +84,10 @@ const Report = () => {
             whileHover="hover"
           />
         </div>
-        <div className="report-container bg-white flex flex-wrap justify-between"> {/* Use flexbox with justify-between for even card distribution */}
-          <div className="flex flex-wrap w-full md:w-1/2"> {/* Use flexbox with md:w-1/2 for two sections */}
+        <div className="report-container w-full bg-white flex flex-wrap justify-between"> {/* Use flexbox with justify-between for even card distribution */}
+          <div className="border-x-2 px-3 flex flex-wrap w-full md:w-1/2"> {/* Use flexbox with md:w-1/2 for two sections */}
             <div className="flex flex-col items-center">
-              <h2 className="text-[#006642] text-center font-semibold">Branches Inside Dhaka</h2>
+              <h2 className="text-[#006642] text-center text-xl  font-semibold border-b-2 mb-10">Branches Inside Dhaka</h2>
               {filteredDhakaBranches.length > 0 ? (
                 <ul className="flex flex-wrap justify-between"> {/* Use flexbox with justify-between for even card distribution */}
                   {filteredDhakaBranches.map((branch) => (
@@ -99,13 +99,13 @@ const Report = () => {
                   ))}
                 </ul>
               ) : (
-                <p className="text-gray-600">No branches found inside Dhaka.</p>
+                <p className="text-gray-600 p-5">No branches found inside Dhaka.</p>
               )}
             </div>
           </div>
-        <div className="flex flex-wrap w-full md:w-1/2">
+        <div className="border-x-2 px-3 flex flex-wrap w-full md:w-1/2">
         <div className="flex flex-col items-center">
-            <h2 className="text-[#006642] text-center font-semibold">Branches Outside Dhaka</h2>
+            <h2 className="text-[#006642] text-center text-xl font-semibold border-b-2 mb-10">Branches Outside Dhaka</h2>
             {filteredOtherBranches.length > 0 ? (
               <ul className="flex flex-wrap justify-between"> {/* Use grid for 4 columns within this section */}
                 {filteredOtherBranches.map((branch) => (
@@ -117,7 +117,7 @@ const Report = () => {
                 ))}
               </ul>
             ) : (
-              <p className="text-gray-600">No branches found outside Dhaka.</p>
+              <p className="text-gray-600 p-5">No branches found outside Dhaka.</p>
             )}
           </div>
           </div>
