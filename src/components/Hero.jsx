@@ -308,8 +308,8 @@ const Hero = ({ color }) => {
      
 
 
-      <div className="flex flex-col mb-2 rounded-[10px] sm:hidden  flex-1  justify-top items-center    mt-[30px] mx-auto">
-        <div className=" w-full h-auto bg-gray-100/95 p-2 rounded block">
+      <div className="flex flex-col mb-2 rounded sm:hidden  flex-1  justify-top items-center    mt-[25px] mx-auto">
+        <div className=" w-[125%] h-auto bg-gray-100/95 p-2 rounded block">
           <ul
             className="flex mb-0 ml-2 mr-2 list-none flex-wrap pt-1 pb-1 flex-col shadow-lg"
             role="tablist"
@@ -377,11 +377,8 @@ const Hero = ({ color }) => {
               <div className="tab-content tab-space">
                 <div className={openTab === 2 ? "block" : "hidden"} id="link1">
                 <form className="max-w-screen-xl bg-white mx-auto">
-  <div className="grid md:grid-cols-5  md:gap-1">
-    <div className="relative z-0 w-full mb-1 group">
-        <input type="text" name="floating_first_name" placeholder="Doctors Name" id="floating_first_name" className="block pl-2 py-2.5 px-0 w-full text-sm text-gray-600 bg-transparent border   border-1 border-gray-500  dark:text-gray-600 dark:border-gray-500 dark:focus:border-PDCL-green focus:outline-none focus:ring-0 focus:border-PDCL-green peer"  required />
-        
-    </div>
+  <div className="grid md:grid-cols-4  md:gap-1">
+   
     <div className="relative z-0 w-full mb-1 group">
     <select id="countries" className="block py-2.5 px-0 w-full text-sm text-gray-600 bg-transparent pl-2 border   border-1 border-gray-500  dark:text-gray-600 dark:border-gray-500 dark:focus:border-PDCL-green focus:outline-none focus:ring-0 focus:border-PDCL-green peer">
   <option  selected>Choose a Branch</option>
@@ -398,6 +395,18 @@ const Hero = ({ color }) => {
   <option value="FR">Sonologist</option>
   <option value="DE">Cardiology</option>
 </select></div>
+<div className="relative z-0 w-full mb-1 group">
+    <select id="countries" className="block py-2.5 px-0 w-full text-sm text-gray-600 bg-transparent pl-2 border  border-1 border-gray-500  dark:text-gray-600 dark:border-gray-500 dark:focus:border-PDCL-green focus:outline-none focus:ring-0 focus:border-PDCL-green peer">
+  <option selected>Choose a Day</option>
+  <option value="US">Saterday</option>
+  <option value="CA">Sunday</option>
+  <option value="FR">Monday</option>
+  <option value="DE">Tuesday</option>
+</select></div>
+<div className="relative z-0 w-full mb-1 group">
+        <input type="text" name="floating_first_name" placeholder="Doctors Name" id="floating_first_name" className="block pl-2 py-2.5 px-0 w-full text-sm text-gray-600 bg-transparent border   border-1 border-gray-500  dark:text-gray-600 dark:border-gray-500 dark:focus:border-PDCL-green focus:outline-none focus:ring-0 focus:border-PDCL-green peer"  required />
+        
+    </div>
    {/* <div className="relative z-0 w-full mb-1 group">
     <select id="countries" className="block py-2.5 px-0 w-full text-sm text-gray-600 bg-transparent border border-[#00a884]  border-1 border-gray-500  dark:text-gray-600 dark:border-gray-500 dark:focus:border-PDCL-green focus:outline-none focus:ring-0 focus:border-PDCL-green peer pl-2">
   <option selected>Choose a Day</option>
@@ -407,8 +416,7 @@ const Hero = ({ color }) => {
   <option value="DE">Wednesday</option>
               </select></div> */}
     
-<button type="button" className="text-white rounded block h-[43px] hover:text-slate-900 border bg-PDCL-green  hover:bg-white focus:ring-4 focus:outline-none focus:ring-[#00a884] font-ubuntu text-[16px] font-bold px-5 py-2.5 text-center  mb-0 dark:border-[#00a884] dark:text-[#00a884] dark:hover:text-gray-600 dark:hover:bg-[#00a884] dark:focus:ring-[#00a884]">Doctor</button>
-    
+   
     </div>
  
   
@@ -473,21 +481,43 @@ const Hero = ({ color }) => {
                 <form className="max-w-screen-xl  mx-auto">
   <div className="grid md:grid-cols-4  md:gap-12">
   <div className="relative z-0 w-full mb-1 group">
-    <select id="countries" className="block py-2.5 px-0 w-full text-sm text-gray-600 bg-transparent pl-2 border  border-1 border-gray-500  dark:text-gray-600 dark:border-gray-500 dark:focus:border-PDCL-green focus:outline-none focus:ring-0 focus:border-PDCL-green peer">
-  <option selected>Choose a Branch</option>
-  <option value="US">Dhanmondi</option>
-  <option value="CA">Shymoli</option>
-  <option value="FR">Shantinagar</option>
-  <option value="DE">Uttara</option>
-</select></div>
-    <div className="relative z-0 w-full mb-1 group">
-        <input type="text" name="floating_first_name" placeholder="Test Name" id="floating_first_name" className="block py-2.5 px-0 w-full text-sm text-gray-600 bg-transparent border border-gray-500  border-1   dark:text-gray-600 dark:border-gray-500 dark:focus:border-PDCL-green focus:outline-none focus:ring-0 focus:border-PDCL-green peer pl-2"  required />
-        
+  <select  value={selectedBranch} onChange={handleBranchChange} className="block py-2.5 px-0 w-full text-sm text-gray-600 bg-transparent pl-2 border  border-1 border-gray-500  dark:text-gray-600 dark:border-gray-500 dark:focus:border-PDCL-green focus:outline-none focus:ring-0 focus:border-PDCL-green peer">
+        <option value="">Select Branch</option>
+        {ServiceCost.map((branch) => (
+          <option key={branch.braId} value={branch.braId}>
+            {branch.braName}
+          </option>
+        ))}
+      </select>
+    
     </div>
     <div className="relative z-0 w-full mb-1 group">
-        <input type="text" name="floating_first_name" placeholder="Service Name" id="floating_first_name" className="block py-2.5 px-0 w-full text-sm text-gray-600 bg-transparent border border-gray-500  border-1   dark:text-gray-600 dark:border-gray-500 dark:focus:border-PDCL-green focus:outline-none focus:ring-0 focus:border-PDCL-green peer pl-2"  required />
-        
+        <input type="text" value={searchTerm}  onChange={handleSearchChange} name="floating_first_name" placeholder="Test Name" id="floating_first_name" className="block py-2.5 px-0 w-full text-sm text-gray-600 bg-transparent border border-gray-500  border-1   dark:text-gray-600 dark:border-gray-500 dark:focus:border-PDCL-green focus:outline-none focus:ring-0 focus:border-PDCL-green peer pl-2"  required />
+        <ul className='top-[100px]'>
+       
+        {filteredServices.length > 0 && (
+        <div>
+          {/* Render the header */}
+          <ListHeader />
+
+          {/* List */}
+          <AutoSizer>
+            {({ width }) => (
+              <List
+                height={250}
+                rowCount={filteredServices.length}
+                rowHeight={50}
+                rowRenderer={renderRow}
+                overscanRowCount={5}
+                width={width}
+              />
+            )}
+          </AutoSizer>
+        </div>
+      )}
+      </ul>
     </div>
+   
     {/* <div className="relative z-0 w-full mb-1 group">
     <select id="countries" className="block py-2.5 px-0 w-full text-sm text-gray-600-500 bg-transparent border border-[#00a884]  border-1 border-[#00a884]  dark:text-gray-600 dark:border-[#00a884] dark:focus:border-PDCL-green focus:outline-none focus:ring-0 focus:border-PDCL-green peer pl-2">
   <option selected>Choose a branch</option>
@@ -497,8 +527,7 @@ const Hero = ({ color }) => {
   <option value="DE">Germany</option>
 </select></div>
      */}
-<button type="button" className="text-white rounded block h-[43px] hover:text-slate-900 border bg-PDCL-green  hover:bg-white focus:ring-4 focus:outline-none focus:ring-[#125133] font-ubuntu  text-[16px] font-bold px-5 py-2.5 text-center  dark:border-gray-500 dark:text-[#125133] dark:hover:text-gray-600 dark:hover:bg-white dark:focus:ring-[#125133]">Charge</button>
-    
+   
     </div>
  
   
