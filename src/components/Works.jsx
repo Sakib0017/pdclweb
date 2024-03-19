@@ -43,8 +43,8 @@ const ProjectCard = ({
         </div>
 
         <div className='mt-0 p-5'>
-          <h3 className='text-[#006642] font-medium p-2 font-ubuntu text-[24px]'>{name}</h3>
-          <p className='mt-2 text-[#006642] font-medium font-ubuntu p-2 text-[16px]'>{description}</p>
+          <h3 className='text-gray-900 font-medium p-2 font-ubuntu text-[24px]'>{name}</h3>
+          <p className='mt-2 text-gray-500 font-medium font-ubuntu p-2 text-[16px]'>{description}</p>
         </div>
 
         <div className='mt-0 font-medium flex font-ubuntu flex-wrap p-2 gap-2'>
@@ -75,26 +75,26 @@ const Works = () => {
     <div className="bg-gray-100/5 shadow p-5 mx-auto w-full ">
       <div className="flex flex-col  flex-wrap max-w-screen-xl mx-auto  ">
        <div className="w-auto  border-l-[5px]  border-[#006642] border-opacity-50 pl-2  text-start ml-3">
-       <h1 className="text-slate-900 font-ubuntu font-bold text-[24px]">DISCOVER <span className="text-[#006642] font-ubuntu">POPULAR</span></h1>
+       <h1 className="text-slate-900/50 font-ubuntu font-extrabold text-[28px]">DISCOVER <span className="text-[#006642] font-ubuntu">POPULAR</span></h1>
          <p className="text-gray-500 font-ubuntu text-[16px] font-medium">Popular Diagnostic Centre Ltd. Popular Diagnostic Centre Ltd. Popular Diagnostic Centre Ltd. Popular Diagnostic Centre Ltd. exists to provide a better patient experience. We are a one-stop-shop for your health, offering caring doctors, world-class diagnostics and much more world-class diagnostics and much more world-class diagnostics and much more world-class diagnostics and much more.</p>
         </div>
         <div className="flex flex-wrap items-center justify-center mx-auto ">
           <div className="flex flex-col items-start mx-auto">
             <h6 className="text-slate-900 font-bold font-ubuntu text-[60px]">27</h6>
-              <p className="text-[#006642] font-bold font-ubuntu text-[20px]">
+              <p className="text-gray-500 font-bold font-ubuntu text-[20px]">
                 DEPARTMENTS
               </p>
                
           </div>
           <div className="flex items-start flex-col mx-auto ml-20">
             <h6 className="text-slate-900 font-bold font-ubuntu text-[60px]">5K+</h6>
-              <p className="text-[#006642] font-bold font-ubuntu text-[20px]">
+              <p className="text-gray-500 font-bold font-ubuntu text-[20px]">
                 DOCTORS
               </p>
           </div>
           <div className="flex flex-col items-start mx-auto ml-20">
             <h6 className="text-slate-900 font-bold font-ubuntu text-[60px]">270K+</h6>
-              <p className="text-[#006642]  font-bold font-ubuntu text-[20px]">
+              <p className="text-gray-500  font-bold font-ubuntu text-[20px]">
                 PATIENTS SERVED
               </p>
           </div>
@@ -108,26 +108,26 @@ const Works = () => {
     <div className="bg-gray-100/5 shadow p-5 mx-auto w-full ">
       <div className="flex flex-col  flex-wrap max-w-screen-xl mx-auto  ">
        <div className="w-full  border-l-[5px]  border-[#006642] border-opacity-50 pl-2  text-start ml-3">
-       <h1 className="text-slate-900 font-ubuntu font-bold text-[24px]">DISCOVER <span className="text-[#006642] font-ubuntu">POPULAR</span></h1>
+       <h1 className="text-slate-900/50 font-ubuntu font-extrabold text-[28px]">DISCOVER <span className="text-[#006642] font-ubuntu">POPULAR</span></h1>
          <p className="text-gray-500 font-ubuntu text-[16px] font-medium">Popular Diagnostic Centre Ltd. exists to provide a better patient experience. We are a one-stop-shop for your health, offering caring doctors, world-class diagnostics and much more world-class diagnostics and much more.</p>
         </div>
         <div className="flex flex-col items-center justify-center mx-auto ">
           <div className="flex flex-col items-center mx-auto">
             <h6 className="text-slate-900 font-bold font-ubuntu text-[60px]">27</h6>
-              <p className="text-[#006642] font-bold font-ubuntu text-[20px]">
+              <p className="text-gray-500 font-bold font-ubuntu text-[20px]">
                 DEPARTMENTS
               </p>
                
           </div>
           <div className="flex items-center flex-col mx-auto ">
             <h6 className="text-slate-900 font-bold font-ubuntu text-[60px]">5K+</h6>
-              <p className="text-[#006642] font-bold font-ubuntu text-[20px]">
+              <p className="text-gray-500 font-bold font-ubuntu text-[20px]">
                 DOCTORS
               </p>
           </div>
           <div className="flex flex-col items-center mx-auto ">
             <h6 className="text-slate-900 font-bold font-ubuntu text-[60px]">270K+</h6>
-              <p className="text-[#006642]  font-bold font-ubuntu text-[20px]">
+              <p className="text-gray-500  font-bold font-ubuntu text-[20px]">
                 PATIENTS SERVED
               </p>
           </div>
@@ -140,7 +140,7 @@ const Works = () => {
     
       
   <div className="flex flex-col mt-[50px] max-w-7xl">
-        <h2 className='text-gray-900/50 pb-2 text-start pl-2 text-[28px] font-bold font-ubuntu'>EXPLORE HEALTH PLUS</h2>
+        <h2 className='text-gray-500/50 pb-2 text-start pl-2 text-[28px] font-bold font-ubuntu'>EXPLORE HEALTH PLUS</h2>
         </div>
       
 
@@ -154,7 +154,7 @@ const Works = () => {
      
      
  
-      <a href="/"><p className='text-[#006642] pt-1 text-end pr-2 text-[20px] font-medium font-ubuntu'>View More.....</p></a>
+      <a href="/"><p className='text-gray-500 pt-1 text-end pr-2 text-[20px] font-medium font-ubuntu'>View More.....</p></a>
     </div>
     </>
   );

@@ -4,6 +4,12 @@ module.exports = {
   mode: "jit",
   theme: {
     extend: {
+      keyframes: {
+        ping: {
+          '0%, 70%, 100%': { opacity: 1 },
+          '35%': { opacity: 0 },
+        },
+      },
       fontFamily: {
         'ubuntu': ['"Ubuntu"'],
       },
