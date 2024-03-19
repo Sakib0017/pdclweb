@@ -309,7 +309,7 @@ const Hero = ({ color }) => {
 
 
       <div className="flex flex-col mb-2 rounded sm:hidden  flex-1  justify-top items-center    mt-[25px] mx-auto">
-        <div className=" w-[125%] h-auto bg-gray-100/95 p-2 rounded block">
+        <div className=" w-[115%] h-auto bg-gray-100/95 p-2 rounded block">
           <ul
             className="flex mb-0 ml-2 mr-2 list-none flex-wrap pt-1 pb-1 flex-col shadow-lg"
             role="tablist"
