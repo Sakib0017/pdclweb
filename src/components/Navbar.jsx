@@ -62,7 +62,7 @@ const Navbar = () => {
            
             
            
-           <a href=""> <span className="pl-1 text-[20px] font-medium font-ubuntu hidden md:block">Portal</span></a></p>
+           <a href=""> <span className="pl-1 text-[20px] font-medium font-ubuntu hidden md:block">Patient Portal</span></a></p>
                  </Link></a>
            </div>
          
