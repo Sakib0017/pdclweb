@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Details, Nav, Navbar, Tech } from "../components";
+import { Sidemenu, Bottommenu, Details, Nav, Navbar, Tech } from "../components";
 import { motion } from "framer-motion";
 import { projects1 } from "../constants";
 
@@ -106,6 +106,8 @@ const Modal = () => {
     <div className="bg-white">
       <Nav />
       <Navbar />
+      <Sidemenu />
+      <Bottommenu />
       <div>
         
       </div>

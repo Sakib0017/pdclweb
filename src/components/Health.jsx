@@ -1,5 +1,5 @@
 import React from "react";
-import {   Nav, Navbar,  Tech} from "../components";
+import {   Nav, Navbar, Sidemenu,Bottommenu, Tech} from "../components";
 import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { printer ,downloads } from "../assets";
@@ -76,31 +76,33 @@ function Health() {
      
       
      <Navbar />
+     <Sidemenu />
+     <Bottommenu />
      <div className={` justify-center items-center  text-center flex flex-wrap `}>
        <div className="  flex-col  max-w-7xl container  md:flex-col   mt-[150px] mx-auto">
        <div className="flex flex-col">
-       <form className="max-w-7xl shadow items-center p-10 bg-gray-100-5 rounded-[10px] justify-center">
-  <div className="grid md:grid-cols-3   md:gap-1 ">
-    <div className="text-black overflow-scroll p-10 text-center">
+       <form className="max-w-7xl  items-center p-20  rounded-[10px] justify-center">
+  <div className="grid md:grid-cols-2   md:gap-10 ">
+    <div className="me-auto shadow w-full p-10">
     <h3 className="text-[24px] text-[#006642] font-ubuntu font-bold">Health Cheak-up Pakages<br></br>For 40 Years Age Above</h3>
-    <Card className="h-auto w-full    shadow-transparent bg-gray-100-5">
-      <table className="w-full min-w-max  text-left">
+    <Card className="h-auto w-auto    shadow-transparent bg-gray-100/5">
+      <table className="w-auto min-w-max  text-left">
        
         <tbody>
           {TABLE_ROWS.map(({ no, test, price }) => (
             <tr key={no} className="even:bg-blue-gray-50/50">
               <td className="p-4 ">
-                <Typography variant="small" color="blue-gray" className="text-[#006642]  font-ubuntu font-medium text-[16px]">
+                <Typography variant="small" color="blue-gray" className="text-gray-900  font-ubuntu font-medium text-[16px]">
                   {no}
                 </Typography>
               </td>
               <td className="p-4">
-                <Typography variant="small" color="blue-gray" className="text-[#006642]  font-ubuntu font-medium text-[16px]">
+                <Typography variant="small" color="blue-gray" className="text-gray-900  font-ubuntu font-medium text-[16px]">
                   {test}
                 </Typography>
               </td>
               <td className="p-4">
-                <Typography variant="small" color="blue-gray" className="text-[#006642]  font-ubuntu font-medium text-[16px]">
+                <Typography variant="small" color="blue-gray" className="text-gray-900  font-ubuntu font-medium text-[16px]">
                   {price}
                 </Typography>
               </td>
@@ -111,42 +113,26 @@ function Health() {
       </table>
     </Card>
     </div>
-    <div className="text-black p-10 overflow-scroll text-center">
+    <div className="text-black p-10 w-full shadow text-center">
     
-    <h3 className="text-[24px] text-[#006642] font-bold font-ubuntu pb-10">হেল্‌থ চেক-আপ এর পূর্ব প্রস্ততি সমূহ:- </h3>
-    <p className=" text-[#006642] font-ubuntu text-[16px] font-medium">০১ হেল্‌থ চেক-আপ এর বিষয়ে জানতে পপুলার অনুসন্ধান কেন্দ্রে যোগাযোগ করুন</p>
-    <p className=" text-[#006642] font-ubuntu text-[16px] font-medium">০২ হেল্‌থ চেক-আপ এর বিষয়ে জানতে পপুলার অনুসন্ধান কেন্দ্রে যোগাযোগ করুন</p>
-    <p className=" text-[#006642] font-ubuntu text-[16px] font-medium">০৩ হেল্‌থ চেক-আপ এর বিষয়ে জানতে পপুলার অনুসন্ধান কেন্দ্রে যোগাযোগ করুন</p>
-    <p className=" text-[#006642] font-ubuntu text-[16px] font-medium">০৪ হেল্‌থ চেক-আপ এর বিষয়ে জানতে পপুলার অনুসন্ধান কেন্দ্রে যোগাযোগ করুন</p>
-    <p className=" text-[#006642] font-ubuntu text-[16px] font-medium">০৫ হেল্‌থ চেক-আপ এর বিষয়ে জানতে পপুলার অনুসন্ধান কেন্দ্রে যোগাযোগ করুন</p>
-    <p className=" text-[#006642] font-ubuntu text-[16px] font-medium">০৬ হেল্‌থ চেক-আপ এর বিষয়ে জানতে পপুলার অনুসন্ধান কেন্দ্রে যোগাযোগ করুন</p>
-    <p className=" text-[#006642] font-ubuntu text-[16px] font-medium">০৭ হেল্‌থ চেক-আপ এর বিষয়ে জানতে পপুলার অনুসন্ধান কেন্দ্রে যোগাযোগ করুন</p>
-    <p className=" text-[#006642] font-ubuntu text-[16px] font-medium">০৮ হেল্‌থ চেক-আপ এর বিষয়ে জানতে পপুলার অনুসন্ধান কেন্দ্রে যোগাযোগ করুন</p>
-    <p className=" text-[#006642] font-ubuntu text-[16px] font-medium">০৯ হেল্‌থ চেক-আপ এর বিষয়ে জানতে পপুলার অনুসন্ধান কেন্দ্রে যোগাযোগ করুন</p>
-    <p className=" text-[#006642] font-ubuntu text-[16px] font-medium">১০ হেল্‌থ চেক-আপ এর বিষয়ে জানতে পপুলার অনুসন্ধান কেন্দ্রে যোগাযোগ করুন</p>
+    <h3 className="text-[24px]  text-[#006642] font-bold font-ubuntu pb-10">হেল্‌থ চেক-আপ এর পূর্ব প্রস্ততি সমূহ:- </h3>
+    <p className=" text-gray-900 font-ubuntu text-[16px] font-medium">০১. হেল্‌থ চেক-আপ এর বিষয়ে জানতে পপুলার অনুসন্ধান কেন্দ্রে যোগাযোগ করুন</p>
+    <p className=" text-gray-900 font-ubuntu text-[16px] font-medium">০২. হেল্‌থ চেক-আপ এর বিষয়ে জানতে পপুলার অনুসন্ধান কেন্দ্রে যোগাযোগ করুন</p>
+    <p className=" text-gray-900 font-ubuntu text-[16px] font-medium">০৩. হেল্‌থ চেক-আপ এর বিষয়ে জানতে পপুলার অনুসন্ধান কেন্দ্রে যোগাযোগ করুন</p>
+    <p className=" text-gray-900 font-ubuntu text-[16px] font-medium">০৪. হেল্‌থ চেক-আপ এর বিষয়ে জানতে পপুলার অনুসন্ধান কেন্দ্রে যোগাযোগ করুন</p>
+    <p className=" text-gray-900 font-ubuntu text-[16px] font-medium">০৫. হেল্‌থ চেক-আপ এর বিষয়ে জানতে পপুলার অনুসন্ধান কেন্দ্রে যোগাযোগ করুন</p>
+    <p className=" text-gray-900 font-ubuntu text-[16px] font-medium">০৬. হেল্‌থ চেক-আপ এর বিষয়ে জানতে পপুলার অনুসন্ধান কেন্দ্রে যোগাযোগ করুন</p>
+    <p className=" text-gray-900 font-ubuntu text-[16px] font-medium">০৭. হেল্‌থ চেক-আপ এর বিষয়ে জানতে পপুলার অনুসন্ধান কেন্দ্রে যোগাযোগ করুন</p>
+    <p className=" text-gray-900 font-ubuntu text-[16px] font-medium">০৮. হেল্‌থ চেক-আপ এর বিষয়ে জানতে পপুলার অনুসন্ধান কেন্দ্রে যোগাযোগ করুন</p>
+    <p className=" text-gray-900 font-ubuntu text-[16px] font-medium">০৯. হেল্‌থ চেক-আপ এর বিষয়ে জানতে পপুলার অনুসন্ধান কেন্দ্রে যোগাযোগ করুন</p>
+    <p className=" text-gray-900 font-ubuntu text-[16px] font-medium">১০. হেল্‌থ চেক-আপ এর বিষয়ে জানতে পপুলার অনুসন্ধান কেন্দ্রে যোগাযোগ করুন</p>
     
     </div>
-    <div className="text-black p-10 text-center ">
-          <h5 className="text-[36px] text-[#006642] font-bold pt-8 font-ubuntu">POPULAR <br></br>HEALTH CHECK-UP <br></br>PAKAGES</h5>
-          <img className="mx-auto mt-[100px] w-[250px] h-[250px] " src={healh} />
     </div>
-  </div>
-  <div className="grid md:grid-cols-3   md:gap-1">
-    <div className="text-black p-10 text-center">
-      <p className="text-[24px] text-[#006642] font-bold pt-10 font-ubuntu">'We are committed to<br></br> meet our patient's needs<br></br> compassionately by utilizing<br></br> safe and appropriate tests'</p>
-    <img className="p-10 mx-auto" src={dical}/>
-    </div>
-    <div className="text-black p-10 text-center">
-    <img className="p-10 w-full h-[220px] mx-auto" src={cover}/>
-    </div>
-    <div className="text-black  p-10 text-center">
-      <p className="text-[#006642] text-center p-10">We care....</p>
-      <p className="text-[red] text-[18px] font-ubuntu font-bold text-center">Hotline</p>
-      <p className="text-[#006642] text-[24px] font-ubuntu font-bold text-center">09666787801</p>
-      <p className="text-[#006642] text-[24px] font-ubuntu font-bold text-center">09613787801</p>
-      <img className="p-10 w-full h-[180px] mx-auto" src={cover}/>
-    </div>
-  </div>
+    
+   
+  
+
   
 </form>
 
@@ -156,7 +142,7 @@ function Health() {
   
    
     <div className="text-black overflow-scroll p-10 text-center">
-    <h3 className="text-[20px] text-[#006642] font-ubuntu font-bold">Primary Health Cheak-up Pakage-1<br></br>For 40 Years Age Above</h3>
+    <h3 className="text-[20px] text-gray-900 font-ubuntu font-bold">Primary Health Cheak-up Pakage-1<br></br>For 40 Years Age Above</h3>
     <Card className="h-auto w-full  shadow-transparent bg-gray-100-5">
       <table className="w-full min-w-max table-auto text-left">
        
@@ -164,17 +150,17 @@ function Health() {
           {TABLE_ROWS.map(({ no, test, price }) => (
             <tr key={no} className="even:bg-blue-gray-50/50">
               <td className="p-4 ">
-                <Typography variant="small" color="blue-gray" className="text-[#006642]  font-ubuntu font-medium text-[16px]">
+                <Typography variant="small" color="blue-gray" className="text-gray-900  font-ubuntu font-medium text-[16px]">
                   {no}
                 </Typography>
               </td>
               <td className="p-4">
-                <Typography variant="small" color="blue-gray" className="text-[#006642]  font-ubuntu font-medium text-[16px]">
+                <Typography variant="small" color="blue-gray" className="text-gray-900  font-ubuntu font-medium text-[16px]">
                   {test}
                 </Typography>
               </td>
               <td className="p-4">
-                <Typography variant="small" color="blue-gray" className="text-[#006642]  font-ubuntu font-medium text-[16px]">
+                <Typography variant="small" color="blue-gray" className="text-gray-900  font-ubuntu font-medium text-[16px]">
                   {price}
                 </Typography>
               </td>
@@ -190,7 +176,7 @@ function Health() {
    
     
     <div className="text-black overflow-scroll p-10 text-center ">
-    <h3 className="text-[20px] text-[#006642] font-ubuntu font-bold">Primary Health Cheak-up Pakage-2<br></br>For 40 Years Age Above</h3>
+    <h3 className="text-[20px] text-gray-900 font-ubuntu font-bold">Primary Health Cheak-up Pakage-2<br></br>For 40 Years Age Above</h3>
     <Card className="h-auto w-full   shadow-transparent bg-gray-100-5">
       <table className="w-full min-w-max  table-auto text-left">
        
@@ -198,17 +184,17 @@ function Health() {
           {TABLE_ROWS.map(({ no, test, price }) => (
             <tr key={no} className="even:bg-blue-gray-50/50">
               <td className="p-4 ">
-                <Typography variant="small" color="blue-gray" className="text-[#006642]  font-ubuntu font-medium text-[16px]">
+                <Typography variant="small" color="blue-gray" className="text-gray-900  font-ubuntu font-medium text-[16px]">
                   {no}
                 </Typography>
               </td>
               <td className="p-4">
-                <Typography variant="small" color="blue-gray" className="text-[#006642]  font-ubuntu font-medium text-[16px]">
+                <Typography variant="small" color="blue-gray" className="text-gray-900  font-ubuntu font-medium text-[16px]">
                   {test}
                 </Typography>
               </td>
               <td className="p-4">
-                <Typography variant="small" color="blue-gray" className="text-[#006642]  font-ubuntu font-medium text-[16px]">
+                <Typography variant="small" color="blue-gray" className="text-gray-900  font-ubuntu font-medium text-[16px]">
                   {price}
                 </Typography>
               </td>
@@ -223,7 +209,7 @@ function Health() {
     </div>
    
     <div className="text-black  overflow-scroll p-10 text-center ">
-    <h3 className="text-[20px] text-[#006642] font-ubuntu font-bold">Health Cheak-up Pakages<br></br>For 40 Years Age Above</h3>
+    <h3 className="text-[20px] text-gray-900 font-ubuntu font-bold">Health Cheak-up Pakages<br></br>For 40 Years Age Above</h3>
     
     <Card className="h-auto w-full  shadow-transparent bg-gray-100-5 ">
       <table className="w-full min-w-max  table-auto text-left">
@@ -232,17 +218,17 @@ function Health() {
           {TABLE_ROWS.map(({ no, test, price }) => (
             <tr key={no} className="even:bg-blue-gray-50/50">
               <td className="p-4 ">
-                <Typography variant="small" color="blue-gray" className="text-[#006642]  font-ubuntu font-medium text-[16px]">
+                <Typography variant="small" color="blue-gray" className="text-gray-900  font-ubuntu font-medium text-[16px]">
                   {no}
                 </Typography>
               </td>
               <td className="p-4">
-                <Typography variant="small" color="blue-gray" className="text-[#006642]  font-ubuntu font-medium text-[16px]">
+                <Typography variant="small" color="blue-gray" className="text-gray-900  font-ubuntu font-medium text-[16px]">
                   {test}
                 </Typography>
               </td>
               <td className="p-4">
-                <Typography variant="small" color="blue-gray" className="text-[#006642]  font-ubuntu font-medium text-[16px]">
+                <Typography variant="small" color="blue-gray" className="text-gray-900  font-ubuntu font-medium text-[16px]">
                   {price}
                 </Typography>
               </td>
@@ -263,7 +249,7 @@ function Health() {
     
    
     <div className="text-black  overflow-scroll p-10 text-center ">
-    <h3 className="text-[20px] text-[#006642] font-ubuntu font-bold">Health Cheak-up Pakages<br></br>For 40 Years Age Above</h3>
+    <h3 className="text-[20px] text-gray-900 font-ubuntu font-bold">Health Cheak-up Pakages<br></br>For 40 Years Age Above</h3>
     
     <Card className="h-auto w-full  shadow-transparent bg-gray-100-5 ">
       <table className="w-full min-w-max  table-auto text-left">
@@ -272,17 +258,17 @@ function Health() {
           {TABLE_ROWS.map(({ no, test, price }) => (
             <tr key={no} className="even:bg-blue-gray-50/50">
               <td className="p-4 ">
-                <Typography variant="small" color="blue-gray" className="text-[#006642]  font-ubuntu font-medium text-[16px]">
+                <Typography variant="small" color="blue-gray" className="text-gray-900  font-ubuntu font-medium text-[16px]">
                   {no}
                 </Typography>
               </td>
               <td className="p-4">
-                <Typography variant="small" color="blue-gray" className="text-[#006642]  font-ubuntu font-medium text-[16px]">
+                <Typography variant="small" color="blue-gray" className="text-gray-900  font-ubuntu font-medium text-[16px]">
                   {test}
                 </Typography>
               </td>
               <td className="p-4">
-                <Typography variant="small" color="blue-gray" className="text-[#006642]  font-ubuntu font-medium text-[16px]">
+                <Typography variant="small" color="blue-gray" className="text-gray-900  font-ubuntu font-medium text-[16px]">
                   {price}
                 </Typography>
               </td>
@@ -295,7 +281,7 @@ function Health() {
    
     </div>
     <div className="text-black  overflow-scroll p-10 text-center ">
-    <h3 className="text-[20px] text-[#006642] font-ubuntu font-bold">Health Cheak-up Pakages<br></br>For 40 Years Age Above</h3>
+    <h3 className="text-[20px] text-gray-900 font-ubuntu font-bold">Health Cheak-up Pakages<br></br>For 40 Years Age Above</h3>
     
     <Card className="h-auto w-full  shadow-transparent bg-gray-100-5 ">
       <table className="w-full min-w-max  table-auto text-left">
@@ -304,17 +290,17 @@ function Health() {
           {TABLE_ROWS.map(({ no, test, price }) => (
             <tr key={no} className="even:bg-blue-gray-50/50">
               <td className="p-4 ">
-                <Typography variant="small" color="blue-gray" className="text-[#006642]  font-ubuntu font-medium text-[16px]">
+                <Typography variant="small" color="blue-gray" className="text-gray-900  font-ubuntu font-medium text-[16px]">
                   {no}
                 </Typography>
               </td>
               <td className="p-4">
-                <Typography variant="small" color="blue-gray" className="text-[#006642]  font-ubuntu font-medium text-[16px]">
+                <Typography variant="small" color="blue-gray" className="text-gray-900  font-ubuntu font-medium text-[16px]">
                   {test}
                 </Typography>
               </td>
               <td className="p-4">
-                <Typography variant="small" color="blue-gray" className="text-[#006642]  font-ubuntu font-medium text-[16px]">
+                <Typography variant="small" color="blue-gray" className="text-gray-900  font-ubuntu font-medium text-[16px]">
                   {price}
                 </Typography>
               </td>

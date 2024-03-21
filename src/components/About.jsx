@@ -1,4 +1,4 @@
-import { Nav, Navbar, Tech } from "../components";
+import { Nav, Navbar,Sidemenu, Tech, Bottommenu } from "../components";
 import { ServiceCost, topManagement } from "../constants";
 import React, { useState } from "react";
 import AutoSizer from 'react-virtualized/dist/commonjs/AutoSizer';
@@ -88,7 +88,8 @@ const About = () => {
     <div className="bg-white">
       <Nav />
       <Navbar />
-
+      <Sidemenu />
+      <Bottommenu />
       <div className="flex flex-col pt-[150px] pb mx-auto max-w-7xl">
         <h2 className="text-gray-900/50 pb-5 text-center text-[35px] font-bold font-ubuntu">
           Top Management

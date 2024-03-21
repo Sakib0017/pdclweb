@@ -1,16 +1,27 @@
 import { styles } from '../styles';
 import { ServiceCost, topManagement } from "../constants";
 import React, { useState } from 'react';
+import { Sidemenu, Bottommenu } from "../components";
 import video from '../assets/video.mp4';
 import AutoSizer from 'react-virtualized/dist/commonjs/AutoSizer';
 import List from 'react-virtualized/dist/commonjs/List';
+import { Link } from "react-router-dom";
 const ListHeader = () => (
   <div className="flex  justify-between px-8 py-2  bg-gray-400 font-bold">
     <p>Service Name</p>
     <p>Service Cost</p>
   </div>
 );
-const Hero = ({ color }) => {
+
+const handleReportDownload = (reportDownloadLink) => {
+  // Handle branch click event (consider opening link in new tab or redirecting)
+  window.open(reportDownloadLink, '_blank'); // Open report in new tab
+};
+const Hero = ({ color, href, children }) => {
+  const handleClick = (event) => {
+    event.preventDefault(); // Prevent default link behavior (navigation within app)
+    window.open("http://appointment.populardiagnostic.com/appointment", '_blank', 'noopener,noreferrer'); // Open link in new tab
+  };
   const [openTab, setOpenTab] = React.useState(1);
   const date = new Date();
   const showTime = date.getHours() 
@@ -66,12 +77,14 @@ const Hero = ({ color }) => {
     <>
 
 
-         
+       
 
     <section className='w-full h-[700px]  relative  justify-top items-bottom'>
-      
+     
        <video className=" w-full h-[700px] object-cover object-top   top-0 left-0" src={video} autoPlay loop muted />
        <div className='absolute w-full h-[700px]  top-0 left-0 bg-gray-900/50'></div>
+       <Sidemenu /> 
+       <Bottommenu /> 
       <div className={`${styles.paddingX} absolute  top-[80px] max-w-7xl mx-auto inset-1 justify-center   items-bottom  text-center flex flex-col  text-white`}>
        
        
@@ -222,8 +235,8 @@ const Hero = ({ color }) => {
 </svg></div>
 </div>
 
-    <button type="button" className="text-white w-full mt-[50px] rounded block  h-[43px] hover:text-white border bg-PDCL-green border-none focus:ring-4 focus:outline-none focus:ring-[#006642] font-ubuntu  text-[16px] font-bold px-5 py-2.5 text-center  mb-0 dark:border-[#006642] dark:text-white dark:hover:text-white dark:hover:bg-gray-500 dark:focus:ring-[#006642]">Appointment</button>
-    
+    <Link onClick={handleClick} to=""><button  type="button"  className="text-white w-full mt-[50px] rounded block  h-[43px] hover:text-white border bg-PDCL-green border-none focus:ring-4 focus:outline-none focus:ring-[#006642] font-ubuntu  text-[16px] font-bold px-5 py-2.5 text-center  mb-0 dark:border-[#006642] dark:text-white dark:hover:text-white dark:hover:bg-gray-500 dark:focus:ring-[#006642]">Appointment</button>
+    </Link>
     </div>
  
   

@@ -1,5 +1,5 @@
 
-import { Nav, Navbar, Tech } from "../components";
+import { Nav, Navbar, Sidemenu, Bottommenu, Tech } from "../components";
 import React, { useState, useEffect } from 'react';
 import { reportDownload } from "../constants";
 import { motion } from "framer-motion";
@@ -72,6 +72,8 @@ const Report = () => {
     <div className="bg-white">
       <Nav />
       <Navbar />
+      <Sidemenu />
+      <Bottommenu />
       <div className="p-10 flex flex-wrap mx-auto max-w-7xl">
         <div className="flex flex-col w-full  pt-[100px] pb-10">
           <motion.input

@@ -1,5 +1,5 @@
 import React from "react";
-import {   Nav, Navbar,  Tech} from "../components";
+import {   Nav, Navbar,Sidemenu, Bottommenu,  Tech} from "../components";
 import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { logo ,tripguide } from "../assets";
@@ -53,7 +53,8 @@ function Notice() {
      
       
      <Navbar />
-          
+     <Sidemenu /> 
+     <Bottommenu />
  <motion.div variants={textVariant()}>
   <div className="flex flex-col pt-[200px] mx-auto  max-w-7xl">
         <h2 className='text-gray-900/50 pb-5 text-center pl-2 text-[28px] font-bold font-ubuntu'>Check out our Latest News & Notices</h2>

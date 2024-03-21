@@ -1,5 +1,5 @@
 import React from "react";
-import { Nav, Navbar,  Tech} from "../components";
+import { Nav, Navbar,Sidemenu,Bottommenu,  Tech} from "../components";
 import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { printer ,downloads } from "../assets";
@@ -23,6 +23,8 @@ function Contact() {
      
       
      <Navbar />
+     <Sidemenu />
+     <Bottommenu />
      <div className={`justify-center  items-center p-2 text-center flex flex-col  text-white`}>
        <div className=" flex-col mt-[200px] max-w-7xl container  block items-stretch md:flex-row    mx-auto">
        <Card  className="mx-auto w-full bg-gray-100-5 rounded-[10px] max-w-7xl" shadow={true}>

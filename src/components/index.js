@@ -14,6 +14,7 @@ import Count from './Count';
 import Layout from './Layout';
 import Sample from './Sample';
 import Complain from './Complain';
+import Sidemenu from './Sidemenu';
 import Report from './Report';
 import Login from './Login';
 import Sign from './Sign';
@@ -22,15 +23,22 @@ import Notice from './Notice';
 import Health from './Health';
 import Details from './Details';
 import Notification from './Notification';
+import Bottommenu from './Bottommenu';
+import DoctorDetail from './DoctorDetail';
+import DoctorSearch from './DoctorSearch';
 export {
   Modal,
   Notice,
   Details,
+  DoctorSearch,
+  DoctorDetail,
+  Bottommenu,
   Login,
   Health,
   Cor,
   Sign,
   Layout,
+  Sidemenu,
   Report,
   Complain,
   Hero,

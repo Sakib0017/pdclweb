@@ -24,3 +24,32 @@
 .ping-delay-200 {
   animation-delay: 2.0s;
 }
+
+@keyframes pulse {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0.7;
+  }
+}
+
+#timer {
+  animation: pulse 2s infinite ease-in-out;
+}
+#timer1 {
+  animation: pulse 4s infinite ease-in-out;
+}
+#timer2 {
+  animation: pulse 2s infinite ease-in-out;
+}
+#timer3 {
+  animation: pulse 4s infinite ease-in-out;
+}
+#timer4 {
+  animation: pulse 2s infinite ease-in-out;
+}
+#timer5 {
+  animation: pulse 4s infinite ease-in-out;
+}
+
