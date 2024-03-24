@@ -151,7 +151,7 @@ const Hero = ({ color }) => {
               <div className="tab-content tab-space">
                 <div className={openTab === 2 ? "block" : "hidden"} id="link1">
                 <form className="max-w-screen-xl   mx-auto">
-  <div className="grid md:grid-cols-4 pt-6 pb-6 md:gap-1">
+  <div className="grid md:grid-cols-8 pt-6 pb-6 md:gap-1">
    
     <div className="relative z-0 w-full mb-1 group">
     <select id="countries" className="block py-2.5 px-0 w-full text-sm text-gray-600 bg-transparent pl-2 border border-gray-500  border-1  dark:text-gray-600 dark:border-gray-500 dark:focus:border-PDCL-green focus:outline-none focus:ring-0 focus:border-PDCL-green peer">
@@ -169,7 +169,7 @@ const Hero = ({ color }) => {
   <option value="FR">Sonologist</option>
   <option value="DE">Cardiology</option>
 </select></div>
-<div className="relative z-0 w-full mb-1 group">
+<div className="relative   mb-1 group">
     <select id="countries" className="block py-2.5 px-0 w-full text-sm text-gray-600 bg-transparent pl-2 border b  border-1 border-gray-500  dark:text-gray-600 dark:border-gray-500 dark:focus:border-PDCL-green focus:outline-none focus:ring-0 focus:border-PDCL-green peer">
   <option selected>Choose a Day</option>
   <option value="US">Saterday</option>
@@ -177,7 +177,7 @@ const Hero = ({ color }) => {
   <option value="FR">Monday</option>
   <option value="DE">Tuesday</option>
 </select></div>
-<div className="relative z-0 w-full mb-1 group ">
+<div className="relative col-span-5  mb-1 group ">
         <input type="text" name="floating_first_name" placeholder="Doctors Name" id="floating_first_name" className="block pl-2 py-2.5 px-0 w-full text-sm text-gray-600 bg-transparent border border-gray-500  border-1   dark:text-gray-600 dark:border-gray-500 dark:focus:border-PDCL-green focus:outline-none focus:ring-0 focus:border-PDCL-green peer"  required />
         
     </div>
@@ -198,7 +198,7 @@ const Hero = ({ color }) => {
                 </div>
                 <div className={openTab === 1 ? "block" : "hidden"} id="link2">
                 <form className="max-w-screen-xl  mx-auto">
-  <div className="grid md:grid-cols-4  md:gap-1">
+  <div className="grid md:grid-cols-8 pt-6 pb-6 md:gap-1">
     
   <div className="relative z-0 w-full mb-1 group">
         <input type="text" name="floating_first_name" placeholder="Patient Name" id="floating_first_name" className="block py-2.5 px-0 w-full text-sm text-gray-600 bg-transparent border   border-1 border-gray-500  dark:text-gray-600 dark:border-gray-500 dark:focus:border-PDCL-green focus:outline-none focus:ring-0 focus:border-PDCL-green peer pl-2"  required />
@@ -253,8 +253,8 @@ const Hero = ({ color }) => {
                 </div>
                 <div className={openTab === 3 ? "block" : "hidden"}  id="link3">
                 <form className="max-w-7xl  mx-auto">
-  <div className="grid md:grid-cols-8   pt-6 pb-6 md:gap-[14px]">
-  <div  className="relative  mb-1 group ">
+  <div className="grid md:grid-cols-8   pt-6 pb-6 md:gap-6">
+  <div  className="relative z-0 w-full col-span-1 mb-1 group">
   <select  value={selectedBranch} onChange={handleBranchChange} className="block py-2.5 px-0 w-full   text-sm text-gray-600 bg-transparent pl-2 border   border-1 border-gray-500  dark:text-gray-600 dark:border-gray-500 dark:focus:border-PDCL-green focus:outline-none focus:ring-0 focus:border-PDCL-green peer">
         <option value="">Select Branch</option>
         {ServiceCost.map((branch) => (
@@ -264,7 +264,7 @@ const Hero = ({ color }) => {
         ))}
       </select>
    </div>
-    <div  className="relative  col-span-7  mb-1 group ">
+    <div  className="relative col-span-7  mb-1 group ">
         <input type="text" value={searchTerm}  onChange={handleSearchChange} name="floating_first_name" placeholder="Test Name" id="floating_first_name" className="block   py-2.5 px-0 w-full  text-sm text-gray-900 bg-transparent border   border-1 border-gray-500  dark:text-gray-600 dark:border-gray-500 dark:focus:border-PDCL-green focus:outline-none focus:ring-0 focus:border-PDCL-green peer pl-2"  required />
         
         
