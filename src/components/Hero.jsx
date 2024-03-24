@@ -201,8 +201,21 @@ const Hero = ({ color }) => {
   <div className="grid md:grid-cols-9  md:gap-1">
     
   
-    <button type="button" className="text-white w-full rounded block col-span-9  h-[43px] hover:text-white border bg-[#006642] border-none focus:ring-4 focus:outline-none focus:ring-[#006642] font-ubuntu  text-[16px] font-bold px-5 py-2.5 text-center  mb-0 dark:border-[#006642] dark:text-white dark:hover:text-white dark:hover:bg-gray-500 dark:focus:ring-[#006642]">Appoint</button>
+    <button type="button" className="text-white w-full rounded block col-span-9  h-[43px] hover:text-white border bg-[#006642] border-none focus:ring-4 focus:outline-none focus:ring-[#006642] font-ubuntu  text-[16px] font-bold px-5 py-2.5 text-center  mb-0 dark:border-[#006642] dark:text-white dark:hover:text-white dark:hover:bg-gray-500 dark:focus:ring-[#006642]">To Appointment A Doctor</button>
     
+
+<form class=" relative z-0 w-full col-span-9 mb-1 group">   
+    <div class="relative">
+        <div class="absolute inset-y-0 end-0 flex items-center pe-3 pointer-events-none">
+            <svg class="w-4 h-4 text-gray-500 dark:text-gray-400" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"/>
+            </svg>
+        </div>
+        <input type="search" id="default-search" class="block w-full p-3 ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="PDCL AI ASK FOR PATAINT   ........" required />
+        </div>
+</form>
+
+
     </div>
  
   
@@ -210,7 +223,7 @@ const Hero = ({ color }) => {
                 </div>
                 <div className={openTab === 3 ? "block" : "hidden"}  id="link3">
                 <form className="max-w-7xl  mx-auto">
-  <div className="grid md:grid-cols-9   pt-6 pb-6 md:gap-1">
+  <div className="grid md:grid-cols-9 md:gap-1">
   <div  className="relative z-0 w-full col-span-9 mb-1 group">
   <select  value={selectedBranch} onChange={handleBranchChange} className="block py-2.5 px-0 w-full   text-sm text-gray-600 bg-transparent pl-2 border   border-1 border-gray-500  dark:text-gray-600 dark:border-gray-500 dark:focus:border-PDCL-green focus:outline-none focus:ring-0 focus:border-PDCL-green peer">
         <option value="">Select Branch</option>
