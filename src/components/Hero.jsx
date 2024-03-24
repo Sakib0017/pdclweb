@@ -198,53 +198,10 @@ const Hero = ({ color }) => {
                 </div>
                 <div className={openTab === 1 ? "block" : "hidden"} id="link2">
                 <form className="max-w-screen-xl  mx-auto">
-  <div className="grid md:grid-cols-4  md:gap-1">
+  <div className="grid md:grid-cols-9  md:gap-1">
     
-  <div className="relative z-0 w-full mb-1 group">
-        <input type="text" name="floating_first_name" placeholder="Patient Name" id="floating_first_name" className="block py-2.5 px-0 w-full text-sm text-gray-600 bg-transparent border   border-1 border-gray-500  dark:text-gray-600 dark:border-gray-500 dark:focus:border-PDCL-green focus:outline-none focus:ring-0 focus:border-PDCL-green peer pl-2"  required />
-        
-    </div>
-    <div className="relative z-0 w-full mb-1 group">
-        <input type="text" name="floating_first_name" placeholder="Phone Number" id="floating_first_name" className="block py-2.5 px-0 w-full text-sm text-gray-600 bg-transparent border   border-1 border-gray-500  dark:text-gray-600 dark:border-gray-500 dark:focus:border-PDCL-green focus:outline-none focus:ring-0 focus:border-PDCL-green peer pl-2"  required />
-        
-    </div>
-    <div className="relative z-0 w-full mb-1 group">
-        <input type="text" name="floating_first_name" placeholder="Doctor Name" id="floating_first_name" className="block py-2.5 px-0 w-full text-sm text-gray-600 bg-transparent border   border-1 border-gray-500  dark:text-gray-600 dark:border-gray-500 dark:focus:border-PDCL-green focus:outline-none focus:ring-0 focus:border-PDCL-green peer pl-2"  required />
-        
-    </div>
-    <div className="relative z-0 w-full mb-1 group">
-        <input type="text" name="floating_first_name" placeholder="Doctor's Specilitiy" id="floating_first_name" className="block py-2.5 w-full px-0 text-sm text-gray-600 bg-transparent border border-gray-500  border-1   dark:text-gray-600 dark:border-gray-500 dark:focus:border-PDCL-green focus:outline-none focus:ring-0 focus:border-PDCL-green peer pl-2"  required />
-        
-    </div>
-    <div className="relative z-0 w-full mb-1 group">
-        <input type="text" name="floating_first_name" placeholder="Branch Name" id="floating_first_name" className="block py-2.5 px-0 w-full text-sm text-gray-600 bg-transparent border   border-1 border-gray-500  dark:text-gray-600 dark:border-gray-500 dark:focus:border-PDCL-green focus:outline-none focus:ring-0 focus:border-PDCL-green peer pl-2"  autocomplete="on" />
-        
-    </div>
-    <div className="relative z-0 w-full mb-1 group">
-        <input type="date" name="floating_first_name" aria-label="Appointment" placeholder="Appointment Date" id="floating_first_name" className="block py-2.5 px-0 w-full text-sm text-gray-600 bg-transparent border   border-1 border-gray-500  dark:text-gray-600 dark:border-gray-500 dark:focus:border-PDCL-green focus:outline-none focus:ring-0 focus:border-PDCL-green peer pl-2"  required />
-        
-    </div>
-    <div className="relative z-0 w-full mb-1 group">
-        <input type="text" name="floating_first_name" placeholder="Age" id="floating_first_name" className="block py-2.5 px-0  text-sm text-gray-600 bg-transparent border  w-full border-1 border-gray-500  dark:text-gray-600 dark:border-gray-500 dark:focus:border-PDCL-green focus:outline-none focus:ring-0 focus:border-PDCL-green peer pl-2"  required />
-        
-    </div>
-   {/* <div className="relative z-0 w-full mb-1 group">
-    <select id="countries" className="block py-2.5 px-0 w-full text-sm text-gray-600 bg-transparent border border-gray-500  border-1 border-gray-500  dark:text-gray-600 dark:border-gray-500 dark:focus:border-PDCL-green focus:outline-none focus:ring-0 focus:border-PDCL-green peer pl-2">
-  <option selected>Choose your Gender</option>
-  <option value="US">Male</option>
-  <option value="CA">Female</option>
-  <option value="FR">Other</option>
   
-</select></div> */}
-{/*<div className="relative z-0 w-full mb-1 group">
-    <select id="countries" className="block py-2.5 px-0 w-full text-sm text-gray-600 bg-transparent border border-gray-500  border-1 border-gray-500  dark:text-gray-600 dark:border-gray-500 dark:focus:border-PDCL-green focus:outline-none focus:ring-0 focus:border-PDCL-green peer pl-2">
-  <option selected>Choose your Status</option>
-  <option value="US">Registered</option>
-  <option value="CA">Unregistered</option>
-  
-  
-</select></div>*/}
-    <button type="button" className="text-white w-full rounded block  h-[43px] hover:text-white border bg-[#006642] border-none focus:ring-4 focus:outline-none focus:ring-[#006642] font-ubuntu  text-[16px] font-bold px-5 py-2.5 text-center  mb-0 dark:border-[#006642] dark:text-white dark:hover:text-white dark:hover:bg-gray-500 dark:focus:ring-[#006642]">Appoint</button>
+    <button type="button" className="text-white w-full rounded block col-span-9  h-[43px] hover:text-white border bg-[#006642] border-none focus:ring-4 focus:outline-none focus:ring-[#006642] font-ubuntu  text-[16px] font-bold px-5 py-2.5 text-center  mb-0 dark:border-[#006642] dark:text-white dark:hover:text-white dark:hover:bg-gray-500 dark:focus:ring-[#006642]">Appoint</button>
     
     </div>
  
@@ -253,7 +210,7 @@ const Hero = ({ color }) => {
                 </div>
                 <div className={openTab === 3 ? "block" : "hidden"}  id="link3">
                 <form className="max-w-7xl  mx-auto">
-  <div className="grid md:grid-cols-9   pt-6 pb-6 md:gap-6">
+  <div className="grid md:grid-cols-9   pt-6 pb-6 md:gap-1">
   <div  className="relative z-0 w-full col-span-9 mb-1 group">
   <select  value={selectedBranch} onChange={handleBranchChange} className="block py-2.5 px-0 w-full   text-sm text-gray-600 bg-transparent pl-2 border   border-1 border-gray-500  dark:text-gray-600 dark:border-gray-500 dark:focus:border-PDCL-green focus:outline-none focus:ring-0 focus:border-PDCL-green peer">
         <option value="">Select Branch</option>
