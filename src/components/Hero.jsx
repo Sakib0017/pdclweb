@@ -1,27 +1,16 @@
 import { styles } from '../styles';
 import { ServiceCost, topManagement } from "../constants";
 import React, { useState } from 'react';
-import { Sidemenu, Bottommenu } from "../components";
 import video from '../assets/video.mp4';
 import AutoSizer from 'react-virtualized/dist/commonjs/AutoSizer';
 import List from 'react-virtualized/dist/commonjs/List';
-import { Link } from "react-router-dom";
 const ListHeader = () => (
   <div className="flex  justify-between px-8 py-2  bg-gray-400 font-bold">
     <p>Service Name</p>
     <p>Service Cost</p>
   </div>
 );
-
-const handleReportDownload = (reportDownloadLink) => {
-  // Handle branch click event (consider opening link in new tab or redirecting)
-  window.open(reportDownloadLink, '_blank'); // Open report in new tab
-};
-const Hero = ({ color, href, children }) => {
-  const handleClick = (event) => {
-    event.preventDefault(); // Prevent default link behavior (navigation within app)
-    window.open("http://appointment.populardiagnostic.com/appointment", '_blank', 'noopener,noreferrer'); // Open link in new tab
-  };
+const Hero = ({ color }) => {
   const [openTab, setOpenTab] = React.useState(1);
   const date = new Date();
   const showTime = date.getHours() 
@@ -64,7 +53,7 @@ const Hero = ({ color, href, children }) => {
       <li
       key={service.serviceId}
       style={style}
-      className="flex justify-between px-4 py-2 bg-gray-300 hover:bg-gray-100 "
+      className="flex justify-between px-4 py-2 bg-gray-300 hover:bg-gray-100"
     >
       <p className="text-gray-600 font-ubuntu">{service.serviceName}</p>
       <p className="font-medium text-gray-700 font-ubuntu">{service.price.toLocaleString("en-BD", { style: "currency", currency: "BDT",})} </p>
@@ -77,14 +66,12 @@ const Hero = ({ color, href, children }) => {
     <>
 
 
-       
+         
 
     <section className='w-full h-[700px]  relative  justify-top items-bottom'>
-     
+      
        <video className=" w-full h-[700px] object-cover object-top   top-0 left-0" src={video} autoPlay loop muted />
        <div className='absolute w-full h-[700px]  top-0 left-0 bg-gray-900/50'></div>
-       <Sidemenu /> 
-       <Bottommenu /> 
       <div className={`${styles.paddingX} absolute  top-[80px] max-w-7xl mx-auto inset-1 justify-center   items-bottom  text-center flex flex-col  text-white`}>
        
        
@@ -107,7 +94,7 @@ const Hero = ({ color, href, children }) => {
                   "text-[16px] font-ubuntu font-bold  px-2 py-3  shadow-lg rounded block leading-normal " +
                   (openTab === 2
                     ? "text-slate-900 bg-" + color + "-600"
-                    : "text-" + color + "-600 bg-PDCL-green ")
+                    : "text-" + color + "-600 bg-[#006642] ")
                 }
                 onClick={e => {
                   e.preventDefault();
@@ -126,7 +113,7 @@ const Hero = ({ color, href, children }) => {
                   "text-[16px] font-ubuntu  font-bold  px-2 py-3 shadow-lg rounded block leading-normal " +
                   (openTab === 1
                     ? "text-slate-900  bg-" + color + "-600"
-                    : "text-" + color + "-600  bg-PDCL-green")
+                    : "text-" + color + "-600  bg-[#006642]")
                 }
                 onClick={e => {
                   e.preventDefault();
@@ -145,7 +132,7 @@ const Hero = ({ color, href, children }) => {
                   "text-[16px] font-ubuntu font-bold  px-2 py-3 shadow-lg rounded block leading-normal " +
                   (openTab === 3
                     ? "text-slate-900 bg-" + color + "-600"
-                    : "text-" + color + "-600 bg-PDCL-green")
+                    : "text-" + color + "-600 bg-[#006642]")
                 }
                 onClick={e => {
                   e.preventDefault();
@@ -164,7 +151,7 @@ const Hero = ({ color, href, children }) => {
               <div className="tab-content tab-space">
                 <div className={openTab === 2 ? "block" : "hidden"} id="link1">
                 <form className="max-w-screen-xl   mx-auto">
-  <div className="grid md:grid-cols-8 items-center p-6 h-[150px] md:gap-1">
+  <div className="grid md:grid-cols-4 pt-6 pb-6 md:gap-1">
    
     <div className="relative z-0 w-full mb-1 group">
     <select id="countries" className="block py-2.5 px-0 w-full text-sm text-gray-600 bg-transparent pl-2 border border-gray-500  border-1  dark:text-gray-600 dark:border-gray-500 dark:focus:border-PDCL-green focus:outline-none focus:ring-0 focus:border-PDCL-green peer">
@@ -190,7 +177,7 @@ const Hero = ({ color, href, children }) => {
   <option value="FR">Monday</option>
   <option value="DE">Tuesday</option>
 </select></div>
-<div className="relative z-0 w-full col-span-5 mb-1 group ">
+<div className="relative z-0 w-full mb-1 group ">
         <input type="text" name="floating_first_name" placeholder="Doctors Name" id="floating_first_name" className="block pl-2 py-2.5 px-0 w-full text-sm text-gray-600 bg-transparent border border-gray-500  border-1   dark:text-gray-600 dark:border-gray-500 dark:focus:border-PDCL-green focus:outline-none focus:ring-0 focus:border-PDCL-green peer"  required />
         
     </div>
@@ -211,32 +198,54 @@ const Hero = ({ color, href, children }) => {
                 </div>
                 <div className={openTab === 1 ? "block" : "hidden"} id="link2">
                 <form className="max-w-screen-xl  mx-auto">
-  <div className="grid md:grid-cols-8  h-[150px] md:gap-1">
+  <div className="grid md:grid-cols-4  md:gap-1">
     
-  <div class="w-full h-[150px] col-span-7 bg-gray-200 flex flex-col">
- 
-  <div class="flex-grow overflow-auto m-1 px-4 py-2">
-  <div class="px-4 py-2 h-auto  rounded text-gray-900 bg-blue-300/50 text-left mb-2 flex items-center">
-    <pre>Patients Inquery </pre>
-     
+  <div className="relative z-0 w-full mb-1 group">
+        <input type="text" name="floating_first_name" placeholder="Patient Name" id="floating_first_name" className="block py-2.5 px-0 w-full text-sm text-gray-600 bg-transparent border   border-1 border-gray-500  dark:text-gray-600 dark:border-gray-500 dark:focus:border-PDCL-green focus:outline-none focus:ring-0 focus:border-PDCL-green peer pl-2"  required />
+        
     </div>
- 
-    <div class="px-4 py-2 h-auto  rounded text-gray-900 bg-emerald-300/50 text-left mb-2 flex items-center">
+    <div className="relative z-0 w-full mb-1 group">
+        <input type="text" name="floating_first_name" placeholder="Phone Number" id="floating_first_name" className="block py-2.5 px-0 w-full text-sm text-gray-600 bg-transparent border   border-1 border-gray-500  dark:text-gray-600 dark:border-gray-500 dark:focus:border-PDCL-green focus:outline-none focus:ring-0 focus:border-PDCL-green peer pl-2"  required />
+        
+    </div>
+    <div className="relative z-0 w-full mb-1 group">
+        <input type="text" name="floating_first_name" placeholder="Doctor Name" id="floating_first_name" className="block py-2.5 px-0 w-full text-sm text-gray-600 bg-transparent border   border-1 border-gray-500  dark:text-gray-600 dark:border-gray-500 dark:focus:border-PDCL-green focus:outline-none focus:ring-0 focus:border-PDCL-green peer pl-2"  required />
+        
+    </div>
+    <div className="relative z-0 w-full mb-1 group">
+        <input type="text" name="floating_first_name" placeholder="Doctor's Specilitiy" id="floating_first_name" className="block py-2.5 w-full px-0 text-sm text-gray-600 bg-transparent border border-gray-500  border-1   dark:text-gray-600 dark:border-gray-500 dark:focus:border-PDCL-green focus:outline-none focus:ring-0 focus:border-PDCL-green peer pl-2"  required />
+        
+    </div>
+    <div className="relative z-0 w-full mb-1 group">
+        <input type="text" name="floating_first_name" placeholder="Branch Name" id="floating_first_name" className="block py-2.5 px-0 w-full text-sm text-gray-600 bg-transparent border   border-1 border-gray-500  dark:text-gray-600 dark:border-gray-500 dark:focus:border-PDCL-green focus:outline-none focus:ring-0 focus:border-PDCL-green peer pl-2"  autocomplete="on" />
+        
+    </div>
+    <div className="relative z-0 w-full mb-1 group">
+        <input type="date" name="floating_first_name" aria-label="Appointment" placeholder="Appointment Date" id="floating_first_name" className="block py-2.5 px-0 w-full text-sm text-gray-600 bg-transparent border   border-1 border-gray-500  dark:text-gray-600 dark:border-gray-500 dark:focus:border-PDCL-green focus:outline-none focus:ring-0 focus:border-PDCL-green peer pl-2"  required />
+        
+    </div>
+    <div className="relative z-0 w-full mb-1 group">
+        <input type="text" name="floating_first_name" placeholder="Age" id="floating_first_name" className="block py-2.5 px-0  text-sm text-gray-600 bg-transparent border  w-full border-1 border-gray-500  dark:text-gray-600 dark:border-gray-500 dark:focus:border-PDCL-green focus:outline-none focus:ring-0 focus:border-PDCL-green peer pl-2"  required />
+        
+    </div>
+   {/* <div className="relative z-0 w-full mb-1 group">
+    <select id="countries" className="block py-2.5 px-0 w-full text-sm text-gray-600 bg-transparent border border-gray-500  border-1 border-gray-500  dark:text-gray-600 dark:border-gray-500 dark:focus:border-PDCL-green focus:outline-none focus:ring-0 focus:border-PDCL-green peer pl-2">
+  <option selected>Choose your Gender</option>
+  <option value="US">Male</option>
+  <option value="CA">Female</option>
+  <option value="FR">Other</option>
+  
+</select></div> */}
+{/*<div className="relative z-0 w-full mb-1 group">
+    <select id="countries" className="block py-2.5 px-0 w-full text-sm text-gray-600 bg-transparent border border-gray-500  border-1 border-gray-500  dark:text-gray-600 dark:border-gray-500 dark:focus:border-PDCL-green focus:outline-none focus:ring-0 focus:border-PDCL-green peer pl-2">
+  <option selected>Choose your Status</option>
+  <option value="US">Registered</option>
+  <option value="CA">Unregistered</option>
+  
+  
+</select></div>*/}
+    <button type="button" className="text-white w-full rounded block  h-[43px] hover:text-white border bg-[#006642] border-none focus:ring-4 focus:outline-none focus:ring-[#006642] font-ubuntu  text-[16px] font-bold px-5 py-2.5 text-center  mb-0 dark:border-[#006642] dark:text-white dark:hover:text-white dark:hover:bg-gray-500 dark:focus:ring-[#006642]">Appointment</button>
     
-      <pre>This is a chatbot message.</pre>
-    </div>
-  </div>
-  <div class="flex items-center">
-    <input type="text" class="w-full p-2 ml-5 mr-10 rounded-lg border text-gray-900 bg-white border-gray-300 focus:outline-none focus:border-gray-500"/>
-    <svg class="w-[50px] mr-5 h-[50px] fill-blue-300" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
-
- <path d="M464 256A208 208 0 1 1 48 256a208 208 0 1 1 416 0zM0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zM294.6 135.1c-4.2-4.5-10.1-7.1-16.3-7.1C266 128 256 138 256 150.3V208H160c-17.7 0-32 14.3-32 32v32c0 17.7 14.3 32 32 32h96v57.7c0 12.3 10 22.3 22.3 22.3c6.2 0 12.1-2.6 16.3-7.1l99.9-107.1c3.5-3.8 5.5-8.7 5.5-13.8s-2-10.1-5.5-13.8L294.6 135.1z"></path>
-
-</svg></div>
-</div>
-
-    <Link onClick={handleClick} to=""><button  type="button"  className="text-white w-full mt-[50px] rounded block  h-[43px] hover:text-white border bg-PDCL-green border-none focus:ring-4 focus:outline-none focus:ring-[#006642] font-ubuntu  text-[16px] font-bold px-5 py-2.5 text-center  mb-0 dark:border-[#006642] dark:text-white dark:hover:text-white dark:hover:bg-gray-500 dark:focus:ring-[#006642]">Appointment</button>
-    </Link>
     </div>
  
   
@@ -244,7 +253,7 @@ const Hero = ({ color, href, children }) => {
                 </div>
                 <div className={openTab === 3 ? "block" : "hidden"}  id="link3">
                 <form className="max-w-7xl  mx-auto">
-  <div className="grid md:grid-cols-8 items-center  p-6 h-[150px] md:gap-[14px]">
+  <div className="grid md:grid-cols-8   pt-6 pb-6 md:gap-[14px]">
   <div  className="relative  mb-1 group ">
   <select  value={selectedBranch} onChange={handleBranchChange} className="block py-2.5 px-0 w-full   text-sm text-gray-600 bg-transparent pl-2 border   border-1 border-gray-500  dark:text-gray-600 dark:border-gray-500 dark:focus:border-PDCL-green focus:outline-none focus:ring-0 focus:border-PDCL-green peer">
         <option value="">Select Branch</option>
@@ -259,7 +268,7 @@ const Hero = ({ color, href, children }) => {
         <input type="text" value={searchTerm}  onChange={handleSearchChange} name="floating_first_name" placeholder="Test Name" id="floating_first_name" className="block   py-2.5 px-0 w-full  text-sm text-gray-900 bg-transparent border   border-1 border-gray-500  dark:text-gray-600 dark:border-gray-500 dark:focus:border-PDCL-green focus:outline-none focus:ring-0 focus:border-PDCL-green peer pl-2"  required />
         
         
-        <ul className='top-[100px] '>
+        <ul className='top-[100px]'>
        
         {filteredServices.length > 0 && (
         <div>
@@ -299,8 +308,9 @@ const Hero = ({ color, href, children }) => {
      
 
 
-      <div className="flex flex-col mb-2 rounded sm:hidden  flex-1  justify-top items-center    mt-[90px] mx-auto">
-        <div className=" w-[120%] h-auto bg-gray-100/95 p-2 rounded block">
+     
+      <div className="flex flex-col mb-2 rounded sm:hidden  flex-1  justify-top items-center    mt-[25px] mx-auto">
+        <div className=" w-[115%] h-auto bg-gray-100/95 p-2 rounded block">
           <ul
             className="flex mb-0 ml-2 mr-2 list-none flex-wrap pt-1 pb-1 flex-col shadow-lg"
             role="tablist"
@@ -387,7 +397,7 @@ const Hero = ({ color, href, children }) => {
   <option value="DE">Cardiology</option>
 </select></div>
 <div className="relative z-0 w-full mb-1 group">
-    <select id="countries" className="block py-2.5 px-0 w-full text-sm text-gray-600 bg-transparent pl-2 border focus:outline-none shadow-lg focus:border-gray-500  border-1 border-gray-500  dark:text-gray-600 dark:border-gray-500 dark:focus:border-PDCL-green  focus:ring-0 focus:border-PDCL-green peer">
+    <select id="countries" className="block py-2.5 px-0 w-full text-sm text-gray-600 bg-transparent pl-2 border  border-1 border-gray-500  dark:text-gray-600 dark:border-gray-500 dark:focus:border-PDCL-green focus:outline-none focus:ring-0 focus:border-PDCL-green peer">
   <option selected>Choose a Day</option>
   <option value="US">Saterday</option>
   <option value="CA">Sunday</option>
@@ -415,35 +425,55 @@ const Hero = ({ color, href, children }) => {
                 </div>
                 <div className={openTab === 1 ? "block" : "hidden"} id="link2">
                 <form className="max-w-screen-xl  mx-auto">
-
-                <div className="grid md:grid-cols-8   md:gap-1">
+  <div className="grid md:grid-cols-5  md:gap-1">
     
-    
-                <div class="w-full h-[220px]  bg-gray-200 flex flex-col">
-    <div class="flex-grow overflow-auto m-1 px-4 py-2">
-    <div className="block py-2.5 px-0 w-full text-sm  border h-auto  rounded text-gray-900 bg-blue-300/50 text-left   mb-2 dark:text-gray-600 dark:border-gray-500 dark:focus:border-PDCL-green focus:outline-none focus:ring-0 focus:border-PDCL-green peer pl-2">
-      <pre className="w-[100%]">Patients Inquery </pre>
-       
-      </div>
-   
-      <div className="block py-2.5 px-0 w-full h-auto  rounded text-gray-900 bg-emerald-300/50 text-left text-sm  border     dark:text-gray-600 dark:border-gray-500 dark:focus:border-PDCL-green focus:outline-none focus:ring-0 focus:border-PDCL-green peer pl-2">
-      
-        <pre className="w-[200px] ">This is a chatbot message. <br></br>This is a chatbot message.</pre>
-      </div>
+  <div className="relative z-0 w-full mb-1 group">
+        <input type="text" name="floating_first_name" placeholder="Patient Name" id="floating_first_name" className="block py-2.5 px-0 w-full text-sm text-gray-600 bg-transparent border   border-1 border-gray-500  dark:text-gray-600 dark:border-gray-500 dark:focus:border-PDCL-green focus:outline-none focus:ring-0 focus:border-PDCL-green peer pl-2"  required />
+        
     </div>
-    <div class="relative  z-0 w-full mb-1 group">
-      <input type="text" className="block py-2.5 px-0 w-full text-sm text-gray-600 bg-transparent border     dark:text-gray-600 dark:border-gray-500 dark:focus:border-PDCL-green border-1 border-gray-300 focus:outline-none focus:ring-0 focus:border-PDCL-green peer pl-2"/>
-      <svg class="w-[50px] mr-5 h-[50px] ms-auto mt-2 p-1 fill-blue-300" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+    <div className="relative z-0 w-full mb-1 group">
+        <input type="text" name="floating_first_name" placeholder="Phone Number" id="floating_first_name" className="block py-2.5 px-0 w-full text-sm text-gray-600 bg-transparent border  border-1 border-gray-500  dark:text-gray-600 dark:border-gray-500 dark:focus:border-PDCL-green focus:outline-none focus:ring-0 focus:border-PDCL-green peer pl-2"  required />
+        
+    </div>
+    <div className="relative z-0 w-full mb-1 group">
+        <input type="text" name="floating_first_name" placeholder="Doctor Name" id="floating_first_name" className="block py-2.5 px-0 w-full text-sm text-gray-600 bg-transparent border   border-1 border-gray-500  dark:text-gray-600 dark:border-gray-500 dark:focus:border-PDCL-green focus:outline-none focus:ring-0 focus:border-PDCL-green peer pl-2"  required />
+        
+    </div>
+    <div className="relative z-0 w-full mb-1 group">
+        <input type="text" name="floating_first_name" placeholder="Doctor's Specilitiy" id="floating_first_name" className="block py-2.5 px-0 w-full text-sm text-gray-600 bg-transparent border   border-1 border-gray-500  dark:text-gray-600 dark:border-gray-500 dark:focus:border-PDCL-green focus:outline-none focus:ring-0 focus:border-PDCL-green peer pl-2"  required />
+        
+    </div>
+    <div className="relative z-0 w-full mb-1 group">
+        <input type="text" name="floating_first_name" placeholder="Branch Name" id="floating_first_name" className="block py-2.5 px-0 w-full text-sm text-gray-600 bg-transparent border   border-1 border-gray-500  dark:text-gray-600 dark:border-gray-500 dark:focus:border-PDCL-green focus:outline-none focus:ring-0 focus:border-PDCL-green peer pl-2"  required />
+        
+    </div>
+    <div className="relative z-0 w-full mb-1 group">
+        <input type="date" name="floating_first_name" placeholder="Date" id="floating_first_name" className="block py-2.5 px-0 w-full text-sm text-gray-600 bg-transparent border  border-1 border-gray-500  dark:text-gray-600 dark:border-gray-500 dark:focus:border-PDCL-green focus:outline-none focus:ring-0 focus:border-PDCL-green peer pl-2"  required />
+        
+    </div>
+    <div className="relative z-0 w-full mb-1 group">
+        <input type="text" name="floating_first_name" placeholder="Age" id="floating_first_name" className="block py-2.5 px-0 w-full text-sm text-gray-600 bg-transparent border  border-1 border-gray-500  dark:text-gray-600 dark:border-gray-500 dark:focus:border-PDCL-green focus:outline-none focus:ring-0 focus:border-PDCL-green peer pl-2"  required />
+        
+    </div>
+   {/* <div className="relative z-0 w-full mb-1 group">
+    <select id="countries" className="block py-2.5 px-0 w-full text-sm text-gray-600 bg-transparent border border-gray-500  border-1 border-gray-500  dark:text-gray-600 dark:border-gray-500 dark:focus:border-PDCL-green focus:outline-none focus:ring-0 focus:border-PDCL-green peer pl-2">
+  <option selected>Choose your Gender</option>
+  <option value="US">Male</option>
+  <option value="CA">Female</option>
+  <option value="FR">Other</option>
   
-   <path d="M464 256A208 208 0 1 1 48 256a208 208 0 1 1 416 0zM0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zM294.6 135.1c-4.2-4.5-10.1-7.1-16.3-7.1C266 128 256 138 256 150.3V208H160c-17.7 0-32 14.3-32 32v32c0 17.7 14.3 32 32 32h96v57.7c0 12.3 10 22.3 22.3 22.3c6.2 0 12.1-2.6 16.3-7.1l99.9-107.1c3.5-3.8 5.5-8.7 5.5-13.8s-2-10.1-5.5-13.8L294.6 135.1z"></path>
+</select></div>
+<div className="relative z-0 w-full mb-1 group">
+    <select id="countries" className="block py-2.5 px-0 w-full text-sm text-gray-600 bg-transparent border border-gray-500  border-1 border-gray-500  dark:text-gray-600 dark:border-gray-500 dark:focus:border-PDCL-green focus:outline-none focus:ring-0 focus:border-PDCL-green peer pl-2">
+  <option selected>Choose your Status</option>
+  <option value="US">Registered</option>
+  <option value="CA">Unregistered</option>
   
-  </svg></div>
-  </div>
   
-      <button type="button" className="text-white w-full mt-3 rounded block  h-[43px] hover:text-white border bg-PDCL-green border-none focus:ring-4 focus:outline-none focus:ring-[#006642] font-ubuntu  text-[16px] font-bold px-5 py-2.5 text-center  mb-0 dark:border-[#006642] dark:text-white dark:hover:text-white dark:hover:bg-gray-500 dark:focus:ring-[#006642]">Appointment</button>
-      
-      </div>
-  
+              </select></div> */}
+    <button type="button" className="text-white rounded block h-[43px] hover:text-slate-900 border bg-PDCL-green  hover:bg-white focus:ring-4 focus:outline-none focus:ring-[#125133] font-ubuntu  text-[16px] font-bold px-5 py-2.5 text-center  dark:border-gray-500 dark:text-[#125133] dark:hover:text-gray-600 dark:hover:bg-white dark:focus:ring-[#125133]">Appoinment</button>
+    
+    </div>
  
   
 </form>
@@ -510,16 +540,7 @@ const Hero = ({ color, href, children }) => {
         </div>
       </div>
 
-
-
-
-
-
-
-
-
-
-      </div>
+</div>
      
     </section>
  
