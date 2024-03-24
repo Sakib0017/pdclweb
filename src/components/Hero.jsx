@@ -82,7 +82,7 @@ const Hero = ({ color }) => {
        
        
        
-       <div className="flex-col  hidden md:block   max-w-7xl     mx-auto">
+       <div className="flex-col max-w-7xl hidden md:block     sm:w-5/6   mx-auto">
         <div className="max-w-7xl rounded-[5px] shadow bg-gray-100/95 ">
           <ul
             className="flex mb-0 ml-2 mr-2 list-none   flex-wrap pt-1 pb-2 flex-row"
@@ -244,7 +244,7 @@ const Hero = ({ color }) => {
   
   
 </select></div>*/}
-    <button type="button" className="text-white w-full rounded block  h-[43px] hover:text-white border bg-[#006642] border-none focus:ring-4 focus:outline-none focus:ring-[#006642] font-ubuntu  text-[16px] font-bold px-5 py-2.5 text-center  mb-0 dark:border-[#006642] dark:text-white dark:hover:text-white dark:hover:bg-gray-500 dark:focus:ring-[#006642]">Appointment</button>
+    <button type="button" className="text-white w-full rounded block  h-[43px] hover:text-white border bg-[#006642] border-none focus:ring-4 focus:outline-none focus:ring-[#006642] font-ubuntu  text-[16px] font-bold px-5 py-2.5 text-center  mb-0 dark:border-[#006642] dark:text-white dark:hover:text-white dark:hover:bg-gray-500 dark:focus:ring-[#006642]">Appoint</button>
     
     </div>
  
