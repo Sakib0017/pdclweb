@@ -84,13 +84,13 @@ role="tablist"
 <a
 className={
 "text-[16px] font-ubuntu font-bold px-2 py-3 shadow-lg rounded block leading-normal " +
-(openTab === 2
+(openTab === 1
 ? "text-slate-900 bg-" + color + "-600"
 : "text-" + color + "-600 bg-[#006642] ")
 }
 onClick={e => {
 e.preventDefault();
-setOpenTab(2);
+setOpenTab(1);
 }}
 data-toggle="tab"
 href="#link1"
@@ -103,13 +103,13 @@ Find Doctor
 <a
 className={
 "text-[16px] font-ubuntu font-bold px-2 py-3 shadow-lg rounded block leading-normal " +
-(openTab === 1
+(openTab === 2
 ? "text-slate-900 bg-" + color + "-600"
 : "text-" + color + "-600 bg-[#006642]")
 }
 onClick={e => {
 e.preventDefault();
-setOpenTab(1);
+setOpenTab(2);
 }}
 data-toggle="tab"
 href="#link2"
@@ -141,7 +141,7 @@ Test Price
 <div className="relative flex flex-col min-w-0 w-full mb-1 shadow-lg rounded">
 <div className="px-2 py-2 flex-auto">
 <div className="tab-content tab-space">
-<div className={openTab === 2 ? "block" : "hidden"} id="link1">
+<div className={openTab === 1 ? "block" : "hidden"} id="link1">
 <form className="max-w-screen-xl mx-auto">
 <div className="grid md:grid-cols-9 md:gap-1">
 <div className="relative z-0 col-span-3 w-full mb-1 group">
@@ -183,7 +183,7 @@ Test Price
 </div>
 </form>
 </div>
-<div className={openTab === 1 ? "block" : "hidden"} id="link2">
+<div className={openTab === 2 ? "block" : "hidden"} id="link2">
 <form className="max-w-screen-xl mx-auto">
 <div className="grid md:grid-cols-9 md:gap-1">
 <button type="button" className="text-white w-full rounded block col-span-9 mb-1 h-[43px] hover:text-white border bg-[#006642] border-none focus:ring-4 focus:outline-none focus:ring-[#006642] font-ubuntu text-[16px] font-bold px-5 py-2.5 text-center mb-0 dark:border-[#006642] dark:text-white dark:hover:text-white dark:hover:bg-gray-500 dark:focus:ring-[#006642]">Make An Appointment Now</button>
