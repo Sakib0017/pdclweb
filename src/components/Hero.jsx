@@ -76,7 +76,7 @@ return (
 <div className='absolute w-full h-[700px] top-0 left-0 bg-gray-900/50'></div>
 <div className={`${styles.paddingX} absolute top-[80px] max-w-7xl mx-auto inset-1 justify-center items-bottom text-center flex flex-col text-white`}>
 <div className="flex-col max-w-7xl hidden md:block sm:w-5/6 mx-auto">
-<div className="max-w-7xl rounded-[5px] shadow bg-gray-100/95 ">
+<div className="max-w-7xl rounded-[5px] shadow-2xl bg-gray-100/95 ">
 <ul
 className="flex mb-0 ml-2 mr-2 list-none flex-wrap pt-1 pb-2 flex-row"
 role="tablist"
@@ -188,23 +188,25 @@ Test Price
 <form className="max-w-screen-xl mx-auto">
 <div className="grid md:grid-cols-9 md:gap-1">
 <div className="relative z-0 col-span-9 w-full mb-1 group">
-<button type="button" className="text-gray-900 w-full rounded block col-span-9 mb-2 h-[43px] hover:text-white border bg-gray-600/40 border-none focus:ring-4 focus:outline-none focus:ring-[#006642] font-ubuntu text-[16px] font-bold px-5 py-2.5 text-center  dark:border-[#006642] dark:text-white dark:hover:text-white dark:hover:bg-gray-500 dark:focus:ring-[#006642] ">Make An Appointment <span className='animate-ping'>Now</span></button>
+<button type="button" className="text-gray-600 w-full rounded block col-span-9 mb-2 h-[43px] hover:text-gray-900 border bg-gray-50 shadow-2xl  border-none focus:ring-4 focus:outline-none focus:ring-[#006642] font-ubuntu text-[16px] font-bold px-5 py-2.5 text-center  dark:border-[#006642] dark:text-white dark:hover:text-white dark:hover:bg-gray-500 dark:focus:ring-[#006642] ">Make An Appointment <span className='animate-ping'>Now</span></button>
 <div className='flex flex-row w-full col-span-9'>
 <div className="flex w-full col-span-4 items-center">
 {!isSearchVisible && (
 <button
-className="px-4 py-2 bg-gray-600/40 mb-1 w-full mr-2 font-ubuntu font-bold col-span-4 text-gray-900 rounded"
+className=" px-4 py-2 bg-gray-50 shadow-2xl mb-1 w-full mr-2 font-ubuntu font-medium col-span-4 text-gray-900 rounded"
 onClick={handleSearchClick}
 >
-Chat With AI Consaltant
+<p class>
+    Chat With <span class=" drop-shadow-[0_1.0px_1.0px_rgba(0,0,0,0.5)] text-white gradient-alt-flow">AI Consultant</span>
+  </p>
 </button>
 )}
 {!isSearchVisible && (
 <button
-className="px-4 py-2 bg-gray-600/40 mb-1 w-full font-ubuntu font-bold col-span-4 text-gray-900 rounded"
+className="px-4 py-2 bg-gray-50 shadow-2xl  mb-1 w-full font-ubuntu font-medium col-span-4 text-gray-900 rounded"
 onClick={handleSearchClick1}
 >
-Chat With Human Consaltant
+Chat With Human Consultant
 </button>
 )}
 {isSearchVisible && (
@@ -214,7 +216,7 @@ Chat With Human Consaltant
 <div class="relative">
 <div class="absolute inset-y-0 end-0 flex items-center pe-3 pointer-events-none">
 </div>
-<input type="search" id="default-search" class="block w-full p-2 col-span-9 ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Chat With PDCL AI Consatant" required />
+<input type="search" id="default-search" class="block w-full p-2 col-span-9 ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Chat With PDCL AI Consultant" required />
 </div>
 </form>
 

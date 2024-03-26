@@ -40,6 +40,22 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    function ({ addUtilities }) {
+      addUtilities({
+        '.gradient-alt-flow': {
+          backgroundImage: 'linear-gradient(to right, #006642, #00d4ff 40%, #006642 80%)',
+          backgroundSize: '200% 100%',
+          animation: 'flow 5s linear infinite',
+          '@keyframes flow': {
+            '0%': { backgroundPosition: '100% 0' },
+            '100%': { backgroundPosition: '-100% 0' },
+          },
+          WebkitBackgroundClip: 'text',
+          WebkitTextFillColor: 'transparent',
+        },
+      });
+    },
+  ],
 };
 
