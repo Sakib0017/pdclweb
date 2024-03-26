@@ -1,34 +1,28 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-
-
-
 const spring = {
   type: "spring",
   stiffness: 700,
-  damping: 30
+  damping: 30,
 };
-
-
-
 
 function Details({ branchPage, onClose }) {
   return (
-    <div className="fixed z-50 inset-0 bg-black bg-opacity-30 backdrop-blur-sm flex items-center justify-center"
-
-    >
-      <motion.div className="flex flex-col bg-[#eaf8f2] shadow-2xl rounded-xl mx-5"
-          animate={{ y: 80, scale: 0.8 }}
-          >
-      <motion.button
+    <div className="fixed z-50 inset-0 bg-black bg-opacity-30 backdrop-blur-sm flex items-center justify-center">
+      <motion.div
+        className="flex flex-col bg-[#eaf8f2] shadow-2xl rounded-xl mx-5"
+        animate={{ y: 80, scale: 0.8 }}
+      >
+        <motion.button
           onClick={onClose}
           className="text-black bg-slate-100 mt-2 mr-2 border-solid border-2 rounded-lg font-bold place-self-end p-1"
-          layout transition={spring}
+          layout
+          transition={spring}
           whileTap={{ scale: 0.9 }}
         >
           ❌
-          </motion.button>
+        </motion.button>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 justify-between  text-black px-5 pb-5 pt-2">
           <div className=" bg-slate-100  justify-center border-solid border-2 border-y-PDCL-green shadow-2xl rounded-lg px-5">
             <img

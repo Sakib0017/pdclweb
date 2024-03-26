@@ -1,13 +1,22 @@
-import React from 'react'
-import {   Feedbacks, Hero, Cor,  Nav, Sidemenu, Navbar,Bottommenu, Notification,  Tech, Works } from "../components";
+import React from "react";
+import {
+  Feedbacks,
+  Hero,
+  Cor,
+  Nav,
+  Sidemenu,
+  Navbar,
+  Bottommenu,
+  Notification,
+  Tech,
+  Works,
+} from "../components";
 
 function Layout() {
   return (
     <div className="bg-gray-50">
-        
       <Nav />
-     
-      
+
       <Navbar />
       <Sidemenu />
       <Bottommenu />
@@ -16,9 +25,9 @@ function Layout() {
       <Works />
       <Feedbacks />
       <Cor />
-      <Tech/>
+      <Tech />
     </div>
-  )
+  );
 }
 
-export default Layout
+export default Layout;

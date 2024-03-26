@@ -6,12 +6,12 @@ module.exports = {
     extend: {
       keyframes: {
         ping: {
-          '0%, 70%, 100%': { opacity: 1 },
-          '35%': { opacity: 0 },
+          "0%, 70%, 100%": { opacity: 1 },
+          "35%": { opacity: 0 },
         },
       },
       fontFamily: {
-        'ubuntu': ['"Ubuntu"'],
+        ubuntu: ['"Ubuntu"'],
       },
       colors: {
         primary: "#645050",
@@ -20,12 +20,12 @@ module.exports = {
         "black-100": "#100d25",
         "black-200": "#090325",
         "white-100": "#f3f3f3",
-        'PDCL-green': '#006642',
+        "PDCL-green": "#006642",
       },
       lighting: {
-        neon: 'text-white text-shadow-lg stroke-2 stroke-white',
+        neon: "text-white text-shadow-lg stroke-2 stroke-white",
       },
-      
+
       boxShadow: {
         card: "0px 35px 120px -15px #211e35",
       },
@@ -35,27 +35,25 @@ module.exports = {
       width: {
         content: "fit-content",
       },
-      backgroundImage: {
-        
-      },
+      backgroundImage: {},
     },
   },
   plugins: [
     function ({ addUtilities }) {
       addUtilities({
-        '.gradient-alt-flow': {
-          backgroundImage: 'linear-gradient(to right, #006642, #00d4ff 40%, #006642 80%)',
-          backgroundSize: '200% 100%',
-          animation: 'flow 5s linear infinite',
-          '@keyframes flow': {
-            '0%': { backgroundPosition: '100% 0' },
-            '100%': { backgroundPosition: '-100% 0' },
+        ".gradient-alt-flow": {
+          backgroundImage:
+            "linear-gradient(to right, #006642, #00d4ff 40%, #006642 80%)",
+          backgroundSize: "200% 100%",
+          animation: "flow 5s linear infinite",
+          "@keyframes flow": {
+            "0%": { backgroundPosition: "100% 0" },
+            "100%": { backgroundPosition: "-100% 0" },
           },
-          WebkitBackgroundClip: 'text',
-          WebkitTextFillColor: 'transparent',
+          WebkitBackgroundClip: "text",
+          WebkitTextFillColor: "transparent",
         },
       });
     },
   ],
 };
-

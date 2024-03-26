@@ -1,8 +1,8 @@
-import { Nav, Navbar,Sidemenu, Tech, Bottommenu } from "../components";
+import { Nav, Navbar, Sidemenu, Tech, Bottommenu } from "../components";
 import { ServiceCost, topManagement } from "../constants";
 import React, { useState } from "react";
-import AutoSizer from 'react-virtualized/dist/commonjs/AutoSizer';
-import List from 'react-virtualized/dist/commonjs/List';
+import AutoSizer from "react-virtualized/dist/commonjs/AutoSizer";
+import List from "react-virtualized/dist/commonjs/List";
 
 const ProjectCard = ({ manImg, manName, manDesignation }) => {
   return (
@@ -26,7 +26,6 @@ const ProjectCard = ({ manImg, manName, manDesignation }) => {
   );
 };
 
-
 const ListHeader = () => (
   <div className="flex justify-between px-4 py-2 bg-gray-400 font-bold">
     <p>Service Name</p>
@@ -44,7 +43,6 @@ const About = () => {
   const [selectedBranch, setSelectedBranch] = useState(null);
   const [filteredServices, setFilteredServices] = useState([]);
   const [searchTerm, setSearchTerm] = useState("");
-  
 
   const handleBranchChange = (event) => {
     setSelectedBranch(event.target.value);
@@ -82,7 +80,6 @@ const About = () => {
       </li>
     );
   };
-
 
   return (
     <div className="bg-white">
@@ -133,42 +130,42 @@ const About = () => {
           </span>{" "}
         </h1>
         <div className="text-black">
-      <select value={selectedBranch} onChange={handleBranchChange}>
-        <option value="">Select Branch</option>
-        {ServiceCost.map((branch) => (
-          <option key={branch.braId} value={branch.braId}>
-            {branch.braName}
-          </option>
-        ))}
-      </select>
-      <br />
-      <input
-        type="text"
-        placeholder="Search Services"
-        value={searchTerm}
-        onChange={handleSearchChange}
-      />
-      {filteredServices.length > 0 && (
-        <div>
-          {/* Render the header */}
-          <ListHeader />
+          <select value={selectedBranch} onChange={handleBranchChange}>
+            <option value="">Select Branch</option>
+            {ServiceCost.map((branch) => (
+              <option key={branch.braId} value={branch.braId}>
+                {branch.braName}
+              </option>
+            ))}
+          </select>
+          <br />
+          <input
+            type="text"
+            placeholder="Search Services"
+            value={searchTerm}
+            onChange={handleSearchChange}
+          />
+          {filteredServices.length > 0 && (
+            <div>
+              {/* Render the header */}
+              <ListHeader />
 
-          {/* List */}
-          <AutoSizer>
-            {({ width }) => (
-              <List
-                height={250}
-                rowCount={filteredServices.length}
-                rowHeight={50}
-                rowRenderer={renderRow}
-                overscanRowCount={5}
-                width={width}
-              />
-            )}
-          </AutoSizer>
+              {/* List */}
+              <AutoSizer>
+                {({ width }) => (
+                  <List
+                    height={250}
+                    rowCount={filteredServices.length}
+                    rowHeight={50}
+                    rowRenderer={renderRow}
+                    overscanRowCount={5}
+                    width={width}
+                  />
+                )}
+              </AutoSizer>
+            </div>
+          )}
         </div>
-      )}
-    </div>
       </div>
 
       <Tech />
