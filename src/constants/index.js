@@ -571,6 +571,7 @@ const reportDownload = [
   },
 ];
 
+
 const projects1 = [
   {
     branchID: 1,
@@ -657,8 +658,7 @@ const projects1 = [
       braCity: "Dhaka",
       location:
         "https://maps.google.com/maps?q=23.7718253,90.3674465&hl=es;z=14&output=embed",
-      reportDownload:
-        "http://prosoft.populardiagnostic.com:8877/ords/f?p=700:3:8271679877280:::::",
+      reportDownload: "http://prosoft.populardiagnostic.com:8877/ords/f?p=700:3:8271679877280:::::",
       braManImg: MrNezamulHaqueRipon,
       braManName: "Mr. Nezamul Haque Ripon",
       braManDesignation: "AGM & Head of Branch",
@@ -677,8 +677,7 @@ const projects1 = [
       braCity: "Dhaka",
       location:
         "https://maps.google.com/maps?q=23.76892267744971,90.36856338476504&hl=es;z=14&output=embed",
-      reportDownload:
-        "http://prosoft.populardiagnostic.com:8877/ords/f?p=700:3:8271679877280:::::",
+      reportDownload: "http://prosoft.populardiagnostic.com:8877/ords/f?p=700:3:8271679877280:::::",
       braManImg: MrNezamulHaqueRipon,
       braManName: "Mr. Nezamul Haque Ripon",
       braManDesignation: "AGM & Head of Branch",
@@ -753,8 +752,7 @@ const projects1 = [
       braCity: "Dhaka",
       location:
         "https://maps.google.com/maps?q=23.8610668,90.40031&hl=es;z=14&output=embed",
-      reportDownload:
-        "http://prosoft.populardiagnostic.com:8877/ords/f?p=700:3:8271679877280:::::",
+      reportDownload: "http://prosoft.populardiagnostic.com:8877/ords/f?p=700:3:8271679877280:::::",
       braManImg: MrZohurulIslam,
       braManName: "Mr. Zohurul Islam",
       braManDesignation: "Senior Branch Manager",
@@ -773,8 +771,7 @@ const projects1 = [
       braCity: "Dhaka",
       location:
         "https://maps.google.com/maps?q=23.8613902,90.4007901&hl=es;z=14&output=embed",
-      reportDownload:
-        "http://prosoft.populardiagnostic.com:8877/ords/f?p=700:3:8271679877280:::::",
+      reportDownload: "http://prosoft.populardiagnostic.com:8877/ords/f?p=700:3:8271679877280:::::",
       braManImg: MrZohurulIslam,
       braManName: "Mr. Zohurul Islam",
       braManDesignation: "Senior Branch Manager",
@@ -1116,32 +1113,32 @@ const projects2 = [
   {
     image: dhan,
     notice:
-      "Government of Bangladesh recommended our ",
+      "Government of Bangladesh recommended our diagnostic centre for testing #COVID-19 for the passengers who will travel abroad. ",
   },
   {
     image: dhan,
     notice:
-      " for the passengers who will travel abroad. ",
+      "Government of Bangladesh recommended our diagnostic centre for testing #COVID-19 for the passengers who will travel abroad. ",
   },
   {
     image: dhan,
     notice:
-      " centre for testing #COVID-19 for the passen ",
+      "Government of Bangladesh recommended our diagnostic centre for testing #COVID-19 for the passengers who will travel abroad. ",
   },
   {
     image: dhan,
     notice:
-      "recommended our diagnostic centre for testing ",
+      "Government of Bangladesh recommended our diagnostic centre for testing #COVID-19 for the passengers who will travel abroad. ",
   },
   {
     image: dhan,
     notice:
-      "diagnostic centre for testing #COVID-19 for  ",
+      "Government of Bangladesh recommended our diagnostic centre for testing #COVID-19 for the passengers who will travel abroad. ",
   },
   {
     image: dhan,
     notice:
-      "Bangladesh recommended our  centre  testing",
+      "Government of Bangladesh recommended our diagnostic centre for testing #COVID-19 for the passengers who will travel abroad. ",
   },
   {
     image: dhan,
@@ -41599,6 +41596,7 @@ const ServiceCost = [
   },
 ];
 
+
 const doctorData = {
   branches: [
     {
@@ -41614,31 +41612,30 @@ const doctorData = {
               drName: "Prof. Dr. M. Nazrul Islam",
               degree: "MBBS, FCPS, FRCP (Edin), FCCP, FACC, FESC. BSMMU (PG)",
               weekday: [
-                {
-                  day: "Saturday",
-                  time: "3:00 PM - 5:00 PM",
-                },
-                {
-                  day: "Sunday",
-                  time: "3:00 PM - 5:00 PM",
-                },
-                {
-                  day: "Monday",
-                  time: "3:00 PM - 5:00 PM",
-                },
-                {
-                  day: "Tuesday",
-                  time: "3:00 PM - 5:00 PM",
-                },
-                {
-                  day: "Wednesday",
-                  time: "3:00 PM - 5:00 PM",
-                },
-                {
-                  day: "Thursday",
-                  time: "3:00 PM - 5:00 PM",
-                },
-              ],
+              {
+                day:"Saturday",
+                time: "3:00 PM - 5:00 PM"
+              },
+              {
+                day:"Sunday",
+                time: "3:00 PM - 5:00 PM"
+              },
+              {
+                day:"Monday",
+                time: "3:00 PM - 5:00 PM"
+              },
+              {
+                day:"Tuesday",
+                time: "3:00 PM - 5:00 PM"
+              },
+              {
+                day:"Wednesday",
+                time: "3:00 PM - 5:00 PM"
+              },
+              {
+                day:"Thursday",
+                time: "3:00 PM - 5:00 PM"
+              } ],
               building: "Bhaban-1",
               room: "401",
               drNumber: 1711563450,
@@ -41664,32 +41661,31 @@ const doctorData = {
               drName: "Prof. Dr. M.A Azhar",
               degree:
                 "MBBS, FCPS (Medicine), FACP, FRCP (Edin). Sir Salimullah Medical College & Mitford Hospital, Dhaka.",
-              weekday: [
-                {
-                  day: "Saturday",
-                  time: "10:00 AM - 5:00 PM",
-                },
-                {
-                  day: "Sunday",
-                  time: "10:00 AM - 5:00 PM",
-                },
-                {
-                  day: "Monday",
-                  time: "10:00 AM - 5:00 PM",
-                },
-                {
-                  day: "Tuesday",
-                  time: "10:00 AM - 5:00 PM",
-                },
-                {
-                  day: "Wednesday",
-                  time: "10:00 AM - 5:00 PM",
-                },
-                {
-                  day: "Thursday",
-                  time: "10:00 AM - 5:00 PM",
-                },
-              ],
+                weekday: [
+                  {
+                    day:"Saturday",
+                    time: "10:00 AM - 5:00 PM"
+                  },
+                  {
+                    day:"Sunday",
+                    time: "10:00 AM - 5:00 PM"
+                  },
+                  {
+                    day:"Monday",
+                    time: "10:00 AM - 5:00 PM"
+                  },
+                  {
+                    day:"Tuesday",
+                    time: "10:00 AM - 5:00 PM"
+                  },
+                  {
+                    day:"Wednesday",
+                    time: "10:00 AM - 5:00 PM"
+                  },
+                  {
+                    day:"Thursday",
+                    time: "10:00 AM - 5:00 PM"
+                  } ],
               building: "Bhaban-2",
               room: "304",
               drNumber: 1711364552,
@@ -41723,30 +41719,29 @@ const doctorData = {
               degree: "MBBS, FCPS, FRCP (Edin), FCCP, FACC, FESC. BSMMU (PG)",
               weekday: [
                 {
-                  day: "Saturday",
-                  time: "3:00 PM - 5:00 PM",
+                  day:"Saturday",
+                  time: "3:00 PM - 5:00 PM"
                 },
                 {
-                  day: "Sunday",
-                  time: "3:00 PM - 5:00 PM",
+                  day:"Sunday",
+                  time: "3:00 PM - 5:00 PM"
                 },
                 {
-                  day: "Monday",
-                  time: "3:00 PM - 5:00 PM",
+                  day:"Monday",
+                  time: "3:00 PM - 5:00 PM"
                 },
                 {
-                  day: "Tuesday",
-                  time: "3:00 PM - 5:00 PM",
+                  day:"Tuesday",
+                  time: "3:00 PM - 5:00 PM"
                 },
                 {
-                  day: "Wednesday",
-                  time: "3:00 PM - 5:00 PM",
+                  day:"Wednesday",
+                  time: "3:00 PM - 5:00 PM"
                 },
                 {
-                  day: "Thursday",
-                  time: "3:00 PM - 5:00 PM",
-                },
-              ],
+                  day:"Thursday",
+                  time: "3:00 PM - 5:00 PM"
+                } ],
               building: "Bhaban-1",
               room: "401",
               drNumber: 1711563450,
@@ -41772,32 +41767,31 @@ const doctorData = {
               drName: "Prof. Dr. M.A Azhar",
               degree:
                 "MBBS, FCPS (Medicine), FACP, FRCP (Edin). Sir Salimullah Medical College & Mitford Hospital, Dhaka.",
-              weekday: [
-                {
-                  day: "Saturday",
-                  time: "10:00 AM - 5:00 PM",
-                },
-                {
-                  day: "Sunday",
-                  time: "10:00 AM - 5:00 PM",
-                },
-                {
-                  day: "Monday",
-                  time: "10:00 AM - 5:00 PM",
-                },
-                {
-                  day: "Tuesday",
-                  time: "10:00 AM - 5:00 PM",
-                },
-                {
-                  day: "Wednesday",
-                  time: "10:00 AM - 5:00 PM",
-                },
-                {
-                  day: "Thursday",
-                  time: "10:00 AM - 5:00 PM",
-                },
-              ],
+                weekday: [
+                  {
+                    day:"Saturday",
+                    time: "10:00 AM - 5:00 PM"
+                  },
+                  {
+                    day:"Sunday",
+                    time: "10:00 AM - 5:00 PM"
+                  },
+                  {
+                    day:"Monday",
+                    time: "10:00 AM - 5:00 PM"
+                  },
+                  {
+                    day:"Tuesday",
+                    time: "10:00 AM - 5:00 PM"
+                  },
+                  {
+                    day:"Wednesday",
+                    time: "10:00 AM - 5:00 PM"
+                  },
+                  {
+                    day:"Thursday",
+                    time: "10:00 AM - 5:00 PM"
+                  } ],
               building: "Bhaban-2",
               room: "304",
               drNumber: 1711364552,
@@ -41821,6 +41815,7 @@ const doctorData = {
   ],
 };
 
+
 export {
   ServiceCost,
   navLinks,
@@ -41834,5 +41829,5 @@ export {
   projects1,
   projects2,
   reportDownload,
-  doctorData,
+  doctorData
 };

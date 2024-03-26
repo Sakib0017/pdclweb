@@ -1,5 +1,5 @@
 import { styles } from "../styles";
-import { ServiceCost, topManagement } from "../constants";
+import { ServiceCost } from "../constants";
 import React, { useState, useEffect } from "react";
 import video from "../assets/video.mp4";
 import AutoSizer from "react-virtualized/dist/commonjs/AutoSizer";

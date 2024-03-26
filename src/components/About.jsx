@@ -1,5 +1,6 @@
 import { Nav, Navbar, Sidemenu, Tech, Bottommenu } from "../components";
-import { ServiceCost, topManagement } from "../constants";
+import { topManagement } from "../constants";
+import { ServiceCost } from "../constants";
 import React, { useState } from "react";
 import AutoSizer from "react-virtualized/dist/commonjs/AutoSizer";
 import List from "react-virtualized/dist/commonjs/List";
