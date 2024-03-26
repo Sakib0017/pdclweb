@@ -15,12 +15,12 @@ const ProjectCard = ({ index, image, notice }) => {
           <img
             src={image}
             alt="project_image"
-            className="w-full h-[150px] rounded-md object-cover opacity-95"
+            className="w-full h-[150px] rounded-md object-cover sm:w-[299px]  opacity-95"
           />
         </div>
 
         <div className="mt-0 p-5">
-          <p className="text-[#006642] font-ubuntu text-[15px]">{notice}</p>
+          <p className="text-[#006642] font-ubuntu  text-[15px]">{notice}</p>
         </div>
 
         <div className=" p-5">
@@ -48,7 +48,7 @@ function Notice() {
           </h2>
         </div>
       </motion.div>
-      <div className=" flex mx-auto  pb-10 max-w-7xl justify-center flex-wrap gap-7">
+      <div className=" flex mx-auto  pb-3 max-w-7xl  justify-center flex-wrap gap-7">
         {projects2.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}

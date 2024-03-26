@@ -7,7 +7,7 @@ import { SectionWrapper } from "../hoc";
 import { dhan } from "../assets";
 import { fadeIn, textVariant } from "../utils/motion";
 import { healh, dical, cover } from "../assets";
-
+import img from "../assets/PDCLbranches/Dhanmondi.webp";
 import { Card, Typography } from "@material-tailwind/react";
 
 const TABLE_ROWS = [
@@ -77,9 +77,9 @@ function Health() {
           >
             <div className="  flex-col  max-w-7xl container  md:flex-col   mt-[150px] mx-auto">
               <div className="flex flex-col">
-                <form className="max-w-7xl  items-center p-20  rounded-[10px] justify-center">
-                  <div className="grid md:grid-cols-2   md:gap-10 ">
-                    <div className="me-auto shadow w-full p-10">
+                <form className="max-w-7xl  items-center flex flex-wrap   rounded justify-center">
+                  <div className="bg-gradient-to-b  from-white m-5 to-[#00664218] hover:bg-gray-100 shadow-2xl rounded h-[650px] sm:w-[500px] w-full ">
+                    <div className="p-1">
                       <h3 className="text-[24px] text-[#006642] font-ubuntu font-bold">
                         Health Cheak-up Pakages<br></br>For 40 Years Age Above
                       </h3>
@@ -121,7 +121,9 @@ function Health() {
                         </table>
                       </Card>
                     </div>
-                    <div className="text-black p-10 w-full shadow text-center">
+                  </div>
+                  <div className="bg-gradient-to-b h-[650px] from-white m-5 to-[#00664218] hover:bg-gray-100 shadow-2xl rounded-2xl sm:w-[500px] w-full ">
+                    <div className="p-1">
                       <h3 className="text-[24px]  text-[#006642] font-bold font-ubuntu pb-10">
                         হেল্‌থ চেক-আপ এর পূর্ব প্রস্ততি সমূহ:-{" "}
                       </h3>
@@ -167,105 +169,47 @@ function Health() {
                       </p>
                     </div>
                   </div>
-                </form>
-
-                <form className="max-w-screen-xl bg-gray-100-5 p-10 rounded-[10px] shadow mt-10 items-center justify-center">
-                  <div className="grid md:grid-cols-3   md:gap-1 ">
-                    <div className="text-black overflow-scroll p-10 text-center">
-                      <h3 className="text-[20px] text-gray-900 font-ubuntu font-bold">
-                        Primary Health Cheak-up Pakage-1<br></br>For 40 Years
-                        Age Above
+                  <div className="bg-gradient-to-b h-[650px] from-white m-5 to-[#00664218] hover:bg-gray-100 shadow-2xl rounded-2xl sm:w-[500px] w-full ">
+                    <div className="p-1">
+                      <h3 className="text-[24px]  text-[#006642] font-bold font-ubuntu pb-10">
+                        হেল্‌থ চেক-আপ এর প্রয়োজনীয়তা সমূহ:-{" "}
                       </h3>
-                      <Card className="h-auto w-full  shadow-transparent bg-gray-100-5">
-                        <table className="w-full min-w-max table-auto text-left">
-                          <tbody>
-                            {TABLE_ROWS.map(({ no, test, price }) => (
-                              <tr key={no} className="even:bg-blue-gray-50/50">
-                                <td className="p-4 ">
-                                  <Typography
-                                    variant="small"
-                                    color="blue-gray"
-                                    className="text-gray-900  font-ubuntu font-medium text-[16px]"
-                                  >
-                                    {no}
-                                  </Typography>
-                                </td>
-                                <td className="p-4">
-                                  <Typography
-                                    variant="small"
-                                    color="blue-gray"
-                                    className="text-gray-900  font-ubuntu font-medium text-[16px]"
-                                  >
-                                    {test}
-                                  </Typography>
-                                </td>
-                                <td className="p-4">
-                                  <Typography
-                                    variant="small"
-                                    color="blue-gray"
-                                    className="text-gray-900  font-ubuntu font-medium text-[16px]"
-                                  >
-                                    {price}
-                                  </Typography>
-                                </td>
-                              </tr>
-                            ))}
-                          </tbody>
-                        </table>
-                      </Card>
+                      <p className=" text-gray-900 font-ubuntu p-5 text-[16px] font-medium">
+                        হেল্‌থ চেক-আপ এর বিষয়ে জানতে পপুলার অনুসন্ধান
+                        কেন্দ্রে যোগাযোগ করুন হেল্‌থ চেক-আপ এর বিষয়ে জানতে পপুলার অনুসন্ধান
+                        কেন্দ্রে যোগাযোগ করুন হেল্‌থ চেক-আপ এর বিষয়ে জানতে পপুলার অনুসন্ধান
+                        কেন্দ্রে যোগাযোগ করুন হেল্‌থ চেক-আপ এর বিষয়ে জানতে পপুলার অনুসন্ধান
+                        কেন্দ্রে যোগাযোগ করুন হেল্‌থ চেক-আপ এর বিষয়ে জানতে পপুলার অনুসন্ধান
+                        কেন্দ্রে যোগাযোগ করুন হেল্‌থ চেক-আপ এর বিষয়ে জানতে পপুলার অনুসন্ধান
+                        কেন্দ্রে যোগাযোগ করুন হেল্‌থ চেক-আপ এর বিষয়ে জানতে পপুলার অনুসন্ধান
+                        কেন্দ্রে যোগাযোগ করুন হেল্‌থ চেক-আপ এর বিষয়ে জানতে পপুলার অনুসন্ধান
+                        কেন্দ্রে যোগাযোগ করুন হেল্‌থ চেক-আপ এর বিষয়ে জানতে পপুলার অনুসন্ধান
+                        কেন্দ্রে যোগাযোগ করুন হেল্‌থ চেক-আপ এর বিষয়ে জানতে পপুলার অনুসন্ধান
+                        কেন্দ্রে যোগাযোগ করুন হেল্‌থ চেক-আপ এর বিষয়ে জানতে পপুলার অনুসন্ধান
+                        কেন্দ্রে যোগাযোগ করুন হেল্‌থ চেক-আপ এর বিষয়ে জানতে পপুলার অনুসন্ধান
+                        কেন্দ্রে যোগাযোগ করুন হেল্‌থ চেক-আপ এর বিষয়ে জানতে পপুলার অনুসন্ধান
+                        কেন্দ্রে যোগাযোগ করুন হেল্‌থ চেক-আপ এর বিষয়ে জানতে পপুলার অনুসন্ধান
+                        কেন্দ্রে যোগাযোগ করুন হেল্‌থ চেক-আপ এর বিষয়ে জানতে পপুলার অনুসন্ধান
+                        কেন্দ্রে যোগাযোগ করুন হেল্‌থ 
+                      </p>
+                      
                     </div>
-
-                    <div className="text-black overflow-scroll p-10 text-center ">
-                      <h3 className="text-[20px] text-gray-900 font-ubuntu font-bold">
-                        Primary Health Cheak-up Pakage-2<br></br>For 40 Years
-                        Age Above
+                  </div>
+                  <div className="bg-gradient-to-b h-[650px] from-white m-5 to-[#00664218] hover:bg-gray-100 shadow-2xl rounded-2xl sm:w-[500px] w-full ">
+                    <div className="p-1">
+                      <h3 className="text-[24px]  text-[#006642] font-bold font-ubuntu pb-10">
+                        POPULAR DIAGNOSTIC CENTER LTD.
                       </h3>
-                      <Card className="h-auto w-full   shadow-transparent bg-gray-100-5">
-                        <table className="w-full min-w-max  table-auto text-left">
-                          <tbody>
-                            {TABLE_ROWS.map(({ no, test, price }) => (
-                              <tr key={no} className="even:bg-blue-gray-50/50">
-                                <td className="p-4 ">
-                                  <Typography
-                                    variant="small"
-                                    color="blue-gray"
-                                    className="text-gray-900  font-ubuntu font-medium text-[16px]"
-                                  >
-                                    {no}
-                                  </Typography>
-                                </td>
-                                <td className="p-4">
-                                  <Typography
-                                    variant="small"
-                                    color="blue-gray"
-                                    className="text-gray-900  font-ubuntu font-medium text-[16px]"
-                                  >
-                                    {test}
-                                  </Typography>
-                                </td>
-                                <td className="p-4">
-                                  <Typography
-                                    variant="small"
-                                    color="blue-gray"
-                                    className="text-gray-900  font-ubuntu font-medium text-[16px]"
-                                  >
-                                    {price}
-                                  </Typography>
-                                </td>
-                              </tr>
-                            ))}
-                          </tbody>
-                        </table>
-                      </Card>
+                      <img src={img} className="p-5"/>
                     </div>
-
-                    <div className="text-black  overflow-scroll p-10 text-center ">
-                      <h3 className="text-[20px] text-gray-900 font-ubuntu font-bold">
+                  </div>
+                  <div className="bg-gradient-to-b h-[650px] from-white m-5 to-[#00664218] hover:bg-gray-100 shadow-2xl rounded-2xl sm:w-[500px] w-full ">
+                  <div className="p-1">
+                      <h3 className="text-[24px] text-[#006642] font-ubuntu font-bold">
                         Health Cheak-up Pakages<br></br>For 40 Years Age Above
                       </h3>
-
-                      <Card className="h-auto w-full  shadow-transparent bg-gray-100-5 ">
-                        <table className="w-full min-w-max  table-auto text-left">
+                      <Card className="h-auto w-auto    shadow-transparent bg-gray-100/5">
+                        <table className="w-auto min-w-max  text-left">
                           <tbody>
                             {TABLE_ROWS.map(({ no, test, price }) => (
                               <tr key={no} className="even:bg-blue-gray-50/50">
@@ -303,21 +247,13 @@ function Health() {
                       </Card>
                     </div>
                   </div>
-                  <div className="grid md:grid-cols-3   md:gap-1">
-                    <div className="text-black text-center p-10">
-                      <img
-                        className=" mx-auto h-[500px] p-1 w-auto"
-                        src={dhan}
-                      />
-                    </div>
-
-                    <div className="text-black  overflow-scroll p-10 text-center ">
-                      <h3 className="text-[20px] text-gray-900 font-ubuntu font-bold">
+                  <div className="bg-gradient-to-b h-[650px] from-white m-5 to-[#00664218] hover:bg-gray-100 shadow-2xl rounded-2xl sm:w-[500px] w-full ">
+                  <div className="p-1">
+                      <h3 className="text-[24px] text-[#006642] font-ubuntu font-bold">
                         Health Cheak-up Pakages<br></br>For 40 Years Age Above
                       </h3>
-
-                      <Card className="h-auto w-full  shadow-transparent bg-gray-100-5 ">
-                        <table className="w-full min-w-max  table-auto text-left">
+                      <Card className="h-auto w-auto    shadow-transparent bg-gray-100/5">
+                        <table className="w-auto min-w-max  text-left">
                           <tbody>
                             {TABLE_ROWS.map(({ no, test, price }) => (
                               <tr key={no} className="even:bg-blue-gray-50/50">
@@ -354,13 +290,58 @@ function Health() {
                         </table>
                       </Card>
                     </div>
-                    <div className="text-black  overflow-scroll p-10 text-center ">
-                      <h3 className="text-[20px] text-gray-900 font-ubuntu font-bold">
+                  </div>
+                  <div className="bg-gradient-to-b h-[650px] from-white m-5 to-[#00664218] hover:bg-gray-100 shadow-2xl rounded-2xl sm:w-[500px] w-full ">
+                  <div className="p-1">
+                      <h3 className="text-[24px] text-[#006642] font-ubuntu font-bold">
                         Health Cheak-up Pakages<br></br>For 40 Years Age Above
                       </h3>
-
-                      <Card className="h-auto w-full  shadow-transparent bg-gray-100-5 ">
-                        <table className="w-full min-w-max  table-auto text-left">
+                      <Card className="h-auto w-auto    shadow-transparent bg-gray-100/5">
+                        <table className="w-auto min-w-max  text-left">
+                          <tbody>
+                            {TABLE_ROWS.map(({ no, test, price }) => (
+                              <tr key={no} className="even:bg-blue-gray-50/50">
+                                <td className="p-4 ">
+                                  <Typography
+                                    variant="small"
+                                    color="blue-gray"
+                                    className="text-gray-900  font-ubuntu font-medium text-[16px]"
+                                  >
+                                    {no}
+                                  </Typography>
+                                </td>
+                                <td className="p-4">
+                                  <Typography
+                                    variant="small"
+                                    color="blue-gray"
+                                    className="text-gray-900  font-ubuntu font-medium text-[16px]"
+                                  >
+                                    {test}
+                                  </Typography>
+                                </td>
+                                <td className="p-4">
+                                  <Typography
+                                    variant="small"
+                                    color="blue-gray"
+                                    className="text-gray-900  font-ubuntu font-medium text-[16px]"
+                                  >
+                                    {price}
+                                  </Typography>
+                                </td>
+                              </tr>
+                            ))}
+                          </tbody>
+                        </table>
+                      </Card>
+                    </div>
+                  </div>
+                  <div className="bg-gradient-to-b h-[650px] from-white m-5 to-[#00664218] hover:bg-gray-100 shadow-2xl rounded-2xl sm:w-[500px] w-full ">
+                  <div className="p-1">
+                      <h3 className="text-[24px] text-[#006642] font-ubuntu font-bold">
+                        Health Cheak-up Pakages<br></br>For 40 Years Age Above
+                      </h3>
+                      <Card className="h-auto w-auto    shadow-transparent bg-gray-100/5">
+                        <table className="w-auto min-w-max  text-left">
                           <tbody>
                             {TABLE_ROWS.map(({ no, test, price }) => (
                               <tr key={no} className="even:bg-blue-gray-50/50">
@@ -399,6 +380,7 @@ function Health() {
                     </div>
                   </div>
                 </form>
+
               </div>
             </div>
           </div>

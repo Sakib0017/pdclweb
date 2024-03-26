@@ -1116,32 +1116,32 @@ const projects2 = [
   {
     image: dhan,
     notice:
-      "Government of Bangladesh recommended our diagnostic centre for testing #COVID-19 for the passengers who will travel abroad. ",
+      "Government of Bangladesh recommended our ",
   },
   {
     image: dhan,
     notice:
-      "Government of Bangladesh recommended our diagnostic centre for testing #COVID-19 for the passengers who will travel abroad. ",
+      " for the passengers who will travel abroad. ",
   },
   {
     image: dhan,
     notice:
-      "Government of Bangladesh recommended our diagnostic centre for testing #COVID-19 for the passengers who will travel abroad. ",
+      " centre for testing #COVID-19 for the passen ",
   },
   {
     image: dhan,
     notice:
-      "Government of Bangladesh recommended our diagnostic centre for testing #COVID-19 for the passengers who will travel abroad. ",
+      "recommended our diagnostic centre for testing ",
   },
   {
     image: dhan,
     notice:
-      "Government of Bangladesh recommended our diagnostic centre for testing #COVID-19 for the passengers who will travel abroad. ",
+      "diagnostic centre for testing #COVID-19 for  ",
   },
   {
     image: dhan,
     notice:
-      "Government of Bangladesh recommended our diagnostic centre for testing #COVID-19 for the passengers who will travel abroad. ",
+      "Bangladesh recommended our  centre  testing",
   },
   {
     image: dhan,
