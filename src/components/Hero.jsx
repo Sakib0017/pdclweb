@@ -1,17 +1,18 @@
 import { styles } from '../styles';
 import { ServiceCost, topManagement } from "../constants";
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import video from '../assets/video.mp4';
 import AutoSizer from 'react-virtualized/dist/commonjs/AutoSizer';
 import List from 'react-virtualized/dist/commonjs/List';
 
 const ListHeader = () => (
-<div className="flex justify-between px-8 py-2 bg-gray-400 font-bold">
+<div className="flex justify-between  px-8 py-2 bg-gray-400 font-bold">
 <p>Service Name</p>
 <p>Service Cost</p>
 </div>
 );
-const Hero = ({ color }) => {
+const Hero = ({ color, children }) => {
+    
 const [openTab, setOpenTab] = React.useState(1);
 const date = new Date();
 const showTime = date.getHours() 
@@ -187,12 +188,12 @@ Test Price
 <form className="max-w-screen-xl mx-auto">
 <div className="grid md:grid-cols-9 md:gap-1">
 <div className="relative z-0 col-span-9 w-full mb-1 group">
-<button type="button" className="text-white w-full rounded block col-span-9 mb-2 h-[43px] hover:text-white border bg-[#006642] border-none focus:ring-4 focus:outline-none focus:ring-[#006642] font-ubuntu text-[16px] font-bold px-5 py-2.5 text-center  dark:border-[#006642] dark:text-white dark:hover:text-white dark:hover:bg-gray-500 dark:focus:ring-[#006642] ">Make An Appointment <span className='animate-ping'>Now</span></button>
+<button type="button" className="text-gray-900 w-full rounded block col-span-9 mb-2 h-[43px] hover:text-white border bg-gray-600/40 border-none focus:ring-4 focus:outline-none focus:ring-[#006642] font-ubuntu text-[16px] font-bold px-5 py-2.5 text-center  dark:border-[#006642] dark:text-white dark:hover:text-white dark:hover:bg-gray-500 dark:focus:ring-[#006642] ">Make An Appointment <span className='animate-ping'>Now</span></button>
 <div className='flex flex-row w-full col-span-9'>
 <div className="flex w-full col-span-4 items-center">
 {!isSearchVisible && (
 <button
-className="px-4 py-2 bg-[#006642] mb-1 w-full mr-2 col-span-4 text-white rounded"
+className="px-4 py-2 bg-gray-600/40 mb-1 w-full mr-2 font-ubuntu font-bold col-span-4 text-gray-900 rounded"
 onClick={handleSearchClick}
 >
 Chat With AI Consaltant
@@ -200,7 +201,7 @@ Chat With AI Consaltant
 )}
 {!isSearchVisible && (
 <button
-className="px-4 py-2 bg-[#006642] mb-1 w-full col-span-4 text-white rounded"
+className="px-4 py-2 bg-gray-600/40 mb-1 w-full font-ubuntu font-bold col-span-4 text-gray-900 rounded"
 onClick={handleSearchClick1}
 >
 Chat With Human Consaltant
@@ -208,7 +209,7 @@ Chat With Human Consaltant
 )}
 {isSearchVisible && (
 
-<form class=" w-full col-span-8"> 
+<form class=" w-full col-span-9 mb-1"> 
 <label for="default-search" class="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white">Search</label>
 <div class="relative">
 <div class="absolute inset-y-0 end-0 flex items-center pe-3 pointer-events-none">
@@ -238,9 +239,11 @@ Chat With Human Consaltant
 ))}
 </select>
 </div>
+
 <div className="relative col-span-9 mb-1 group ">
 <input type="text" value={searchTerm} onChange={handleSearchChange} name="floating_first_name" placeholder="Test Name" id="floating_first_name" className="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border border-1 border-gray-500 dark:text-gray-600 dark:border-gray-500 dark:focus:border-PDCL-green focus:outline-none focus:ring-0 focus:border-PDCL-green peer pl-2" required />
-<ul className='top-[100px]'>
+<section className=''>
+<ul className=''>
 {filteredServices.length > 0 && (
 <div>
 {/* Render the header */}
@@ -262,6 +265,7 @@ width={width}
 </div>
 )}
 </ul>
+</section>
 </div>
 </div>
 </form>
