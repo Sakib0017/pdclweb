@@ -41816,7 +41816,58 @@ const doctorData = {
     // More branches...
   ],
 };
-
+const TABLE_ROWS = [
+  {
+    no: "1.",
+    test: "Complete Blood Count (CBC)",
+    price: "400.00",
+  },
+  {
+    no: "2.",
+    test: "Fasting Blood Sugar (2 hrs ABF)",
+    price: "400.00",
+  },
+  {
+    no: "3.",
+    test: "HbA1c",
+    price: "1200.00",
+  },
+  {
+    no: "4.",
+    test: "Lipid Profile(Fasting)",
+    price: "1200.00",
+  },
+  {
+    no: "5.",
+    test: "Liver Function Test",
+    price: "1000.00",
+  },
+  {
+    no: "6.",
+    test: "Complete Blood Count (CBC)",
+    price: "400.00",
+  },
+  {
+    no: "7.",
+    test: "Fasting Blood Sugar (2 hrs ABF)",
+    price: "400.00",
+  },
+  {
+    no: "8.",
+    test: "HbA1c",
+    price: "1200.00",
+  },
+  {
+    no: "9.",
+    test: "Lipid Profile(Fasting)",
+    price: "1200.00",
+  },
+  {
+    no: "10.",
+    test: "Liver Function Test",
+    price: "1000.00",
+  },
+];
 export {
   ServiceCost,
   navLinks,
@@ -41831,4 +41882,5 @@ export {
   projects2,
   reportDownload,
   doctorData,
+  TABLE_ROWS
 };
