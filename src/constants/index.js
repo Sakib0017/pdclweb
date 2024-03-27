@@ -438,19 +438,19 @@ const reportDownload = [
   {
     braID: 1,
     braName: "Dhanmondi",
-    downloadLink: "http://119.40.80.131/",
+    downloadLink: "http://akhil.populardiagnostic.com/",
     braCity: "Dhaka",
   },
   {
     braID: 2,
     braName: "English Road",
-    downloadLink: "http://119.40.80.131/",
+    downloadLink: "http://akhil.populardiagnostic.com/",
     braCity: "Dhaka",
   },
   {
     braID: 3,
     braName: "Shantinagar",
-    downloadLink: "http://119.40.80.131/",
+    downloadLink: "http://akhil.populardiagnostic.com/",
     braCity: "Dhaka",
   },
   {
@@ -463,13 +463,13 @@ const reportDownload = [
   {
     braID: 5,
     braName: "Mirpur",
-    downloadLink: "http://119.40.80.131/",
+    downloadLink: "http://akhil.populardiagnostic.com/",
     braCity: "Dhaka",
   },
   {
     braID: 6,
     braName: "Badda",
-    downloadLink: "http://119.40.80.131/",
+    downloadLink: "http://akhil.populardiagnostic.com/",
     braCity: "Dhaka",
   },
   {
@@ -482,95 +482,94 @@ const reportDownload = [
   {
     braID: 8,
     braName: "Uttara Garib E Newaz",
-    downloadLink: "http://119.40.80.131/",
+    downloadLink: "http://akhil.populardiagnostic.com/",
     braCity: "Dhaka",
   },
   {
     braID: 9,
     braName: "Jatrabari",
-    downloadLink: "http://119.40.80.131/",
+    downloadLink: "http://akhil.populardiagnostic.com/",
     braCity: "Dhaka",
   },
   {
     braID: 10,
     braName: "Savar",
-    downloadLink: "http://119.40.80.131/",
+    downloadLink: "http://akhil.populardiagnostic.com/",
     braCity: "Dhaka",
   },
   {
     braID: 11,
     braName: "Gazipur",
-    downloadLink: "http://119.40.80.131/",
+    downloadLink: "http://akhil.populardiagnostic.com/",
     braCity: "Dhaka",
   },
   {
     braID: 12,
     braName: "Narayangonj",
-    downloadLink: "http://119.40.80.131/",
+    downloadLink: "http://akhil.populardiagnostic.com/",
     braCity: "Dhaka",
   },
   {
     braID: 13,
     braName: "Bogura",
-    downloadLink: "http://119.40.80.131/",
+    downloadLink: "http://akhil.populardiagnostic.com/",
     braCity: "Bogura",
   },
   {
     braID: 14,
     braName: "Rajshahi",
-    downloadLink: "http://119.40.80.131/",
+    downloadLink: "http://akhil.populardiagnostic.com/",
     braCity: "Rajshahi",
   },
   {
     braID: 15,
     braName: "Noakhali",
-    downloadLink: "http://119.40.80.131/",
+    downloadLink: "http://akhil.populardiagnostic.com/",
     braCity: "Noakhali",
   },
   {
     braID: 16,
     braName: "Chattogram",
-    downloadLink: "http://119.40.80.131/",
+    downloadLink: "http://akhil.populardiagnostic.com/",
     braCity: "Chattogram",
   },
   {
     braID: 17,
     braName: "Mymensingh",
-    downloadLink: "http://119.40.80.131/",
+    downloadLink: "http://akhil.populardiagnostic.com/",
     braCity: "Mymensingh",
   },
   {
     braID: 18,
     braName: "Rangpur",
-    downloadLink: "http://119.40.80.131/",
+    downloadLink: "http://akhil.populardiagnostic.com/",
     braCity: "Rangpur",
   },
   {
     braID: 19,
     braName: "Dinajpur",
-    downloadLink: "http://119.40.80.131/",
+    downloadLink: "http://akhil.populardiagnostic.com/",
     braCity: "Dinajpur",
   },
   {
     braID: 20,
     braName: "Khulna",
-    downloadLink: "http://119.40.80.131/",
+    downloadLink: "http://akhil.populardiagnostic.com/",
     braCity: "Khulna",
   },
   {
     braID: 21,
     braName: "Kushtia",
-    downloadLink: "http://119.40.80.131/",
+    downloadLink: "http://akhil.populardiagnostic.com/",
     braCity: "Kushtia",
   },
   {
     braID: 22,
     braName: "Barishal",
-    downloadLink: "http://119.40.80.131/",
+    downloadLink: "http://akhil.populardiagnostic.com/",
     braCity: "Barishal",
   },
 ];
-
 
 const projects1 = [
   {
@@ -585,7 +584,7 @@ const projects1 = [
       braCity: "Dhaka",
       location:
         "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3652.2197080792394!2d90.37959757619976!3d23.73954337867781!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8ca7af5f82b%3A0xce7d1ab6b16a027!2sPopular%20Diagnostic%20Centre%20Ltd.!5e0!3m2!1sen!2sbd!4v1706512680599!5m2!1sen!2sbd",
-      reportDownload: "http://119.40.80.131/",
+
       braManImg: AchintoKumarNag,
       braManName: "Achinto Kumar Nag",
       braManDesignation: "AGM (HR & Admin)",
@@ -603,7 +602,7 @@ const projects1 = [
       braCity: "Dhaka",
       location:
         "https://maps.google.com/maps?q=23.713776,90.4109699&hl=es;z=14&output=embed",
-      reportDownload: "http://119.40.80.131/",
+
       braManImg: MdMahbuburRahmanChowdhury,
       braManName: "Md. Mahbubur Rahman Chowdhury",
       braManDesignation: "Branch Manager",
@@ -621,7 +620,7 @@ const projects1 = [
       braCity: "Dhaka",
       location:
         "https://maps.google.com/maps?q=23.7412031,90.4124384&hl=es;z=14&output=embed",
-      reportDownload: "http://119.40.80.131/",
+
       braManImg: MdShahiMahmud,
       braManName: "Md. Shahi Mahmud",
       braManDesignation: "AGM & Head of Branch",
@@ -639,7 +638,7 @@ const projects1 = [
       braCity: "Dhaka",
       location:
         "https://maps.google.com/maps?q=23.7420844,90.4121534&hl=es;z=14&output=embed",
-      reportDownload: "http://119.40.80.131/",
+
       braManImg: MdShahiMahmud,
       braManName: "Md. Shahi Mahmud",
       braManDesignation: "AGM & Head of Branch",
@@ -658,7 +657,7 @@ const projects1 = [
       braCity: "Dhaka",
       location:
         "https://maps.google.com/maps?q=23.7718253,90.3674465&hl=es;z=14&output=embed",
-      reportDownload: "http://prosoft.populardiagnostic.com:8877/ords/f?p=700:3:8271679877280:::::",
+
       braManImg: MrNezamulHaqueRipon,
       braManName: "Mr. Nezamul Haque Ripon",
       braManDesignation: "AGM & Head of Branch",
@@ -677,7 +676,7 @@ const projects1 = [
       braCity: "Dhaka",
       location:
         "https://maps.google.com/maps?q=23.76892267744971,90.36856338476504&hl=es;z=14&output=embed",
-      reportDownload: "http://prosoft.populardiagnostic.com:8877/ords/f?p=700:3:8271679877280:::::",
+
       braManImg: MrNezamulHaqueRipon,
       braManName: "Mr. Nezamul Haque Ripon",
       braManDesignation: "AGM & Head of Branch",
@@ -696,7 +695,7 @@ const projects1 = [
       braCity: "Dhaka",
       location:
         "https://maps.google.com/maps?q=23.8106471,90.3673446&hl=es;z=14&output=embed",
-      reportDownload: "http://119.40.80.131/",
+
       braManImg: MrAbdullahAlMahmud,
       braManName: "Mr. Abdullah Al Mahmud",
       braManDesignation: "AGM & Head of Branch",
@@ -715,7 +714,7 @@ const projects1 = [
       braCity: "Dhaka",
       location:
         "https://maps.google.com/maps?q=24.7433735,90.4059255&hl=es;z=14&output=embed",
-      reportDownload: "http://119.40.80.131/",
+
       braManImg: MrAbdullahAlMahmud,
       braManName: "Mr. Abdullah Al Mahmud",
       braManDesignation: "AGM & Head of Branch",
@@ -733,7 +732,7 @@ const projects1 = [
       braCity: "Dhaka",
       location:
         "https://maps.google.com/maps?q=23.7885462,90.4250215&hl=es;z=14&output=embed",
-      reportDownload: "http://119.40.80.131/",
+
       braManImg: MrFirozMia,
       braManName: "Mr. Firoz Mia",
       braManDesignation: "Head of Branch",
@@ -752,7 +751,7 @@ const projects1 = [
       braCity: "Dhaka",
       location:
         "https://maps.google.com/maps?q=23.8610668,90.40031&hl=es;z=14&output=embed",
-      reportDownload: "http://prosoft.populardiagnostic.com:8877/ords/f?p=700:3:8271679877280:::::",
+
       braManImg: MrZohurulIslam,
       braManName: "Mr. Zohurul Islam",
       braManDesignation: "Senior Branch Manager",
@@ -771,7 +770,7 @@ const projects1 = [
       braCity: "Dhaka",
       location:
         "https://maps.google.com/maps?q=23.8613902,90.4007901&hl=es;z=14&output=embed",
-      reportDownload: "http://prosoft.populardiagnostic.com:8877/ords/f?p=700:3:8271679877280:::::",
+
       braManImg: MrZohurulIslam,
       braManName: "Mr. Zohurul Islam",
       braManDesignation: "Senior Branch Manager",
@@ -790,7 +789,7 @@ const projects1 = [
       braCity: "Dhaka",
       location:
         "https://maps.google.com/maps?q=23.87267692544794,90.3906825609275&hl=es;z=14&output=embed",
-      reportDownload: "http://119.40.80.131/",
+
       braManImg: MdJahurulIslamRony,
       braManName: " Md. Jahurul Islam Rony",
       braManDesignation: "Branch In-Charge",
@@ -808,7 +807,7 @@ const projects1 = [
       braCity: "Dhaka",
       location:
         "https://maps.google.com/maps?q=23.709443131735878,90.43211759426138&hl=es;z=14&output=embed",
-      reportDownload: "http://119.40.80.131/",
+
       braManImg: MdMizanurRahmanBiswas,
       braManName: " Md. Mizanur Rahman Biswas",
       braManDesignation: "Branch Manager",
@@ -826,7 +825,7 @@ const projects1 = [
       braCity: "Dhaka",
       location:
         "https://maps.google.com/maps?q=23.839972,90.257242&hl=es;z=14&output=embed",
-      reportDownload: "http://119.40.80.131/",
+
       braManImg: MrRajuAhmmedKhalek,
       braManName: " Mr. Raju Ahmmed Khalek",
       braManDesignation: "Branch In-Charge",
@@ -845,7 +844,7 @@ const projects1 = [
       braCity: "Dhaka",
       location:
         "https://maps.google.com/maps?q=23.9969328,90.4148069&hl=es;z=14&output=embed",
-      reportDownload: "http://119.40.80.131/",
+
       braManImg: AjoyKumarDatta,
       braManName: "Ajoy Kumar Datta",
       braManDesignation: "Branch Manager",
@@ -863,7 +862,7 @@ const projects1 = [
       braCity: "Dhaka",
       location:
         "https://maps.google.com/maps?q=23.6223054,90.5004152&hl=es;z=14&output=embed",
-      reportDownload: "http://119.40.80.131/",
+
       braManImg: MdShahidulIslam,
       braManName: "Md. Shahidul Islam",
       braManDesignation: "AGM & Head of Branch",
@@ -881,7 +880,7 @@ const projects1 = [
       braCity: "Bogura",
       location:
         "https://maps.google.com/maps?q=24.8321186,89.3762719&hl=es;z=14&output=embed",
-      reportDownload: "http://119.40.80.131/",
+
       braManImg: MrRezwanAhmed,
       braManName: "Mr. Rezwan Ahmed",
       braManDesignation: "Senior Branch Manager",
@@ -899,7 +898,7 @@ const projects1 = [
       braCity: "Bogura",
       location:
         "https://maps.google.com/maps?q=24.8321186,89.3762719&hl=es;z=14&output=embed",
-      reportDownload: "http://119.40.80.131/",
+
       braManImg: MrRezwanAhmed,
       braManName: "Mr. Rezwan Ahmed",
       braManDesignation: "Senior Branch Manager",
@@ -917,7 +916,7 @@ const projects1 = [
       braCity: "Bogura",
       location:
         "https://maps.google.com/maps?q=24.8280095,89.3527289&hl=es;z=14&output=embed",
-      reportDownload: "http://119.40.80.131/",
+
       braManImg: MrRezwanAhmed,
       braManName: "Mr. Rezwan Ahmed",
       braManDesignation: "Senior Branch Manager",
@@ -935,7 +934,7 @@ const projects1 = [
       braCity: "Rajshahi",
       location:
         "https://maps.google.com/maps?q=24.3723311,88.5811372&hl=es;z=14&output=embed",
-      reportDownload: "http://119.40.80.131/",
+
       braManImg: MrFaridMohammadShamim,
       braManName: "Mr. Farid Mohammad Shamim",
       braManDesignation: "AGM & Head of Branch",
@@ -954,7 +953,7 @@ const projects1 = [
       braCity: "Noakhali",
       location:
         "https://maps.google.com/maps?q=22.875063,91.097225&hl=es;z=14&output=embed",
-      reportDownload: "http://119.40.80.131/",
+
       braManImg: MrMuhammadReazHossain,
       braManName: "Mr. Muhammad Reaz Hossain",
       braManDesignation: "Branch Manager",
@@ -972,7 +971,7 @@ const projects1 = [
       braCity: "Chattogram",
       location:
         "https://maps.google.com/maps?q=22.360777,91.831786&hl=es;z=14&output=embed",
-      reportDownload: "http://119.40.80.131/",
+
       braManImg: MrOalyAshrafKhan,
       braManName: "Mr. Oaly Ashraf Khan",
       braManDesignation: "Senior Branch Manager",
@@ -991,7 +990,7 @@ const projects1 = [
       braCity: "Mymensingh",
       location:
         "https://maps.google.com/maps?q=24.744623,90.408583&hl=es;z=14&output=embed",
-      reportDownload: "http://119.40.80.131/",
+
       braManImg: MrNurIslam,
       braManName: "Mr. Nur Islam",
       braManDesignation: "Senior Branch Manager",
@@ -1009,7 +1008,7 @@ const projects1 = [
       braCity: "Rangpur",
       location:
         "https://maps.google.com/maps?q=25.7610566,89.2348999&hl=es;z=14&output=embed",
-      reportDownload: "http://119.40.80.131/",
+
       braManImg: MrMdAbdulAhad,
       braManName: "Mr. Md. Abdul Ahad",
       braManDesignation: "Branch Manager",
@@ -1027,7 +1026,7 @@ const projects1 = [
       braCity: "Rangpur",
       location:
         "https://maps.google.com/maps?q=25.7610566,89.2348999&hl=es;z=14&output=embed",
-      reportDownload: "http://119.40.80.131/",
+
       braManImg: MrMdAbdulAhad,
       braManName: "Mr. Md. Abdul Ahad",
       braManDesignation: "Branch Manager",
@@ -1045,7 +1044,7 @@ const projects1 = [
       braCity: "Dinajpur",
       location:
         "https://maps.google.com/maps?q=25.6199955,88.6449272&hl=es;z=14&output=embed",
-      reportDownload: "http://119.40.80.131/",
+
       braManImg: MdFoyzurRahman,
       braManName: "Md. Foyzur Rahman",
       braManDesignation: "Branch Manager",
@@ -1064,7 +1063,7 @@ const projects1 = [
       braCity: "Khulna",
       location:
         "https://maps.google.com/maps?q=22.815210,89.555067&hl=es;z=14&output=embed",
-      reportDownload: "http://119.40.80.131/",
+
       braManImg: MdSohelChowdhury,
       braManName: "Md. Sohel Chowdhury",
       braManDesignation: "Branch Manager",
@@ -1083,7 +1082,7 @@ const projects1 = [
       braCity: "Kushtia",
       location:
         "https://maps.google.com/maps?q=23.903603,89.127746&hl=es;z=14&output=embed",
-      reportDownload: "http://119.40.80.131/",
+
       braManImg: ShamsuzzohaKhanJohn,
       braManName: "Shamsuzzoha Khan John",
       braManDesignation: "Branch In Charge",
@@ -1102,7 +1101,7 @@ const projects1 = [
       braCity: "Barishal",
       location:
         "https://maps.google.com/maps?q=22.692741,90.361966&hl=es;z=14&output=embed",
-      reportDownload: "http://119.40.80.131/",
+
       braManImg: MdMosharrofHossain,
       braManName: "Md. Mosharrof Hossain",
       braManDesignation: "Branch Manager",
@@ -41596,7 +41595,6 @@ const ServiceCost = [
   },
 ];
 
-
 const doctorData = {
   branches: [
     {
@@ -41612,30 +41610,31 @@ const doctorData = {
               drName: "Prof. Dr. M. Nazrul Islam",
               degree: "MBBS, FCPS, FRCP (Edin), FCCP, FACC, FESC. BSMMU (PG)",
               weekday: [
-              {
-                day:"Saturday",
-                time: "3:00 PM - 5:00 PM"
-              },
-              {
-                day:"Sunday",
-                time: "3:00 PM - 5:00 PM"
-              },
-              {
-                day:"Monday",
-                time: "3:00 PM - 5:00 PM"
-              },
-              {
-                day:"Tuesday",
-                time: "3:00 PM - 5:00 PM"
-              },
-              {
-                day:"Wednesday",
-                time: "3:00 PM - 5:00 PM"
-              },
-              {
-                day:"Thursday",
-                time: "3:00 PM - 5:00 PM"
-              } ],
+                {
+                  day: "Saturday",
+                  time: "3:00 PM - 5:00 PM",
+                },
+                {
+                  day: "Sunday",
+                  time: "3:00 PM - 5:00 PM",
+                },
+                {
+                  day: "Monday",
+                  time: "3:00 PM - 5:00 PM",
+                },
+                {
+                  day: "Tuesday",
+                  time: "3:00 PM - 5:00 PM",
+                },
+                {
+                  day: "Wednesday",
+                  time: "3:00 PM - 5:00 PM",
+                },
+                {
+                  day: "Thursday",
+                  time: "3:00 PM - 5:00 PM",
+                },
+              ],
               building: "Bhaban-1",
               room: "401",
               drNumber: 1711563450,
@@ -41661,31 +41660,32 @@ const doctorData = {
               drName: "Prof. Dr. M.A Azhar",
               degree:
                 "MBBS, FCPS (Medicine), FACP, FRCP (Edin). Sir Salimullah Medical College & Mitford Hospital, Dhaka.",
-                weekday: [
-                  {
-                    day:"Saturday",
-                    time: "10:00 AM - 5:00 PM"
-                  },
-                  {
-                    day:"Sunday",
-                    time: "10:00 AM - 5:00 PM"
-                  },
-                  {
-                    day:"Monday",
-                    time: "10:00 AM - 5:00 PM"
-                  },
-                  {
-                    day:"Tuesday",
-                    time: "10:00 AM - 5:00 PM"
-                  },
-                  {
-                    day:"Wednesday",
-                    time: "10:00 AM - 5:00 PM"
-                  },
-                  {
-                    day:"Thursday",
-                    time: "10:00 AM - 5:00 PM"
-                  } ],
+              weekday: [
+                {
+                  day: "Saturday",
+                  time: "10:00 AM - 5:00 PM",
+                },
+                {
+                  day: "Sunday",
+                  time: "10:00 AM - 5:00 PM",
+                },
+                {
+                  day: "Monday",
+                  time: "10:00 AM - 5:00 PM",
+                },
+                {
+                  day: "Tuesday",
+                  time: "10:00 AM - 5:00 PM",
+                },
+                {
+                  day: "Wednesday",
+                  time: "10:00 AM - 5:00 PM",
+                },
+                {
+                  day: "Thursday",
+                  time: "10:00 AM - 5:00 PM",
+                },
+              ],
               building: "Bhaban-2",
               room: "304",
               drNumber: 1711364552,
@@ -41719,29 +41719,30 @@ const doctorData = {
               degree: "MBBS, FCPS, FRCP (Edin), FCCP, FACC, FESC. BSMMU (PG)",
               weekday: [
                 {
-                  day:"Saturday",
-                  time: "3:00 PM - 5:00 PM"
+                  day: "Saturday",
+                  time: "3:00 PM - 5:00 PM",
                 },
                 {
-                  day:"Sunday",
-                  time: "3:00 PM - 5:00 PM"
+                  day: "Sunday",
+                  time: "3:00 PM - 5:00 PM",
                 },
                 {
-                  day:"Monday",
-                  time: "3:00 PM - 5:00 PM"
+                  day: "Monday",
+                  time: "3:00 PM - 5:00 PM",
                 },
                 {
-                  day:"Tuesday",
-                  time: "3:00 PM - 5:00 PM"
+                  day: "Tuesday",
+                  time: "3:00 PM - 5:00 PM",
                 },
                 {
-                  day:"Wednesday",
-                  time: "3:00 PM - 5:00 PM"
+                  day: "Wednesday",
+                  time: "3:00 PM - 5:00 PM",
                 },
                 {
-                  day:"Thursday",
-                  time: "3:00 PM - 5:00 PM"
-                } ],
+                  day: "Thursday",
+                  time: "3:00 PM - 5:00 PM",
+                },
+              ],
               building: "Bhaban-1",
               room: "401",
               drNumber: 1711563450,
@@ -41767,31 +41768,32 @@ const doctorData = {
               drName: "Prof. Dr. M.A Azhar",
               degree:
                 "MBBS, FCPS (Medicine), FACP, FRCP (Edin). Sir Salimullah Medical College & Mitford Hospital, Dhaka.",
-                weekday: [
-                  {
-                    day:"Saturday",
-                    time: "10:00 AM - 5:00 PM"
-                  },
-                  {
-                    day:"Sunday",
-                    time: "10:00 AM - 5:00 PM"
-                  },
-                  {
-                    day:"Monday",
-                    time: "10:00 AM - 5:00 PM"
-                  },
-                  {
-                    day:"Tuesday",
-                    time: "10:00 AM - 5:00 PM"
-                  },
-                  {
-                    day:"Wednesday",
-                    time: "10:00 AM - 5:00 PM"
-                  },
-                  {
-                    day:"Thursday",
-                    time: "10:00 AM - 5:00 PM"
-                  } ],
+              weekday: [
+                {
+                  day: "Saturday",
+                  time: "10:00 AM - 5:00 PM",
+                },
+                {
+                  day: "Sunday",
+                  time: "10:00 AM - 5:00 PM",
+                },
+                {
+                  day: "Monday",
+                  time: "10:00 AM - 5:00 PM",
+                },
+                {
+                  day: "Tuesday",
+                  time: "10:00 AM - 5:00 PM",
+                },
+                {
+                  day: "Wednesday",
+                  time: "10:00 AM - 5:00 PM",
+                },
+                {
+                  day: "Thursday",
+                  time: "10:00 AM - 5:00 PM",
+                },
+              ],
               building: "Bhaban-2",
               room: "304",
               drNumber: 1711364552,
@@ -41815,7 +41817,6 @@ const doctorData = {
   ],
 };
 
-
 export {
   ServiceCost,
   navLinks,
@@ -41829,5 +41830,5 @@ export {
   projects1,
   projects2,
   reportDownload,
-  doctorData
+  doctorData,
 };
