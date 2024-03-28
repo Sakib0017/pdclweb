@@ -15,8 +15,7 @@ const BranchCard = ({ branch, handleReportDownload }) => {
         key={branch.braID}
         m-4
         className="text-gray-600 hover:text-gray-800 branch-card cursor-pointer flex items-center justify-center"
-        onClick={() => handleReportDownload(branch.downloadLink)}
-      >
+        onClick={() => handleReportDownload(branch.downloadLink)}>
         <div className="branch-info p-4">
           <h3 className="text-center font-medium">{branch.braName}</h3>
         </div>
