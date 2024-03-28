@@ -41882,7 +41882,7 @@ const healthPackages = [
       },
       {
         testName:"Digital X-Ray of Chest P/A View (Digital)",
-        testPrice:400,
+        testPrice:600,
       },
       {
         testName:"Portable Ultrasonogram of Whole Abdomen(P722)",
@@ -41894,7 +41894,7 @@ const healthPackages = [
       },
       
     ],
-    discountedPrice: 100,
+    discountedPrice: 5900,
   },
   {
     packageID: "2",

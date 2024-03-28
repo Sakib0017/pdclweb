@@ -40,14 +40,14 @@ const Navbar = () => {
   return (
     <>
       <nav
-        className={`${styles.paddingX} w-full  flex items-center shadow fixed top-[30px] z-20 bg-gray-100`}
+        className={`${styles.paddingX} w-full flex items-center shadow fixed top-[30px] z-20 bg-[#F5FFFA]`}
       >
-        <div className="w-full h-[70px] flex flex-wrap justify-between max-w-7xl text-emerald-900/80  mx-auto">
-          <div className="w-full h-[70px]  flex flex-row max-w-7xl justify-between  items-center  mx-auto">
+        <div className="w-full h-[70px] flex flex-wrap justify-between max-w-7xl text-emerald-900/80 mx-auto">
+          <div className="w-full h-[70px] flex flex-row max-w-7xl justify-between items-center mx-auto">
             <a>
               <Link
                 to="/"
-                className="flex items-center  gap-0"
+                className="flex items-center gap-0"
                 onClick={() => {
                   setActive("");
                   window.scrollTo(0, 0);
@@ -60,23 +60,21 @@ const Navbar = () => {
                 />
               </Link>
             </a>
-            {/* <div className=" mt-[-50px] ml-[50px] p-1  text-center h-[55px] w-[80px] rounded-br-[20px]  rounded-bl-[20px]  fill-white">
+            {/* <div className=" mt-[-50px] ml-[50px] p-1 text-center h-[55px] w-[80px] rounded-br-[20px] rounded-bl-[20px] fill-white">
 
- <Link to="/" >
-         
-          <h3 className="text-emerald-900/80   font-ubuntu font-medium">Hotline</h3>
-          <p className="text-emerald-900/80  font-ubuntu font-medium">10636</p>
-          
-        </Link>
-  </div> */}
-            <ul className="list-none  hidden sm:flex mx-auto flex-row gap-1">
-              <li className="flex mr-4  flex-row justify-center items-center">
-                <div className="flex flex-row  ">
+<Link to="/" >
+<h3 className="text-emerald-900/80 font-ubuntu font-medium">Hotline</h3>
+<p className="text-emerald-900/80 font-ubuntu font-medium">10636</p>
+</Link>
+</div> */}
+            <ul className="list-none hidden sm:flex mx-auto flex-row gap-1">
+              <li className="flex mr-4 flex-row justify-center items-center">
+                <div className="flex flex-row ">
                   <a>
                     {" "}
                     <Link to="/report">
                       {" "}
-                      <p className="text-emerald-900/80  items-center flex flex-row text-[14px] ms-0 me-1 font-medium font-ubuntu">
+                      <p className="text-emerald-900/80 items-center flex flex-row text-[14px] ms-0 me-1 font-medium font-ubuntu">
                         <a href="">
                           {" "}
                           <span className="pl-1 text-[14px] font-medium font-ubuntu hidden md:block">
@@ -90,12 +88,12 @@ const Navbar = () => {
               </li>
 
               <li className="mr-4 inline-flex flex-row justify-center items-center">
-                <div className="flex flex-row  ">
+                <div className="flex flex-row ">
                   <a>
                     {" "}
                     <Link to="/health">
                       {" "}
-                      <p className="text-emerald-900/80  items-center flex flex-row text-[14px] ms-0 me-1 font-medium font-ubuntu">
+                      <p className="text-emerald-900/80 items-center flex flex-row text-[14px] ms-0 me-1 font-medium font-ubuntu">
                         <a href="">
                           {" "}
                           <span className="pl-1 text-[14px] font-medium font-ubuntu hidden md:block">
@@ -109,13 +107,13 @@ const Navbar = () => {
               </li>
 
               <li className="inline-flex flex-row mr-4 justify-center items-center">
-                <div className="flex flex-row  ">
+                <div className="flex flex-row ">
                   <Popover placement="bottom">
                     <PopoverHandler>
                       <a>
                         <Link to="/modal">
                           {" "}
-                          <p className="text-emerald-900/80  items-center flex flex-row text-[14px] ms-0 me-1 font-medium font-ubuntu">
+                          <p className="text-emerald-900/80 items-center flex flex-row text-[14px] ms-0 me-1 font-medium font-ubuntu">
                             <span className="pl-1 text-[14px] font-medium font-ubuntu hidden md:block cursor-pointer">
                               Branches
                             </span>
@@ -128,12 +126,12 @@ const Navbar = () => {
               </li>
 
               <li className="inline-flex mr-4 flex-row justify-center items-center">
-                <div className="flex flex-row  ">
+                <div className="flex flex-row ">
                   <a>
                     <Link to="/notice">
-                      <p className="text-emerald-900/80  items-center flex flex-row text-[14px] ms-0 me-1 font-medium font-ubuntu">
+                      <p className="text-emerald-900/80 items-center flex flex-row text-[14px] ms-0 me-1 font-medium font-ubuntu">
                         <a href="">
-                          <span className="pl-1  text-[14px] font-medium font-ubuntu hidden md:block">
+                          <span className="pl-1 text-[14px] font-medium font-ubuntu hidden md:block">
                             Notice
                           </span>
                         </a>
@@ -143,13 +141,13 @@ const Navbar = () => {
                 </div>
               </li>
               <li className="inline-flex mr-4 flex-row justify-center items-center">
-                <div className="flex flex-row  ">
+                <div className="flex flex-row ">
                   <a>
                     {" "}
                     <Link to="/contact">
-                      <p className="text-emerald-900/80  items-center flex flex-row text-[14px] ms-0 me-1 font-medium font-ubuntu">
+                      <p className="text-emerald-900/80 items-center flex flex-row text-[14px] ms-0 me-1 font-medium font-ubuntu">
                         <a href="">
-                          <span className="pl-1  text-[14px] font-medium font-ubuntu hidden md:block">
+                          <span className="pl-1 text-[14px] font-medium font-ubuntu hidden md:block">
                             Contact
                           </span>
                         </a>
@@ -159,16 +157,28 @@ const Navbar = () => {
                 </div>
               </li>
               <li className="inline-flex mr-4 flex-row justify-center items-center">
-                <div className="flex flex-row  ">
+                <div className="flex flex-row ">
                   <a>
                     {" "}
                     <Link to="/about">
-                      <p className="text-emerald-900/80  items-center flex flex-row text-[14px] ms-0 me-1 font-medium font-ubuntu">
-                        <a href="">
-                          <span className="pl-1  text-[14px] font-medium font-ubuntu hidden md:block">
-                            About Us
-                          </span>
-                        </a>
+                      <p className="text-emerald-900/80 items-center flex flex-row text-[14px] ms-0 me-1 font-medium font-ubuntu">
+                        <Popover placement="bottom">
+                          <PopoverHandler>
+                            <a href="">
+                              <span className="pl-1 text-[14px] font-medium font-ubuntu hidden md:block">
+                                About Us
+                              </span>
+                            </a>
+                          </PopoverHandler>
+                          <PopoverContent className="mt-[20px] text-gray-900">
+                            <div className=" text-gray-900 ">
+                              <p className=" p-2 ">
+                                Message from Managing Director
+                              </p>
+                              <p className="p-2 "> Management Team</p>
+                            </div>
+                          </PopoverContent>
+                        </Popover>
                       </p>
                     </Link>
                   </a>
@@ -176,13 +186,13 @@ const Navbar = () => {
               </li>
             </ul>
 
-            <div className=" items-end hidden  md:block md:order-2 ">
+            <div className=" items-end hidden md:block md:order-2 ">
               <Popover placement="bottom">
                 <PopoverHandler>
                   <p
                     type="button"
                     data-dropdown-toggle="language-dropdown-menu"
-                    className="ms-auto inline-flex items-end font-ubuntu justify-end text-sm  rounded-lg cursor-pointer"
+                    className="ms-auto inline-flex items-end font-ubuntu justify-end text-sm rounded-lg cursor-pointer"
                   >
                     <svg
                       class="w-[30px] h-[30px] fill-emerald-900/80 p-0"
@@ -200,7 +210,7 @@ const Navbar = () => {
                       <p
                         type="button"
                         data-dropdown-toggle="language-dropdown-menu"
-                        className="ms-auto inline-flex items-center font-ubuntu justify-center px-4 py-2 text-sm  rounded-lg cursor-pointer"
+                        className="ms-auto inline-flex items-center font-ubuntu justify-center px-4 py-2 text-sm rounded-lg cursor-pointer"
                       >
                         <svg
                           class="w-[25px] h-[25px] fill-emerald-900/80 p-1"
@@ -209,7 +219,7 @@ const Navbar = () => {
                         >
                           <path d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-45.7 48C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512H418.3c16.4 0 29.7-13.3 29.7-29.7C448 383.8 368.2 304 269.7 304H178.3z"></path>
                         </svg>
-                        <span className="text-emerald-900/80 hover:text-[#000000] text-[14px] ms-0 mx-auto  font-medium font-ubuntu">
+                        <span className="text-emerald-900/80 hover:text-[#000000] text-[14px] ms-0 mx-auto font-medium font-ubuntu">
                           Login
                         </span>
                       </p>
@@ -222,7 +232,7 @@ const Navbar = () => {
                       <p
                         type="button"
                         data-dropdown-toggle="language-dropdown-menu"
-                        className="ms-auto inline-flex items-center font-ubuntu justify-center px-4 py-2 text-sm  rounded-lg cursor-pointer"
+                        className="ms-auto inline-flex items-center font-ubuntu justify-center px-4 py-2 text-sm rounded-lg cursor-pointer"
                       >
                         <svg
                           class="w-[25px] h-[25px] fill-emerald-900/80 p-1"
@@ -241,7 +251,7 @@ const Navbar = () => {
               </Popover>
             </div>
 
-            <div className="sm:hidden  flex flex-1 justify-end items-start">
+            <div className="sm:hidden flex flex-1 justify-end items-start">
               <svg
                 className="w-[28px] h-[28px] fill-emerald-900/80"
                 onClick={() => setToggle(!toggle)}
@@ -253,15 +263,15 @@ const Navbar = () => {
               <div
                 className={`${
                   !toggle ? "hidden" : "flex"
-                } p-10 bg-emerald-900/90  absolute top-20 rounded-md`}
+                } p-10 bg-emerald-900/90 absolute top-20 rounded-md`}
               >
                 <ul className=" flex me-auto flex-col gap-3">
                   <li className="inline-flex flex-row justify-start items-start">
-                    <div className="flex flex-row  ">
+                    <div className="flex flex-row ">
                       <a>
                         <Link to="/report">
                           {" "}
-                          <p className="text-white me-auto  items-start flex flex-row text-[14px]  font-medium font-ubuntu">
+                          <p className="text-white me-auto items-start flex flex-row text-[14px] font-medium font-ubuntu">
                             <a href="">
                               {" "}
                               <span className=" me-auto text-[14px] font-medium font-ubuntu ">
@@ -279,7 +289,7 @@ const Navbar = () => {
                         {" "}
                         <Link to="/health">
                           {" "}
-                          <p className="text-white me-auto  items-start flex flex-row text-[14px]  font-medium font-ubuntu">
+                          <p className="text-white me-auto items-start flex flex-row text-[14px] font-medium font-ubuntu">
                             <a href="">
                               {" "}
                               <span className="me-auto text-[14px] font-medium font-ubuntu">
@@ -293,7 +303,7 @@ const Navbar = () => {
                   </li>
 
                   <li className="inline-flex flex-row justify-start items-start">
-                    <div className="flex flex-row  ">
+                    <div className="flex flex-row ">
                       <a>
                         {" "}
                         <Link to="/modal">
@@ -312,11 +322,11 @@ const Navbar = () => {
                   </li>
 
                   <li className="inline-flex flex-row justify-start items-start">
-                    <div className="flex flex-row  ">
+                    <div className="flex flex-row ">
                       <a>
                         {" "}
                         <Link to="/notice">
-                          <p className="text-white  items-center flex flex-row text-[14px]  font-medium font-ubuntu">
+                          <p className="text-white items-center flex flex-row text-[14px] font-medium font-ubuntu">
                             <a href="">
                               <span className="text-[14px] font-medium font-ubuntu ">
                                 Notice
@@ -328,11 +338,11 @@ const Navbar = () => {
                     </div>
                   </li>
                   <li className="inline-flex flex-row justify-start items-start">
-                    <div className="flex flex-row  ">
+                    <div className="flex flex-row ">
                       <a>
                         {" "}
                         <Link to="/contact">
-                          <p className="text-white  items-center flex flex-row text-[14px] ms-0 me-1 font-medium font-ubuntu">
+                          <p className="text-white items-center flex flex-row text-[14px] ms-0 me-1 font-medium font-ubuntu">
                             <a href="">
                               <span className="text-[14px] font-medium font-ubuntu ">
                                 Contact
@@ -344,11 +354,11 @@ const Navbar = () => {
                     </div>
                   </li>
                   <li className="inline-flex flex-row justify-start items-start">
-                    <div className="flex flex-row  ">
+                    <div className="flex flex-row ">
                       <a>
                         {" "}
                         <Link to="/about">
-                          <p className="text-white  items-center flex flex-row text-[14px] ms-0 me-1 font-medium font-ubuntu">
+                          <p className="text-white items-center flex flex-row text-[14px] ms-0 me-1 font-medium font-ubuntu">
                             <a href="">
                               <span className="text-[14px] font-medium font-ubuntu ">
                                 About Us
@@ -360,13 +370,13 @@ const Navbar = () => {
                     </div>
                   </li>
                   <li className="inline-flex flex-row justify-start items-start">
-                    <div className="flex flex-row  ">
+                    <div className="flex flex-row ">
                       <a>
                         {" "}
                         <Link to="/login">
-                          <p className="text-white  items-center flex flex-row text-[14px] ms-0 me-1 font-medium font-ubuntu">
+                          <p className="text-white items-center flex flex-row text-[14px] ms-0 me-1 font-medium font-ubuntu">
                             <svg
-                              class="w-[14px] h-[14px]  fill-white"
+                              class="w-[14px] h-[14px] fill-white"
                               viewBox="0 0 448 512"
                               xmlns="http://www.w3.org/2000/svg"
                             >
@@ -384,11 +394,11 @@ const Navbar = () => {
                   </li>
 
                   <li className="inline-flex flex-row justify-start items-start">
-                    <div className="flex flex-row  ">
+                    <div className="flex flex-row ">
                       <a>
                         {" "}
                         <Link to="/sign">
-                          <p className="text-white  items-center flex flex-row text-[14px] ms-0 me-1 font-medium font-ubuntu">
+                          <p className="text-white items-center flex flex-row text-[14px] ms-0 me-1 font-medium font-ubuntu">
                             <svg
                               class="w-[30px] h-[30px] fill-white "
                               viewBox="0 0 640 512"

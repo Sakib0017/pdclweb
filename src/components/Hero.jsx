@@ -84,8 +84,8 @@ const Hero = ({ color }) => {
         <div
           className={`${styles.paddingX} absolute top-[80px] max-w-7xl mx-auto inset-1 justify-center items-bottom text-center flex flex-col text-white`}
         >
-          <div className="flex-col max-w-7xl hidden md:block sm:w-5/6 mx-auto">
-            <div className="max-w-7xl rounded-[5px] shadow-2xl bg-gray-100/95 ">
+          <div className="flex-col max-w-7xl hidden shadow-2xl md:block sm:w-5/6 mx-auto">
+            <div className="max-w-7xl rounded-[5px] shadow-2xl bg-[#F5FFFA] ">
               <ul
                 className="flex mb-0 ml-2 mr-2 list-none flex-wrap pt-1 pb-2 flex-row"
                 role="tablist"
@@ -223,7 +223,7 @@ const Hero = ({ color }) => {
                           <div className="relative z-0 col-span-9 w-full mb-1 group">
                             <button
                               type="button"
-                              className="text-gray-600 w-full rounded block col-span-9 mb-2 h-[43px] hover:text-gray-900 border bg-gray-50 shadow-2xl  border-none focus:ring-4 focus:outline-none focus:ring-[#006642] font-ubuntu text-[16px] font-bold px-5 py-2.5 text-center  dark:border-[#006642] dark:text-white dark:hover:text-white dark:hover:bg-gray-500 dark:focus:ring-[#006642] "
+                              className="text-gray-600 w-full rounded block col-span-9 mb-2 h-[43px] hover:text-gray-900 border bg-[#F0FFF0] shadow-2xl  border-none focus:ring-4 focus:outline-none focus:ring-[#006642] font-ubuntu text-[16px] font-bold px-5 py-2.5 text-center  dark:border-[#006642] dark:text-white dark:hover:text-white dark:hover:bg-gray-500 dark:focus:ring-[#006642] "
                             >
                               Make An Appointment{" "}
                               <span className="animate-ping">Now</span>
@@ -232,7 +232,7 @@ const Hero = ({ color }) => {
                               <div className="flex w-full col-span-4 items-center">
                                 {!isSearchVisible && (
                                   <button
-                                    className=" px-4 py-2 bg-gray-50 shadow-2xl mb-1 w-full mr-2 font-ubuntu font-medium col-span-4 text-gray-900 rounded"
+                                    className=" px-4 py-2 bg-[#F0FFF0] shadow-2xl mb-1 w-full mr-2 font-ubuntu font-medium col-span-4 text-gray-900 rounded"
                                     onClick={handleSearchClick}
                                   >
                                     <p class>
@@ -245,7 +245,7 @@ const Hero = ({ color }) => {
                                 )}
                                 {!isSearchVisible && (
                                   <button
-                                    className="px-4 py-2 bg-gray-50 shadow-2xl  mb-1 w-full font-ubuntu font-medium col-span-4 text-gray-900 rounded"
+                                    className="px-4 py-2 bg-[#F0FFF0] shadow-2xl  mb-1 w-full font-ubuntu font-medium col-span-4 text-gray-900 rounded"
                                     onClick={handleSearchClick1}
                                   >
                                     Chat With Human Consultant
@@ -344,7 +344,7 @@ const Hero = ({ color }) => {
           </div>
 
           <div className="flex flex-col mb-2 rounded sm:hidden flex-1 justify-top items-center mt-[25px] mx-auto">
-            <div className=" w-[115%] h-auto bg-gray-100/95 p-2 rounded block">
+            <div className=" w-[115%] h-auto bg-[#F5FFFA] p-2 rounded block">
               <ul
                 className="flex mb-0 ml-2 mr-2 list-none flex-wrap pt-1 pb-1 flex-col shadow-lg"
                 role="tablist"

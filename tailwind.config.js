@@ -38,6 +38,10 @@ module.exports = {
       backgroundImage: {},
     },
   },
+  animation: { // This is required to use the custom keyframe
+    // ... existing animations
+    blink: 'blink 1s linear infinite', // Define the blink animation
+  },
   plugins: [
     function ({ addUtilities }) {
       addUtilities({

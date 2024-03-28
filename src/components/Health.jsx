@@ -24,11 +24,21 @@ const PackageCard = ({ packageData }) => {
           </div>
         ))}
       </div>
-      <div className="divide-y divide-gray-200"></div>
-      <div className="mt-4 divide-y divide-gray-200">
-        <p className="text-gray-700">Total Cost: \${totalCost}</p>
-        <p className="text-gray-700">Discounted Price: \${packageData.discountedPrice}</p>
-        <p className="text-[#95c983]">Save: \${savings}</p>
+      <div className="font-bold border-t-2 border-gray-400 my-3"></div> 
+      <div className="divide-y divide-gray-200">
+      <div className=" flex justify-between gap-2 divide-y divide-gray-200">
+        <p className="text-gray-700">Total Cost:</p>
+        <p className="text-gray-700">${totalCost}</p>
+      </div>
+      <div className=" flex justify-between gap-2">
+        <p className="text-gray-700">Discounted Price:</p>
+        <p className="text-gray-700"> ${packageData.discountedPrice}</p>
+      </div>
+      </div>
+      <div className="-rotate-45">
+      <div className="mb-5 mx-auto bg-[#95c983] text-center animate-ping w-[10%] rounded-full">
+        <p className="text-[#36454F] p-2 font-bold text-[8px]">Save: ${savings}</p>
+      </div>
       </div>
     </div>
   );
