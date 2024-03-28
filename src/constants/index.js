@@ -14,6 +14,13 @@ import {
   Gener,
   Inte,
   Med,
+  aa,
+  aaa,
+  aaaa,
+  aaaaa,
+  b,
+  bb,
+  bbb,
   consalt,
   diag,
   office,
@@ -122,6 +129,7 @@ import {
   MostafaNurmohammadPalash,
   MrKabirAhmed,
   SardinRahman,
+  RamadanNotice24
 } from "../assets";
 
 const navLinks = [
@@ -1108,48 +1116,67 @@ const projects1 = [
     },
   },
 ];
-const projects2 = [
+const notice = [
   {
-    image: dhan,
-    notice:
+    noticeID: 1,
+    noticeImage: RamadanNotice24,
+    noticeHead: "Ramadan Time Schedule Update for Dhanmondi Head Office and Other Branches",
+    noticeDetail:
       "Government of Bangladesh recommended our diagnostic centre for testing #COVID-19 for the passengers who will travel abroad. ",
   },
   {
-    image: dhan,
-    notice:
+    noticeID: 2,
+    noticeImage: aa,
+    noticeHead: "PDCL Handover Donation to Bangladesh Workers Welfare Foundation ",
+    noticeDetail:
+      'Today, a total pay order of Rs. 52 lakhs, 66 thousand 598 Taka, on behalf of Popular Diagnostic Center Ltd., under the fund "Bangladesh Workers Welfare Foundation", was formally handed over to the Honorable Inspector General of Factory and Institution Inspection Department, Mr. Mohammad Abdur Rahim Khan.',
+  },
+  {
+    noticeID: 3,
+    noticeImage: aaa,
+    noticeHead:
+      "Group Insurance Coverage for the Employee of Popular Diagnostic Centre Ltd. ",
+    noticeDetail:
       "Government of Bangladesh recommended our diagnostic centre for testing #COVID-19 for the passengers who will travel abroad. ",
   },
   {
-    image: dhan,
-    notice:
+    noticeID: 4,
+    noticeImage: aaaa,
+    noticeHead:
+      "Donation Cheque Distribution from Popular Diagnostic Centre Ltd. Employees Welfare Fund.",
+    noticeDetail:
       "Government of Bangladesh recommended our diagnostic centre for testing #COVID-19 for the passengers who will travel abroad. ",
   },
   {
-    image: dhan,
-    notice:
+    noticeID: 5,
+    noticeImage: aaaaa,
+    noticeHead:
+      "Donation Cheque Distribution from Popular Diagnostic Centre Ltd. Employees Welfare Fund. ",
+    noticeDetail:
       "Government of Bangladesh recommended our diagnostic centre for testing #COVID-19 for the passengers who will travel abroad. ",
   },
   {
-    image: dhan,
-    notice:
+    noticeID: 6,
+    noticeImage: b,
+    noticeHead:
+      "Popular Diagnostic Centre Ltd. is now ISO Certified (9001:2015) Company ",
+    noticeDetail:
       "Government of Bangladesh recommended our diagnostic centre for testing #COVID-19 for the passengers who will travel abroad. ",
   },
   {
-    image: dhan,
-    notice:
+    noticeID: 7,
+    noticeImage: bb,
+    noticeHead: "New Cardiac MRI Machine in Popular Dhanmondi Branch ",
+    noticeDetail:
       "Government of Bangladesh recommended our diagnostic centre for testing #COVID-19 for the passengers who will travel abroad. ",
   },
   {
-    image: dhan,
-    notice: "Popular Diagnostic Centre Ltd. (Dhanmondi)",
-  },
-  {
-    image: dhan,
-    notice: "Popular Diagnostic Centre Ltd. (Dhanmondi)",
-  },
-  {
-    image: dhan,
-    notice: "Popular Diagnostic Centre Ltd. (Dhanmondi)",
+    noticeID: 8,
+    noticeImage: bbb,
+    noticeHead:
+      "We Introduce 1152 slice CT Scan at Dhanmondi Head Office 1st time in Bangladesh ",
+    noticeDetail:
+      "Government of Bangladesh recommended our diagnostic centre for testing #COVID-19 for the passengers who will travel abroad. ",
   },
 ];
 
@@ -41879,8 +41906,8 @@ export {
   projects,
   topManagement,
   projects1,
-  projects2,
+  notice,
   reportDownload,
   doctorData,
-  TABLE_ROWS
+  TABLE_ROWS,
 };

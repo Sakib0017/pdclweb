@@ -1,32 +1,51 @@
-import React from "react";
+import React, { useState } from "react";
 import { Nav, Navbar, Sidemenu, Bottommenu, Tech } from "../components";
 import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { logo, tripguide } from "../assets";
 import { SectionWrapper } from "../hoc";
-import { projects2 } from "../constants";
+import { notice } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 
-const ProjectCard = ({ index, image, notice }) => {
+const ProjectCard = ({ index, noticeID, noticeImage, noticeHead, noticeDetail },  { content, initiallyExpanded = false }) => {
+  const [expanded, setExpanded] = useState(initiallyExpanded);
+
+  const handleClick = () => {
+    setExpanded(!expanded);
+  };
+  
+  
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
-      <div className="bg-gray-100-5 shadow rounded-md h-[370px] sm:w-[299px] w-full">
+      <div className="bg-gray-100-5 shadow rounded-md h-auto  sm:w-[299px] w-full">
         <div className="relative w-full h-[150px]">
           <img
-            src={image}
+            src={noticeImage}
             alt="project_image"
             className="w-full h-[150px] rounded-md object-cover sm:w-[299px]  opacity-95"
           />
         </div>
 
         <div className="mt-0 p-5">
-          <p className="text-[#006642] font-ubuntu  text-[15px]">{notice}</p>
+          <p className="text-[#006642] font-ubuntu  text-[15px]">{noticeHead}</p>
         </div>
 
         <div className=" p-5">
-          <p className="text-[#006642]  text-end font-ubuntu text-[15px]">
-            READ MORE
-          </p>
+        <div className="mb-4">
+
+        <div className={`mt-2 prose ${expanded ? '' : 'h-0 overflow-hidden '}`}>
+        <p className="text-gray-900">{noticeDetail}</p>
+      </div>
+      <button
+        className={`w-full text-center font-medium  text-gray-900 hover:text-indigo-500 ${
+          expanded ? '' : 'truncate'
+        }`}
+        onClick={handleClick}
+      >
+        {expanded ? 'Read Less' : 'Read More'}
+      </button>
+      
+    </div>
         </div>
       </div>
     </motion.div>
@@ -48,9 +67,9 @@ function Notice() {
           </h2>
         </div>
       </motion.div>
-      <div className=" flex mx-auto  pb-3 max-w-7xl  justify-center flex-wrap gap-7">
-        {projects2.map((project, index) => (
-          <ProjectCard key={`project-${index}`} index={index} {...project} />
+      <div className=" flex mx-auto  pb-3 max-w-7xl p-5 justify-center flex-wrap gap-7">
+        {notice.map((project, noticeID) => (
+          <ProjectCard key={`noticeID-${noticeID}`} noticeID={noticeID} {...project} />
         ))}
       </div>
       <Tech />

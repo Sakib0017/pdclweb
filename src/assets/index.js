@@ -97,6 +97,8 @@ import mm from "./mm.png";
 import me from "./me.png";
 import mf from "./mf.png";
 
+
+
 import Badda from "./PDCLbranches/Badda.webp";
 import Barishal from "./PDCLbranches/Barishal.webp";
 import BoguraU1 from "./PDCLbranches/BoguraU1.webp";
@@ -168,13 +170,24 @@ import MrKabirAhmed from "./TopManagement/MrKabirAhmed.png";
 import SardinRahman from "./TopManagement/SardinRahman.png";
 
 
-
-
-
-
-
+import aa from "./aa.jpg";
+import aaa from "./aaa.jpg";
+import aaaa from "./aaaa.jpeg";
+import b from "./b.jpg";
+import aaaaa from "./cccc.jpg";
+import bb from "./bb.jpg";
+import bbb from "./bbb.jpg";
+import RamadanNotice24 from "./RamadanNotice24.png";
 export {
   logo,
+  aa,
+  RamadanNotice24,
+  aaa,
+  aaaa,
+  aaaaa,
+  b,
+  bb,
+  bbb,
   char,
   md,
   ad,
