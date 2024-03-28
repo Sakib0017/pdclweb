@@ -157,32 +157,52 @@ const Navbar = () => {
                 </div>
               </li>
               <li className="inline-flex mr-4 flex-row justify-center items-center">
-                <div className="flex flex-row ">
+              <div className=" items-end hidden md:block md:order-2 ">
+              <Popover placement="bottom">
+                <PopoverHandler>
+                  <p
+                    type="button"
+                    data-dropdown-toggle="language-dropdown-menu"
+                    className="ms-auto inline-flex items-end font-ubuntu font-medium justify-end text-sm rounded-lg cursor-pointer"
+                  >
+                   About Us
+                  </p>
+                </PopoverHandler>
+                <PopoverContent className="mt-[24px] fill-white">
                   <a>
-                    {" "}
                     <Link to="/about">
-                      <p className="text-emerald-900/80 items-center flex flex-row text-[14px] ms-0 me-1 font-medium font-ubuntu">
-                        <Popover placement="bottom">
-                          <PopoverHandler>
-                            <a href="">
-                              <span className="pl-1 text-[14px] font-medium font-ubuntu hidden md:block">
-                                About Us
-                              </span>
-                            </a>
-                          </PopoverHandler>
-                          <PopoverContent className="mt-[20px] text-gray-900">
-                            <div className=" text-gray-900 ">
-                              <p className=" p-2 ">
-                                Message from Managing Director
-                              </p>
-                              <p className="p-2 "> Management Team</p>
-                            </div>
-                          </PopoverContent>
-                        </Popover>
+                      {" "}
+                      <p
+                        type="button"
+                        data-dropdown-toggle="language-dropdown-menu"
+                        className="ms-auto inline-flex items-center font-ubuntu justify-center px-4 py-2 text-sm rounded-lg cursor-pointer"
+                      >
+                        
+                        <span className="text-emerald-900/80 hover:text-[#000000] text-[14px] ms-0 mx-auto font-medium font-ubuntu">
+                          Message from Managing Director
+                        </span>
                       </p>
                     </Link>
                   </a>
-                </div>
+                  <br />
+                  <a>
+                    {" "}
+                    <Link to="/about">
+                      <p
+                        type="button"
+                        data-dropdown-toggle="language-dropdown-menu"
+                        className="ms-auto inline-flex items-center font-ubuntu justify-center px-4 py-2 text-sm rounded-lg cursor-pointer"
+                      >
+                       
+                        <span className="text-emerald-900/80 hover:text-[#000000] text-[14px] ms-0 mx-auto font-medium font-ubuntu">
+                          Management Team
+                        </span>
+                      </p>
+                    </Link>
+                  </a>
+                </PopoverContent>
+              </Popover>
+            </div>
               </li>
             </ul>
 
