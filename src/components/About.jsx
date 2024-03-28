@@ -88,7 +88,7 @@ const About = () => {
       <Navbar />
       <Sidemenu />
       <Bottommenu />
-      <div className="flex flex-col pt-[150px] pb mx-auto max-w-7xl">
+      <div className="flex flex-col pt-[150px] mx-auto max-w-7xl">
         <h2 className="text-gray-900/50 pb-5 text-center text-[35px] font-bold font-ubuntu">
           Top Management
         </h2>

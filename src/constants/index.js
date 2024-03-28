@@ -41843,58 +41843,269 @@ const doctorData = {
     // More branches...
   ],
 };
-const TABLE_ROWS = [
+const healthPackages = [
   {
-    no: "1.",
-    test: "Complete Blood Count (CBC)",
-    price: "400.00",
+    packageID: "1",
+    packageName: "Package-1",
+    packageIncludes: [
+      {
+        testName:"Complete Blood Count (CBC)",
+        testPrice:400,
+      },
+      {
+        testName:"Random Plasma glucose",
+        testPrice:200,
+      },
+      {
+        testName:"Lipid Profile (Random)",
+        testPrice:1400,
+      },
+      {
+        testName:"Blood Grouping & RH Factor",
+        testPrice:300,
+      },
+      {
+        testName:"Serum Creatinine",
+        testPrice:400,
+      },
+      {
+        testName:"HBs Ag",
+        testPrice:1000,
+      },
+      {
+        testName:"Urine R/E",
+        testPrice:400,
+      },
+      {
+        testName:"ECG",
+        testPrice:400,
+      },
+      {
+        testName:"Digital X-Ray of Chest P/A View (Digital)",
+        testPrice:400,
+      },
+      {
+        testName:"Portable Ultrasonogram of Whole Abdomen(P722)",
+        testPrice:3000,
+      },
+      {
+        testName:"Needle, Tube & Reg. Charges",
+        testPrice:110,
+      },
+      
+    ],
+    discountedPrice: 100,
   },
   {
-    no: "2.",
-    test: "Fasting Blood Sugar (2 hrs ABF)",
-    price: "400.00",
+    packageID: "2",
+    packageName: "Package-2",
+    packageIncludes: [
+      {
+        testName:"Complete Blood Count (CBC)",
+        testPrice:400,
+      },
+      {
+        testName:"Random Plasma glucose",
+        testPrice:200,
+      },
+      {
+        testName:"Lipid Profile (Random)",
+        testPrice:1400,
+      },
+      {
+        testName:"Blood Grouping & RH Factor",
+        testPrice:300,
+      },
+      {
+        testName:"Serum Creatinine",
+        testPrice:400,
+      },
+      {
+        testName:"HBs Ag",
+        testPrice:1000,
+      },
+      {
+        testName:"Urine R/E",
+        testPrice:400,
+      },
+      {
+        testName:"ECG",
+        testPrice:400,
+      },
+      {
+        testName:"Digital X-Ray of Chest P/A View (Digital)",
+        testPrice:400,
+      },
+      {
+        testName:"Portable Ultrasonogram of Whole Abdomen(P722)",
+        testPrice:3000,
+      },
+      {
+        testName:"Needle, Tube & Reg. Charges",
+        testPrice:110,
+      },
+      
+    ],
+    discountedPrice: 100,
   },
   {
-    no: "3.",
-    test: "HbA1c",
-    price: "1200.00",
+    packageID: "3",
+    packageName: "Package-3",
+    packageIncludes: [
+      {
+        testName:"Complete Blood Count (CBC)",
+        testPrice:400,
+      },
+      {
+        testName:"Random Plasma glucose",
+        testPrice:200,
+      },
+      {
+        testName:"Lipid Profile (Random)",
+        testPrice:1400,
+      },
+      {
+        testName:"Blood Grouping & RH Factor",
+        testPrice:300,
+      },
+      {
+        testName:"Serum Creatinine",
+        testPrice:400,
+      },
+      {
+        testName:"HBs Ag",
+        testPrice:1000,
+      },
+      {
+        testName:"Urine R/E",
+        testPrice:400,
+      },
+      {
+        testName:"ECG",
+        testPrice:400,
+      },
+      {
+        testName:"Digital X-Ray of Chest P/A View (Digital)",
+        testPrice:400,
+      },
+      {
+        testName:"Portable Ultrasonogram of Whole Abdomen(P722)",
+        testPrice:3000,
+      },
+      {
+        testName:"Needle, Tube & Reg. Charges",
+        testPrice:110,
+      },
+      
+    ],
+    discountedPrice: 100,
   },
   {
-    no: "4.",
-    test: "Lipid Profile(Fasting)",
-    price: "1200.00",
+    packageID: "4",
+    packageName: "Package-4",
+    packageIncludes: [
+      {
+        testName:"Complete Blood Count (CBC)",
+        testPrice:400,
+      },
+      {
+        testName:"Random Plasma glucose",
+        testPrice:200,
+      },
+      {
+        testName:"Lipid Profile (Random)",
+        testPrice:1400,
+      },
+      {
+        testName:"Blood Grouping & RH Factor",
+        testPrice:300,
+      },
+      {
+        testName:"Serum Creatinine",
+        testPrice:400,
+      },
+      {
+        testName:"HBs Ag",
+        testPrice:1000,
+      },
+      {
+        testName:"Urine R/E",
+        testPrice:400,
+      },
+      {
+        testName:"ECG",
+        testPrice:400,
+      },
+      {
+        testName:"Digital X-Ray of Chest P/A View (Digital)",
+        testPrice:400,
+      },
+      {
+        testName:"Portable Ultrasonogram of Whole Abdomen(P722)",
+        testPrice:3000,
+      },
+      {
+        testName:"Needle, Tube & Reg. Charges",
+        testPrice:110,
+      },
+      
+    ],
+    discountedPrice: 100,
   },
   {
-    no: "5.",
-    test: "Liver Function Test",
-    price: "1000.00",
-  },
-  {
-    no: "6.",
-    test: "Complete Blood Count (CBC)",
-    price: "400.00",
-  },
-  {
-    no: "7.",
-    test: "Fasting Blood Sugar (2 hrs ABF)",
-    price: "400.00",
-  },
-  {
-    no: "8.",
-    test: "HbA1c",
-    price: "1200.00",
-  },
-  {
-    no: "9.",
-    test: "Lipid Profile(Fasting)",
-    price: "1200.00",
-  },
-  {
-    no: "10.",
-    test: "Liver Function Test",
-    price: "1000.00",
-  },
+    packageID: "5",
+    packageName: "Package-5",
+    packageIncludes: [
+      {
+        testName:"Complete Blood Count (CBC)",
+        testPrice:400,
+      },
+      {
+        testName:"Random Plasma glucose",
+        testPrice:200,
+      },
+      {
+        testName:"Lipid Profile (Random)",
+        testPrice:1400,
+      },
+      {
+        testName:"Blood Grouping & RH Factor",
+        testPrice:300,
+      },
+      {
+        testName:"Serum Creatinine",
+        testPrice:400,
+      },
+      {
+        testName:"HBs Ag",
+        testPrice:1000,
+      },
+      {
+        testName:"Urine R/E",
+        testPrice:400,
+      },
+      {
+        testName:"ECG",
+        testPrice:400,
+      },
+      {
+        testName:"Digital X-Ray of Chest P/A View (Digital)",
+        testPrice:400,
+      },
+      {
+        testName:"Portable Ultrasonogram of Whole Abdomen(P722)",
+        testPrice:3000,
+      },
+      {
+        testName:"Needle, Tube & Reg. Charges",
+        testPrice:110,
+      },
+      
+    ],
+    discountedPrice: 100,
+  }
 ];
+
 export {
   ServiceCost,
   navLinks,
@@ -41909,5 +42120,5 @@ export {
   notice,
   reportDownload,
   doctorData,
-  TABLE_ROWS,
+  healthPackages,
 };
