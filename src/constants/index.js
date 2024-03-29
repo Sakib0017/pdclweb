@@ -41845,8 +41845,9 @@ const doctorData = {
 };
 const healthPackages = [
   {
-    packageID: "1",
-    packageName: "Package-1",
+    packageID: 1,
+    packageHeading: "Package-1",
+    packageName: "",
     packageIncludes: [
       {
         testName: "Complete Blood Count (CBC)",
@@ -41896,8 +41897,73 @@ const healthPackages = [
     discountedPrice: 5900,
   },
   {
-    packageID: "2",
-    packageName: "Package-2",
+    packageID: 2,
+    packageHeading: "Package-3",
+    packageName: "",
+    packageIncludes: [
+      {
+        testName: "Complete Blood Count (CBC)",
+        testPrice: 400,
+      },
+      {
+        testName: "Blood Sugar (Fasting & 2 hrs ABF)",
+        testPrice: 400,
+      },
+      {
+        testName: "Lipid Profile (Fasting)",
+        testPrice: 1400,
+      },
+      {
+        testName: "Blood Grouping & RH Factor",
+        testPrice: 300,
+      },
+      {
+        testName: "HBsAg",
+        testPrice: 1000,
+      },
+      {
+        testName: "SGPT",
+        testPrice: 500,
+      },
+      {
+        testName: "Serum Bilirubin (Total)",
+        testPrice: 400,
+      },
+      {
+        testName: "Serum Uric Acid",
+        testPrice: 600,
+      },
+      {
+        testName: "Serum Creatinine",
+        testPrice: 400,
+      },
+      {
+        testName: "Urine R/E",
+        testPrice: 400,
+      },
+      {
+        testName: "ECG",
+        testPrice: 400,
+      },
+      {
+        testName: "Digital X-Ray of Chest P/A View (Digital)",
+        testPrice: 600,
+      },
+      {
+        testName: "Ultrasonography of Whole Abdomen",
+        testPrice: 2500,
+      },
+      {
+        testName: "Needle, Tube & Reg. Charges",
+        testPrice: 110,
+      },
+    ],
+    discountedPrice: 6800,
+  },
+  {
+    packageID: 3,
+    packageHeading: "Package-2",
+    packageName: "",
     packageIncludes: [
       {
         testName: "Complete Blood Count (CBC)",
@@ -41968,71 +42034,9 @@ const healthPackages = [
     discountedPrice: 10060,
   },
   {
-    packageID: "3",
-    packageName: "Package-3",
-    packageIncludes: [
-      {
-        testName: "Complete Blood Count (CBC)",
-        testPrice: 400,
-      },
-      {
-        testName: "Blood Sugar (Fasting & 2 hrs ABF)",
-        testPrice: 400,
-      },
-      {
-        testName: "Lipid Profile (Fasting)",
-        testPrice: 1400,
-      },
-      {
-        testName: "Blood Grouping & RH Factor",
-        testPrice: 300,
-      },
-      {
-        testName: "HBsAg",
-        testPrice: 1000,
-      },
-      {
-        testName: "SGPT",
-        testPrice: 500,
-      },
-      {
-        testName: "Serum Bilirubin (Total)",
-        testPrice: 400,
-      },
-      {
-        testName: "Serum Uric Acid",
-        testPrice: 600,
-      },
-      {
-        testName: "Serum Creatinine",
-        testPrice: 400,
-      },
-      {
-        testName: "Urine R/E",
-        testPrice: 400,
-      },
-      {
-        testName: "ECG",
-        testPrice: 400,
-      },
-      {
-        testName: "Digital X-Ray of Chest P/A View (Digital)",
-        testPrice: 600,
-      },
-      {
-        testName: "Ultrasonography of Whole Abdomen",
-        testPrice: 2500,
-      },
-      {
-        testName: "Needle, Tube & Reg. Charges",
-        testPrice: 110,
-      },
-    ],
-    discountedPrice: 6800,
-  },
-  {
-    packageID: "4",
-    packageName: "Package-4",
+    packageID: 4,
+    packageHeading: "Package-4",
+    packageName: "",
     packageIncludes: [
       {
         testName: "Complete Blood Count (CBC)",
@@ -42107,8 +42111,9 @@ const healthPackages = [
     discountedPrice: 12180,
   },
   {
-    packageID: "5",
-    packageName: "Package-5",
+    packageID: 5,
+    packageHeading: "Package-5",
+    packageName: "For 40 Years And Above",
     packageIncludes: [
       {
         testName: "Complete Blood Count (CBC)",

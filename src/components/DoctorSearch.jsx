@@ -1,189 +1,169 @@
 import React, { useState, useEffect } from "react";
 import { doctorData } from "../constants";
 
+
+
+const DoctorCard = ({ doctor }) => {
+  return (
+    <div className="card-container">
+      <div className="card">
+        <div className="card-header">
+          {doctor.image === "Yes" ? (
+            <img
+              src={`path_to_images/${doctor.drName}.jpg`}
+              alt={doctor.drName}
+            />
+          ) : (
+            <div className="no-image">No Image Available</div>
+          )}
+          <h3>{doctor.drName}</h3>
+        </div>
+        <div className="card-body">
+          <p>
+            <strong>Specialization:</strong> {doctor.specializationName}
+          </p>
+          <p>
+            <strong>Degrees:</strong> {doctor.degree}
+          </p>
+          <p>
+            <strong>Working Days:</strong>
+          </p>
+          <ul>
+            {doctor.weekday.map((day, index) => (
+              <li key={index}>
+                {day.day}: {day.time}
+              </li>
+            ))}
+          </ul>
+        </div>
+        <div className="card-footer">
+          <p>
+            <strong>Contact:</strong> {doctor.drNumber}
+          </p>
+          <p>
+            <strong>Email:</strong> {doctor.email || "N/A"}
+          </p>
+        </div>
+      </div>
+    </div>
+  );
+};
+
 const DoctorSearch = () => {
+  const [filteredDoctors, setFilteredDoctors] = useState([]);
+  const [searchTerm, setSearchTerm] = useState("");
   const [selectedBranch, setSelectedBranch] = useState("");
   const [selectedSpecialization, setSelectedSpecialization] = useState("");
   const [selectedDay, setSelectedDay] = useState("");
-  const [searchDoctor, setSearchDoctor] = useState("");
 
-  const handleBranchChange = (event) => {
-    setSelectedBranch(event.target.value);
-    setSelectedSpecialization("");
-    setSelectedDay("");
-  };
-
-  const handleSpecializationChange = (event) => {
-    setSelectedSpecialization(event.target.value);
-    setSelectedDay("");
-  };
-
-  const handleDayChange = (event) => {
-    setSelectedDay(event.target.value);
-  };
-
-  const handleDoctorSearch = (event) => {
-    setSearchDoctor(event.target.value);
-  };
-
-  const filterDoctors = () => {
-    let doctors = doctorData.branches;
-
-    // Filter by branch
-    if (selectedBranch) {
-      doctors = doctors.filter((branch) => branch.braName === selectedBranch);
-    }
-
-    // Filter by specialization
-    if (selectedSpecialization) {
-      doctors = doctors.flatMap((branch) =>
-        branch.specilizations.filter(
-          (spec) => spec.specializationName === selectedSpecialization
-        )
-      );
-    }
-
-    // Filter by day
-    if (selectedDay) {
-      doctors = doctors.flatMap((branch) =>
-        branch.specilizations.flatMap((spec) =>
-          spec.doctorDetails.filter((doctor) =>
-            doctor.weekday.some((day) => day.day === selectedDay)
-          )
-        )
-      );
-    }
-
-    // Filter by doctor name search (case-insensitive)
-    if (searchDoctor) {
-      doctors = doctors.flatMap((branch) =>
-        branch.specilizations.flatMap((spec) =>
-          spec.doctorDetails.filter((doctor) =>
-            doctor.drName.toLowerCase().includes(searchDoctor.toLowerCase())
-          )
-        )
-      );
-    }
-
-    return doctors;
-  };
-
-  const filteredDoctors = filterDoctors();
-
-  const renderDoctors = () => {
-    return (
-      <div>
-        <h2>Search Results</h2>
-        {filteredDoctors.length === 0 ? (
-          <p>No doctors found based on your search criteria.</p>
-        ) : (
-          filteredDoctors.flatMap((branch) => (
-            <div key={branch.braID}>
-              <h3>{branch.braName}</h3>
-              {branch.specilizations.flatMap((spec) => (
-                <div key={spec.SpecilizationID}>
-                  <h4>{spec.specializationName}</h4>
-                  {spec.doctorDetails.map((doctor) => (
-                    <div key={doctor.drNumber}>
-                      <p>
-                        <b>Dr. {doctor.drName}</b> - {doctor.degree}
-                      </p>
-                      <p>
-                        <b>Day(s):</b>{" "}
-                        {doctor.weekday.map((day) => day.day).join(", ")}
-                      </p>
-                      <p>
-                        <b>Time:</b> {doctor.weekday[0].time}
-                      </p>
-                      {/* Add rendering of other doctor details as needed */}
-                      <p>
-                        <b>Building:</b> {doctor.building}
-                      </p>
-                      <p>
-                        <b>Room:</b> {doctor.room}
-                      </p>
-                      <p>
-                        <b>New Patient Fee:</b> {doctor.newPatient}
-                      </p>
-                      <p>
-                        <b>Old Patient Fee:</b> {doctor.oldPatient}
-                      </p>
-                    </div>
-                  ))}
-                </div>
-              ))}
-            </div>
-          ))
-        )}
-      </div>
+  useEffect(() => {
+    setFilteredDoctors(
+      doctorData.branches.flatMap((branch) =>
+        branch.specilizations.flatMap((spec) => spec.doctorDetails)
+      )
     );
+  }, []);
+
+  const handleBranchChange = (e) => {
+    setSelectedBranch(e.target.value);
   };
 
-  // Simplified function definitions for better clarity
-  const getBranches = () => {
-    return doctorData.branches.map((branch) => (
-      <option key={branch.braID} value={branch.braName}>
-        {branch.braName}
-      </option>
-    ));
+  const handleSpecializationChange = (e) => {
+    setSelectedSpecialization(e.target.value);
   };
 
-  const getSpecializations = () => {
-    const allSpecializations = new Set();
-    doctorData.branches.forEach((branch) => {
-      branch.specilizations.forEach((spec) =>
-        allSpecializations.add(spec.specializationName)
+  const handleDayChange = (e) => {
+    setSelectedDay(e.target.value);
+  };
+
+  const handleSearchChange = (e) => {
+    setSearchTerm(e.target.value.toLowerCase());
+  };
+
+  useEffect(() => {
+    let result = doctorData.branches.flatMap((branch) =>
+      branch.specilizations.flatMap((spec) =>
+        spec.doctorDetails.map((doctor) => ({
+          ...doctor,
+          braName: branch.braName,
+          specializationName: spec.specializationName,
+        }))
+      )
+    );
+
+    if (selectedBranch) {
+      result = result.filter((doctor) => doctor.braName === selectedBranch);
+    }
+
+    if (selectedSpecialization) {
+      result = result.filter(
+        (doctor) => doctor.specializationName === selectedSpecialization
       );
-    });
-    return Array.from(allSpecializations).map((spec) => (
-      <option key={spec.SpecilizationID} value={spec}>
-        {spec}
-      </option>
-    ));
-  };
+    }
 
-  const getDays = () => {
-    // Generate options for all 7 days of the week
-    return [
-      "Sunday",
-      "Monday",
-      "Tuesday",
-      "Wednesday",
-      "Thursday",
-      "Friday",
-      "Saturday",
-    ].map((day) => (
-      <option key={day} value={day}>
-        {day}
-      </option>
-    ));
-  };
+    if (selectedDay) {
+      result = result.filter((doctor) =>
+        doctor.weekday.some(
+          (day) => day.day.toLowerCase() === selectedDay.toLowerCase()
+        )
+      );
+    }
+
+    if (searchTerm) {
+      result = result.filter((doctor) =>
+        doctor.drName.toLowerCase().includes(searchTerm)
+      );
+    }
+
+    setFilteredDoctors(result);
+  }, [selectedBranch, selectedSpecialization, selectedDay, searchTerm]);
 
   return (
     <div>
-      <h2>Doctor Search</h2>
-      <select value={selectedBranch} onChange={handleBranchChange}>
-        <option value="">Select Branch</option>
-        {getBranches()}
-      </select>
-      <select
-        value={selectedSpecialization}
-        onChange={handleSpecializationChange}
-      >
-        <option value="">Select Specialization</option>
-        {getSpecializations()}
-      </select>
-      <select value={selectedDay} onChange={handleDayChange}>
-        <option value="">Select Day</option>
-        {getDays()}
-      </select>
       <input
         type="text"
-        placeholder="Search Doctor by Name"
-        value={searchDoctor}
-        onChange={handleDoctorSearch}
+        placeholder="Search by doctor's name..."
+        onChange={handleSearchChange}
       />
-      {filteredDoctors.length > 0 && renderDoctors()}
+      <select onChange={handleBranchChange}>
+        <option value="">Select Branch</option>
+        {doctorData.branches.map((branch) => (
+          <option key={branch.braID} value={branch.braName}>
+            {branch.braName}
+          </option>
+        ))}
+      </select>
+      <select onChange={handleSpecializationChange}>
+        <option value="">Select Specialization</option>
+        {doctorData.branches
+          .flatMap((branch) => branch.specilizations)
+          .map((spec) => (
+            <option key={spec.SpecilizationID} value={spec.specializationName}>
+              {spec.specializationName}
+            </option>
+          ))}
+      </select>
+      <select onChange={handleDayChange}>
+        <option value="">Select Day</option>
+        {[
+          "Saturday",
+          "Sunday",
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+        ].map((day) => (
+          <option key={day} value={day}>
+            {day}
+          </option>
+        ))}
+      </select>
+      <div className="doctor-list">
+        {filteredDoctors.map((doctor, index) => (
+          <DoctorCard key={index} doctor={doctor} />
+        ))}
+      </div>
     </div>
   );
 };
