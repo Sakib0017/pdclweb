@@ -67,6 +67,11 @@ const DoctorCard = ({ doctor }) => {
             <strong>Email:</strong> {doctor.email || "N/A"}
           </p>
         </div>
+        <div className="branch-name">
+          <p>
+            <strong>Branch:</strong> {doctor.braName}
+          </p>
+        </div>
       </div>
     </div>
   );
@@ -86,6 +91,13 @@ const DoctorSearch = () => {
       )
     );
   }, []);
+
+    const specializationSet = new Set(
+      doctorData.branches
+        .flatMap((branch) => branch.specilizations)
+        .map((spec) => spec.specializationName)
+    );
+    const specializationOptions = Array.from(specializationSet);
 
   const handleBranchChange = (e) => {
     setSelectedBranch(e.target.value);
@@ -183,15 +195,11 @@ const DoctorSearch = () => {
           variants={buttonVariants}
           whileHover="hover">
           <option value="">Select Specialization</option>
-          {doctorData.branches
-            .flatMap((branch) => branch.specilizations)
-            .map((spec) => (
-              <option
-                key={spec.SpecilizationID}
-                value={spec.specializationName}>
-                {spec.specializationName}
-              </option>
-            ))}
+          {specializationOptions.map((specName) => (
+            <option key={specName} value={specName}>
+              {specName}
+            </option>
+          ))}
         </motion.select>
         <motion.select
           className="px-2 py-1 border text-[#006642] border-PDCL-green bg-gray-200 rounded-lg focus:outline-none focus:ring-1 focus:ring-PDCL-green"
