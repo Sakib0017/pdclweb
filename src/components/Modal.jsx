@@ -65,7 +65,7 @@ const ProjectCard = ({
   const handleCloseModal = () => setIsOpen(false);
 
   return (
-    <div className="bg-gradient-to-b from-white to-[#00664218] hover:bg-gray-100 shadow-2xl rounded-2xl sm:w-[299px] w-full">
+    <div className="bg-gradient-to-b from-white to-[#f0fff0] hover:bg-gray-100 shadow-2xl rounded-2xl sm:w-[299px] w-full">
       <div className="relative w-full">
         <img
           src={image}
@@ -88,8 +88,7 @@ const ProjectCard = ({
           transition={spring}
           whileTap={{ scale: 0.9 }}
           variants={buttonVariants}
-          whileHover="hover"
-        >
+          whileHover="hover">
           View Details
         </motion.button>
         {isOpen && (
@@ -123,7 +122,7 @@ const Modal = () => {
   };
 
   return (
-    <div className="bg-white">
+    <div className="bg-[#F5FFFA]">
       <Nav />
       <Navbar />
       <Sidemenu />
@@ -142,8 +141,7 @@ const Modal = () => {
           transition={spring}
           whileTap={{ scale: 0.9 }}
           variants={buttonVariants}
-          whileHover="hover"
-        >
+          whileHover="hover">
           {filterByCity ? "Show All Branches" : "Inside Dhaka"}
         </motion.button>
 

@@ -12,20 +12,18 @@ import { Input, Checkbox, Button } from "@material-tailwind/react";
 import { Link } from "react-router-dom";
 function Contact() {
   return (
-    <div className="bg-white">
+    <div className="bg-[#F5FFFA]">
       <Nav />
 
       <Navbar />
       <Sidemenu />
       <Bottommenu />
       <div
-        className={`justify-center  items-center p-2 text-center flex flex-col  text-white`}
-      >
+        className={`justify-center  items-center p-2 text-center flex flex-col  text-white`}>
         <div className=" flex-col mt-[200px] max-w-7xl container  block items-stretch md:flex-row    mx-auto">
           <Card
             className="mx-auto w-full bg-gray-100-5 rounded-[10px] max-w-7xl"
-            shadow={true}
-          >
+            shadow={true}>
             <form className="mt-8 mb-2 w-full p-5 max-w-7xl  sm:w-300">
               <div className="mb-1 flex flex-col gap-6">
                 <h5 className="text-[44px] p-5 font-ubuntu font-bold text-[#006642]">
@@ -34,8 +32,7 @@ function Contact() {
                 <Typography
                   variant="h6"
                   color="blue-gray"
-                  className="-mb-3 text-[#006642] text-start"
-                >
+                  className="-mb-3 text-[#006642] text-start">
                   Your Email
                 </Typography>
                 <Input
@@ -49,8 +46,7 @@ function Contact() {
                 <Typography
                   variant="h6"
                   color="blue-gray"
-                  className="-mb-3 text-[#006642] text-start"
-                >
+                  className="-mb-3 text-[#006642] text-start">
                   Your FullName
                 </Typography>
                 <Input
@@ -64,8 +60,7 @@ function Contact() {
                 <Typography
                   variant="h6"
                   color="blue-gray"
-                  className="-mb-3 text-[#006642] text-start"
-                >
+                  className="-mb-3 text-[#006642] text-start">
                   Your Mobile
                 </Typography>
                 <Input
@@ -79,8 +74,7 @@ function Contact() {
                 <Typography
                   variant="h6"
                   color="blue-gray"
-                  className="-mb-3 text-[#006642] text-start"
-                >
+                  className="-mb-3 text-[#006642] text-start">
                   Your Messages
                 </Typography>
                 <Input
@@ -103,8 +97,7 @@ function Contact() {
         </div>
       </div>
       <div
-        className={`inset-0 justify-center items-center mb-[20px] text-center flex flex-wrap  text-white`}
-      >
+        className={`inset-0 justify-center items-center mb-[20px] text-center flex flex-wrap  text-white`}>
         <div className="flex-col  max-w-screen-xl container rounded block items-stretch md:flex-row  mt-[20px] mx-auto">
           <div className="relative flex flex-wrap p-2">
             <iframe
@@ -113,15 +106,13 @@ function Contact() {
               height="600"
               allowfullscreen=""
               loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"
-            ></iframe>
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
 
           <div className="w-full">
             <ul
               className="flex mb-0 ml-2 mr-2 list-none flex-wrap pt-1 pb-2 flex-row"
-              role="tablist"
-            >
+              role="tablist">
               <li className="-mb-px mr-2 last:mr-0 flex-auto text-center"></li>
             </ul>
           </div>

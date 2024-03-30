@@ -25,14 +25,13 @@ const ProjectCard = (
   return (
     <>
       <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
-        <div className="bg-gray-100-5 shadow rounded-md h-auto sm:w-[299px] w-full">
+        <div className="bg-gradient-to-b from-white to-[#f0fff0] hover:bg-gray-100 shadow-2xl rounded-2xl h-auto sm:w-[299px] w-full">
           <Popover placement="center">
             <PopoverHandler>
               <div
                 className="relative w-full h-[150px]"
                 data-modal-target="default-modal"
-                data-modal-toggle="default-modal"
-              >
+                data-modal-toggle="default-modal">
                 <img
                   src={noticeImage}
                   alt="project_image"
@@ -45,8 +44,7 @@ const ProjectCard = (
                 <div
                   className="relative w-auto h-auto"
                   data-modal-target="default-modal"
-                  data-modal-toggle="default-modal"
-                >
+                  data-modal-toggle="default-modal">
                   <img
                     src={noticeImage}
                     alt="project_image"
@@ -81,7 +79,7 @@ function Notice({ imageSrc, altText, content }) {
   const handleOpenModal = () => setShowModal(true);
   const handleCloseModal = () => setShowModal(false);
   return (
-    <div className="bg-white">
+    <div className="bg-[#F5FFFA]">
       <Nav />
 
       <Navbar />

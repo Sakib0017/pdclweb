@@ -70,7 +70,7 @@ const Report = () => {
   };
 
   return (
-    <div className="bg-white">
+    <div className="bg-[#F5FFFA]">
       <Nav />
       <Navbar />
       <Sidemenu />
@@ -80,14 +80,14 @@ const Report = () => {
           <motion.input
             type="text"
             placeholder="Search branches..."
-            className="px-2 py-1 border text-[#006642] border-PDCL-green bg-gray-200  rounded-lg focus:outline-none focus:ring-1 focus:ring-PDCL-green"
+            className="px-2 py-1 border text-[#006642] border-PDCL-green bg-gray-100  rounded-lg focus:outline-none focus:ring-1 focus:ring-PDCL-green"
             value={searchTerm}
             variants={searchBoxVariants}
             onChange={handleSearchChange}
             whileHover="hover"
           />
         </div>
-        <div className="report-container w-full bg-white flex flex-wrap justify-between">
+        <div className="report-container w-full bg-[#F5FFFA] flex flex-wrap justify-between">
           {" "}
           {/* Use flexbox with justify-between for even card distribution */}
           <div className="border-x-2 px-3 flex flex-wrap w-full md:w-1/2">

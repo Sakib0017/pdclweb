@@ -31,47 +31,51 @@ const searchBoxVariants = {
 
 const DoctorCard = ({ doctor }) => {
   return (
-    <div className="card-container bg-gradient-to-b from-white to-[#00664218] hover:bg-gray-100 p-0 shadow-2xl rounded-2xl sm:w-[299px] w-full">
-      <div className="card text-black">
-        <div className="card-header">
-          {doctor.image ? (
-            <img src={doctor.image} alt={doctor.drName} />
-          ) : (
-            <div className="no-image">No Image Available</div>
-          )}
-          <h3>{doctor.drName}</h3>
-        </div>
-        <div className="card-body">
-          <p>
-            <strong>Specialization:</strong> {doctor.specializationName}
-          </p>
-          <p>
-            <strong>Degrees:</strong> {doctor.degree}
-          </p>
-          <p>
-            <strong>Working Days:</strong>
-          </p>
-          <ul>
-            {doctor.weekday.map((day, index) => (
-              <li key={index}>
-                {day.day}: {day.time}
-              </li>
-            ))}
-          </ul>
-        </div>
-        <div className="card-footer">
-          <p>
-            <strong>Contact:</strong> {doctor.drNumber}
-          </p>
-          <p>
-            <strong>Email:</strong> {doctor.email || "N/A"}
-          </p>
-        </div>
-        <div className="branch-name">
-          <p>
-            <strong>Branch:</strong> {doctor.braName}
-          </p>
-        </div>
+    <div className="card-container text-gray-500 bg-gradient-to-b from-white to-[#f0fff0] hover:bg-gray-100 shadow-2xl rounded-2xl sm:w-[399px] w-ful">
+      <div className="card-header relative w-full">
+        {doctor.image ? (
+          <img
+            src={doctor.image}
+            alt={doctor.drName}
+            className="w-full shadow-xl rounded-3xl object-cover opacity-95 p-2 "
+          />
+        ) : (
+          <div className="no-image font-ubuntu">No Image Available</div>
+        )}
+      </div>
+      <div className="card-body p-4 flex flex-col justify-between">
+        <h1 className="text-[#006642] px-2 font-ubuntu font-bold text-center text-[24px]">
+          {doctor.drName}
+        </h1>
+        <p className="px-2 pt-2 font-ubuntu text-[16px]">
+          <strong>Specialization:</strong> {doctor.specializationName}
+        </p>
+        <p className="font-ubuntu px-2">
+          <strong>Degrees:</strong> {doctor.degree}
+        </p>
+        <p className="font-ubuntu px-2">
+          <strong>Working Days:</strong>
+        </p>
+        <ul className="font-ubuntu px-2">
+          {doctor.weekday.map((day, index) => (
+            <li key={index}>
+              {day.day}: {day.time}
+            </li>
+          ))}
+        </ul>
+      </div>
+      <div className="card-footer p-4 flex flex-col justify-between">
+        <p className="font-ubuntu px-2">
+          <strong>Contact:</strong> {doctor.drNumber}
+        </p>
+        <p className="font-ubuntu px-2">
+          <strong>Email:</strong> {doctor.email || "N/A"}
+        </p>
+      </div>
+      <div className="branch-name p-4 flex flex-col justify-between">
+        <p className="font-ubuntu px-2">
+          <strong>Branch:</strong> {doctor.braName}
+        </p>
       </div>
     </div>
   );
@@ -154,7 +158,7 @@ const DoctorSearch = () => {
   }, [selectedBranch, selectedSpecialization, selectedDay, searchTerm]);
 
   return (
-    <div className="bg-white">
+    <div className="bg-[#F5FFFA]">
       <Nav />
       <Navbar />
       <Sidemenu />
@@ -225,7 +229,7 @@ const DoctorSearch = () => {
           ))}
         </motion.select>
       </div>
-      <div className="doctor-list flex mx-auto pb-10 pt-[150px] max-w-7xl justify-center flex-wrap gap-7">
+      <div className="doctor-list flex mx-auto pb-10 pt-[150px] max-w-7xl justify-center px-1 flex-wrap gap-7">
         {filteredDoctors.map((doctor, index) => (
           <DoctorCard key={index} doctor={doctor} />
         ))}

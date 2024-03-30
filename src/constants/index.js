@@ -41724,7 +41724,7 @@ const doctorData = {
               assistantGender: "Male",
               ext: "2249",
               assistantMobile: "01736131369",
-              image: "No",
+              image: MdZiaulHaqueFaruk,
             },
             // More doctorDetails under Medicine...
           ],
@@ -41781,7 +41781,7 @@ const doctorData = {
               assistantGender: "Male",
               ext: "111421",
               assistantMobile: "01768431923",
-              image: "Yes",
+              image: MosaddequeHossain,
             },
             // More doctorDetails under Cardiology...
           ],
@@ -41832,7 +41832,7 @@ const doctorData = {
               assistantGender: "Male",
               ext: "2249",
               assistantMobile: "01736131369",
-              image: "No",
+              image: MdSahabUddin,
             },
             // More doctorDetails under Medicine...
           ],

@@ -83,7 +83,7 @@ const About = () => {
   };
 
   return (
-    <div className="bg-white">
+    <div className="bg-[#F5FFFA]">
       <Nav />
       <Navbar />
       <Sidemenu />
