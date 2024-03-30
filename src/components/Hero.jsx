@@ -4,6 +4,7 @@ import React, { useState, useEffect } from "react";
 import video from "../assets/video.mp4";
 import AutoSizer from "react-virtualized/dist/commonjs/AutoSizer";
 import List from "react-virtualized/dist/commonjs/List";
+import { Link } from "react-router-dom";
 
 const ListHeader = () => (
   <div className="flex justify-between  px-8 py-2 bg-gray-400 font-bold">
@@ -221,13 +222,15 @@ const Hero = ({ color }) => {
                       <form className="max-w-screen-xl mx-auto">
                         <div className="grid md:grid-cols-9 md:gap-1">
                           <div className="relative z-0 col-span-9 w-full mb-1 group">
-                            <button
-                              type="button"
-                              className="text-gray-600 w-full rounded block col-span-9 mb-2 h-[43px] hover:text-gray-900 border bg-[#F0FFF0] shadow-2xl  border-none focus:ring-4 focus:outline-none focus:ring-[#006642] font-ubuntu text-[16px] font-bold px-5 py-2.5 text-center  dark:border-[#006642] dark:text-black dark:hover:text-black dark:hover:bg-gray-500 dark:focus:ring-[#006642]"
-                            >
-                              Make An Appointment{" "}
-                              <span className="animate-ping">Now</span>
-                            </button>
+                            <Link to="http://appointment.populardiagnostic.com/appointment">
+                              <button
+                                type="button"
+                                className="text-gray-600 w-full rounded block col-span-9 mb-2 h-[43px] hover:text-gray-900 border bg-[#F0FFF0] shadow-2xl  border-none focus:ring-4 focus:outline-none focus:ring-[#006642] font-ubuntu text-[16px] font-bold px-5 py-2.5 text-center  dark:border-[#006642] dark:text-black dark:hover:text-black dark:hover:bg-gray-500 dark:focus:ring-[#006642]"
+                              >
+                                Make An Appointment{" "}
+                                <span className="animate-ping">Now</span>
+                              </button>
+                            </Link>
                             <div className="flex flex-row w-full col-span-9">
                               <div className="flex w-full col-span-4 items-center">
                                 {!isSearchVisible && (
@@ -480,14 +483,18 @@ const Hero = ({ color }) => {
                       <form className="max-w-7xl p-2.5 mx-auto">
                         <div className=" md:gap-1">
                           <div className="relative z-0 w-full mb-1 group">
-                            <button
-                              type="button"
-                              className="text-gray-600 w-full rounded block  mb-2 h-[43px] hover:text-gray-900 border bg-[#F0FFF0] shadow-2xl  border-none focus:ring-4 focus:outline-none focus:ring-[#006642] font-ubuntu text-[16px] font-bold px-5 py-2.5 text-center  dark:border-[#006642] dark:text-black dark:hover:text-black dark:hover:bg-gray-500 dark:focus:ring-[#006642]"
-                            >
-                              Make An Appointment{" "}
-                              <span className="animate-ping">Now</span>
-                            </button>
+                            <Link to="http://appointment.populardiagnostic.com/appointment">
+                              {" "}
+                              <button
+                                type="button"
+                                className="text-gray-600 w-full rounded block  mb-2 h-[43px] hover:text-gray-900 border bg-[#F0FFF0] shadow-2xl  border-none focus:ring-4 focus:outline-none focus:ring-[#006642] font-ubuntu text-[16px] font-bold px-5 py-2.5 text-center  dark:border-[#006642] dark:text-black dark:hover:text-black dark:hover:bg-gray-500 dark:focus:ring-[#006642]"
+                              >
+                                Make An Appointment{" "}
+                                <span className="animate-ping">Now</span>
+                              </button>
+                            </Link>
                           </div>
+
                           <div className="relative z-0 w-full mb-1 group">
                             {!isSearchVisible && (
                               <button
@@ -516,12 +523,6 @@ const Hero = ({ color }) => {
                           <div className="relative  z-0 w-full mb-1 group">
                             {isSearchVisible && (
                               <form class=" w-full  mb-1">
-                                <label
-                                  for="default-search"
-                                  class="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white"
-                                >
-                                  Search
-                                </label>
                                 <div class="relative">
                                   <div class="absolute  flex items-center pe-3 pointer-events-none"></div>
                                   <input

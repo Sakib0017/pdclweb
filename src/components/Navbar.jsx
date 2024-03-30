@@ -187,7 +187,7 @@ const Navbar = () => {
                     </PopoverHandler>
                     <PopoverContent className="mt-[24px] fill-white">
                       <a>
-                        <Link to="/about">
+                        <Link to="/director">
                           {" "}
                           <p
                             type="button"

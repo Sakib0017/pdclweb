@@ -31,12 +31,14 @@ import Notification from "./Notification";
 import Bottommenu from "./Bottommenu";
 import DoctorDetail from "./DoctorDetail";
 import DoctorSearch from "./DoctorSearch";
+import Director from "./Director";
 export {
   Modal,
   Notice,
   Details,
   DoctorSearch,
   DoctorDetail,
+  Director,
   Bottommenu,
   Login,
   Health,

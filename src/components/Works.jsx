@@ -18,7 +18,7 @@ const ProjectCard = ({
   return (
     <div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
       <div className="grid md:grid-row-3 items-center sm:w-[380px] w-full justify-center mx-auto  md:gap-1 ">
-        <div className="text-black m-2 bg-[#F0FFF0] shadow-xl rounded-xl  w-auto text-center">
+        <div className="text-black m-2 bg-gray-50 shadow-xl rounded-xl  w-auto text-center">
           <div className="relative w-auto h-auto">
             <video
               src={video}
@@ -73,7 +73,7 @@ const Works = () => {
     <>
       <div className="">
         <div className=" flex-row hidden md:block flex-wrap mb-10 gap-10">
-          <div className="bg-[#F0FFF0] shadow-lg rounded-lg p-5 mx-auto w-full ">
+          <div className="bg-gray-50 shadow-lg rounded-lg p-5 mx-auto w-full ">
             <div className="flex flex-col  flex-wrap max-w-screen-xl mx-auto  ">
               <div className="w-auto  border-l-[5px]  border-[#006642] border-opacity-50 pl-2  text-start ml-3">
                 <h1 className="text-slate-900/50 font-ubuntu font-extrabold text-[28px]">
@@ -121,7 +121,7 @@ const Works = () => {
         </div>
 
         <div className=" flex-col sm:hidden flex-wrap mb-10 gap-10">
-          <div className="bg-[#F0FFF0]/5 shadow p-5 mx-auto w-full ">
+          <div className="bg-gray-50/5 shadow p-5 mx-auto w-full ">
             <div className="flex flex-col  flex-wrap max-w-screen-xl mx-auto  ">
               <div className="w-full  border-l-[5px]  border-[#006642] border-opacity-50 pl-2  text-start ml-3">
                 <h1 className="text-slate-900/50 font-ubuntu font-extrabold text-[28px]">

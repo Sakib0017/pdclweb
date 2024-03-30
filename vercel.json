@@ -47,6 +47,23 @@
         {
             "src": "/about",
             "dest": "/"
+        },
+        {
+            "src": "/director",
+            "dest": "/"
+        },
+        {
+            "src": "/doctorsearch",
+            "dest": "/"
+        },
+        {
+            "src": "/doctordetail",
+            "dest": "/"
+        },
+        {
+            "src": "/notification",
+            "dest": "/"
         }
+        
     ]
 }
