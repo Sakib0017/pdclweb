@@ -173,8 +173,8 @@ const Navbar = () => {
                   </a>
                 </div>
               </li>
-              <li className="inline-flex mr-4 flex-row justify-center items-center">
-                <div className=" items-end hidden md:block md:order-2 ">
+              <li className="inline-flex mr-4 flex-row  justify-center items-center">
+                <div className=" items-end hidden  md:block md:order-2 ">
                   <Popover placement="bottom">
                     <PopoverHandler>
                       <p
@@ -185,7 +185,35 @@ const Navbar = () => {
                         About Us
                       </p>
                     </PopoverHandler>
-                    <PopoverContent className="mt-[24px] fill-white">
+                    <PopoverContent className="mt-[24px] z-20 fill-white">
+                      <a>
+                        {" "}
+                        <Link to="/about">
+                          <p
+                            type="button"
+                            data-dropdown-toggle="language-dropdown-menu"
+                            className="ms-auto items-center font-ubuntu justify-center px-4 py-2 text-sm rounded-lg cursor-pointer"
+                          >
+                            <span className="text-emerald-900/80 hover:text-[#000000] text-[14px] ms-0 mx-auto font-medium font-ubuntu">
+                              Objectives & Goals
+                            </span>
+                          </p>
+                        </Link>
+                      </a>
+                      <a>
+                        {" "}
+                        <Link to="/chairman">
+                          <p
+                            type="button"
+                            data-dropdown-toggle="language-dropdown-menu"
+                            className="ms-auto  items-center font-ubuntu justify-center px-4 py-2 text-sm rounded-lg cursor-pointer"
+                          >
+                            <span className="text-emerald-900/80 hover:text-[#000000] text-[14px] ms-0 mx-auto font-medium font-ubuntu">
+                              Message from Chairman
+                            </span>
+                          </p>
+                        </Link>
+                      </a>
                       <a>
                         <Link to="/director">
                           {" "}
@@ -425,17 +453,75 @@ const Navbar = () => {
                     <div className="flex flex-row ">
                       <a>
                         {" "}
-                        <Link to="/login">
+                        <Link to="/director">
                           <p className="text-white items-center flex flex-row text-[14px] ms-0 me-1 font-medium font-ubuntu">
-                            <svg
-                              class="w-[14px] h-[14px] fill-white"
-                              viewBox="0 0 448 512"
-                              xmlns="http://www.w3.org/2000/svg"
-                            >
-                              <path d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-45.7 48C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512H418.3c16.4 0 29.7-13.3 29.7-29.7C448 383.8 368.2 304 269.7 304H178.3z"></path>
-                            </svg>
                             <a href="">
-                              <span className="text-[14px] pl-2 font-medium font-ubuntu ">
+                              <span className="text-[14px] pl-10 font-medium font-ubuntu ">
+                                Objectives & Goals
+                              </span>
+                            </a>
+                          </p>
+                        </Link>{" "}
+                      </a>
+                    </div>
+                  </li>
+                  <li className="inline-flex flex-row justify-start items-start">
+                    <div className="flex flex-row ">
+                      <a>
+                        {" "}
+                        <Link to="/chairman">
+                          <p className="text-white items-center flex flex-row text-[14px] ms-0 me-1 font-medium font-ubuntu">
+                            <a href="">
+                              <span className="text-[14px] pl-10 font-medium font-ubuntu ">
+                                Message from Chairman
+                              </span>
+                            </a>
+                          </p>
+                        </Link>{" "}
+                      </a>
+                    </div>
+                  </li>
+                  <li className="inline-flex flex-row justify-start items-start">
+                    <div className="flex flex-row ">
+                      <a>
+                        {" "}
+                        <Link to="/director">
+                          <p className="text-white items-center flex flex-row text-[14px] ms-0 me-1 font-medium font-ubuntu">
+                            <a href="">
+                              <span className="text-[14px] pl-10 font-medium font-ubuntu ">
+                                Message from Director
+                              </span>
+                            </a>
+                          </p>
+                        </Link>{" "}
+                      </a>
+                    </div>
+                  </li>
+
+                  <li className="inline-flex flex-row justify-start items-start">
+                    <div className="flex flex-row ">
+                      <a>
+                        {" "}
+                        <Link to="/about">
+                          <p className="text-white items-center flex flex-row text-[14px] ms-0 me-1 font-medium font-ubuntu">
+                            <a href="">
+                              <span className="text-[14px] pl-10 font-medium font-ubuntu ">
+                                Management Team
+                              </span>
+                            </a>
+                          </p>
+                        </Link>{" "}
+                      </a>
+                    </div>
+                  </li>
+                  <li className="inline-flex flex-row justify-start items-start">
+                    <div className="flex flex-row ">
+                      <a>
+                        {" "}
+                        <Link to="/login">
+                          <p className="text-blue-200 items-center flex flex-row text-[14px]  font-medium font-ubuntu">
+                            <a href="">
+                              <span className="text-[14px]  font-medium font-ubuntu ">
                                 Login
                               </span>
                             </a>
@@ -450,16 +536,9 @@ const Navbar = () => {
                       <a>
                         {" "}
                         <Link to="/sign">
-                          <p className="text-white items-center flex flex-row text-[14px] ms-0 me-1 font-medium font-ubuntu">
-                            <svg
-                              class="w-[30px] h-[30px] fill-white "
-                              viewBox="0 0 640 512"
-                              xmlns="http://www.w3.org/2000/svg"
-                            >
-                              <path d="M96 128a128 128 0 1 1 256 0A128 128 0 1 1 96 128zM0 482.3C0 383.8 79.8 304 178.3 304h91.4C368.2 304 448 383.8 448 482.3c0 16.4-13.3 29.7-29.7 29.7H29.7C13.3 512 0 498.7 0 482.3zM504 312V248H440c-13.3 0-24-10.7-24-24s10.7-24 24-24h64V136c0-13.3 10.7-24 24-24s24 10.7 24 24v64h64c13.3 0 24 10.7 24 24s-10.7 24-24 24H552v64c0 13.3-10.7 24-24 24s-24-10.7-24-24z"></path>
-                            </svg>
+                          <p className="text-blue-200 items-center flex flex-row text-[14px] ms-0 me-1 font-medium font-ubuntu">
                             <a href="">
-                              <span className="text-[14px] pl-1 font-medium font-ubuntu ">
+                              <span className="text-[14px]  font-medium font-ubuntu ">
                                 Register
                               </span>
                             </a>

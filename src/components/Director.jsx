@@ -11,7 +11,7 @@ const Director = () => {
       <Sidemenu />
       <Bottommenu />
       <div className="bg-white pt-[200px]">
-        <div className=" flex-row hidden md:block flex-wrap mb-10 gap-10">
+        <div className=" flex-row  flex-wrap mb-10 gap-10">
           <div className=" rounded-lg p-5 mx-auto w-full ">
             <div className="flex flex-row  flex-wrap max-w-screen-xl mx-auto  ">
               <div className="w-auto me-auto items-start justify-start border-opacity-50 pl-2  text-start ml-3">

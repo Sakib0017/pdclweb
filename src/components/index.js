@@ -32,11 +32,13 @@ import Bottommenu from "./Bottommenu";
 import DoctorDetail from "./DoctorDetail";
 import DoctorSearch from "./DoctorSearch";
 import Director from "./Director";
+import Chairman from "./Chairman";
 export {
   Modal,
   Notice,
   Details,
   DoctorSearch,
+  Chairman,
   DoctorDetail,
   Director,
   Bottommenu,
