@@ -29,7 +29,7 @@ const Bottommenu = () => {
   }, []);
   return (
     <div>
-      <div className="sm:hidden mx-auto">
+      <div className="sm:hidden z-10 mx-auto">
         <Link to="/modal">
           {" "}
           <Tooltip

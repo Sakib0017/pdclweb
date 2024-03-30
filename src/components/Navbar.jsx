@@ -336,7 +336,24 @@ const Navbar = () => {
                       </a>
                     </div>
                   </li>
-
+                  <li className="inline-flex flex-row justify-start items-start">
+                    <div className="flex flex-row ">
+                      <a>
+                        {" "}
+                        <Link to="/doctorsearch">
+                          {" "}
+                          <p className="text-white me-auto items-start flex flex-row text-[14px] font-medium font-ubuntu">
+                            <a href="">
+                              {" "}
+                              <span className="text-[14px] font-medium font-ubuntu ">
+                                Doctors
+                              </span>
+                            </a>
+                          </p>
+                        </Link>
+                      </a>
+                    </div>
+                  </li>
                   <li className="inline-flex flex-row justify-start items-start">
                     <div className="flex flex-row ">
                       <a>

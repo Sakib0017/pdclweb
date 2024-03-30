@@ -14,7 +14,7 @@ const PackageCard = ({ packageData }) => {
   const totalCost = calculateTotalCost(packageData.packageIncludes);
   const savings = calculateSavings(totalCost, packageData.discountedPrice);
   return (
-    <div className="relative bg-[#f0fff0] max-w-7xl rounded-2xl overflow-hidden shadow-2xl p-4 m-4">
+    <div className="relative bg-[#f0fff0] z-5 max-w-7xl rounded-2xl overflow-hidden shadow-2xl p-4 m-4">
       <div className="absolute top-8 left-[18%] transform -rotate-45 -translate-x-1/2 translate-y-1/2 bg-[#1b7ced] shadow-xl px-[25%] py-3">
         <p className="text-[#ffffff] text-xl font-bold whitespace-nowrap">
           Save!{" "}
@@ -73,7 +73,7 @@ const Health = () => {
       <Navbar />
       <Sidemenu />
       <Bottommenu />
-      <div className="flex mx-auto pb-10 pt-[150px] max-w-7xl justify-center flex-wrap gap-7">
+      <div className="flex mx-auto pb-10 pt-[150px] z-0 max-w-7xl justify-center flex-wrap gap-7">
         {healthPackages.map((packageData) => (
           <PackageCard key={packageData.packageID} packageData={packageData} />
         ))}
