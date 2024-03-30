@@ -1,18 +1,41 @@
 import React, { useState, useEffect } from "react";
+import { motion } from "framer-motion";
+import {
+  Sidemenu,
+  Bottommenu,
+  Details,
+  Nav,
+  Navbar,
+  Tech,
+} from "../components";
 import { doctorData } from "../constants";
 
 
 
+const spring = {
+  type: "spring",
+  stiffness: 700,
+  damping: 30,
+};
+const buttonVariants = {
+  initial: { opacity: 1, scale: 1 },
+  animate: { opacity: 1, scale: 1.1 },
+  hover: { scale: 1.05 },
+};
+
+const searchBoxVariants = {
+  initial: { opacity: 1, scale: 1 },
+  hover: { scale: 1.03 },
+};
+
+
 const DoctorCard = ({ doctor }) => {
   return (
-    <div className="card-container">
-      <div className="card">
+    <div className="card-container bg-gradient-to-b from-white to-[#00664218] hover:bg-gray-100 p-0 shadow-2xl rounded-2xl sm:w-[299px] w-full">
+      <div className="card text-black">
         <div className="card-header">
-          {doctor.image === "Yes" ? (
-            <img
-              src={`path_to_images/${doctor.drName}.jpg`}
-              alt={doctor.drName}
-            />
+          {doctor.image ? (
+            <img src={doctor.image} alt={doctor.drName} />
           ) : (
             <div className="no-image">No Image Available</div>
           )}
@@ -119,51 +142,87 @@ const DoctorSearch = () => {
   }, [selectedBranch, selectedSpecialization, selectedDay, searchTerm]);
 
   return (
-    <div>
-      <input
-        type="text"
-        placeholder="Search by doctor's name..."
-        onChange={handleSearchChange}
-      />
-      <select onChange={handleBranchChange}>
-        <option value="">Select Branch</option>
-        {doctorData.branches.map((branch) => (
-          <option key={branch.braID} value={branch.braName}>
-            {branch.braName}
-          </option>
-        ))}
-      </select>
-      <select onChange={handleSpecializationChange}>
-        <option value="">Select Specialization</option>
-        {doctorData.branches
-          .flatMap((branch) => branch.specilizations)
-          .map((spec) => (
-            <option key={spec.SpecilizationID} value={spec.specializationName}>
-              {spec.specializationName}
+    <div className="bg-white">
+      <Nav />
+      <Navbar />
+      <Sidemenu />
+      <Bottommenu />
+      <div className="sticky top-[99px] z-10 rounded-xl shadow-2xl bg-white flex flex-col-reverse gap-2 sm:flex-row p-5 row-span-1 mx-12 xl:mx-auto xl:max-w-7xl justify-between">
+        <motion.input
+          className="px-2 py-1 border text-[#006642] border-PDCL-green bg-gray-200  rounded-lg focus:outline-none focus:ring-1 focus:ring-PDCL-green"
+          type="text"
+          placeholder="Search by doctor's name..."
+          layout
+          transition={spring}
+          whileTap={{ scale: 0.9 }}
+          variants={buttonVariants}
+          whileHover="hover"
+          onChange={handleSearchChange}
+        />
+        <motion.select
+          className="px-2 py-1 border text-[#006642] border-PDCL-green bg-gray-200 rounded-lg focus:outline-none focus:ring-1 focus:ring-PDCL-green"
+          onChange={handleBranchChange}
+          layout
+          transition={spring}
+          whileTap={{ scale: 0.9 }}
+          variants={buttonVariants}
+          whileHover="hover">
+          <option value="">Select Branch</option>
+          {doctorData.branches.map((branch) => (
+            <option key={branch.braID} value={branch.braName}>
+              {branch.braName}
             </option>
           ))}
-      </select>
-      <select onChange={handleDayChange}>
-        <option value="">Select Day</option>
-        {[
-          "Saturday",
-          "Sunday",
-          "Monday",
-          "Tuesday",
-          "Wednesday",
-          "Thursday",
-          "Friday",
-        ].map((day) => (
-          <option key={day} value={day}>
-            {day}
-          </option>
-        ))}
-      </select>
-      <div className="doctor-list">
+        </motion.select>
+        <motion.select
+          className="px-2 py-1 border text-[#006642] border-PDCL-green bg-gray-200 rounded-lg focus:outline-none focus:ring-1 focus:ring-PDCL-green"
+          onChange={handleSpecializationChange}
+          layout
+          transition={spring}
+          whileTap={{ scale: 0.9 }}
+          variants={buttonVariants}
+          whileHover="hover">
+          <option value="">Select Specialization</option>
+          {doctorData.branches
+            .flatMap((branch) => branch.specilizations)
+            .map((spec) => (
+              <option
+                key={spec.SpecilizationID}
+                value={spec.specializationName}>
+                {spec.specializationName}
+              </option>
+            ))}
+        </motion.select>
+        <motion.select
+          className="px-2 py-1 border text-[#006642] border-PDCL-green bg-gray-200 rounded-lg focus:outline-none focus:ring-1 focus:ring-PDCL-green"
+          onChange={handleDayChange}
+          layout
+          transition={spring}
+          whileTap={{ scale: 0.9 }}
+          variants={buttonVariants}
+          whileHover="hover">
+          <option value="">Select Day</option>
+          {[
+            "Saturday",
+            "Sunday",
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+          ].map((day) => (
+            <option key={day} value={day}>
+              {day}
+            </option>
+          ))}
+        </motion.select>
+      </div>
+      <div className="doctor-list flex mx-auto pb-10 pt-[150px] max-w-7xl justify-center flex-wrap gap-7">
         {filteredDoctors.map((doctor, index) => (
           <DoctorCard key={index} doctor={doctor} />
         ))}
       </div>
+      <Tech />
     </div>
   );
 };

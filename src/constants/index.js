@@ -41673,7 +41673,7 @@ const doctorData = {
               assistantGender: "Male",
               ext: "111421",
               assistantMobile: "01768431923",
-              image: "Yes",
+              image: MohammadArif,
             },
             // More doctorDetails under Cardiology...
           ],
@@ -41797,7 +41797,7 @@ const doctorData = {
                 "MBBS, FCPS (Medicine), FACP, FRCP (Edin). Sir Salimullah Medical College & Mitford Hospital, Dhaka.",
               weekday: [
                 {
-                  day: "Saturday",
+                  day: "Friday",
                   time: "10:00 AM - 5:00 PM",
                 },
                 {
@@ -41958,7 +41958,7 @@ const healthPackages = [
         testPrice: 110,
       },
     ],
-    discountedPrice: 6800,
+    discountedPrice: 7180,
   },
   {
     packageID: 3,
@@ -42031,7 +42031,7 @@ const healthPackages = [
         testPrice: 130,
       },
     ],
-    discountedPrice: 10060,
+    discountedPrice: 10650,
   },
   {
     packageID: 4,
@@ -42108,7 +42108,7 @@ const healthPackages = [
         testPrice: 230,
       },
     ],
-    discountedPrice: 12180,
+    discountedPrice: 12850,
   },
   {
     packageID: 5,
@@ -42120,23 +42120,37 @@ const healthPackages = [
         testPrice: 400,
       },
       {
-        testName: "Random Plasma glucose",
-        testPrice: 200,
-      },
-      {
-        testName: "Lipid Profile (Random)",
-        testPrice: 1400,
-      },
-      {
-        testName: "Blood Grouping & RH Factor",
-        testPrice: 300,
-      },
-      {
-        testName: "Serum Creatinine",
+        testName: "Blood Sugar (Fasting & 2 hrs ABF)",
         testPrice: 400,
       },
       {
-        testName: "HBs Ag",
+        testName: "HbA1c",
+        testPrice: 1400,
+      },
+      {
+        testName: "Lipid Profile (Fasting)",
+        testPrice: 1400,
+      },
+
+      {
+        testName:
+          "Liver Function Test \n(SGPT, Alkaline Phosphar, S.Bilirubin)",
+        testPrice: 1000,
+      },
+      {
+        testName: "Kidney Function Test (S.Creatinine, S.Urea, Electrolytes)",
+        testPrice: 1900,
+      },
+      {
+        testName: "C-Reactive Protein",
+        testPrice: 600,
+      },
+      {
+        testName: "TSH",
+        testPrice: 1000,
+      },
+      {
+        testName: "HBsAg",
         testPrice: 1000,
       },
       {
@@ -42149,18 +42163,26 @@ const healthPackages = [
       },
       {
         testName: "Digital X-Ray of Chest P/A View (Digital)",
-        testPrice: 400,
+        testPrice: 600,
       },
       {
-        testName: "Portable Ultrasonogram of Whole Abdomen(P722)",
+        testName: "Colour Doppler Echo",
         testPrice: 3000,
       },
       {
+        testName: "ETT",
+        testPrice: 3000,
+      },
+      {
+        testName: "Ultrasonography of Whole Abdomen",
+        testPrice: 2500,
+      },
+      {
         testName: "Needle, Tube & Reg. Charges",
-        testPrice: 110,
+        testPrice: 130,
       },
     ],
-    discountedPrice: 100,
+    discountedPrice: 14630,
   },
 ];
 

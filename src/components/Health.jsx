@@ -15,13 +15,10 @@ const PackageCard = ({ packageData }) => {
   const savings = calculateSavings(totalCost, packageData.discountedPrice);
   return (
     <div className="relative bg-[#f0fff0] max-w-7xl rounded-2xl overflow-hidden shadow-2xl p-4 m-4">
-      <div className="absolute top-8 left-[18%] transform -rotate-45 -translate-x-1/2 translate-y-1/2 bg-[#1b7ced] shadow-xl px-[15%] py-3">
+      <div className="absolute top-8 left-[18%] transform -rotate-45 -translate-x-1/2 translate-y-1/2 bg-[#1b7ced] shadow-xl px-[25%] py-3">
         <p className="text-[#ffffff] text-xl font-bold whitespace-nowrap">
-          Save:{" "}
-          {savings.toLocaleString("en-BD", {
-            style: "currency",
-            currency: "BDT",
-          })}
+          Save!{" "}
+          {savings.toLocaleString("en-IN",)}
         </p>
       </div>
       <div className="pb-6 pt-12 font-bold text-[#36454F] text-2xl text-center mb-2">
