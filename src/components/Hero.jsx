@@ -343,8 +343,8 @@ const Hero = ({ color }) => {
             </div>
           </div>
 
-          <div className="flex flex-col mb-2 rounded sm:hidden flex-1 justify-top items-center mt-[25px] mx-auto">
-            <div className=" w-[115%] h-auto bg-[#F5FFFA] p-2 rounded block">
+          <div className="flex flex-col mb-2 rounded sm:hidden flex-1 justify-Center items-center mt-[130px] mx-auto">
+            <div className=" w-[125%] h-auto bg-[#F5FFFA] p-2 rounded block">
               <ul
                 className="flex mb-0 ml-2 mr-2 list-none flex-wrap pt-1 pb-1 flex-col shadow-lg"
                 role="tablist"
@@ -353,13 +353,13 @@ const Hero = ({ color }) => {
                   <a
                     className={
                       "text-[16px] font-bold font-ubuntu px-2 py-3 shadow-lg rounded block leading-normal " +
-                      (openTab === 2
+                      (openTab === 3
                         ? "text-slate-900 bg-" + color + "-600"
                         : "text-" + color + "-600 bg-PDCL-green ")
                     }
                     onClick={(e) => {
                       e.preventDefault();
-                      setOpenTab(2);
+                      setOpenTab(3);
                     }}
                     data-toggle="tab"
                     href="#link1"
@@ -368,17 +368,17 @@ const Hero = ({ color }) => {
                     Find Doctor
                   </a>
                 </li>
-                <li className="pb-1 last:mr-0 flex-auto text-center">
+                <li className="pb-1  last:mr-0 w-full flex-auto text-center">
                   <a
                     className={
                       "text-[16px] font-bold font-ubuntu px-2 py-3 shadow-lg rounded block leading-normal " +
-                      (openTab === 1
+                      (openTab === 2
                         ? "text-slate-900 bg-" + color + "-600"
                         : "text-" + color + "-600 bg-PDCL-green")
                     }
                     onClick={(e) => {
                       e.preventDefault();
-                      setOpenTab(1);
+                      setOpenTab(2);
                     }}
                     data-toggle="tab"
                     href="#link2"
@@ -391,13 +391,13 @@ const Hero = ({ color }) => {
                   <a
                     className={
                       "text-[16px] font-bold font-ubuntu px-2 py-3 shadow-lg rounded block leading-normal " +
-                      (openTab === 3
+                      (openTab === 1
                         ? "text-slate-900 bg-" + color + "-600"
                         : "text-" + color + "-600 bg-PDCL-green")
                     }
                     onClick={(e) => {
                       e.preventDefault();
-                      setOpenTab(3);
+                      setOpenTab(1);
                     }}
                     data-toggle="tab"
                     href="#link3"
@@ -411,7 +411,7 @@ const Hero = ({ color }) => {
                 <div className="px-2 py-2 flex-auto ">
                   <div className="tab-content tab-space">
                     <div
-                      className={openTab === 2 ? "block" : "hidden"}
+                      className={openTab === 3 ? "block" : "hidden"}
                       id="link1"
                     >
                       <form className="max-w-screen-xl bg-white mx-auto">
@@ -474,15 +474,15 @@ const Hero = ({ color }) => {
                       </form>
                     </div>
                     <div
-                      className={openTab === 1 ? "block" : "hidden"}
+                      className={openTab === 2 ? "block" : "hidden"}
                       id="link2"
                     >
-                      <form className="max-w-screen-xl  bg-white mx-auto">
-                        <div className="grid md:grid-cols-4 md:gap-1">
+                      <form className="max-w-7xl p-2.5 mx-auto">
+                        <div className=" md:gap-1">
                           <div className="relative z-0 w-full mb-1 group">
                             <button
                               type="button"
-                              className="text-gray-600 w-full rounded block col-span-9 mb-2 h-[43px] hover:text-gray-900 border bg-[#F0FFF0] shadow-2xl  border-none focus:ring-4 focus:outline-none focus:ring-[#006642] font-ubuntu text-[16px] font-bold px-5 py-2.5 text-center  dark:border-[#006642] dark:text-black dark:hover:text-black dark:hover:bg-gray-500 dark:focus:ring-[#006642]"
+                              className="text-gray-600 w-full rounded block  mb-2 h-[43px] hover:text-gray-900 border bg-[#F0FFF0] shadow-2xl  border-none focus:ring-4 focus:outline-none focus:ring-[#006642] font-ubuntu text-[16px] font-bold px-5 py-2.5 text-center  dark:border-[#006642] dark:text-black dark:hover:text-black dark:hover:bg-gray-500 dark:focus:ring-[#006642]"
                             >
                               Make An Appointment{" "}
                               <span className="animate-ping">Now</span>
@@ -502,6 +502,8 @@ const Hero = ({ color }) => {
                                 </p>
                               </button>
                             )}
+                          </div>
+                          <div className="relative z-0 w-full mb-1 group">
                             {!isSearchVisible && (
                               <button
                                 className="px-4 py-2 bg-[#F0FFF0] shadow-2xl  mb-1 w-full font-ubuntu font-medium col-span-4 text-gray-900 rounded"
@@ -510,8 +512,10 @@ const Hero = ({ color }) => {
                                 Chat With Human Consultant
                               </button>
                             )}
+                          </div>
+                          <div className="relative  z-0 w-full mb-1 group">
                             {isSearchVisible && (
-                              <form class=" w-full col-span-9 mb-1">
+                              <form class=" w-full  mb-1">
                                 <label
                                   for="default-search"
                                   class="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white"
@@ -519,11 +523,11 @@ const Hero = ({ color }) => {
                                   Search
                                 </label>
                                 <div class="relative">
-                                  <div class="absolute inset-y-0 end-0 flex items-center pe-3 pointer-events-none"></div>
+                                  <div class="absolute  flex items-center pe-3 pointer-events-none"></div>
                                   <input
                                     type="search"
                                     id="default-search"
-                                    class="block w-full p-2 col-span-9 ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                                    class="text-gray-600 w-full rounded block  mb-2 h-[43px] hover:text-gray-900 border bg-[#F0FFF0] shadow-2xl  border-none focus:ring-4 focus:outline-none focus:ring-[#006642] font-ubuntu text-[16px] font-bold px-5 py-2.5 text-center  dark:border-[#006642] dark:text-black dark:hover:text-black dark:hover:bg-gray-500 dark:focus:ring-[#006642]"
                                     placeholder="Chat With PDCL AI Consultant"
                                     required
                                   />
@@ -535,7 +539,7 @@ const Hero = ({ color }) => {
                       </form>
                     </div>
                     <div
-                      className={openTab === 3 ? "block" : "hidden"}
+                      className={openTab === 1 ? "block" : "hidden"}
                       id="link3"
                     >
                       <form className="max-w-screen-xl mx-auto">
