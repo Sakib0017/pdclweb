@@ -13,6 +13,7 @@ import {
   About,
   Complain,
   Chairman,
+  Goals,
   Login,
   Notice,
   Sign,
@@ -31,6 +32,7 @@ const App = () => {
           <Route path="/doctordetail" element={<DoctorDetail />} />
           <Route path="/doctorsearch" element={<DoctorSearch />} />
           <Route path="/sign" element={<Sign />} />
+          <Route path="/goals" element={<Goals />} />
           <Route path="/complain" element={<Complain />} />
           <Route path="/modal" element={<Modal />} />
           <Route path="/director" element={<Director />} />

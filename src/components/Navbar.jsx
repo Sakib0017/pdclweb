@@ -188,7 +188,7 @@ const Navbar = () => {
                     <PopoverContent className="mt-[24px] z-20 fill-white">
                       <a>
                         {" "}
-                        <Link to="/about">
+                        <Link to="/goals">
                           <p
                             type="button"
                             data-dropdown-toggle="language-dropdown-menu"

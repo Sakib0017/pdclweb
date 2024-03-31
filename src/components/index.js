@@ -33,10 +33,12 @@ import DoctorDetail from "./DoctorDetail";
 import DoctorSearch from "./DoctorSearch";
 import Director from "./Director";
 import Chairman from "./Chairman";
+import Goals from "./Goals";
 export {
   Modal,
   Notice,
   Details,
+  Goals,
   DoctorSearch,
   Chairman,
   DoctorDetail,

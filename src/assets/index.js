@@ -5,6 +5,8 @@ import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.png";
+import goals from "./goals.jpg";
+import objective from "./objective.jpg";
 import down from "./down.png";
 import close from "./close.png";
 import home from "./home.png";
@@ -190,6 +192,8 @@ export {
   bbb,
   char,
   md,
+  objective,
+  goals,
   ad,
   agf,
   gm,
