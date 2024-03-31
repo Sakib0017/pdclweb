@@ -1,6 +1,7 @@
 import React from 'react'
 import { Nav, Navbar, Sidemenu, Tech, Bottommenu } from "../components";
 import { goals, objective } from "../assets";
+import { Link } from "react-router-dom";
 const Goals = () => {
   return (
     <div className="bg-[#F5FFFA]">
@@ -21,9 +22,11 @@ const Goals = () => {
             reduce the burden of the government and will make the path of
             "Health for all".
           </p>
-          <button className="bg-[#006642] p-2 pl-5 pr-5 rounded-xl mt-5 mx-auto">
-            SEE OUR TEAM
-          </button>
+          <Link to="/about">
+            <button className="bg-[#006642] p-2 pl-5 pr-5 rounded-xl mt-5 mx-auto">
+              SEE OUR TEAM
+            </button>
+          </Link>
         </div>
       </div>
       <div className="pt-[20px] hidden md:block">
