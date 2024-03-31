@@ -200,7 +200,7 @@ const Hero = ({ color }) => {
                               name="floating_first_name"
                               placeholder="Doctors Name"
                               id="floating_first_name"
-                              className="block pl-2 py-2.5 px-0 w-full text-sm rounded-lg placeholder-gray-900 text-gray-900 bg-gray-300 peer"
+                              className="block pl-2 py-2.5 px-0 w-full text-sm dark:border-gray-500 dark:focus:border-PDCL-green focus:outline-none focus:ring-0 focus:border-PDCL-green rounded-lg placeholder-gray-900 text-gray-900 bg-gray-300 peer"
                               required
                             />
                           </div>
@@ -309,7 +309,7 @@ const Hero = ({ color }) => {
                               name="floating_first_name"
                               placeholder="Test Name"
                               id="floating_first_name"
-                              className="block py-2.5 px-0 w-full text-sm rounded-lg  text-gray-900 bg-gray-300 placeholder-gray-900  peer pl-2"
+                              className="block py-2.5 px-0 w-full text-sm rounded-lg dark:border-gray-500 dark:focus:border-PDCL-green focus:outline-none focus:ring-0 focus:border-PDCL-green  text-gray-900 bg-gray-300 placeholder-gray-900  peer pl-2"
                               required
                             />
                             <section className="">
@@ -422,7 +422,7 @@ const Hero = ({ color }) => {
                           <div className="relative z-0 w-full mb-1 group">
                             <select
                               id="countries"
-                              className="block py-2.5 px-0 w-full text-sm text-gray-600 bg-transparent pl-2 border border-1 border-gray-500 dark:text-gray-600 dark:border-gray-500 dark:focus:border-PDCL-green focus:outline-none focus:ring-0 focus:border-PDCL-green peer"
+                              className="block py-2.5 px-0 w-full rounded-lg text-sm text-gray-900 bg-gray-300 pl-2    peer"
                             >
                               <option selected>Choose a Branch</option>
                               <option value="US">Dhanmondi</option>
@@ -434,7 +434,7 @@ const Hero = ({ color }) => {
                           <div className="relative z-0 w-full mb-1 group">
                             <select
                               id="countries"
-                              className="block py-2.5 px-0 w-full text-sm text-gray-600 bg-transparent pl-2 border border-1 border-gray-500 dark:text-gray-600 dark:border-gray-500 dark:focus:border-PDCL-green focus:outline-none focus:ring-0 focus:border-PDCL-green peer"
+                              className="block py-2.5 px-0 w-full rounded-lg text-sm text-gray-900 bg-gray-300 pl-2    peer"
                             >
                               <option selected>Choose a Specilization</option>
                               <option value="US">Chest Medicine</option>
@@ -446,7 +446,7 @@ const Hero = ({ color }) => {
                           <div className="relative z-0 w-full mb-1 group">
                             <select
                               id="countries"
-                              className="block py-2.5 px-0 w-full text-sm text-gray-600 bg-transparent pl-2 border border-1 border-gray-500 dark:text-gray-600 dark:border-gray-500 dark:focus:border-PDCL-green focus:outline-none focus:ring-0 focus:border-PDCL-green peer"
+                              className="block py-2.5 px-0 w-full rounded-lg text-sm text-gray-900 bg-gray-300 pl-2    peer"
                             >
                               <option selected>Choose a Day</option>
                               <option value="US">Saterday</option>
@@ -461,7 +461,7 @@ const Hero = ({ color }) => {
                               name="floating_first_name"
                               placeholder="Doctors Name"
                               id="floating_first_name"
-                              className="block pl-2 py-2.5 px-0 w-full text-sm text-gray-600 bg-transparent border border-1 border-gray-500 dark:text-gray-600 dark:border-gray-500 dark:focus:border-PDCL-green focus:outline-none focus:ring-0 focus:border-PDCL-green peer"
+                              className="block py-2.5 px-0 w-full text-sm rounded-lg dark:border-gray-500 dark:focus:border-PDCL-green focus:outline-none focus:ring-0 focus:border-PDCL-green  text-gray-900 bg-gray-300 placeholder-gray-900  peer pl-2"
                               required
                             />
                           </div>
@@ -549,7 +549,7 @@ const Hero = ({ color }) => {
                             <select
                               value={selectedBranch}
                               onChange={handleBranchChange}
-                              className="block py-2.5 px-0 w-full text-sm text-gray-600 bg-transparent pl-2 border border-1 border-gray-500 dark:text-gray-600 dark:border-gray-500 dark:focus:border-PDCL-green focus:outline-none focus:ring-0 focus:border-PDCL-green peer"
+                              className="block py-2.5 px-0 w-full text-sm rounded-lg dark:border-gray-500 dark:focus:border-PDCL-green focus:outline-none focus:ring-0 focus:border-PDCL-green  text-gray-900 bg-gray-300 placeholder-gray-900  peer pl-2"
                             >
                               <option value="">Select Branch</option>
                               {ServiceCost.map((branch) => (
@@ -567,7 +567,7 @@ const Hero = ({ color }) => {
                               name="floating_first_name"
                               placeholder="Test Name"
                               id="floating_first_name"
-                              className="block py-2.5 px-0 w-full text-sm text-gray-600 bg-transparent border border-gray-500 border-1 dark:text-gray-600 dark:border-gray-500 dark:focus:border-PDCL-green focus:outline-none focus:ring-0 focus:border-PDCL-green peer pl-2"
+                              className="block py-2.5 px-0 w-full text-sm rounded-lg dark:border-gray-500 dark:focus:border-PDCL-green focus:outline-none focus:ring-0 focus:border-PDCL-green  text-gray-900 bg-gray-300 placeholder-gray-900  peer pl-2"
                               required
                             />
                             <ul className="top-[100px]">

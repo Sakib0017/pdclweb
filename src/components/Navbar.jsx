@@ -453,7 +453,7 @@ const Navbar = () => {
                     <div className="flex flex-row ">
                       <a>
                         {" "}
-                        <Link to="/director">
+                        <Link to="/goals">
                           <p className="text-white items-center flex flex-row text-[14px] ms-0 me-1 font-medium font-ubuntu">
                             <a href="">
                               <span className="text-[14px] pl-10 font-medium font-ubuntu ">
