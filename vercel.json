@@ -63,6 +63,10 @@
         {
             "src": "/notification",
             "dest": "/"
+        },
+        {
+            "src": "/goals",
+            "dest": "/"
         }
         
     ]
