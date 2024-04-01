@@ -124,12 +124,39 @@ import {
   MdAlauddinFCMA,
   MdSahabUddin,
   MdZiaulHaqueFaruk,
+  MdZiaulHaqueFaruk1,
   MohammadArif,
   MosaddequeHossain,
   MostafaNurmohammadPalash,
   MrKabirAhmed,
   SardinRahman,
-  RamadanNotice24
+  RamadanNotice24,
+  sliceCTScan,
+  BangladeshWorkersWelfareFoundation,
+  CardiacMRIMachine,
+  EmployeesWelfareFund,
+  EmployeesWelfareFund2,
+  InsuranceCoverageEmployee,
+  ISOCertified90012015,
+  ASSO_PROF_DR_ASHRAFUL_ISLAM,
+  ASST_PROF_DR_HENA_KHATUN,
+  ASST_PROF_DR_UTHPOL_KUMAR_DATTA,
+  DR_MD_MAHBUB_ALAM,
+  DR_MOSTAFA_KAMAL_AREFIN,
+  PROF_DR_ABU_HENA_MOSTAFA_KAMAL,
+  PROF_DR_AHAMED_RAQUIB,
+  PROF_DR_APARNA_DAS,
+  PROF_DR_BISWAS_AKHTAR_HOSSAIN,
+  PROF_DR_KHAN_ABUL_KALAM_AZAD,
+  PROF_DR_MD_ASADUL_KABIR,
+  PROF_DR_MD_ASHRAFUL_ISLAM,
+  PROF_DR_MD_FAIZUL_ISLAM_CHOWDHURY,
+  PROF_DR_MD_MOHSIN_HOSSAIN,
+  PROF_DR_MD_MONJURUL_ALAM,
+  PROF_DR_MOHAMMAD_SAFIUDDIN,
+  PROF_DR_Q_TARIKUL_ISLAM,
+  PROF_DR_SHAKIL_GHAFUR,
+  PROF_DR_SHYMAL_SARKER,
 } from "../assets";
 
 const navLinks = [
@@ -424,7 +451,7 @@ const topManagement = [
   },
   {
     manID: 11,
-    manImg: MdZiaulHaqueFaruk,
+    manImg: MdZiaulHaqueFaruk1,
     manName: "Md Ziaul Haque Faruk",
     manDesignation: "Manager, (Marketing)",
   },
@@ -1119,64 +1146,65 @@ const projects1 = [
 const notice = [
   {
     noticeID: 1,
-    noticeImage: RamadanNotice24,
-    noticeHead: "Ramadan Time Schedule Update for Dhanmondi Head Office and Other Branches",
-    noticeDetail:
-      "Government of Bangladesh recommended our diagnostic centre for testing #COVID-19 for the passengers who will travel abroad. ",
-  },
-  {
-    noticeID: 2,
-    noticeImage: aa,
-    noticeHead: "PDCL Handover Donation to Bangladesh Workers Welfare Foundation ",
+    noticeImage: BangladeshWorkersWelfareFoundation,
+    noticeHead:
+      "PDCL Handover Donation to Bangladesh Workers Welfare Foundation ",
     noticeDetail:
       'Today, a total pay order of Rs. 52 lakhs, 66 thousand 598 Taka, on behalf of Popular Diagnostic Center Ltd., under the fund "Bangladesh Workers Welfare Foundation", was formally handed over to the Honorable Inspector General of Factory and Institution Inspection Department, Mr. Mohammad Abdur Rahim Khan.',
   },
   {
+    noticeID: 2,
+    noticeImage: RamadanNotice24,
+    noticeHead:
+      "Ramadan Time Schedule Update for Dhanmondi Head Office and Other Branches",
+    noticeDetail:
+      "Government of Bangladesh recommended our diagnostic centre for testing #COVID-19 for the passengers who will travel abroad. ",
+  },
+  {
     noticeID: 3,
-    noticeImage: aaa,
+    noticeImage: InsuranceCoverageEmployee,
     noticeHead:
       "Group Insurance Coverage for the Employee of Popular Diagnostic Centre Ltd. ",
     noticeDetail:
-      "Government of Bangladesh recommended our diagnostic centre for testing #COVID-19 for the passengers who will travel abroad. ",
+      "Dr. Mostafizur Rahman, the Honorable Managing  Director & CEO of Popular Group hand overing Group Insurance Coverage Claimed Cheque to an Employee for his Accidental Permanent Partial Disability. ",
   },
   {
     noticeID: 4,
-    noticeImage: aaaa,
+    noticeImage: EmployeesWelfareFund,
     noticeHead:
       "Donation Cheque Distribution from Popular Diagnostic Centre Ltd. Employees Welfare Fund.",
     noticeDetail:
-      "Government of Bangladesh recommended our diagnostic centre for testing #COVID-19 for the passengers who will travel abroad. ",
+      "Dr. Mostafizur Rahman, the Honorable Managing  Director & CEO of Popular Group hand overing donation cheque to an Employee whose baby is suffering from Blood Cancer on behalf of Popular Diagnostic Centre Ltd. Employees Welfare Fund Trustee Board.",
   },
   {
     noticeID: 5,
-    noticeImage: aaaaa,
+    noticeImage: EmployeesWelfareFund2,
     noticeHead:
       "Donation Cheque Distribution from Popular Diagnostic Centre Ltd. Employees Welfare Fund. ",
     noticeDetail:
-      "Government of Bangladesh recommended our diagnostic centre for testing #COVID-19 for the passengers who will travel abroad. ",
+      "Dr. Mostafizur Rahman, the Honorable Managing  Director & CEO of Popular Group hand overing donation cheque to a pancreatic disease suffering staff on behalf of Popular Diagnostic Centre Ltd. Employees Welfare Fund Trustee Board. ",
   },
   {
     noticeID: 6,
-    noticeImage: b,
+    noticeImage: ISOCertified90012015,
     noticeHead:
       "Popular Diagnostic Centre Ltd. is now ISO Certified (9001:2015) Company ",
     noticeDetail:
-      "Government of Bangladesh recommended our diagnostic centre for testing #COVID-19 for the passengers who will travel abroad. ",
+      "Popular Diagnostic Centre Ltd. is now ISO Certified (9001:2015) Company. Congratulations! to our Honorable Managing Director, Board of Directors, all Colleagues and Well Wishers. ",
   },
   {
     noticeID: 7,
-    noticeImage: bb,
+    noticeImage: CardiacMRIMachine,
     noticeHead: "New Cardiac MRI Machine in Popular Dhanmondi Branch ",
-    noticeDetail:
-      "Government of Bangladesh recommended our diagnostic centre for testing #COVID-19 for the passengers who will travel abroad. ",
+    noticeDetail: "New Cardiac MRI Machine in Popular Dhanmondi Branch  ",
   },
   {
     noticeID: 8,
-    noticeImage: bbb,
+    noticeImage: sliceCTScan,
     noticeHead:
       "We Introduce 1152 slice CT Scan at Dhanmondi Head Office 1st time in Bangladesh ",
     noticeDetail:
-      "Government of Bangladesh recommended our diagnostic centre for testing #COVID-19 for the passengers who will travel abroad. ",
+      "We Introduce 1152 slice CT Scan at Dhanmondi Head Office 1st time in Bangladesh",
   },
 ];
 
@@ -41673,7 +41701,7 @@ const doctorData = {
               assistantGender: "Male",
               ext: "111421",
               assistantMobile: "01768431923",
-              image: MohammadArif,
+              image: PROF_DR_ABU_HENA_MOSTAFA_KAMAL,
             },
             // More doctorDetails under Cardiology...
           ],
@@ -41724,7 +41752,7 @@ const doctorData = {
               assistantGender: "Male",
               ext: "2249",
               assistantMobile: "01736131369",
-              image: MdZiaulHaqueFaruk,
+              image: DR_MD_MAHBUB_ALAM,
             },
             // More doctorDetails under Medicine...
           ],
@@ -41781,7 +41809,7 @@ const doctorData = {
               assistantGender: "Male",
               ext: "111421",
               assistantMobile: "01768431923",
-              image: MosaddequeHossain,
+              image: ASST_PROF_DR_UTHPOL_KUMAR_DATTA,
             },
             // More doctorDetails under Cardiology...
           ],
@@ -41832,7 +41860,7 @@ const doctorData = {
               assistantGender: "Male",
               ext: "2249",
               assistantMobile: "01736131369",
-              image: MdSahabUddin,
+              image: ASSO_PROF_DR_ASHRAFUL_ISLAM,
             },
             // More doctorDetails under Medicine...
           ],
