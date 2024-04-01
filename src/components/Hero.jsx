@@ -5,6 +5,27 @@ import video from "../assets/video.mp4";
 import AutoSizer from "react-virtualized/dist/commonjs/AutoSizer";
 import List from "react-virtualized/dist/commonjs/List";
 import { Link } from "react-router-dom";
+import { doctorData } from "../constants";
+import { motion } from "framer-motion";
+
+
+const spring = {
+  type: "spring",
+  stiffness: 700,
+  damping: 30,
+};
+const buttonVariants = {
+  initial: { opacity: 1, scale: 1 },
+  animate: { opacity: 1, scale: 1.1 },
+  hover: { scale: 1.05 },
+};
+
+const searchBoxVariants = {
+  initial: { opacity: 1, scale: 1 },
+  hover: { scale: 1.03 },
+};
+
+
 
 const ListHeader = () => (
   <div className="flex justify-between  px-8 py-2 bg-gray-400 font-bold">
@@ -12,6 +33,20 @@ const ListHeader = () => (
     <p>Service Cost</p>
   </div>
 );
+
+const ListHead = () => (
+  <div className="flex justify-between  px-8 py-2 bg-gray-400 font-bold">
+    <p>Doctor Name</p>
+    <p>Speciality</p>
+  </div>
+);
+
+
+
+
+
+
+
 const Hero = ({ color }) => {
   const [openTab, setOpenTab] = React.useState(1);
   const date = new Date();
@@ -71,6 +106,109 @@ const Hero = ({ color }) => {
   const handleSearchClick1 = () => {
     setIsSearchVisible(!isSearchVisible);
   };
+
+
+
+
+
+
+
+
+
+  const [filteredDoctors, setFilteredDoctors] = useState([]);
+  const [searchTerm1, setSearchTerm1] = useState("");
+  const [selectedBranch1, setSelectedBranch1] = useState(null);
+  const [selectedSpecialization, setSelectedSpecialization] = useState("");
+  const [selectedDay, setSelectedDay] = useState("");
+
+  useEffect(() => {
+    setFilteredDoctors(
+      doctorData.branches.flatMap((branch) =>
+        branch.specilizations.flatMap((spec) => spec.doctorDetails)
+      )
+    );
+  }, []);
+
+  const specializationSet = new Set(
+    doctorData.branches
+      .flatMap((branch) => branch.specilizations)
+      .map((spec) => spec.specializationName)
+  );
+  const specializationOptions = Array.from(specializationSet);
+
+  const handleBranchChange1 = (e) => {
+    setSelectedBranch1(e.target.value);
+  };
+
+  const handleSpecializationChange = (e) => {
+    setSelectedSpecialization(e.target.value);
+  };
+
+  const handleDayChange = (e) => {
+    setSelectedDay(e.target.value);
+  };
+
+  const handleSearchChange1 = (e) => {
+    setSearchTerm1(e.target.value.toLowerCase());
+  };
+
+  useEffect(() => {
+    let result = doctorData.branches.flatMap((branch) =>
+      branch.specilizations.flatMap((spec) =>
+        spec.doctorDetails.map((doctor) => ({
+          ...doctor,
+          braName: branch.braName,
+          specializationName: spec.specializationName,
+        }))
+      )
+    );
+
+    if (selectedBranch1) {
+      result = result.filter((doctor) => doctor.braName === selectedBranch1);
+    }
+
+    if (selectedSpecialization) {
+      result = result.filter(
+        (doctor) => doctor.specializationName === selectedSpecialization
+      );
+    }
+
+    if (selectedDay) {
+      result = result.filter((doctor) =>
+        doctor.weekday.some(
+          (day) => day.day.toLowerCase() === selectedDay.toLowerCase()
+        )
+      );
+    }
+
+    if (searchTerm1) {
+      result = result.filter((doctor) =>
+        doctor.drName.toLowerCase().includes(searchTerm1)
+      );
+    }
+
+    setFilteredDoctors(result);
+  }, [selectedBranch1, selectedSpecialization, selectedDay, searchTerm1]);
+
+const renderRow1 = ({ index, style }) => {
+  const service = filteredDoctors[index];
+
+  return (
+    <li
+      key={service.SpecilizationID}
+      style={style}
+      className="flex justify-between px-4 py-2 bg-gray-300 hover:bg-gray-100"
+    >
+      <p className="text-gray-600 font-ubuntu">{service.drName}</p>
+      <p className="text-gray-600 font-ubuntu">{service.specializationName}</p>
+    </li>
+  );
+};
+
+
+
+
+
   return (
     <>
       <section className="w-full h-[700px] relative justify-top items-bottom">
@@ -159,51 +297,107 @@ const Hero = ({ color }) => {
                       <form className="max-w-screen-xl mx-auto">
                         <div className="grid md:grid-cols-9 md:gap-1">
                           <div className="relative z-0 col-span-3 w-full mb-1 group">
-                            <select
-                              id="countries"
-                              className="block py-2.5 px-0 w-full rounded-lg text-sm text-gray-900 bg-gray-300 pl-2    peer"
+                            <motion.select
+                              className="px-2 py-1 border text-[#006642] border-PDCL-green bg-gray-200 rounded-lg focus:outline-none focus:ring-1 focus:ring-PDCL-green"
+                              onChange={handleBranchChange}
+                              layout
+                              transition={spring}
+                              whileTap={{ scale: 0.9 }}
+                              variants={buttonVariants}
+                              whileHover="hover"
                             >
-                              <option selected>Choose a Branch</option>
-                              <option value="US">Dhanmondi</option>
-                              <option value="CA">Shymoli</option>
-                              <option value="FR">Shantinagar</option>
-                              <option value="DE">Uttara</option>
-                            </select>
+                              <option value="">Select Branch</option>
+                              {doctorData.branches.map((branch) => (
+                                <option
+                                  key={branch.braID}
+                                  value={branch.braName}
+                                >
+                                  {branch.braName}
+                                </option>
+                              ))}
+                            </motion.select>
                           </div>
                           <div className="relative z-0 w-full col-span-3 mb-1 group">
-                            <select
-                              id="countries"
-                              className="block py-2.5 px-0 w-full rounded-lg text-sm text-gray-900 bg-gray-300 pl-2    peer"
+                            <motion.select
+                              className="px-2 py-1 border text-[#006642] border-PDCL-green bg-gray-200 rounded-lg focus:outline-none focus:ring-1 focus:ring-PDCL-green"
+                              onChange={handleSpecializationChange}
+                              layout
+                              transition={spring}
+                              whileTap={{ scale: 0.9 }}
+                              variants={buttonVariants}
+                              whileHover="hover"
                             >
-                              <option selected>Choose a Specilization</option>
-                              <option value="US">Chest Medicine</option>
-                              <option value="CA">Neuro Medicine</option>
-                              <option value="FR">Sonologist</option>
-                              <option value="DE">Cardiology</option>
-                            </select>
+                              <option value="">Select Specialization</option>
+                              {specializationOptions.map((specName) => (
+                                <option key={specName} value={specName}>
+                                  {specName}
+                                </option>
+                              ))}
+                            </motion.select>
                           </div>
                           <div className="relative col-span-3 mb-1 group">
-                            <select
-                              id="countries"
-                              className="block py-2.5 px-0 w-full rounded-lg text-sm text-gray-900 bg-gray-300 pl-2    peer"
+                            <motion.select
+                              className="px-2 py-1 border text-[#006642] border-PDCL-green bg-gray-200 rounded-lg focus:outline-none focus:ring-1 focus:ring-PDCL-green"
+                              onChange={handleDayChange}
+                              layout
+                              transition={spring}
+                              whileTap={{ scale: 0.9 }}
+                              variants={buttonVariants}
+                              whileHover="hover"
                             >
-                              <option selected>Choose a Day</option>
-                              <option value="US">Saterday</option>
-                              <option value="CA">Sunday</option>
-                              <option value="FR">Monday</option>
-                              <option value="DE">Tuesday</option>
-                            </select>
+                              <option value="">Select Day</option>
+                              {[
+                                "Saturday",
+                                "Sunday",
+                                "Monday",
+                                "Tuesday",
+                                "Wednesday",
+                                "Thursday",
+                                "Friday",
+                              ].map((day) => (
+                                <option key={day} value={day}>
+                                  {day}
+                                </option>
+                              ))}
+                            </motion.select>
                           </div>
                           <div className="relative col-span-9 mb-1 group ">
                             <input
                               type="text"
+                              value={searchTerm1}
+                              onChange={handleSearchChange1}
                               name="floating_first_name"
-                              placeholder="Doctors Name"
+                              placeholder="Test Name"
                               id="floating_first_name"
-                              className="block pl-2 py-2.5 px-0 w-full text-sm dark:border-gray-500 dark:focus:border-PDCL-green focus:outline-none focus:ring-0 focus:border-PDCL-green rounded-lg placeholder-gray-900 text-gray-900 bg-gray-300 peer"
+                              className="block py-2.5 px-0 w-full text-sm rounded-lg dark:border-gray-500 dark:focus:border-PDCL-green focus:outline-none focus:ring-0 focus:border-PDCL-green  text-gray-900 bg-gray-300 placeholder-gray-900  peer pl-2"
                               required
                             />
+                            <section className="">
+                              <ul className="">
+                                {filteredDoctors.length > 0 && (
+                                  <div>
+                                    {/* Render the header */}
+                                    <ListHead />
+
+                                    {/* List */}
+                                    <AutoSizer>
+                                      {({ width }) => (
+                                        <List
+                                          height={250}
+                                          rowCount={filteredDoctors.length}
+                                          rowHeight={50}
+                                          rowRenderer={renderRow1}
+                                          overscanRowCount={5}
+                                          width={width}
+                                        />
+                                      )}
+                                    </AutoSizer>
+                                  </div>
+                                )}
+                              </ul>
+                            </section>
                           </div>
+
                           {/*} <div className="relative z-0 w-full mb-1 group">
 <select id="countries" className="block py-2.5 px-0 w-full text-sm text-gray-600 bg-transparent border border-1 border-gray-500 dark:text-gray-600 dark:border-gray-500 dark:focus:border-PDCL-green focus:outline-none focus:ring-0 focus:border-PDCL-green peer pl-2">
 <option selected>Choose a Day</option>
