@@ -298,8 +298,8 @@ const renderRow1 = ({ index, style }) => {
                         <div className="grid md:grid-cols-9 md:gap-1">
                           <div className="relative z-0 col-span-3 w-full mb-1 group">
                             <motion.select
-                              className="px-2 py-1 border text-[#006642] border-PDCL-green bg-gray-200 rounded-lg focus:outline-none focus:ring-1 focus:ring-PDCL-green"
-                              onChange={handleBranchChange}
+                              className="block py-2.5 px-0 w-full text-sm rounded-lg  text-gray-900 bg-gray-300 pl-2   peer"
+                              onChange={handleBranchChange1}
                               layout
                               transition={spring}
                               whileTap={{ scale: 0.9 }}
@@ -319,7 +319,7 @@ const renderRow1 = ({ index, style }) => {
                           </div>
                           <div className="relative z-0 w-full col-span-3 mb-1 group">
                             <motion.select
-                              className="px-2 py-1 border text-[#006642] border-PDCL-green bg-gray-200 rounded-lg focus:outline-none focus:ring-1 focus:ring-PDCL-green"
+                              className="block py-2.5 px-0 w-full text-sm rounded-lg  text-gray-900 bg-gray-300 pl-2   peer"
                               onChange={handleSpecializationChange}
                               layout
                               transition={spring}
@@ -337,7 +337,7 @@ const renderRow1 = ({ index, style }) => {
                           </div>
                           <div className="relative col-span-3 mb-1 group">
                             <motion.select
-                              className="px-2 py-1 border text-[#006642] border-PDCL-green bg-gray-200 rounded-lg focus:outline-none focus:ring-1 focus:ring-PDCL-green"
+                              className="block py-2.5 px-0 w-full text-sm rounded-lg  text-gray-900 bg-gray-300 pl-2   peer"
                               onChange={handleDayChange}
                               layout
                               transition={spring}
@@ -398,14 +398,6 @@ const renderRow1 = ({ index, style }) => {
                             </section>
                           </div>
 
-                          {/*} <div className="relative z-0 w-full mb-1 group">
-<select id="countries" className="block py-2.5 px-0 w-full text-sm text-gray-600 bg-transparent border border-1 border-gray-500 dark:text-gray-600 dark:border-gray-500 dark:focus:border-PDCL-green focus:outline-none focus:ring-0 focus:border-PDCL-green peer pl-2">
-<option selected>Choose a Day</option>
-<option value="US">Sunday</option>
-<option value="CA">Monday</option>
-<option value="FR">Tuesday</option>
-<option value="DE">Wednesday</option>
-</select></div> */}
                         </div>
                       </form>
                     </div>
