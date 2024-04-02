@@ -298,7 +298,6 @@ const Hero = ({ color }) => {
                           variants={buttonVariants}
                           whileHover="hover"
                         >
-                          <option value="">Select Branch</option>
                           {doctorData.branches.map((branch) => (
                             <option key={branch.braID} value={branch.braName}>
                               {branch.braName}
@@ -315,7 +314,6 @@ const Hero = ({ color }) => {
                           variants={buttonVariants}
                           whileHover="hover"
                         >
-                          <option value="">Select Specialization</option>
                           {specializationOptions.map((specName) => (
                             <option key={specName} value={specName}>
                               {specName}
@@ -332,8 +330,9 @@ const Hero = ({ color }) => {
                           variants={buttonVariants}
                           whileHover="hover"
                         >
-                          <option value="">Select Day</option>
+                         
                           {[
+                            
                             "Saturday",
                             "Sunday",
                             "Monday",
@@ -364,7 +363,7 @@ const Hero = ({ color }) => {
                             {filteredDoctors.length > 0 && (
                               <li>
                                 {/* Render the header */}
-                                <Header />
+                                <ListHeader />
 
                                 {/* List */}
                                 <AutoSizer>

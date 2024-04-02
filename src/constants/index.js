@@ -41652,12 +41652,13 @@ const ServiceCost = [
 
 const doctorData = {
   branches: [
+    
     {
       braID: 1,
       braName: "Dhanmondi",
       specilizations: [
         {
-          SpecilizationID: 1,
+          SpecilizationID: 8,
           specializationName: "Cardiology",
           doctorDetails: [
             {
@@ -41792,7 +41793,7 @@ const doctorData = {
           ],
         },
         {
-          SpecilizationID: 2,
+          SpecilizationID: 7,
           specializationName: "Medicine",
           doctorDetails: [
             {
@@ -41931,7 +41932,7 @@ const doctorData = {
           ],
         },
         {
-          SpecilizationID: 3,
+          SpecilizationID: 6,
           specializationName: "ENT, Head & Neck Surgery",
           doctorDetails: [
             {
@@ -42141,7 +42142,7 @@ const doctorData = {
       braName: "English Road",
       specilizations: [
         {
-          SpecilizationID: 1,
+          SpecilizationID: 5,
           specializationName: "Orthopaedic Surgery",
           doctorDetails: [
             {
@@ -42175,7 +42176,7 @@ const doctorData = {
           ],
         },
         {
-          SpecilizationID: 2,
+          SpecilizationID: 4,
           specializationName: "ENT, Head & Neck Surgery",
           doctorDetails: [
             {
