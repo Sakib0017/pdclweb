@@ -71,7 +71,7 @@ const ProjectCard = ({
 const Works = () => {
   return (
     <>
-      <div className="">
+      <div className="fontFamily-ubuntu">
         <div className=" flex-row hidden md:block flex-wrap mb-10 gap-10">
           <div className="bg-gray-50 shadow-lg rounded-lg p-5 mx-auto w-full ">
             <div className="flex flex-col  flex-wrap max-w-screen-xl mx-auto  ">
