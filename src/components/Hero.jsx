@@ -203,7 +203,7 @@ const Hero = ({ color }) => {
         <div className="absolute w-full h-[700px] top-0 left-0 bg-gray-900/50"></div>
 
         <div
-          className={`${styles.paddingX} absolute  top-[250px]  max-w-7xl mx-auto inset-1 justify-center items-bottom text-center  flex-col text-gray-900`}
+          className={`${styles.paddingX} absolute  top-[240px]  max-w-7xl mx-auto inset-1 justify-center items-bottom text-center sm:w-[75%]  flex-col text-gray-900`}
         >
           <div className="bg-white rounded">
             <div class="mb-4 ">
@@ -274,7 +274,7 @@ const Hero = ({ color }) => {
                 <p class="text-sm text-gray-900 dark:text-gray-400">
                   <form className="max-w-screen-xl mx-auto">
                     <div className="grid md:grid-cols-9 md:gap-1">
-                      <div className="relative z-0 col-span-3 w-full mb-1 group">
+                      <div className="relative z-0 col-span-3 p-1 w-full mb-1 group">
                         <select
                           className="block py-2.5 px-0 w-full text-sm rounded-lg  text-gray-900 bg-gray-300 pl-2   peer"
                           onChange={handleBranchChange1}
@@ -292,7 +292,7 @@ const Hero = ({ color }) => {
                           ))}
                         </select>
                       </div>
-                      <div className="relative z-0 w-full col-span-3 mb-1 group">
+                      <div className="relative z-0 w-full p-1 col-span-3 mb-1 group">
                         <select
                           className="block py-2.5 px-0 w-full text-sm rounded-lg  text-gray-900 bg-gray-300 pl-2   peer"
                           onChange={handleSpecializationChange}
@@ -309,7 +309,7 @@ const Hero = ({ color }) => {
                           ))}
                         </select>
                       </div>
-                      <div className="relative col-span-3 mb-1 group">
+                      <div className="relative col-span-3 p-1 mb-1 group">
                         <select
                           className="block py-2.5 px-0 w-full text-sm rounded-lg  text-gray-900 bg-gray-300 pl-2   peer"
                           onChange={handleDayChange}
