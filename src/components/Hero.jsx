@@ -264,7 +264,7 @@ const Hero = ({ color }) => {
 
             <div id="default-styled-tab-content">
               <div
-                className={` p-4 rounded bg-gray-50 dark:bg-gray-800 ${
+                className={` p-4 rounded bg-white dark:bg-gray-800 ${
                   activeTab === "styled-profile" ? "" : "hidden"
                 }`}
                 id="styled-profile"
@@ -375,7 +375,7 @@ const Hero = ({ color }) => {
                 </p>
               </div>
               <div
-                className={` p-4 rounded bg-gray-50 dark:bg-gray-800 ${
+                className={` p-4 rounded bg-white dark:bg-gray-800 ${
                   activeTab === "styled-profile1" ? "" : "hidden"
                 }`}
                 id="styled-profile1"
@@ -385,16 +385,28 @@ const Hero = ({ color }) => {
                 <p class="text-sm text-gray-900 dark:text-gray-400">
                   <form className="max-w-screen-xl mx-auto">
                     <div className="grid md:grid-cols-9 md:gap-1">
-                      <div className="relative z-0 col-span-9 w-full mb-1 group">
+                      <div className="relative z-0 col-span-8 w-full group">
                         <Link to="http://appointment.populardiagnostic.com/appointment">
                           <button
                             type="button"
-                            className="text-gray-600 w-full rounded block col-span-9 mb-2 h-[43px] hover:text-gray-900 border bg-[#F0FFF0] shadow-2xl  border-none focus:ring-4 focus:outline-none focus:ring-[#006642] font-ubuntu text-[16px] font-bold px-5 py-2.5 text-center  dark:border-[#006642] dark:text-black dark:hover:text-black dark:hover:bg-gray-500 dark:focus:ring-[#006642]"
+                            className="text-gray-600 w-full rounded block col-span-7 mb-2 h-[43px] hover:text-gray-900 border bg-[#F0FFF0] shadow-2xl  border-none focus:ring-4 focus:outline-none focus:ring-[#006642] font-ubuntu text-[16px] font-bold px-5 py-2.5 text-center  dark:border-[#006642] dark:text-black dark:hover:text-black dark:hover:bg-gray-500 dark:focus:ring-[#006642]"
                           >
                             Make An Appointment{" "}
                             <span className="animate-ping">Now</span>
                           </button>
                         </Link>
+                      </div>
+                      <Link to="/#">
+                        <div className="relative z-0 col-span-1 w-full  group">
+                          <button
+                            type="button"
+                            className="text-gray-600 w-full rounded block col-span-2 mb-2 h-[43px] hover:text-gray-900 border bg-[#F0FFF0] shadow-2xl  border-none focus:ring-4 focus:outline-none focus:ring-[#006642] font-ubuntu text-[16px] font-bold px-5 py-2.5 text-center  dark:border-[#006642] dark:text-black dark:hover:text-black dark:hover:bg-gray-500 dark:focus:ring-[#006642]"
+                          >
+                            <span className="animate-ping">Back</span>
+                          </button>
+                        </div>
+                      </Link>
+                      <div className="relative z-0 col-span-9 w-full  group">
                         <div className="flex flex-row w-full col-span-9">
                           <div className="flex w-full col-span-4 items-center">
                             {!isSearchVisible && (
@@ -419,7 +431,7 @@ const Hero = ({ color }) => {
                               </button>
                             )}
                             {isSearchVisible && (
-                              <form class=" w-full col-span-9 mb-1">
+                              <form class=" w-full col-span-8 mb-1">
                                 <label
                                   for="default-search"
                                   class="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white"
@@ -446,7 +458,7 @@ const Hero = ({ color }) => {
                 </p>
               </div>
               <div
-                className={` p-4 rounded bg-gray-50 dark:bg-gray-800 ${
+                className={` p-4 rounded bg-white dark:bg-gray-800 ${
                   activeTab === "styled-profile2" ? "" : "hidden"
                 }`}
                 id="styled-profile2"
@@ -471,7 +483,7 @@ const Hero = ({ color }) => {
                         </select>
                       </div>
 
-                      <div className="relative col-span-9 mb-1 group ">
+                      <div className="relative col-span-9 mb-1 group">
                         <input
                           type="text"
                           value={searchTerm}
