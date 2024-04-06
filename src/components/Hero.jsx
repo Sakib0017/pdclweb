@@ -98,6 +98,16 @@ const Hero = ({ color }) => {
   const handleSearchClick1 = () => {
     setIsSearchVisible(!isSearchVisible);
   };
+ const [showSearchInput, setShowSearchInput] = useState(true);
+
+ const handleSearchClick2 = () => {
+   setShowSearchInput(true);
+ };
+
+ const handleShowClick = () => {
+   setShowSearchInput(false);
+ };
+  
 
   const [filteredDoctors, setFilteredDoctors] = useState([]);
   const [searchTerm1, setSearchTerm1] = useState("");
@@ -203,7 +213,7 @@ const Hero = ({ color }) => {
         <div className="absolute w-full h-[700px] top-0 left-0 bg-gray-900/50"></div>
 
         <div
-          className={`${styles.paddingX} absolute  top-[240px]  max-w-7xl mx-auto inset-1 justify-center items-bottom text-center sm:w-[80%]  flex-col text-gray-900`}
+          className={`${styles.paddingX} absolute  flex   max-w-7xl mx-auto inset-1 justify-center items-bottom text-center sm:w-[70%]  flex-col text-gray-900`}
         >
           <div className="bg-white rounded">
             <div class="mb-4 ">
@@ -212,7 +222,7 @@ const Hero = ({ color }) => {
                   <a
                     href="#"
                     data-tabs-target="styled-profile"
-                    className={`inline-block w-full p-4 rounded text-gray-900 bg-[#00664a] border-r border-gray-200 dark:border-gray-700  focus:ring-1 focus:ring-white ${
+                    className={`inline-block w-full p-2 rounded text-gray-900 bg-[#00664a] border-r border-gray-200 dark:border-gray-700  focus:ring-1 focus:ring-white ${
                       activeTab === "styled-profile"
                         ? "bg-[#ffffff]"
                         : "bg-[#00664a]"
@@ -229,7 +239,7 @@ const Hero = ({ color }) => {
                   <a
                     href="#"
                     data-tabs-target="styled-profile1"
-                    className={`inline-block w-full p-4 rounded text-gray-900 bg-[#00664a] border-r border-gray-200 dark:border-gray-700  focus:ring-1 focus:ring-white ${
+                    className={`inline-block w-full p-2 rounded text-gray-900 bg-[#00664a] border-r border-gray-200 dark:border-gray-700  focus:ring-1 focus:ring-white ${
                       activeTab === "styled-profile1"
                         ? "bg-[#ffffff]"
                         : "bg-[#00664a]"
@@ -246,7 +256,7 @@ const Hero = ({ color }) => {
                   <a
                     href="#"
                     data-tabs-target="styled-profile2"
-                    className={`inline-block w-full p-4 rounded text-gray-900 bg-[#00664a] border-r border-gray-200 dark:border-gray-700  focus:ring-1 focus:ring-white ${
+                    className={`inline-block w-full p-2 rounded text-gray-900 bg-[#00664a] border-r border-gray-200 dark:border-gray-700  focus:ring-1 focus:ring-white ${
                       activeTab === "styled-profile2"
                         ? "bg-[#ffffff]"
                         : "bg-[#00664a]"
@@ -264,7 +274,7 @@ const Hero = ({ color }) => {
 
             <div id="default-styled-tab-content">
               <div
-                className={` p-4 rounded bg-white dark:bg-gray-800 ${
+                className={` p-2 rounded bg-white dark:bg-gray-800 ${
                   activeTab === "styled-profile" ? "" : "hidden"
                 }`}
                 id="styled-profile"
@@ -375,7 +385,7 @@ const Hero = ({ color }) => {
                 </p>
               </div>
               <div
-                className={` p-4 rounded bg-white dark:bg-gray-800 ${
+                className={` p-2 rounded bg-white dark:bg-gray-800 ${
                   activeTab === "styled-profile1" ? "" : "hidden"
                 }`}
                 id="styled-profile1"
@@ -389,7 +399,7 @@ const Hero = ({ color }) => {
                         <Link to="http://appointment.populardiagnostic.com/appointment">
                           <button
                             type="button"
-                            className="text-gray-600 w-full rounded block col-span-7 mb-2 h-[43px] hover:text-gray-900 border bg-[#F0FFF0] shadow-2xl  border-none focus:ring-4 focus:outline-none focus:ring-[#006642] font-ubuntu text-[16px] font-bold px-5 py-2.5 text-center  dark:border-[#006642] dark:text-black dark:hover:text-black dark:hover:bg-gray-500 dark:focus:ring-[#006642]"
+                            className="text-gray-600 w-full rounded block col-span-7 mb-2 h-[43px] hover:text-gray-900 border bg-gray-300 shadow-2xl  border-none focus:ring-4 focus:outline-none focus:ring-[#006642] font-ubuntu text-[16px] font-bold px-5 py-2.5 text-center  dark:border-[#006642] dark:text-black dark:hover:text-black dark:hover:bg-gray-500 dark:focus:ring-[#006642]"
                           >
                             Make An Appointment{" "}
                             <span className="animate-ping">Now</span>
@@ -400,7 +410,8 @@ const Hero = ({ color }) => {
                         <div className="relative z-0 col-span-1 w-full  group">
                           <button
                             type="button"
-                            className="text-gray-600 w-full rounded block col-span-2 mb-2 h-[43px] hover:text-gray-900 border bg-[#F0FFF0] shadow-2xl  border-none focus:ring-4 focus:outline-none focus:ring-[#006642] font-ubuntu text-[16px] font-bold px-5 py-2.5 text-center  dark:border-[#006642] dark:text-black dark:hover:text-black dark:hover:bg-gray-500 dark:focus:ring-[#006642]"
+                            className="text-gray-600 w-full rounded block col-span-2 mb-2 h-[43px] hover:text-gray-900 border bg-gray-300 shadow-2xl  border-none focus:ring-4 focus:outline-none focus:ring-[#006642] font-ubuntu text-[16px] font-bold px-5 py-2.5 text-center  dark:border-[#006642] dark:text-black dark:hover:text-black dark:hover:bg-gray-500 dark:focus:ring-[#006642]"
+                            onClick={handleSearchClick}
                           >
                             <span className="animate-ping">Back</span>
                           </button>
@@ -411,11 +422,12 @@ const Hero = ({ color }) => {
                           <div className="flex w-full col-span-4 items-center">
                             {!isSearchVisible && (
                               <button
-                                className=" px-4 py-2 bg-[#F0FFF0] shadow-2xl mb-1 w-full mr-2 font-ubuntu font-medium col-span-4 text-gray-900 rounded"
+                                className=" px-4 py-2 bg-gray-300 shadow-2xl mb-1 w-full mr-2 font-ubuntu font-medium col-span-4 text-gray-900 rounded"
                                 onClick={handleSearchClick}
+                                disabled={!showSearchInput}
                               >
                                 <p class>
-                                  Chat With{" "}
+                                  Chat {" "}
                                   <span class=" drop-shadow-[0_1.0px_1.0px_rgba(0,0,0,0.5)] text-white gradient-alt-flow">
                                     AI Consultant
                                   </span>
@@ -424,20 +436,19 @@ const Hero = ({ color }) => {
                             )}
                             {!isSearchVisible && (
                               <button
-                                className="px-4 py-2 bg-[#F0FFF0] shadow-2xl  mb-1 w-full font-ubuntu font-medium col-span-4 text-gray-900 rounded"
+                                className="px-4 py-2 bg-gray-300 shadow-2xl  mb-1 w-full font-ubuntu font-medium col-span-4 text-gray-900 rounded"
                                 onClick={handleSearchClick1}
+                                disabled={!showSearchInput}
                               >
-                                Chat With Human Consultant
+                                Chat Human Consultant
                               </button>
                             )}
                             {isSearchVisible && (
                               <form class=" w-full col-span-8 mb-1">
                                 <label
                                   for="default-search"
-                                  class="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white"
-                                >
-                                  Search
-                                </label>
+                                  class="mb-1 text-sm font-medium text-gray-900 sr-only dark:text-white"
+                                ></label>
                                 <div class="relative">
                                   <div class="absolute inset-y-0 end-0 flex items-center pe-3 pointer-events-none"></div>
                                   <input
@@ -458,7 +469,7 @@ const Hero = ({ color }) => {
                 </p>
               </div>
               <div
-                className={` p-4 rounded bg-white dark:bg-gray-800 ${
+                className={` p-2 rounded bg-white dark:bg-gray-800 ${
                   activeTab === "styled-profile2" ? "" : "hidden"
                 }`}
                 id="styled-profile2"
