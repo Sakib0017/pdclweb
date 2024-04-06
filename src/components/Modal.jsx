@@ -65,6 +65,7 @@ const ProjectCard = ({
   const handleCloseModal = () => setIsOpen(false);
 
   return (
+    
     <div className="bg-gradient-to-b from-white to-[#f0fff0] hover:bg-gray-100 shadow-2xl rounded-2xl sm:w-[299px] w-full">
       <div className="relative w-full">
         <img
@@ -88,7 +89,8 @@ const ProjectCard = ({
           transition={spring}
           whileTap={{ scale: 0.9 }}
           variants={buttonVariants}
-          whileHover="hover">
+          whileHover="hover"
+        >
           View Details
         </motion.button>
         {isOpen && (
@@ -122,18 +124,18 @@ const Modal = () => {
   };
 
   return (
-    <div className="bg-[#F5FFFA]">
+    <div className="bg-[#F5FFFA] ">
       <Nav />
       <Navbar />
       <Sidemenu />
       <Bottommenu />
-      <div className="flex flex-col pt-[150px] pb mx-auto max-w-7xl">
+      <div className="flex flex-col pt-[150px] sm:w-[80%]  mx-auto">
         <h2 className="text-gray-900/50 pb-5 text-center text-[35px] font-bold font-ubuntu">
           ALL BRANCHES
         </h2>
       </div>
 
-      <div className="sticky top-[99px] z-10 rounded-xl shadow-2xl bg-white flex flex-col-reverse gap-2 sm:flex-row p-5 row-span-1 mx-12 xl:mx-auto xl:max-w-7xl justify-between">
+      <div className="sticky top-[99px] z-10 rounded-xl  sm:w-[80%] shadow-2xl bg-white flex flex-col-reverse gap-2 sm:flex-row p-5 row-span-1 mx-12 xl:mx-auto xl:max-w-7xl justify-between">
         <motion.button
           className=" bg-gray-900/50 hover:bg-[#006642] text-white font-ubuntu font-medium py-2 px-4 rounded-md focus:outline-none shadow-md"
           onClick={handleFilterToggle}
@@ -141,7 +143,8 @@ const Modal = () => {
           transition={spring}
           whileTap={{ scale: 0.9 }}
           variants={buttonVariants}
-          whileHover="hover">
+          whileHover="hover"
+        >
           {filterByCity ? "Show All Branches" : "Inside Dhaka"}
         </motion.button>
 
@@ -156,7 +159,7 @@ const Modal = () => {
         />
       </div>
 
-      <div className="flex mx-auto pb-10 pt-2 max-w-7xl justify-center flex-wrap gap-7">
+      <div className="flex mx-auto pb-10 pt-2 sm:w-[80%] max-w-7xl justify-center flex-wrap gap-7">
         {filteredAndSearchedProjects.map((project) => (
           <ProjectCard key={project.branchID} {...project} />
         ))}

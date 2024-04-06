@@ -43,7 +43,6 @@ const Hero = ({ color }) => {
   const handleTabClick = (tabId) => {
     setActiveTab(tabId);
   };
-  const [openTab, setOpenTab] = React.useState(1);
 
   const [selectedBranch, setSelectedBranch] = useState(null);
   const [filteredServices, setFilteredServices] = useState([]);
@@ -98,11 +97,10 @@ const Hero = ({ color }) => {
  
 const [showSearchInput, setShowSearchInput] = useState(true);
 
-
-
 const handleShowClick = () => {
   setShowSearchInput(false);
 };
+
   
 
   const [filteredDoctors, setFilteredDoctors] = useState([]);
@@ -419,9 +417,7 @@ const handleShowClick = () => {
                                     ? ""
                                     : "opacity-50 cursor-not-allowed"
                                 }`}
-                                onClick={
-                                  (handleSearchClick)
-                                }
+                                onClick={handleSearchClick}
                                 disabled={showSearchInput}
                               >
                                 <p class>
@@ -471,6 +467,7 @@ const handleShowClick = () => {
                                         required
                                       />
                                     )}
+                                    
                                   </div>
                                 </form>
                                 <Link to="/#">

@@ -95,7 +95,7 @@ const About = () => {
       </div>
 
       {/* Top section for chairman ma'am, Md sir and Sardin sir */}
-      <div className="flex mx-auto pb-10 pt-2 max-w-7xl justify-center flex-wrap gap-7">
+      <div className="flex mx-auto  pb-10 pt-2 max-w-7xl justify-center flex-wrap gap-7">
         {topPosition.map((project) => (
           <ProjectCard key={project.manID} {...project} />
         ))}

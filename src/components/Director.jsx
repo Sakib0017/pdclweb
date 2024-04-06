@@ -13,7 +13,7 @@ const Director = () => {
       <div className="pt-[200px]">
         <div className=" flex flex-wrap mb-10 gap-10">
           <div className=" rounded-lg p-5 mx-auto w-full ">
-            <div className="flex flex-row  flex-wrap max-w-screen-xl mx-auto  ">
+            <div className="flex flex-row sm:w-[80%] flex-wrap max-w-screen-xl mx-auto  ">
               <div className="w-auto me-auto items-start justify-start border-opacity-50 pl-2  text-start ml-3">
                 <h1 className="text-slate-900/50 font-ubuntu font-extrabold text-[42px]">
                   Dr. Mostafizur Rahman{" "}
@@ -25,7 +25,8 @@ const Director = () => {
               <div className="ms-auto">
                 <img
                   src={DrMostafizurRahman}
-                  className="h-[200px] w-[150px]"></img>
+                  className="h-[200px] w-[150px]"
+                ></img>
               </div>
 
               <div className="w-auto me-auto items-start justify-start border-opacity-50 pl-2  text-start ml-3">

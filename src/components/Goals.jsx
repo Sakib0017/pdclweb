@@ -11,7 +11,7 @@ const Goals = () => {
       <Sidemenu />
       <Bottommenu />
       <div>
-        <div className="pt-[150px]  max-w-7xl mx-auto">
+        <div className="pt-[150px] sm:w-[80%] max-w-7xl mx-auto">
           <div className="flex flex-col  max-w-7xl mx-auto">
             <h1 className="text-[36px] p-5 text-gray-900">
               The New Way to Diagnostic Treatment
@@ -51,7 +51,7 @@ const Goals = () => {
             </div>
           </div>
         </div>
-        <div className="pt-[20px] max-w-7xl mx-auto p-5 hidden md:block">
+        <div className="pt-[20px] sm:w-[80%] max-w-7xl mx-auto p-5 hidden md:block">
           <div className=" md:grid-rows-1 flex bg-gray-100/5 shadow-md items-start justify-start sm:w-[100%] w-full mx-auto  md:gap-0 ">
             <div className=" m-1 p-10   text-start">
               <div className="flex flex-row  max-w-7xl   ">
@@ -85,7 +85,7 @@ const Goals = () => {
           </div>
         </div>
 
-        <div className="pt-[20px] sm:hidden">
+        <div className="pt-[20px]  sm:hidden">
           <div className="pt-[20px]">
             <div className="flex flex-col  max-w-7xl mx-auto">
               <img src={goals} className="h-auto p-5 w-auto" />
@@ -110,7 +110,7 @@ const Goals = () => {
           </div>
         </div>
 
-        <div className="pt-[20px] max-w-7xl mx-auto p-5 hidden md:block">
+        <div className="pt-[20px] max-w-7xl sm:w-[80%] mx-auto p-5 hidden md:block">
           <div className=" md:grid-rows-1 flex bg-gray-100/5 shadow-md items-start justify-start sm:w-[100%] w-full mx-auto  md:gap-0 ">
             <div className=" m-1 p-10   text-start">
               <div className="flex flex-row  max-w-7xl">
