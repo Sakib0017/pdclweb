@@ -93,20 +93,16 @@ const Hero = ({ color }) => {
   const [isSearchVisible, setIsSearchVisible] = useState(false);
 
   const handleSearchClick = () => {
-    setIsSearchVisible(!isSearchVisible);
+    setIsSearchVisible(!isSearchVisible, true);
   };
-  const handleSearchClick1 = () => {
-    setIsSearchVisible(!isSearchVisible);
-  };
- const [showSearchInput, setShowSearchInput] = useState(true);
+ 
+const [showSearchInput, setShowSearchInput] = useState(true);
 
- const handleSearchClick2 = () => {
-   setShowSearchInput(true);
- };
 
- const handleShowClick = () => {
-   setShowSearchInput(false);
- };
+
+const handleShowClick = () => {
+  setShowSearchInput(false);
+};
   
 
   const [filteredDoctors, setFilteredDoctors] = useState([]);
@@ -198,6 +194,12 @@ const Hero = ({ color }) => {
         <p className="text-gray-600 font-ubuntu">{doctor.specializationName}</p>
       </li>
     );
+  };
+
+  const [isVisible, setIsVisible] = useState(true);
+
+  const handleClick = () => {
+    setIsVisible(false);
   };
 
   return (
@@ -395,7 +397,7 @@ const Hero = ({ color }) => {
                 <p class="text-sm text-gray-900 dark:text-gray-400">
                   <form className="max-w-screen-xl mx-auto">
                     <div className="grid md:grid-cols-9 md:gap-1">
-                      <div className="relative z-0 col-span-8 w-full group">
+                      <div className="relative z-0 col-span-9 w-full group">
                         <Link to="http://appointment.populardiagnostic.com/appointment">
                           <button
                             type="button"
@@ -406,28 +408,24 @@ const Hero = ({ color }) => {
                           </button>
                         </Link>
                       </div>
-                      <Link to="/#">
-                        <div className="relative z-0 col-span-1 w-full  group">
-                          <button
-                            type="button"
-                            className="text-gray-600 w-full rounded block col-span-2 mb-2 h-[43px] hover:text-gray-900 border bg-gray-300 shadow-2xl  border-none focus:ring-4 focus:outline-none focus:ring-[#006642] font-ubuntu text-[16px] font-bold px-5 py-2.5 text-center  dark:border-[#006642] dark:text-black dark:hover:text-black dark:hover:bg-gray-500 dark:focus:ring-[#006642]"
-                            onClick={handleSearchClick}
-                          >
-                            <span className="animate-ping">Back</span>
-                          </button>
-                        </div>
-                      </Link>
+
                       <div className="relative z-0 col-span-9 w-full  group">
                         <div className="flex flex-row w-full col-span-9">
                           <div className="flex w-full col-span-4 items-center">
                             {!isSearchVisible && (
                               <button
-                                className=" px-4 py-2 bg-gray-300 shadow-2xl mb-1 w-full mr-2 font-ubuntu font-medium col-span-4 text-gray-900 rounded"
-                                onClick={handleSearchClick}
-                                disabled={!showSearchInput}
+                                className={`px-4 py-2 bg-gray-300 shadow-2xl mb-1 w-full mr-2 font-ubuntu font-medium col-span-4 text-gray-900 rounded ${
+                                  showSearchInput
+                                    ? ""
+                                    : "opacity-50 cursor-not-allowed"
+                                }`}
+                                onClick={
+                                  (handleSearchClick)
+                                }
+                                disabled={showSearchInput}
                               >
                                 <p class>
-                                  Chat {" "}
+                                  Chat{" "}
                                   <span class=" drop-shadow-[0_1.0px_1.0px_rgba(0,0,0,0.5)] text-white gradient-alt-flow">
                                     AI Consultant
                                   </span>
@@ -436,30 +434,59 @@ const Hero = ({ color }) => {
                             )}
                             {!isSearchVisible && (
                               <button
-                                className="px-4 py-2 bg-gray-300 shadow-2xl  mb-1 w-full font-ubuntu font-medium col-span-4 text-gray-900 rounded"
-                                onClick={handleSearchClick1}
+                                className={`px-4 py-2 bg-gray-300 shadow-2xl  mb-1 w-full font-ubuntu font-medium col-span-4 text-gray-900 rounded ${
+                                  showSearchInput
+                                    ? "opacity-50 cursor-not-allowed"
+                                    : ""
+                                }`}
+                                onClick={(handleSearchClick, handleShowClick)}
                                 disabled={!showSearchInput}
                               >
                                 Chat Human Consultant
                               </button>
                             )}
                             {isSearchVisible && (
-                              <form class=" w-full col-span-8 mb-1">
-                                <label
-                                  for="default-search"
-                                  class="mb-1 text-sm font-medium text-gray-900 sr-only dark:text-white"
-                                ></label>
-                                <div class="relative">
-                                  <div class="absolute inset-y-0 end-0 flex items-center pe-3 pointer-events-none"></div>
-                                  <input
-                                    type="search"
-                                    id="default-search"
-                                    class="block w-full p-2 col-span-9 ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                                    placeholder="Chat With PDCL AI Consultant"
-                                    required
-                                  />
-                                </div>
-                              </form>
+                              <div className="relative flex flex-row z-0 col-span-9 w-full  group">
+                                <form class=" w-full col-span-7 mr-2 mb-1">
+                                  <label
+                                    for="default-search"
+                                    class="mb-1 text-sm font-medium text-gray-900 sr-only dark:text-white"
+                                  ></label>
+                                  <div class="relative">
+                                    <div class="absolute inset-y-0 end-0 flex items-center pe-3 pointer-events-none"></div>
+                                    {showSearchInput ? (
+                                      <input
+                                        type="search"
+                                        id="default-search"
+                                        class="block w-full p-2 col-span-9 ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                                        placeholder="Chat With PDCL HUMAN Consultant"
+                                        required
+                                      />
+                                    ) : (
+                                      <input
+                                        type="search"
+                                        id="default-search"
+                                        class="block w-full p-2 col-span-9 ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                                        placeholder="Chat With PDCL AI Consultant"
+                                        required
+                                      />
+                                    )}
+                                  </div>
+                                </form>
+                                <Link to="/#">
+                                  <div className="relative z-0 col-span-2 w-full  group">
+                                    <button
+                                      type="button"
+                                      className={`text-gray-600 w-full rounded block col-span-2 mb-0 h-[35px] hover:text-gray-900 border bg-gray-300 shadow-2xl  border-none focus:ring-4 focus:outline-none focus:ring-[#006642] font-ubuntu text-[16px] font-bold px-4  text-center  dark:border-[#006642] dark:text-black dark:hover:text-black dark:hover:bg-gray-500 dark:focus:ring-[#006642] ${
+                                        isVisible ? "" : "hidden"
+                                      }`}
+                                      onClick={(handleClick, handleSearchClick)}
+                                    >
+                                      <span className="animate-ping">Back</span>
+                                    </button>
+                                  </div>
+                                </Link>
+                              </div>
                             )}
                           </div>
                         </div>
