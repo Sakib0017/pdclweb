@@ -17,7 +17,7 @@ const ProjectCard = ({
 }) => {
   return (
     <div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
-      <div className="grid md:grid-row-3 items-center sm:w-[380px] w-full justify-center mx-auto  md:gap-1 ">
+      <div className="grid md:grid-row-3 items-center sm:w-[379px] w-full justify-center mx-auto  md:gap-0 ">
         <div className="text-black m-2 bg-gray-50 shadow-xl rounded-xl  w-auto text-center">
           <div className="relative w-auto h-auto">
             <video
@@ -72,7 +72,7 @@ const Works = () => {
   return (
     <>
       <div className="fontFamily-ubuntu">
-        <div className=" flex-row hidden md:block flex-wrap mb-10 gap-10">
+        <div className=" flex-row hidden  md:block flex-wrap mb-10 gap-10">
           <div className="bg-gray-50 shadow-lg rounded-lg p-5 mx-auto w-full ">
             <div className="flex flex-col  flex-wrap max-w-screen-xl mx-auto  ">
               <div className="w-auto  border-l-[5px]  border-[#006642] border-opacity-50 pl-2  text-start ml-3">
@@ -165,8 +165,8 @@ const Works = () => {
           </div>
         </div>
 
-        <div className="flex flex-col mt-[50px] max-w-7xl">
-          <h2 className="text-gray-500/50 pb-2 text-start pl-2 text-[28px] font-bold font-ubuntu">
+        <div className="flex flex-col mt-[50px] mx-auto  max-w-7xl">
+          <h2 className="text-gray-500/50 pb-2 text-center pl-2 text-[28px] font-bold font-ubuntu">
             EXPLORE HEALTH PLUS
           </h2>
         </div>

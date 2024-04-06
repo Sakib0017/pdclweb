@@ -40,7 +40,7 @@ const ProjectCard = (
               </div>
             </PopoverHandler>
             <PopoverContent>
-              <div className="flex flex-wrap w-[300px] h-auto">
+              <div className="flex flex-wrap w-[299px] h-auto">
                 <div
                   className="relative w-auto h-auto"
                   data-modal-target="default-modal"
@@ -93,7 +93,7 @@ function Notice({ imageSrc, altText, content }) {
         </div>
       </motion.div>
 
-      <div className=" flex mx-auto pb-3 max-w-7xl p-5 justify-center flex-wrap gap-7">
+      <div className=" flex mx-auto pb-10 pt-2 sm:w-[80%] max-w-7xl justify-center flex-wrap gap-7">
         {notice.map((project, noticeID) => (
           <ProjectCard
             key={`noticeID-${noticeID}`}

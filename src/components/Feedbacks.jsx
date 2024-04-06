@@ -65,7 +65,7 @@ const FeedbackCard = ({
 const Feedbacks = () => {
   return (
     <div className={` bg-none `}>
-      <h2 className="mt-[-100px] text-Start text-gray-900/50 font-bold mb-[20px] font-ubuntu text-[28px]">
+      <h2 className="mt-[-100px] text-center text-gray-900/50 font-bold mb-[20px] font-ubuntu text-[28px]">
         TESTIMONIALS
       </h2>
 

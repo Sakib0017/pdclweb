@@ -236,10 +236,7 @@ const technologies = [
     icon: nodejs,
   },
 
-  {
-    name: "git",
-    icon: git,
-  },
+  
 ];
 const service = [
   {
@@ -336,7 +333,7 @@ const projects = [
     id: 1,
     name: "HEALTH DIAGNOSIS",
     description:
-      "Ambulance BD 24 is the best ambulance service in Dhaka, Bangladesh. We provide emergency ambulance service in Dhaka city and transport patient.",
+      "Ambulance BD 24 is the best ambulance service in Dhaka, Bangladesh. We provide emergency ambulance service in Dhaka city ",
     tags: [
       {
         name: "Indhaka",
@@ -352,9 +349,9 @@ const projects = [
   },
   {
     id: 2,
-    name: "HEALTH CONSULTATION",
+    name: "HEALTH CONSULT",
     description:
-      "Blood Bank Management System (BBMS) under Safe Blood Transfusion Program, HSM, DGHS. Blood Transfusion Transfusion Program, HSM, DGHS.",
+      "Blood Bank Management System (BBMS) under Safe Blood Transfusion Program, HSM, DGHS. Blood Transfusion Transfusion ",
     tags: [
       {
         name: "Indhaka",
@@ -386,6 +383,7 @@ const projects = [
     video: pakages,
     source_code_link: "http://populardiagnostic.com/",
   },
+  
 ];
 
 const topManagement = [

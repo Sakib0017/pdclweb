@@ -36,9 +36,9 @@ const Tech = ({ message, children }) => {
         <div className="bg-emerald-900/80   opacity-90 mx-auto w-full ">
           <Sidemenu />
           <Bottommenu />
-          <form className="max-w-screen-xl mx-auto  items-center justify-center">
+          <form className="max-w-screen-xl mx-auto sm:w-[80%] items-center justify-center">
             <div className="grid md:grid-cols-3   md:gap-1 ">
-              <div className=" p-10 text-start">
+              <div className=" p-10  text-start">
                 <h2 className="mb-6 text-[18px] font-bold font-ubuntu text-white uppercase dark:text-white">
                   Contact Us
                 </h2>
@@ -120,11 +120,11 @@ const Tech = ({ message, children }) => {
             </div>
           </form>
         </div>
-        <div className="bg-emerald-900/80  shadow-lg  opacity-90 mx-auto w-full ">
-          <div className=" flex mx-auto p-3 justify-evenly max-w-screen-xl flex-wrap "></div>
+        <div className="bg-emerald-900/80   shadow-lg  opacity-90 mx-auto w-full ">
+          <div className=" flex mx-auto p-3 sm:w-[80%] justify-evenly max-w-screen-xl flex-wrap "></div>
           <img
             src={img}
-            className="flex mt-4 p-5  sm:justify-center w-full max-w-7xl mx-auto "
+            className="flex mt-4 p-5 sm:w-[80%]  sm:justify-center w-full max-w-7xl mx-auto "
           />
           <div className="bg-slate-900 shadow  px-4 py-6 mt-5 md:flex md:items-center md:justify-between ">
             <div className="flex  mt-4 sm:justify-center  md:mt-0 space-x-5 rtl:space-x-reverse max-w-7xl mx-auto">

@@ -12,7 +12,7 @@ function Cor() {
         Corporate Partners
       </h3>
 
-      <div className=" flex flex-row flex-wrap mt-10 max-w-screen-xl mx-auto justify-center gap-10">
+      <div className=" flex flex-row flex-wrap mt-10 sm:w-[80%] max-w-screen-xl mx-auto justify-center gap-10">
         {technologies.map((technology) => (
           <div className="w-28 h-28" key={technology.name}>
             <img src={technology.icon} />
@@ -23,7 +23,7 @@ function Cor() {
         Service Partners
       </h3>
 
-      <div className=" flex flex-row flex-wrap mt-10 max-w-screen-xl mx-auto justify-center gap-10">
+      <div className=" flex flex-row flex-wrap mt-10 sm:w-[80%] max-w-screen-xl mx-auto justify-center gap-10">
         {service.map((technology) => (
           <div className="w-[300px] p-5 h-28" key={technology.name}>
             <img src={technology.icon} />

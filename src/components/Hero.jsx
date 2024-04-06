@@ -213,7 +213,7 @@ const handleShowClick = () => {
         <div className="absolute w-full h-[700px] top-0 left-0 bg-gray-900/50"></div>
 
         <div
-          className={`${styles.paddingX} absolute  flex   max-w-7xl mx-auto inset-1 justify-center items-bottom text-center sm:w-[70%]  flex-col text-gray-900`}
+          className={`${styles.paddingX} absolute  flex   max-w-7xl mx-auto inset-1 justify-center items-bottom text-center sm:w-[80%]  flex-col text-gray-900`}
         >
           <div className="bg-white rounded">
             <div class="mb-4 ">
