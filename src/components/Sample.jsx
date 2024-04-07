@@ -24,7 +24,8 @@ function Sample() {
               Sample Pickup
             </h1>
             <p className=" pb-3 text-[15px] text-black font-small font-ubuntu">
-              Sample Collection Services (Amar Lab our Service Partner.)
+              Sample Collection Services (Amar Lab & arrogo our Service
+              Partner.)
             </p>
             <hr />
             <p className="pt-3 text-[15px] text-black font-bold font-ubuntu">
@@ -58,7 +59,7 @@ function Sample() {
               </span>
             </h1>
             <Input
-              className="border-b-[1px] m-1 p-2 text-black"
+              className="border-b-[1px] bg-white m-1 p-2 text-black"
               variant="static"
               placeholder="Your Answer"
             />
@@ -83,7 +84,7 @@ function Sample() {
               </span>
             </h1>
             <Input
-              className="border-b-[1px] m-1 p-2 text-black"
+              className="border-b-[1px] bg-white m-1 p-2 text-black"
               variant="static"
               placeholder="Your Answer"
             />
@@ -108,7 +109,7 @@ function Sample() {
               </span>
             </h1>
             <Input
-              className="border-b-[1px] m-1 p-2 text-black"
+              className="border-b-[1px] bg-white m-1 p-2 text-black"
               variant="static"
               placeholder="Your Answer"
             />
@@ -129,7 +130,7 @@ function Sample() {
                 Email Address
               </h1>
               <Input
-                className="border-b-[1px] m-1 p-2 text-black"
+                className="border-b-[1px] bg-white m-1 p-2 text-black"
                 variant="static"
                 placeholder="Your Answer"
               />
@@ -154,7 +155,7 @@ function Sample() {
               </span>
             </h1>
             <Input
-              className="border-b-[1px] m-1 p-2 text-black"
+              className="border-b-[1px] bg-white m-1 p-2 text-black"
               type="Time"
               variant="static"
               placeholder="Your Answer"
@@ -194,13 +195,9 @@ function Sample() {
         </Card>
       </div>
       <div className="flex max-w-[40rem]  bg-[#e2f0e5] pb-3 mx-auto">
-        <Link to="/">
-          <p className=" pt-3 text-[15px] me-auto text-[#006642] font-bold font-ubuntu">
-            Go Back
-          </p>
-        </Link>
+       
 
-        <p className=" pt-3 text-[15px] mx-auto text-[#006642] font-bold font-ubuntu">
+        <p className=" pt-3 text-[15px] me-auto text-[#006642] font-bold font-ubuntu">
           Clear form
         </p>
         <Button className="bg-[#006642] ms-auto">Submit</Button>

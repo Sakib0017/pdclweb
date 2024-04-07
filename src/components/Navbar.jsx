@@ -2,25 +2,21 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { styles } from "../styles";
 import { navLinks } from "../constants";
+
 import {
   logo,
-  menu,
-  close,
-  login,
-  signup,
-  star2,
-  telephone,
-  about,
-  gmail,
+  
 } from "../assets";
 import {
   Popover,
   PopoverHandler,
   PopoverContent,
-  Button,
+ 
 } from "@material-tailwind/react";
 
 const Navbar = () => {
+  
+
   const [active, setActive] = useState("");
   const [toggle, setToggle] = useState(false);
   const [scrolled, setScrolled] = useState(false);
@@ -72,12 +68,15 @@ const Navbar = () => {
                 <div className="flex flex-row ">
                   <a>
                     {" "}
-                    <Link to="/report">
+                    <Link to="/report" activeClassName="navbar__link--active">
                       {" "}
                       <p className="text-emerald-900/80 items-center flex flex-row text-[14px] ms-0 me-1 font-medium font-ubuntu">
                         <a href="">
                           {" "}
-                          <span className="pl-1 text-[14px] font-medium font-ubuntu hidden md:block">
+                          <span
+                            className={`pl-1 text-[14px] font-medium font-ubuntu hidden md:block cursor-pointer hover:text-gray-400 active`}
+                           
+                          >
                             Patient Portal
                           </span>
                         </a>
@@ -239,6 +238,21 @@ const Navbar = () => {
                           >
                             <span className="text-emerald-900/80 hover:text-[#000000] text-[14px] ms-0 mx-auto font-medium font-ubuntu">
                               Management Team
+                            </span>
+                          </p>
+                        </Link>
+                      </a>
+                      <br />
+                      <a>
+                        {" "}
+                        <Link to="/tech">
+                          <p
+                            type="button"
+                            data-dropdown-toggle="language-dropdown-menu"
+                            className="ms-auto inline-flex items-center font-ubuntu justify-center px-4 py-2 text-sm rounded-lg cursor-pointer"
+                          >
+                            <span className="text-emerald-900/80 hover:text-[#000000] text-[14px] ms-0 mx-auto font-medium font-ubuntu">
+                              Our Technologies
                             </span>
                           </p>
                         </Link>

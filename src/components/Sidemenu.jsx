@@ -32,7 +32,7 @@ const Sidemenu = () => {
       <div>
         <div className="hidden md:block">
           <div>
-            <Link to="/modal">
+            <Link to="/modal" target="_blank" rel="noopener noreferrer">
               <Tooltip
                 className="bg-gray-900/50  p-3 hover:cursor-pointer font-extrabold rounded-none"
                 content="Hotline"
@@ -56,7 +56,7 @@ const Sidemenu = () => {
               </Tooltip>
             </Link>
 
-            <Link to="/sample">
+            <Link to="/sample" target="_blank" rel="noopener noreferrer">
               <Tooltip
                 className="bg-gray-900/50  p-3 hover:cursor-pointer font-extrabold rounded-none"
                 content="Sample Collection"
@@ -102,7 +102,7 @@ const Sidemenu = () => {
               </a>
             </Tooltip>
 
-            <Link to="/report">
+            <Link to="/report" target="_blank" rel="noopener noreferrer">
               <Tooltip
                 className="bg-gray-900/50  p-3 hover:cursor-pointer font-extrabold rounded-none"
                 content="Report Download"
@@ -126,7 +126,7 @@ const Sidemenu = () => {
               </Tooltip>
             </Link>
 
-            <Link to="/complain">
+            <Link to="/complain" target="_blank" rel="noopener noreferrer">
               <Tooltip
                 className="bg-gray-900/50  p-3 hover:cursor-pointer font-extrabold rounded-none"
                 content="Complain Submission"

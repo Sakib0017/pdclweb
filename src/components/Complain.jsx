@@ -61,7 +61,7 @@ function Complain() {
               </span>
             </h1>
             <Input
-              className="border-b-[1px] m-1 p-2 text-black"
+              className="border-b-[1px] bg-white m-1 p-2 text-black"
               variant="static"
               placeholder="Your Answer"
             />
@@ -86,7 +86,7 @@ function Complain() {
               </span>
             </h1>
             <Input
-              className="border-b-[1px] m-1 p-2 text-black"
+              className="border-b-[1px] bg-white m-1 p-2 text-black"
               variant="static"
               placeholder="Your Answer"
             />
@@ -110,7 +110,7 @@ function Complain() {
                 </span>
               </h1>
               <Input
-                className="border-b-[1px] m-1 p-2 text-black"
+                className="border-b-[1px] bg-white m-1 p-2 text-black"
                 variant="static"
                 placeholder="Your Answer"
               />
@@ -135,7 +135,7 @@ function Complain() {
               </span>
             </h1>
             <Input
-              className="border-b-[1px] m-1 p-2 text-black"
+              className="border-b-[1px] bg-white m-1 p-2 text-black"
               type="Date"
               variant="static"
               placeholder="Your Answer"
@@ -161,7 +161,7 @@ function Complain() {
               </span>
             </h1>
             <Input
-              className="border-b-[1px] m-1 p-2 text-black"
+              className="border-b-[1px] bg-white m-1 p-2 text-black"
               type="Time"
               variant="static"
               placeholder="Your Answer"
@@ -215,7 +215,7 @@ function Complain() {
               </span>
             </h1>
             <Input
-              className="border-b-[1px] m-1 p-2 text-black"
+              className="border-b-[1px] bg-white m-1 p-2 text-black"
               variant="static"
               placeholder="Your Answer"
             />
@@ -226,13 +226,9 @@ function Complain() {
         </Card>
       </div>
       <div className="flex max-w-[40rem]  bg-[#e2f0e5] pb-3 mx-auto">
-        <Link to="/">
-          <p className=" pt-3 text-[15px] me-auto text-[#006642] font-bold font-ubuntu">
-            Go Back
-          </p>
-        </Link>
+       
 
-        <p className=" pt-3 text-[15px] ms-auto text-[#006642] font-bold font-ubuntu">
+        <p className=" pt-3 text-[15px] me-auto text-[#006642] font-bold font-ubuntu">
           Clear form
         </p>
         <Button className="bg-[#006642] ms-auto">Submit</Button>

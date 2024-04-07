@@ -30,7 +30,7 @@ const Bottommenu = () => {
   return (
     <div className="">
       <div className="  sm:hidden  mx-auto">
-        <Link to="/modal">
+        <Link to="/modal" target="_blank" rel="noopener noreferrer">
           {" "}
           <Tooltip
             className="bg-gray-900/50 z-20 p-3 font-extrabold rounded-none"
@@ -54,7 +54,7 @@ const Bottommenu = () => {
           </Tooltip>
         </Link>
 
-        <Link to="/sample">
+        <Link to="/sample" target="_blank" rel="noopener noreferrer">
           {" "}
           <Tooltip
             className="bg-gray-900/50 p-3 z-20 font-extrabold rounded-none"
@@ -78,7 +78,7 @@ const Bottommenu = () => {
           </Tooltip>
         </Link>
 
-        <Link to="">
+        <Link to="" target="_blank" rel="noopener noreferrer">
           {" "}
           <Tooltip
             className="bg-gray-900/50 p-3 font-extrabold z-20 rounded-none"
@@ -102,7 +102,7 @@ const Bottommenu = () => {
           </Tooltip>
         </Link>
 
-        <Link to="/report">
+        <Link to="/report" target="_blank" rel="noopener noreferrer">
           {" "}
           <Tooltip
             className="bg-gray-900/50 p-3 font-extrabold z-20 rounded-none"
@@ -126,7 +126,7 @@ const Bottommenu = () => {
           </Tooltip>
         </Link>
 
-        <Link to="/complain">
+        <Link to="/complain" target="_blank" rel="noopener noreferrer">
           {" "}
           <Tooltip
             className="bg-gray-900/50 p-3 font-extrabold z-20 rounded-none"
@@ -150,7 +150,7 @@ const Bottommenu = () => {
           </Tooltip>
         </Link>
 
-        <Link to="">
+        <Link to="" target="_blank" rel="noopener noreferrer">
           {" "}
           <Tooltip
             className="bg-gray-900/50 p-3 z-20 font-extrabold rounded-none"

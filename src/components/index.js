@@ -6,6 +6,7 @@ import {
 } from "./canvas";
 import Hero from "./Hero";
 import Nav from "./Nav";
+import Technology from "./Technology";
 import Navbar from "./Navbar";
 import About from "./About";
 import Tech from "./Tech";
@@ -43,6 +44,7 @@ export {
   Chairman,
   DoctorDetail,
   Director,
+  Technology,
   Bottommenu,
   Login,
   Health,

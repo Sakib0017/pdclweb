@@ -129,11 +129,7 @@ const Modal = () => {
       <Navbar />
       <Sidemenu />
       <Bottommenu />
-      <div className="flex flex-col pt-[150px] sm:w-[80%]  mx-auto">
-        <h2 className="text-gray-900/50 pb-5 text-center text-[35px] font-bold font-ubuntu">
-          ALL BRANCHES
-        </h2>
-      </div>
+      
 
       <div className="sticky top-[99px] z-10 rounded-xl  sm:w-[80%] shadow-2xl bg-white flex flex-col-reverse gap-2 sm:flex-row p-5 row-span-1 mx-12 xl:mx-auto xl:max-w-7xl justify-between">
         <motion.button
@@ -159,7 +155,7 @@ const Modal = () => {
         />
       </div>
 
-      <div className="flex mx-auto pb-10 pt-2 sm:w-[80%] max-w-7xl justify-center flex-wrap gap-7">
+      <div className="flex mx-auto pb-10 pt-[100px] sm:w-[80%]  max-w-7xl justify-center flex-wrap gap-7">
         {filteredAndSearchedProjects.map((project) => (
           <ProjectCard key={project.branchID} {...project} />
         ))}

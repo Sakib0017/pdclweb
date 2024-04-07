@@ -226,6 +226,10 @@ const handleSubmit = (e) => {
     setUserInput("");
   }
 };
+
+const handleClick1 = () => {
+  window.open(url, "_blank", "noopener,noreferrer");
+};
 // Array to store messages
 
   return (
@@ -424,10 +428,15 @@ const handleSubmit = (e) => {
                   <form className="max-w-screen-xl mx-auto">
                     <div className="grid md:grid-cols-9 md:gap-1">
                       <div className="relative z-0 col-span-9 w-full group">
-                        <Link to="http://appointment.populardiagnostic.com/appointment">
+                        <Link
+                          to="http://appointment.populardiagnostic.com/appointment"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
                           <button
                             type="button"
                             className="text-gray-600 w-full rounded block col-span-7 mb-2 h-[43px] hover:text-gray-900 border bg-gray-300 shadow-2xl  border-none focus:ring-4 focus:outline-none focus:ring-[#006642] font-ubuntu text-[16px] font-bold px-5 py-2.5 text-center  dark:border-[#006642] dark:text-black dark:hover:text-black dark:hover:bg-gray-500 dark:focus:ring-[#006642]"
+                            onClick={handleClick1}
                           >
                             Make An Appointment{" "}
                             <span className="animate-ping">Now</span>

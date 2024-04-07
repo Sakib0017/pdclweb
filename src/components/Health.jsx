@@ -78,6 +78,7 @@ const Health = () => {
           <PackageCard key={packageData.packageID} packageData={packageData} />
         ))}
       </div>
+      <Tech />
     </div>
   );
 };

@@ -122,52 +122,7 @@ const About = () => {
         ))}
       </div>
 
-      <div>
-        <h1 className="bg-black text-white font-bold text-center text-[24px]">
-          {" "}
-          Test Price Searching{" "}
-          <span className="text-red-500 font-bold text-[10px]">
-            temporary
-          </span>{" "}
-        </h1>
-        <div className="text-black">
-          <select value={selectedBranch} onChange={handleBranchChange}>
-            <option value="">Select Branch</option>
-            {ServiceCost.map((branch) => (
-              <option key={branch.braId} value={branch.braId}>
-                {branch.braName}
-              </option>
-            ))}
-          </select>
-          <br />
-          <input
-            type="text"
-            placeholder="Search Services"
-            value={searchTerm}
-            onChange={handleSearchChange}
-          />
-          {filteredServices.length > 0 && (
-            <div>
-              {/* Render the header */}
-              <ListHeader />
-
-              {/* List */}
-              <AutoSizer>
-                {({ width }) => (
-                  <List
-                    height={250}
-                    rowCount={filteredServices.length}
-                    rowHeight={50}
-                    rowRenderer={renderRow}
-                    overscanRowCount={5}
-                    width={width}
-                  />
-                )}
-              </AutoSizer>
-            </div>
-          )}
-        </div>
-      </div>
+      
 
       <Tech />
     </div>

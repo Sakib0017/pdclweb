@@ -9,6 +9,7 @@ import {
   DoctorDetail,
   DoctorSearch,
   Notification,
+  Technology,
   Details,
   About,
   Complain,
@@ -31,6 +32,7 @@ const App = () => {
           <Route path="/sample" element={<Sample />} />
           <Route path="/doctordetail" element={<DoctorDetail />} />
           <Route path="/doctorsearch" element={<DoctorSearch />} />
+          <Route path="/tech" element={<Technology />} />
           <Route path="/sign" element={<Sign />} />
           <Route path="/goals" element={<Goals />} />
           <Route path="/complain" element={<Complain />} />
