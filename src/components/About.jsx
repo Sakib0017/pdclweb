@@ -95,28 +95,28 @@ const About = () => {
       </div>
 
       {/* Top section for chairman ma'am, Md sir and Sardin sir */}
-      <div className="flex mx-auto  pb-10 pt-2 max-w-7xl justify-center flex-wrap gap-7">
+      <div className="flex mx-auto p-3 pb-10 pt-2 max-w-7xl justify-center flex-wrap gap-7">
         {topPosition.map((project) => (
           <ProjectCard key={project.manID} {...project} />
         ))}
       </div>
 
       {/* Second section for general managers and advisors*/}
-      <div className="flex mx-auto py-10  max-w-7xl justify-center flex-wrap gap-7">
+      <div className="flex mx-auto p-3 py-10  max-w-7xl justify-center flex-wrap gap-7">
         {secondTopPosition.map((project) => (
           <ProjectCard key={project.manID} {...project} />
         ))}
       </div>
 
       {/* Third section for AGMs */}
-      <div className="flex mx-auto py-10 max-w-7xl justify-center flex-wrap gap-7">
+      <div className="flex mx-auto p-3 py-10 max-w-7xl justify-center flex-wrap gap-7">
         {thirdTopPosition.map((project) => (
           <ProjectCard key={project.manID} {...project} />
         ))}
       </div>
 
       {/* Fourth section for managers */}
-      <div className="flex mx-auto py-10 max-w-7xl justify-center flex-wrap gap-7">
+      <div className="flex mx-auto p-3 py-10 max-w-7xl justify-center flex-wrap gap-4">
         {fourthTopPosition.map((project) => (
           <ProjectCard key={project.manID} {...project} />
         ))}

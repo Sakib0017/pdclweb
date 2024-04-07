@@ -327,7 +327,7 @@ const Navbar = () => {
               </Popover>
             </div>
 
-            <div className="sm:hidden flex flex-1 justify-end items-start">
+            <div className="sm:hidden flex flex-1  justify-end items-start">
               <svg
                 className="w-[28px] h-[28px] fill-emerald-900/80"
                 onClick={() => setToggle(!toggle)}
@@ -339,9 +339,9 @@ const Navbar = () => {
               <div
                 className={`${
                   !toggle ? "hidden" : "flex"
-                } p-10 bg-emerald-900/90 absolute top-20 rounded-md`}
+                } p-10 bg-emerald-900/90 absolute z-20 top-20 rounded-md`}
               >
-                <ul className=" flex me-auto flex-col gap-3">
+                <ul className=" flex me-auto  flex-col gap-3">
                   <li className="inline-flex flex-row justify-start items-start">
                     <div className="flex flex-row ">
                       <a>

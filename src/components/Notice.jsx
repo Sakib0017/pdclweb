@@ -93,7 +93,7 @@ function Notice({ imageSrc, altText, content }) {
         </div>
       </motion.div>
 
-      <div className=" flex mx-auto pb-10 pt-2 sm:w-[80%] max-w-7xl justify-center flex-wrap gap-7">
+      <div className=" flex mx-auto pb-10 pt-2 p-3 sm:w-[80%] max-w-7xl justify-center flex-wrap gap-7">
         {notice.map((project, noticeID) => (
           <ProjectCard
             key={`noticeID-${noticeID}`}

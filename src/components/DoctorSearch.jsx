@@ -232,7 +232,7 @@ const DoctorSearch = () => {
           ))}
         </motion.select>
       </div>
-      <div className="doctor-list flex mx-auto pb-10 pt-[150px] max-w-7xl justify-center flex-wrap gap-5">
+      <div className="doctor-list flex mx-auto pb-10 pt-[150px] p-3 max-w-7xl justify-center flex-wrap gap-5">
         {filteredDoctors.map((doctor, index) => (
           <DoctorCard key={index} doctor={doctor} />
         ))}
