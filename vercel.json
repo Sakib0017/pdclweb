@@ -71,7 +71,12 @@
         {
             "src": "/tech",
             "dest": "/"
+        },
+        {
+            "src": "/chairman",
+            "dest": "/"
         }
+        
         
     ]
 }

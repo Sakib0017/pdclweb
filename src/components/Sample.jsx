@@ -24,7 +24,7 @@ function Sample() {
               Sample Pickup
             </h1>
             <p className=" pb-3 text-[15px] text-black font-small font-ubuntu">
-              Sample Collection Services (Amar Lab & arrogo our Service
+              Sample Collection Services (Amar Lab & Arogga are our Service
               Partner.)
             </p>
             <hr />
@@ -45,6 +45,57 @@ function Sample() {
         </Card>
       </div>
 
+      <div className="bg-[#e2f0e5] pt-3 pb-3">
+        <Card className="w-full max-w-[40rem] p-3 mx-auto flex-col">
+          <CardBody
+            shadow={false}
+            floated={false}
+            className="ml-0 w-full shrink-0 me-auto rounded-r-none"
+          >
+            <h1 className=" text-[18px] pb-5 text-black font-medium font-ubuntu">
+              Vendor{" "}
+              <span className=" text-[15px] text-[red] font-medium font-ubuntu">
+                *
+              </span>
+            </h1>
+
+            <div class="flex">
+              <div class="flex items-center me-4">
+                <input
+                  id="inline-checkbox"
+                  type="checkbox"
+                  value=""
+                  class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
+                />
+                <label
+                  for="inline-checkbox"
+                  class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300"
+                >
+                  Amar Lab
+                </label>
+              </div>
+              <div class="flex items-center me-4">
+                <input
+                  id="inline-2-checkbox"
+                  type="checkbox"
+                  value=""
+                  class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
+                />
+                <label
+                  for="inline-2-checkbox"
+                  class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300"
+                >
+                  Arogga
+                </label>
+              </div>
+            </div>
+
+            <p className=" pt-3 text-[12px] text-[red] font-small font-ubuntu">
+              This is a required question
+            </p>
+          </CardBody>
+        </Card>
+      </div>
       <div className="bg-[#e2f0e5] pt-3 pb-3">
         <Card className="w-full max-w-[40rem] p-3 mx-auto flex-col">
           <CardBody
@@ -195,8 +246,6 @@ function Sample() {
         </Card>
       </div>
       <div className="flex max-w-[40rem]  bg-[#e2f0e5] pb-3 mx-auto">
-       
-
         <p className=" pt-3 text-[15px] me-auto text-[#006642] font-bold font-ubuntu">
           Clear form
         </p>
