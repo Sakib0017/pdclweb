@@ -63,9 +63,9 @@ const Navbar = () => {
 <p className="text-emerald-900/80 font-ubuntu font-medium">10636</p>
 </Link>
 </div> */}
-            <ul className="list-none hidden sm:flex mx-auto flex-row gap-1">
-              <li className="flex mr-4 flex-row justify-center items-center">
-                <div className="flex flex-row ">
+            <ul className="list-none hidden sm:flex  mx-auto flex-row gap-1">
+              <li className="flex mr-4 flex-wrap  justify-center items-center">
+                <div className="flex flex-wrap ">
                   <a>
                     {" "}
                     <Link to="/patient" activeClassName="navbar__link--active">
@@ -339,9 +339,9 @@ const Navbar = () => {
               <div
                 className={`${
                   !toggle ? "hidden" : "flex"
-                } p-10 bg-emerald-900/90 absolute z-20 top-20 rounded-md`}
+                } p-10 bg-emerald-900/90  absolute z-20 top-20 rounded`}
               >
-                <ul className=" flex me-auto  flex-col gap-3">
+                <ul className=" flex  flex-col gap-3">
                   <li className="inline-flex flex-row justify-start items-start">
                     <div className="flex flex-row ">
                       <a>
