@@ -1,7 +1,7 @@
 import React from "react";
 import { Routes, Route, BrowserRouter } from "react-router-dom";
 import {
-  Modal,
+  Branch,
   Layout,
   Sample,
   Contact,
@@ -18,7 +18,7 @@ import {
   Login,
   Notice,
   Sign,
-  Report,
+  Patient,
   Director,
 } from "./components";
 const App = () => {
@@ -27,7 +27,7 @@ const App = () => {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Layout />} />
-          <Route path="/report" element={<Report />} />
+          <Route path="/patient" element={<Patient />} />
           <Route path="/login" element={<Login />} />
           <Route path="/sample" element={<Sample />} />
           <Route path="/doctordetail" element={<DoctorDetail />} />
@@ -36,7 +36,7 @@ const App = () => {
           <Route path="/sign" element={<Sign />} />
           <Route path="/goals" element={<Goals />} />
           <Route path="/complain" element={<Complain />} />
-          <Route path="/modal" element={<Modal />} />
+          <Route path="/branch" element={<Branch />} />
           <Route path="/director" element={<Director />} />
           <Route path="/chairman" element={<Chairman />} />
           <Route path="/notice" element={<Notice />} />

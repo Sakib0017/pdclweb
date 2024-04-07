@@ -1,4 +1,4 @@
-import { Nav, Navbar, Sidemenu, Bottommenu, Tech } from "../components";
+import { Nav, Navbar, Sidemenu, Bottommenu, Tech } from ".";
 import React, { useState, useEffect } from "react";
 import { reportDownload } from "../constants";
 import { motion } from "framer-motion";
@@ -24,7 +24,7 @@ const BranchCard = ({ branch, handleReportDownload }) => {
   );
 };
 
-const Report = () => {
+const Patient = () => {
   const [searchTerm, setSearchTerm] = useState("");
   const [allDhakaBranches, setAllDhakaBranches] = useState([]);
   const [allOtherBranches, setAllOtherBranches] = useState([]);
@@ -147,4 +147,4 @@ const Report = () => {
   );
 };
 
-export default Report;
+export default Patient;

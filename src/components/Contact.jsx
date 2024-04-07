@@ -18,10 +18,33 @@ function Contact() {
       <Navbar />
       <Sidemenu />
       <Bottommenu />
+
+      <div
+        className={`inset-0 justify-center pt-[150px] items-center mb-[20px]   text-center flex flex-wrap  text-white`}
+      >
+        <div className="max-w-7xl">
+          <div className=" p-10  text-start">
+            <h2 className="mb-6  font-bold font-ubuntu text-center  text-[36px] uppercase text-gray-900 dark:text-white">
+              Contact Address
+            </h2>
+
+            <p className="mb-4 text-center text-[24px]  text-gray-900">
+              House #16, Road # 2, Dhanmondi R/A, Dhaka-1205, Bangladesh
+            </p>
+
+            <p className="mb-4 text-center text-[24px]  text-gray-900">
+              E-mail : info@populardiagnostic.com
+            </p>
+            <p className="mb-4 text-center text-[24px]  text-gray-900">
+              Phone : 09666 787801
+            </p>
+          </div>
+        </div>
+      </div>
       <div
         className={`justify-center  items-center p-2 text-center flex flex-col  text-white`}
       >
-        <div className=" flex-col mt-[90px] max-w-7xl container sm:w-[80%] block items-stretch md:flex-row    mx-auto">
+        <div className=" flex-col  max-w-7xl container sm:w-[80%] block items-stretch md:flex-row    mx-auto">
           <Card
             className="mx-auto w-full bg-gray-100/5 mt-[40px] shadow-2xl  rounded-[10px] max-w-7xl"
             shadow={true}
@@ -100,25 +123,6 @@ function Contact() {
               </Link>
             </form>
           </Card>
-        </div>
-      </div>
-      <div
-        className={`inset-0 justify-center items-center mb-[20px]  text-center flex flex-wrap  text-white`}
-      >
-        <div className=" p-10  text-start">
-          <h2 className="mb-6  font-bold font-ubuntu text-center text-[40px] uppercase text-gray-900 dark:text-white">
-            Contact Address
-          </h2>
-
-          <p className="mb-4 text-center text-[32px]  text-gray-900">
-            House #16, Road # 2, Dhanmondi R/A, Dhaka-1205, Bangladesh
-          </p>
-          <p className="mb-4 text-center text-[32px]  text-gray-900">
-            Phone : 09666 787801
-          </p>
-          <p className="mb-4 text-center text-[32px]  text-gray-900">
-            E-mail : info@populardiagnostic.com
-          </p>
         </div>
       </div>
 

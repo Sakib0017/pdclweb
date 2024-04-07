@@ -254,7 +254,7 @@ const handleClick1 = () => {
                   <a
                     href="#"
                     data-tabs-target="styled-profile"
-                    className={`inline-block w-full p-2 rounded text-gray-900 bg-[#00664a] border-r border-gray-200 dark:border-gray-700  focus:ring-1 focus:ring-white ${
+                    className={`inline-block w-full p-3 rounded text-gray-900 bg-[#00664a] border-r border-gray-200 dark:border-gray-700  focus:ring-1 focus:ring-white ${
                       activeTab === "styled-profile"
                         ? "bg-[#ffffff]"
                         : "bg-[#00664a]"
@@ -271,7 +271,7 @@ const handleClick1 = () => {
                   <a
                     href="#"
                     data-tabs-target="styled-profile1"
-                    className={`inline-block w-full p-2 rounded text-gray-900 bg-[#00664a] border-r border-gray-200 dark:border-gray-700  focus:ring-1 focus:ring-white ${
+                    className={`inline-block w-full p-3 rounded text-gray-900 bg-[#00664a] border-r border-gray-200 dark:border-gray-700  focus:ring-1 focus:ring-white ${
                       activeTab === "styled-profile1"
                         ? "bg-[#ffffff]"
                         : "bg-[#00664a]"
@@ -288,7 +288,7 @@ const handleClick1 = () => {
                   <a
                     href="#"
                     data-tabs-target="styled-profile2"
-                    className={`inline-block w-full p-2 rounded text-gray-900 bg-[#00664a] border-r border-gray-200 dark:border-gray-700  focus:ring-1 focus:ring-white ${
+                    className={`inline-block w-full p-3 rounded text-gray-900 bg-[#00664a] border-r border-gray-200 dark:border-gray-700  focus:ring-1 focus:ring-white ${
                       activeTab === "styled-profile2"
                         ? "bg-[#ffffff]"
                         : "bg-[#00664a]"
@@ -594,7 +594,7 @@ const handleClick1 = () => {
                                       }`}
                                       onClick={(handleClick, handleSearchClick)}
                                     >
-                                      <span className="animate-ping">Back</span>
+                                      <span className="">Back</span>
                                     </button>
                                   </div>
                                 </Link>

@@ -17,13 +17,13 @@ const ProjectCard = ({
 }) => {
   return (
     <div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
-      <div className="grid md:grid-row-3 items-center sm:w-[379px] w-full justify-center mx-auto  md:gap-0 ">
-        <div className="text-black m-2 bg-gray-50 shadow-xl rounded-xl  w-auto text-center">
+      <div className="grid md:grid-row-2 items-center sm:w-[329px] w-full justify-center mx-auto  md:gap-0 ">
+        <div className="text-black m-2 bg-gray-50 shadow-xl rounded  w-auto text-center">
           <div className="relative w-auto h-auto">
             <video
               src={video}
               alt="project_image"
-              className="w-full h-[220px] rounded-xl object-cover opacity-90"
+              className="w-full h-[200px] rounded object-cover opacity-90"
               autoPlay
               loop
               muted
@@ -73,7 +73,7 @@ const Works = () => {
     <>
       <div className="fontFamily-ubuntu">
         <div className=" flex-row hidden  md:block flex-wrap mb-10 gap-10">
-          <div className="bg-gray-50 shadow-lg rounded-lg p-5 mx-auto w-full ">
+          <div className="bg-gray-50 shadow-lg  rounded-lg p-5 mx-auto w-full ">
             <div className="flex flex-col  flex-wrap max-w-screen-xl mx-auto  ">
               <div className="w-auto  border-l-[5px]  border-[#006642] border-opacity-50 pl-2  text-start ml-3">
                 <h1 className="text-slate-900/50 font-ubuntu font-extrabold text-[28px]">
@@ -178,7 +178,7 @@ const Works = () => {
         </div>
 
         <a href="/">
-          <p className="text-gray-500 pt-1 text-end pr-2 text-[20px] font-medium font-ubuntu">
+          <p className="text-gray-500 pt-1 text-end pr-20 text-[20px] font-medium font-ubuntu">
             View More.....
           </p>
         </a>

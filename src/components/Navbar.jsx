@@ -68,14 +68,13 @@ const Navbar = () => {
                 <div className="flex flex-row ">
                   <a>
                     {" "}
-                    <Link to="/report" activeClassName="navbar__link--active">
+                    <Link to="/patient" activeClassName="navbar__link--active">
                       {" "}
                       <p className="text-emerald-900/80 items-center flex flex-row text-[14px] ms-0 me-1 font-medium font-ubuntu">
                         <a href="">
                           {" "}
                           <span
                             className={`pl-1 text-[14px] font-medium font-ubuntu hidden md:block cursor-pointer hover:text-gray-400 active`}
-                           
                           >
                             Patient Portal
                           </span>
@@ -127,7 +126,7 @@ const Navbar = () => {
                   <Popover placement="bottom">
                     <PopoverHandler>
                       <a>
-                        <Link to="/modal">
+                        <Link to="/branch">
                           {" "}
                           <p className="text-emerald-900/80 items-center flex flex-row text-[14px] ms-0 me-1 font-medium font-ubuntu">
                             <span className="pl-1 text-[14px] font-medium font-ubuntu hidden md:block cursor-pointer">
@@ -346,7 +345,7 @@ const Navbar = () => {
                   <li className="inline-flex flex-row justify-start items-start">
                     <div className="flex flex-row ">
                       <a>
-                        <Link to="/report">
+                        <Link to="/patient">
                           {" "}
                           <p className="text-white me-auto items-start flex flex-row text-[14px] font-medium font-ubuntu">
                             <a href="">
@@ -400,7 +399,7 @@ const Navbar = () => {
                     <div className="flex flex-row ">
                       <a>
                         {" "}
-                        <Link to="/modal">
+                        <Link to="/branch">
                           {" "}
                           <p className="text-white me-auto items-start flex flex-row text-[14px] font-medium font-ubuntu">
                             <a href="">

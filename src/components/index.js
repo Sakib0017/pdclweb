@@ -15,13 +15,13 @@ import Works from "./Works";
 import Feedbacks from "./Feedbacks";
 import Contact from "./Contact";
 import CanvasLoader from "./Loader";
-import Modal from "./Modal";
+import Branch from "./Branch";
 import Count from "./Count";
 import Layout from "./Layout";
 import Sample from "./Sample";
 import Complain from "./Complain";
 import Sidemenu from "./Sidemenu";
-import Report from "./Report";
+import Patient from "./Patient";
 import Login from "./Login";
 import Sign from "./Sign";
 import Cor from "./Cor";
@@ -36,7 +36,7 @@ import Director from "./Director";
 import Chairman from "./Chairman";
 import Goals from "./Goals";
 export {
-  Modal,
+  Branch,
   Notice,
   Details,
   Goals,
@@ -52,7 +52,7 @@ export {
   Sign,
   Layout,
   Sidemenu,
-  Report,
+  Patient,
   Complain,
   Hero,
   Notification,

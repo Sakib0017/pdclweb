@@ -333,7 +333,7 @@ const projects = [
     id: 1,
     name: "HEALTH DIAGNOSIS",
     description:
-      "Ambulance BD 24 is the best ambulance service in Dhaka, Bangladesh. We provide emergency ambulance service in Dhaka city ",
+      "HEALTH DIAGNOSIS HEALTH DIAGNOSIS HEALTH DIAGNOSIS HEALTH DIAGNOSIS",
     tags: [
       {
         name: "Indhaka",
@@ -350,8 +350,7 @@ const projects = [
   {
     id: 2,
     name: "HEALTH CONSULT",
-    description:
-      "Blood Bank Management System (BBMS) under Safe Blood Transfusion Program, HSM, DGHS. Blood Transfusion Transfusion ",
+    description: "HEALTH CONSULT HEALTH CONSULT HEALTH CONSULT HEALTH CONSULT ",
     tags: [
       {
         name: "Indhaka",
@@ -369,7 +368,7 @@ const projects = [
     id: 3,
     name: "HEALTH PAKAGES",
     description:
-      "We believe everyone should have access to convenient and quality healthcare. Our health checks and packages help you stay on top of your.",
+      "HEALTH PAKAGES HEALTH PAKAGES HEALTH PAKAGES HEALTH PAKAGES ",
     tags: [
       {
         name: "Indhaka",
@@ -383,7 +382,6 @@ const projects = [
     video: pakages,
     source_code_link: "http://populardiagnostic.com/",
   },
-  
 ];
 
 const topManagement = [

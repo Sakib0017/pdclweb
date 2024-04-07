@@ -6,7 +6,7 @@ import {
   Nav,
   Navbar,
   Tech,
-} from "../components";
+} from ".";
 import { motion } from "framer-motion";
 import { projects1 } from "../constants";
 
@@ -101,7 +101,7 @@ const ProjectCard = ({
   );
 };
 
-const Modal = () => {
+const Branch = () => {
   const [filterByCity, setFilterByCity] = useState(false);
   const [searchTerm, setSearchTerm] = useState("");
 
@@ -166,4 +166,4 @@ const Modal = () => {
 };
 //4,6,8,11,19,25
 
-export default Modal;
+export default Branch;
