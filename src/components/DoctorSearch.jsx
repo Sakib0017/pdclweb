@@ -31,7 +31,7 @@ const searchBoxVariants = {
 
 const DoctorCard = ({ doctor }) => {
   return (
-    <div className="card-container text-gray-500 bg-gradient-to-b  from-white to-[#f0fff0] hover:bg-gray-100 shadow-2xl rounded-2xl sm:w-[299px] w-ful">
+    <div className="card-container text-gray-500 bg-gradient-to-b  from-white to-[#f0fff0] hover:bg-gray-100 shadow-2xl rounded-2xl md:w-1/3 lg:w-1/5 xl:w-1/6 w-full">
       <div className="card-header relative w-full">
         {doctor.image ? (
           <img
@@ -44,10 +44,10 @@ const DoctorCard = ({ doctor }) => {
         )}
       </div>
       <div className="card-body p-4 flex flex-col justify-between">
-        <h1 className="text-[#006642] px-2 font-ubuntu font-bold text-center text-[24px]">
+        <h1 className="text-[#006642] px-2 font-ubuntu font-bold text-center text-[22px]">
           {doctor.drName}
         </h1>
-        <p className="px-2 pt-2 font-ubuntu text-[16px]">
+        <p className="px-2 pt-2 font-ubuntu text-[14px]">
           <strong>Specialization:</strong> {doctor.specializationName}
         </p>
         <p className="font-ubuntu px-2">
@@ -163,7 +163,7 @@ const DoctorSearch = () => {
       <Navbar />
       <Sidemenu />
       <Bottommenu />
-      <div className="sticky top-[99px] z-10  rounded-xl shadow-2xl bg-white flex flex-col-reverse gap-2 sm:flex-row p-5 row-span-1 mx-12 xl:mx-auto xl:max-w-7xl justify-between">
+      <div className="sticky top-[99px] z-10  rounded-xl shadow-2xl bg-white flex flex-col-reverse gap-2 lg:flex-row p-5 row-span-1 mx-12 xl:mx-auto xl:max-w-7xl justify-between">
         <motion.input
           className="px-2 py-1 border text-[#006642] border-PDCL-green bg-gray-200  rounded-lg focus:outline-none focus:ring-1 focus:ring-PDCL-green"
           type="text"
@@ -232,7 +232,7 @@ const DoctorSearch = () => {
           ))}
         </motion.select>
       </div>
-      <div className="doctor-list flex sm:w-[80%] mx-auto pb-10 pt-[150px] max-w-7xl justify-center  flex-wrap gap-5">
+      <div className="doctor-list flex mx-auto pb-10 pt-[150px] max-w-7xl justify-center flex-wrap gap-5">
         {filteredDoctors.map((doctor, index) => (
           <DoctorCard key={index} doctor={doctor} />
         ))}
