@@ -131,7 +131,7 @@ const Branch = () => {
       <Bottommenu />
       
 
-      <div className="sticky top-[99px] z-10 rounded-xl  sm:w-[80%] shadow-2xl bg-white flex flex-col-reverse gap-2 sm:flex-row p-5 row-span-1 mx-12 xl:mx-auto xl:max-w-7xl justify-between">
+      <div className="sticky top-[99px] z-10 rounded-xl  shadow-2xl bg-white flex flex-col-reverse gap-2 sm:flex-row p-5 row-span-1 mx-12 xl:mx-auto xl:max-w-7xl justify-between">
         <motion.button
           className=" bg-gray-900/50 hover:bg-[#006642] text-white font-ubuntu font-medium py-2 px-4 rounded-md focus:outline-none shadow-md"
           onClick={handleFilterToggle}
