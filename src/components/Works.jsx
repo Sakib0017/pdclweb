@@ -17,13 +17,13 @@ const ProjectCard = ({
 }) => {
   return (
     <div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
-      <div className="grid md:grid-row-2 items-center sm:w-[329px] w-full justify-center mx-auto  md:gap-0 ">
+      <div className="grid md:grid-row-3 items-center sm:w-[379px] w-full justify-center mx-auto  md:gap-0 ">
         <div className="text-black m-2 bg-gray-50 shadow-xl rounded  w-auto text-center">
           <div className="relative w-auto h-auto">
             <video
               src={video}
               alt="project_image"
-              className="w-full h-[200px] rounded object-cover opacity-90"
+              className="w-full h-[230px] rounded object-cover opacity-90"
               autoPlay
               loop
               muted

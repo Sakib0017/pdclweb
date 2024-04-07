@@ -15,7 +15,7 @@ const FeedbackCard = ({
 }) => (
   <div
     variants={fadeIn("", "spring", index * 0.5, 0.75)}
-    className="grid md:grid-row-2 items-center justify-center sm:w-[500px] w-full mx-auto  md:gap-0 "
+    className="grid md:grid-row-2 items-center justify-center sm:w-[550px] w-full mx-auto  md:gap-0 "
   >
     <div className=" m-1 p-10 bg-gray-100 shadow text-start">
       <div className="flex flex-wrap   max-w-7xl   ">
@@ -70,7 +70,7 @@ const Feedbacks = () => {
       </h2>
 
       <div
-        className={`  flex  mx-auto p-0 justify-center sm:w-[90%] justify-items-center flex-wrap  gap-0`}
+        className={`  flex  mx-auto p-0 justify-center  justify-items-center flex-wrap  gap-0`}
       >
         {testimonials.map((testimonial, index) => (
           <FeedbackCard key={testimonial.name} index={index} {...testimonial} />
