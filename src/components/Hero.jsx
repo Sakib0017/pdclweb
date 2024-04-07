@@ -513,7 +513,7 @@ const handleSubmit = (e) => {
                                         />
                                         <button
                                           type="submit"
-                                          class="text-white absolute end-0 bottom-0 top-0 bg-[#00664a] hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                                          class="text-white absolute  end-0 bottom-1 top-1 m-1 bg-[#00664a] hover:bg-blue-800  font-medium rounded text-sm px-4 py-2 dark:bg-blue-600 dark:hover:bg-blue-700"
                                         >
                                           Send
                                         </button>
@@ -534,7 +534,7 @@ const handleSubmit = (e) => {
                                         />
                                         <button
                                           type="submit"
-                                          class="text-white absolute end-0 bottom-0 top-0 bg-[#00664a] hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                                          class="text-white absolute end-0  bottom-0 top-0 m-1 bg-[#00664a] hover:bg-blue-800  font-medium rounded text-sm px-4 py-2 dark:bg-blue-600 dark:hover:bg-blue-700 "
                                         >
                                           Send
                                         </button>{" "}
