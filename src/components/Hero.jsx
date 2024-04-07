@@ -7,6 +7,17 @@ import List from "react-virtualized/dist/commonjs/List";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 
+function Message({ message, isUser }) {
+  const messageClass = isUser
+    ? "bg-blue-500 text-white rounded-lg p-4 my-2"
+    : "bg-gray-100 text-gray-700 rounded-lg p-4 my-2";
+
+  return (
+    <div className={messageClass}>
+      <p>{message}</p>
+    </div>
+  );
+}
 const spring = {
   type: "spring",
   stiffness: 700,
@@ -199,6 +210,23 @@ const handleShowClick = () => {
   const handleClick = () => {
     setIsVisible(false);
   };
+const [messages, setMessages] = useState([]);
+const [inputMessage, setInputMessage] = useState("");
+const handleUserInput = () => {
+  setMessages([...messages, "Your message has been sent!"]);
+};
+
+const [userInput, setUserInput] = useState("");
+
+const handleSubmit = (e) => {
+  e.preventDefault();
+  if (userInput.trim()) {
+    // Avoid sending empty messages
+    setMessages([...messages, userInput]);
+    setUserInput("");
+  }
+};
+// Array to store messages
 
   return (
     <>
@@ -448,27 +476,105 @@ const handleShowClick = () => {
                                     for="default-search"
                                     class="mb-1 text-sm font-medium text-gray-900 sr-only dark:text-white"
                                   ></label>
+
                                   <div class="relative">
+                                    <div class="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
+                                      <svg
+                                        class="w-4 h-4 text-gray-500 dark:text-gray-400"
+                                        aria-hidden="true"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        fill="none"
+                                        viewBox="0 0 20 20"
+                                      >
+                                        <path
+                                          stroke="currentColor"
+                                          stroke-linecap="round"
+                                          stroke-linejoin="round"
+                                          stroke-width="2"
+                                          d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"
+                                        />
+                                      </svg>
+                                    </div>
+
                                     <div class="absolute inset-y-0 end-0 flex items-center pe-3 pointer-events-none"></div>
                                     {showSearchInput ? (
-                                      <input
-                                        type="search"
-                                        id="default-search"
-                                        class="block w-full p-2 col-span-9 ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                                        placeholder="Chat With PDCL HUMAN Consultant"
-                                        required
-                                      />
+                                      <div>
+                                        <input
+                                          type="search"
+                                          id="default-search"
+                                          class="block w-full p-2 pr-10 white-space:pre-wrap col-span-9 ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                                          placeholder="Chat With PDCL HUMAN Consultant"
+                                          value={inputMessage}
+                                          onChange={(e) =>
+                                            setInputMessage(e.target.value)
+                                          }
+                                          onFocus={() => setInputMessage("")}
+                                          required
+                                        />
+                                        <button
+                                          type="submit"
+                                          class="text-white absolute end-0 bottom-0 top-0 bg-[#00664a] hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                                        >
+                                          Send
+                                        </button>
+                                      </div>
                                     ) : (
-                                      <input
-                                        type="search"
-                                        id="default-search"
-                                        class="block w-full p-2 col-span-9 ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                                        placeholder="Chat With PDCL AI Consultant"
-                                        required
-                                      />
+                                      <div>
+                                        <input
+                                          type="search"
+                                          id="default-search"
+                                          class="block w-full p-2 pr-10 white-space:pre-wrap col-span-9 ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                                          placeholder="Chat With PDCL AI Consultant"
+                                          value={inputMessage}
+                                          onChange={(e) =>
+                                            setInputMessage(e.target.value)
+                                          }
+                                          onFocus={() => setInputMessage("")}
+                                          required
+                                        />
+                                        <button
+                                          type="submit"
+                                          class="text-white absolute end-0 bottom-0 top-0 bg-[#00664a] hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                                        >
+                                          Send
+                                        </button>{" "}
+                                      </div>
                                     )}
-                                    
                                   </div>
+
+                                  {isSearchVisible && (
+                                    <div className="relative flex flex-row z-0 col-span-9 w-full group">
+                                      <div className="flex flex-col space-y-2 mb-4">
+                                        {messages.map((message, index) => (
+                                          <div
+                                            key={index}
+                                            className="bg-gray-100 white-space:pre-wrap rounded-lg p-4 text-sm"
+                                          >
+                                            <Message
+                                              key={index}
+                                              message={message}
+                                              isUser={index % 2 === 0}
+                                            />{" "}
+                                            // Alternate between user and AI
+                                            messages
+                                          </div>
+                                        ))}
+                                      </div>
+
+                                      <form className="w-full col-span-7 mr-2 mb-1">
+                                        <label for="default-search"></label>
+                                        <div className="relative">
+                                          <div className="absolute inset-y-0 end-0 flex items-center pe-3 pointer-events-none"></div>
+
+                                          {inputMessage && (
+                                            <p className="text-gray-500 white-space:pre-wrap text-sm mt-2">
+                                              {inputMessage}
+                                            </p>
+                                          )}
+                                        </div>
+                                      </form>
+                                    </div>
+                                  )}
                                 </form>
                                 <Link to="/#">
                                   <div className="relative z-0 col-span-2 w-full  group">
