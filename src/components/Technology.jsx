@@ -18,7 +18,7 @@ const Technology = () => {
         <Navbar />
         <Sidemenu />
         <Bottommenu />
-        <Cor />
+      
         <Tech />
       </div>
     </>

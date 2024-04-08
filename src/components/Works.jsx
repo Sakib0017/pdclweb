@@ -1,12 +1,50 @@
-import React from "react";
+import React, { useRef, useEffect, useState } from "react";
 import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
-
+import { useSpring, animated } from "react-spring";
 import { styles } from "../styles";
 import { logo, tripguide, doctor } from "../assets";
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
+
+function Number({ n }){
+   const countRef = useRef(null);
+   useEffect(() => {
+     const observer = new IntersectionObserver((entries) => {
+       const entry = entries[0];
+       if (entry.isIntersecting) {
+         // Start the animation when the element is visible
+         setIsVisible(true);
+       }
+     });
+
+     if (countRef.current) {
+       observer.observe(countRef.current);
+     }
+
+     return () => {
+       if (observer) {
+         observer.disconnect();
+       }
+     };
+   }, [countRef.current]);
+
+   const [isVisible, setIsVisible] = useState(false);
+  const { number } = useSpring({
+    from: { number: 0},
+    number: n,
+    delay: 150,
+    config: { mass: 1, tension: 30, friction: 30},
+  });
+  return (
+  <div ref={countRef} className="count-section">
+    {isVisible && <animated.div>{number.to((n) => n.toFixed(0))}</animated.div>}
+  </div>
+  )
+}
+
+
 const ProjectCard = ({
   index,
   name,
@@ -69,57 +107,48 @@ const ProjectCard = ({
 };
 
 const Works = () => {
+ 
   return (
     <>
       <div className="fontFamily-ubuntu">
-        <div className=" flex-row hidden  md:block flex-wrap mb-10 gap-10">
-          <div className="bg-gray-50 shadow-lg  rounded-lg p-5 mx-auto w-full ">
-            <div className="flex flex-col  flex-wrap max-w-screen-xl mx-auto  ">
-              <div className="w-auto  border-l-[5px]  border-[#006642] border-opacity-50 pl-2  text-start ml-3">
-                <h1 className="text-slate-900/50 font-ubuntu font-extrabold text-[28px]">
+        <div className="overflow-hidden mt-[-140px] py-24 sm:py-32">
+          <div className="mx-auto max-w-7xl px-6 lg:px-8">
+            <div className="mx-auto grid max-w-2xl grid-rows-1 rounded shadow-2xl bg-gray-100/5 p-5 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-rows-1">
+              <div className="lg:pr-8 lg:pt-4">
+                <h1 className="text-slate-900/50 font-ubuntu text-center font-extrabold text-[28px]">
                   DISCOVER{" "}
                   <span className="text-[#006642] font-ubuntu">POPULAR</span>
                 </h1>
-                <p className="text-gray-500 font-ubuntu text-[16px] font-medium">
-                  Popular Diagnostic Centre Ltd. Popular Diagnostic Centre Ltd.
-                  Popular Diagnostic Centre Ltd. Popular Diagnostic Centre Ltd.
-                  exists to provide a better patient experience. We are a
-                  one-stop-shop for your health, offering caring doctors,
-                  world-class diagnostics and much more world-class diagnostics
-                  and much more world-class diagnostics and much more
-                  world-class diagnostics and much more.
-                </p>
-              </div>
-              <div className="flex flex-wrap items-center justify-center mx-auto ">
-                <div className="flex flex-col items-start mx-auto">
-                  <h6 className="text-slate-900 font-bold font-ubuntu text-[60px]">
-                    27
-                  </h6>
-                  <p className="text-gray-500 font-bold font-ubuntu text-[20px]">
-                    DEPARTMENTS
-                  </p>
-                </div>
-                <div className="flex items-start flex-col mx-auto ml-20">
-                  <h6 className="text-slate-900 font-bold font-ubuntu text-[60px]">
-                    5K+
-                  </h6>
-                  <p className="text-gray-500 font-bold font-ubuntu text-[20px]">
-                    DOCTORS
-                  </p>
-                </div>
-                <div className="flex flex-col items-start mx-auto ml-20">
-                  <h6 className="text-slate-900 font-bold font-ubuntu text-[60px]">
-                    270K+
-                  </h6>
-                  <p className="text-gray-500  font-bold font-ubuntu text-[20px]">
-                    PATIENTS SERVED
-                  </p>
+                <div className="flex flex-wrap items-center justify-center mx-auto ">
+                  <div className="flex flex-col items-center  mx-auto">
+                    <h6 className="text-slate-900  font-bold font-ubuntu text-[60px]">
+                      <Number n={27} />
+                    </h6>
+                    <p className="text-gray-500 font-bold font-ubuntu text-[20px]">
+                      DEPARTMENTS
+                    </p>
+                  </div>
+                  <div className="flex items-center flex-col mx-auto ml-20">
+                    <h6 className="text-slate-900 font-bold font-ubuntu text-[60px]">
+                      <Number n={5000} />
+                    </h6>
+                    <p className="text-gray-500 font-bold font-ubuntu text-[20px]">
+                      DOCTORS
+                    </p>
+                  </div>
+                  <div className="flex flex-col items-center mx-auto ml-20">
+                    <h6 className="text-slate-900 font-bold font-ubuntu text-[60px]">
+                      <Number n={270000} />
+                    </h6>
+                    <p className="text-gray-500  font-bold font-ubuntu text-[20px]">
+                      PATIENTS SERVED
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-
         <div className=" flex-col sm:hidden flex-wrap mb-10 gap-10">
           <div className="bg-gray-50/5 shadow p-5 mx-auto w-full ">
             <div className="flex flex-col  flex-wrap max-w-screen-xl mx-auto  ">

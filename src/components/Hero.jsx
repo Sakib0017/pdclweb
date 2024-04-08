@@ -234,15 +234,15 @@ const handleClick1 = () => {
 
   return (
     <>
-      <section className="w-full h-[700px]  relative justify-top items-bottom">
+      <section className="w-full h-[650px]  relative justify-top items-bottom">
         <video
-          className=" w-full h-[700px] object-cover object-top top-0 left-0"
+          className=" w-full h-[650px] object-cover object-top top-0 left-0"
           src={video}
           autoPlay
           loop
           muted
         />
-        <div className="absolute w-full h-[700px] top-0 left-0 bg-gray-900/50"></div>
+        <div className="absolute w-full h-[650px] top-0 left-0 bg-gray-900/50"></div>
 
         <div
           className={`${styles.paddingX} absolute  flex   max-w-7xl mx-auto inset-1 justify-center items-bottom text-center sm:w-[80%]  flex-col text-gray-900`}
