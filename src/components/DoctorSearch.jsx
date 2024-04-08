@@ -10,8 +10,6 @@ import {
 } from "../components";
 import { doctorData } from "../constants";
 
-
-
 const spring = {
   type: "spring",
   stiffness: 700,
@@ -28,53 +26,81 @@ const searchBoxVariants = {
   hover: { scale: 1.03 },
 };
 
-
 const DoctorCard = ({ doctor }) => {
-  return (
-    <div className="card-container text-gray-500 bg-gradient-to-b  from-white to-[#f0fff0] hover:bg-gray-100 shadow-2xl rounded-2xl md:w-1/3 lg:w-1/5 xl:w-1/6 w-full">
-      <div className="card-header relative w-full">
-        {doctor.image ? (
-          <img
-            src={doctor.image}
-            alt={doctor.drName}
-            className="w-full shadow-xl rounded-3xl object-cover opacity-95 p-2 "
-          />
-        ) : (
-          <div className="no-image font-ubuntu">No Image Available</div>
-        )}
-      </div>
-      <div className="card-body p-4 flex flex-col justify-between">
-        <h1 className="text-[#006642] px-2 font-ubuntu font-bold text-center text-[22px]">
-          {doctor.drName}
-        </h1>
-        <p className="px-2 pt-2 font-ubuntu text-[14px]">
-          <strong>Specialization:</strong> {doctor.specializationName}
-        </p>
-        <p className="font-ubuntu px-2">
-          <strong>Degrees:</strong> {doctor.degree}
-        </p>
-        <p className="font-ubuntu px-2">
-          <strong>Working Days:</strong>
-        </p>
-        <ul className="font-ubuntu px-2">
-          {doctor.weekday.map((day, index) => (
-            <li key={index}>
-              {day.day}: {day.time}
-            </li>
+  // Helper function to render the working days
+  const renderWorkingDays = (days) => {
+    const midpoint = Math.ceil(days.length / 2);
+    const firstColumn = days.slice(0, midpoint);
+    const secondColumn = days.slice(midpoint);
+    return (
+      <div className="flex">
+        <ul className="list-disc pl-5 w-1/2">
+          {firstColumn.map((day, index) => (
+            <li key={index}>{day.day}</li>
+          ))}
+        </ul>
+        <ul className="list-disc pl-5 w-1/2">
+          {secondColumn.map((day, index) => (
+            <li key={index}>{day.day}</li>
           ))}
         </ul>
       </div>
-      <div className="card-footer p-4 flex flex-col justify-between">
-        <p className="font-ubuntu px-2">
-          <strong>Contact:</strong> {doctor.drNumber}
-        </p>
-        <p className="font-ubuntu px-2">
-          <strong>Email:</strong> {doctor.email || "N/A"}
-        </p>
+    );
+  };
+
+  return (
+    <div className="card-container text-gray-500 bg-gradient-to-b from-white to-[#f0fff0] hover:bg-gray-100 shadow-2xl rounded-2xl sm:w-[299px] overflow-hidden flex flex-col justify-between">
+      <div>
+        <div className="card-header relative w-full">
+          {doctor.image ? (
+            <img
+              src={doctor.image}
+              alt={`${doctor.drName}'s profile`}
+              className="w-full shadow-xl rounded-3xl object-cover opacity-95 p-2"
+            />
+          ) : (
+            <div className="no-image font-ubuntu flex justify-center items-center h-36">
+              No Image Available
+            </div>
+          )}
+        </div>
+        <div className="card-name bg-[#f0fff0] p-2 pt-4 text-center">
+          <h1 className="text-[#006642] font-ubuntu font-bold text-xl truncate">
+            {doctor.drName}
+          </h1>
+        </div>
+        <div className="card-body p-4">
+          <p className="text-sm py-2">
+            <strong>Specialization:</strong> {doctor.specializationName}
+          </p>
+          <p className="text-sm py-2">
+            <strong>Degrees:</strong> {doctor.degree}
+          </p>
+          <p className="text-sm">
+            <strong>Branch:</strong> {doctor.braName}
+          </p>
+          <div className="py-2 text-sm">
+            <strong>Working Days:</strong>
+            {renderWorkingDays(doctor.weekday)}
+          </div>
+        </div>
       </div>
-      <div className="branch-name p-4 flex flex-col justify-between">
-        <p className="font-ubuntu px-2">
-          <strong>Branch:</strong> {doctor.braName}
+      <div className="card-footer p-4">
+        <p className="text-sm">
+          <strong>Contact: </strong>
+          <a
+            href={`tel:+880${doctor.drNumber}`}
+            className="text-blue-600 hover:text-blue-800">
+            +880{doctor.drNumber}
+          </a>
+        </p>
+        <p className="text-sm">
+          <strong>Email: </strong>
+          <a
+            href={`mailto:${doctor.email}`}
+            className="text-blue-600 hover:text-blue-800">
+            {doctor.email || "N/A"}
+          </a>
         </p>
       </div>
     </div>
@@ -96,12 +122,12 @@ const DoctorSearch = () => {
     );
   }, []);
 
-    const specializationSet = new Set(
-      doctorData.branches
-        .flatMap((branch) => branch.specilizations)
-        .map((spec) => spec.specializationName)
-    );
-    const specializationOptions = Array.from(specializationSet);
+  const specializationSet = new Set(
+    doctorData.branches
+      .flatMap((branch) => branch.specilizations)
+      .map((spec) => spec.specializationName)
+  );
+  const specializationOptions = Array.from(specializationSet);
 
   const handleBranchChange = (e) => {
     setSelectedBranch(e.target.value);
@@ -182,8 +208,7 @@ const DoctorSearch = () => {
           transition={spring}
           whileTap={{ scale: 0.9 }}
           variants={buttonVariants}
-          whileHover="hover"
-        >
+          whileHover="hover">
           <option value="">Select Branch</option>
           {doctorData.branches.map((branch) => (
             <option key={branch.braID} value={branch.braName}>
@@ -198,8 +223,7 @@ const DoctorSearch = () => {
           transition={spring}
           whileTap={{ scale: 0.9 }}
           variants={buttonVariants}
-          whileHover="hover"
-        >
+          whileHover="hover">
           <option value="">Select Specialization</option>
           {specializationOptions.map((specName) => (
             <option key={specName} value={specName}>
@@ -214,8 +238,7 @@ const DoctorSearch = () => {
           transition={spring}
           whileTap={{ scale: 0.9 }}
           variants={buttonVariants}
-          whileHover="hover"
-        >
+          whileHover="hover">
           <option value="">Select Day</option>
           {[
             "Saturday",
@@ -232,7 +255,7 @@ const DoctorSearch = () => {
           ))}
         </motion.select>
       </div>
-      <div className="doctor-list flex mx-auto pb-10 pt-[150px] p-3 max-w-7xl justify-center flex-wrap gap-5">
+      <div className="doctor-list flex mx-auto pb-10 px-3 sm:px-0 pt-[150px] max-w-7xl justify-center flex-wrap gap-5">
         {filteredDoctors.map((doctor, index) => (
           <DoctorCard key={index} doctor={doctor} />
         ))}
