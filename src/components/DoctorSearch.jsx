@@ -85,24 +85,6 @@ const DoctorCard = ({ doctor }) => {
           </div>
         </div>
       </div>
-      <div className="card-footer p-4">
-        <p className="text-sm">
-          <strong>Contact: </strong>
-          <a
-            href={`tel:+880${doctor.drNumber}`}
-            className="text-blue-600 hover:text-blue-800">
-            +880{doctor.drNumber}
-          </a>
-        </p>
-        <p className="text-sm">
-          <strong>Email: </strong>
-          <a
-            href={`mailto:${doctor.email}`}
-            className="text-blue-600 hover:text-blue-800">
-            {doctor.email || "N/A"}
-          </a>
-        </p>
-      </div>
     </div>
   );
 };
