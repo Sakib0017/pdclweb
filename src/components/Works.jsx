@@ -121,28 +121,34 @@ const Works = () => {
                 </h1>
                 <div className="flex flex-wrap items-center justify-center mx-auto ">
                   <div className="flex flex-col items-center  mx-auto">
-                    <h6 className="text-slate-900  font-bold font-ubuntu text-[60px]">
-                      <Number n={27} />
-                    </h6>
-                    <p className="text-gray-500 font-bold font-ubuntu text-[20px]">
-                      DEPARTMENTS
-                    </p>
+                    <div className="p-5 items-center text-center">
+                      <h6 className="text-slate-900  font-bold font-ubuntu text-[60px]">
+                        <Number n={27} />
+                      </h6>
+                      <p className="text-gray-500 font-bold font-ubuntu text-[20px]">
+                        DEPARTMENTS
+                      </p>
+                    </div>
                   </div>
                   <div className="flex items-center flex-col mx-auto ml-20">
-                    <h6 className="text-slate-900 font-bold font-ubuntu text-[60px]">
-                      <Number n={5000} />
-                    </h6>
-                    <p className="text-gray-500 font-bold font-ubuntu text-[20px]">
-                      DOCTORS
-                    </p>
+                    <div className="p-5 items-center text-center">
+                      <h6 className="text-slate-900 font-bold font-ubuntu text-[60px]">
+                        <Number n={5000} />
+                      </h6>
+                      <p className="text-gray-500 font-bold font-ubuntu text-[20px]">
+                        DOCTORS
+                      </p>
+                    </div>
                   </div>
                   <div className="flex flex-col items-center mx-auto ml-20">
-                    <h6 className="text-slate-900 font-bold font-ubuntu text-[60px]">
-                      <Number n={270000} />
-                    </h6>
-                    <p className="text-gray-500  font-bold font-ubuntu text-[20px]">
-                      PATIENTS SERVED
-                    </p>
+                    <div className="p-5 items-center text-center">
+                      <h6 className="text-slate-900 font-bold font-ubuntu text-[60px]">
+                        <Number n={270000} />
+                      </h6>
+                      <p className="text-gray-500  font-bold font-ubuntu text-[20px]">
+                        PATIENTS SERVED
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>
