@@ -333,7 +333,7 @@ const projects = [
     id: 1,
     name: "HEALTH DIAGNOSIS",
     description:
-      "HEALTH DIAGNOSIS HEALTH DIAGNOSIS HEALTH DIAGNOSIS HEALTH DIAGNOSIS HEALTH DIAGNOSIS HEALTH DIAGNOSIS HEALTH DIAGNOSIS HEALTH DIAGNOSIS",
+      "Popular Diagnostic Centre Ltd. is an advanced Centre providing the diagnostic imaging services in an elevated ambience, completed by service and report efficiency.",
     tags: [
       {
         name: "Indhaka",
@@ -351,7 +351,7 @@ const projects = [
     id: 2,
     name: "HEALTH CONSULT",
     description:
-      "HEALTH CONSULT HEALTH CONSULT HEALTH CONSULT HEALTH CONSULT HEALTH CONSULT HEALTH CONSULT HEALTH CONSULT HEALTH CONSULT",
+      "Popular Diagnostic Centre Ltd. is an advanced Centre providing the diagnostic imaging services in an elevated ambience, completed by service and report efficiency.",
     tags: [
       {
         name: "Indhaka",
@@ -369,7 +369,7 @@ const projects = [
     id: 3,
     name: "HEALTH PAKAGES",
     description:
-      "HEALTH PAKAGES HEALTH PAKAGES HEALTH PAKAGES HEALTH PAKAGES HEALTH PAKAGES HEALTH PAKAGES HEALTH PAKAGES HEALTH PAKAGES",
+      "Popular Diagnostic Centre Ltd. is an advanced Centre providing the diagnostic imaging services in an elevated ambience, completed by service and report efficiency.",
     tags: [
       {
         name: "Indhaka",
