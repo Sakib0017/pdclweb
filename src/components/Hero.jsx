@@ -564,8 +564,7 @@ const handleClick1 = () => {
                                               message={message}
                                               isUser={index % 2 === 0}
                                             />{" "}
-                                            // Alternate between user and AI
-                                            messages
+                                           
                                           </div>
                                         ))}
                                       </div>

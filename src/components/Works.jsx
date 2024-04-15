@@ -34,8 +34,8 @@ function Number({ n }){
   const { number } = useSpring({
     from: { number: 0},
     number: n,
-    delay: 150,
-    config: { mass: 1, tension: 30, friction: 30},
+    delay: 500,
+    config: { mass: 1, tension: 10, friction: 10},
   });
   return (
   <div ref={countRef} className="count-section">
@@ -56,7 +56,7 @@ const ProjectCard = ({
   return (
     <div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
       <div className="grid md:grid-row-3 items-center sm:w-[379px] w-full justify-center mx-auto  md:gap-0 ">
-        <div className="text-black m-2 bg-gray-50 shadow-xl rounded  w-auto text-center">
+        <div className="text-black m-2 bg-gray-100/5 shadow rounded  w-auto text-center">
           <div className="relative w-auto h-auto">
             <video
               src={video}
@@ -111,17 +111,14 @@ const Works = () => {
   return (
     <>
       <div className="fontFamily-ubuntu">
-        <div className="overflow-hidden mt-[-140px] py-24 sm:py-32">
+        <div className="overflow-hidden  mt-[-140px] py-24 sm:py-32">
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
-            <div className="mx-auto grid max-w-2xl grid-rows-1 rounded shadow-2xl bg-gray-100/5 p-5 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-rows-1">
+            <div className="mx-auto grid max-w-2xl grid-rows-1 rounded shadow bg-gray-100/5 p-5 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-rows-1">
               <div className="lg:pr-8 lg:pt-4">
-                <h1 className="text-slate-900/50 font-ubuntu text-center font-extrabold text-[28px]">
-                  DISCOVER{" "}
-                  <span className="text-[#006642] font-ubuntu">POPULAR</span>
-                </h1>
+                
                 <div className="flex flex-wrap items-center justify-center mx-auto ">
                   <div className="flex flex-col items-center  mx-auto">
-                    <div className="p-5 items-center text-center">
+                    <div className="p-5 items-center mx-auto text-center">
                       <h6 className="text-slate-900  font-bold font-ubuntu text-[60px]">
                         <Number n={27} />
                       </h6>
@@ -131,9 +128,10 @@ const Works = () => {
                     </div>
                   </div>
                   <div className="flex items-center flex-col mx-auto ml-20">
-                    <div className="p-5 items-center text-center">
-                      <h6 className="text-slate-900 font-bold font-ubuntu text-[60px]">
-                        <Number n={5000} />
+                    <div className="p-5 items-center mx-auto text-center">
+                      <h6 className="text-slate-900 flex flex-row font-bold font-ubuntu text-[60px]">
+                        <Number n={5} />
+                        <span>k+</span>
                       </h6>
                       <p className="text-gray-500 font-bold font-ubuntu text-[20px]">
                         DOCTORS
@@ -141,9 +139,10 @@ const Works = () => {
                     </div>
                   </div>
                   <div className="flex flex-col items-center mx-auto ml-20">
-                    <div className="p-5 items-center text-center">
-                      <h6 className="text-slate-900 font-bold font-ubuntu text-[60px]">
-                        <Number n={270000} />
+                    <div className="p-5 items-center mx-auto text-center">
+                      <h6 className="text-slate-900 flex flex-row font-bold font-ubuntu text-[60px]">
+                        <Number n={27} />
+                        <span>k+</span>
                       </h6>
                       <p className="text-gray-500  font-bold font-ubuntu text-[20px]">
                         PATIENTS SERVED
@@ -155,50 +154,7 @@ const Works = () => {
             </div>
           </div>
         </div>
-        <div className=" flex-col sm:hidden flex-wrap mb-10 gap-10">
-          <div className="bg-gray-50/5 shadow p-5 mx-auto w-full ">
-            <div className="flex flex-col  flex-wrap max-w-screen-xl mx-auto  ">
-              <div className="w-full  border-l-[5px]  border-[#006642] border-opacity-50 pl-2  text-start ml-3">
-                <h1 className="text-slate-900/50 font-ubuntu font-extrabold text-[28px]">
-                  DISCOVER{" "}
-                  <span className="text-[#006642] font-ubuntu">POPULAR</span>
-                </h1>
-                <p className="text-gray-500 font-ubuntu text-[16px] font-medium">
-                  Popular Diagnostic Centre Ltd. exists to provide a better
-                  patient experience. We are a one-stop-shop for your health,
-                  offering caring doctors, world-class diagnostics and much more
-                  world-class diagnostics and much more.
-                </p>
-              </div>
-              <div className="flex flex-col items-center justify-center mx-auto ">
-                <div className="flex flex-col items-center mx-auto">
-                  <h6 className="text-slate-900 font-bold font-ubuntu text-[60px]">
-                    27
-                  </h6>
-                  <p className="text-gray-500 font-bold font-ubuntu text-[20px]">
-                    DEPARTMENTS
-                  </p>
-                </div>
-                <div className="flex items-center flex-col mx-auto ">
-                  <h6 className="text-slate-900 font-bold font-ubuntu text-[60px]">
-                    5K+
-                  </h6>
-                  <p className="text-gray-500 font-bold font-ubuntu text-[20px]">
-                    DOCTORS
-                  </p>
-                </div>
-                <div className="flex flex-col items-center mx-auto ">
-                  <h6 className="text-slate-900 font-bold font-ubuntu text-[60px]">
-                    270K+
-                  </h6>
-                  <p className="text-gray-500  font-bold font-ubuntu text-[20px]">
-                    PATIENTS SERVED
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+        
 
         <div className="flex flex-col mt-[50px] mx-auto  max-w-7xl">
           <h2 className="text-gray-500/50 pb-2 text-center pl-2 text-[28px] font-bold font-ubuntu">

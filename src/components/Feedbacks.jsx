@@ -17,7 +17,7 @@ const FeedbackCard = ({
     variants={fadeIn("", "spring", index * 0.5, 0.75)}
     className="grid md:grid-row-2 items-center justify-center sm:w-[550px] w-full mx-auto  md:gap-0 "
   >
-    <div className=" m-1 p-10 bg-gray-100 shadow text-start">
+    <div className=" m-1 p-10 bg-gray-100/5 shadow text-start">
       <div className="flex flex-wrap   max-w-7xl   ">
         <div>
           <div className="mt-0 flex justify-between items-end gap-0">
