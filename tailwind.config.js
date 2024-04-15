@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{js,jsx}"],
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   mode: "jit",
   theme: {
     extend: {
@@ -38,9 +38,10 @@ module.exports = {
       backgroundImage: {},
     },
   },
-  animation: { // This is required to use the custom keyframe
+  animation: {
+    // This is required to use the custom keyframe
     // ... existing animations
-    blink: 'blink 1s linear infinite', // Define the blink animation
+    blink: "blink 1s linear infinite", // Define the blink animation
   },
   plugins: [
     function ({ addUtilities }) {
