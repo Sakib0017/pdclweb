@@ -3,20 +3,9 @@ import React, { useState } from "react";
 import { useNavigate, Link } from "react-router-dom";
 import {
   logo,
-  menu,
-  close,
-  login,
-  signup,
-  star2,
-  telephone,
-  about,
-  gmail,
 } from "../assets";
 import {
   Card,
-  CardHeader,
-  CardBody,
-  CardFooter,
   Typography,
   Input,
   Checkbox,

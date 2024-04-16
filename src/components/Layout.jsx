@@ -7,7 +7,6 @@ import {
   Sidemenu,
   Navbar,
   Bottommenu,
-  Notification,
   Tech,
   Works,
 } from "../components";

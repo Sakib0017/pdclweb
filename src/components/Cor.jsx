@@ -1,10 +1,7 @@
 import React from "react";
-import { styles } from "../styles";
-import { BallCanvas } from "./canvas";
-import { SectionWrapper } from "../hoc";
 import { service } from "../constants";
 import { technologies } from "../constants";
-import img from "../assets/link.jpg";
+
 function Cor() {
   return (
     <>

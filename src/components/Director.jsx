@@ -1,5 +1,4 @@
 import React from 'react'
-import { SectionWrapper } from "../hoc";
 import { Nav, Navbar, Sidemenu, Tech, Bottommenu } from "../components";
 
 import { DrMostafizurRahman } from "../assets";

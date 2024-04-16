@@ -2,8 +2,6 @@ import { Nav, Navbar, Sidemenu, Tech, Bottommenu } from "../components";
 import { topManagement } from "../constants";
 import { ServiceCost } from "../constants";
 import React, { useState } from "react";
-import AutoSizer from "react-virtualized/dist/commonjs/AutoSizer";
-import List from "react-virtualized/dist/commonjs/List";
 
 const ProjectCard = ({ manImg, manName, manDesignation }) => {
   return (

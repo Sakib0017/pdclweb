@@ -8,7 +8,7 @@ import {
 } from "@material-tailwind/react";
 import { Input, Select, Option } from "@material-tailwind/react";
 
-import { useNavigate, Link } from "react-router-dom";
+import {  Link } from "react-router-dom";
 
 function Sample() {
   return (

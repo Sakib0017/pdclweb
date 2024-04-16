@@ -1,13 +1,7 @@
 import React from "react";
 import { Nav, Navbar, Sidemenu, Bottommenu, Tech } from "../components";
-import { motion } from "framer-motion";
-import { styles } from "../styles";
-import { printer, downloads } from "../assets";
-import { SectionWrapper } from "../hoc";
-import { dhan } from "../assets";
-import { fadeIn, textVariant } from "../utils/motion";
 import { Card, Typography } from "@material-tailwind/react";
-import { Input, Checkbox, Button } from "@material-tailwind/react";
+import { Input, Button } from "@material-tailwind/react";
 
 import { Link } from "react-router-dom";
 function Contact() {

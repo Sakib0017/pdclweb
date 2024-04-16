@@ -5,7 +5,6 @@ import video from "../assets/video.mp4";
 import AutoSizer from "react-virtualized/dist/commonjs/AutoSizer";
 import List from "react-virtualized/dist/commonjs/List";
 import { Link } from "react-router-dom";
-import { motion } from "framer-motion";
 
 function Message({ message, isUser }) {
   const messageClass = isUser

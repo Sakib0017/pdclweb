@@ -6,7 +6,7 @@ import {
   Nav,
   Navbar,
   Tech,
-} from ".";
+} from "../components";
 import { motion } from "framer-motion";
 import { projects1 } from "../constants";
 

@@ -1,21 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Sidemenu, Bottommenu } from "../components";
-import { styles } from "../styles";
-import { BallCanvas } from "./canvas";
-import { SectionWrapper } from "../hoc";
-import { technologies } from "../constants";
 import img from "../assets/link.jpg";
-import back from "../assets/back.jpg";
-import { useNavigate, Link } from "react-router-dom";
-import { healh, dical, cover, arrow } from "../assets";
-import { Tooltip } from "@material-tailwind/react";
 import "./tabs.css";
-
-import {
-  Popover,
-  PopoverHandler,
-  PopoverContent,
-} from "@material-tailwind/react";
 
 const Tech = ({ message, children }) => {
   const [isVisible, setIsVisible] = useState(true);

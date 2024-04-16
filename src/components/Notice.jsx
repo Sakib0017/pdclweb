@@ -1,9 +1,6 @@
 import React, { useState } from "react";
 import { Nav, Navbar, Sidemenu, Bottommenu, Tech } from "../components";
 import { motion } from "framer-motion";
-import { styles } from "../styles";
-import { logo, tripguide } from "../assets";
-import { SectionWrapper } from "../hoc";
 import { notice } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 import {

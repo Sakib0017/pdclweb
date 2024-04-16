@@ -1,14 +1,10 @@
 import React from "react";
 import {
-  
-  Cor,
   Nav,
   Sidemenu,
   Navbar,
   Bottommenu,
-  
   Tech,
- 
 } from "../components";
 const Technology = () => {
   return (

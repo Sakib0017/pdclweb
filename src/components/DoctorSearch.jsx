@@ -3,7 +3,6 @@ import { motion } from "framer-motion";
 import {
   Sidemenu,
   Bottommenu,
-  Details,
   Nav,
   Navbar,
   Tech,

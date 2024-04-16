@@ -2,10 +2,8 @@ import React from "react";
 import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
 import { SectionWrapper } from "../hoc";
-import { styles } from "../styles";
-import { logo } from "../assets";
 import { projects1 } from "../constants";
-import { fadeIn, textVariant } from "../utils/motion";
+import { fadeIn } from "../utils/motion";
 
 const Card = ({
   index,

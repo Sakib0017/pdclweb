@@ -1,24 +1,5 @@
-import React, { useEffect, useState } from "react";
-import { useNavigate, Link } from "react-router-dom";
-import {
-  Popover,
-  PopoverHandler,
-  PopoverContent,
-  p,
-} from "@material-tailwind/react";
+import React from "react";
 import { styles } from "../styles";
-import { navLinks } from "../constants";
-import {
-  logo,
-  menu,
-  close,
-  login,
-  signup,
-  mobile,
-  telephone,
-  about,
-  gmail,
-} from "../assets";
 
 const Nav = () => {
   return (

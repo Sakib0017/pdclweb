@@ -28,7 +28,6 @@ import Cor from "./Cor";
 import Notice from "./Notice";
 import Health from "./Health";
 import Details from "./Details";
-import Notification from "./Notification";
 import Bottommenu from "./Bottommenu";
 import DoctorDetail from "./DoctorDetail";
 import DoctorSearch from "./DoctorSearch";
@@ -55,7 +54,6 @@ export {
   Patient,
   Complain,
   Hero,
-  Notification,
   Count,
   Sample,
   Nav,

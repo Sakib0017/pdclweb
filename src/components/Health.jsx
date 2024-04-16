@@ -1,8 +1,6 @@
 import React from "react";
 import { Nav, Navbar, Sidemenu, Bottommenu, Tech } from "../components";
-import { motion } from "framer-motion";
 import { healthPackages } from "../constants";
-import { Card, Typography } from "@material-tailwind/react";
 
 const calculateTotalCost = (tests) =>
   tests.reduce((acc, test) => acc + test.testPrice, 0);
