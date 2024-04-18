@@ -42842,6 +42842,579 @@ const healthPackages = [
   },
 ];
 
+
+const doctorData1 = {
+  specilizations: [
+    {
+      SpecilizationID: 1,
+      specializationName: "Orthopaedic Surgery",
+      doctors: [
+        {
+          drID: 1,
+          drName: "Asso. Prof. Dr. Ashraful islam",
+          drSpecilist: "Orthopaedic Surgery",
+          drDegree: "MBBS. MS(Ortho)",
+          weekday: [
+            {
+              day: "Saturday",
+              time: "8:00 PM - 9:30 PM",
+            },
+            {
+              day: "Wednesday",
+              time: "8:00 PM - 9:30 PM",
+            },
+          ],
+          chember: [
+            {
+              branch: "Dhanmondi",
+              building: "Bhaban-1",
+              room: "401",
+            },
+          ],
+          drNumber: "01711563450",
+          email: "mnislam3512@gmail.com",
+          drGender: "Male",
+          newPatientVisit: "2000",
+          oldPatient: "2000",
+          report: "Free",
+          assistantName: "Anis",
+          assistantGender: "Male",
+          ext: "111421",
+          assistantMobile: "01768431923",
+          image: ASSO_PROF_DR_ASHRAFUL_ISLAM,
+        },
+        // More doctors under this specialization ‘Orthopaedic Surgery’ ...
+      ],
+    },
+    {
+      SpecilizationID: 2,
+      specializationName: "Cardiology",
+      doctors: [
+        {
+          drID: 2,
+          drName: "Prof. Dr. Mohammad Safiuddin",
+          drSpecilist: "Cardiology",
+          drDegree:
+            "MBBS (Dhaka), MD (Cardiology), DTCD (DU), FRCP (Eden) FACC (USA), FCCP (USA), FESC, FRCP (Glasgow). (BSMMU)",
+          weekday: [
+            {
+              day: "Saturday",
+              time: "06:00 PM - 09:00 PM",
+            },
+            {
+              day: "Sunday",
+              time: "06:00 PM - 09:00 PM",
+            },
+            {
+              day: "Monday",
+              time: "06:00 PM - 09:00 PM",
+            },
+            {
+              day: "Tuesday",
+              time: "06:00 PM - 09:00 PM",
+            },
+            {
+              day: "Wednesday",
+              time: "06:00 PM - 09:00 PM",
+            },
+            {
+              day: "Thursday",
+              time: "06:00 PM - 09:00 PM",
+            },
+          ],
+          chember: [
+            {
+              branch: "Dhanmondi",
+              building: "Bhaban-1",
+              room: "308",
+            },
+            {
+              branch: "Shyamoli",
+              building: "Bhaban-2",
+              room: "609",
+            },
+          ],
+          drNumber: "01713009932",
+          email: "mnislam3512@gmail.com",
+          drGender: "Male",
+          newPatient: "1500",
+          oldPatient: "1500",
+          report: "500",
+          assistantName: "Prodip",
+          assistantGender: "Male",
+          ext: "111328",
+          assistantMobile: "01912293311",
+          image: PROF_DR_MOHAMMAD_SAFIUDDIN,
+        },
+        {
+          drID: 3,
+          drName: "Prof. Dr. Shakil Ghafur",
+          drSpecilist: "Cardiology",
+          drDegree:
+            "MBBS,DTCD (Chest), MD (Cardiology) Advanced Training In Invasive Cardiology Clinical & Interventional Cardiologist. Professor & Ex. Head, Dept. of Cardiology Rangpur Medicial College & Hospital, Rangpur.",
+          weekday: [
+            {
+              day: "Saturday",
+              time: "10:00 AM - 01:00 PM",
+            },
+            {
+              day: "Sunday",
+              time: "10:00 AM - 01:00 PM",
+            },
+            {
+              day: "Monday",
+              ttime: "10:00 AM - 01:00 PM",
+            },
+            {
+              day: "Tuesday",
+              time: "10:00 AM - 01:00 PM",
+            },
+            {
+              day: "Wednesday",
+              time: "10:00 AM - 01:00 PM",
+            },
+          ],
+          chember: [
+            {
+              branch: "Dhanmondi",
+              building: "Bhaban-1",
+              room: "201",
+            },
+          ],
+          drNumber: "01711440532",
+          email: "mnislam3512@gmail.com",
+          drGender: "Male",
+          newPatient: "1200",
+          oldPatient: "800",
+          report: "500",
+          assistantName: "Ive",
+          assistantGender: "Female",
+          ext: "114202",
+          assistantMobile: "01749211995",
+          image: PROF_DR_SHAKIL_GHAFUR,
+        },
+        {
+          drID: 4,
+          drName: "Prof.Dr.Md. Mohsin Hossain",
+          drSpecilist: "Cardiology",
+          drDegree:
+            "MBBS, MD(medicine), FCPS(Cardiology), Interventional Cardiologist & Electrophysiologist, Professor of cardiology, National Institute of cardiovascular Disease, Sher-E-Bangla Nagar, Dhaka.",
+          weekday: [
+            {
+              day: "Saturday",
+              time: "05:00 PM - 08:00 PM",
+            },
+            {
+              day: "Sunday",
+              time: "05:00 PM - 08:00 PM",
+            },
+            {
+              day: "Monday",
+              time: "05:00 PM - 08:00 PM",
+            },
+            {
+              day: "Tuesday",
+              time: "05:00 PM - 08:00 PM",
+            },
+            {
+              day: "Wednesday",
+              time: "05:00 PM - 08:00 PM",
+            },
+            {
+              day: "Thursday",
+              time: "05:00 PM - 08:00 PM",
+            },
+          ],
+          chember: [
+            {
+              branch: "Dhanmondi",
+              building: "Bhaban-6",
+              room: "201",
+            },
+          ],
+          drNumber: "01711606544",
+          email: "",
+          drGender: "Male",
+          newPatient: "1500",
+          oldPatient: "1500",
+          report: "Free",
+          assistantName: "",
+          assistantGender: "",
+          ext: "114201",
+          assistantMobile: "",
+          image: PROF_DR_MD_MOHSIN_HOSSAIN,
+        },
+        // More doctors under this specialization ‘Orthopaedic Surgery’ ...
+      ],
+    },
+    {
+      SpecilizationID: 5,
+      specializationName: "Medicine",
+      doctors: [
+        {
+          drID: 5,
+          drName: "Prof. Dr. Md. Faizul Islam Chowdhury",
+          drSpecilist: "Medicine",
+          drDegree:
+            "MBBS, FCPS (Medicine), PhD(USA), Former Professor, Dhaka Medical College ,Dhaka",
+          weekday: [
+            {
+              day: "Saturday",
+              time: "06:00 PM - 09:00 PM",
+            },
+            {
+              day: "Sunday",
+              time: "06:00 PM - 09:00 PM",
+            },
+            {
+              day: "Monday",
+              time: "02:00 AM - 04:00 PM",
+            },
+            {
+              day: "Tuesday",
+              time: "06:00 PM - 09:00 PM",
+            },
+            {
+              day: "Wednesday",
+              time: "06:00 PM - 09:00 PM",
+            },
+            {
+              day: "Thursday",
+              time: "02:00 AM - 04:00 PM",
+            },
+          ],
+          chember: [
+            {
+              branch: "Dhanmondi",
+              building: "Bhaban-5",
+              room: "307",
+            },
+            {
+              branch: "Shantinagar",
+              building: "Bhaban-2",
+              room: "414",
+            },
+          ],
+          drNumber: "01819215287",
+          email: "mnislam3512@gmail.com",
+          drGender: "Male",
+          newPatient: "1500",
+          oldPatient: "1000",
+          report: "500",
+          assistantName: "A.Rahaman",
+          assistantGender: "Male",
+          ext: "113327",
+          assistantMobile: "01712949419",
+          image: PROF_DR_MD_FAIZUL_ISLAM_CHOWDHURY,
+        },
+        {
+          drID: 6,
+          drName: "Prof. Dr. Q.Tarikul Islam",
+          drSpecilist: "Medicine",
+          drDegree:
+            "FCPS (Medicine), FACP (USA), FRCP (Glasgow), FRCP (Edin), MACP (USA). Popular Medicile College & Hospital, Dhaka.",
+          weekday: [
+            {
+              day: "Saturday",
+              time: "05:00 PM - 08:00 PM",
+            },
+            {
+              day: "Sunday",
+              time: "05:00 PM - 08:00 PM",
+            },
+            {
+              day: "Monday",
+              time: "05:00 PM - 08:00 PM",
+            },
+            {
+              day: "Tuesday",
+              time: "05:00 PM - 08:00 PM",
+            },
+            {
+              day: "Wednesday",
+              time: "05:00 PM - 08:00 PM",
+            },
+            {
+              day: "Thursday",
+              time: "05:00 PM - 08:00 PM",
+            },
+          ],
+          chember: [
+            {
+              branch: "Dhanmondi",
+              building: "Bhaban-6",
+              room: "412",
+            },
+          ],
+          drNumber: "01715299399",
+          email: "mnislam3512@gmail.com",
+          drGender: "Male",
+          newPatient: "1700",
+          oldPatient: "1000",
+          report: "Free",
+          assistantName: "Imran",
+          assistantGender: "Male",
+          ext: "114412",
+          assistantMobile: "01797798871",
+          image: PROF_DR_Q_TARIKUL_ISLAM,
+        },
+        {
+          drID: 7,
+          drName: "Prof. Dr. Khan Abul Kalam Azad",
+          drSpecilist: "Medicine",
+          drDegree:
+            "MBBS (DMC), FCPS (Medicine), MD (Internal Med.), FACP (USA). Dhaka Medical College & Hospital.",
+          weekday: [
+            {
+              day: "Saturday",
+              time: "05:00 PM - 09:00 PM",
+            },
+            {
+              day: "Sunday",
+              time: "05:00 PM - 09:00 PM",
+            },
+            {
+              day: "Monday",
+              time: "05:00 PM - 09:00 PM",
+            },
+            {
+              day: "Tuesday",
+              time: "05:00 PM - 09:00 PM",
+            },
+            {
+              day: "Wednesday",
+              time: "05:00 PM - 09:00 PM",
+            },
+            {
+              day: "Thursday",
+              time: "05:00 PM - 09:00 PM",
+            },
+          ],
+          chember: [
+            {
+              branch: "Dhanmondi",
+              building: "Bhaban-1",
+              room: "303",
+            },
+          ],
+          drNumber: "01711890508",
+          email: "",
+          drGender: "Male",
+          newPatient: "1500",
+          oldPatient: "1000",
+          report: "Free",
+          assistantName: "Sumon",
+          assistantGender: "Male",
+          ext: "111323",
+          assistantMobile: "01722357969",
+          image: PROF_DR_KHAN_ABUL_KALAM_AZAD,
+        },
+        {
+          drID: 8,
+          drName: "Prof. Dr. Shymal Sarker",
+          drSpecilist: "Medicine",
+          drDegree: "MBBS (Dhaka) FCPS) (Medicine Specilis)",
+          weekday: [
+            {
+              day: "Saturday",
+              time: "6:30 PM - 9:00 PM",
+            },
+            {
+              day: "Monday",
+              time: "6:30 PM - 9:00 PM",
+            },
+            {
+              day: "Wednesday",
+              time: "6:30 PM - 9:00 PM",
+            },
+            {
+              day: "Friday",
+              time: "6:30 PM - 9:00 PM",
+            },
+          ],
+          chember: [
+            {
+              branch: "English Road",
+              building: "Bhaban-1",
+              room: "313",
+            },
+          ],
+          drNumber: "01711364552",
+          email: "",
+          drGender: "Male",
+          newPatient: "1000",
+          oldPatient: "500",
+          report: "Free",
+          assistantName: "Chan Miah",
+          assistantGender: "Male",
+          ext: "2249",
+          assistantMobile: "01736131369",
+          image: PROF_DR_SHYMAL_SARKER,
+        },
+        {
+          drID: 9,
+          drName: "Prof. Dr. Aparna Das",
+          drSpecilist: "Medicine",
+          drDegree:
+            "MBBS,FCPS,MD,DEM Sir Salimullah Medical College & Mitford Hospital",
+          weekday: [
+            {
+              day: "Saturday",
+              time: "04:00 PM - 05:30 PM",
+            },
+            {
+              day: "Sunday",
+              time: "04:00 PM - 05:30 PM",
+            },
+            {
+              day: "Monday",
+              time: "04:00 PM - 05:30 PM",
+            },
+            {
+              day: "Tuesday",
+              time: "04:00 PM - 05:30 PM",
+            },
+            {
+              day: "Wednesday",
+              time: "04:00 PM - 05:30 PM",
+            },
+            {
+              day: "Thursday",
+              time: "04:00 PM - 05:30 PM",
+            },
+          ],
+          chember: [
+            {
+              branch: "Shantinagar",
+              building: "Bhaban-2",
+              room: "512",
+            },
+          ],
+          drNumber: "01711364552",
+          email: "mnislam3512@gmail.com",
+          drGender: "Male",
+          newPatient: "1000",
+          oldPatient: "500",
+          report: "Free",
+          assistantName: "Chan Miah",
+          assistantGender: "Male",
+          ext: "2249",
+          assistantMobile: "01736131369",
+          image: PROF_DR_APARNA_DAS,
+        },
+        {
+          drID: 10,
+          drName: "Prof. Dr. Abu Hena Mostafa Kamal",
+          drSpecilist: "Medicine",
+          drDegree:
+            "MBBS,FCPS (Medicine) Professor & Head, Dept. of Medicine Holy Family Red Crescent Medical College",
+          weekday: [
+            {
+              day: "Saturday",
+              time: "03:00 PM - 05:00 PM",
+            },
+            {
+              day: "Sunday",
+              time: "03:00 PM - 05:00 PM",
+            },
+            {
+              day: "Monday",
+              time: "03:00 PM - 05:00 PM",
+            },
+            {
+              day: "Tuesday",
+              time: "03:00 PM - 05:00 PM",
+            },
+            {
+              day: "Wednesday",
+              time: "03:00 PM - 05:00 PM",
+            },
+            {
+              day: "Thursday",
+              time: "03:00 PM - 05:00 PM",
+            },
+          ],
+          chember: [
+            {
+              branch: "Shantinagar",
+              building: "Bhaban-2",
+              room: "304",
+            },
+          ],
+          drNumber: "01711364552",
+          email: "",
+          drGender: "Male",
+          newPatient: "1000",
+          oldPatient: "500",
+          report: "Free",
+          assistantName: "Chan Miah",
+          assistantGender: "Male",
+          ext: "2249",
+          assistantMobile: "01736131369",
+          image: PROF_DR_ABU_HENA_MOSTAFA_KAMAL,
+        },
+        {
+          drID: 11,
+          drName: "Prof. Dr. Md. Asadul Kabir",
+          drSpecilist: "Medicine",
+          drDegree:
+            "MBBS,FCPS,MD,DEM Sir Salimullah Medical College & Mitford Hospital",
+          weekday: [
+            {
+              day: "Saturday",
+              time: "03:00 PM - 06:00 PM",
+            },
+            {
+              day: "Sunday",
+              time: "03:00 PM - 06:00 PM",
+            },
+            {
+              day: "Monday",
+              time: "03:00 PM - 06:00 PM",
+            },
+            {
+              day: "Tuesday",
+              time: "03:00 PM - 06:00 PM",
+            },
+            {
+              day: "Wednesday",
+              time: "03:00 PM - 06:00 PM",
+            },
+            {
+              day: "Thursday",
+              time: "03:00 PM - 06:00 PM",
+            },
+          ],
+          chember: [
+            {
+              branch: "Shantinagar",
+              building: "Bhaban-1",
+              room: "513",
+            },
+          ],
+          drNumber: "01711364552",
+          email: "",
+          drGender: "Male",
+          newPatient: "1000",
+          oldPatient: "500",
+          report: "Free",
+          assistantName: "Chan Miah",
+          assistantGender: "Male",
+          ext: "2249",
+          assistantMobile: "01736131369",
+          image: PROF_DR_MD_ASADUL_KABIR,
+        },
+        // More doctors under this specialization ‘Orthopaedic Surgery’ ...
+      ],
+    },
+    // More specializations
+  ],
+};
+
+
+
+
+
 export {
   ServiceCost,
   navLinks,
@@ -42856,5 +43429,6 @@ export {
   notice,
   reportDownload,
   doctorData,
+  doctorData1,
   healthPackages,
 };
