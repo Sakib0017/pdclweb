@@ -67,8 +67,7 @@ const ProjectCard = ({
             <div className="absolute inset-0 flex justify-end p-3 card-img_hover">
               <div
                 onClick={() => window.open(source_code_link, "_blank")}
-                className="green-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
-              >
+                className="green-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer">
                 <img
                   src={logo}
                   alt="source code"
@@ -86,7 +85,14 @@ const ProjectCard = ({
               {description}
             </p>
           </div>
-{/* 
+          <div className="flex justify-center items-center pb-5">
+            <button
+              onClick={() => window.open(link, "_blank")}
+              className="text-gray-500 font-ubuntu transition duration-300">
+              View More
+            </button>
+          </div>
+          {/* 
           <div className="mt-0 font-medium flex font-ubuntu flex-wrap p-2 gap-2">
             {tags.map((tag) => (
               <p
