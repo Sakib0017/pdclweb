@@ -247,16 +247,16 @@ const handleClick1 = () => {
           className={`${styles.paddingX} absolute  flex   max-w-7xl mx-auto inset-1 justify-center items-bottom text-center sm:w-[80%]  flex-col text-gray-900`}>
           <div className="bg-white rounded">
             <div class="mb-4 ">
-              <ul class=" text-sm font-medium text-center text-gray-900 rounded shadow sm:flex dark:divide-gray-700 dark:text-gray-400">
+              <ul class=" text-sm font-medium text-center text-gray-900 rounded shadow sm:flex">
                 <li class="w-full p-1 focus-within:z-10">
                   <a
                     href="#"
                     data-tabs-target="styled-profile"
-                    className={`inline-block w-full p-3 rounded text-gray-900 bg-[#00664a] border-r border-gray-200 dark:border-gray-700  focus:ring-1 focus:ring-white ${
+                    className={`inline-block w-full p-3 rounded text-gray-900 bg-[#00664a] border-r border-gray-200   focus:ring-1 focus:ring-white ${
                       activeTab === "styled-profile"
                         ? "bg-[#ffffff] text-gray-900"
                         : "bg-[#00664a] text-white"
-                    } "active focus:outline-none dark:bg-gray-700 dark:text-white"
+                    } "active focus:outline-none "
                         : ""
                     `}
                     aria-current="page"
@@ -268,11 +268,11 @@ const handleClick1 = () => {
                   <a
                     href="#"
                     data-tabs-target="styled-profile1"
-                    className={`inline-block w-full p-3 rounded bg-[#00664a] border-r border-gray-200 dark:border-gray-700  focus:ring-1 focus:ring-white ${
+                    className={`inline-block w-full p-3 rounded bg-[#00664a] border-r border-gray-200  focus:ring-1 focus:ring-white ${
                       activeTab === "styled-profile1"
                         ? "bg-[#ffffff] text-gray-900"
                         : "bg-[#00664a] text-white"
-                    } "active focus:outline-none dark:bg-gray-700 dark:text-white"
+                    } "active focus:outline-none "
                         : ""
                     `}
                     aria-current="page"
@@ -284,11 +284,11 @@ const handleClick1 = () => {
                   <a
                     href="#"
                     data-tabs-target="styled-profile2"
-                    className={`inline-block w-full p-3 rounded text-gray-900 bg-[#00664a] border-r border-gray-200 dark:border-gray-700  focus:ring-1 focus:ring-white ${
+                    className={`inline-block w-full p-3 rounded text-gray-900 bg-[#00664a] border-r border-gray-200   focus:ring-1 focus:ring-white ${
                       activeTab === "styled-profile2"
                         ? "bg-[#ffffff] text-gray-900"
                         : "bg-[#00664a] text-white"
-                    } "active focus:outline-none dark:bg-gray-700 dark:text-white"
+                    } "active focus:outline-none "
                         : ""
                     `}
                     aria-current="page"
@@ -301,13 +301,13 @@ const handleClick1 = () => {
 
             <div id="default-styled-tab-content">
               <div
-                className={` p-2 rounded bg-white dark:bg-gray-800 ${
+                className={` p-2 rounded bg-white ${
                   activeTab === "styled-profile" ? "" : "hidden"
                 }`}
                 id="styled-profile"
                 role="tabpanel"
                 aria-labelledby="profile-tab">
-                <p class="text-sm text-gray-900 dark:text-gray-400">
+                <p class="text-sm text-gray-900 ">
                   <form className="max-w-7xl mx-auto">
                     <div className="grid md:grid-cols-9 md:gap-0">
                       <div className="relative z-0 col-span-3 p-1 w-full mb-0 group">
@@ -373,9 +373,9 @@ const handleClick1 = () => {
                           value={searchTerm1}
                           onChange={handleSearchChange1}
                           name="floating_first_name"
-                          placeholder="Test Name"
+                          placeholder="Doctor Name"
                           id="floating_first_name"
-                          className="block py-2.5 px-0 w-full text-sm rounded-lg dark:border-gray-500 dark:focus:border-PDCL-green focus:outline-none focus:ring-0 focus:border-PDCL-green  text-gray-900 bg-gray-300 placeholder-gray-900  peer pl-2"
+                          className="block py-2.5 px-0 w-full text-sm rounded-lg focus:outline-none focus:ring-0 focus:border-PDCL-green  text-gray-900 bg-gray-300 placeholder-gray-900  peer pl-2"
                           required
                         />
                         <section className="">
@@ -408,13 +408,13 @@ const handleClick1 = () => {
                 </p>
               </div>
               <div
-                className={` p-2 rounded bg-white dark:bg-gray-800 ${
+                className={` p-2 rounded bg-white  ${
                   activeTab === "styled-profile1" ? "" : "hidden"
                 }`}
                 id="styled-profile1"
                 role="tabpanel"
                 aria-labelledby="profile-tab">
-                <p class="text-sm text-gray-900 dark:text-gray-400">
+                <p class="text-sm text-gray-900 ">
                   <form className="max-w-screen-xl mx-auto">
                     <div className="grid md:grid-cols-9 md:gap-1">
                       <div className="relative z-0 col-span-9 w-full group">
@@ -424,7 +424,7 @@ const handleClick1 = () => {
                           rel="noopener noreferrer">
                           <button
                             type="button"
-                            className="text-gray-600 w-full rounded block col-span-7 mb-2 h-[43px] hover:text-gray-900 border bg-gray-300 shadow-2xl  border-none focus:ring-4 focus:outline-none focus:ring-[#006642] font-ubuntu text-[16px] font-bold px-5 py-2.5 text-center  dark:border-[#006642] dark:text-black dark:hover:text-black dark:hover:bg-gray-500 dark:focus:ring-[#006642]"
+                            className="text-gray-600 w-full rounded block col-span-7 mb-2 h-[43px] hover:text-gray-900 border bg-gray-300 shadow-2xl  border-none focus:ring-4 focus:outline-none focus:ring-[#006642] font-ubuntu text-[16px] font-bold px-5 py-2.5 text-center "
                             onClick={handleClick1}>
                             Make An Appointment{" "}
                             <span className="animate-ping">Now</span>
@@ -469,12 +469,12 @@ const handleClick1 = () => {
                                 <form class=" w-full col-span-7 mr-2 mb-1">
                                   <label
                                     for="default-search"
-                                    class="mb-1 text-sm font-medium text-gray-900 sr-only dark:text-white"></label>
+                                    class="mb-1 text-sm font-medium text-gray-900 sr-only"></label>
 
                                   <div class="relative">
                                     <div class="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
                                       <svg
-                                        class="w-4 h-4 text-gray-500 dark:text-gray-400"
+                                        class="w-4 h-4 text-gray-500"
                                         aria-hidden="true"
                                         xmlns="http://www.w3.org/2000/svg"
                                         fill="none"
@@ -495,7 +495,7 @@ const handleClick1 = () => {
                                         <input
                                           type="search"
                                           id="default-search"
-                                          class="block w-full p-2 pr-10 white-space:pre-wrap col-span-9 ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                                          class="block w-full p-2 pr-10 white-space:pre-wrap col-span-9 ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500"
                                           placeholder="Chat With PDCL HUMAN Consultant"
                                           value={inputMessage}
                                           onChange={(e) =>
@@ -506,7 +506,7 @@ const handleClick1 = () => {
                                         />
                                         <button
                                           type="submit"
-                                          class="text-white absolute  end-0 bottom-1 top-1 m-1 bg-[#00664a] hover:bg-blue-800  font-medium rounded text-sm px-4 py-2 dark:bg-blue-600 dark:hover:bg-blue-700">
+                                          class="text-white absolute  end-0 bottom-1 top-1 m-1 bg-[#00664a] hover:bg-blue-800  font-medium rounded text-sm px-4 py-2 ">
                                           Send
                                         </button>
                                       </div>
@@ -515,7 +515,7 @@ const handleClick1 = () => {
                                         <input
                                           type="search"
                                           id="default-search"
-                                          class="block w-full p-2 pr-10 white-space:pre-wrap col-span-9 ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                                          class="block w-full p-2 pr-10 white-space:pre-wrap col-span-9 ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50"
                                           placeholder="Chat With PDCL AI Consultant"
                                           value={inputMessage}
                                           onChange={(e) =>
@@ -526,7 +526,7 @@ const handleClick1 = () => {
                                         />
                                         <button
                                           type="submit"
-                                          class="text-white absolute end-0  bottom-0 top-0 m-1 bg-[#00664a] hover:bg-blue-800  font-medium rounded text-sm px-4 py-2 dark:bg-blue-600 dark:hover:bg-blue-700 ">
+                                          class="text-white absolute end-0  bottom-0 top-0 m-1 bg-[#00664a] hover:bg-blue-800  font-medium rounded text-sm px-4 py-2 ">
                                           Send
                                         </button>{" "}
                                       </div>
@@ -568,7 +568,7 @@ const handleClick1 = () => {
                                   <div className="relative z-0 col-span-2 w-full  group">
                                     <button
                                       type="button"
-                                      className={`text-gray-600 w-full rounded block col-span-2 mb-0 h-[35px] hover:text-gray-900 border bg-gray-300 shadow-2xl  border-none focus:ring-4 focus:outline-none focus:ring-[#006642] font-ubuntu text-[16px] font-bold px-4  text-center  dark:border-[#006642] dark:text-black dark:hover:text-black dark:hover:bg-gray-500 dark:focus:ring-[#006642] ${
+                                      className={`text-gray-600 w-full rounded block col-span-2 mb-0 h-[35px] hover:text-gray-900 border bg-gray-300 shadow-2xl  border-none focus:ring-4 focus:outline-none focus:ring-[#006642] font-ubuntu text-[16px] font-bold px-4  text-center   ${
                                         isVisible ? "" : "hidden"
                                       }`}
                                       onClick={
@@ -588,13 +588,13 @@ const handleClick1 = () => {
                 </p>
               </div>
               <div
-                className={` p-2 rounded bg-white dark:bg-gray-800 ${
+                className={` p-2 rounded bg-white ${
                   activeTab === "styled-profile2" ? "" : "hidden"
                 }`}
                 id="styled-profile2"
                 role="tabpanel"
                 aria-labelledby="profile-tab">
-                <p class="text-sm text-gray-900 dark:text-gray-400">
+                <p class="text-sm text-gray-900">
                   <form className="max-w-7xl mx-auto">
                     <div className="grid md:grid-cols-9 md:gap-1">
                       <div className="relative z-0 w-full col-span-9 mb-1 group">
@@ -619,7 +619,7 @@ const handleClick1 = () => {
                           name="floating_first_name"
                           placeholder="Test Name"
                           id="floating_first_name"
-                          className="block py-2.5 px-0 w-full text-sm rounded-lg dark:border-gray-500 dark:focus:border-PDCL-green focus:outline-none focus:ring-0 focus:border-PDCL-green  text-gray-900 bg-gray-300 placeholder-gray-900  peer pl-2"
+                          className="block py-2.5 px-0 w-full text-sm rounded-lg  focus:outline-none focus:ring-0 focus:border-PDCL-green  text-gray-900 bg-gray-300 placeholder-gray-900  peer pl-2"
                           required
                         />
                         <section className="">

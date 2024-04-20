@@ -4,7 +4,6 @@ import { reportDownload } from "../constants";
 import { motion } from "framer-motion";
 import { Hospital_Building } from "../assets";
 
-
 const searchBoxVariants = {
   initial: { opacity: 1, scale: 1 },
   hover: { scale: 1.03 },
@@ -29,7 +28,6 @@ const BranchCard = ({ branch, handleReportDownload }) => {
     </div>
   );
 };
-
 
 const Patient = () => {
   const [searchTerm, setSearchTerm] = useState("");

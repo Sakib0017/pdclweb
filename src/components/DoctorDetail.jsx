@@ -1,12 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
-import {
-  Sidemenu,
-  Bottommenu,
-  Nav,
-  Navbar,
-  Tech,
-} from "../components";
+import { Sidemenu, Bottommenu, Nav, Navbar, Tech } from "../components";
 import { doctorData1 } from "../constants";
 
 const spring = {
@@ -82,7 +76,7 @@ const DoctorCard = ({ doctor }) => {
           </p>
           <div className="py-2 text-sm">
             <strong>Working Days:</strong>
-            {renderWorkingDays(doctor.weekday)}
+            {renderWorkingDays(doctor.chember.flatMap((ch) => ch.weekday))}
           </div>
         </div>
       </div>
@@ -91,75 +85,62 @@ const DoctorCard = ({ doctor }) => {
 };
 
 const DoctorDetail = () => {
-  const [doctors, setDoctors] = useState([]);
-  const [filteredDoctors, setFilteredDoctors] = useState([]);
   const [displayedDoctors, setDisplayedDoctors] = useState([]);
   const [searchTerm, setSearchTerm] = useState("");
   const [selectedBranch, setSelectedBranch] = useState("");
   const [selectedSpecialization, setSelectedSpecialization] = useState("");
   const [selectedDay, setSelectedDay] = useState("");
   const [lastDoctorIndex, setLastDoctorIndex] = useState(10); // Initial number of doctors to display
+const branches = Array.from(
+  new Set(
+    doctorData1.doctors.flatMap((doc) => doc.chember.map((ch) => ch.branch))
+  )
+);
+const specializations = Array.from(
+  new Set(doctorData1.doctors.map((doc) => doc.drSpecilist))
+);
 
-  const branches = Array.from(
-    new Set(
-      doctorData1.specilizations.flatMap((spec) =>
-        spec.doctors.flatMap((doc) => doc.chember.map((ch) => ch.branch))
-      )
-    )
-  );
+useEffect(() => {
+  setDisplayedDoctors(doctorData1.doctors.slice(0, lastDoctorIndex));
+}, [lastDoctorIndex]);
 
-  const specializations = doctorData1.specilizations.map(
-    (spec) => spec.specializationName
-  );
+useEffect(() => {
+  let result = doctorData1.doctors;
 
-  useEffect(() => {
-    setDoctors(doctorData1.specilizations.flatMap((spec) => spec.doctors));
-    setFilteredDoctors(
-      doctorData1.specilizations.flatMap((spec) => spec.doctors)
+  if (selectedBranch) {
+    result = result.filter((doctor) =>
+      doctor.chember.some((ch) => ch.branch === selectedBranch)
     );
-  }, []);
+  }
 
-  useEffect(() => {
-    let result = doctors;
+  if (selectedSpecialization) {
+    result = result.filter(
+      (doctor) => doctor.drSpecilist === selectedSpecialization
+    );
+  }
 
-    if (selectedBranch) {
-      result = result.filter((doctor) =>
-        doctor.chember.some((ch) => ch.branch === selectedBranch)
-      );
-    }
+  if (selectedDay) {
+    result = result.filter((doctor) =>
+      doctor.chember.some((ch) =>
+        ch.weekday.some((wd) => wd.day === selectedDay)
+      )
+    );
+  }
 
-    if (selectedSpecialization) {
-      result = result.filter((doctor) =>
-        doctorData1.specilizations.some(
-          (spec) =>
-            spec.specializationName === selectedSpecialization &&
-            spec.doctors.includes(doctor)
-        )
-      );
-    }
+  if (searchTerm) {
+    result = result.filter((doctor) =>
+      doctor.drName.toLowerCase().includes(searchTerm.toLowerCase())
+    );
+  }
 
-    if (selectedDay) {
-      result = result.filter((doctor) =>
-        doctor.weekday.some((day) => day.day === selectedDay)
-      );
-    }
-
-    if (searchTerm) {
-      result = result.filter((doctor) =>
-        doctor.drName.toLowerCase().includes(searchTerm.toLowerCase())
-      );
-    }
-
-    setFilteredDoctors(result);
-    setDisplayedDoctors(result.slice(0, lastDoctorIndex)); // Display only a portion of filtered doctors
-  }, [
-    selectedBranch,
-    selectedSpecialization,
-    selectedDay,
-    searchTerm,
-    doctors,
-    lastDoctorIndex,
-  ]);
+  setDisplayedDoctors(result.slice(0, lastDoctorIndex));
+}, [
+  selectedBranch,
+  selectedSpecialization,
+  selectedDay,
+  searchTerm,
+  lastDoctorIndex,
+]);
 
   // Function to handle lazy loading of doctors
   const loadMoreDoctors = () => {

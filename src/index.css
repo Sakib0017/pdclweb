@@ -65,15 +65,6 @@
   -webkit-text-fill-color: transparent;
 }
 
-
-
-
-    .custom-gradient-work {
-      background: linear-gradient(to bottom, #00A66C 10%, #F5FFFA 90%);
-    }
-
-
-
 .green-text-gradient {
   background: #11998e; /* fallback for old browsers */
   background: -webkit-linear-gradient(
