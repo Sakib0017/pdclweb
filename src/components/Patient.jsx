@@ -2,6 +2,8 @@ import { Nav, Navbar, Sidemenu, Bottommenu, Tech } from ".";
 import React, { useState, useEffect } from "react";
 import { reportDownload } from "../constants";
 import { motion } from "framer-motion";
+import { Hospital_Building } from "../assets";
+
 
 const searchBoxVariants = {
   initial: { opacity: 1, scale: 1 },
@@ -10,19 +12,24 @@ const searchBoxVariants = {
 
 const BranchCard = ({ branch, handleReportDownload }) => {
   return (
-    <div className="bg-gradient-to-b from-white to-[#0066424b] hover:bg-gray-200 shadow-2xl m-2 rounded-2xl sm:w-[150px] w-full">
+    <div className="bg-gradient-to-b from-white to-[#f0fff0] hover:bg-gray-200 shadow-2xl m-2 rounded-2xl sm:w-[150px] w-full transform hover:scale-105 transition duration-300 ease-in-out">
       <li
         key={branch.braID}
-        m-4
-        className="text-gray-600 hover:text-gray-800 branch-card cursor-pointer flex items-center justify-center"
+        className="text-gray-600 branch-card cursor-pointer flex items-center justify-center"
         onClick={() => handleReportDownload(branch.downloadLink)}>
         <div className="branch-info p-4">
+          <img
+            src={Hospital_Building}
+            alt="Hospital_Building"
+            className="w-full opacity-75"
+          />
           <h3 className="text-center font-medium">{branch.braName}</h3>
         </div>
       </li>
     </div>
   );
 };
+
 
 const Patient = () => {
   const [searchTerm, setSearchTerm] = useState("");
@@ -77,6 +84,9 @@ const Patient = () => {
       <Bottommenu />
       <div className="p-10 flex sm:w-[80%] flex-wrap mx-auto max-w-7xl">
         <div className="flex flex-col w-full  pt-[100px] pb-10">
+          <h2 className="text-gray-500/50 pb-2 text-center pl-2 text-[28px] font-bold font-ubuntu">
+            ONLINE REPORT DOWNLOAD
+          </h2>
           <motion.input
             type="text"
             placeholder="Search branches..."

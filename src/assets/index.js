@@ -200,6 +200,7 @@ import PROF_DR_MOHAMMAD_SAFIUDDIN from "./DoctorImage/PROF_DR_MOHAMMAD_SAFIUDDIN
 import PROF_DR_Q_TARIKUL_ISLAM from "./DoctorImage/PROF_DR_Q_TARIKUL_ISLAM.png";
 import PROF_DR_SHAKIL_GHAFUR from "./DoctorImage/PROF_DR_SHAKIL_GHAFUR.png";
 import PROF_DR_SHYMAL_SARKER from "./DoctorImage/PROF_DR_SHYMAL_SARKER.png";
+import Hospital_Building from "./Hospital_Building.png";
 
 export {
   logo,
@@ -395,4 +396,5 @@ export {
   PROF_DR_Q_TARIKUL_ISLAM,
   PROF_DR_SHAKIL_GHAFUR,
   PROF_DR_SHYMAL_SARKER,
+  Hospital_Building,
 };
