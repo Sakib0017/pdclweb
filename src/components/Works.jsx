@@ -86,7 +86,7 @@ const ProjectCard = ({
               {description}
             </p>
           </div>
-
+{/* 
           <div className="mt-0 font-medium flex font-ubuntu flex-wrap p-2 gap-2">
             {tags.map((tag) => (
               <p
@@ -96,7 +96,7 @@ const ProjectCard = ({
                 #{tag.name}
               </p>
             ))}
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
@@ -112,37 +112,36 @@ const Works = () => {
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
             <div className="mx-auto grid max-w-2xl grid-rows-1 rounded shadow bg-gray-100/5 p-5 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-rows-1">
               <div className="lg:pr-8 lg:pt-4">
-                
                 <div className="flex flex-wrap items-center justify-center mx-auto ">
                   <div className="flex flex-col items-center  mx-auto">
                     <div className="p-5 items-center mx-auto text-center">
                       <h6 className="text-slate-900  font-bold font-ubuntu text-[60px]">
-                        <Number n={27} />
+                        <Number n={22} />
                       </h6>
                       <p className="text-gray-500 font-bold font-ubuntu text-[20px]">
-                        DEPARTMENTS
+                        BRANCHES
                       </p>
                     </div>
                   </div>
                   <div className="flex items-center flex-col mx-auto ml-20">
                     <div className="p-5 items-center mx-auto text-center">
                       <h6 className="text-slate-900 flex flex-row font-bold font-ubuntu text-[60px]">
-                        <Number n={5} />
+                        <Number n={7} />
                         <span>k+</span>
                       </h6>
                       <p className="text-gray-500 font-bold font-ubuntu text-[20px]">
-                        DOCTORS
+                        SERVICES
                       </p>
                     </div>
                   </div>
                   <div className="flex flex-col items-center mx-auto ml-20">
                     <div className="p-5 items-center mx-auto text-center">
                       <h6 className="text-slate-900 flex flex-row font-bold font-ubuntu text-[60px]">
-                        <Number n={27} />
+                        <Number n={82} />
                         <span>k+</span>
                       </h6>
                       <p className="text-gray-500  font-bold font-ubuntu text-[20px]">
-                        PATIENTS SERVED
+                        REGISTERED PATIENTS
                       </p>
                     </div>
                   </div>
@@ -151,7 +150,6 @@ const Works = () => {
             </div>
           </div>
         </div>
-        
 
         <div className="flex flex-col mt-[50px] mx-auto  max-w-7xl">
           <h2 className="text-gray-500/50 pb-2 text-center pl-2 text-[28px] font-bold font-ubuntu">
