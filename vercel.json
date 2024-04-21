@@ -75,6 +75,26 @@
         {
             "src": "/chairman",
             "dest": "/"
+        },
+        {
+            "src": "/home",
+            "dest": "/"
+        },
+        {
+            "src": "/appointment",
+            "dest": "/"
+        },
+        {
+            "src": "/ccomplain",
+            "dest": "/"
+        },
+        {
+            "src": "/csample",
+            "dest": "/"
+        },
+        {
+            "src": "/management",
+            "dest": "/"
         }
         
         
