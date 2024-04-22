@@ -15,7 +15,8 @@ const BranchCard = ({ branch, handleReportDownload }) => {
       <li
         key={branch.braID}
         className="text-gray-600 branch-card cursor-pointer flex items-center justify-center"
-        onClick={() => handleReportDownload(branch.downloadLink)}>
+        onClick={() => handleReportDownload(branch.downloadLink)}
+      >
         <div className="branch-info p-4">
           <img
             src={Hospital_Building}
@@ -88,7 +89,7 @@ const Patient = () => {
           <motion.input
             type="text"
             placeholder="Search branches..."
-            className="px-2 py-1 border text-[#006642] border-PDCL-green bg-gray-100  rounded-lg focus:outline-none focus:ring-1 focus:ring-PDCL-green"
+            className="px-2 py-1 border text-[#00984a] border-PDCL-green bg-gray-100  rounded-lg focus:outline-none focus:ring-1 focus:ring-PDCL-green"
             value={searchTerm}
             variants={searchBoxVariants}
             onChange={handleSearchChange}
@@ -102,7 +103,7 @@ const Patient = () => {
             {" "}
             {/* Use flexbox with md:w-1/2 for two sections */}
             <div className="flex flex-col items-center">
-              <h2 className="text-[#006642] text-center text-xl  font-semibold border-b-2 mb-10">
+              <h2 className="text-[#00984a] text-center text-xl  font-semibold border-b-2 mb-10">
                 Branches Inside Dhaka
               </h2>
               {filteredDhakaBranches.length > 0 ? (
@@ -126,7 +127,7 @@ const Patient = () => {
           </div>
           <div className="border-x-2 px-3 flex flex-wrap w-full md:w-1/2">
             <div className="flex flex-col items-center">
-              <h2 className="text-[#006642] text-center text-xl font-semibold border-b-2 mb-10">
+              <h2 className="text-[#00984a] text-center text-xl font-semibold border-b-2 mb-10">
                 Branches Outside Dhaka
               </h2>
               {filteredOtherBranches.length > 0 ? (

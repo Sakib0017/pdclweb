@@ -1,32 +1,18 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import { styles } from "../styles"
-import {
-  logo,
-  
-} from "../assets";
+import { styles } from "../styles";
+import { logo } from "../assets";
 import {
   Popover,
   PopoverHandler,
   PopoverContent,
- 
 } from "@material-tailwind/react";
 
 import { Dialog } from "@headlessui/react";
-import {
-  
-  Bars3Icon,
-  
-  XMarkIcon,
-} from "@heroicons/react/24/outline";
-
-
-
+import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 
 const Navbar = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-
-  
 
   return (
     <>
@@ -73,7 +59,7 @@ const Navbar = () => {
                         activeClassName="navbar__link--active"
                       >
                         {" "}
-                        <p className="text-emerald-900/80 items-center flex flex-row text-[14px] ms-0 me-1 font-medium font-ubuntu">
+                        <p className="text-[#00984a] items-center flex flex-row text-[14px] ms-0 me-1 font-medium font-ubuntu">
                           <a href="">
                             {" "}
                             <span
@@ -94,7 +80,7 @@ const Navbar = () => {
                       {" "}
                       <Link to="/health">
                         {" "}
-                        <p className="text-emerald-900/80 items-center flex flex-row text-[14px] ms-0 me-1 font-medium font-ubuntu">
+                        <p className="text-[#00984a] items-center flex flex-row text-[14px] ms-0 me-1 font-medium font-ubuntu">
                           <a href="">
                             {" "}
                             <span className="pl-1 text-[14px] font-medium font-ubuntu hidden md:block">
@@ -112,7 +98,7 @@ const Navbar = () => {
                       {" "}
                       <Link to="/doctorsearch">
                         {" "}
-                        <p className="text-emerald-900/80 items-center flex flex-row text-[14px] ms-0 me-1 font-medium font-ubuntu">
+                        <p className="text-[#00984a] items-center flex flex-row text-[14px] ms-0 me-1 font-medium font-ubuntu">
                           <a href="">
                             {" "}
                             <span className="pl-1 text-[14px] font-medium font-ubuntu hidden md:block">
@@ -131,7 +117,7 @@ const Navbar = () => {
                         <a>
                           <Link to="/branch">
                             {" "}
-                            <p className="text-emerald-900/80 items-center flex flex-row text-[14px] ms-0 me-1 font-medium font-ubuntu">
+                            <p className="text-[#00984a] items-center flex flex-row text-[14px] ms-0 me-1 font-medium font-ubuntu">
                               <span className="pl-1 text-[14px] font-medium font-ubuntu hidden md:block cursor-pointer">
                                 Branches
                               </span>
@@ -147,7 +133,7 @@ const Navbar = () => {
                   <div className="flex flex-row ">
                     <a>
                       <Link to="/notice">
-                        <p className="text-emerald-900/80 items-center flex flex-row text-[14px] ms-0 me-1 font-medium font-ubuntu">
+                        <p className="text-[#00984a] items-center flex flex-row text-[14px] ms-0 me-1 font-medium font-ubuntu">
                           <a href="">
                             <span className="pl-1 text-[14px] font-medium font-ubuntu hidden md:block">
                               Notice
@@ -163,7 +149,7 @@ const Navbar = () => {
                     <a>
                       {" "}
                       <Link to="/contact">
-                        <p className="text-emerald-900/80 items-center flex flex-row text-[14px] ms-0 me-1 font-medium font-ubuntu">
+                        <p className="text-[#00984a] items-center flex flex-row text-[14px] ms-0 me-1 font-medium font-ubuntu">
                           <a href="">
                             <span className="pl-1 text-[14px] font-medium font-ubuntu hidden md:block">
                               Contact
@@ -181,7 +167,7 @@ const Navbar = () => {
                         <p
                           type="button"
                           data-dropdown-toggle="language-dropdown-menu"
-                          className="ms-auto text-[#006642] inline-flex items-end font-ubuntu font-medium justify-end text-sm rounded-lg cursor-pointer"
+                          className="ms-auto text-[#00984a] inline-flex items-end font-ubuntu font-medium justify-end text-sm rounded-lg cursor-pointer"
                         >
                           About Us
                         </p>
@@ -195,7 +181,7 @@ const Navbar = () => {
                               data-dropdown-toggle="language-dropdown-menu"
                               className="ms-auto items-center font-ubuntu justify-center px-4 py-2 text-sm rounded-lg cursor-pointer"
                             >
-                              <span className="text-emerald-900/80 hover:text-[#000000] text-[14px] ms-0 mx-auto font-medium font-ubuntu">
+                              <span className="text-[#00984a] hover:text-[#000000] text-[14px] ms-0 mx-auto font-medium font-ubuntu">
                                 Objectives & Goals
                               </span>
                             </p>
@@ -209,7 +195,7 @@ const Navbar = () => {
                               data-dropdown-toggle="language-dropdown-menu"
                               className="ms-auto  items-center font-ubuntu justify-center px-4 py-2 text-sm rounded-lg cursor-pointer"
                             >
-                              <span className="text-emerald-900/80 hover:text-[#000000] text-[14px] ms-0 mx-auto font-medium font-ubuntu">
+                              <span className="text-[#00984a] hover:text-[#000000] text-[14px] ms-0 mx-auto font-medium font-ubuntu">
                                 Message from Chairman
                               </span>
                             </p>
@@ -223,7 +209,7 @@ const Navbar = () => {
                               data-dropdown-toggle="language-dropdown-menu"
                               className="ms-auto inline-flex items-center font-ubuntu justify-center px-4 py-2 text-sm rounded-lg cursor-pointer"
                             >
-                              <span className="text-emerald-900/80 hover:text-[#000000] text-[14px] ms-0 mx-auto font-medium font-ubuntu">
+                              <span className="text-[#00984a] hover:text-[#000000] text-[14px] ms-0 mx-auto font-medium font-ubuntu">
                                 Message from Managing Director
                               </span>
                             </p>
@@ -238,7 +224,7 @@ const Navbar = () => {
                               data-dropdown-toggle="language-dropdown-menu"
                               className="ms-auto inline-flex items-center font-ubuntu justify-center px-4 py-2 text-sm rounded-lg cursor-pointer"
                             >
-                              <span className="text-emerald-900/80 hover:text-[#000000] text-[14px] ms-0 mx-auto font-medium font-ubuntu">
+                              <span className="text-[#00984a] hover:text-[#000000] text-[14px] ms-0 mx-auto font-medium font-ubuntu">
                                 Management Team
                               </span>
                             </p>
@@ -253,7 +239,7 @@ const Navbar = () => {
                               data-dropdown-toggle="language-dropdown-menu"
                               className="ms-auto inline-flex items-center font-ubuntu justify-center px-4 py-2 text-sm rounded-lg cursor-pointer"
                             >
-                              <span className="text-emerald-900/80 hover:text-[#000000] text-[14px] ms-0 mx-auto font-medium font-ubuntu">
+                              <span className="text-[#00984a] hover:text-[#000000] text-[14px] ms-0 mx-auto font-medium font-ubuntu">
                                 Our Technologies
                               </span>
                             </p>
@@ -268,7 +254,7 @@ const Navbar = () => {
             <div className="hidden lg:flex lg:flex-1 lg:justify-end">
               <Link to="/patient">
                 <svg
-                  fill="#006642"
+                  fill="#00984a"
                   width="30px"
                   height="30px"
                   viewBox="0 0 32 32"
@@ -501,14 +487,10 @@ const Navbar = () => {
                             </p>
                           </Link>{" "}
                         </a>
-
-                       
                       </div>
                     </li>
                     <li className="inline-flex flex-row justify-start items-start">
                       <div className="flex flex-row ">
-                       
-
                         <a>
                           {" "}
                           <Link to="/tech">

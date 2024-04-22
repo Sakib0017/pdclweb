@@ -119,7 +119,7 @@ const About = () => {
           <ProjectCard key={project.manID} {...project} />
         ))}
       </div>
-      
+
       <Tech />
     </div>
   );

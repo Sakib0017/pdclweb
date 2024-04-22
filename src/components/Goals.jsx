@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 import { Nav, Navbar, Sidemenu, Tech, Bottommenu } from "../components";
 import { goals, objective } from "../assets";
 import { Link } from "react-router-dom";
@@ -25,7 +25,7 @@ const Goals = () => {
               path of "Health for all".
             </p>
             <Link to="/about">
-              <button className="bg-[#006642] p-2 pl-5 pr-5 w-[200px]  rounded-xl ml-5 mx-auto">
+              <button className="bg-[#00984a] p-2 pl-5 pr-5 w-[200px]  rounded-xl ml-5 mx-auto">
                 SEE OUR TEAM
               </button>
             </Link>
@@ -124,6 +124,6 @@ const Goals = () => {
       <Tech />
     </div>
   );
-}
+};
 
-export default Goals
+export default Goals;

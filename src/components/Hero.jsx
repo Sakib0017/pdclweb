@@ -104,14 +104,12 @@ const Hero = ({ color }) => {
   const handleSearchClick = () => {
     setIsSearchVisible(!isSearchVisible, true);
   };
- 
-const [showSearchInput, setShowSearchInput] = useState(true);
 
-const handleShowClick = () => {
-  setShowSearchInput(false);
-};
+  const [showSearchInput, setShowSearchInput] = useState(true);
 
-  
+  const handleShowClick = () => {
+    setShowSearchInput(false);
+  };
 
   const [filteredDoctors, setFilteredDoctors] = useState([]);
   const [searchTerm1, setSearchTerm1] = useState("");
@@ -209,27 +207,27 @@ const handleShowClick = () => {
   const handleClick = () => {
     setIsVisible(false);
   };
-const [messages, setMessages] = useState([]);
-const [inputMessage, setInputMessage] = useState("");
-const handleUserInput = () => {
-  setMessages([...messages, "Your message has been sent!"]);
-};
+  const [messages, setMessages] = useState([]);
+  const [inputMessage, setInputMessage] = useState("");
+  const handleUserInput = () => {
+    setMessages([...messages, "Your message has been sent!"]);
+  };
 
-const [userInput, setUserInput] = useState("");
+  const [userInput, setUserInput] = useState("");
 
-const handleSubmit = (e) => {
-  e.preventDefault();
-  if (userInput.trim()) {
-    // Avoid sending empty messages
-    setMessages([...messages, userInput]);
-    setUserInput("");
-  }
-};
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    if (userInput.trim()) {
+      // Avoid sending empty messages
+      setMessages([...messages, userInput]);
+      setUserInput("");
+    }
+  };
 
-const handleClick1 = () => {
-  window.open(url, "_blank", "noopener,noreferrer");
-};
-// Array to store messages
+  const handleClick1 = () => {
+    window.open(url, "_blank", "noopener,noreferrer");
+  };
+  // Array to store messages
 
   return (
     <>
@@ -244,7 +242,8 @@ const handleClick1 = () => {
         <div className="absolute w-full h-[650px] top-0 left-0 bg-gray-900/50"></div>
 
         <div
-          className={`${styles.paddingX} absolute  flex   max-w-7xl mx-auto inset-1 justify-center items-bottom text-center sm:w-[80%]  flex-col text-gray-900`}>
+          className={`${styles.paddingX} absolute  flex   max-w-7xl mx-auto inset-1 justify-center items-bottom text-center sm:w-[80%]  flex-col text-gray-900`}
+        >
           <div className="bg-white rounded">
             <div class="mb-4 ">
               <ul class=" text-sm font-medium text-center text-gray-900 rounded shadow sm:flex">
@@ -252,15 +251,16 @@ const handleClick1 = () => {
                   <a
                     href="#"
                     data-tabs-target="styled-profile"
-                    className={`inline-block w-full p-3 rounded text-gray-900 bg-[#00664a] border-r border-gray-200   focus:ring-1 focus:ring-white ${
+                    className={`inline-block w-full p-3 rounded text-gray-900 bg-[#00984a] border-r border-gray-200   focus:ring-1 focus:ring-white ${
                       activeTab === "styled-profile"
                         ? "bg-[#ffffff] text-gray-900"
-                        : "bg-[#00664a] text-white"
+                        : "bg-[#00984a] text-white"
                     } "active focus:outline-none "
                         : ""
                     `}
                     aria-current="page"
-                    onClick={() => handleTabClick("styled-profile")}>
+                    onClick={() => handleTabClick("styled-profile")}
+                  >
                     Doctors
                   </a>
                 </li>
@@ -268,15 +268,16 @@ const handleClick1 = () => {
                   <a
                     href="#"
                     data-tabs-target="styled-profile1"
-                    className={`inline-block w-full p-3 rounded bg-[#00664a] border-r border-gray-200  focus:ring-1 focus:ring-white ${
+                    className={`inline-block w-full p-3 rounded bg-[#00984a] border-r border-gray-200  focus:ring-1 focus:ring-white ${
                       activeTab === "styled-profile1"
                         ? "bg-[#ffffff] text-gray-900"
-                        : "bg-[#00664a] text-white"
+                        : "bg-[#00984a] text-white"
                     } "active focus:outline-none "
                         : ""
                     `}
                     aria-current="page"
-                    onClick={() => handleTabClick("styled-profile1")}>
+                    onClick={() => handleTabClick("styled-profile1")}
+                  >
                     Appoinment
                   </a>
                 </li>
@@ -284,15 +285,16 @@ const handleClick1 = () => {
                   <a
                     href="#"
                     data-tabs-target="styled-profile2"
-                    className={`inline-block w-full p-3 rounded text-gray-900 bg-[#00664a] border-r border-gray-200   focus:ring-1 focus:ring-white ${
+                    className={`inline-block w-full p-3 rounded text-gray-900 bg-[#00984a] border-r border-gray-200   focus:ring-1 focus:ring-white ${
                       activeTab === "styled-profile2"
                         ? "bg-[#ffffff] text-gray-900"
-                        : "bg-[#00664a] text-white"
+                        : "bg-[#00984a] text-white"
                     } "active focus:outline-none "
                         : ""
                     `}
                     aria-current="page"
-                    onClick={() => handleTabClick("styled-profile2")}>
+                    onClick={() => handleTabClick("styled-profile2")}
+                  >
                     Test Prices
                   </a>
                 </li>
@@ -306,7 +308,8 @@ const handleClick1 = () => {
                 }`}
                 id="styled-profile"
                 role="tabpanel"
-                aria-labelledby="profile-tab">
+                aria-labelledby="profile-tab"
+              >
                 <p class="text-sm text-gray-900 ">
                   <form className="max-w-7xl mx-auto">
                     <div className="grid md:grid-cols-9 md:gap-0">
@@ -318,7 +321,8 @@ const handleClick1 = () => {
                           transition={spring}
                           whileTap={{ scale: 0.9 }}
                           variants={buttonVariants}
-                          whileHover="hover">
+                          whileHover="hover"
+                        >
                           <option value="">Select Branch</option>
                           {doctorData.branches.map((branch) => (
                             <option key={branch.braID} value={branch.braName}>
@@ -334,7 +338,8 @@ const handleClick1 = () => {
                           transition={spring}
                           whileTap={{ scale: 0.9 }}
                           variants={buttonVariants}
-                          whileHover="hover">
+                          whileHover="hover"
+                        >
                           <option value="">Select Specialization</option>
                           {specializationOptions.map((specName) => (
                             <option key={specName} value={specName}>
@@ -350,7 +355,8 @@ const handleClick1 = () => {
                           transition={spring}
                           whileTap={{ scale: 0.9 }}
                           variants={buttonVariants}
-                          whileHover="hover">
+                          whileHover="hover"
+                        >
                           <option value="">Select Day</option>
                           {[
                             "Saturday",
@@ -413,7 +419,8 @@ const handleClick1 = () => {
                 }`}
                 id="styled-profile1"
                 role="tabpanel"
-                aria-labelledby="profile-tab">
+                aria-labelledby="profile-tab"
+              >
                 <p class="text-sm text-gray-900 ">
                   <form className="max-w-screen-xl mx-auto">
                     <div className="grid md:grid-cols-9 md:gap-1">
@@ -421,11 +428,13 @@ const handleClick1 = () => {
                         <Link
                           to="http://appointment.populardiagnostic.com/appointment"
                           target="_blank"
-                          rel="noopener noreferrer">
+                          rel="noopener noreferrer"
+                        >
                           <button
                             type="button"
                             className="text-gray-600 w-full rounded block col-span-7 mb-2 h-[43px] hover:text-gray-900 border bg-gray-300 shadow-2xl  border-none focus:ring-4 focus:outline-none focus:ring-[#006642] font-ubuntu text-[16px] font-bold px-5 py-2.5 text-center "
-                            onClick={handleClick1}>
+                            onClick={handleClick1}
+                          >
                             Make An Appointment{" "}
                             <span className="animate-ping">Now</span>
                           </button>
@@ -443,7 +452,8 @@ const handleClick1 = () => {
                                     : "opacity-50 cursor-not-allowed"
                                 }`}
                                 onClick={handleSearchClick}
-                                disabled={showSearchInput}>
+                                disabled={showSearchInput}
+                              >
                                 <p class>
                                   Chat{" "}
                                   <span class=" drop-shadow-[0_1.0px_1.0px_rgba(0,0,0,0.5)] text-white gradient-alt-flow">
@@ -460,7 +470,8 @@ const handleClick1 = () => {
                                     : ""
                                 }`}
                                 onClick={(handleSearchClick, handleShowClick)}
-                                disabled={!showSearchInput}>
+                                disabled={!showSearchInput}
+                              >
                                 Chat Human Consultant
                               </button>
                             )}
@@ -469,7 +480,8 @@ const handleClick1 = () => {
                                 <form class=" w-full col-span-7 mr-2 mb-1">
                                   <label
                                     for="default-search"
-                                    class="mb-1 text-sm font-medium text-gray-900 sr-only"></label>
+                                    class="mb-1 text-sm font-medium text-gray-900 sr-only"
+                                  ></label>
 
                                   <div class="relative">
                                     <div class="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
@@ -478,7 +490,8 @@ const handleClick1 = () => {
                                         aria-hidden="true"
                                         xmlns="http://www.w3.org/2000/svg"
                                         fill="none"
-                                        viewBox="0 0 20 20">
+                                        viewBox="0 0 20 20"
+                                      >
                                         <path
                                           stroke="currentColor"
                                           stroke-linecap="round"
@@ -506,7 +519,8 @@ const handleClick1 = () => {
                                         />
                                         <button
                                           type="submit"
-                                          class="text-white absolute  end-0 bottom-1 top-1 m-1 bg-[#00664a] hover:bg-blue-800  font-medium rounded text-sm px-4 py-2 ">
+                                          class="text-white absolute  end-0 bottom-1 top-1 m-1 bg-[#00984a] hover:bg-blue-800  font-medium rounded text-sm px-4 py-2 "
+                                        >
                                           Send
                                         </button>
                                       </div>
@@ -526,7 +540,8 @@ const handleClick1 = () => {
                                         />
                                         <button
                                           type="submit"
-                                          class="text-white absolute end-0  bottom-0 top-0 m-1 bg-[#00664a] hover:bg-blue-800  font-medium rounded text-sm px-4 py-2 ">
+                                          class="text-white absolute end-0  bottom-0 top-0 m-1 bg-[#00984a] hover:bg-blue-800  font-medium rounded text-sm px-4 py-2 "
+                                        >
                                           Send
                                         </button>{" "}
                                       </div>
@@ -539,7 +554,8 @@ const handleClick1 = () => {
                                         {messages.map((message, index) => (
                                           <div
                                             key={index}
-                                            className="bg-gray-100 white-space:pre-wrap rounded-lg p-4 text-sm">
+                                            className="bg-gray-100 white-space:pre-wrap rounded-lg p-4 text-sm"
+                                          >
                                             <Message
                                               key={index}
                                               message={message}
@@ -571,9 +587,8 @@ const handleClick1 = () => {
                                       className={`text-gray-600 w-full rounded block col-span-2 mb-0 h-[35px] hover:text-gray-900 border bg-gray-300 shadow-2xl  border-none focus:ring-4 focus:outline-none focus:ring-[#006642] font-ubuntu text-[16px] font-bold px-4  text-center   ${
                                         isVisible ? "" : "hidden"
                                       }`}
-                                      onClick={
-                                        (handleClick, handleSearchClick)
-                                      }>
+                                      onClick={(handleClick, handleSearchClick)}
+                                    >
                                       <span className="">Back</span>
                                     </button>
                                   </div>
@@ -593,7 +608,8 @@ const handleClick1 = () => {
                 }`}
                 id="styled-profile2"
                 role="tabpanel"
-                aria-labelledby="profile-tab">
+                aria-labelledby="profile-tab"
+              >
                 <p class="text-sm text-gray-900">
                   <form className="max-w-7xl mx-auto">
                     <div className="grid md:grid-cols-9 md:gap-1">
@@ -601,7 +617,8 @@ const handleClick1 = () => {
                         <select
                           value={selectedBranch}
                           onChange={handleBranchChange}
-                          className="block py-2.5 px-0 w-full text-sm rounded-lg  text-gray-900 bg-gray-300 pl-2   peer">
+                          className="block py-2.5 px-0 w-full text-sm rounded-lg  text-gray-900 bg-gray-300 pl-2   peer"
+                        >
                           <option value="">Select Branch</option>
                           {ServiceCost.map((branch) => (
                             <option key={branch.braId} value={branch.braId}>

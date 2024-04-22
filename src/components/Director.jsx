@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 import { Nav, Navbar, Sidemenu, Tech, Bottommenu } from "../components";
 
 import { DrMostafizurRahman } from "../assets";
@@ -18,7 +18,7 @@ const Director = () => {
                   <h1 className="text-gray-900 pt-10 text-[36px] font-bold">
                     Dr. Mostafizur Rahman
                   </h1>
-                  <p className="text-[#006642] text-[20px] font-medium">
+                  <p className="text-[#00984a] text-[20px] font-medium">
                     Managing Director
                   </p>
                   <img
@@ -77,6 +77,6 @@ const Director = () => {
       <Tech />
     </section>
   );
-}
+};
 
-export default Director 
+export default Director;
