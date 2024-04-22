@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { styles } from "../styles";
-import { logo } from "../assets";
+import  logo1  from "../assets/logo1.png";
 import {
   Popover,
   PopoverHandler,
@@ -32,7 +32,7 @@ const Navbar = () => {
                 }}
               >
                 <img
-                  src={logo}
+                  src={logo1}
                   alt="logo"
                   className="w-[45px] h-[45px] bg-none object-contain"
                 />
